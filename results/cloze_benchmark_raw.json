@@ -1,0 +1,3027 @@
+{
+  "3b": {
+    "model_id": "meta-llama/Llama-3.2-3B-Instruct-Turbo",
+    "responses": {
+      "0": {
+        "pair_id": 0,
+        "type": "straight",
+        "raw_response": "clumsy",
+        "extracted_word": "clumsy"
+      },
+      "1": {
+        "pair_id": 0,
+        "type": "funny",
+        "raw_response": "hoarse",
+        "extracted_word": "hoarse"
+      },
+      "2": {
+        "pair_id": 1,
+        "type": "straight",
+        "raw_response": "shadows",
+        "extracted_word": "shadows"
+      },
+      "3": {
+        "pair_id": 1,
+        "type": "funny",
+        "raw_response": "shadows",
+        "extracted_word": "shadows"
+      },
+      "4": {
+        "pair_id": 2,
+        "type": "straight",
+        "raw_response": "company",
+        "extracted_word": "company"
+      },
+      "5": {
+        "pair_id": 2,
+        "type": "funny",
+        "raw_response": "attention",
+        "extracted_word": "attention"
+      },
+      "6": {
+        "pair_id": 3,
+        "type": "straight",
+        "raw_response": "mess",
+        "extracted_word": "mess"
+      },
+      "7": {
+        "pair_id": 3,
+        "type": "funny",
+        "raw_response": "mess",
+        "extracted_word": "mess"
+      },
+      "8": {
+        "pair_id": 4,
+        "type": "straight",
+        "raw_response": "controversial",
+        "extracted_word": "controversial"
+      },
+      "9": {
+        "pair_id": 4,
+        "type": "funny",
+        "raw_response": "interesting",
+        "extracted_word": "interesting"
+      },
+      "10": {
+        "pair_id": 5,
+        "type": "straight",
+        "raw_response": "disaster",
+        "extracted_word": "disaster"
+      },
+      "11": {
+        "pair_id": 5,
+        "type": "funny",
+        "raw_response": "disappointment",
+        "extracted_word": "disappointment"
+      },
+      "12": {
+        "pair_id": 6,
+        "type": "straight",
+        "raw_response": "mugged",
+        "extracted_word": "mugged"
+      },
+      "13": {
+        "pair_id": 6,
+        "type": "funny",
+        "raw_response": "mugged",
+        "extracted_word": "mugged"
+      },
+      "14": {
+        "pair_id": 7,
+        "type": "straight",
+        "raw_response": "lines",
+        "extracted_word": "lines"
+      },
+      "15": {
+        "pair_id": 7,
+        "type": "funny",
+        "raw_response": "lines",
+        "extracted_word": "lines"
+      },
+      "16": {
+        "pair_id": 8,
+        "type": "straight",
+        "raw_response": "stress",
+        "extracted_word": "stress"
+      },
+      "17": {
+        "pair_id": 8,
+        "type": "funny",
+        "raw_response": "voltage",
+        "extracted_word": "voltage"
+      },
+      "18": {
+        "pair_id": 9,
+        "type": "straight",
+        "raw_response": "shades",
+        "extracted_word": "shades"
+      },
+      "19": {
+        "pair_id": 9,
+        "type": "funny",
+        "raw_response": "shades",
+        "extracted_word": "shades"
+      },
+      "20": {
+        "pair_id": 10,
+        "type": "straight",
+        "raw_response": "found",
+        "extracted_word": "found"
+      },
+      "21": {
+        "pair_id": 10,
+        "type": "funny",
+        "raw_response": "found",
+        "extracted_word": "found"
+      },
+      "22": {
+        "pair_id": 11,
+        "type": "straight",
+        "raw_response": "local",
+        "extracted_word": "local"
+      },
+      "23": {
+        "pair_id": 11,
+        "type": "funny",
+        "raw_response": "local",
+        "extracted_word": "local"
+      },
+      "24": {
+        "pair_id": 12,
+        "type": "straight",
+        "raw_response": "desperation",
+        "extracted_word": "desperation"
+      },
+      "25": {
+        "pair_id": 12,
+        "type": "funny",
+        "raw_response": "desperation",
+        "extracted_word": "desperation"
+      },
+      "26": {
+        "pair_id": 13,
+        "type": "straight",
+        "raw_response": "business",
+        "extracted_word": "business"
+      },
+      "27": {
+        "pair_id": 13,
+        "type": "funny",
+        "raw_response": "business",
+        "extracted_word": "business"
+      },
+      "28": {
+        "pair_id": 14,
+        "type": "straight",
+        "raw_response": "unbelievable",
+        "extracted_word": "unbelievable"
+      },
+      "29": {
+        "pair_id": 14,
+        "type": "funny",
+        "raw_response": "unbelievable",
+        "extracted_word": "unbelievable"
+      },
+      "30": {
+        "pair_id": 15,
+        "type": "straight",
+        "raw_response": "catch",
+        "extracted_word": "catch"
+      },
+      "31": {
+        "pair_id": 15,
+        "type": "funny",
+        "raw_response": "catch",
+        "extracted_word": "catch"
+      },
+      "32": {
+        "pair_id": 16,
+        "type": "straight",
+        "raw_response": "picked",
+        "extracted_word": "picked"
+      },
+      "33": {
+        "pair_id": 16,
+        "type": "funny",
+        "raw_response": "poked",
+        "extracted_word": "poked"
+      },
+      "34": {
+        "pair_id": 17,
+        "type": "straight",
+        "raw_response": "center",
+        "extracted_word": "center"
+      },
+      "35": {
+        "pair_id": 17,
+        "type": "funny",
+        "raw_response": "main",
+        "extracted_word": "main"
+      },
+      "36": {
+        "pair_id": 18,
+        "type": "straight",
+        "raw_response": "rise",
+        "extracted_word": "rise"
+      },
+      "37": {
+        "pair_id": 18,
+        "type": "funny",
+        "raw_response": "rise",
+        "extracted_word": "rise"
+      },
+      "38": {
+        "pair_id": 19,
+        "type": "straight",
+        "raw_response": "frenzy",
+        "extracted_word": "frenzy"
+      },
+      "39": {
+        "pair_id": 19,
+        "type": "funny",
+        "raw_response": "buzz",
+        "extracted_word": "buzz"
+      },
+      "40": {
+        "pair_id": 20,
+        "type": "straight",
+        "raw_response": "getting",
+        "extracted_word": "getting"
+      },
+      "41": {
+        "pair_id": 20,
+        "type": "funny",
+        "raw_response": "getting",
+        "extracted_word": "getting"
+      },
+      "42": {
+        "pair_id": 21,
+        "type": "straight",
+        "raw_response": "vision",
+        "extracted_word": "vision"
+      },
+      "43": {
+        "pair_id": 21,
+        "type": "funny",
+        "raw_response": "vision",
+        "extracted_word": "vision"
+      },
+      "44": {
+        "pair_id": 22,
+        "type": "straight",
+        "raw_response": "think",
+        "extracted_word": "think"
+      },
+      "45": {
+        "pair_id": 22,
+        "type": "funny",
+        "raw_response": "think",
+        "extracted_word": "think"
+      },
+      "46": {
+        "pair_id": 23,
+        "type": "straight",
+        "raw_response": "wasting",
+        "extracted_word": "wasting"
+      },
+      "47": {
+        "pair_id": 23,
+        "type": "funny",
+        "raw_response": "wasting",
+        "extracted_word": "wasting"
+      },
+      "48": {
+        "pair_id": 24,
+        "type": "straight",
+        "raw_response": "bad",
+        "extracted_word": "bad"
+      },
+      "49": {
+        "pair_id": 24,
+        "type": "funny",
+        "raw_response": "bad",
+        "extracted_word": "bad"
+      },
+      "50": {
+        "pair_id": 25,
+        "type": "straight",
+        "raw_response": "compatibility",
+        "extracted_word": "compatibility"
+      },
+      "51": {
+        "pair_id": 25,
+        "type": "funny",
+        "raw_response": "compatibility",
+        "extracted_word": "compatibility"
+      },
+      "52": {
+        "pair_id": 26,
+        "type": "straight",
+        "raw_response": "wrong",
+        "extracted_word": "wrong"
+      },
+      "53": {
+        "pair_id": 26,
+        "type": "funny",
+        "raw_response": "right",
+        "extracted_word": "right"
+      },
+      "54": {
+        "pair_id": 27,
+        "type": "straight",
+        "raw_response": "repeatedly",
+        "extracted_word": "repeatedly"
+      },
+      "55": {
+        "pair_id": 27,
+        "type": "funny",
+        "raw_response": "the",
+        "extracted_word": "the"
+      },
+      "56": {
+        "pair_id": 28,
+        "type": "straight",
+        "raw_response": "connection",
+        "extracted_word": "connection"
+      },
+      "57": {
+        "pair_id": 28,
+        "type": "funny",
+        "raw_response": "connection",
+        "extracted_word": "connection"
+      },
+      "58": {
+        "pair_id": 29,
+        "type": "straight",
+        "raw_response": "account",
+        "extracted_word": "account"
+      },
+      "59": {
+        "pair_id": 29,
+        "type": "funny",
+        "raw_response": "account",
+        "extracted_word": "account"
+      },
+      "60": {
+        "pair_id": 30,
+        "type": "straight",
+        "raw_response": "case",
+        "extracted_word": "case"
+      },
+      "61": {
+        "pair_id": 30,
+        "type": "funny",
+        "raw_response": "case",
+        "extracted_word": "case"
+      },
+      "62": {
+        "pair_id": 31,
+        "type": "straight",
+        "raw_response": "music",
+        "extracted_word": "music"
+      },
+      "63": {
+        "pair_id": 31,
+        "type": "funny",
+        "raw_response": "reception",
+        "extracted_word": "reception"
+      },
+      "64": {
+        "pair_id": 32,
+        "type": "straight",
+        "raw_response": "portraits",
+        "extracted_word": "portraits"
+      },
+      "65": {
+        "pair_id": 32,
+        "type": "funny",
+        "raw_response": "portraits",
+        "extracted_word": "portraits"
+      },
+      "66": {
+        "pair_id": 33,
+        "type": "straight",
+        "raw_response": "hours",
+        "extracted_word": "hours"
+      },
+      "67": {
+        "pair_id": 33,
+        "type": "funny",
+        "raw_response": "hours",
+        "extracted_word": "hours"
+      },
+      "68": {
+        "pair_id": 34,
+        "type": "straight",
+        "raw_response": "temper",
+        "extracted_word": "temper"
+      },
+      "69": {
+        "pair_id": 34,
+        "type": "funny",
+        "raw_response": "temper",
+        "extracted_word": "temper"
+      },
+      "70": {
+        "pair_id": 35,
+        "type": "straight",
+        "raw_response": "high",
+        "extracted_word": "high"
+      },
+      "71": {
+        "pair_id": 35,
+        "type": "funny",
+        "raw_response": "steep",
+        "extracted_word": "steep"
+      },
+      "72": {
+        "pair_id": 36,
+        "type": "straight",
+        "raw_response": "close",
+        "extracted_word": "close"
+      },
+      "73": {
+        "pair_id": 36,
+        "type": "funny",
+        "raw_response": "close",
+        "extracted_word": "close"
+      },
+      "74": {
+        "pair_id": 37,
+        "type": "straight",
+        "raw_response": "hand",
+        "extracted_word": "hand"
+      },
+      "75": {
+        "pair_id": 37,
+        "type": "funny",
+        "raw_response": "hand",
+        "extracted_word": "hand"
+      },
+      "76": {
+        "pair_id": 38,
+        "type": "straight",
+        "raw_response": "match",
+        "extracted_word": "match"
+      },
+      "77": {
+        "pair_id": 38,
+        "type": "funny",
+        "raw_response": "match",
+        "extracted_word": "match"
+      },
+      "78": {
+        "pair_id": 39,
+        "type": "straight",
+        "raw_response": "out",
+        "extracted_word": "out"
+      },
+      "79": {
+        "pair_id": 39,
+        "type": "funny",
+        "raw_response": "out",
+        "extracted_word": "out"
+      },
+      "80": {
+        "pair_id": 40,
+        "type": "straight",
+        "raw_response": "afraid",
+        "extracted_word": "afraid"
+      },
+      "81": {
+        "pair_id": 40,
+        "type": "funny",
+        "raw_response": "afraid",
+        "extracted_word": "afraid"
+      },
+      "82": {
+        "pair_id": 41,
+        "type": "straight",
+        "raw_response": "orders",
+        "extracted_word": "orders"
+      },
+      "83": {
+        "pair_id": 41,
+        "type": "funny",
+        "raw_response": "orders",
+        "extracted_word": "orders"
+      },
+      "84": {
+        "pair_id": 42,
+        "type": "straight",
+        "raw_response": "fired",
+        "extracted_word": "fired"
+      },
+      "85": {
+        "pair_id": 42,
+        "type": "funny",
+        "raw_response": "struck",
+        "extracted_word": "struck"
+      },
+      "86": {
+        "pair_id": 43,
+        "type": "straight",
+        "raw_response": "mattress",
+        "extracted_word": "mattress"
+      },
+      "87": {
+        "pair_id": 43,
+        "type": "funny",
+        "raw_response": "mattress",
+        "extracted_word": "mattress"
+      },
+      "88": {
+        "pair_id": 44,
+        "type": "straight",
+        "raw_response": "hole",
+        "extracted_word": "hole"
+      },
+      "89": {
+        "pair_id": 44,
+        "type": "funny",
+        "raw_response": "hole",
+        "extracted_word": "hole"
+      },
+      "90": {
+        "pair_id": 45,
+        "type": "straight",
+        "raw_response": "kicked",
+        "extracted_word": "kicked"
+      },
+      "91": {
+        "pair_id": 45,
+        "type": "funny",
+        "raw_response": "kicked",
+        "extracted_word": "kicked"
+      },
+      "92": {
+        "pair_id": 46,
+        "type": "straight",
+        "raw_response": "Steve",
+        "extracted_word": "steve"
+      },
+      "93": {
+        "pair_id": 46,
+        "type": "funny",
+        "raw_response": "Steve",
+        "extracted_word": "steve"
+      },
+      "94": {
+        "pair_id": 47,
+        "type": "straight",
+        "raw_response": "break",
+        "extracted_word": "break"
+      },
+      "95": {
+        "pair_id": 47,
+        "type": "funny",
+        "raw_response": "break",
+        "extracted_word": "break"
+      },
+      "96": {
+        "pair_id": 48,
+        "type": "straight",
+        "raw_response": "afford",
+        "extracted_word": "afford"
+      },
+      "97": {
+        "pair_id": 48,
+        "type": "funny",
+        "raw_response": "afford",
+        "extracted_word": "afford"
+      },
+      "98": {
+        "pair_id": 49,
+        "type": "straight",
+        "raw_response": "branches",
+        "extracted_word": "branches"
+      },
+      "99": {
+        "pair_id": 49,
+        "type": "funny",
+        "raw_response": "branches",
+        "extracted_word": "branches"
+      }
+    }
+  },
+  "8b": {
+    "model_id": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+    "responses": {
+      "0": {
+        "pair_id": 0,
+        "type": "straight",
+        "raw_response": "off-key",
+        "extracted_word": "off-key"
+      },
+      "1": {
+        "pair_id": 0,
+        "type": "funny",
+        "raw_response": "off",
+        "extracted_word": "off"
+      },
+      "2": {
+        "pair_id": 1,
+        "type": "straight",
+        "raw_response": "past",
+        "extracted_word": "past"
+      },
+      "3": {
+        "pair_id": 1,
+        "type": "funny",
+        "raw_response": "past",
+        "extracted_word": "past"
+      },
+      "4": {
+        "pair_id": 2,
+        "type": "straight",
+        "raw_response": "human",
+        "extracted_word": "human"
+      },
+      "5": {
+        "pair_id": 2,
+        "type": "funny",
+        "raw_response": "companionship",
+        "extracted_word": "companionship"
+      },
+      "6": {
+        "pair_id": 3,
+        "type": "straight",
+        "raw_response": "mess",
+        "extracted_word": "mess"
+      },
+      "7": {
+        "pair_id": 3,
+        "type": "funny",
+        "raw_response": "breakdown",
+        "extracted_word": "breakdown"
+      },
+      "8": {
+        "pair_id": 4,
+        "type": "straight",
+        "raw_response": "dismissed",
+        "extracted_word": "dismissed"
+      },
+      "9": {
+        "pair_id": 4,
+        "type": "funny",
+        "raw_response": "dismissed",
+        "extracted_word": "dismissed"
+      },
+      "10": {
+        "pair_id": 5,
+        "type": "straight",
+        "raw_response": "disaster",
+        "extracted_word": "disaster"
+      },
+      "11": {
+        "pair_id": 5,
+        "type": "funny",
+        "raw_response": "disaster",
+        "extracted_word": "disaster"
+      },
+      "12": {
+        "pair_id": 6,
+        "type": "straight",
+        "raw_response": "stolen",
+        "extracted_word": "stolen"
+      },
+      "13": {
+        "pair_id": 6,
+        "type": "funny",
+        "raw_response": "stolen",
+        "extracted_word": "stolen"
+      },
+      "14": {
+        "pair_id": 7,
+        "type": "straight",
+        "raw_response": "profit",
+        "extracted_word": "profit"
+      },
+      "15": {
+        "pair_id": 7,
+        "type": "funny",
+        "raw_response": "ice",
+        "extracted_word": "ice"
+      },
+      "16": {
+        "pair_id": 8,
+        "type": "straight",
+        "raw_response": "blood",
+        "extracted_word": "blood"
+      },
+      "17": {
+        "pair_id": 8,
+        "type": "funny",
+        "raw_response": "voltage",
+        "extracted_word": "voltage"
+      },
+      "18": {
+        "pair_id": 9,
+        "type": "straight",
+        "raw_response": "shades",
+        "extracted_word": "shades"
+      },
+      "19": {
+        "pair_id": 9,
+        "type": "funny",
+        "raw_response": "fans",
+        "extracted_word": "fans"
+      },
+      "20": {
+        "pair_id": 10,
+        "type": "straight",
+        "raw_response": "found",
+        "extracted_word": "found"
+      },
+      "21": {
+        "pair_id": 10,
+        "type": "funny",
+        "raw_response": "found",
+        "extracted_word": "found"
+      },
+      "22": {
+        "pair_id": 11,
+        "type": "straight",
+        "raw_response": "salesman",
+        "extracted_word": "salesman"
+      },
+      "23": {
+        "pair_id": 11,
+        "type": "funny",
+        "raw_response": "pitcher",
+        "extracted_word": "pitcher"
+      },
+      "24": {
+        "pair_id": 12,
+        "type": "straight",
+        "raw_response": "nightmare",
+        "extracted_word": "nightmare"
+      },
+      "25": {
+        "pair_id": 12,
+        "type": "funny",
+        "raw_response": "series",
+        "extracted_word": "series"
+      },
+      "26": {
+        "pair_id": 13,
+        "type": "straight",
+        "raw_response": "roots",
+        "extracted_word": "roots"
+      },
+      "27": {
+        "pair_id": 13,
+        "type": "funny",
+        "raw_response": "roots",
+        "extracted_word": "roots"
+      },
+      "28": {
+        "pair_id": 14,
+        "type": "straight",
+        "raw_response": "exposed",
+        "extracted_word": "exposed"
+      },
+      "29": {
+        "pair_id": 14,
+        "type": "funny",
+        "raw_response": "transparent",
+        "extracted_word": "transparent"
+      },
+      "30": {
+        "pair_id": 15,
+        "type": "straight",
+        "raw_response": "camera",
+        "extracted_word": "camera"
+      },
+      "31": {
+        "pair_id": 15,
+        "type": "funny",
+        "raw_response": "catch",
+        "extracted_word": "catch"
+      },
+      "32": {
+        "pair_id": 16,
+        "type": "straight",
+        "raw_response": "pickled",
+        "extracted_word": "pickled"
+      },
+      "33": {
+        "pair_id": 16,
+        "type": "funny",
+        "raw_response": "picked",
+        "extracted_word": "picked"
+      },
+      "34": {
+        "pair_id": 17,
+        "type": "straight",
+        "raw_response": "center",
+        "extracted_word": "center"
+      },
+      "35": {
+        "pair_id": 17,
+        "type": "funny",
+        "raw_response": "anchor",
+        "extracted_word": "anchor"
+      },
+      "36": {
+        "pair_id": 18,
+        "type": "straight",
+        "raw_response": "skids",
+        "extracted_word": "skids"
+      },
+      "37": {
+        "pair_id": 18,
+        "type": "funny",
+        "raw_response": "skids",
+        "extracted_word": "skids"
+      },
+      "38": {
+        "pair_id": 19,
+        "type": "straight",
+        "raw_response": "sensation",
+        "extracted_word": "sensation"
+      },
+      "39": {
+        "pair_id": 19,
+        "type": "funny",
+        "raw_response": "buzz",
+        "extracted_word": "buzz"
+      },
+      "40": {
+        "pair_id": 20,
+        "type": "straight",
+        "raw_response": "miscounted",
+        "extracted_word": "miscounted"
+      },
+      "41": {
+        "pair_id": 20,
+        "type": "funny",
+        "raw_response": "numbered",
+        "extracted_word": "numbered"
+      },
+      "42": {
+        "pair_id": 21,
+        "type": "straight",
+        "raw_response": "capital",
+        "extracted_word": "capital"
+      },
+      "43": {
+        "pair_id": 21,
+        "type": "funny",
+        "raw_response": "focus",
+        "extracted_word": "focus"
+      },
+      "44": {
+        "pair_id": 22,
+        "type": "straight",
+        "raw_response": "multiply",
+        "extracted_word": "multiply"
+      },
+      "45": {
+        "pair_id": 22,
+        "type": "funny",
+        "raw_response": "multiply",
+        "extracted_word": "multiply"
+      },
+      "46": {
+        "pair_id": 23,
+        "type": "straight",
+        "raw_response": "kneading",
+        "extracted_word": "kneading"
+      },
+      "47": {
+        "pair_id": 23,
+        "type": "funny",
+        "raw_response": "kneading",
+        "extracted_word": "kneading"
+      },
+      "48": {
+        "pair_id": 24,
+        "type": "straight",
+        "raw_response": "kitchen",
+        "extracted_word": "kitchen"
+      },
+      "49": {
+        "pair_id": 24,
+        "type": "funny",
+        "raw_response": "kitchen",
+        "extracted_word": "kitchen"
+      },
+      "50": {
+        "pair_id": 25,
+        "type": "straight",
+        "raw_response": "chemistry",
+        "extracted_word": "chemistry"
+      },
+      "51": {
+        "pair_id": 25,
+        "type": "funny",
+        "raw_response": "chemistry",
+        "extracted_word": "chemistry"
+      },
+      "52": {
+        "pair_id": 26,
+        "type": "straight",
+        "raw_response": "piano",
+        "extracted_word": "piano"
+      },
+      "53": {
+        "pair_id": 26,
+        "type": "funny",
+        "raw_response": "punchline",
+        "extracted_word": "punchline"
+      },
+      "54": {
+        "pair_id": 27,
+        "type": "straight",
+        "raw_response": "elections",
+        "extracted_word": "elections"
+      },
+      "55": {
+        "pair_id": 27,
+        "type": "funny",
+        "raw_response": "power",
+        "extracted_word": "power"
+      },
+      "56": {
+        "pair_id": 28,
+        "type": "straight",
+        "raw_response": "clue",
+        "extracted_word": "clue"
+      },
+      "57": {
+        "pair_id": 28,
+        "type": "funny",
+        "raw_response": "sign",
+        "extracted_word": "sign"
+      },
+      "58": {
+        "pair_id": 29,
+        "type": "straight",
+        "raw_response": "balance",
+        "extracted_word": "balance"
+      },
+      "59": {
+        "pair_id": 29,
+        "type": "funny",
+        "raw_response": "balance",
+        "extracted_word": "balance"
+      },
+      "60": {
+        "pair_id": 30,
+        "type": "straight",
+        "raw_response": "case",
+        "extracted_word": "case"
+      },
+      "61": {
+        "pair_id": 30,
+        "type": "funny",
+        "raw_response": "case",
+        "extracted_word": "case"
+      },
+      "62": {
+        "pair_id": 31,
+        "type": "straight",
+        "raw_response": "coverage",
+        "extracted_word": "coverage"
+      },
+      "63": {
+        "pair_id": 31,
+        "type": "funny",
+        "raw_response": "coverage",
+        "extracted_word": "coverage"
+      },
+      "64": {
+        "pair_id": 32,
+        "type": "straight",
+        "raw_response": "sketches",
+        "extracted_word": "sketches"
+      },
+      "65": {
+        "pair_id": 32,
+        "type": "funny",
+        "raw_response": "portraits",
+        "extracted_word": "portraits"
+      },
+      "66": {
+        "pair_id": 33,
+        "type": "straight",
+        "raw_response": "hours",
+        "extracted_word": "hours"
+      },
+      "67": {
+        "pair_id": 33,
+        "type": "funny",
+        "raw_response": "hours",
+        "extracted_word": "hours"
+      },
+      "68": {
+        "pair_id": 34,
+        "type": "straight",
+        "raw_response": "class",
+        "extracted_word": "class"
+      },
+      "69": {
+        "pair_id": 34,
+        "type": "funny",
+        "raw_response": "students",
+        "extracted_word": "students"
+      },
+      "70": {
+        "pair_id": 35,
+        "type": "straight",
+        "raw_response": "steep",
+        "extracted_word": "steep"
+      },
+      "71": {
+        "pair_id": 35,
+        "type": "funny",
+        "raw_response": "steep",
+        "extracted_word": "steep"
+      },
+      "72": {
+        "pair_id": 36,
+        "type": "straight",
+        "raw_response": "manipulate",
+        "extracted_word": "manipulate"
+      },
+      "73": {
+        "pair_id": 36,
+        "type": "funny",
+        "raw_response": "sell",
+        "extracted_word": "sell"
+      },
+      "74": {
+        "pair_id": 37,
+        "type": "straight",
+        "raw_response": "hand",
+        "extracted_word": "hand"
+      },
+      "75": {
+        "pair_id": 37,
+        "type": "funny",
+        "raw_response": "emotions",
+        "extracted_word": "emotions"
+      },
+      "76": {
+        "pair_id": 38,
+        "type": "straight",
+        "raw_response": "match",
+        "extracted_word": "match"
+      },
+      "77": {
+        "pair_id": 38,
+        "type": "funny",
+        "raw_response": "match",
+        "extracted_word": "match"
+      },
+      "78": {
+        "pair_id": 39,
+        "type": "straight",
+        "raw_response": "delayed",
+        "extracted_word": "delayed"
+      },
+      "79": {
+        "pair_id": 39,
+        "type": "funny",
+        "raw_response": "delayed",
+        "extracted_word": "delayed"
+      },
+      "80": {
+        "pair_id": 40,
+        "type": "straight",
+        "raw_response": "afraid",
+        "extracted_word": "afraid"
+      },
+      "81": {
+        "pair_id": 40,
+        "type": "funny",
+        "raw_response": "afraid",
+        "extracted_word": "afraid"
+      },
+      "82": {
+        "pair_id": 41,
+        "type": "straight",
+        "raw_response": "orders",
+        "extracted_word": "orders"
+      },
+      "83": {
+        "pair_id": 41,
+        "type": "funny",
+        "raw_response": "orders",
+        "extracted_word": "orders"
+      },
+      "84": {
+        "pair_id": 42,
+        "type": "straight",
+        "raw_response": "fired",
+        "extracted_word": "fired"
+      },
+      "85": {
+        "pair_id": 42,
+        "type": "funny",
+        "raw_response": "struck",
+        "extracted_word": "struck"
+      },
+      "86": {
+        "pair_id": 43,
+        "type": "straight",
+        "raw_response": "floor",
+        "extracted_word": "floor"
+      },
+      "87": {
+        "pair_id": 43,
+        "type": "funny",
+        "raw_response": "floor",
+        "extracted_word": "floor"
+      },
+      "88": {
+        "pair_id": 44,
+        "type": "straight",
+        "raw_response": "birdie",
+        "extracted_word": "birdie"
+      },
+      "89": {
+        "pair_id": 44,
+        "type": "funny",
+        "raw_response": "birdie",
+        "extracted_word": "birdie"
+      },
+      "90": {
+        "pair_id": 45,
+        "type": "straight",
+        "raw_response": "kneaded",
+        "extracted_word": "kneaded"
+      },
+      "91": {
+        "pair_id": 45,
+        "type": "funny",
+        "raw_response": "kneaded",
+        "extracted_word": "kneaded"
+      },
+      "92": {
+        "pair_id": 46,
+        "type": "straight",
+        "raw_response": "Dave",
+        "extracted_word": "dave"
+      },
+      "93": {
+        "pair_id": 46,
+        "type": "funny",
+        "raw_response": "Dave",
+        "extracted_word": "dave"
+      },
+      "94": {
+        "pair_id": 47,
+        "type": "straight",
+        "raw_response": "break",
+        "extracted_word": "break"
+      },
+      "95": {
+        "pair_id": 47,
+        "type": "funny",
+        "raw_response": "break",
+        "extracted_word": "break"
+      },
+      "96": {
+        "pair_id": 48,
+        "type": "straight",
+        "raw_response": "afford",
+        "extracted_word": "afford"
+      },
+      "97": {
+        "pair_id": 48,
+        "type": "funny",
+        "raw_response": "see",
+        "extracted_word": "see"
+      },
+      "98": {
+        "pair_id": 49,
+        "type": "straight",
+        "raw_response": "connections",
+        "extracted_word": "connections"
+      },
+      "99": {
+        "pair_id": 49,
+        "type": "funny",
+        "raw_response": "connections",
+        "extracted_word": "connections"
+      }
+    }
+  },
+  "70b": {
+    "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+    "responses": {
+      "0": {
+        "pair_id": 0,
+        "type": "straight",
+        "raw_response": "hoarse",
+        "extracted_word": "hoarse"
+      },
+      "1": {
+        "pair_id": 0,
+        "type": "funny",
+        "raw_response": "hoarse",
+        "extracted_word": "hoarse"
+      },
+      "2": {
+        "pair_id": 1,
+        "type": "straight",
+        "raw_response": "past",
+        "extracted_word": "past"
+      },
+      "3": {
+        "pair_id": 1,
+        "type": "funny",
+        "raw_response": "past",
+        "extracted_word": "past"
+      },
+      "4": {
+        "pair_id": 2,
+        "type": "straight",
+        "raw_response": "company",
+        "extracted_word": "company"
+      },
+      "5": {
+        "pair_id": 2,
+        "type": "funny",
+        "raw_response": "sympathy",
+        "extracted_word": "sympathy"
+      },
+      "6": {
+        "pair_id": 3,
+        "type": "straight",
+        "raw_response": "spectacle",
+        "extracted_word": "spectacle"
+      },
+      "7": {
+        "pair_id": 3,
+        "type": "funny",
+        "raw_response": "spectacle",
+        "extracted_word": "spectacle"
+      },
+      "8": {
+        "pair_id": 4,
+        "type": "straight",
+        "raw_response": "dismissed",
+        "extracted_word": "dismissed"
+      },
+      "9": {
+        "pair_id": 4,
+        "type": "funny",
+        "raw_response": "brewing",
+        "extracted_word": "brewing"
+      },
+      "10": {
+        "pair_id": 5,
+        "type": "straight",
+        "raw_response": "dive",
+        "extracted_word": "dive"
+      },
+      "11": {
+        "pair_id": 5,
+        "type": "funny",
+        "raw_response": "wreck",
+        "extracted_word": "wreck"
+      },
+      "12": {
+        "pair_id": 6,
+        "type": "straight",
+        "raw_response": "mugged",
+        "extracted_word": "mugged"
+      },
+      "13": {
+        "pair_id": 6,
+        "type": "funny",
+        "raw_response": "mugged",
+        "extracted_word": "mugged"
+      },
+      "14": {
+        "pair_id": 7,
+        "type": "straight",
+        "raw_response": "margins",
+        "extracted_word": "margins"
+      },
+      "15": {
+        "pair_id": 7,
+        "type": "funny",
+        "raw_response": "pages",
+        "extracted_word": "pages"
+      },
+      "16": {
+        "pair_id": 8,
+        "type": "straight",
+        "raw_response": "voltage",
+        "extracted_word": "voltage"
+      },
+      "17": {
+        "pair_id": 8,
+        "type": "funny",
+        "raw_response": "voltage",
+        "extracted_word": "voltage"
+      },
+      "18": {
+        "pair_id": 9,
+        "type": "straight",
+        "raw_response": "shades",
+        "extracted_word": "shades"
+      },
+      "19": {
+        "pair_id": 9,
+        "type": "funny",
+        "raw_response": "shades",
+        "extracted_word": "shades"
+      },
+      "20": {
+        "pair_id": 10,
+        "type": "straight",
+        "raw_response": "spotted",
+        "extracted_word": "spotted"
+      },
+      "21": {
+        "pair_id": 10,
+        "type": "funny",
+        "raw_response": "spotted",
+        "extracted_word": "spotted"
+      },
+      "22": {
+        "pair_id": 11,
+        "type": "straight",
+        "raw_response": "pitchman",
+        "extracted_word": "pitchman"
+      },
+      "23": {
+        "pair_id": 11,
+        "type": "funny",
+        "raw_response": "pitcher",
+        "extracted_word": "pitcher"
+      },
+      "24": {
+        "pair_id": 12,
+        "type": "straight",
+        "raw_response": "audit",
+        "extracted_word": "audit"
+      },
+      "25": {
+        "pair_id": 12,
+        "type": "funny",
+        "raw_response": "audit",
+        "extracted_word": "audit"
+      },
+      "26": {
+        "pair_id": 13,
+        "type": "straight",
+        "raw_response": "roots",
+        "extracted_word": "roots"
+      },
+      "27": {
+        "pair_id": 13,
+        "type": "funny",
+        "raw_response": "roots",
+        "extracted_word": "roots"
+      },
+      "28": {
+        "pair_id": 14,
+        "type": "straight",
+        "raw_response": "transparent",
+        "extracted_word": "transparent"
+      },
+      "29": {
+        "pair_id": 14,
+        "type": "funny",
+        "raw_response": "transparent",
+        "extracted_word": "transparent"
+      },
+      "30": {
+        "pair_id": 15,
+        "type": "straight",
+        "raw_response": "reel",
+        "extracted_word": "reel"
+      },
+      "31": {
+        "pair_id": 15,
+        "type": "funny",
+        "raw_response": "reel",
+        "extracted_word": "reel"
+      },
+      "32": {
+        "pair_id": 16,
+        "type": "straight",
+        "raw_response": "picked",
+        "extracted_word": "picked"
+      },
+      "33": {
+        "pair_id": 16,
+        "type": "funny",
+        "raw_response": "picked",
+        "extracted_word": "picked"
+      },
+      "34": {
+        "pair_id": 17,
+        "type": "straight",
+        "raw_response": "anchor",
+        "extracted_word": "anchor"
+      },
+      "35": {
+        "pair_id": 17,
+        "type": "funny",
+        "raw_response": "anchor",
+        "extracted_word": "anchor"
+      },
+      "36": {
+        "pair_id": 18,
+        "type": "straight",
+        "raw_response": "rise",
+        "extracted_word": "rise"
+      },
+      "37": {
+        "pair_id": 18,
+        "type": "funny",
+        "raw_response": "rise",
+        "extracted_word": "rise"
+      },
+      "38": {
+        "pair_id": 19,
+        "type": "straight",
+        "raw_response": "buzz",
+        "extracted_word": "buzz"
+      },
+      "39": {
+        "pair_id": 19,
+        "type": "funny",
+        "raw_response": "buzz",
+        "extracted_word": "buzz"
+      },
+      "40": {
+        "pair_id": 20,
+        "type": "straight",
+        "raw_response": "numbered",
+        "extracted_word": "numbered"
+      },
+      "41": {
+        "pair_id": 20,
+        "type": "funny",
+        "raw_response": "numbered",
+        "extracted_word": "numbered"
+      },
+      "42": {
+        "pair_id": 21,
+        "type": "straight",
+        "raw_response": "vision",
+        "extracted_word": "vision"
+      },
+      "43": {
+        "pair_id": 21,
+        "type": "funny",
+        "raw_response": "vision",
+        "extracted_word": "vision"
+      },
+      "44": {
+        "pair_id": 22,
+        "type": "straight",
+        "raw_response": "multiply",
+        "extracted_word": "multiply"
+      },
+      "45": {
+        "pair_id": 22,
+        "type": "funny",
+        "raw_response": "multiply",
+        "extracted_word": "multiply"
+      },
+      "46": {
+        "pair_id": 23,
+        "type": "straight",
+        "raw_response": "loafing",
+        "extracted_word": "loafing"
+      },
+      "47": {
+        "pair_id": 23,
+        "type": "funny",
+        "raw_response": "kneading",
+        "extracted_word": "kneading"
+      },
+      "48": {
+        "pair_id": 24,
+        "type": "straight",
+        "raw_response": "jam",
+        "extracted_word": "jam"
+      },
+      "49": {
+        "pair_id": 24,
+        "type": "funny",
+        "raw_response": "jam",
+        "extracted_word": "jam"
+      },
+      "50": {
+        "pair_id": 25,
+        "type": "straight",
+        "raw_response": "chemistry",
+        "extracted_word": "chemistry"
+      },
+      "51": {
+        "pair_id": 25,
+        "type": "funny",
+        "raw_response": "bond",
+        "extracted_word": "bond"
+      },
+      "52": {
+        "pair_id": 26,
+        "type": "straight",
+        "raw_response": "punch",
+        "extracted_word": "punch"
+      },
+      "53": {
+        "pair_id": 26,
+        "type": "funny",
+        "raw_response": "punch",
+        "extracted_word": "punch"
+      },
+      "54": {
+        "pair_id": 27,
+        "type": "straight",
+        "raw_response": "the",
+        "extracted_word": "the"
+      },
+      "55": {
+        "pair_id": 27,
+        "type": "funny",
+        "raw_response": "power",
+        "extracted_word": "power"
+      },
+      "56": {
+        "pair_id": 28,
+        "type": "straight",
+        "raw_response": "sign",
+        "extracted_word": "sign"
+      },
+      "57": {
+        "pair_id": 28,
+        "type": "funny",
+        "raw_response": "sign",
+        "extracted_word": "sign"
+      },
+      "58": {
+        "pair_id": 29,
+        "type": "straight",
+        "raw_response": "balance",
+        "extracted_word": "balance"
+      },
+      "59": {
+        "pair_id": 29,
+        "type": "funny",
+        "raw_response": "balance",
+        "extracted_word": "balance"
+      },
+      "60": {
+        "pair_id": 30,
+        "type": "straight",
+        "raw_response": "case",
+        "extracted_word": "case"
+      },
+      "61": {
+        "pair_id": 30,
+        "type": "funny",
+        "raw_response": "case",
+        "extracted_word": "case"
+      },
+      "62": {
+        "pair_id": 31,
+        "type": "straight",
+        "raw_response": "reception",
+        "extracted_word": "reception"
+      },
+      "63": {
+        "pair_id": 31,
+        "type": "funny",
+        "raw_response": "reception",
+        "extracted_word": "reception"
+      },
+      "64": {
+        "pair_id": 32,
+        "type": "straight",
+        "raw_response": "conclusions",
+        "extracted_word": "conclusions"
+      },
+      "65": {
+        "pair_id": 32,
+        "type": "funny",
+        "raw_response": "conclusions",
+        "extracted_word": "conclusions"
+      },
+      "66": {
+        "pair_id": 33,
+        "type": "straight",
+        "raw_response": "seconds",
+        "extracted_word": "seconds"
+      },
+      "67": {
+        "pair_id": 33,
+        "type": "funny",
+        "raw_response": "seconds",
+        "extracted_word": "seconds"
+      },
+      "68": {
+        "pair_id": 34,
+        "type": "straight",
+        "raw_response": "class",
+        "extracted_word": "class"
+      },
+      "69": {
+        "pair_id": 34,
+        "type": "funny",
+        "raw_response": "class",
+        "extracted_word": "class"
+      },
+      "70": {
+        "pair_id": 35,
+        "type": "straight",
+        "raw_response": "high",
+        "extracted_word": "high"
+      },
+      "71": {
+        "pair_id": 35,
+        "type": "funny",
+        "raw_response": "steep",
+        "extracted_word": "steep"
+      },
+      "72": {
+        "pair_id": 36,
+        "type": "straight",
+        "raw_response": "open",
+        "extracted_word": "open"
+      },
+      "73": {
+        "pair_id": 36,
+        "type": "funny",
+        "raw_response": "open",
+        "extracted_word": "open"
+      },
+      "74": {
+        "pair_id": 37,
+        "type": "straight",
+        "raw_response": "hand",
+        "extracted_word": "hand"
+      },
+      "75": {
+        "pair_id": 37,
+        "type": "funny",
+        "raw_response": "hand",
+        "extracted_word": "hand"
+      },
+      "76": {
+        "pair_id": 38,
+        "type": "straight",
+        "raw_response": "match",
+        "extracted_word": "match"
+      },
+      "77": {
+        "pair_id": 38,
+        "type": "funny",
+        "raw_response": "compound",
+        "extracted_word": "compound"
+      },
+      "78": {
+        "pair_id": 39,
+        "type": "straight",
+        "raw_response": "late",
+        "extracted_word": "late"
+      },
+      "79": {
+        "pair_id": 39,
+        "type": "funny",
+        "raw_response": "out",
+        "extracted_word": "out"
+      },
+      "80": {
+        "pair_id": 40,
+        "type": "straight",
+        "raw_response": "possessive",
+        "extracted_word": "possessive"
+      },
+      "81": {
+        "pair_id": 40,
+        "type": "funny",
+        "raw_response": "shellfish",
+        "extracted_word": "shellfish"
+      },
+      "82": {
+        "pair_id": 41,
+        "type": "straight",
+        "raw_response": "orders",
+        "extracted_word": "orders"
+      },
+      "83": {
+        "pair_id": 41,
+        "type": "funny",
+        "raw_response": "orders",
+        "extracted_word": "orders"
+      },
+      "84": {
+        "pair_id": 42,
+        "type": "straight",
+        "raw_response": "fired",
+        "extracted_word": "fired"
+      },
+      "85": {
+        "pair_id": 42,
+        "type": "funny",
+        "raw_response": "fired",
+        "extracted_word": "fired"
+      },
+      "86": {
+        "pair_id": 43,
+        "type": "straight",
+        "raw_response": "job",
+        "extracted_word": "job"
+      },
+      "87": {
+        "pair_id": 43,
+        "type": "funny",
+        "raw_response": "job",
+        "extracted_word": "job"
+      },
+      "88": {
+        "pair_id": 44,
+        "type": "straight",
+        "raw_response": "hole",
+        "extracted_word": "hole"
+      },
+      "89": {
+        "pair_id": 44,
+        "type": "funny",
+        "raw_response": "hole",
+        "extracted_word": "hole"
+      },
+      "90": {
+        "pair_id": 45,
+        "type": "straight",
+        "raw_response": "fired",
+        "extracted_word": "fired"
+      },
+      "91": {
+        "pair_id": 45,
+        "type": "funny",
+        "raw_response": "fired",
+        "extracted_word": "fired"
+      },
+      "92": {
+        "pair_id": 46,
+        "type": "straight",
+        "raw_response": "Braaaaad",
+        "extracted_word": "braaaaad"
+      },
+      "93": {
+        "pair_id": 46,
+        "type": "funny",
+        "raw_response": "Braaaaad",
+        "extracted_word": "braaaaad"
+      },
+      "94": {
+        "pair_id": 47,
+        "type": "straight",
+        "raw_response": "sweep",
+        "extracted_word": "sweep"
+      },
+      "95": {
+        "pair_id": 47,
+        "type": "funny",
+        "raw_response": "sweep",
+        "extracted_word": "sweep"
+      },
+      "96": {
+        "pair_id": 48,
+        "type": "straight",
+        "raw_response": "see",
+        "extracted_word": "see"
+      },
+      "97": {
+        "pair_id": 48,
+        "type": "funny",
+        "raw_response": "see",
+        "extracted_word": "see"
+      },
+      "98": {
+        "pair_id": 49,
+        "type": "straight",
+        "raw_response": "roots",
+        "extracted_word": "roots"
+      },
+      "99": {
+        "pair_id": 49,
+        "type": "funny",
+        "raw_response": "roots",
+        "extracted_word": "roots"
+      }
+    }
+  },
+  "3.3-70b": {
+    "model_id": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "responses": {
+      "0": {
+        "pair_id": 0,
+        "type": "straight",
+        "raw_response": "hoarse",
+        "extracted_word": "hoarse"
+      },
+      "1": {
+        "pair_id": 0,
+        "type": "funny",
+        "raw_response": "hoarse",
+        "extracted_word": "hoarse"
+      },
+      "2": {
+        "pair_id": 1,
+        "type": "straight",
+        "raw_response": "past",
+        "extracted_word": "past"
+      },
+      "3": {
+        "pair_id": 1,
+        "type": "funny",
+        "raw_response": "past",
+        "extracted_word": "past"
+      },
+      "4": {
+        "pair_id": 2,
+        "type": "straight",
+        "raw_response": "company",
+        "extracted_word": "company"
+      },
+      "5": {
+        "pair_id": 2,
+        "type": "funny",
+        "raw_response": "company",
+        "extracted_word": "company"
+      },
+      "6": {
+        "pair_id": 3,
+        "type": "straight",
+        "raw_response": "spectacle",
+        "extracted_word": "spectacle"
+      },
+      "7": {
+        "pair_id": 3,
+        "type": "funny",
+        "raw_response": "spectacle",
+        "extracted_word": "spectacle"
+      },
+      "8": {
+        "pair_id": 4,
+        "type": "straight",
+        "raw_response": "settled",
+        "extracted_word": "settled"
+      },
+      "9": {
+        "pair_id": 4,
+        "type": "funny",
+        "raw_response": "brewing",
+        "extracted_word": "brewing"
+      },
+      "10": {
+        "pair_id": 5,
+        "type": "straight",
+        "raw_response": "dive",
+        "extracted_word": "dive"
+      },
+      "11": {
+        "pair_id": 5,
+        "type": "funny",
+        "raw_response": "dive",
+        "extracted_word": "dive"
+      },
+      "12": {
+        "pair_id": 6,
+        "type": "straight",
+        "raw_response": "mugged",
+        "extracted_word": "mugged"
+      },
+      "13": {
+        "pair_id": 6,
+        "type": "funny",
+        "raw_response": "mugged",
+        "extracted_word": "mugged"
+      },
+      "14": {
+        "pair_id": 7,
+        "type": "straight",
+        "raw_response": "margins",
+        "extracted_word": "margins"
+      },
+      "15": {
+        "pair_id": 7,
+        "type": "funny",
+        "raw_response": "pages",
+        "extracted_word": "pages"
+      },
+      "16": {
+        "pair_id": 8,
+        "type": "straight",
+        "raw_response": "voltage",
+        "extracted_word": "voltage"
+      },
+      "17": {
+        "pair_id": 8,
+        "type": "funny",
+        "raw_response": "voltage",
+        "extracted_word": "voltage"
+      },
+      "18": {
+        "pair_id": 9,
+        "type": "straight",
+        "raw_response": "fans",
+        "extracted_word": "fans"
+      },
+      "19": {
+        "pair_id": 9,
+        "type": "funny",
+        "raw_response": "fans",
+        "extracted_word": "fans"
+      },
+      "20": {
+        "pair_id": 10,
+        "type": "straight",
+        "raw_response": "spotted",
+        "extracted_word": "spotted"
+      },
+      "21": {
+        "pair_id": 10,
+        "type": "funny",
+        "raw_response": "spotted",
+        "extracted_word": "spotted"
+      },
+      "22": {
+        "pair_id": 11,
+        "type": "straight",
+        "raw_response": "pitcher",
+        "extracted_word": "pitcher"
+      },
+      "23": {
+        "pair_id": 11,
+        "type": "funny",
+        "raw_response": "pitcher",
+        "extracted_word": "pitcher"
+      },
+      "24": {
+        "pair_id": 12,
+        "type": "straight",
+        "raw_response": "lie",
+        "extracted_word": "lie"
+      },
+      "25": {
+        "pair_id": 12,
+        "type": "funny",
+        "raw_response": "audit",
+        "extracted_word": "audit"
+      },
+      "26": {
+        "pair_id": 13,
+        "type": "straight",
+        "raw_response": "stuff",
+        "extracted_word": "stuff"
+      },
+      "27": {
+        "pair_id": 13,
+        "type": "funny",
+        "raw_response": "bark",
+        "extracted_word": "bark"
+      },
+      "28": {
+        "pair_id": 14,
+        "type": "straight",
+        "raw_response": "transparent",
+        "extracted_word": "transparent"
+      },
+      "29": {
+        "pair_id": 14,
+        "type": "funny",
+        "raw_response": "transparent",
+        "extracted_word": "transparent"
+      },
+      "30": {
+        "pair_id": 15,
+        "type": "straight",
+        "raw_response": "reel",
+        "extracted_word": "reel"
+      },
+      "31": {
+        "pair_id": 15,
+        "type": "funny",
+        "raw_response": "reel",
+        "extracted_word": "reel"
+      },
+      "32": {
+        "pair_id": 16,
+        "type": "straight",
+        "raw_response": "picked",
+        "extracted_word": "picked"
+      },
+      "33": {
+        "pair_id": 16,
+        "type": "funny",
+        "raw_response": "picked",
+        "extracted_word": "picked"
+      },
+      "34": {
+        "pair_id": 17,
+        "type": "straight",
+        "raw_response": "anchor",
+        "extracted_word": "anchor"
+      },
+      "35": {
+        "pair_id": 17,
+        "type": "funny",
+        "raw_response": "anchor",
+        "extracted_word": "anchor"
+      },
+      "36": {
+        "pair_id": 18,
+        "type": "straight",
+        "raw_response": "rise",
+        "extracted_word": "rise"
+      },
+      "37": {
+        "pair_id": 18,
+        "type": "funny",
+        "raw_response": "rise",
+        "extracted_word": "rise"
+      },
+      "38": {
+        "pair_id": 19,
+        "type": "straight",
+        "raw_response": "buzz",
+        "extracted_word": "buzz"
+      },
+      "39": {
+        "pair_id": 19,
+        "type": "funny",
+        "raw_response": "buzz",
+        "extracted_word": "buzz"
+      },
+      "40": {
+        "pair_id": 20,
+        "type": "straight",
+        "raw_response": "numbered",
+        "extracted_word": "numbered"
+      },
+      "41": {
+        "pair_id": 20,
+        "type": "funny",
+        "raw_response": "numbered",
+        "extracted_word": "numbered"
+      },
+      "42": {
+        "pair_id": 21,
+        "type": "straight",
+        "raw_response": "vision",
+        "extracted_word": "vision"
+      },
+      "43": {
+        "pair_id": 21,
+        "type": "funny",
+        "raw_response": "vision",
+        "extracted_word": "vision"
+      },
+      "44": {
+        "pair_id": 22,
+        "type": "straight",
+        "raw_response": "calculate",
+        "extracted_word": "calculate"
+      },
+      "45": {
+        "pair_id": 22,
+        "type": "funny",
+        "raw_response": "multiply",
+        "extracted_word": "multiply"
+      },
+      "46": {
+        "pair_id": 23,
+        "type": "straight",
+        "raw_response": "loafing",
+        "extracted_word": "loafing"
+      },
+      "47": {
+        "pair_id": 23,
+        "type": "funny",
+        "raw_response": "kneading",
+        "extracted_word": "kneading"
+      },
+      "48": {
+        "pair_id": 24,
+        "type": "straight",
+        "raw_response": "jam",
+        "extracted_word": "jam"
+      },
+      "49": {
+        "pair_id": 24,
+        "type": "funny",
+        "raw_response": "jam",
+        "extracted_word": "jam"
+      },
+      "50": {
+        "pair_id": 25,
+        "type": "straight",
+        "raw_response": "chemistry",
+        "extracted_word": "chemistry"
+      },
+      "51": {
+        "pair_id": 25,
+        "type": "funny",
+        "raw_response": "bond",
+        "extracted_word": "bond"
+      },
+      "52": {
+        "pair_id": 26,
+        "type": "straight",
+        "raw_response": "punch",
+        "extracted_word": "punch"
+      },
+      "53": {
+        "pair_id": 26,
+        "type": "funny",
+        "raw_response": "punch",
+        "extracted_word": "punch"
+      },
+      "54": {
+        "pair_id": 27,
+        "type": "straight",
+        "raw_response": "the",
+        "extracted_word": "the"
+      },
+      "55": {
+        "pair_id": 27,
+        "type": "funny",
+        "raw_response": "power",
+        "extracted_word": "power"
+      },
+      "56": {
+        "pair_id": 28,
+        "type": "straight",
+        "raw_response": "sign",
+        "extracted_word": "sign"
+      },
+      "57": {
+        "pair_id": 28,
+        "type": "funny",
+        "raw_response": "sign",
+        "extracted_word": "sign"
+      },
+      "58": {
+        "pair_id": 29,
+        "type": "straight",
+        "raw_response": "balance",
+        "extracted_word": "balance"
+      },
+      "59": {
+        "pair_id": 29,
+        "type": "funny",
+        "raw_response": "balance",
+        "extracted_word": "balance"
+      },
+      "60": {
+        "pair_id": 30,
+        "type": "straight",
+        "raw_response": "case",
+        "extracted_word": "case"
+      },
+      "61": {
+        "pair_id": 30,
+        "type": "funny",
+        "raw_response": "case",
+        "extracted_word": "case"
+      },
+      "62": {
+        "pair_id": 31,
+        "type": "straight",
+        "raw_response": "reception",
+        "extracted_word": "reception"
+      },
+      "63": {
+        "pair_id": 31,
+        "type": "funny",
+        "raw_response": "reception",
+        "extracted_word": "reception"
+      },
+      "64": {
+        "pair_id": 32,
+        "type": "straight",
+        "raw_response": "conclusions",
+        "extracted_word": "conclusions"
+      },
+      "65": {
+        "pair_id": 32,
+        "type": "funny",
+        "raw_response": "conclusions",
+        "extracted_word": "conclusions"
+      },
+      "66": {
+        "pair_id": 33,
+        "type": "straight",
+        "raw_response": "seconds",
+        "extracted_word": "seconds"
+      },
+      "67": {
+        "pair_id": 33,
+        "type": "funny",
+        "raw_response": "seconds",
+        "extracted_word": "seconds"
+      },
+      "68": {
+        "pair_id": 34,
+        "type": "straight",
+        "raw_response": "class",
+        "extracted_word": "class"
+      },
+      "69": {
+        "pair_id": 34,
+        "type": "funny",
+        "raw_response": "class",
+        "extracted_word": "class"
+      },
+      "70": {
+        "pair_id": 35,
+        "type": "straight",
+        "raw_response": "high",
+        "extracted_word": "high"
+      },
+      "71": {
+        "pair_id": 35,
+        "type": "funny",
+        "raw_response": "steep",
+        "extracted_word": "steep"
+      },
+      "72": {
+        "pair_id": 36,
+        "type": "straight",
+        "raw_response": "open",
+        "extracted_word": "open"
+      },
+      "73": {
+        "pair_id": 36,
+        "type": "funny",
+        "raw_response": "open",
+        "extracted_word": "open"
+      },
+      "74": {
+        "pair_id": 37,
+        "type": "straight",
+        "raw_response": "hand",
+        "extracted_word": "hand"
+      },
+      "75": {
+        "pair_id": 37,
+        "type": "funny",
+        "raw_response": "hand",
+        "extracted_word": "hand"
+      },
+      "76": {
+        "pair_id": 38,
+        "type": "straight",
+        "raw_response": "match",
+        "extracted_word": "match"
+      },
+      "77": {
+        "pair_id": 38,
+        "type": "funny",
+        "raw_response": "compound",
+        "extracted_word": "compound"
+      },
+      "78": {
+        "pair_id": 39,
+        "type": "straight",
+        "raw_response": "published",
+        "extracted_word": "published"
+      },
+      "79": {
+        "pair_id": 39,
+        "type": "funny",
+        "raw_response": "out",
+        "extracted_word": "out"
+      },
+      "80": {
+        "pair_id": 40,
+        "type": "straight",
+        "raw_response": "greedy",
+        "extracted_word": "greedy"
+      },
+      "81": {
+        "pair_id": 40,
+        "type": "funny",
+        "raw_response": "shellfish",
+        "extracted_word": "shellfish"
+      },
+      "82": {
+        "pair_id": 41,
+        "type": "straight",
+        "raw_response": "orders",
+        "extracted_word": "orders"
+      },
+      "83": {
+        "pair_id": 41,
+        "type": "funny",
+        "raw_response": "orders",
+        "extracted_word": "orders"
+      },
+      "84": {
+        "pair_id": 42,
+        "type": "straight",
+        "raw_response": "fired",
+        "extracted_word": "fired"
+      },
+      "85": {
+        "pair_id": 42,
+        "type": "funny",
+        "raw_response": "fired",
+        "extracted_word": "fired"
+      },
+      "86": {
+        "pair_id": 43,
+        "type": "straight",
+        "raw_response": "job",
+        "extracted_word": "job"
+      },
+      "87": {
+        "pair_id": 43,
+        "type": "funny",
+        "raw_response": "job",
+        "extracted_word": "job"
+      },
+      "88": {
+        "pair_id": 44,
+        "type": "straight",
+        "raw_response": "hole",
+        "extracted_word": "hole"
+      },
+      "89": {
+        "pair_id": 44,
+        "type": "funny",
+        "raw_response": "hole",
+        "extracted_word": "hole"
+      },
+      "90": {
+        "pair_id": 45,
+        "type": "straight",
+        "raw_response": "fired",
+        "extracted_word": "fired"
+      },
+      "91": {
+        "pair_id": 45,
+        "type": "funny",
+        "raw_response": "fired",
+        "extracted_word": "fired"
+      },
+      "92": {
+        "pair_id": 46,
+        "type": "straight",
+        "raw_response": "Braaaaad",
+        "extracted_word": "braaaaad"
+      },
+      "93": {
+        "pair_id": 46,
+        "type": "funny",
+        "raw_response": "Braaaaad",
+        "extracted_word": "braaaaad"
+      },
+      "94": {
+        "pair_id": 47,
+        "type": "straight",
+        "raw_response": "sweep",
+        "extracted_word": "sweep"
+      },
+      "95": {
+        "pair_id": 47,
+        "type": "funny",
+        "raw_response": "sweep",
+        "extracted_word": "sweep"
+      },
+      "96": {
+        "pair_id": 48,
+        "type": "straight",
+        "raw_response": "see",
+        "extracted_word": "see"
+      },
+      "97": {
+        "pair_id": 48,
+        "type": "funny",
+        "raw_response": "see",
+        "extracted_word": "see"
+      },
+      "98": {
+        "pair_id": 49,
+        "type": "straight",
+        "raw_response": "roots",
+        "extracted_word": "roots"
+      },
+      "99": {
+        "pair_id": 49,
+        "type": "funny",
+        "raw_response": "roots",
+        "extracted_word": "roots"
+      }
+    }
+  },
+  "405b": {
+    "model_id": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+    "responses": {
+      "0": {
+        "pair_id": 0,
+        "type": "straight",
+        "raw_response": "hoarse",
+        "extracted_word": "hoarse"
+      },
+      "1": {
+        "pair_id": 0,
+        "type": "funny",
+        "raw_response": "hoarse",
+        "extracted_word": "hoarse"
+      },
+      "2": {
+        "pair_id": 1,
+        "type": "straight",
+        "raw_response": "past",
+        "extracted_word": "past"
+      },
+      "3": {
+        "pair_id": 1,
+        "type": "funny",
+        "raw_response": "past",
+        "extracted_word": "past"
+      },
+      "4": {
+        "pair_id": 2,
+        "type": "straight",
+        "raw_response": "companionship",
+        "extracted_word": "companionship"
+      },
+      "5": {
+        "pair_id": 2,
+        "type": "funny",
+        "raw_response": "companionship",
+        "extracted_word": "companionship"
+      },
+      "6": {
+        "pair_id": 3,
+        "type": "straight",
+        "raw_response": "spectacle",
+        "extracted_word": "spectacle"
+      },
+      "7": {
+        "pair_id": 3,
+        "type": "funny",
+        "raw_response": "spectacle",
+        "extracted_word": "spectacle"
+      },
+      "8": {
+        "pair_id": 4,
+        "type": "straight",
+        "raw_response": "dismissed",
+        "extracted_word": "dismissed"
+      },
+      "9": {
+        "pair_id": 4,
+        "type": "funny",
+        "raw_response": "percolating",
+        "extracted_word": "percolating"
+      },
+      "10": {
+        "pair_id": 5,
+        "type": "straight",
+        "raw_response": "dive",
+        "extracted_word": "dive"
+      },
+      "11": {
+        "pair_id": 5,
+        "type": "funny",
+        "raw_response": "dive",
+        "extracted_word": "dive"
+      },
+      "12": {
+        "pair_id": 6,
+        "type": "straight",
+        "raw_response": "mugged",
+        "extracted_word": "mugged"
+      },
+      "13": {
+        "pair_id": 6,
+        "type": "funny",
+        "raw_response": "mugged",
+        "extracted_word": "mugged"
+      },
+      "14": {
+        "pair_id": 7,
+        "type": "straight",
+        "raw_response": "margins",
+        "extracted_word": "margins"
+      },
+      "15": {
+        "pair_id": 7,
+        "type": "funny",
+        "raw_response": "margins",
+        "extracted_word": "margins"
+      },
+      "16": {
+        "pair_id": 8,
+        "type": "straight",
+        "raw_response": "voltage",
+        "extracted_word": "voltage"
+      },
+      "17": {
+        "pair_id": 8,
+        "type": "funny",
+        "raw_response": "resistance",
+        "extracted_word": "resistance"
+      },
+      "18": {
+        "pair_id": 9,
+        "type": "straight",
+        "raw_response": "fans",
+        "extracted_word": "fans"
+      },
+      "19": {
+        "pair_id": 9,
+        "type": "funny",
+        "raw_response": "fans",
+        "extracted_word": "fans"
+      },
+      "20": {
+        "pair_id": 10,
+        "type": "straight",
+        "raw_response": "spotted",
+        "extracted_word": "spotted"
+      },
+      "21": {
+        "pair_id": 10,
+        "type": "funny",
+        "raw_response": "spotted",
+        "extracted_word": "spotted"
+      },
+      "22": {
+        "pair_id": 11,
+        "type": "straight",
+        "raw_response": "pitcher",
+        "extracted_word": "pitcher"
+      },
+      "23": {
+        "pair_id": 11,
+        "type": "funny",
+        "raw_response": "pitcher",
+        "extracted_word": "pitcher"
+      },
+      "24": {
+        "pair_id": 12,
+        "type": "straight",
+        "raw_response": "spreadsheet",
+        "extracted_word": "spreadsheet"
+      },
+      "25": {
+        "pair_id": 12,
+        "type": "funny",
+        "raw_response": "calculation",
+        "extracted_word": "calculation"
+      },
+      "26": {
+        "pair_id": 13,
+        "type": "straight",
+        "raw_response": "roots",
+        "extracted_word": "roots"
+      },
+      "27": {
+        "pair_id": 13,
+        "type": "funny",
+        "raw_response": "roots",
+        "extracted_word": "roots"
+      },
+      "28": {
+        "pair_id": 14,
+        "type": "straight",
+        "raw_response": "transparent",
+        "extracted_word": "transparent"
+      },
+      "29": {
+        "pair_id": 14,
+        "type": "funny",
+        "raw_response": "transparent",
+        "extracted_word": "transparent"
+      },
+      "30": {
+        "pair_id": 15,
+        "type": "straight",
+        "raw_response": "catch",
+        "extracted_word": "catch"
+      },
+      "31": {
+        "pair_id": 15,
+        "type": "funny",
+        "raw_response": "catch",
+        "extracted_word": "catch"
+      },
+      "32": {
+        "pair_id": 16,
+        "type": "straight",
+        "raw_response": "picked",
+        "extracted_word": "picked"
+      },
+      "33": {
+        "pair_id": 16,
+        "type": "funny",
+        "raw_response": "picked",
+        "extracted_word": "picked"
+      },
+      "34": {
+        "pair_id": 17,
+        "type": "straight",
+        "raw_response": "anchor",
+        "extracted_word": "anchor"
+      },
+      "35": {
+        "pair_id": 17,
+        "type": "funny",
+        "raw_response": "anchor",
+        "extracted_word": "anchor"
+      },
+      "36": {
+        "pair_id": 18,
+        "type": "straight",
+        "raw_response": "rise",
+        "extracted_word": "rise"
+      },
+      "37": {
+        "pair_id": 18,
+        "type": "funny",
+        "raw_response": "rise",
+        "extracted_word": "rise"
+      },
+      "38": {
+        "pair_id": 19,
+        "type": "straight",
+        "raw_response": "buzz",
+        "extracted_word": "buzz"
+      },
+      "39": {
+        "pair_id": 19,
+        "type": "funny",
+        "raw_response": "buzz",
+        "extracted_word": "buzz"
+      },
+      "40": {
+        "pair_id": 20,
+        "type": "straight",
+        "raw_response": "numbered",
+        "extracted_word": "numbered"
+      },
+      "41": {
+        "pair_id": 20,
+        "type": "funny",
+        "raw_response": "numbered",
+        "extracted_word": "numbered"
+      },
+      "42": {
+        "pair_id": 21,
+        "type": "straight",
+        "raw_response": "vision",
+        "extracted_word": "vision"
+      },
+      "43": {
+        "pair_id": 21,
+        "type": "funny",
+        "raw_response": "vision",
+        "extracted_word": "vision"
+      },
+      "44": {
+        "pair_id": 22,
+        "type": "straight",
+        "raw_response": "multiply",
+        "extracted_word": "multiply"
+      },
+      "45": {
+        "pair_id": 22,
+        "type": "funny",
+        "raw_response": "multiply",
+        "extracted_word": "multiply"
+      },
+      "46": {
+        "pair_id": 23,
+        "type": "straight",
+        "raw_response": "loafing",
+        "extracted_word": "loafing"
+      },
+      "47": {
+        "pair_id": 23,
+        "type": "funny",
+        "raw_response": "loafing",
+        "extracted_word": "loafing"
+      },
+      "48": {
+        "pair_id": 24,
+        "type": "straight",
+        "raw_response": "jam",
+        "extracted_word": "jam"
+      },
+      "49": {
+        "pair_id": 24,
+        "type": "funny",
+        "raw_response": "jam",
+        "extracted_word": "jam"
+      },
+      "50": {
+        "pair_id": 25,
+        "type": "straight",
+        "raw_response": "chemistry",
+        "extracted_word": "chemistry"
+      },
+      "51": {
+        "pair_id": 25,
+        "type": "funny",
+        "raw_response": "bond",
+        "extracted_word": "bond"
+      },
+      "52": {
+        "pair_id": 26,
+        "type": "straight",
+        "raw_response": "music",
+        "extracted_word": "music"
+      },
+      "53": {
+        "pair_id": 26,
+        "type": "funny",
+        "raw_response": "punch",
+        "extracted_word": "punch"
+      },
+      "54": {
+        "pair_id": 27,
+        "type": "straight",
+        "raw_response": "power",
+        "extracted_word": "power"
+      },
+      "55": {
+        "pair_id": 27,
+        "type": "funny",
+        "raw_response": "power",
+        "extracted_word": "power"
+      },
+      "56": {
+        "pair_id": 28,
+        "type": "straight",
+        "raw_response": "sign",
+        "extracted_word": "sign"
+      },
+      "57": {
+        "pair_id": 28,
+        "type": "funny",
+        "raw_response": "sign",
+        "extracted_word": "sign"
+      },
+      "58": {
+        "pair_id": 29,
+        "type": "straight",
+        "raw_response": "balance",
+        "extracted_word": "balance"
+      },
+      "59": {
+        "pair_id": 29,
+        "type": "funny",
+        "raw_response": "balance",
+        "extracted_word": "balance"
+      },
+      "60": {
+        "pair_id": 30,
+        "type": "straight",
+        "raw_response": "case",
+        "extracted_word": "case"
+      },
+      "61": {
+        "pair_id": 30,
+        "type": "funny",
+        "raw_response": "case",
+        "extracted_word": "case"
+      },
+      "62": {
+        "pair_id": 31,
+        "type": "straight",
+        "raw_response": "reception",
+        "extracted_word": "reception"
+      },
+      "63": {
+        "pair_id": 31,
+        "type": "funny",
+        "raw_response": "reception",
+        "extracted_word": "reception"
+      },
+      "64": {
+        "pair_id": 32,
+        "type": "straight",
+        "raw_response": "conclusions",
+        "extracted_word": "conclusions"
+      },
+      "65": {
+        "pair_id": 32,
+        "type": "funny",
+        "raw_response": "conclusions",
+        "extracted_word": "conclusions"
+      },
+      "66": {
+        "pair_id": 33,
+        "type": "straight",
+        "raw_response": "seconds",
+        "extracted_word": "seconds"
+      },
+      "67": {
+        "pair_id": 33,
+        "type": "funny",
+        "raw_response": "seconds",
+        "extracted_word": "seconds"
+      },
+      "68": {
+        "pair_id": 34,
+        "type": "straight",
+        "raw_response": "pupils",
+        "extracted_word": "pupils"
+      },
+      "69": {
+        "pair_id": 34,
+        "type": "funny",
+        "raw_response": "pupils",
+        "extracted_word": "pupils"
+      },
+      "70": {
+        "pair_id": 35,
+        "type": "straight",
+        "raw_response": "steep",
+        "extracted_word": "steep"
+      },
+      "71": {
+        "pair_id": 35,
+        "type": "funny",
+        "raw_response": "steep",
+        "extracted_word": "steep"
+      },
+      "72": {
+        "pair_id": 36,
+        "type": "straight",
+        "raw_response": "open",
+        "extracted_word": "open"
+      },
+      "73": {
+        "pair_id": 36,
+        "type": "funny",
+        "raw_response": "open",
+        "extracted_word": "open"
+      },
+      "74": {
+        "pair_id": 37,
+        "type": "straight",
+        "raw_response": "hand",
+        "extracted_word": "hand"
+      },
+      "75": {
+        "pair_id": 37,
+        "type": "funny",
+        "raw_response": "hand",
+        "extracted_word": "hand"
+      },
+      "76": {
+        "pair_id": 38,
+        "type": "straight",
+        "raw_response": "match",
+        "extracted_word": "match"
+      },
+      "77": {
+        "pair_id": 38,
+        "type": "funny",
+        "raw_response": "solution",
+        "extracted_word": "solution"
+      },
+      "78": {
+        "pair_id": 39,
+        "type": "straight",
+        "raw_response": "overdue",
+        "extracted_word": "overdue"
+      },
+      "79": {
+        "pair_id": 39,
+        "type": "funny",
+        "raw_response": "dated",
+        "extracted_word": "dated"
+      },
+      "80": {
+        "pair_id": 40,
+        "type": "straight",
+        "raw_response": "selfish",
+        "extracted_word": "selfish"
+      },
+      "81": {
+        "pair_id": 40,
+        "type": "funny",
+        "raw_response": "shellfish",
+        "extracted_word": "shellfish"
+      },
+      "82": {
+        "pair_id": 41,
+        "type": "straight",
+        "raw_response": "orders",
+        "extracted_word": "orders"
+      },
+      "83": {
+        "pair_id": 41,
+        "type": "funny",
+        "raw_response": "orders",
+        "extracted_word": "orders"
+      },
+      "84": {
+        "pair_id": 42,
+        "type": "straight",
+        "raw_response": "fired",
+        "extracted_word": "fired"
+      },
+      "85": {
+        "pair_id": 42,
+        "type": "funny",
+        "raw_response": "fired",
+        "extracted_word": "fired"
+      },
+      "86": {
+        "pair_id": 43,
+        "type": "straight",
+        "raw_response": "job",
+        "extracted_word": "job"
+      },
+      "87": {
+        "pair_id": 43,
+        "type": "funny",
+        "raw_response": "job",
+        "extracted_word": "job"
+      },
+      "88": {
+        "pair_id": 44,
+        "type": "straight",
+        "raw_response": "hole",
+        "extracted_word": "hole"
+      },
+      "89": {
+        "pair_id": 44,
+        "type": "funny",
+        "raw_response": "hole",
+        "extracted_word": "hole"
+      },
+      "90": {
+        "pair_id": 45,
+        "type": "straight",
+        "raw_response": "toasted",
+        "extracted_word": "toasted"
+      },
+      "91": {
+        "pair_id": 45,
+        "type": "funny",
+        "raw_response": "toasted",
+        "extracted_word": "toasted"
+      },
+      "92": {
+        "pair_id": 46,
+        "type": "straight",
+        "raw_response": "Brian",
+        "extracted_word": "brian"
+      },
+      "93": {
+        "pair_id": 46,
+        "type": "funny",
+        "raw_response": "Brian",
+        "extracted_word": "brian"
+      },
+      "94": {
+        "pair_id": 47,
+        "type": "straight",
+        "raw_response": "sweep",
+        "extracted_word": "sweep"
+      },
+      "95": {
+        "pair_id": 47,
+        "type": "funny",
+        "raw_response": "sweep",
+        "extracted_word": "sweep"
+      },
+      "96": {
+        "pair_id": 48,
+        "type": "straight",
+        "raw_response": "see",
+        "extracted_word": "see"
+      },
+      "97": {
+        "pair_id": 48,
+        "type": "funny",
+        "raw_response": "see",
+        "extracted_word": "see"
+      },
+      "98": {
+        "pair_id": 49,
+        "type": "straight",
+        "raw_response": "connections",
+        "extracted_word": "connections"
+      },
+      "99": {
+        "pair_id": 49,
+        "type": "funny",
+        "raw_response": "connections",
+        "extracted_word": "connections"
+      }
+    }
+  }
+}
