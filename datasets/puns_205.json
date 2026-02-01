@@ -54,7 +54,9 @@
       "journalists",
       "demands",
       "deadlines",
-      "tasks"
+      "tasks",
+      "stories",
+      "pressures"
     ],
     "punny": [
       "issues"
@@ -142,7 +144,8 @@
       "celebrated"
     ],
     "punny": [
-      "down to earth"
+      "down to earth",
+      "grounded"
     ],
     "explanation": "\"Down to earth\" means both humble/grounded in personality and literally descending back to Earth after parachuting from space. The literal and figurative meanings align perfectly.",
     "gemini_rating": 8,
@@ -612,7 +615,8 @@
       "performance"
     ],
     "punny": [
-      "drumsticks"
+      "drumsticks",
+      "drumstick"
     ],
     "explanation": "\"Drumsticks\" means both the sticks used for percussion instruments and the leg portions of a chicken. The chicken winning a percussion contest cleverly bridges both meanings.",
     "gemini_rating": 8,
@@ -1052,7 +1056,9 @@
       "passport",
       "impression",
       "impact",
-      "legacy"
+      "legacy",
+      "valuable",
+      "keys"
     ],
     "punny": [
       "stamp"
@@ -1283,7 +1289,8 @@
       "shifting"
     ],
     "punny": [
-      "crumbling"
+      "crumbling",
+      "crumbing"
     ],
     "explanation": "\"Crumbling\" means both falling apart (as evidence in a mystery might become unreliable) and what baked goods do when they break apart. The baker-mystery combination works but feels slightly forced.",
     "gemini_rating": 7,
@@ -1315,7 +1322,8 @@
       "villain",
       "menace",
       "criminal",
-      "outlaw"
+      "outlaw",
+      "man"
     ],
     "punny": [
       "medium at large"
@@ -1592,7 +1600,8 @@
       "ambiance"
     ],
     "punny": [
-      "atmosphere"
+      "atmosphere",
+      "space"
     ],
     "explanation": "\"Atmosphere\" means both the ambiance of a restaurant and the layer of gases surrounding Earth that an astronaut passes through. An astronaut appreciating 'atmosphere' after returning from space is a nice touch.",
     "gemini_rating": 7,
@@ -1984,7 +1993,8 @@
     "straight": [
       "short",
       "rushed",
-      "scrambling"
+      "scrambling",
+      "looking"
     ],
     "punny": [
       "pressed"
@@ -2061,7 +2071,10 @@
       "longwinded",
       "technical",
       "dry",
-      "complicated"
+      "complicated",
+      "cliche",
+      "litigious",
+      "argumentative"
     ],
     "punny": [
       "brief"
@@ -2603,7 +2616,8 @@
     "punny": [
       "cap",
       "fun-gi",
-      "fungus"
+      "fungus",
+      "fungi"
     ],
     "explanation": "\"Cap\" means both a salary cap or limit on earnings and the cap of a mushroom (the top part). The connection between a mushroom's anatomy and wage restrictions is inventive.",
     "gemini_rating": 6,
@@ -2677,10 +2691,12 @@
       "stained",
       "suffer",
       "fail",
-      "fend"
+      "fend",
+      "washed"
     ],
     "punny": [
-      "hung out to dry"
+      "hung out to dry",
+      "folded"
     ],
     "explanation": "\"Hung out to dry\" means both abandoned or betrayed and the literal act of hanging laundry on a line to dry. The idiom maps perfectly to the literal laundry action.",
     "gemini_rating": 8,
@@ -2788,7 +2804,8 @@
       "teacher",
       "sense",
       "melody",
-      "gift"
+      "gift",
+      "beat"
     ],
     "punny": [
       "staff",
@@ -3072,7 +3089,8 @@
       "basics"
     ],
     "punny": [
-      "scales"
+      "scales",
+      "bass"
     ],
     "explanation": "\"Scales\" means both musical scales (practiced when learning guitar) and fish scales (covering a fish's body). Both meanings are strongly relevant to their respective subjects.",
     "gemini_rating": 8,
@@ -3183,10 +3201,12 @@
       "surface",
       "bluff",
       "lies",
-      "excuses"
+      "excuses",
+      "smoke"
     ],
     "punny": [
-      "baloney"
+      "baloney",
+      "meat"
     ],
     "explanation": "\"Baloney\" means both nonsense or lies (seeing through the baloney in arguments) and bologna deli meat. The deli context grounds the meat meaning.",
     "gemini_rating": 7,
@@ -3282,7 +3302,8 @@
       "money",
       "pressure",
       "pucks",
-      "transactions"
+      "transactions",
+      "puck"
     ],
     "punny": [
       "checks"
@@ -3760,7 +3781,9 @@
       "interview"
     ],
     "punny": [
-      "screen"
+      "screen",
+      "frame",
+      "develop"
     ],
     "explanation": "\"Screen\" means both to vet or evaluate people (HR screening) and to show a film (film screening). The 'somehow ended up' phrase cleverly suggests an unexpected career shift.",
     "gemini_rating": 7,
@@ -3846,7 +3869,8 @@
     ],
     "punny": [
       "mean",
-      "analytical"
+      "analytical",
+      "variable"
     ],
     "explanation": "\"Mean\" refers to both being unkind/unfriendly and the statistical average (mean), which is what a data scientist calculates. The word 'average' in the setup cleverly hints at the statistical meaning.",
     "gemini_rating": 6,
@@ -4140,7 +4164,8 @@
     ],
     "punny": [
       "cents",
-      "change"
+      "change",
+      "sense"
     ],
     "explanation": "\"Cents\" sounds like \"sense\" -- the coin maker stopped making any cents (coins) and also stopped making any sense (being rational) after going crazy. The homophone pun is clean.",
     "gemini_rating": 8,
@@ -4378,10 +4403,13 @@
       "hate",
       "cruelty",
       "sorrow",
-      "damage"
+      "damage",
+      "crying",
+      "separation"
     ],
     "punny": [
-      "exposure"
+      "exposure",
+      "shooting"
     ],
     "explanation": "\"Exposure\" means both emotional vulnerability/public attention (in a divorce context) and photographic exposure (light hitting film/sensor). A wedding photographer avoiding divorces because of too much exposure connects the emotional toll to the technical photography term.",
     "gemini_rating": 8,
@@ -4606,7 +4634,8 @@
       "rigid"
     ],
     "punny": [
-      "stern"
+      "stern",
+      "anchored"
     ],
     "explanation": "\"Stern\" means both strict/unyielding (hard to negotiate with) and the rear section of a ship. The ship captain connection makes both meanings land naturally.",
     "gemini_rating": 8,
@@ -5077,7 +5106,9 @@
       "conspiracy",
       "theft",
       "arson",
-      "fraud"
+      "fraud",
+      "murder",
+      "stealing"
     ],
     "punny": [
       "battery"
@@ -5548,7 +5579,8 @@
     ],
     "punny": [
       "sew-sew",
-      "seamy"
+      "seamy",
+      "sewing"
     ],
     "explanation": "\"Sew-sew\" is a homophone of \"so-so\" (meaning mediocre), while also referencing sewing, a tailor's primary activity. The phonetic pun is simple but effective.",
     "gemini_rating": 7,
@@ -5929,7 +5961,8 @@
       "anxious",
       "overcrowded",
       "bored",
-      "guilty"
+      "guilty",
+      "dumb"
     ],
     "punny": [
       "shallow",
@@ -6244,11 +6277,14 @@
       "work",
       "hit",
       "succeed",
-      "connect"
+      "connect",
+      "amuse"
     ],
     "punny": [
       "land",
-      "take off"
+      "take off",
+      "fly",
+      "landed"
     ],
     "explanation": "\"Land\" means both to touch down (what planes do) and to succeed or connect (as in a joke landing with an audience). \"Take off\" similarly means both an airplane departing and something becoming popular. Both pun words work well for a pilot.",
     "gemini_rating": 8,
@@ -6288,7 +6324,8 @@
       "schmoozer",
       "supporter",
       "hit",
-      "deal"
+      "deal",
+      "scam"
     ],
     "punny": [
       "fan",
@@ -6445,7 +6482,8 @@
       "clearing"
     ],
     "punny": [
-      "bluff"
+      "bluff",
+      "peak"
     ],
     "explanation": "\"Bluff\" means both a steep cliff/overlook at the end of a trail and a poker bluff (deceptive play). The poker player enjoying a trail that ends at a bluff connects both meanings naturally.",
     "gemini_rating": 7,
@@ -6703,7 +6741,10 @@
       "warrior",
       "fighter",
       "leader",
-      "candidate"
+      "candidate",
+      "target",
+      "joke",
+      "man"
     ],
     "punny": [
       "fit",

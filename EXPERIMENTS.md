@@ -60,26 +60,26 @@ word lists in `datasets/puns_205.json`.
 
 | Model | Context | Straight | Funny | Other |
 |-------|---------|:--------:|:-----:|:-----:|
-| Llama-3.2-3B | straight | 72% | 0% | 28% |
-| | funny | 70% | 0% | 30% |
-| Llama-3.1-8B | straight | 60% | 6% | 34% |
-| | funny | 48% | 10% | 42% |
-| Llama-3.1-70B | straight | 66% | 12% | 22% |
-| | funny | 34% | 34% | 32% |
-| Llama-3.3-70B | straight | 66% | 8% | 26% |
-| | funny | 36% | 32% | 32% |
-| Llama-3.1-405B | straight | 66% | 18% | 16% |
-| | funny | 22% | 46% | 32% |
+| Llama-3.2-3B | straight | 80% | 0% | 20% |
+| | funny | 76% | 2% | 22% |
+| Llama-3.1-8B | straight | 74% | 8% | 18% |
+| | funny | 62% | 10% | 28% |
+| Llama-3.1-70B | straight | 74% | 14% | 12% |
+| | funny | 36% | 52% | 12% |
+| Llama-3.3-70B | straight | 74% | 14% | 12% |
+| | funny | 42% | 50% | 8% |
+| Llama-3.1-405B | straight | 70% | 22% | 8% |
+| | funny | 26% | 64% | 10% |
 
 #### Context Effect: Funny-Rate Shift
 
 | Model | P(funny \| straight ctx) | P(funny \| funny ctx) | Delta |
 |-------|:-:|:-:|:-:|
-| Llama-3.2-3B | 0% | 0% | +0pp |
-| Llama-3.1-8B | 6% | 10% | +4pp |
-| Llama-3.1-70B | 12% | 34% | +22pp |
-| Llama-3.3-70B | 8% | 32% | +24pp |
-| Llama-3.1-405B | 18% | 46% | +28pp |
+| Llama-3.2-3B | 0% | 2% | +2pp |
+| Llama-3.1-8B | 8% | 10% | +2pp |
+| Llama-3.1-70B | 14% | 52% | +38pp |
+| Llama-3.3-70B | 14% | 50% | +36pp |
+| Llama-3.1-405B | 22% | 64% | +42pp |
 
 #### Plots
 
@@ -94,33 +94,35 @@ word lists in `datasets/puns_205.json`.
 ### Key Findings
 
 1. **Context sensitivity scales monotonically with model size.** The funny-rate
-   delta increases steadily from +0pp (3B) through +4pp (8B) to +22–28pp
-   (70B–405B). Larger models are not just better at puns — they are
-   specifically better at recognizing when the surrounding context invites a pun.
+   delta increases from +2pp (3B, 8B) to +36–42pp (70B–405B). Larger models
+   are not just better at puns — they are specifically better at recognizing
+   when the surrounding context invites a pun.
 
-2. **The 3B model is completely pun-blind.** It produces 0% funny completions
-   regardless of context. It doesn't recognize the pun opportunity at all,
-   and the context manipulation has no effect.
+2. **The 3B and 8B models are largely pun-blind.** The 3B model produces
+   nearly 0% funny completions regardless of context. The 8B model manages
+   8–10% funny but with only a +2pp context effect — it occasionally detects
+   pun structure but context provides almost no nudge.
 
-3. **The 8B model shows early pun awareness.** It produces a small number of
-   pun completions (6–10%) with a modest +4pp context effect. This suggests
-   the 8B model is at the threshold of pun recognition — it occasionally
-   detects the pun structure, but context provides only a small nudge.
+3. **A sharp phase transition occurs between 8B and 70B.** The context effect
+   jumps from +2pp at 8B to +38pp at 70B — a 19x increase. This suggests
+   pun-in-context recognition requires a threshold level of model capacity
+   that is crossed somewhere in the 8B–70B range.
 
 4. **70B+ models show strong context-driven pun activation.** The 70B and
-   3.3-70B models jump from 8–12% funny in straight context to 32–34% in
-   funny context (+22–24pp). The 405B model shows the largest shift: 18%
-   to 46% (+28pp). These models have the capacity to recognize and produce
-   puns, but only do so when the surrounding context activates pun-mode
-   processing.
+   3.3-70B models jump from 14% funny in straight context to 50–52% in
+   funny context (+36–38pp). The 405B model shows the largest shift: 22%
+   to 64% (+42pp). These models have the capacity to recognize and produce
+   puns, but mostly do so only when the surrounding context activates
+   pun-mode processing.
 
 5. **Straight completions are suppressed by funny context.** Across all models
    with pun awareness, the straight-completion rate drops sharply in funny
-   context: from 66% to 22–36% for the 70B+ models. This is the flip side
+   context: from 70–74% to 26–42% for the 70B+ models. This is the flip side
    of the funny-rate increase and confirms the context manipulation is
    genuinely shifting model behavior, not just adding noise.
 
-6. **The "other" category increases with model size under funny context.**
-   Large models in funny context produce more responses that don't match
-   either word list (22–32% other), suggesting they sometimes produce
-   creative pun-adjacent completions that aren't in the curated lists.
+6. **The 405B model produces majority-pun completions under funny context.**
+   At 64% funny in funny context, the 405B model is the only one where pun
+   completions become the dominant response category when primed. This
+   suggests that the largest model has the strongest latent pun-recognition
+   capability, which context can reliably activate.
