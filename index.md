@@ -6,7 +6,8 @@ title: "Do LLMs Know What a Pun Is?"
 # Do LLMs Know What a Pun Is?
 
 **Research question:** Do large language models know what a pun is?
-How do they represent that awareness?
+How do they represent that awareness?  And does pun awareness play any
+role beyond forming a joke to make people laugh?
 
 This project is a research demo developed as part of
 [Neural Mechanics](https://neural-mechanics.baulab.info/), a course on
@@ -15,9 +16,38 @@ fully develop an example piece of new research using the methods of the
 class: creating datasets with large-scale LLMs, selecting target models,
 measuring model behavior, and isolating internal representations.
 
-## The Setup: Puns as a Window into LLM Understanding
+## Why Puns?
 
-Puns are an ideal test case for probing language model understanding.
+Humor is not well-understood, and it's fun to study.  But puns are
+interesting for deeper reasons than entertainment.
+
+A pun is a word that holds **two meanings at the same time**.  "Battery"
+is both a criminal charge and an iPhone component.  "Draft" is both an
+NBA selection and the start of a manuscript.  This is a form of
+**superposition in visible human vocabulary** — a single token encoding
+two distinct concepts simultaneously.
+
+This connects to one of the central phenomena we study in Neural Mechanics:
+the **superposition hypothesis**, where neural network features are packed
+into fewer dimensions than there are concepts to represent.  Puns are a
+case where this sparse coding isn't hidden inside activations — it's right
+there in the words themselves.  How deep does this visible superposition go?
+How difficult is it for models to wrestle with two meanings at once?
+
+Humans find puns funny, especially kids, and we don't fully understand why.
+What is the purpose of humor?  One possibility is that the recognition of
+double meaning — the moment of *seeing both readings at once* — is itself
+the cognitive event that produces the feeling of humor.  If so, then pun
+awareness in a language model might be more than a party trick.  It might
+reflect something about how the model processes ambiguity, resolves
+polysemy, and represents the relationships between concepts.
+
+So we want to isolate the processing of puns: see what triggers it, test
+whether we can suppress it, and ask what happens to the model when we do.
+**Does pun awareness play any other role beyond forming a joke?**
+
+## The Setup
+
 Every pun has two readings: a **straight** (literal) meaning and a **funny**
 (double-meaning) interpretation.  For example:
 
@@ -179,9 +209,19 @@ awareness, the next phase of this research will use the interpretability
 methods from [Neural Mechanics](https://neural-mechanics.baulab.info/) to
 locate and understand the internal representations that drive this behavior:
 
-- **Where** in the model does pun-awareness emerge?
+- **Where** in the model does pun-awareness emerge?  At what layer does the
+  model begin to represent the double meaning?
 - **What** internal features distinguish "pun mode" from "straight mode"?
+  Is there a sparse feature or direction in activation space that encodes
+  pun-awareness?
 - **Can** we causally intervene to activate or suppress pun completion?
+  If we clamp the pun-awareness feature off, does the model lose the
+  ability to make jokes?
+- **Does pun awareness serve any other purpose?**  If we suppress the
+  feature that drives pun completion, does the model also lose something
+  else — the ability to process polysemy, to handle ambiguity, to reason
+  about words with multiple meanings?  Or is pun-awareness a narrow,
+  isolated skill?
 
 ## Project Structure
 
