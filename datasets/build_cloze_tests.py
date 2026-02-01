@@ -4,11 +4,15 @@ Build 100 contrastive cloze test prompts from puns_205.json using tier-aware
 triple selection.
 
 Algorithm:
-  1. Partition 205 jokes by cloze_tier
-  2. Sort leaning jokes by cloze_balance DESC (most balanced first)
-  3. Split leaning into top-8 (→ C pool) and next-12 (→ AB pool)
-  4. C_pool  = balanced(42) + leaning_top8(8)   = 50 target jokes
-     AB_pool = straight_dominated(88) + leaning_next12(12) = 100 context jokes
+  1. Partition 205 jokes by cloze_tier (88 straight_dominated, 42 balanced,
+     51 leaning, 24 funny_dominated)
+  2. C_pool (targets): 50 from 88 straight_dominated jokes.  These are jokes
+     where models default to the straight completion, so only strong pun
+     context can "unlock" the funny answer.
+  3. AB_pool (context): 42 balanced + 51 leaning + remaining 38
+     straight_dominated = 131 available; pick 100.  These jokes have clear
+     pun/straight contrasts that provide effective priming.
+  4. 24 funny_dominated jokes are excluded (always puns, poor context contrast).
   5. Shuffle both pools deterministically (seed=42)
   6. Form 50 triples: A=AB[2i], B=AB[2i+1], C=C_pool[i]
   7. Emit 2 tests per triple (straight-primed and funny-primed)
@@ -40,29 +44,40 @@ def truncate_before_blank(sentence):
     return sentence[:idx].rstrip()
 
 
-def build_pools(jokes):
-    """Partition jokes into C_pool (targets) and AB_pool (context) by tier."""
+def build_pools(jokes, seed=42):
+    """Partition jokes into C_pool (targets) and AB_pool (context) by tier.
+
+    Strategy: C targets are straight_dominated jokes (models default to
+    straight completions), so funny context can "unlock" the pun.  AB context
+    uses balanced + leaning + leftover straight_dominated for clear contrast.
+    Funny_dominated jokes are excluded (always puns, no contrast).
+    """
     balanced = [j for j in jokes if j.get("cloze_tier") == "balanced"]
     leaning = [j for j in jokes if j.get("cloze_tier") == "leaning"]
     straight_dominated = [j for j in jokes if j.get("cloze_tier") == "straight_dominated"]
     funny_dominated = [j for j in jokes if j.get("cloze_tier") == "funny_dominated"]
 
-    # Sort leaning by balance DESC (most balanced first → best targets)
-    leaning.sort(key=lambda j: j.get("cloze_balance", 0), reverse=True)
+    # Shuffle straight_dominated to pick 50 for C, rest go to AB
+    rng = random.Random(seed)
+    sd_shuffled = list(straight_dominated)
+    rng.shuffle(sd_shuffled)
 
-    leaning_for_c = leaning[:8]
-    leaning_for_ab = leaning[8:20]
+    c_pool = sd_shuffled[:50]
+    sd_remainder = sd_shuffled[50:]  # 38 leftover
 
-    c_pool = balanced + leaning_for_c
-    ab_pool = straight_dominated + leaning_for_ab
+    # AB pool: balanced + leaning + remaining straight_dominated
+    ab_candidates = balanced + leaning + sd_remainder
+    rng.shuffle(ab_candidates)
+    ab_pool = ab_candidates[:100]
 
     return c_pool, ab_pool, {
         "balanced": len(balanced),
         "leaning": len(leaning),
         "straight_dominated": len(straight_dominated),
         "funny_dominated": len(funny_dominated),
-        "leaning_for_c": len(leaning_for_c),
-        "leaning_for_ab": len(leaning_for_ab),
+        "sd_for_c": len(c_pool),
+        "sd_remainder_for_ab": len(sd_remainder),
+        "ab_candidates": len(ab_candidates),
         "c_pool": len(c_pool),
         "ab_pool": len(ab_pool),
     }
@@ -83,18 +98,18 @@ def main():
     with open(BASE / "puns_205.json") as f:
         jokes = json.load(f)
 
-    c_pool, ab_pool, stats = build_pools(jokes)
+    c_pool, ab_pool, stats = build_pools(jokes, seed=args.seed)
 
     # ── Print pool composition ───────────────────────────────────────────
     print(f"Pool composition (seed={args.seed}):")
     print(f"  Tier counts: {stats['balanced']} balanced, {stats['leaning']} leaning, "
           f"{stats['straight_dominated']} straight_dominated, {stats['funny_dominated']} funny_dominated")
-    print(f"  Leaning split: top {stats['leaning_for_c']} → C pool, "
-          f"next {stats['leaning_for_ab']} → AB pool")
     print(f"  C pool  (targets):  {stats['c_pool']} jokes "
-          f"({stats['balanced']} balanced + {stats['leaning_for_c']} leaning)")
+          f"(from {stats['straight_dominated']} straight_dominated)")
     print(f"  AB pool (context):  {stats['ab_pool']} jokes "
-          f"({stats['straight_dominated']} straight_dominated + {stats['leaning_for_ab']} leaning)")
+          f"(from {stats['ab_candidates']} candidates: {stats['balanced']} balanced + "
+          f"{stats['leaning']} leaning + {stats['sd_remainder_for_ab']} straight_dominated remainder)")
+    print(f"  Excluded: {stats['funny_dominated']} funny_dominated")
 
     assert len(c_pool) == 50, f"Expected 50 C-pool jokes, got {len(c_pool)}"
     assert len(ab_pool) == 100, f"Expected 100 AB-pool jokes, got {len(ab_pool)}"
@@ -105,10 +120,7 @@ def main():
     overlap = c_indices & ab_indices
     assert not overlap, f"Overlap between C and AB pools: {overlap}"
 
-    # ── Shuffle deterministically ────────────────────────────────────────
-    random.seed(args.seed)
-    random.shuffle(c_pool)
-    random.shuffle(ab_pool)
+    # Pools are already shuffled deterministically inside build_pools()
 
     if args.dry_run:
         print(f"\n  Sample triples (first 5):")

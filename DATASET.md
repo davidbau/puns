@@ -114,16 +114,20 @@ pun completions.
 
 **Script:** `build_cloze_tests.py`
 
-The test builder uses **tier-aware triple selection** to ensure target jokes (C) are
-genuinely ambiguous while context jokes (A, B) are one-sided:
+The test builder uses **tier-aware triple selection** designed so that target jokes (C)
+are ones where models naturally default to the straight completion, while context jokes
+(A, B) provide clear pun/straight contrasts for priming:
 
 ```
 1. Partition 205 jokes by cloze_tier
-2. Sort leaning jokes by cloze_balance DESC
-3. Split leaning: top 8 → C pool, next 12 → AB pool
-4. C_pool  = balanced(42) + leaning_for_C(8)   = 50 target jokes
-   AB_pool = straight_dominated(88) + leaning_for_AB(12) = 100 context jokes
-5. Shuffle both pools (seed=42)
+2. C_pool (targets): 50 from 88 straight_dominated jokes
+   - Models default to straight completions on these jokes
+   - Funny context must "unlock" the pun — measuring true context sensitivity
+3. AB_pool (context): 100 from 131 candidates
+   (42 balanced + 51 leaning + 38 remaining straight_dominated)
+   - These jokes have clear straight/funny word pairs for effective priming
+4. Exclude 24 funny_dominated (always puns, poor context contrast)
+5. Shuffle both pools deterministically (seed=42)
 6. Form 50 triples: A = AB[2i], B = AB[2i+1], C = C_pool[i]
 7. For each triple, emit 2 tests (straight-primed and funny-primed)
 ```
@@ -133,9 +137,9 @@ genuinely ambiguous while context jokes (A, B) are one-sided:
 - Funny prefill: `joke["punny"][0]` (highest-frequency pun word)
 - Context: `fill(A, word) + " " + fill(B, word) + " " + truncate(C)`
 
-The 24 funny-dominated jokes and 31 remaining leaning jokes are excluded from tests —
-funny-dominated jokes don't work as straight context, and the remaining leaning jokes
-are neither balanced enough for targets nor one-sided enough for context.
+The 24 funny-dominated jokes are excluded — they always produce puns regardless of
+context, so they don't work as contrastive context. The remaining 31 jokes from the
+AB candidate pool (131 - 100 = 31) are also excluded to keep the pool at exactly 100.
 
 **Output:** `contextual_cloze_tests_100.json` (100 entries = 50 pairs x 2)
 
@@ -196,6 +200,6 @@ Total:             205 jokes
 ```
 
 In the contrastive tests:
-- **C pool (targets):** 42 balanced + 8 leaning = 50 jokes
-- **AB pool (context):** 88 straight_dominated + 12 leaning = 100 jokes
-- **Excluded:** 24 funny_dominated + 31 remaining leaning = 55 jokes
+- **C pool (targets):** 50 straight_dominated jokes (models default to straight completions)
+- **AB pool (context):** 100 from 42 balanced + 51 leaning + 38 straight_dominated remainder
+- **Excluded:** 24 funny_dominated + 31 overflow from AB candidates = 55 jokes
