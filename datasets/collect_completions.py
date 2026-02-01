@@ -29,7 +29,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 BASE = Path(__file__).parent
 
 # Load env
-env_path = BASE / ".env.local"
+env_path = BASE.parent / ".env.local"
 if env_path.exists():
     for line in env_path.read_text().splitlines():
         line = line.strip()

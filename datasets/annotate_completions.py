@@ -31,7 +31,7 @@ import requests as req_lib
 BASE = Path(__file__).parent
 
 # ── Load environment ─────────────────────────────────────────────────────────
-env_path = BASE / ".env.local"
+env_path = BASE.parent / ".env.local"
 if env_path.exists():
     for line in env_path.read_text().splitlines():
         line = line.strip()
