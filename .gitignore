@@ -1,0 +1,6 @@
+.env.local
+*.swp
+*.swo
+__pycache__/
+*.pyc
+.claude/

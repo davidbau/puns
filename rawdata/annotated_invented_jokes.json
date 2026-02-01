@@ -1,0 +1,1282 @@
+[
+  {
+    "id": 1001,
+    "sentence": "The earthquake couldn't accept blame because nothing was ever his ___",
+    "straight": [
+      "responsibility",
+      "problem",
+      "concern"
+    ],
+    "punny": [
+      "fault"
+    ],
+    "claudecode_explanation": "'Fault' means both blame/responsibility AND a geological fault line where earthquakes originate. The setup with earthquake directly activates the geology meaning while 'couldn't accept blame' sets up the blame meaning. Both meanings work simultaneously and naturally \u2014 tight, clever pun.",
+    "claudecode_rating": 8,
+    "gemini_explanation": "\"Fault\" can mean both responsibility and a geological fracture, which is the cause of earthquakes.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun relies on the double meaning of 'fault,' which can refer to a geological fault line or a mistake for which one is responsible.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun plays on 'fault' meaning both personal responsibility/blame and a geological crack that causes earthquakes. The setup naturally connects earthquakes with the geological term.",
+    "anthropic_rating": 7
+  },
+  {
+    "id": 1002,
+    "sentence": "The archaeologist's career was in ___",
+    "straight": [
+      "trouble",
+      "jeopardy",
+      "decline"
+    ],
+    "punny": [
+      "ruins"
+    ],
+    "claudecode_explanation": "'Ruins' means both a career being ruined/in bad shape AND archaeological ruins that archaeologists study. The archaeologist context activates the ancient ruins meaning while 'career was in' naturally leads to the trouble meaning. Classic concept, well-executed.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Ruins\" refers both to the remnants of an archaeological site and a state of decay or failure.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun works because 'ruins' refers to both the remains of ancient structures and a state of destruction or decline.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun works on 'ruins' meaning both career destruction and ancient archaeological remains that archaeologists study. Clean double meaning with natural setup.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1003,
+    "sentence": "The math teacher's garden was full of ___",
+    "straight": [
+      "weeds",
+      "flowers",
+      "vegetables"
+    ],
+    "punny": [
+      "square roots"
+    ],
+    "claudecode_explanation": "'Square roots' is both a mathematical concept AND a play on plant roots. The math teacher activates the math meaning while 'garden was full of' activates the botanical meaning. Clever combination, though it's a fairly well-known pun.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Square roots\" are both a mathematical concept and the roots of plants in a garden.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun is based on 'square roots,' which are mathematical terms and also suggest a type of plant root, fitting the garden theme.",
+    "openai_rating": 8,
+    "anthropic_explanation": "The pun connects 'square roots' as both mathematical concepts and literal plant roots that are square-shaped. The math teacher context makes this work well.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1004,
+    "sentence": "The baker told his lazy son to stop ___ around",
+    "straight": [
+      "messing",
+      "fooling",
+      "hanging"
+    ],
+    "punny": [
+      "loafing"
+    ],
+    "claudecode_explanation": "'Loafing' means being lazy/idle AND relates to a loaf of bread. Baker context activates the bread meaning while 'lazy son' + 'stop ___ around' activates the idleness idiom. Natural phrasing, both meanings work well.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Loafing\" means being lazy, but also refers to a loaf of bread, connecting to the baker.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun uses 'loafing,' which means being lazy, and also refers to a loaf of bread, fitting the baker context.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun uses 'loafing' meaning both being lazy and the bread-making process. The baker context makes this a natural and clever connection.",
+    "anthropic_rating": 7
+  },
+  {
+    "id": 1005,
+    "sentence": "The ship captain was impossible to negotiate with because he was too ___",
+    "straight": [
+      "stubborn",
+      "rigid",
+      "demanding"
+    ],
+    "punny": [
+      "stern"
+    ],
+    "claudecode_explanation": "'Stern' means strict/unyielding AND the back section of a ship. Ship captain activates the nautical meaning while 'impossible to negotiate with' activates the personality meaning. Tight, natural double meaning.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Stern\" means strict or unyielding, but also refers to the rear part of a ship.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun uses 'stern,' which describes someone who is strict and also refers to the back of a ship, fitting the captain theme.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun plays on 'stern' meaning both strict/inflexible personality and the rear part of a ship. The ship captain context makes this work perfectly.",
+    "anthropic_rating": 7
+  },
+  {
+    "id": 1006,
+    "sentence": "The tree dreaded autumn because that's when it had to ___",
+    "straight": [
+      "change",
+      "prepare",
+      "suffer"
+    ],
+    "punny": [
+      "leave"
+    ],
+    "claudecode_explanation": "'Leave' means depart AND relates to leaves falling from a tree. However, trees don't actually 'leave' \u2014 their leaves fall off. The verb/noun mismatch weakens the pun slightly, though the autumn dread framing is charming.",
+    "claudecode_rating": 6,
+    "gemini_explanation": "\"Leave\" means to depart, but also refers to the leaves falling from a tree in autumn.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun hinges on 'leave,' which means to depart and also refers to the leaves of a tree, relevant to autumn.",
+    "openai_rating": 5,
+    "anthropic_explanation": "The pun uses 'leave' meaning both to depart and the leaves that fall from trees in autumn. Simple but effective with the tree context.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1007,
+    "sentence": "The window installer finally admitted his biggest mistake was a real ___",
+    "straight": [
+      "disaster",
+      "problem",
+      "embarrassment"
+    ],
+    "punny": [
+      "pane"
+    ],
+    "claudecode_explanation": "'Pane' is a homophone for 'pain' AND is a window pane. Window installer activates the glass meaning while 'biggest mistake was a real pain' is a natural expression. Great homophone pun with clean setup.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Pane\" refers to a sheet of glass in a window, but also sounds like \"pain\", implying a troublesome mistake.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun uses 'pane,' which refers to a window pane and sounds like 'pain,' fitting the context of a mistake.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun connects 'pane' meaning both pain/trouble and window glass panels. The window installer context makes this work, though it's somewhat predictable.",
+    "anthropic_rating": 5
+  },
+  {
+    "id": 1008,
+    "sentence": "The prison's phone service was terrible because of all the dropped ___",
+    "straight": [
+      "calls",
+      "connections",
+      "signals"
+    ],
+    "punny": [
+      "cells"
+    ],
+    "claudecode_explanation": "'Cells' means prison cells AND relates to cell phone/cellular service. 'Dropped cells' cleverly evokes dropped calls on cellular networks while the prison context activates the jail cell meaning. Inventive connection between phone service and prison.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Cells\" refers to prison cells, but also to cellular phone connections.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun relies on 'cells,' which can mean prison cells or biological cells, and sounds like 'calls,' fitting the phone service context.",
+    "openai_rating": 5,
+    "anthropic_explanation": "The pun plays on 'cells' meaning both phone signal cells and prison cells. The prison context makes this connection work well.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1009,
+    "sentence": "The newspaper editor was always ___ for time",
+    "straight": [
+      "short",
+      "rushed",
+      "scrambling"
+    ],
+    "punny": [
+      "pressed"
+    ],
+    "claudecode_explanation": "'Pressed' means rushed/under pressure AND relates to a printing press. The newspaper context activates the printing press meaning while 'pressed for time' is a natural idiom for being rushed. Both meanings are equally strong.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Pressed\" means feeling rushed, but also refers to the printing press used for newspapers.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun uses 'pressed,' which refers to being in a hurry and also relates to the printing press, fitting the newspaper context.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun uses 'pressed' meaning both time pressure and the printing press process. The newspaper editor context makes this a solid connection.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1010,
+    "sentence": "The retired pilot's therapist said he was surprisingly well ___",
+    "straight": [
+      "adjusted",
+      "balanced",
+      "centered"
+    ],
+    "punny": [
+      "grounded"
+    ],
+    "claudecode_explanation": "'Grounded' means psychologically stable/well-adjusted AND refers to a plane being grounded (unable to fly). A retired pilot being 'well grounded' works perfectly as both a therapeutic assessment and an ironic aviation reference. Excellent dual meaning.",
+    "claudecode_rating": 8,
+    "gemini_explanation": "\"Grounded\" means well-balanced, but also refers to an airplane being unable to fly.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun uses 'grounded,' which means well-adjusted and also refers to being on the ground, fitting the pilot theme.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun connects 'grounded' meaning both psychologically stable and aviation term for not flying. The retired pilot context makes this particularly clever.",
+    "anthropic_rating": 7
+  },
+  {
+    "id": 1011,
+    "sentence": "The elephant always packed light except for his ___",
+    "straight": [
+      "toiletries",
+      "snacks",
+      "blanket"
+    ],
+    "punny": [
+      "trunk"
+    ],
+    "claudecode_explanation": "'Trunk' means a travel trunk/luggage AND an elephant's trunk. The elephant 'always packed light except for his trunk' \u2014 he can't leave his trunk behind either way. The joke structure makes the inevitable trunk both literal and figurative. Clean and clever.",
+    "claudecode_rating": 8,
+    "gemini_explanation": "\"Trunk\" refers to an elephant's nose, but also to luggage.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun uses 'trunk,' which refers to an elephant's nose and also a storage container, fitting the packing context.",
+    "openai_rating": 5,
+    "anthropic_explanation": "The pun plays on 'trunk' meaning both luggage storage and an elephant's nose. Simple but the contrast with 'packed light' makes it work.",
+    "anthropic_rating": 5
+  },
+  {
+    "id": 1012,
+    "sentence": "The judge loved serving ice cream because he could finally hand out just ___",
+    "straight": [
+      "treats",
+      "scoops",
+      "rewards"
+    ],
+    "punny": [
+      "desserts"
+    ],
+    "claudecode_explanation": "'Desserts' plays on 'just deserts' (deserved punishment) AND ice cream desserts. The judge context activates justice/punishment while 'serving ice cream' activates the sweet treats meaning. 'Hand out just desserts' works in both senses, though the spelling difference (deserts vs desserts) is a minor issue.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Desserts\" sounds like \"deserts\", implying the judge is only handing out what people deserve.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun uses 'desserts,' which refers to sweet treats and sounds like 'justice,' fitting the judge context.",
+    "openai_rating": 8,
+    "anthropic_explanation": "The pun uses 'desserts' which is 'stressed' spelled backwards, playing on 'just deserts' (deserved punishment). The judge context makes this clever wordplay work.",
+    "anthropic_rating": 8
+  },
+  {
+    "id": 1013,
+    "sentence": "The fish struggled with guitar because he couldn't get past the ___",
+    "straight": [
+      "basics",
+      "chords",
+      "fingering"
+    ],
+    "punny": [
+      "scales"
+    ],
+    "claudecode_explanation": "'Scales' means musical scales (which guitar students must learn) AND fish scales. The fish context activates the biological meaning while 'struggled with guitar' + 'couldn't get past' activates the musical practice meaning. Both meanings work simultaneously.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Scales\" refers to musical scales, but also the scales of a fish.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun uses 'scales,' which refers to musical scales and also fish scales, fitting the fish playing guitar theme.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun connects 'scales' meaning both musical scales and fish scales. The fish playing guitar creates a natural setup for this double meaning.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1014,
+    "sentence": "The river kept losing money because it had two ___",
+    "straight": [
+      "problems",
+      "expenses",
+      "debts"
+    ],
+    "punny": [
+      "banks"
+    ],
+    "claudecode_explanation": "'Banks' means financial banks AND river banks. A river literally has two banks, and 'losing money' activates the financial meaning. However, having two banks wouldn't normally cause money loss \u2014 the causal logic is slightly off.",
+    "claudecode_rating": 6,
+    "gemini_explanation": "\"Banks\" refers to financial institutions, but also the sides of a river.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun uses 'banks,' which refers to financial institutions and riverbanks, fitting the river context.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun plays on 'banks' meaning both financial institutions and river banks. The river context makes this a clean, natural connection.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1015,
+    "sentence": "The bread's wedding speech was a heartfelt ___",
+    "straight": [
+      "tribute",
+      "monologue",
+      "dedication"
+    ],
+    "punny": [
+      "toast"
+    ],
+    "claudecode_explanation": "'Toast' means a wedding toast/speech AND toasted bread. Bread making a wedding speech that is a 'heartfelt toast' works perfectly \u2014 the bread character gives the literal food meaning while the ceremony context gives the speech meaning. Tight and surprising.",
+    "claudecode_rating": 8,
+    "gemini_explanation": "\"Toast\" refers to a wedding speech, but also to toasted bread.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun uses 'toast,' which refers to a speech and also a slice of toasted bread, fitting the bread theme.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun uses 'toast' meaning both a celebratory speech and toasted bread. The bread giving a wedding speech creates perfect context.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1016,
+    "sentence": "The church musician donated blood because she had spare ___",
+    "straight": [
+      "time",
+      "energy",
+      "resources"
+    ],
+    "punny": [
+      "organs"
+    ],
+    "claudecode_explanation": "'Organs' means body organs AND church/pipe organs. A church musician having 'spare organs' works both as having extra pipe organs and as having spare body organs to donate blood. Both meanings are equally activated.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Organs\" refers to body parts, but also to the musical instrument often played in churches.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun uses 'organs,' which refers to musical instruments and also body parts, fitting the church musician context.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun connects 'organs' meaning both body organs for blood donation and church musical instruments. The church musician context makes this work well.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1017,
+    "sentence": "The comedian's fishing stories always had a great ___",
+    "straight": [
+      "ending",
+      "twist",
+      "setup"
+    ],
+    "punny": [
+      "line"
+    ],
+    "claudecode_explanation": "'Line' means a joke's punchline/delivery AND a fishing line. The comedian context activates the comedy meaning while 'fishing stories' activates the angling meaning. Both work naturally, though it's a fairly common pairing.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Line\" refers to a fishing line, but also to the punchline of a joke.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun uses 'line,' which refers to a punchline and also a fishing line, fitting the fishing stories context.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun plays on 'line' meaning both a story's punchline and fishing line. The comedian telling fishing stories creates good setup.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1018,
+    "sentence": "The poker player became a laundry worker because he already knew when to ___",
+    "straight": [
+      "quit",
+      "stop",
+      "walk away"
+    ],
+    "punny": [
+      "fold"
+    ],
+    "claudecode_explanation": "'Fold' means to fold in poker (concede a hand) AND to fold laundry. The poker player 'already knew when to fold' provides a natural career transition narrative. Both meanings of fold are equally strong in context.",
+    "claudecode_rating": 8,
+    "gemini_explanation": "\"Fold\" refers to folding laundry, but also to folding in a poker game.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun uses 'fold,' which refers to quitting a hand in poker and folding laundry, fitting the laundry worker context.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun uses 'fold' meaning both quitting in poker and folding laundry. The transition from poker player to laundry worker makes this connection clever.",
+    "anthropic_rating": 7
+  },
+  {
+    "id": 1019,
+    "sentence": "At the baseball team's dinner party, drinks were served by the ___",
+    "straight": [
+      "host",
+      "bartender",
+      "caterer"
+    ],
+    "punny": [
+      "pitcher"
+    ],
+    "claudecode_explanation": "'Pitcher' means a beverage pitcher/container AND a baseball pitcher (player position). 'Drinks were served by the pitcher' works perfectly as both a container for drinks and a player doing the serving at a dinner party. Tight double meaning.",
+    "claudecode_rating": 8,
+    "gemini_explanation": "\"Pitcher\" refers to a container for drinks, but also the baseball player who pitches.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun uses 'pitcher,' which refers to a baseball player and also a container for drinks, fitting the dinner party context.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun connects 'pitcher' meaning both a drink container and baseball position. The baseball team dinner context makes this work naturally.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1020,
+    "sentence": "The cemetery had excellent marketing because every lot came with a great ___",
+    "straight": [
+      "view",
+      "location",
+      "deal"
+    ],
+    "punny": [
+      "plot"
+    ],
+    "claudecode_explanation": "'Plot' means a burial plot AND a marketing plot/storyline/scheme. The cemetery context activates the burial meaning while 'excellent marketing' and 'great plot' activates the narrative/scheme meaning. Multi-layered and darkly humorous.",
+    "claudecode_rating": 8,
+    "gemini_explanation": "\"Plot\" refers to a storyline, but also to a burial plot in a cemetery.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun uses 'plot,' which refers to a cemetery plot and also a storyline, fitting the marketing context.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun plays on 'plot' meaning both a story/scheme and burial plot. The cemetery marketing context makes this connection work well.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1021,
+    "sentence": "The retired basketball player became a judge because he loved ruling the ___",
+    "straight": [
+      "room",
+      "proceedings",
+      "courtroom"
+    ],
+    "punny": [
+      "court"
+    ],
+    "claudecode_explanation": "'Court' means a basketball court AND a court of law. 'Ruling the court' works perfectly for both a dominant basketball player and a judge presiding over a courtroom. Natural career transition narrative with tight pun.",
+    "claudecode_rating": 8,
+    "gemini_explanation": "\"Court\" refers to a basketball court, but also a courtroom where a judge presides.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun uses 'court,' which refers to a basketball court and a courtroom, fitting the retired basketball player context.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun uses 'court' meaning both basketball court and courtroom. The basketball player becoming a judge creates a natural bridge.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1022,
+    "sentence": "The frog's car broke down because it kept ___",
+    "straight": [
+      "stalling",
+      "overheating",
+      "sputtering"
+    ],
+    "punny": [
+      "croaking"
+    ],
+    "claudecode_explanation": "'Croaking' means dying/breaking down AND a frog's sound. The frog character activates the animal sound while 'car broke down' + 'kept croaking' activates the dying/failing meaning. Clean and amusing.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Croaking\" refers to a frog's sound, but also to a car sputtering and failing.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun uses 'croaking,' which refers to a frog's sound and also means dying, fitting the car breakdown context.",
+    "openai_rating": 5,
+    "anthropic_explanation": "The pun connects 'croaking' meaning both car engine problems and the sound frogs make. The frog's car setup makes this work.",
+    "anthropic_rating": 5
+  },
+  {
+    "id": 1023,
+    "sentence": "The optician went to jail for ___ innocent people",
+    "straight": [
+      "deceiving",
+      "cheating",
+      "swindling"
+    ],
+    "punny": [
+      "framing"
+    ],
+    "claudecode_explanation": "'Framing' means framing someone (false accusation) AND framing glasses/lenses. The optician context activates the eyeglasses meaning while 'went to jail for framing innocent people' is a clear criminal accusation. Both meanings work simultaneously \u2014 excellent pun.",
+    "claudecode_rating": 8,
+    "gemini_explanation": "\"Framing\" refers to putting someone in a picture frame, but also falsely accusing someone of a crime.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun uses 'framing,' which refers to setting someone up for a crime and also creating frames for glasses, fitting the optician context.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun plays on 'framing' meaning both falsely accusing someone and putting frames on glasses. The optician context makes this connection work.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1024,
+    "sentence": "The train conductor was promoted because of his excellent ___",
+    "straight": [
+      "performance",
+      "leadership",
+      "attitude"
+    ],
+    "punny": [
+      "track record"
+    ],
+    "claudecode_explanation": "'Track record' means work history/performance record AND relates to railroad tracks. The train conductor context activates the railroad meaning while 'promoted because of his excellent track record' is a natural workplace expression. Very smooth phrase that works both ways.",
+    "claudecode_rating": 8,
+    "gemini_explanation": "\"Track record\" refers to a history of success, but also the tracks that a train runs on.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun uses 'track record,' which refers to a history of performance and also relates to train tracks, fitting the conductor context.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun uses 'track record' meaning both performance history and literal train tracks. The train conductor context makes this a solid double meaning.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1025,
+    "sentence": "The beekeeper's big announcement created quite a ___",
+    "straight": [
+      "stir",
+      "commotion",
+      "reaction"
+    ],
+    "punny": [
+      "buzz"
+    ],
+    "claudecode_explanation": "'Buzz' means excitement/talk AND the sound bees make. The beekeeper activates the bee meaning while 'big announcement created quite a buzz' is a natural idiom for generating excitement. Clean and classic, though predictable.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Buzz\" refers to excitement or commotion, but also the sound that bees make.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun uses 'buzz,' which refers to excitement and also the sound bees make, fitting the beekeeper context.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun connects 'buzz' meaning both excitement/commotion and the sound bees make. The beekeeper context makes this a natural, if predictable, connection.",
+    "anthropic_rating": 5
+  },
+  {
+    "id": 1026,
+    "sentence": "The philosophy professor dismissed the baker's theory as half ___",
+    "straight": [
+      "finished",
+      "hearted",
+      "formed"
+    ],
+    "punny": [
+      "baked"
+    ],
+    "claudecode_explanation": "'Half-baked' means not fully thought through AND literally half-baked/undercooked. The baker character activates the cooking meaning while the philosophy professor dismissing a theory as 'half-baked' is a natural intellectual critique. Great exploitation of the idiom.",
+    "claudecode_rating": 8,
+    "gemini_explanation": "\"Half-baked\" means both not fully cooked and not fully thought out, fitting the context of a baker's theory being dismissed by a philosophy professor.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun works because 'half-baked' refers to both an undercooked item, which relates to the baker, and an idea that is not fully developed, which is why the philosophy professor dismissed it.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun plays on 'half-baked' meaning both literally partially baked (relevant to a baker) and figuratively poorly thought out or incomplete (how a philosophy professor would dismiss a theory).",
+    "anthropic_rating": 7
+  },
+  {
+    "id": 1027,
+    "sentence": "The computer's favorite snack was ___",
+    "straight": [
+      "crackers",
+      "cookies",
+      "pretzels"
+    ],
+    "punny": [
+      "chips"
+    ],
+    "claudecode_explanation": "'Chips' means snack chips AND computer chips/microchips. The computer context activates the technology meaning while 'favorite snack' activates the food meaning. Simple and clean, though the 'favorite snack' framing is somewhat predictable.",
+    "claudecode_rating": 6,
+    "gemini_explanation": "The pun plays on the double meaning of \"chips,\" referring to both computer chips and a common snack.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun is based on 'chips' being both a computer component and a type of snack, making it the computer's favorite snack.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun works on 'chips' referring to both computer chips (hardware components) and potato chips (snack food), creating a natural double meaning for a computer's favorite snack.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1028,
+    "sentence": "The chicken won the percussion contest with her incredible ___",
+    "straight": [
+      "rhythm",
+      "timing",
+      "solo"
+    ],
+    "punny": [
+      "drumsticks"
+    ],
+    "claudecode_explanation": "'Drumsticks' means percussion sticks AND chicken drumsticks (legs). The chicken character activates the poultry meaning while 'percussion contest' activates the music meaning. Clever \u2014 the chicken literally has drumsticks. Surprising and well-constructed.",
+    "claudecode_rating": 8,
+    "gemini_explanation": "\"Drumsticks\" are both the sticks used to play drums and a part of a chicken, creating a humorous connection to the chicken's percussion skills.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun relies on 'drumsticks' referring to both a percussion instrument and the legs of a chicken, which is humorous in the context of a chicken winning a percussion contest.",
+    "openai_rating": 8,
+    "anthropic_explanation": "The pun connects 'drumsticks' as both percussion instruments used in drumming contests and the legs of a chicken, making it a solid animal-based wordplay.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1029,
+    "sentence": "The ghost's autobiography was a bestseller because the writing was truly ___",
+    "straight": [
+      "compelling",
+      "vivid",
+      "moving"
+    ],
+    "punny": [
+      "haunting"
+    ],
+    "claudecode_explanation": "'Haunting' means emotionally moving/lingering AND a ghost haunting. The ghost context activates the supernatural meaning while 'writing was truly haunting' is a legitimate literary compliment. Both meanings align perfectly and naturally.",
+    "claudecode_rating": 8,
+    "gemini_explanation": "\"Haunting\" refers both to the subject matter of a ghost's autobiography and the quality of the writing being memorable and impactful.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun works because 'haunting' describes both the quality of writing that sticks with you and something associated with ghosts, making it apt for a ghost's autobiography.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun uses 'haunting' to describe both compelling, memorable writing and the literal action of what ghosts do, creating an appropriate double meaning.",
+    "anthropic_rating": 5
+  },
+  {
+    "id": 1030,
+    "sentence": "The farmer won the DJ competition because he had the best ___",
+    "straight": [
+      "music",
+      "mixing",
+      "rhythm"
+    ],
+    "punny": [
+      "beets"
+    ],
+    "claudecode_explanation": "'Beets' is a homophone for 'beats' (music) AND a root vegetable. The farmer activates the agricultural meaning while 'DJ competition' + 'best beats/beets' activates the music meaning. Clever homophone pun with a surprising character pairing.",
+    "claudecode_rating": 8,
+    "gemini_explanation": "\"Beets\" are both a root vegetable and a term for the rhythm or musical patterns used by a DJ.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun is clever because 'beets' are both a type of produce grown by farmers and a play on 'beats,' which are essential in DJing.",
+    "openai_rating": 8,
+    "anthropic_explanation": "The pun plays on 'beets' (the vegetable a farmer would grow) and 'beats' (the rhythm essential to DJing), creating a clever farming-music connection.",
+    "anthropic_rating": 7
+  },
+  {
+    "id": 1031,
+    "sentence": "The mattress salesman refused to quit \u2014 he wouldn't take it lying ___",
+    "straight": [
+      "still",
+      "quietly",
+      "passively"
+    ],
+    "punny": [
+      "down"
+    ],
+    "claudecode_explanation": "'Take it lying down' means to accept defeat passively AND literally lying down on a mattress. The mattress salesman context activates the literal meaning while 'refused to quit' activates the idiom. The idiom is exploited perfectly \u2014 both meanings are equally strong.",
+    "claudecode_rating": 8,
+    "gemini_explanation": "The pun uses the idiom \"take it lying down,\" which means to accept something without protest, and connects it to the literal act of lying down on a mattress.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun works because 'lying down' refers to both the physical act of lying on a mattress and the idiom of accepting defeat passively.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun works on the phrase 'take it lying down' (accept defeat passively) while connecting to mattresses where people literally lie down, making it a well-constructed play on words.",
+    "anthropic_rating": 8
+  },
+  {
+    "id": 1032,
+    "sentence": "The boat maker's excuse wouldn't ___",
+    "straight": [
+      "work",
+      "hold up",
+      "stick"
+    ],
+    "punny": [
+      "float"
+    ],
+    "claudecode_explanation": "'Float' means to be believable (as in 'that excuse won't float') AND a boat floating on water. The boat maker activates the water meaning while 'excuse wouldn't float' works as an expression for an unbelievable excuse. Clean and concise.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Float\" refers both to a boat's ability to stay on the water and an excuse's ability to be believable or hold up under scrutiny.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun is based on 'float' meaning both to stay buoyant in water, which relates to boats, and to hold up logically, which is why the excuse wouldn't work.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun uses 'float' to mean both an excuse not holding up logically and boats literally floating on water, connecting the boat maker's profession to the metaphor.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1033,
+    "sentence": "The lamb's family considered him the ___",
+    "straight": [
+      "troublemaker",
+      "rebel",
+      "outcast"
+    ],
+    "punny": [
+      "black sheep"
+    ],
+    "claudecode_explanation": "'Black sheep' is an idiom for a family outcast AND a literal black-colored sheep. The lamb being a black sheep in his family works both as the literal animal description and the family outcast idiom. Very clean, though the idiom-to-literal connection is almost too easy.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Black sheep\" is an idiom for an outcast, playing on the literal image of a sheep that is black.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun relies on 'black sheep' being both a term for an outcast and a literal description of a sheep, making it fitting for the lamb's family.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun relies on 'black sheep' as both a literal description of a dark-colored sheep and the idiom for a family outcast, though it's quite predictable.",
+    "anthropic_rating": 4
+  },
+  {
+    "id": 1034,
+    "sentence": "The tree and the dog got along because they both had impressive ___",
+    "straight": [
+      "presence",
+      "strength",
+      "character"
+    ],
+    "punny": [
+      "bark"
+    ],
+    "claudecode_explanation": "'Bark' means tree bark AND a dog's bark/sound. Both a tree and a dog naturally have 'bark,' and the setup frames it as an impressive shared trait. Simple and clean, though the dual-character setup telegraphs the pun somewhat.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Bark\" refers both to the outer layer of a tree and the sound a dog makes.",
+    "gemini_rating": 6,
+    "openai_explanation": "The pun works because 'bark' refers to both the sound a dog makes and the outer covering of a tree, making it a shared trait.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun connects 'bark' as both the outer covering of trees and the sound dogs make, creating a natural reason for their friendship.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1035,
+    "sentence": "The satellite's relationships always failed because it was too ___",
+    "straight": [
+      "cold",
+      "unavailable",
+      "aloof"
+    ],
+    "punny": [
+      "distant"
+    ],
+    "claudecode_explanation": "'Distant' means emotionally unavailable AND physically far away in space. The satellite activates the space/physical distance meaning while 'relationships always failed' + 'too distant' activates the emotional meaning. Natural, though 'distant' as a personality flaw is somewhat mild as a pun.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Distant\" refers both to the physical distance of a satellite and the emotional distance in a relationship.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun is based on 'distant' describing both the physical space between the satellite and Earth and an emotional unavailability, leading to failed relationships.",
+    "openai_rating": 5,
+    "anthropic_explanation": "The pun plays on 'distant' meaning both emotionally unavailable in relationships and the literal physical distance of satellites from Earth.",
+    "anthropic_rating": 5
+  },
+  {
+    "id": 1036,
+    "sentence": "The stamp collector's love letters were always properly ___",
+    "straight": [
+      "written",
+      "sealed",
+      "worded"
+    ],
+    "punny": [
+      "addressed"
+    ],
+    "claudecode_explanation": "'Addressed' means dealt with/handled AND having a mailing address (important for stamps). The stamp collector activates the postal meaning while 'love letters properly addressed' works as both properly handled emotionally and properly labeled for mailing. The double meaning is subtle but real.",
+    "claudecode_rating": 6,
+    "gemini_explanation": "\"Addressed\" refers both to the act of writing an address on an envelope and the quality of being well-written or directed to the right person.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun works because 'addressed' refers to both the act of addressing a letter and dealing with issues properly, fitting for love letters.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun uses 'addressed' to mean both properly directed mail (relevant to stamp collecting) and properly handled or dealt with in correspondence.",
+    "anthropic_rating": 5
+  },
+  {
+    "id": 1037,
+    "sentence": "The laundry worker's complaints were always being ___",
+    "straight": [
+      "ignored",
+      "dismissed",
+      "silenced"
+    ],
+    "punny": [
+      "aired"
+    ],
+    "claudecode_explanation": "'Aired' means expressed/made public AND air-drying laundry. The laundry worker activates the drying meaning while 'complaints were always being aired' is a natural expression for grievances being broadcast. Both meanings work cleanly.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Aired\" refers both to the act of expressing complaints and the process of airing out laundry.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun relies on 'aired' meaning both to broadcast or express and to hang laundry out to dry, making it fitting for a laundry worker's complaints.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun connects 'aired' as both broadcasting complaints publicly and the literal airing/drying of laundry, linking to the worker's profession.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1038,
+    "sentence": "The grape farmer threw the wildest parties because he loved a good ___",
+    "straight": [
+      "time",
+      "celebration",
+      "crowd"
+    ],
+    "punny": [
+      "crush"
+    ],
+    "claudecode_explanation": "'Crush' means a party crush/exciting crowd AND grape crushing (for winemaking). The grape farmer activates the winemaking meaning while 'wildest parties' + 'good crush' evokes an exciting gathering. Nice connection between viticulture and socializing.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Crush\" refers both to the process of crushing grapes for wine and a strong infatuation or attraction.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun works because 'crush' refers to both a lively party atmosphere and the process of crushing grapes, making it fitting for a grape farmer.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun plays on 'crush' meaning both a romantic infatuation and the process of crushing grapes to make wine, connecting to grape farming.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1039,
+    "sentence": "The hairdresser quit her job because she couldn't deal with all the ___",
+    "straight": [
+      "customers",
+      "complaints",
+      "drama"
+    ],
+    "punny": [
+      "layers"
+    ],
+    "claudecode_explanation": "'Layers' means complexity/difficulty AND hair layers (a hairdressing technique). The hairdresser context activates the hair meaning while 'quit her job' + 'couldn't deal with all the layers' activates the complexity/difficulty meaning. Both work naturally.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Layers\" refers both to the layers of hair in a hairstyle and the layers of drama or complexity in a situation.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun is based on 'layers' referring to both the complexity in a situation and the literal layers of hair, which a hairdresser deals with.",
+    "openai_rating": 5,
+    "anthropic_explanation": "The pun uses 'layers' to refer to both complex interpersonal drama and the literal layers of hair that hairdressers work with.",
+    "anthropic_rating": 5
+  },
+  {
+    "id": 1040,
+    "sentence": "The retired general opened a battery store because he loved taking ___",
+    "straight": [
+      "control",
+      "initiative",
+      "command"
+    ],
+    "punny": [
+      "charge"
+    ],
+    "claudecode_explanation": "'Charge' means taking charge/command AND electrical charge (batteries). The retired general activates the military command meaning while the battery store activates the electrical meaning. 'Taking charge' works perfectly in both contexts \u2014 excellent pun.",
+    "claudecode_rating": 8,
+    "gemini_explanation": "\"Charge\" refers both to taking command or initiative and the electrical charge of a battery.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun works because 'charge' refers to both taking command and the electrical charge in batteries, making it fitting for a retired general opening a battery store.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun connects 'charge' as both military command/leadership and the electrical charge in batteries, linking the general's background to his new business.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1041,
+    "sentence": "The stadium was unbearably hot because none of the ___ were working",
+    "straight": [
+      "vents",
+      "air conditioners",
+      "coolers"
+    ],
+    "punny": [
+      "fans"
+    ],
+    "claudecode_explanation": "'Fans' means cooling fans/ventilation AND sports fans/supporters. The stadium activates the sports fan meaning while 'unbearably hot' activates the cooling fan meaning. 'None of the fans were working' is brilliantly ambiguous \u2014 no supporters cheering and no ventilation. Very clever.",
+    "claudecode_rating": 8,
+    "gemini_explanation": "\"Fans\" refers both to people who support a team or performer and mechanical devices that circulate air.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun relies on 'fans' meaning both the people who cheer in a stadium and devices that cool the air, making the stadium hot when not working.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun plays on 'fans' as both enthusiastic supporters at a stadium and the mechanical devices that provide cooling, explaining why it was hot.",
+    "anthropic_rating": 7
+  },
+  {
+    "id": 1042,
+    "sentence": "The mushroom was always invited to parties because he was a ___",
+    "straight": [
+      "blast",
+      "riot",
+      "character"
+    ],
+    "punny": [
+      "fungi"
+    ],
+    "claudecode_explanation": "'Fungi' sounds like 'fun guy.' The mushroom character activates the biological meaning while 'always invited to parties' activates the personality meaning. This is probably the most famous pun in existence, so it loses points for originality, but it's perfectly constructed.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Fungi\" sounds like \"fun guy\", implying the mushroom is a fun person to be around.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun is clever because 'fungi' sounds like 'fun guy,' making it a humorous reason for a mushroom being invited to parties.",
+    "openai_rating": 8,
+    "anthropic_explanation": "The pun uses 'fungi' (the biological classification of mushrooms) as a play on 'fun guy' (an entertaining person), creating a classic mushroom pun.",
+    "anthropic_rating": 5
+  },
+  {
+    "id": 1043,
+    "sentence": "The boat's relationship with the dock was getting too ___",
+    "straight": [
+      "complicated",
+      "dependent",
+      "close"
+    ],
+    "punny": [
+      "attached"
+    ],
+    "claudecode_explanation": "'Attached' means emotionally attached AND physically attached/moored (boat to dock). The boat + dock pairing activates the mooring meaning while 'relationship getting too attached' is a natural relationship complaint. Both work naturally.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Attached\" refers both to the physical connection between a boat and a dock and the emotional connection between two individuals.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun works because 'attached' refers to both the emotional closeness in a relationship and the physical connection between a boat and a dock.",
+    "openai_rating": 5,
+    "anthropic_explanation": "The pun plays on 'attached' meaning both emotionally dependent in relationships and the physical attachment of boats to docks.",
+    "anthropic_rating": 5
+  },
+  {
+    "id": 1044,
+    "sentence": "The art thief was caught because all the evidence was ___",
+    "straight": [
+      "clear",
+      "solid",
+      "damning"
+    ],
+    "punny": [
+      "framed"
+    ],
+    "claudecode_explanation": "'Framed' means falsely accused AND art being in a frame. Art thief activates the art frame meaning, but there's a logical contradiction: if evidence was 'framed' (fabricated), the thief was set up and shouldn't have been 'caught' as if guilty. The two meanings work against each other rather than together.",
+    "claudecode_rating": 5,
+    "gemini_explanation": "\"Framed\" refers both to the act of putting a picture in a frame and the act of falsely accusing someone of a crime.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun relies on 'framed' meaning both to set someone up for a crime and to put something in a frame, which is relevant to art theft.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun connects 'framed' as both incriminating evidence and the literal framing of stolen artwork, making it particularly clever for an art thief.",
+    "anthropic_rating": 7
+  },
+  {
+    "id": 1045,
+    "sentence": "The bicycle therapist helped patients break their destructive ___",
+    "straight": [
+      "habits",
+      "patterns",
+      "behaviors"
+    ],
+    "punny": [
+      "cycles"
+    ],
+    "claudecode_explanation": "'Cycles' means behavioral cycles/patterns AND bicycle cycles. The bicycle therapist is a creative character who activates the vehicle meaning while 'break destructive cycles' is natural therapeutic language. Both meanings work well.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Cycles\" refers both to the cycles of a bicycle and the patterns of behavior that a therapist helps patients break.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun works because 'cycles' refers to both repetitive patterns and the literal cycles of a bicycle, making it fitting for a bicycle therapist.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun uses 'cycles' to mean both repetitive behavioral patterns in therapy and the bicycle connection, creating a therapeutic wordplay.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1046,
+    "sentence": "The escaped convict opened a gym because he was used to being on the ___",
+    "straight": [
+      "move",
+      "go",
+      "lam"
+    ],
+    "punny": [
+      "run"
+    ],
+    "claudecode_explanation": "'Run' means being on the run (fugitive) AND running/exercise. The escaped convict activates the fugitive meaning while opening a gym activates the exercise meaning. 'Used to being on the run' works both ways. Clean and natural.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Run\" refers both to the act of escaping or being on the lam and the act of running for exercise.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun relies on 'run' meaning both the act of escaping and the exercise activity, making it fitting for a convict opening a gym.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun plays on 'run' meaning both being a fugitive on the run and the physical activity of running at a gym.",
+    "anthropic_rating": 5
+  },
+  {
+    "id": 1047,
+    "sentence": "The retired tennis player became a waiter because he was great at ___",
+    "straight": [
+      "multitasking",
+      "hustling",
+      "working fast"
+    ],
+    "punny": [
+      "serving"
+    ],
+    "claudecode_explanation": "'Serving' means serving food (as a waiter) AND serving in tennis. Tennis player activates the sport meaning while waiter activates the food service meaning. Clean career transition pun, though straightforward.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Serving\" refers both to the act of serving food and drinks as a waiter and the act of serving the ball in tennis.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun works because 'serving' refers to both the act of serving food and the tennis serve, making it fitting for a retired tennis player.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun connects 'serving' as both waiting tables and serving in tennis, linking the player's past sport to their new profession.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1048,
+    "sentence": "The clock was impossible to calm down because it was always ___",
+    "straight": [
+      "tense",
+      "anxious",
+      "agitated"
+    ],
+    "punny": [
+      "wound up"
+    ],
+    "claudecode_explanation": "'Wound up' means agitated/excited AND wound up (as in winding a clock mechanism). The clock context activates the mechanical meaning while 'impossible to calm down' + 'always wound up' activates the emotional meaning. Perfect double meaning with the tense/past-tense ambiguity adding another layer.",
+    "claudecode_rating": 8,
+    "gemini_explanation": "\"Wound up\" refers both to the state of being tense or anxious and the act of winding up a clock.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun is based on 'wound up' meaning both tightly wound or tense and the act of winding a clock, making it fitting for a clock.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun uses 'wound up' to mean both emotionally agitated and the literal winding mechanism of clocks, creating a perfect clock-related wordplay.",
+    "anthropic_rating": 7
+  },
+  {
+    "id": 1049,
+    "sentence": "The tea shop owner's scandal left him in hot ___",
+    "straight": [
+      "trouble",
+      "mess",
+      "shame"
+    ],
+    "punny": [
+      "water"
+    ],
+    "claudecode_explanation": "'Hot water' means trouble AND literally hot water for brewing tea. The tea shop context activates the literal hot water meaning while 'scandal left him in hot water' is a natural idiom for being in trouble. Both meanings are equally strong.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Hot water\" is an idiom for being in trouble, playing on the literal image of a tea shop owner being associated with hot water for tea.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun works because 'hot water' refers to both a difficult situation and the literal hot water used in making tea, fitting for a tea shop owner.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun plays on 'hot water' as both being in trouble and the literal hot water used for making tea, connecting to the tea shop setting.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1050,
+    "sentence": "The lumberjack's blog was popular because he kept detailed ___",
+    "straight": [
+      "records",
+      "entries",
+      "notes"
+    ],
+    "punny": [
+      "logs"
+    ],
+    "claudecode_explanation": "'Logs' means records/entries AND wood logs that lumberjacks cut. The lumberjack activates the wood meaning while 'blog was popular' + 'kept detailed logs' activates the record-keeping meaning. Triple play: blog (web log), detailed records (ship's log), and wood logs. Excellent.",
+    "claudecode_rating": 8,
+    "gemini_explanation": "\"Logs\" refers both to the logs that a lumberjack cuts and the entries in a blog.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun relies on 'logs' meaning both detailed records and the literal logs that a lumberjack deals with, making it fitting for his blog.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun connects 'logs' as both written records/blog entries and the literal logs that lumberjacks cut, making it a natural profession-based wordplay.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1051,
+    "sentence": "The accountant's entire life was one long ___",
+    "straight": [
+      "struggle",
+      "routine",
+      "challenge"
+    ],
+    "punny": [
+      "balancing act"
+    ],
+    "claudecode_explanation": "'Balancing act' means a difficult juggling of responsibilities AND balancing financial accounts/books. The accountant activates the financial meaning while 'entire life was one long balancing act' activates the difficulty/circus meaning. Solid but somewhat predictable.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Balancing act\" refers both to the literal act of balancing accounts and the figurative struggle to maintain equilibrium in life.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun works by playing on the phrase 'balancing act,' which refers to both the literal act of balancing accounts and the metaphorical balancing of life's challenges.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun plays on 'balancing act' meaning both a challenging life situation and the literal act of balancing books/accounts that accountants do. The double meaning works naturally with the profession.",
+    "anthropic_rating": 7
+  },
+  {
+    "id": 1052,
+    "sentence": "The ocean was the friendliest body of water because it always ___",
+    "straight": [
+      "welcomed visitors",
+      "sparkled",
+      "looked inviting"
+    ],
+    "punny": [
+      "waved"
+    ],
+    "claudecode_explanation": "'Waved' means waved hello/greeting AND ocean waves. The ocean context activates the water wave meaning while 'friendliest' + 'always waved' activates the greeting meaning. Classic and clean, well-known but well-constructed.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "The ocean \"waved\" in the sense of water movement, but also as a friendly greeting.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun hinges on the double meaning of 'waved,' which refers to both the ocean's physical waves and the act of waving as a friendly gesture.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun uses 'waved' to mean both the physical motion of ocean waves and the friendly gesture of waving hello. Simple but effective wordplay that fits the setup perfectly.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1053,
+    "sentence": "The electricity company's orchestra sounded awful because of the ___",
+    "straight": [
+      "acoustics",
+      "musicians",
+      "instruments"
+    ],
+    "punny": [
+      "conductor"
+    ],
+    "claudecode_explanation": "'Conductor' means an electrical conductor AND an orchestra conductor. The electricity company activates the electrical meaning while 'orchestra sounded awful because of the conductor' clearly blames the musical leader. The joke cleverly suggests the same 'conductor' is the problem in both domains. Excellent layering.",
+    "claudecode_rating": 8,
+    "gemini_explanation": "The \"conductor\" leads an orchestra, but also conducts electricity, creating a double meaning in the context of an electricity company.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun is based on the dual meaning of 'conductor,' referring to both the person leading an orchestra and a material that conducts electricity.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun relies on 'conductor' meaning both an orchestra leader and someone who conducts electricity. The connection between electricity company and orchestra feels forced, making the setup awkward.",
+    "anthropic_rating": 4
+  },
+  {
+    "id": 1054,
+    "sentence": "The comedian's clock was always funny because it was full of ___",
+    "straight": [
+      "surprises",
+      "quirks",
+      "oddities"
+    ],
+    "punny": [
+      "ticks"
+    ],
+    "claudecode_explanation": "'Ticks' means clock ticks AND comedy ticks/quirks. However, comedy 'ticks' typically refers to nervous habits rather than funny elements. The connection between ticks and humor is weak \u2014 being 'full of ticks' doesn't naturally mean something is funny. The setup forces the meaning.",
+    "claudecode_rating": 5,
+    "gemini_explanation": "\"Ticks\" are both units of time on a clock and funny quirks or habits.",
+    "gemini_rating": 6,
+    "openai_explanation": "The pun plays on 'ticks,' which are both the sounds a clock makes and a slang term for funny quirks or habits.",
+    "openai_rating": 5,
+    "anthropic_explanation": "The pun plays on 'ticks' as both the sound a clock makes and annoying habits/quirks. The connection between clock sounds and comedy feels weak and doesn't create strong humor.",
+    "anthropic_rating": 3
+  },
+  {
+    "id": 1055,
+    "sentence": "The dentist and the manicurist bonded over their shared love of ___",
+    "straight": [
+      "precision",
+      "detail",
+      "hygiene"
+    ],
+    "punny": [
+      "filing"
+    ],
+    "claudecode_explanation": "'Filing' means filing teeth (dental work) AND filing nails (manicure). Both professionals genuinely perform 'filing' in their work, making this a clean dual-profession pun. The shared activity is real and the framing is natural.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Filing\" refers to both shaping nails (manicurist) and teeth (dentist).",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun relies on the word 'filing,' which is a task both dentists and manicurists perform, creating a shared interest.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun uses 'filing' to reference both dental filing and nail filing, creating a perfect professional overlap. The setup is natural and the double meaning is tight and clever.",
+    "anthropic_rating": 8
+  },
+  {
+    "id": 1056,
+    "sentence": "The dry cleaner never panicked because he could always handle ___",
+    "straight": [
+      "emergencies",
+      "crises",
+      "stress"
+    ],
+    "punny": [
+      "pressing matters"
+    ],
+    "claudecode_explanation": "'Pressing matters' means urgent issues AND pressing/ironing clothes. The dry cleaner activates the garment care meaning while 'never panicked' + 'handle pressing matters' is a natural expression for dealing with urgency. Very smooth double meaning.",
+    "claudecode_rating": 8,
+    "gemini_explanation": "\"Pressing matters\" are both urgent issues and things that need to be ironed.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun uses 'pressing matters' to refer to both urgent issues and the act of pressing clothes, a task for dry cleaners.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun plays on 'pressing matters' meaning both urgent issues and the literal pressing of clothes in dry cleaning. The wordplay is solid and the setup flows naturally.",
+    "anthropic_rating": 7
+  },
+  {
+    "id": 1057,
+    "sentence": "The gardener's relationship ended because there were too many ___",
+    "straight": [
+      "issues",
+      "arguments",
+      "problems"
+    ],
+    "punny": [
+      "thorns"
+    ],
+    "claudecode_explanation": "'Thorns' means irritations/problems AND literal garden thorns. The gardener activates the botanical meaning while 'relationship ended' + 'too many thorns' works as metaphorical problems. However, 'thorns' as relationship problems is a slight stretch \u2014 'thorns in one's side' is the idiom, not just 'thorns.'",
+    "claudecode_rating": 6,
+    "gemini_explanation": "\"Thorns\" are both literal thorns on plants and figurative sources of pain in a relationship.",
+    "gemini_rating": 6,
+    "openai_explanation": "The pun uses 'thorns' to refer to both literal thorns in gardening and metaphorical thorns as relationship problems.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun uses 'thorns' to mean both literal plant thorns and metaphorical relationship problems. The gardening context makes this work well, though it's somewhat predictable.",
+    "anthropic_rating": 5
+  },
+  {
+    "id": 1058,
+    "sentence": "The painter never enjoyed dinner because nothing suited his ___",
+    "straight": [
+      "taste",
+      "preferences",
+      "standards"
+    ],
+    "punny": [
+      "palette"
+    ],
+    "claudecode_explanation": "'Palette' is a homophone for 'palate' (sense of taste) AND a painter's color palette. The painter context activates the art meaning while 'never enjoyed dinner' + 'nothing suited his palate' is a perfectly natural food expression. Excellent homophone pun where both meanings are equally strong.",
+    "claudecode_rating": 8,
+    "gemini_explanation": "\"Palette\" refers both to a painter's tool and a person's sense of taste.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun plays on 'palette,' which refers to both a painter's board for mixing colors and a person's taste preferences.",
+    "openai_rating": 8,
+    "anthropic_explanation": "The pun plays on 'palette' meaning both an artist's color board and palate (taste preferences). The homophone creates confusion rather than clear humor, and the setup feels forced.",
+    "anthropic_rating": 3
+  },
+  {
+    "id": 1059,
+    "sentence": "The baker couldn't solve the mystery because the evidence kept ___",
+    "straight": [
+      "disappearing",
+      "changing",
+      "shifting"
+    ],
+    "punny": [
+      "crumbling"
+    ],
+    "claudecode_explanation": "'Crumbling' means falling apart/deteriorating AND baked goods crumbling. The baker activates the baking meaning while 'couldn't solve the mystery' + 'evidence kept crumbling' is a natural expression for a case falling apart. Both meanings work simultaneously.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Crumbling\" refers both to the physical state of baked goods and the deterioration of evidence.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun hinges on 'crumbling,' referring to both the literal crumbling of baked goods and the metaphorical falling apart of evidence.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun uses 'crumbling' to mean both evidence falling apart and baked goods literally crumbling. The baker context makes this work naturally with good double meaning.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1060,
+    "sentence": "The tailor won his court case because he had an excellent ___",
+    "straight": [
+      "lawyer",
+      "defense",
+      "argument"
+    ],
+    "punny": [
+      "suit"
+    ],
+    "claudecode_explanation": "'Suit' means a lawsuit AND a tailored suit of clothes. The tailor activates the clothing meaning while 'won his court case' + 'excellent suit' activates the legal meaning. Both meanings are perfectly natural \u2014 one of the cleanest double meanings possible.",
+    "claudecode_rating": 8,
+    "gemini_explanation": "\"Suit\" refers both to a legal case and a tailored garment.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun uses 'suit' to refer to both a legal case and a tailored outfit, both of which a tailor would appreciate.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun plays on 'suit' meaning both a legal case and tailored clothing. The connection between tailor and court case creates perfect professional wordplay.",
+    "anthropic_rating": 7
+  },
+  {
+    "id": 1061,
+    "sentence": "The calendar company's annual report was already ___",
+    "straight": [
+      "finished",
+      "published",
+      "submitted"
+    ],
+    "punny": [
+      "dated"
+    ],
+    "claudecode_explanation": "'Dated' means outdated/old AND having dates printed (calendar). The calendar company activates the dates/calendar meaning while 'annual report was already dated' works as being outdated. Both meanings click naturally, and the irony of a calendar company's report being 'dated' adds humor.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Dated\" means both that the report is complete with dates, and that it is old news.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun relies on 'dated,' meaning both something that is old or out of style and the literal act of assigning a date, as with calendars.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun uses 'dated' to mean both outdated/old and marked with dates (calendar company's specialty). The wordplay is clever and the setup is natural.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1062,
+    "sentence": "The librarian was terrible at keeping secrets because she was an open ___",
+    "straight": [
+      "person",
+      "talker",
+      "gossip"
+    ],
+    "punny": [
+      "book"
+    ],
+    "claudecode_explanation": "'Open book' means a transparent/easy-to-read person AND literally an open book in a library. The librarian context activates the physical book meaning while 'terrible at keeping secrets' + 'was an open book' is a natural personality description. Classic but effective.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "An \"open book\" is both a literal book and a person who readily shares information.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun uses 'book' to refer to both a literal book, which a librarian would handle, and the metaphorical 'open book' as someone who is easy to read or not secretive.",
+    "openai_rating": 7,
+    "anthropic_explanation": "The pun plays on 'open book' meaning both someone who shares everything and a literal book that's open. The librarian context makes this work perfectly with tight double meaning.",
+    "anthropic_rating": 8
+  },
+  {
+    "id": 1063,
+    "sentence": "The clock factory worker was fired for always ___ people off",
+    "straight": [
+      "putting",
+      "setting",
+      "pushing"
+    ],
+    "punny": [
+      "ticking"
+    ],
+    "claudecode_explanation": "'Ticking off' means annoying/irritating people AND a clock ticking. The clock factory context activates the mechanism meaning while 'fired for always ticking people off' is a natural workplace complaint. Both meanings work naturally in the sentence.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Ticking\" refers both to the sound a clock makes and the act of annoying someone.",
+    "gemini_rating": 8,
+    "openai_explanation": "The pun plays on 'ticking,' which refers to both the sound a clock makes and the slang for annoying someone.",
+    "openai_rating": 5,
+    "anthropic_explanation": "The pun uses 'ticking' to mean both the clock sound and annoying people. The phrase 'ticking people off' works well with the clock factory setting.",
+    "anthropic_rating": 6
+  },
+  {
+    "id": 1064,
+    "sentence": "The blanket was the most supportive friend because it had everyone ___",
+    "straight": [
+      "comforted",
+      "protected",
+      "helped"
+    ],
+    "punny": [
+      "covered"
+    ],
+    "claudecode_explanation": "'Covered' means supported/taken care of AND physically covered by a blanket. The blanket character activates the physical covering meaning while 'most supportive friend' + 'had everyone covered' is a natural expression for being helpful. Clean and warm.",
+    "claudecode_rating": 7,
+    "gemini_explanation": "\"Covered\" means both physically covered by a blanket and supported/protected.",
+    "gemini_rating": 7,
+    "openai_explanation": "The pun uses 'covered' to refer to both the literal act of a blanket covering someone and the metaphorical sense of providing support or protection.",
+    "openai_rating": 6,
+    "anthropic_explanation": "The pun plays on 'covered' meaning both protected/supported and literally covered by a blanket. The setup is natural and the double meaning works well.",
+    "anthropic_rating": 6
+  }
+]

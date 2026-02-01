@@ -1,0 +1,8172 @@
+{
+  "3b": {
+    "summary": {
+      "model": "meta-llama/Llama-3.2-3B-Instruct-Turbo",
+      "nickname": "3b",
+      "ndif": "meta-llama/Llama-3.2-3B (NDIF cold)",
+      "total": 100,
+      "correct": 14,
+      "contrast_match": 13,
+      "other": 73,
+      "accuracy": 0.14,
+      "straight_accuracy": 0.16,
+      "funny_accuracy": 0.12,
+      "straight_contrast_rate": 0.12,
+      "funny_contrast_rate": 0.14
+    },
+    "details": [
+      {
+        "pair_id": 0,
+        "type": "straight",
+        "raw_response": "the",
+        "extracted_word": "the",
+        "outcome": "other",
+        "expected": [
+          "momentum",
+          "support",
+          "steam"
+        ],
+        "contrast": [
+          "power"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 0,
+        "type": "funny",
+        "raw_response": "the",
+        "extracted_word": "the",
+        "outcome": "other",
+        "expected": [
+          "power"
+        ],
+        "contrast": [
+          "momentum",
+          "support",
+          "steam"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 1,
+        "type": "straight",
+        "raw_response": "admit",
+        "extracted_word": "admit",
+        "outcome": "other",
+        "expected": [
+          "stop traffic",
+          "halt cars",
+          "work again"
+        ],
+        "contrast": [
+          "change"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 1,
+        "type": "funny",
+        "raw_response": "admit",
+        "extracted_word": "admit",
+        "outcome": "other",
+        "expected": [
+          "change"
+        ],
+        "contrast": [
+          "stop traffic",
+          "halt cars",
+          "work again"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 2,
+        "type": "straight",
+        "raw_response": "money",
+        "extracted_word": "money",
+        "outcome": "other",
+        "expected": [
+          "progress",
+          "friends",
+          "effort"
+        ],
+        "contrast": [
+          "cents"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 2,
+        "type": "funny",
+        "raw_response": "money",
+        "extracted_word": "money",
+        "outcome": "other",
+        "expected": [
+          "cents"
+        ],
+        "contrast": [
+          "progress",
+          "friends",
+          "effort"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 3,
+        "type": "straight",
+        "raw_response": "drumming",
+        "extracted_word": "drumming",
+        "outcome": "other",
+        "expected": [
+          "rhythm",
+          "timing",
+          "solo"
+        ],
+        "contrast": [
+          "drumsticks"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 3,
+        "type": "funny",
+        "raw_response": "drumming",
+        "extracted_word": "drumming",
+        "outcome": "other",
+        "expected": [
+          "drumsticks"
+        ],
+        "contrast": [
+          "rhythm",
+          "timing",
+          "solo"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 4,
+        "type": "straight",
+        "raw_response": "pressure",
+        "extracted_word": "pressure",
+        "outcome": "correct",
+        "expected": [
+          "money",
+          "pressure",
+          "transactions"
+        ],
+        "contrast": [
+          "checks"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 4,
+        "type": "funny",
+        "raw_response": "pressure",
+        "extracted_word": "pressure",
+        "outcome": "contrast",
+        "expected": [
+          "checks"
+        ],
+        "contrast": [
+          "money",
+          "pressure",
+          "transactions"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 5,
+        "type": "straight",
+        "raw_response": "electrocuted",
+        "extracted_word": "electrocuted",
+        "outcome": "other",
+        "expected": [
+          "complaints",
+          "warnings",
+          "reprimanded"
+        ],
+        "contrast": [
+          "discharged"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 5,
+        "type": "funny",
+        "raw_response": "electrocuted",
+        "extracted_word": "electrocuted",
+        "outcome": "other",
+        "expected": [
+          "discharged"
+        ],
+        "contrast": [
+          "complaints",
+          "warnings",
+          "reprimanded"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 6,
+        "type": "straight",
+        "raw_response": "imagination",
+        "extracted_word": "imagination",
+        "outcome": "other",
+        "expected": [
+          "reputation",
+          "talent",
+          "network"
+        ],
+        "contrast": [
+          "staff"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 6,
+        "type": "funny",
+        "raw_response": "sense",
+        "extracted_word": "sense",
+        "outcome": "other",
+        "expected": [
+          "staff"
+        ],
+        "contrast": [
+          "reputation",
+          "talent",
+          "network"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 7,
+        "type": "straight",
+        "raw_response": "remarkable",
+        "extracted_word": "remarkable",
+        "outcome": "other",
+        "expected": [
+          "important",
+          "revolutionary",
+          "significant"
+        ],
+        "contrast": [
+          "groundbreaking"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 7,
+        "type": "funny",
+        "raw_response": "remarkable",
+        "extracted_word": "remarkable",
+        "outcome": "other",
+        "expected": [
+          "groundbreaking"
+        ],
+        "contrast": [
+          "important",
+          "revolutionary",
+          "significant"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 8,
+        "type": "straight",
+        "raw_response": "understand",
+        "extracted_word": "understand",
+        "outcome": "correct",
+        "expected": [
+          "understand",
+          "describe",
+          "ignore"
+        ],
+        "contrast": [
+          "express"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 8,
+        "type": "funny",
+        "raw_response": "describe",
+        "extracted_word": "describe",
+        "outcome": "contrast",
+        "expected": [
+          "express"
+        ],
+        "contrast": [
+          "understand",
+          "describe",
+          "ignore"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 9,
+        "type": "straight",
+        "raw_response": "great",
+        "extracted_word": "great",
+        "outcome": "other",
+        "expected": [
+          "beer",
+          "pizza",
+          "lane"
+        ],
+        "contrast": [
+          "strike"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 9,
+        "type": "funny",
+        "raw_response": "good",
+        "extracted_word": "good",
+        "outcome": "other",
+        "expected": [
+          "strike"
+        ],
+        "contrast": [
+          "beer",
+          "pizza",
+          "lane"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 10,
+        "type": "straight",
+        "raw_response": "mugged",
+        "extracted_word": "mugged",
+        "outcome": "contrast",
+        "expected": [
+          "stolen",
+          "taken",
+          "robbed"
+        ],
+        "contrast": [
+          "mugged"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 10,
+        "type": "funny",
+        "raw_response": "mugged",
+        "extracted_word": "mugged",
+        "outcome": "correct",
+        "expected": [
+          "mugged"
+        ],
+        "contrast": [
+          "stolen",
+          "taken",
+          "robbed"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 11,
+        "type": "straight",
+        "raw_response": "candidate",
+        "extracted_word": "candidate",
+        "outcome": "other",
+        "expected": [
+          "warrior",
+          "fighter",
+          "leader"
+        ],
+        "contrast": [
+          "ruler"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 11,
+        "type": "funny",
+        "raw_response": "candidate",
+        "extracted_word": "candidate",
+        "outcome": "other",
+        "expected": [
+          "ruler"
+        ],
+        "contrast": [
+          "warrior",
+          "fighter",
+          "leader"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 12,
+        "type": "straight",
+        "raw_response": "tired",
+        "extracted_word": "tired",
+        "outcome": "other",
+        "expected": [
+          "unbalanced",
+          "broken",
+          "unstable"
+        ],
+        "contrast": [
+          "two tired"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 12,
+        "type": "funny",
+        "raw_response": "tired",
+        "extracted_word": "tired",
+        "outcome": "other",
+        "expected": [
+          "two tired"
+        ],
+        "contrast": [
+          "unbalanced",
+          "broken",
+          "unstable"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 13,
+        "type": "straight",
+        "raw_response": "in",
+        "extracted_word": "in",
+        "outcome": "other",
+        "expected": [
+          "running",
+          "working",
+          "organized"
+        ],
+        "contrast": [
+          "afloat"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 13,
+        "type": "funny",
+        "raw_response": "running",
+        "extracted_word": "running",
+        "outcome": "contrast",
+        "expected": [
+          "afloat"
+        ],
+        "contrast": [
+          "running",
+          "working",
+          "organized"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 14,
+        "type": "straight",
+        "raw_response": "edge",
+        "extracted_word": "edge",
+        "outcome": "contrast",
+        "expected": [
+          "message",
+          "delivery",
+          "argument"
+        ],
+        "contrast": [
+          "edge"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 14,
+        "type": "funny",
+        "raw_response": "edge",
+        "extracted_word": "edge",
+        "outcome": "correct",
+        "expected": [
+          "edge"
+        ],
+        "contrast": [
+          "message",
+          "delivery",
+          "argument"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 15,
+        "type": "straight",
+        "raw_response": "item",
+        "extracted_word": "item",
+        "outcome": "correct",
+        "expected": [
+          "bag",
+          "suitcase",
+          "item"
+        ],
+        "contrast": [
+          "carrion"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 15,
+        "type": "funny",
+        "raw_response": "animal",
+        "extracted_word": "animal",
+        "outcome": "other",
+        "expected": [
+          "carrion"
+        ],
+        "contrast": [
+          "bag",
+          "suitcase",
+          "item"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 16,
+        "type": "straight",
+        "raw_response": "unbearable",
+        "extracted_word": "unbearable",
+        "outcome": "other",
+        "expected": [
+          "tedious",
+          "boring",
+          "monotonous"
+        ],
+        "contrast": [
+          "dull"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 16,
+        "type": "funny",
+        "raw_response": "too",
+        "extracted_word": "too",
+        "outcome": "other",
+        "expected": [
+          "dull"
+        ],
+        "contrast": [
+          "tedious",
+          "boring",
+          "monotonous"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 17,
+        "type": "straight",
+        "raw_response": "booming",
+        "extracted_word": "booming",
+        "outcome": "contrast",
+        "expected": [
+          "spectacular",
+          "explosive",
+          "impressive"
+        ],
+        "contrast": [
+          "booming",
+          "exploding"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 17,
+        "type": "funny",
+        "raw_response": "increasing",
+        "extracted_word": "increasing",
+        "outcome": "other",
+        "expected": [
+          "booming",
+          "exploding"
+        ],
+        "contrast": [
+          "spectacular",
+          "explosive",
+          "impressive"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 18,
+        "type": "straight",
+        "raw_response": "loud",
+        "extracted_word": "loud",
+        "outcome": "other",
+        "expected": [
+          "noise",
+          "disturbance",
+          "commotion"
+        ],
+        "contrast": [
+          "racket"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 18,
+        "type": "funny",
+        "raw_response": "loud",
+        "extracted_word": "loud",
+        "outcome": "other",
+        "expected": [
+          "racket"
+        ],
+        "contrast": [
+          "noise",
+          "disturbance",
+          "commotion"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 19,
+        "type": "straight",
+        "raw_response": "outing",
+        "extracted_word": "outing",
+        "outcome": "other",
+        "expected": [
+          "release",
+          "breakdown",
+          "moment"
+        ],
+        "contrast": [
+          "outlet"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 19,
+        "type": "funny",
+        "raw_response": "break",
+        "extracted_word": "break",
+        "outcome": "other",
+        "expected": [
+          "outlet"
+        ],
+        "contrast": [
+          "release",
+          "breakdown",
+          "moment"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 20,
+        "type": "straight",
+        "raw_response": "shortage",
+        "extracted_word": "shortage",
+        "outcome": "other",
+        "expected": [
+          "limit",
+          "ceiling",
+          "restriction"
+        ],
+        "contrast": [
+          "cap"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 20,
+        "type": "funny",
+        "raw_response": "shortage",
+        "extracted_word": "shortage",
+        "outcome": "other",
+        "expected": [
+          "cap"
+        ],
+        "contrast": [
+          "limit",
+          "ceiling",
+          "restriction"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 21,
+        "type": "straight",
+        "raw_response": "extremely",
+        "extracted_word": "extremely",
+        "outcome": "other",
+        "expected": [
+          "mean",
+          "greedy",
+          "spoiled"
+        ],
+        "contrast": [
+          "shellfish"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 21,
+        "type": "funny",
+        "raw_response": "extremely",
+        "extracted_word": "extremely",
+        "outcome": "other",
+        "expected": [
+          "shellfish"
+        ],
+        "contrast": [
+          "mean",
+          "greedy",
+          "spoiled"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 22,
+        "type": "straight",
+        "raw_response": "catering",
+        "extracted_word": "catering",
+        "outcome": "other",
+        "expected": [
+          "energy",
+          "food",
+          "music"
+        ],
+        "contrast": [
+          "punch"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 22,
+        "type": "funny",
+        "raw_response": "punch",
+        "extracted_word": "punch",
+        "outcome": "correct",
+        "expected": [
+          "punch"
+        ],
+        "contrast": [
+          "energy",
+          "food",
+          "music"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 23,
+        "type": "straight",
+        "raw_response": "computers",
+        "extracted_word": "computers",
+        "outcome": "other",
+        "expected": [
+          "screens",
+          "cables",
+          "systems"
+        ],
+        "contrast": [
+          "monitors"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 23,
+        "type": "funny",
+        "raw_response": "computers",
+        "extracted_word": "computers",
+        "outcome": "other",
+        "expected": [
+          "monitors"
+        ],
+        "contrast": [
+          "screens",
+          "cables",
+          "systems"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 24,
+        "type": "straight",
+        "raw_response": "backpack",
+        "extracted_word": "backpack",
+        "outcome": "other",
+        "expected": [
+          "toiletries",
+          "snacks",
+          "blanket"
+        ],
+        "contrast": [
+          "trunk"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 24,
+        "type": "funny",
+        "raw_response": "back",
+        "extracted_word": "back",
+        "outcome": "other",
+        "expected": [
+          "trunk"
+        ],
+        "contrast": [
+          "toiletries",
+          "snacks",
+          "blanket"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 25,
+        "type": "straight",
+        "raw_response": "company",
+        "extracted_word": "company",
+        "outcome": "contrast",
+        "expected": [
+          "friends",
+          "attention",
+          "peace"
+        ],
+        "contrast": [
+          "company"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 25,
+        "type": "funny",
+        "raw_response": "company",
+        "extracted_word": "company",
+        "outcome": "correct",
+        "expected": [
+          "company"
+        ],
+        "contrast": [
+          "friends",
+          "attention",
+          "peace"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 26,
+        "type": "straight",
+        "raw_response": "Dave",
+        "extracted_word": "dave",
+        "outcome": "correct",
+        "expected": [
+          "Steve",
+          "Mike",
+          "Dave"
+        ],
+        "contrast": [
+          "Brian"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 26,
+        "type": "funny",
+        "raw_response": "Bubba",
+        "extracted_word": "bubba",
+        "outcome": "other",
+        "expected": [
+          "Brian"
+        ],
+        "contrast": [
+          "Steve",
+          "Mike",
+          "Dave"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 27,
+        "type": "straight",
+        "raw_response": "pranks",
+        "extracted_word": "pranks",
+        "outcome": "other",
+        "expected": [
+          "double shifts",
+          "long hours",
+          "overtime shifts"
+        ],
+        "contrast": [
+          "knight shifts"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 27,
+        "type": "funny",
+        "raw_response": "pranks",
+        "extracted_word": "pranks",
+        "outcome": "other",
+        "expected": [
+          "knight shifts"
+        ],
+        "contrast": [
+          "double shifts",
+          "long hours",
+          "overtime shifts"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 28,
+        "type": "straight",
+        "raw_response": "work",
+        "extracted_word": "work",
+        "outcome": "other",
+        "expected": [
+          "garbage",
+          "trash",
+          "junk"
+        ],
+        "contrast": [
+          "cake"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 28,
+        "type": "funny",
+        "raw_response": "work",
+        "extracted_word": "work",
+        "outcome": "other",
+        "expected": [
+          "cake"
+        ],
+        "contrast": [
+          "garbage",
+          "trash",
+          "junk"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 29,
+        "type": "straight",
+        "raw_response": "funny",
+        "extracted_word": "funny",
+        "outcome": "other",
+        "expected": [
+          "blast",
+          "riot",
+          "character"
+        ],
+        "contrast": [
+          "fungi"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 29,
+        "type": "funny",
+        "raw_response": "funny",
+        "extracted_word": "funny",
+        "outcome": "other",
+        "expected": [
+          "fungi"
+        ],
+        "contrast": [
+          "blast",
+          "riot",
+          "character"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 30,
+        "type": "straight",
+        "raw_response": "tank",
+        "extracted_word": "tank",
+        "outcome": "other",
+        "expected": [
+          "library",
+          "university",
+          "museum"
+        ],
+        "contrast": [
+          "school"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 30,
+        "type": "funny",
+        "raw_response": "tank",
+        "extracted_word": "tank",
+        "outcome": "other",
+        "expected": [
+          "school"
+        ],
+        "contrast": [
+          "library",
+          "university",
+          "museum"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 31,
+        "type": "straight",
+        "raw_response": "wall",
+        "extracted_word": "wall",
+        "outcome": "correct",
+        "expected": [
+          "limit",
+          "wall",
+          "breaking point"
+        ],
+        "contrast": [
+          "ceiling"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 31,
+        "type": "funny",
+        "raw_response": "wall",
+        "extracted_word": "wall",
+        "outcome": "contrast",
+        "expected": [
+          "ceiling"
+        ],
+        "contrast": [
+          "limit",
+          "wall",
+          "breaking point"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 32,
+        "type": "straight",
+        "raw_response": "recovered",
+        "extracted_word": "recovered",
+        "outcome": "contrast",
+        "expected": [
+          "injured",
+          "traumatized",
+          "stuck"
+        ],
+        "contrast": [
+          "recovered"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 32,
+        "type": "funny",
+        "raw_response": "recovered",
+        "extracted_word": "recovered",
+        "outcome": "correct",
+        "expected": [
+          "recovered"
+        ],
+        "contrast": [
+          "injured",
+          "traumatized",
+          "stuck"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 33,
+        "type": "straight",
+        "raw_response": "communication",
+        "extracted_word": "communication",
+        "outcome": "other",
+        "expected": [
+          "performance",
+          "leadership",
+          "attitude"
+        ],
+        "contrast": [
+          "track record"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 33,
+        "type": "funny",
+        "raw_response": "communication",
+        "extracted_word": "communication",
+        "outcome": "other",
+        "expected": [
+          "track record"
+        ],
+        "contrast": [
+          "performance",
+          "leadership",
+          "attitude"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 34,
+        "type": "straight",
+        "raw_response": "stake",
+        "extracted_word": "stake",
+        "outcome": "other",
+        "expected": [
+          "bet",
+          "bar",
+          "ante"
+        ],
+        "contrast": [
+          "steaks"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 34,
+        "type": "funny",
+        "raw_response": "stake",
+        "extracted_word": "stake",
+        "outcome": "other",
+        "expected": [
+          "steaks"
+        ],
+        "contrast": [
+          "bet",
+          "bar",
+          "ante"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 35,
+        "type": "straight",
+        "raw_response": "speech",
+        "extracted_word": "speech",
+        "outcome": "correct",
+        "expected": [
+          "tribute",
+          "monologue",
+          "dedication",
+          "speech"
+        ],
+        "contrast": [
+          "toast"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 35,
+        "type": "funny",
+        "raw_response": "speech",
+        "extracted_word": "speech",
+        "outcome": "contrast",
+        "expected": [
+          "toast"
+        ],
+        "contrast": [
+          "tribute",
+          "monologue",
+          "dedication",
+          "speech"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 36,
+        "type": "straight",
+        "raw_response": "penchance",
+        "extracted_word": "penchance",
+        "outcome": "other",
+        "expected": [
+          "signature",
+          "credentials",
+          "authority"
+        ],
+        "contrast": [
+          "seal"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 36,
+        "type": "funny",
+        "raw_response": "finest",
+        "extracted_word": "finest",
+        "outcome": "other",
+        "expected": [
+          "seal"
+        ],
+        "contrast": [
+          "signature",
+          "credentials",
+          "authority"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 37,
+        "type": "straight",
+        "raw_response": "absorbed",
+        "extracted_word": "absorbed",
+        "outcome": "other",
+        "expected": [
+          "harsh",
+          "cruel",
+          "nasty"
+        ],
+        "contrast": [
+          "mean"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 37,
+        "type": "funny",
+        "raw_response": "absorbed",
+        "extracted_word": "absorbed",
+        "outcome": "other",
+        "expected": [
+          "mean"
+        ],
+        "contrast": [
+          "harsh",
+          "cruel",
+          "nasty"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 38,
+        "type": "straight",
+        "raw_response": "severe",
+        "extracted_word": "severe",
+        "outcome": "other",
+        "expected": [
+          "back",
+          "stomach",
+          "leg"
+        ],
+        "contrast": [
+          "chest"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 38,
+        "type": "funny",
+        "raw_response": "severe",
+        "extracted_word": "severe",
+        "outcome": "other",
+        "expected": [
+          "chest"
+        ],
+        "contrast": [
+          "back",
+          "stomach",
+          "leg"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 39,
+        "type": "straight",
+        "raw_response": "afford",
+        "extracted_word": "afford",
+        "outcome": "other",
+        "expected": [
+          "accept it",
+          "commit",
+          "relocate"
+        ],
+        "contrast": [
+          "see himself doing it"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 39,
+        "type": "funny",
+        "raw_response": "afford",
+        "extracted_word": "afford",
+        "outcome": "other",
+        "expected": [
+          "see himself doing it"
+        ],
+        "contrast": [
+          "accept it",
+          "commit",
+          "relocate"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 40,
+        "type": "straight",
+        "raw_response": "fine",
+        "extracted_word": "fine",
+        "outcome": "contrast",
+        "expected": [
+          "okay",
+          "normal",
+          "under control"
+        ],
+        "contrast": [
+          "fine"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 40,
+        "type": "funny",
+        "raw_response": "fine",
+        "extracted_word": "fine",
+        "outcome": "correct",
+        "expected": [
+          "fine"
+        ],
+        "contrast": [
+          "okay",
+          "normal",
+          "under control"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 41,
+        "type": "straight",
+        "raw_response": "success",
+        "extracted_word": "success",
+        "outcome": "correct",
+        "expected": [
+          "success",
+          "hit",
+          "deal"
+        ],
+        "contrast": [
+          "fan",
+          "blowhard"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 41,
+        "type": "funny",
+        "raw_response": "success",
+        "extracted_word": "success",
+        "outcome": "contrast",
+        "expected": [
+          "fan",
+          "blowhard"
+        ],
+        "contrast": [
+          "success",
+          "hit",
+          "deal"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 42,
+        "type": "straight",
+        "raw_response": "valuable",
+        "extracted_word": "valuable",
+        "outcome": "correct",
+        "expected": [
+          "valuable",
+          "protected",
+          "important"
+        ],
+        "contrast": [
+          "mine"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 42,
+        "type": "funny",
+        "raw_response": "valuable",
+        "extracted_word": "valuable",
+        "outcome": "contrast",
+        "expected": [
+          "mine"
+        ],
+        "contrast": [
+          "valuable",
+          "protected",
+          "important"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 43,
+        "type": "straight",
+        "raw_response": "match",
+        "extracted_word": "match",
+        "outcome": "other",
+        "expected": [
+          "approach",
+          "compromise",
+          "strategy"
+        ],
+        "contrast": [
+          "solution"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 43,
+        "type": "funny",
+        "raw_response": "match",
+        "extracted_word": "match",
+        "outcome": "other",
+        "expected": [
+          "solution"
+        ],
+        "contrast": [
+          "approach",
+          "compromise",
+          "strategy"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 44,
+        "type": "straight",
+        "raw_response": "solution",
+        "extracted_word": "solution",
+        "outcome": "other",
+        "expected": [
+          "rebuttal",
+          "comeback",
+          "response"
+        ],
+        "contrast": [
+          "counter"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 44,
+        "type": "funny",
+        "raw_response": "solution",
+        "extracted_word": "solution",
+        "outcome": "other",
+        "expected": [
+          "counter"
+        ],
+        "contrast": [
+          "rebuttal",
+          "comeback",
+          "response"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 45,
+        "type": "straight",
+        "raw_response": "overwhelmed",
+        "extracted_word": "overwhelmed",
+        "outcome": "other",
+        "expected": [
+          "stupid",
+          "embarrassed",
+          "inadequate"
+        ],
+        "contrast": [
+          "shallow"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 45,
+        "type": "funny",
+        "raw_response": "overwhelmed",
+        "extracted_word": "overwhelmed",
+        "outcome": "other",
+        "expected": [
+          "shallow"
+        ],
+        "contrast": [
+          "stupid",
+          "embarrassed",
+          "inadequate"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 46,
+        "type": "straight",
+        "raw_response": "mattress",
+        "extracted_word": "mattress",
+        "outcome": "other",
+        "expected": [
+          "floor",
+          "ground"
+        ],
+        "contrast": [
+          "job"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 46,
+        "type": "funny",
+        "raw_response": "mattress",
+        "extracted_word": "mattress",
+        "outcome": "other",
+        "expected": [
+          "job"
+        ],
+        "contrast": [
+          "floor",
+          "ground"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 47,
+        "type": "straight",
+        "raw_response": "no",
+        "extracted_word": "no",
+        "outcome": "other",
+        "expected": [
+          "doubts",
+          "concerns",
+          "second thoughts",
+          "customers"
+        ],
+        "contrast": [
+          "reservations"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 47,
+        "type": "funny",
+        "raw_response": "no",
+        "extracted_word": "no",
+        "outcome": "other",
+        "expected": [
+          "reservations"
+        ],
+        "contrast": [
+          "doubts",
+          "concerns",
+          "second thoughts",
+          "customers"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 48,
+        "type": "straight",
+        "raw_response": "customers",
+        "extracted_word": "customers",
+        "outcome": "other",
+        "expected": [
+          "responsibilities",
+          "emergencies",
+          "crises",
+          "stress"
+        ],
+        "contrast": [
+          "pressing matters"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 48,
+        "type": "funny",
+        "raw_response": "customers",
+        "extracted_word": "customers",
+        "outcome": "other",
+        "expected": [
+          "pressing matters"
+        ],
+        "contrast": [
+          "responsibilities",
+          "emergencies",
+          "crises",
+          "stress"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 49,
+        "type": "straight",
+        "raw_response": "visible",
+        "extracted_word": "visible",
+        "outcome": "other",
+        "expected": [
+          "moving",
+          "noisy",
+          "distracted"
+        ],
+        "contrast": [
+          "spotted"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 49,
+        "type": "funny",
+        "raw_response": "found",
+        "extracted_word": "found",
+        "outcome": "other",
+        "expected": [
+          "spotted"
+        ],
+        "contrast": [
+          "moving",
+          "noisy",
+          "distracted"
+        ],
+        "outcome_rescored": "contrast"
+      }
+    ],
+    "summary_rescored": {
+      "accuracy": 0.42,
+      "straight_accuracy": 0.64,
+      "funny_accuracy": 0.2,
+      "correct": 42,
+      "contrast": 40,
+      "other": 18
+    }
+  },
+  "8b": {
+    "summary": {
+      "model": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+      "nickname": "8b",
+      "ndif": "meta-llama/Llama-3.1-8B (NDIF hot)",
+      "total": 100,
+      "correct": 18,
+      "contrast_match": 15,
+      "other": 67,
+      "accuracy": 0.18,
+      "straight_accuracy": 0.12,
+      "funny_accuracy": 0.24,
+      "straight_contrast_rate": 0.18,
+      "funny_contrast_rate": 0.12
+    },
+    "details": [
+      {
+        "pair_id": 0,
+        "type": "straight",
+        "raw_response": "election",
+        "extracted_word": "election",
+        "outcome": "other",
+        "expected": [
+          "momentum",
+          "support",
+          "steam"
+        ],
+        "contrast": [
+          "power"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 0,
+        "type": "funny",
+        "raw_response": "election",
+        "extracted_word": "election",
+        "outcome": "other",
+        "expected": [
+          "power"
+        ],
+        "contrast": [
+          "momentum",
+          "support",
+          "steam"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 1,
+        "type": "straight",
+        "raw_response": "fail",
+        "extracted_word": "fail",
+        "outcome": "other",
+        "expected": [
+          "stop traffic",
+          "halt cars",
+          "work again"
+        ],
+        "contrast": [
+          "change"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 1,
+        "type": "funny",
+        "raw_response": "change",
+        "extracted_word": "change",
+        "outcome": "correct",
+        "expected": [
+          "change"
+        ],
+        "contrast": [
+          "stop traffic",
+          "halt cars",
+          "work again"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 2,
+        "type": "straight",
+        "raw_response": "coins",
+        "extracted_word": "coins",
+        "outcome": "other",
+        "expected": [
+          "progress",
+          "friends",
+          "effort"
+        ],
+        "contrast": [
+          "cents"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 2,
+        "type": "funny",
+        "raw_response": "coins",
+        "extracted_word": "coins",
+        "outcome": "other",
+        "expected": [
+          "cents"
+        ],
+        "contrast": [
+          "progress",
+          "friends",
+          "effort"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 3,
+        "type": "straight",
+        "raw_response": "talents",
+        "extracted_word": "talents",
+        "outcome": "other",
+        "expected": [
+          "rhythm",
+          "timing",
+          "solo"
+        ],
+        "contrast": [
+          "drumsticks"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 3,
+        "type": "funny",
+        "raw_response": "talents",
+        "extracted_word": "talents",
+        "outcome": "other",
+        "expected": [
+          "drumsticks"
+        ],
+        "contrast": [
+          "rhythm",
+          "timing",
+          "solo"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 4,
+        "type": "straight",
+        "raw_response": "large",
+        "extracted_word": "large",
+        "outcome": "other",
+        "expected": [
+          "money",
+          "pressure",
+          "transactions"
+        ],
+        "contrast": [
+          "checks"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 4,
+        "type": "funny",
+        "raw_response": "large",
+        "extracted_word": "large",
+        "outcome": "other",
+        "expected": [
+          "checks"
+        ],
+        "contrast": [
+          "money",
+          "pressure",
+          "transactions"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 5,
+        "type": "straight",
+        "raw_response": "fired",
+        "extracted_word": "fired",
+        "outcome": "other",
+        "expected": [
+          "complaints",
+          "warnings",
+          "reprimanded"
+        ],
+        "contrast": [
+          "discharged"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 5,
+        "type": "funny",
+        "raw_response": "fired",
+        "extracted_word": "fired",
+        "outcome": "other",
+        "expected": [
+          "discharged"
+        ],
+        "contrast": [
+          "complaints",
+          "warnings",
+          "reprimanded"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 6,
+        "type": "straight",
+        "raw_response": "teacher",
+        "extracted_word": "teacher",
+        "outcome": "other",
+        "expected": [
+          "reputation",
+          "talent",
+          "network"
+        ],
+        "contrast": [
+          "staff"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 6,
+        "type": "funny",
+        "raw_response": "melody",
+        "extracted_word": "melody",
+        "outcome": "other",
+        "expected": [
+          "staff"
+        ],
+        "contrast": [
+          "reputation",
+          "talent",
+          "network"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 7,
+        "type": "straight",
+        "raw_response": "digging",
+        "extracted_word": "digging",
+        "outcome": "other",
+        "expected": [
+          "important",
+          "revolutionary",
+          "significant"
+        ],
+        "contrast": [
+          "groundbreaking"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 7,
+        "type": "funny",
+        "raw_response": "groundbreaking",
+        "extracted_word": "groundbreaking",
+        "outcome": "correct",
+        "expected": [
+          "groundbreaking"
+        ],
+        "contrast": [
+          "important",
+          "revolutionary",
+          "significant"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 8,
+        "type": "straight",
+        "raw_response": "translate",
+        "extracted_word": "translate",
+        "outcome": "other",
+        "expected": [
+          "understand",
+          "describe",
+          "ignore"
+        ],
+        "contrast": [
+          "express"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 8,
+        "type": "funny",
+        "raw_response": "believe",
+        "extracted_word": "believe",
+        "outcome": "other",
+        "expected": [
+          "express"
+        ],
+        "contrast": [
+          "understand",
+          "describe",
+          "ignore"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 9,
+        "type": "straight",
+        "raw_response": "discount",
+        "extracted_word": "discount",
+        "outcome": "other",
+        "expected": [
+          "beer",
+          "pizza",
+          "lane"
+        ],
+        "contrast": [
+          "strike"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 9,
+        "type": "funny",
+        "raw_response": "strike",
+        "extracted_word": "strike",
+        "outcome": "correct",
+        "expected": [
+          "strike"
+        ],
+        "contrast": [
+          "beer",
+          "pizza",
+          "lane"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 10,
+        "type": "straight",
+        "raw_response": "spilled",
+        "extracted_word": "spilled",
+        "outcome": "other",
+        "expected": [
+          "stolen",
+          "taken",
+          "robbed"
+        ],
+        "contrast": [
+          "mugged"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 10,
+        "type": "funny",
+        "raw_response": "spilled",
+        "extracted_word": "spilled",
+        "outcome": "other",
+        "expected": [
+          "mugged"
+        ],
+        "contrast": [
+          "stolen",
+          "taken",
+          "robbed"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 11,
+        "type": "straight",
+        "raw_response": "midget",
+        "extracted_word": "midget",
+        "outcome": "other",
+        "expected": [
+          "warrior",
+          "fighter",
+          "leader"
+        ],
+        "contrast": [
+          "ruler"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 11,
+        "type": "funny",
+        "raw_response": "midget",
+        "extracted_word": "midget",
+        "outcome": "other",
+        "expected": [
+          "ruler"
+        ],
+        "contrast": [
+          "warrior",
+          "fighter",
+          "leader"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 12,
+        "type": "straight",
+        "raw_response": "tired",
+        "extracted_word": "tired",
+        "outcome": "other",
+        "expected": [
+          "unbalanced",
+          "broken",
+          "unstable"
+        ],
+        "contrast": [
+          "two tired"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 12,
+        "type": "funny",
+        "raw_response": "tired",
+        "extracted_word": "tired",
+        "outcome": "other",
+        "expected": [
+          "two tired"
+        ],
+        "contrast": [
+          "unbalanced",
+          "broken",
+          "unstable"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 13,
+        "type": "straight",
+        "raw_response": "together",
+        "extracted_word": "together",
+        "outcome": "other",
+        "expected": [
+          "running",
+          "working",
+          "organized"
+        ],
+        "contrast": [
+          "afloat"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 13,
+        "type": "funny",
+        "raw_response": "running",
+        "extracted_word": "running",
+        "outcome": "contrast",
+        "expected": [
+          "afloat"
+        ],
+        "contrast": [
+          "running",
+          "working",
+          "organized"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 14,
+        "type": "straight",
+        "raw_response": "edge",
+        "extracted_word": "edge",
+        "outcome": "contrast",
+        "expected": [
+          "message",
+          "delivery",
+          "argument"
+        ],
+        "contrast": [
+          "edge"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 14,
+        "type": "funny",
+        "raw_response": "edge",
+        "extracted_word": "edge",
+        "outcome": "correct",
+        "expected": [
+          "edge"
+        ],
+        "contrast": [
+          "message",
+          "delivery",
+          "argument"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 15,
+        "type": "straight",
+        "raw_response": "carryon",
+        "extracted_word": "carryon",
+        "outcome": "other",
+        "expected": [
+          "bag",
+          "suitcase",
+          "item"
+        ],
+        "contrast": [
+          "carrion"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 15,
+        "type": "funny",
+        "raw_response": "carryon",
+        "extracted_word": "carryon",
+        "outcome": "other",
+        "expected": [
+          "carrion"
+        ],
+        "contrast": [
+          "bag",
+          "suitcase",
+          "item"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 16,
+        "type": "straight",
+        "raw_response": "unfulfilling",
+        "extracted_word": "unfulfilling",
+        "outcome": "other",
+        "expected": [
+          "tedious",
+          "boring",
+          "monotonous"
+        ],
+        "contrast": [
+          "dull"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 16,
+        "type": "funny",
+        "raw_response": "cutting",
+        "extracted_word": "cutting",
+        "outcome": "other",
+        "expected": [
+          "dull"
+        ],
+        "contrast": [
+          "tedious",
+          "boring",
+          "monotonous"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 17,
+        "type": "straight",
+        "raw_response": "prohibited",
+        "extracted_word": "prohibited",
+        "outcome": "other",
+        "expected": [
+          "spectacular",
+          "explosive",
+          "impressive"
+        ],
+        "contrast": [
+          "booming",
+          "exploding"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 17,
+        "type": "funny",
+        "raw_response": "booming",
+        "extracted_word": "booming",
+        "outcome": "correct",
+        "expected": [
+          "booming",
+          "exploding"
+        ],
+        "contrast": [
+          "spectacular",
+          "explosive",
+          "impressive"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 18,
+        "type": "straight",
+        "raw_response": "racket",
+        "extracted_word": "racket",
+        "outcome": "contrast",
+        "expected": [
+          "noise",
+          "disturbance",
+          "commotion"
+        ],
+        "contrast": [
+          "racket"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 18,
+        "type": "funny",
+        "raw_response": "racket",
+        "extracted_word": "racket",
+        "outcome": "correct",
+        "expected": [
+          "racket"
+        ],
+        "contrast": [
+          "noise",
+          "disturbance",
+          "commotion"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 19,
+        "type": "straight",
+        "raw_response": "release",
+        "extracted_word": "release",
+        "outcome": "correct",
+        "expected": [
+          "release",
+          "breakdown",
+          "moment"
+        ],
+        "contrast": [
+          "outlet"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 19,
+        "type": "funny",
+        "raw_response": "pick-me-up",
+        "extracted_word": "pick-me-up",
+        "outcome": "other",
+        "expected": [
+          "outlet"
+        ],
+        "contrast": [
+          "release",
+          "breakdown",
+          "moment"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 20,
+        "type": "straight",
+        "raw_response": "fungus",
+        "extracted_word": "fungus",
+        "outcome": "other",
+        "expected": [
+          "limit",
+          "ceiling",
+          "restriction"
+        ],
+        "contrast": [
+          "cap"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 20,
+        "type": "funny",
+        "raw_response": "funny",
+        "extracted_word": "funny",
+        "outcome": "other",
+        "expected": [
+          "cap"
+        ],
+        "contrast": [
+          "limit",
+          "ceiling",
+          "restriction"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 21,
+        "type": "straight",
+        "raw_response": "shellfish",
+        "extracted_word": "shellfish",
+        "outcome": "contrast",
+        "expected": [
+          "mean",
+          "greedy",
+          "spoiled"
+        ],
+        "contrast": [
+          "shellfish"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 21,
+        "type": "funny",
+        "raw_response": "shellfish",
+        "extracted_word": "shellfish",
+        "outcome": "correct",
+        "expected": [
+          "shellfish"
+        ],
+        "contrast": [
+          "mean",
+          "greedy",
+          "spoiled"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 22,
+        "type": "straight",
+        "raw_response": "punchline",
+        "extracted_word": "punchline",
+        "outcome": "other",
+        "expected": [
+          "energy",
+          "food",
+          "music"
+        ],
+        "contrast": [
+          "punch"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 22,
+        "type": "funny",
+        "raw_response": "punchline",
+        "extracted_word": "punchline",
+        "outcome": "other",
+        "expected": [
+          "punch"
+        ],
+        "contrast": [
+          "energy",
+          "food",
+          "music"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 23,
+        "type": "straight",
+        "raw_response": "computers",
+        "extracted_word": "computers",
+        "outcome": "other",
+        "expected": [
+          "screens",
+          "cables",
+          "systems"
+        ],
+        "contrast": [
+          "monitors"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 23,
+        "type": "funny",
+        "raw_response": "computers",
+        "extracted_word": "computers",
+        "outcome": "other",
+        "expected": [
+          "monitors"
+        ],
+        "contrast": [
+          "screens",
+          "cables",
+          "systems"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 24,
+        "type": "straight",
+        "raw_response": "trunk",
+        "extracted_word": "trunk",
+        "outcome": "contrast",
+        "expected": [
+          "toiletries",
+          "snacks",
+          "blanket"
+        ],
+        "contrast": [
+          "trunk"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 24,
+        "type": "funny",
+        "raw_response": "trunk",
+        "extracted_word": "trunk",
+        "outcome": "correct",
+        "expected": [
+          "trunk"
+        ],
+        "contrast": [
+          "toiletries",
+          "snacks",
+          "blanket"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 25,
+        "type": "straight",
+        "raw_response": "humanity",
+        "extracted_word": "humanity",
+        "outcome": "other",
+        "expected": [
+          "friends",
+          "attention",
+          "peace"
+        ],
+        "contrast": [
+          "company"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 25,
+        "type": "funny",
+        "raw_response": "humanity",
+        "extracted_word": "humanity",
+        "outcome": "other",
+        "expected": [
+          "company"
+        ],
+        "contrast": [
+          "friends",
+          "attention",
+          "peace"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 26,
+        "type": "straight",
+        "raw_response": "Steve",
+        "extracted_word": "steve",
+        "outcome": "correct",
+        "expected": [
+          "Steve",
+          "Mike",
+          "Dave"
+        ],
+        "contrast": [
+          "Brian"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 26,
+        "type": "funny",
+        "raw_response": "Steve",
+        "extracted_word": "steve",
+        "outcome": "contrast",
+        "expected": [
+          "Brian"
+        ],
+        "contrast": [
+          "Steve",
+          "Mike",
+          "Dave"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 27,
+        "type": "straight",
+        "raw_response": "all-nighters",
+        "extracted_word": "all-nighters",
+        "outcome": "other",
+        "expected": [
+          "double shifts",
+          "long hours",
+          "overtime shifts"
+        ],
+        "contrast": [
+          "knight shifts"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 27,
+        "type": "funny",
+        "raw_response": "oars",
+        "extracted_word": "oars",
+        "outcome": "other",
+        "expected": [
+          "knight shifts"
+        ],
+        "contrast": [
+          "double shifts",
+          "long hours",
+          "overtime shifts"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 28,
+        "type": "straight",
+        "raw_response": "cake",
+        "extracted_word": "cake",
+        "outcome": "contrast",
+        "expected": [
+          "garbage",
+          "trash",
+          "junk"
+        ],
+        "contrast": [
+          "cake"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 28,
+        "type": "funny",
+        "raw_response": "homework",
+        "extracted_word": "homework",
+        "outcome": "other",
+        "expected": [
+          "cake"
+        ],
+        "contrast": [
+          "garbage",
+          "trash",
+          "junk"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 29,
+        "type": "straight",
+        "raw_response": "fun-gi",
+        "extracted_word": "fun-gi",
+        "outcome": "other",
+        "expected": [
+          "blast",
+          "riot",
+          "character"
+        ],
+        "contrast": [
+          "fungi"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 29,
+        "type": "funny",
+        "raw_response": "fun-gi",
+        "extracted_word": "fun-gi",
+        "outcome": "other",
+        "expected": [
+          "fungi"
+        ],
+        "contrast": [
+          "blast",
+          "riot",
+          "character"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 30,
+        "type": "straight",
+        "raw_response": "tank",
+        "extracted_word": "tank",
+        "outcome": "other",
+        "expected": [
+          "library",
+          "university",
+          "museum"
+        ],
+        "contrast": [
+          "school"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 30,
+        "type": "funny",
+        "raw_response": "school",
+        "extracted_word": "school",
+        "outcome": "correct",
+        "expected": [
+          "school"
+        ],
+        "contrast": [
+          "library",
+          "university",
+          "museum"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 31,
+        "type": "straight",
+        "raw_response": "ceiling",
+        "extracted_word": "ceiling",
+        "outcome": "contrast",
+        "expected": [
+          "limit",
+          "wall",
+          "breaking point"
+        ],
+        "contrast": [
+          "ceiling"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 31,
+        "type": "funny",
+        "raw_response": "mainwater",
+        "extracted_word": "mainwater",
+        "outcome": "other",
+        "expected": [
+          "ceiling"
+        ],
+        "contrast": [
+          "limit",
+          "wall",
+          "breaking point"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 32,
+        "type": "straight",
+        "raw_response": "recovered",
+        "extracted_word": "recovered",
+        "outcome": "contrast",
+        "expected": [
+          "injured",
+          "traumatized",
+          "stuck"
+        ],
+        "contrast": [
+          "recovered"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 32,
+        "type": "funny",
+        "raw_response": "recovered",
+        "extracted_word": "recovered",
+        "outcome": "correct",
+        "expected": [
+          "recovered"
+        ],
+        "contrast": [
+          "injured",
+          "traumatized",
+          "stuck"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 33,
+        "type": "straight",
+        "raw_response": "communication",
+        "extracted_word": "communication",
+        "outcome": "other",
+        "expected": [
+          "performance",
+          "leadership",
+          "attitude"
+        ],
+        "contrast": [
+          "track record"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 33,
+        "type": "funny",
+        "raw_response": "communication",
+        "extracted_word": "communication",
+        "outcome": "other",
+        "expected": [
+          "track record"
+        ],
+        "contrast": [
+          "performance",
+          "leadership",
+          "attitude"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 34,
+        "type": "straight",
+        "raw_response": "stakes",
+        "extracted_word": "stakes",
+        "outcome": "other",
+        "expected": [
+          "bet",
+          "bar",
+          "ante"
+        ],
+        "contrast": [
+          "steaks"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 34,
+        "type": "funny",
+        "raw_response": "stakes",
+        "extracted_word": "stakes",
+        "outcome": "other",
+        "expected": [
+          "steaks"
+        ],
+        "contrast": [
+          "bet",
+          "bar",
+          "ante"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 35,
+        "type": "straight",
+        "raw_response": "speech",
+        "extracted_word": "speech",
+        "outcome": "correct",
+        "expected": [
+          "tribute",
+          "monologue",
+          "dedication",
+          "speech"
+        ],
+        "contrast": [
+          "toast"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 35,
+        "type": "funny",
+        "raw_response": "speech",
+        "extracted_word": "speech",
+        "outcome": "contrast",
+        "expected": [
+          "toast"
+        ],
+        "contrast": [
+          "tribute",
+          "monologue",
+          "dedication",
+          "speech"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 36,
+        "type": "straight",
+        "raw_response": "penmanship",
+        "extracted_word": "penmanship",
+        "outcome": "other",
+        "expected": [
+          "signature",
+          "credentials",
+          "authority"
+        ],
+        "contrast": [
+          "seal"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 36,
+        "type": "funny",
+        "raw_response": "signature",
+        "extracted_word": "signature",
+        "outcome": "contrast",
+        "expected": [
+          "seal"
+        ],
+        "contrast": [
+          "signature",
+          "credentials",
+          "authority"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 37,
+        "type": "straight",
+        "raw_response": "introverted",
+        "extracted_word": "introverted",
+        "outcome": "other",
+        "expected": [
+          "harsh",
+          "cruel",
+          "nasty"
+        ],
+        "contrast": [
+          "mean"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 37,
+        "type": "funny",
+        "raw_response": "introverted",
+        "extracted_word": "introverted",
+        "outcome": "other",
+        "expected": [
+          "mean"
+        ],
+        "contrast": [
+          "harsh",
+          "cruel",
+          "nasty"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 38,
+        "type": "straight",
+        "raw_response": "a headache",
+        "extracted_word": "a",
+        "outcome": "other",
+        "expected": [
+          "back",
+          "stomach",
+          "leg"
+        ],
+        "contrast": [
+          "chest"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 38,
+        "type": "funny",
+        "raw_response": "gold",
+        "extracted_word": "gold",
+        "outcome": "other",
+        "expected": [
+          "chest"
+        ],
+        "contrast": [
+          "back",
+          "stomach",
+          "leg"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 39,
+        "type": "straight",
+        "raw_response": "see",
+        "extracted_word": "see",
+        "outcome": "contrast",
+        "expected": [
+          "accept it",
+          "commit",
+          "relocate"
+        ],
+        "contrast": [
+          "see himself doing it"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 39,
+        "type": "funny",
+        "raw_response": "be",
+        "extracted_word": "be",
+        "outcome": "other",
+        "expected": [
+          "see himself doing it"
+        ],
+        "contrast": [
+          "accept it",
+          "commit",
+          "relocate"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 40,
+        "type": "straight",
+        "raw_response": "fine",
+        "extracted_word": "fine",
+        "outcome": "contrast",
+        "expected": [
+          "okay",
+          "normal",
+          "under control"
+        ],
+        "contrast": [
+          "fine"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 40,
+        "type": "funny",
+        "raw_response": "fine",
+        "extracted_word": "fine",
+        "outcome": "correct",
+        "expected": [
+          "fine"
+        ],
+        "contrast": [
+          "okay",
+          "normal",
+          "under control"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 41,
+        "type": "straight",
+        "raw_response": "success",
+        "extracted_word": "success",
+        "outcome": "correct",
+        "expected": [
+          "success",
+          "hit",
+          "deal"
+        ],
+        "contrast": [
+          "fan",
+          "blowhard"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 41,
+        "type": "funny",
+        "raw_response": "success",
+        "extracted_word": "success",
+        "outcome": "contrast",
+        "expected": [
+          "fan",
+          "blowhard"
+        ],
+        "contrast": [
+          "success",
+          "hit",
+          "deal"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 42,
+        "type": "straight",
+        "raw_response": "his",
+        "extracted_word": "his",
+        "outcome": "other",
+        "expected": [
+          "valuable",
+          "protected",
+          "important"
+        ],
+        "contrast": [
+          "mine"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 42,
+        "type": "funny",
+        "raw_response": "his",
+        "extracted_word": "his",
+        "outcome": "other",
+        "expected": [
+          "mine"
+        ],
+        "contrast": [
+          "valuable",
+          "protected",
+          "important"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 43,
+        "type": "straight",
+        "raw_response": "match",
+        "extracted_word": "match",
+        "outcome": "other",
+        "expected": [
+          "approach",
+          "compromise",
+          "strategy"
+        ],
+        "contrast": [
+          "solution"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 43,
+        "type": "funny",
+        "raw_response": "match",
+        "extracted_word": "match",
+        "outcome": "other",
+        "expected": [
+          "solution"
+        ],
+        "contrast": [
+          "approach",
+          "compromise",
+          "strategy"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 44,
+        "type": "straight",
+        "raw_response": "prescription",
+        "extracted_word": "prescription",
+        "outcome": "other",
+        "expected": [
+          "rebuttal",
+          "comeback",
+          "response"
+        ],
+        "contrast": [
+          "counter"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 44,
+        "type": "funny",
+        "raw_response": "prescription",
+        "extracted_word": "prescription",
+        "outcome": "other",
+        "expected": [
+          "counter"
+        ],
+        "contrast": [
+          "rebuttal",
+          "comeback",
+          "response"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 45,
+        "type": "straight",
+        "raw_response": "uncomfortable",
+        "extracted_word": "uncomfortable",
+        "outcome": "other",
+        "expected": [
+          "stupid",
+          "embarrassed",
+          "inadequate"
+        ],
+        "contrast": [
+          "shallow"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 45,
+        "type": "funny",
+        "raw_response": "uncomfortable",
+        "extracted_word": "uncomfortable",
+        "outcome": "other",
+        "expected": [
+          "shallow"
+        ],
+        "contrast": [
+          "stupid",
+          "embarrassed",
+          "inadequate"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 46,
+        "type": "straight",
+        "raw_response": "floor",
+        "extracted_word": "floor",
+        "outcome": "correct",
+        "expected": [
+          "floor",
+          "ground"
+        ],
+        "contrast": [
+          "job"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 46,
+        "type": "funny",
+        "raw_response": "job",
+        "extracted_word": "job",
+        "outcome": "correct",
+        "expected": [
+          "job"
+        ],
+        "contrast": [
+          "floor",
+          "ground"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 47,
+        "type": "straight",
+        "raw_response": "doubts",
+        "extracted_word": "doubts",
+        "outcome": "correct",
+        "expected": [
+          "doubts",
+          "concerns",
+          "second thoughts",
+          "customers"
+        ],
+        "contrast": [
+          "reservations"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 47,
+        "type": "funny",
+        "raw_response": "doubts",
+        "extracted_word": "doubts",
+        "outcome": "contrast",
+        "expected": [
+          "reservations"
+        ],
+        "contrast": [
+          "doubts",
+          "concerns",
+          "second thoughts",
+          "customers"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 48,
+        "type": "straight",
+        "raw_response": "garments",
+        "extracted_word": "garments",
+        "outcome": "other",
+        "expected": [
+          "responsibilities",
+          "emergencies",
+          "crises",
+          "stress"
+        ],
+        "contrast": [
+          "pressing matters"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 48,
+        "type": "funny",
+        "raw_response": "garments",
+        "extracted_word": "garments",
+        "outcome": "other",
+        "expected": [
+          "pressing matters"
+        ],
+        "contrast": [
+          "responsibilities",
+          "emergencies",
+          "crises",
+          "stress"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 49,
+        "type": "straight",
+        "raw_response": "seen",
+        "extracted_word": "seen",
+        "outcome": "other",
+        "expected": [
+          "moving",
+          "noisy",
+          "distracted"
+        ],
+        "contrast": [
+          "spotted"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 49,
+        "type": "funny",
+        "raw_response": "found",
+        "extracted_word": "found",
+        "outcome": "other",
+        "expected": [
+          "spotted"
+        ],
+        "contrast": [
+          "moving",
+          "noisy",
+          "distracted"
+        ],
+        "outcome_rescored": "contrast"
+      }
+    ],
+    "summary_rescored": {
+      "accuracy": 0.49,
+      "straight_accuracy": 0.58,
+      "funny_accuracy": 0.4,
+      "correct": 49,
+      "contrast": 39,
+      "other": 12
+    }
+  },
+  "70b": {
+    "summary": {
+      "model": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+      "nickname": "70b",
+      "ndif": "meta-llama/Llama-3.1-70B (NDIF hot)",
+      "total": 100,
+      "correct": 29,
+      "contrast_match": 17,
+      "other": 54,
+      "accuracy": 0.29,
+      "straight_accuracy": 0.16,
+      "funny_accuracy": 0.42,
+      "straight_contrast_rate": 0.3,
+      "funny_contrast_rate": 0.04
+    },
+    "details": [
+      {
+        "pair_id": 0,
+        "type": "straight",
+        "raw_response": "the",
+        "extracted_word": "the",
+        "outcome": "other",
+        "expected": [
+          "momentum",
+          "support",
+          "steam"
+        ],
+        "contrast": [
+          "power"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 0,
+        "type": "funny",
+        "raw_response": "the",
+        "extracted_word": "the",
+        "outcome": "other",
+        "expected": [
+          "power"
+        ],
+        "contrast": [
+          "momentum",
+          "support",
+          "steam"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 1,
+        "type": "straight",
+        "raw_response": "stop",
+        "extracted_word": "stop",
+        "outcome": "correct",
+        "expected": [
+          "stop traffic",
+          "halt cars",
+          "work again"
+        ],
+        "contrast": [
+          "change"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 1,
+        "type": "funny",
+        "raw_response": "stop",
+        "extracted_word": "stop",
+        "outcome": "contrast",
+        "expected": [
+          "change"
+        ],
+        "contrast": [
+          "stop traffic",
+          "halt cars",
+          "work again"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 2,
+        "type": "straight",
+        "raw_response": "coins",
+        "extracted_word": "coins",
+        "outcome": "other",
+        "expected": [
+          "progress",
+          "friends",
+          "effort"
+        ],
+        "contrast": [
+          "cents"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 2,
+        "type": "funny",
+        "raw_response": "change",
+        "extracted_word": "change",
+        "outcome": "other",
+        "expected": [
+          "cents"
+        ],
+        "contrast": [
+          "progress",
+          "friends",
+          "effort"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 3,
+        "type": "straight",
+        "raw_response": "drumming",
+        "extracted_word": "drumming",
+        "outcome": "other",
+        "expected": [
+          "rhythm",
+          "timing",
+          "solo"
+        ],
+        "contrast": [
+          "drumsticks"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 3,
+        "type": "funny",
+        "raw_response": "drumming",
+        "extracted_word": "drumming",
+        "outcome": "other",
+        "expected": [
+          "drumsticks"
+        ],
+        "contrast": [
+          "rhythm",
+          "timing",
+          "solo"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 4,
+        "type": "straight",
+        "raw_response": "large",
+        "extracted_word": "large",
+        "outcome": "other",
+        "expected": [
+          "money",
+          "pressure",
+          "transactions"
+        ],
+        "contrast": [
+          "checks"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 4,
+        "type": "funny",
+        "raw_response": "large",
+        "extracted_word": "large",
+        "outcome": "other",
+        "expected": [
+          "checks"
+        ],
+        "contrast": [
+          "money",
+          "pressure",
+          "transactions"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 5,
+        "type": "straight",
+        "raw_response": "fired",
+        "extracted_word": "fired",
+        "outcome": "other",
+        "expected": [
+          "complaints",
+          "warnings",
+          "reprimanded"
+        ],
+        "contrast": [
+          "discharged"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 5,
+        "type": "funny",
+        "raw_response": "fired",
+        "extracted_word": "fired",
+        "outcome": "other",
+        "expected": [
+          "discharged"
+        ],
+        "contrast": [
+          "complaints",
+          "warnings",
+          "reprimanded"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 6,
+        "type": "straight",
+        "raw_response": "ear",
+        "extracted_word": "ear",
+        "outcome": "other",
+        "expected": [
+          "reputation",
+          "talent",
+          "network"
+        ],
+        "contrast": [
+          "staff"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 6,
+        "type": "funny",
+        "raw_response": "spell",
+        "extracted_word": "spell",
+        "outcome": "other",
+        "expected": [
+          "staff"
+        ],
+        "contrast": [
+          "reputation",
+          "talent",
+          "network"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 7,
+        "type": "straight",
+        "raw_response": "underappreciated",
+        "extracted_word": "underappreciated",
+        "outcome": "other",
+        "expected": [
+          "important",
+          "revolutionary",
+          "significant"
+        ],
+        "contrast": [
+          "groundbreaking"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 7,
+        "type": "funny",
+        "raw_response": "groundbreaking",
+        "extracted_word": "groundbreaking",
+        "outcome": "correct",
+        "expected": [
+          "groundbreaking"
+        ],
+        "contrast": [
+          "important",
+          "revolutionary",
+          "significant"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 8,
+        "type": "straight",
+        "raw_response": "relate",
+        "extracted_word": "relate",
+        "outcome": "other",
+        "expected": [
+          "understand",
+          "describe",
+          "ignore"
+        ],
+        "contrast": [
+          "express"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 8,
+        "type": "funny",
+        "raw_response": "relate",
+        "extracted_word": "relate",
+        "outcome": "other",
+        "expected": [
+          "express"
+        ],
+        "contrast": [
+          "understand",
+          "describe",
+          "ignore"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 9,
+        "type": "straight",
+        "raw_response": "strike",
+        "extracted_word": "strike",
+        "outcome": "contrast",
+        "expected": [
+          "beer",
+          "pizza",
+          "lane"
+        ],
+        "contrast": [
+          "strike"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 9,
+        "type": "funny",
+        "raw_response": "strike",
+        "extracted_word": "strike",
+        "outcome": "correct",
+        "expected": [
+          "strike"
+        ],
+        "contrast": [
+          "beer",
+          "pizza",
+          "lane"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 10,
+        "type": "straight",
+        "raw_response": "mugged",
+        "extracted_word": "mugged",
+        "outcome": "contrast",
+        "expected": [
+          "stolen",
+          "taken",
+          "robbed"
+        ],
+        "contrast": [
+          "mugged"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 10,
+        "type": "funny",
+        "raw_response": "mugged",
+        "extracted_word": "mugged",
+        "outcome": "correct",
+        "expected": [
+          "mugged"
+        ],
+        "contrast": [
+          "stolen",
+          "taken",
+          "robbed"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 11,
+        "type": "straight",
+        "raw_response": "joke",
+        "extracted_word": "joke",
+        "outcome": "other",
+        "expected": [
+          "warrior",
+          "fighter",
+          "leader"
+        ],
+        "contrast": [
+          "ruler"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 11,
+        "type": "funny",
+        "raw_response": "doll",
+        "extracted_word": "doll",
+        "outcome": "other",
+        "expected": [
+          "ruler"
+        ],
+        "contrast": [
+          "warrior",
+          "fighter",
+          "leader"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 12,
+        "type": "straight",
+        "raw_response": "tired",
+        "extracted_word": "tired",
+        "outcome": "other",
+        "expected": [
+          "unbalanced",
+          "broken",
+          "unstable"
+        ],
+        "contrast": [
+          "two tired"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 12,
+        "type": "funny",
+        "raw_response": "two-tired",
+        "extracted_word": "two-tired",
+        "outcome": "other",
+        "expected": [
+          "two tired"
+        ],
+        "contrast": [
+          "unbalanced",
+          "broken",
+          "unstable"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 13,
+        "type": "straight",
+        "raw_response": "running",
+        "extracted_word": "running",
+        "outcome": "correct",
+        "expected": [
+          "running",
+          "working",
+          "organized"
+        ],
+        "contrast": [
+          "afloat"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 13,
+        "type": "funny",
+        "raw_response": "afloat",
+        "extracted_word": "afloat",
+        "outcome": "correct",
+        "expected": [
+          "afloat"
+        ],
+        "contrast": [
+          "running",
+          "working",
+          "organized"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 14,
+        "type": "straight",
+        "raw_response": "point",
+        "extracted_word": "point",
+        "outcome": "other",
+        "expected": [
+          "message",
+          "delivery",
+          "argument"
+        ],
+        "contrast": [
+          "edge"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 14,
+        "type": "funny",
+        "raw_response": "point",
+        "extracted_word": "point",
+        "outcome": "other",
+        "expected": [
+          "edge"
+        ],
+        "contrast": [
+          "message",
+          "delivery",
+          "argument"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 15,
+        "type": "straight",
+        "raw_response": "carry",
+        "extracted_word": "carry",
+        "outcome": "other",
+        "expected": [
+          "bag",
+          "suitcase",
+          "item"
+        ],
+        "contrast": [
+          "carrion"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 15,
+        "type": "funny",
+        "raw_response": "carry",
+        "extracted_word": "carry",
+        "outcome": "other",
+        "expected": [
+          "carrion"
+        ],
+        "contrast": [
+          "bag",
+          "suitcase",
+          "item"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 16,
+        "type": "straight",
+        "raw_response": "scarce",
+        "extracted_word": "scarce",
+        "outcome": "other",
+        "expected": [
+          "tedious",
+          "boring",
+          "monotonous"
+        ],
+        "contrast": [
+          "dull"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 16,
+        "type": "funny",
+        "raw_response": "cutting",
+        "extracted_word": "cutting",
+        "outcome": "other",
+        "expected": [
+          "dull"
+        ],
+        "contrast": [
+          "tedious",
+          "boring",
+          "monotonous"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 17,
+        "type": "straight",
+        "raw_response": "booming",
+        "extracted_word": "booming",
+        "outcome": "contrast",
+        "expected": [
+          "spectacular",
+          "explosive",
+          "impressive"
+        ],
+        "contrast": [
+          "booming",
+          "exploding"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 17,
+        "type": "funny",
+        "raw_response": "exploding",
+        "extracted_word": "exploding",
+        "outcome": "correct",
+        "expected": [
+          "booming",
+          "exploding"
+        ],
+        "contrast": [
+          "spectacular",
+          "explosive",
+          "impressive"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 18,
+        "type": "straight",
+        "raw_response": "racket",
+        "extracted_word": "racket",
+        "outcome": "contrast",
+        "expected": [
+          "noise",
+          "disturbance",
+          "commotion"
+        ],
+        "contrast": [
+          "racket"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 18,
+        "type": "funny",
+        "raw_response": "racket",
+        "extracted_word": "racket",
+        "outcome": "correct",
+        "expected": [
+          "racket"
+        ],
+        "contrast": [
+          "noise",
+          "disturbance",
+          "commotion"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 19,
+        "type": "straight",
+        "raw_response": "breakdown",
+        "extracted_word": "breakdown",
+        "outcome": "correct",
+        "expected": [
+          "release",
+          "breakdown",
+          "moment"
+        ],
+        "contrast": [
+          "outlet"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 19,
+        "type": "funny",
+        "raw_response": "charge",
+        "extracted_word": "charge",
+        "outcome": "other",
+        "expected": [
+          "outlet"
+        ],
+        "contrast": [
+          "release",
+          "breakdown",
+          "moment"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 20,
+        "type": "straight",
+        "raw_response": "fungus",
+        "extracted_word": "fungus",
+        "outcome": "other",
+        "expected": [
+          "limit",
+          "ceiling",
+          "restriction"
+        ],
+        "contrast": [
+          "cap"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 20,
+        "type": "funny",
+        "raw_response": "fungus",
+        "extracted_word": "fungus",
+        "outcome": "other",
+        "expected": [
+          "cap"
+        ],
+        "contrast": [
+          "limit",
+          "ceiling",
+          "restriction"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 21,
+        "type": "straight",
+        "raw_response": "shellfish",
+        "extracted_word": "shellfish",
+        "outcome": "contrast",
+        "expected": [
+          "mean",
+          "greedy",
+          "spoiled"
+        ],
+        "contrast": [
+          "shellfish"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 21,
+        "type": "funny",
+        "raw_response": "shellfish",
+        "extracted_word": "shellfish",
+        "outcome": "correct",
+        "expected": [
+          "shellfish"
+        ],
+        "contrast": [
+          "mean",
+          "greedy",
+          "spoiled"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 22,
+        "type": "straight",
+        "raw_response": "punch",
+        "extracted_word": "punch",
+        "outcome": "contrast",
+        "expected": [
+          "energy",
+          "food",
+          "music"
+        ],
+        "contrast": [
+          "punch"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 22,
+        "type": "funny",
+        "raw_response": "punch",
+        "extracted_word": "punch",
+        "outcome": "correct",
+        "expected": [
+          "punch"
+        ],
+        "contrast": [
+          "energy",
+          "food",
+          "music"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 23,
+        "type": "straight",
+        "raw_response": "reptiles",
+        "extracted_word": "reptiles",
+        "outcome": "other",
+        "expected": [
+          "screens",
+          "cables",
+          "systems"
+        ],
+        "contrast": [
+          "monitors"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 23,
+        "type": "funny",
+        "raw_response": "reptiles",
+        "extracted_word": "reptiles",
+        "outcome": "other",
+        "expected": [
+          "monitors"
+        ],
+        "contrast": [
+          "screens",
+          "cables",
+          "systems"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 24,
+        "type": "straight",
+        "raw_response": "trunk",
+        "extracted_word": "trunk",
+        "outcome": "contrast",
+        "expected": [
+          "toiletries",
+          "snacks",
+          "blanket"
+        ],
+        "contrast": [
+          "trunk"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 24,
+        "type": "funny",
+        "raw_response": "trunk",
+        "extracted_word": "trunk",
+        "outcome": "correct",
+        "expected": [
+          "trunk"
+        ],
+        "contrast": [
+          "toiletries",
+          "snacks",
+          "blanket"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 25,
+        "type": "straight",
+        "raw_response": "company",
+        "extracted_word": "company",
+        "outcome": "contrast",
+        "expected": [
+          "friends",
+          "attention",
+          "peace"
+        ],
+        "contrast": [
+          "company"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 25,
+        "type": "funny",
+        "raw_response": "company",
+        "extracted_word": "company",
+        "outcome": "correct",
+        "expected": [
+          "company"
+        ],
+        "contrast": [
+          "friends",
+          "attention",
+          "peace"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 26,
+        "type": "straight",
+        "raw_response": "Braaaaad",
+        "extracted_word": "braaaaad",
+        "outcome": "other",
+        "expected": [
+          "Steve",
+          "Mike",
+          "Dave"
+        ],
+        "contrast": [
+          "Brian"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 26,
+        "type": "funny",
+        "raw_response": "Braaaaad",
+        "extracted_word": "braaaaad",
+        "outcome": "other",
+        "expected": [
+          "Brian"
+        ],
+        "contrast": [
+          "Steve",
+          "Mike",
+          "Dave"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 27,
+        "type": "straight",
+        "raw_response": "all-nighters",
+        "extracted_word": "all-nighters",
+        "outcome": "other",
+        "expected": [
+          "double shifts",
+          "long hours",
+          "overtime shifts"
+        ],
+        "contrast": [
+          "knight shifts"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 27,
+        "type": "funny",
+        "raw_response": "knight",
+        "extracted_word": "knight",
+        "outcome": "correct",
+        "expected": [
+          "knight shifts"
+        ],
+        "contrast": [
+          "double shifts",
+          "long hours",
+          "overtime shifts"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 28,
+        "type": "straight",
+        "raw_response": "cake",
+        "extracted_word": "cake",
+        "outcome": "contrast",
+        "expected": [
+          "garbage",
+          "trash",
+          "junk"
+        ],
+        "contrast": [
+          "cake"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 28,
+        "type": "funny",
+        "raw_response": "cake",
+        "extracted_word": "cake",
+        "outcome": "correct",
+        "expected": [
+          "cake"
+        ],
+        "contrast": [
+          "garbage",
+          "trash",
+          "junk"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 29,
+        "type": "straight",
+        "raw_response": "fun-gi",
+        "extracted_word": "fun-gi",
+        "outcome": "other",
+        "expected": [
+          "blast",
+          "riot",
+          "character"
+        ],
+        "contrast": [
+          "fungi"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 29,
+        "type": "funny",
+        "raw_response": "fun-gi",
+        "extracted_word": "fun-gi",
+        "outcome": "other",
+        "expected": [
+          "fungi"
+        ],
+        "contrast": [
+          "blast",
+          "riot",
+          "character"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 30,
+        "type": "straight",
+        "raw_response": "library",
+        "extracted_word": "library",
+        "outcome": "correct",
+        "expected": [
+          "library",
+          "university",
+          "museum"
+        ],
+        "contrast": [
+          "school"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 30,
+        "type": "funny",
+        "raw_response": "school",
+        "extracted_word": "school",
+        "outcome": "correct",
+        "expected": [
+          "school"
+        ],
+        "contrast": [
+          "library",
+          "university",
+          "museum"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 31,
+        "type": "straight",
+        "raw_response": "roof",
+        "extracted_word": "roof",
+        "outcome": "other",
+        "expected": [
+          "limit",
+          "wall",
+          "breaking point"
+        ],
+        "contrast": [
+          "ceiling"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 31,
+        "type": "funny",
+        "raw_response": "roof",
+        "extracted_word": "roof",
+        "outcome": "other",
+        "expected": [
+          "ceiling"
+        ],
+        "contrast": [
+          "limit",
+          "wall",
+          "breaking point"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 32,
+        "type": "straight",
+        "raw_response": "recovered",
+        "extracted_word": "recovered",
+        "outcome": "contrast",
+        "expected": [
+          "injured",
+          "traumatized",
+          "stuck"
+        ],
+        "contrast": [
+          "recovered"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 32,
+        "type": "funny",
+        "raw_response": "recovered",
+        "extracted_word": "recovered",
+        "outcome": "correct",
+        "expected": [
+          "recovered"
+        ],
+        "contrast": [
+          "injured",
+          "traumatized",
+          "stuck"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 33,
+        "type": "straight",
+        "raw_response": "people",
+        "extracted_word": "people",
+        "outcome": "other",
+        "expected": [
+          "performance",
+          "leadership",
+          "attitude"
+        ],
+        "contrast": [
+          "track record"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 33,
+        "type": "funny",
+        "raw_response": "track",
+        "extracted_word": "track",
+        "outcome": "correct",
+        "expected": [
+          "track record"
+        ],
+        "contrast": [
+          "performance",
+          "leadership",
+          "attitude"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 34,
+        "type": "straight",
+        "raw_response": "stake",
+        "extracted_word": "stake",
+        "outcome": "other",
+        "expected": [
+          "bet",
+          "bar",
+          "ante"
+        ],
+        "contrast": [
+          "steaks"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 34,
+        "type": "funny",
+        "raw_response": "steak",
+        "extracted_word": "steak",
+        "outcome": "other",
+        "expected": [
+          "steaks"
+        ],
+        "contrast": [
+          "bet",
+          "bar",
+          "ante"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 35,
+        "type": "straight",
+        "raw_response": "speech",
+        "extracted_word": "speech",
+        "outcome": "correct",
+        "expected": [
+          "tribute",
+          "monologue",
+          "dedication",
+          "speech"
+        ],
+        "contrast": [
+          "toast"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 35,
+        "type": "funny",
+        "raw_response": "toast",
+        "extracted_word": "toast",
+        "outcome": "correct",
+        "expected": [
+          "toast"
+        ],
+        "contrast": [
+          "tribute",
+          "monologue",
+          "dedication",
+          "speech"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 36,
+        "type": "straight",
+        "raw_response": "seal",
+        "extracted_word": "seal",
+        "outcome": "contrast",
+        "expected": [
+          "signature",
+          "credentials",
+          "authority"
+        ],
+        "contrast": [
+          "seal"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 36,
+        "type": "funny",
+        "raw_response": "seal",
+        "extracted_word": "seal",
+        "outcome": "correct",
+        "expected": [
+          "seal"
+        ],
+        "contrast": [
+          "signature",
+          "credentials",
+          "authority"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 37,
+        "type": "straight",
+        "raw_response": "introverted",
+        "extracted_word": "introverted",
+        "outcome": "other",
+        "expected": [
+          "harsh",
+          "cruel",
+          "nasty"
+        ],
+        "contrast": [
+          "mean"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 37,
+        "type": "funny",
+        "raw_response": "analytical",
+        "extracted_word": "analytical",
+        "outcome": "other",
+        "expected": [
+          "mean"
+        ],
+        "contrast": [
+          "harsh",
+          "cruel",
+          "nasty"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 38,
+        "type": "straight",
+        "raw_response": "backache",
+        "extracted_word": "backache",
+        "outcome": "other",
+        "expected": [
+          "back",
+          "stomach",
+          "leg"
+        ],
+        "contrast": [
+          "chest"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 38,
+        "type": "funny",
+        "raw_response": "arrhh",
+        "extracted_word": "arrhh",
+        "outcome": "other",
+        "expected": [
+          "chest"
+        ],
+        "contrast": [
+          "back",
+          "stomach",
+          "leg"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 39,
+        "type": "straight",
+        "raw_response": "see",
+        "extracted_word": "see",
+        "outcome": "contrast",
+        "expected": [
+          "accept it",
+          "commit",
+          "relocate"
+        ],
+        "contrast": [
+          "see himself doing it"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 39,
+        "type": "funny",
+        "raw_response": "see",
+        "extracted_word": "see",
+        "outcome": "correct",
+        "expected": [
+          "see himself doing it"
+        ],
+        "contrast": [
+          "accept it",
+          "commit",
+          "relocate"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 40,
+        "type": "straight",
+        "raw_response": "fine",
+        "extracted_word": "fine",
+        "outcome": "contrast",
+        "expected": [
+          "okay",
+          "normal",
+          "under control"
+        ],
+        "contrast": [
+          "fine"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 40,
+        "type": "funny",
+        "raw_response": "fine",
+        "extracted_word": "fine",
+        "outcome": "correct",
+        "expected": [
+          "fine"
+        ],
+        "contrast": [
+          "okay",
+          "normal",
+          "under control"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 41,
+        "type": "straight",
+        "raw_response": "success",
+        "extracted_word": "success",
+        "outcome": "correct",
+        "expected": [
+          "success",
+          "hit",
+          "deal"
+        ],
+        "contrast": [
+          "fan",
+          "blowhard"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 41,
+        "type": "funny",
+        "raw_response": "success",
+        "extracted_word": "success",
+        "outcome": "contrast",
+        "expected": [
+          "fan",
+          "blowhard"
+        ],
+        "contrast": [
+          "success",
+          "hit",
+          "deal"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 42,
+        "type": "straight",
+        "raw_response": "his",
+        "extracted_word": "his",
+        "outcome": "other",
+        "expected": [
+          "valuable",
+          "protected",
+          "important"
+        ],
+        "contrast": [
+          "mine"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 42,
+        "type": "funny",
+        "raw_response": "his",
+        "extracted_word": "his",
+        "outcome": "other",
+        "expected": [
+          "mine"
+        ],
+        "contrast": [
+          "valuable",
+          "protected",
+          "important"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 43,
+        "type": "straight",
+        "raw_response": "formula",
+        "extracted_word": "formula",
+        "outcome": "other",
+        "expected": [
+          "approach",
+          "compromise",
+          "strategy"
+        ],
+        "contrast": [
+          "solution"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 43,
+        "type": "funny",
+        "raw_response": "bond",
+        "extracted_word": "bond",
+        "outcome": "other",
+        "expected": [
+          "solution"
+        ],
+        "contrast": [
+          "approach",
+          "compromise",
+          "strategy"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 44,
+        "type": "straight",
+        "raw_response": "prescription",
+        "extracted_word": "prescription",
+        "outcome": "other",
+        "expected": [
+          "rebuttal",
+          "comeback",
+          "response"
+        ],
+        "contrast": [
+          "counter"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 44,
+        "type": "funny",
+        "raw_response": "prescription",
+        "extracted_word": "prescription",
+        "outcome": "other",
+        "expected": [
+          "counter"
+        ],
+        "contrast": [
+          "rebuttal",
+          "comeback",
+          "response"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 45,
+        "type": "straight",
+        "raw_response": "stupid",
+        "extracted_word": "stupid",
+        "outcome": "correct",
+        "expected": [
+          "stupid",
+          "embarrassed",
+          "inadequate"
+        ],
+        "contrast": [
+          "shallow"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 45,
+        "type": "funny",
+        "raw_response": "pressured",
+        "extracted_word": "pressured",
+        "outcome": "other",
+        "expected": [
+          "shallow"
+        ],
+        "contrast": [
+          "stupid",
+          "embarrassed",
+          "inadequate"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 46,
+        "type": "straight",
+        "raw_response": "job",
+        "extracted_word": "job",
+        "outcome": "contrast",
+        "expected": [
+          "floor",
+          "ground"
+        ],
+        "contrast": [
+          "job"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 46,
+        "type": "funny",
+        "raw_response": "job",
+        "extracted_word": "job",
+        "outcome": "correct",
+        "expected": [
+          "job"
+        ],
+        "contrast": [
+          "floor",
+          "ground"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 47,
+        "type": "straight",
+        "raw_response": "doubts",
+        "extracted_word": "doubts",
+        "outcome": "correct",
+        "expected": [
+          "doubts",
+          "concerns",
+          "second thoughts",
+          "customers"
+        ],
+        "contrast": [
+          "reservations"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 47,
+        "type": "funny",
+        "raw_response": "cold",
+        "extracted_word": "cold",
+        "outcome": "other",
+        "expected": [
+          "reservations"
+        ],
+        "contrast": [
+          "doubts",
+          "concerns",
+          "second thoughts",
+          "customers"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 48,
+        "type": "straight",
+        "raw_response": "shirts",
+        "extracted_word": "shirts",
+        "outcome": "other",
+        "expected": [
+          "responsibilities",
+          "emergencies",
+          "crises",
+          "stress"
+        ],
+        "contrast": [
+          "pressing matters"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 48,
+        "type": "funny",
+        "raw_response": "shirts",
+        "extracted_word": "shirts",
+        "outcome": "other",
+        "expected": [
+          "pressing matters"
+        ],
+        "contrast": [
+          "responsibilities",
+          "emergencies",
+          "crises",
+          "stress"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 49,
+        "type": "straight",
+        "raw_response": "spotted",
+        "extracted_word": "spotted",
+        "outcome": "contrast",
+        "expected": [
+          "moving",
+          "noisy",
+          "distracted"
+        ],
+        "contrast": [
+          "spotted"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 49,
+        "type": "funny",
+        "raw_response": "spotted",
+        "extracted_word": "spotted",
+        "outcome": "correct",
+        "expected": [
+          "spotted"
+        ],
+        "contrast": [
+          "moving",
+          "noisy",
+          "distracted"
+        ],
+        "outcome_rescored": "correct"
+      }
+    ],
+    "summary_rescored": {
+      "accuracy": 0.6,
+      "straight_accuracy": 0.4,
+      "funny_accuracy": 0.8,
+      "correct": 60,
+      "contrast": 33,
+      "other": 7
+    }
+  },
+  "3.3-70b": {
+    "summary": {
+      "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "nickname": "3.3-70b",
+      "ndif": "meta-llama/Llama-3.3-70B-Instruct (NDIF hot)",
+      "total": 100,
+      "correct": 31,
+      "contrast_match": 18,
+      "other": 51,
+      "accuracy": 0.31,
+      "straight_accuracy": 0.16,
+      "funny_accuracy": 0.46,
+      "straight_contrast_rate": 0.3,
+      "funny_contrast_rate": 0.06
+    },
+    "details": [
+      {
+        "pair_id": 0,
+        "type": "straight",
+        "raw_response": "the",
+        "extracted_word": "the",
+        "outcome": "other",
+        "expected": [
+          "momentum",
+          "support",
+          "steam"
+        ],
+        "contrast": [
+          "power"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 0,
+        "type": "funny",
+        "raw_response": "the",
+        "extracted_word": "the",
+        "outcome": "other",
+        "expected": [
+          "power"
+        ],
+        "contrast": [
+          "momentum",
+          "support",
+          "steam"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 1,
+        "type": "straight",
+        "raw_response": "stop",
+        "extracted_word": "stop",
+        "outcome": "correct",
+        "expected": [
+          "stop traffic",
+          "halt cars",
+          "work again"
+        ],
+        "contrast": [
+          "change"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 1,
+        "type": "funny",
+        "raw_response": "stop",
+        "extracted_word": "stop",
+        "outcome": "contrast",
+        "expected": [
+          "change"
+        ],
+        "contrast": [
+          "stop traffic",
+          "halt cars",
+          "work again"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 2,
+        "type": "straight",
+        "raw_response": "coins",
+        "extracted_word": "coins",
+        "outcome": "other",
+        "expected": [
+          "progress",
+          "friends",
+          "effort"
+        ],
+        "contrast": [
+          "cents"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 2,
+        "type": "funny",
+        "raw_response": "change",
+        "extracted_word": "change",
+        "outcome": "other",
+        "expected": [
+          "cents"
+        ],
+        "contrast": [
+          "progress",
+          "friends",
+          "effort"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 3,
+        "type": "straight",
+        "raw_response": "drumming",
+        "extracted_word": "drumming",
+        "outcome": "other",
+        "expected": [
+          "rhythm",
+          "timing",
+          "solo"
+        ],
+        "contrast": [
+          "drumsticks"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 3,
+        "type": "funny",
+        "raw_response": "drumming",
+        "extracted_word": "drumming",
+        "outcome": "other",
+        "expected": [
+          "drumsticks"
+        ],
+        "contrast": [
+          "rhythm",
+          "timing",
+          "solo"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 4,
+        "type": "straight",
+        "raw_response": "pressure",
+        "extracted_word": "pressure",
+        "outcome": "correct",
+        "expected": [
+          "money",
+          "pressure",
+          "transactions"
+        ],
+        "contrast": [
+          "checks"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 4,
+        "type": "funny",
+        "raw_response": "pressure",
+        "extracted_word": "pressure",
+        "outcome": "contrast",
+        "expected": [
+          "checks"
+        ],
+        "contrast": [
+          "money",
+          "pressure",
+          "transactions"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 5,
+        "type": "straight",
+        "raw_response": "fired",
+        "extracted_word": "fired",
+        "outcome": "other",
+        "expected": [
+          "complaints",
+          "warnings",
+          "reprimanded"
+        ],
+        "contrast": [
+          "discharged"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 5,
+        "type": "funny",
+        "raw_response": "fired",
+        "extracted_word": "fired",
+        "outcome": "other",
+        "expected": [
+          "discharged"
+        ],
+        "contrast": [
+          "complaints",
+          "warnings",
+          "reprimanded"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 6,
+        "type": "straight",
+        "raw_response": "ear",
+        "extracted_word": "ear",
+        "outcome": "other",
+        "expected": [
+          "reputation",
+          "talent",
+          "network"
+        ],
+        "contrast": [
+          "staff"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 6,
+        "type": "funny",
+        "raw_response": "spell",
+        "extracted_word": "spell",
+        "outcome": "other",
+        "expected": [
+          "staff"
+        ],
+        "contrast": [
+          "reputation",
+          "talent",
+          "network"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 7,
+        "type": "straight",
+        "raw_response": "underappreciated",
+        "extracted_word": "underappreciated",
+        "outcome": "other",
+        "expected": [
+          "important",
+          "revolutionary",
+          "significant"
+        ],
+        "contrast": [
+          "groundbreaking"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 7,
+        "type": "funny",
+        "raw_response": "groundbreaking",
+        "extracted_word": "groundbreaking",
+        "outcome": "correct",
+        "expected": [
+          "groundbreaking"
+        ],
+        "contrast": [
+          "important",
+          "revolutionary",
+          "significant"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 8,
+        "type": "straight",
+        "raw_response": "quantify",
+        "extracted_word": "quantify",
+        "outcome": "other",
+        "expected": [
+          "understand",
+          "describe",
+          "ignore"
+        ],
+        "contrast": [
+          "express"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 8,
+        "type": "funny",
+        "raw_response": "relate",
+        "extracted_word": "relate",
+        "outcome": "other",
+        "expected": [
+          "express"
+        ],
+        "contrast": [
+          "understand",
+          "describe",
+          "ignore"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 9,
+        "type": "straight",
+        "raw_response": "strike",
+        "extracted_word": "strike",
+        "outcome": "contrast",
+        "expected": [
+          "beer",
+          "pizza",
+          "lane"
+        ],
+        "contrast": [
+          "strike"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 9,
+        "type": "funny",
+        "raw_response": "strike",
+        "extracted_word": "strike",
+        "outcome": "correct",
+        "expected": [
+          "strike"
+        ],
+        "contrast": [
+          "beer",
+          "pizza",
+          "lane"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 10,
+        "type": "straight",
+        "raw_response": "robbed",
+        "extracted_word": "robbed",
+        "outcome": "correct",
+        "expected": [
+          "stolen",
+          "taken",
+          "robbed"
+        ],
+        "contrast": [
+          "mugged"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 10,
+        "type": "funny",
+        "raw_response": "mugged",
+        "extracted_word": "mugged",
+        "outcome": "correct",
+        "expected": [
+          "mugged"
+        ],
+        "contrast": [
+          "stolen",
+          "taken",
+          "robbed"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 11,
+        "type": "straight",
+        "raw_response": "joke",
+        "extracted_word": "joke",
+        "outcome": "other",
+        "expected": [
+          "warrior",
+          "fighter",
+          "leader"
+        ],
+        "contrast": [
+          "ruler"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 11,
+        "type": "funny",
+        "raw_response": "ruler",
+        "extracted_word": "ruler",
+        "outcome": "correct",
+        "expected": [
+          "ruler"
+        ],
+        "contrast": [
+          "warrior",
+          "fighter",
+          "leader"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 12,
+        "type": "straight",
+        "raw_response": "tired",
+        "extracted_word": "tired",
+        "outcome": "other",
+        "expected": [
+          "unbalanced",
+          "broken",
+          "unstable"
+        ],
+        "contrast": [
+          "two tired"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 12,
+        "type": "funny",
+        "raw_response": "two",
+        "extracted_word": "two",
+        "outcome": "correct",
+        "expected": [
+          "two tired"
+        ],
+        "contrast": [
+          "unbalanced",
+          "broken",
+          "unstable"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 13,
+        "type": "straight",
+        "raw_response": "running",
+        "extracted_word": "running",
+        "outcome": "correct",
+        "expected": [
+          "running",
+          "working",
+          "organized"
+        ],
+        "contrast": [
+          "afloat"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 13,
+        "type": "funny",
+        "raw_response": "afloat",
+        "extracted_word": "afloat",
+        "outcome": "correct",
+        "expected": [
+          "afloat"
+        ],
+        "contrast": [
+          "running",
+          "working",
+          "organized"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 14,
+        "type": "straight",
+        "raw_response": "edge",
+        "extracted_word": "edge",
+        "outcome": "contrast",
+        "expected": [
+          "message",
+          "delivery",
+          "argument"
+        ],
+        "contrast": [
+          "edge"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 14,
+        "type": "funny",
+        "raw_response": "point",
+        "extracted_word": "point",
+        "outcome": "other",
+        "expected": [
+          "edge"
+        ],
+        "contrast": [
+          "message",
+          "delivery",
+          "argument"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 15,
+        "type": "straight",
+        "raw_response": "carry",
+        "extracted_word": "carry",
+        "outcome": "other",
+        "expected": [
+          "bag",
+          "suitcase",
+          "item"
+        ],
+        "contrast": [
+          "carrion"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 15,
+        "type": "funny",
+        "raw_response": "carry",
+        "extracted_word": "carry",
+        "outcome": "other",
+        "expected": [
+          "carrion"
+        ],
+        "contrast": [
+          "bag",
+          "suitcase",
+          "item"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 16,
+        "type": "straight",
+        "raw_response": "scarce",
+        "extracted_word": "scarce",
+        "outcome": "other",
+        "expected": [
+          "tedious",
+          "boring",
+          "monotonous"
+        ],
+        "contrast": [
+          "dull"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 16,
+        "type": "funny",
+        "raw_response": "cutting",
+        "extracted_word": "cutting",
+        "outcome": "other",
+        "expected": [
+          "dull"
+        ],
+        "contrast": [
+          "tedious",
+          "boring",
+          "monotonous"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 17,
+        "type": "straight",
+        "raw_response": "booming",
+        "extracted_word": "booming",
+        "outcome": "contrast",
+        "expected": [
+          "spectacular",
+          "explosive",
+          "impressive"
+        ],
+        "contrast": [
+          "booming",
+          "exploding"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 17,
+        "type": "funny",
+        "raw_response": "booming",
+        "extracted_word": "booming",
+        "outcome": "correct",
+        "expected": [
+          "booming",
+          "exploding"
+        ],
+        "contrast": [
+          "spectacular",
+          "explosive",
+          "impressive"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 18,
+        "type": "straight",
+        "raw_response": "racket",
+        "extracted_word": "racket",
+        "outcome": "contrast",
+        "expected": [
+          "noise",
+          "disturbance",
+          "commotion"
+        ],
+        "contrast": [
+          "racket"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 18,
+        "type": "funny",
+        "raw_response": "racket",
+        "extracted_word": "racket",
+        "outcome": "correct",
+        "expected": [
+          "racket"
+        ],
+        "contrast": [
+          "noise",
+          "disturbance",
+          "commotion"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 19,
+        "type": "straight",
+        "raw_response": "breakdown",
+        "extracted_word": "breakdown",
+        "outcome": "correct",
+        "expected": [
+          "release",
+          "breakdown",
+          "moment"
+        ],
+        "contrast": [
+          "outlet"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 19,
+        "type": "funny",
+        "raw_response": "charge",
+        "extracted_word": "charge",
+        "outcome": "other",
+        "expected": [
+          "outlet"
+        ],
+        "contrast": [
+          "release",
+          "breakdown",
+          "moment"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 20,
+        "type": "straight",
+        "raw_response": "funny",
+        "extracted_word": "funny",
+        "outcome": "other",
+        "expected": [
+          "limit",
+          "ceiling",
+          "restriction"
+        ],
+        "contrast": [
+          "cap"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 20,
+        "type": "funny",
+        "raw_response": "funny",
+        "extracted_word": "funny",
+        "outcome": "other",
+        "expected": [
+          "cap"
+        ],
+        "contrast": [
+          "limit",
+          "ceiling",
+          "restriction"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 21,
+        "type": "straight",
+        "raw_response": "shellfish",
+        "extracted_word": "shellfish",
+        "outcome": "contrast",
+        "expected": [
+          "mean",
+          "greedy",
+          "spoiled"
+        ],
+        "contrast": [
+          "shellfish"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 21,
+        "type": "funny",
+        "raw_response": "shellfish",
+        "extracted_word": "shellfish",
+        "outcome": "correct",
+        "expected": [
+          "shellfish"
+        ],
+        "contrast": [
+          "mean",
+          "greedy",
+          "spoiled"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 22,
+        "type": "straight",
+        "raw_response": "punch",
+        "extracted_word": "punch",
+        "outcome": "contrast",
+        "expected": [
+          "energy",
+          "food",
+          "music"
+        ],
+        "contrast": [
+          "punch"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 22,
+        "type": "funny",
+        "raw_response": "punch",
+        "extracted_word": "punch",
+        "outcome": "correct",
+        "expected": [
+          "punch"
+        ],
+        "contrast": [
+          "energy",
+          "food",
+          "music"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 23,
+        "type": "straight",
+        "raw_response": "snakes",
+        "extracted_word": "snakes",
+        "outcome": "other",
+        "expected": [
+          "screens",
+          "cables",
+          "systems"
+        ],
+        "contrast": [
+          "monitors"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 23,
+        "type": "funny",
+        "raw_response": "scale",
+        "extracted_word": "scale",
+        "outcome": "other",
+        "expected": [
+          "monitors"
+        ],
+        "contrast": [
+          "screens",
+          "cables",
+          "systems"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 24,
+        "type": "straight",
+        "raw_response": "trunk",
+        "extracted_word": "trunk",
+        "outcome": "contrast",
+        "expected": [
+          "toiletries",
+          "snacks",
+          "blanket"
+        ],
+        "contrast": [
+          "trunk"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 24,
+        "type": "funny",
+        "raw_response": "trunk",
+        "extracted_word": "trunk",
+        "outcome": "correct",
+        "expected": [
+          "trunk"
+        ],
+        "contrast": [
+          "toiletries",
+          "snacks",
+          "blanket"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 25,
+        "type": "straight",
+        "raw_response": "company",
+        "extracted_word": "company",
+        "outcome": "contrast",
+        "expected": [
+          "friends",
+          "attention",
+          "peace"
+        ],
+        "contrast": [
+          "company"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 25,
+        "type": "funny",
+        "raw_response": "company",
+        "extracted_word": "company",
+        "outcome": "correct",
+        "expected": [
+          "company"
+        ],
+        "contrast": [
+          "friends",
+          "attention",
+          "peace"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 26,
+        "type": "straight",
+        "raw_response": "Braaaaad",
+        "extracted_word": "braaaaad",
+        "outcome": "other",
+        "expected": [
+          "Steve",
+          "Mike",
+          "Dave"
+        ],
+        "contrast": [
+          "Brian"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 26,
+        "type": "funny",
+        "raw_response": "Braaaaad",
+        "extracted_word": "braaaaad",
+        "outcome": "other",
+        "expected": [
+          "Brian"
+        ],
+        "contrast": [
+          "Steve",
+          "Mike",
+          "Dave"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 27,
+        "type": "straight",
+        "raw_response": "all-nighters",
+        "extracted_word": "all-nighters",
+        "outcome": "other",
+        "expected": [
+          "double shifts",
+          "long hours",
+          "overtime shifts"
+        ],
+        "contrast": [
+          "knight shifts"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 27,
+        "type": "funny",
+        "raw_response": "all-nighters",
+        "extracted_word": "all-nighters",
+        "outcome": "other",
+        "expected": [
+          "knight shifts"
+        ],
+        "contrast": [
+          "double shifts",
+          "long hours",
+          "overtime shifts"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 28,
+        "type": "straight",
+        "raw_response": "cake",
+        "extracted_word": "cake",
+        "outcome": "contrast",
+        "expected": [
+          "garbage",
+          "trash",
+          "junk"
+        ],
+        "contrast": [
+          "cake"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 28,
+        "type": "funny",
+        "raw_response": "cake",
+        "extracted_word": "cake",
+        "outcome": "correct",
+        "expected": [
+          "cake"
+        ],
+        "contrast": [
+          "garbage",
+          "trash",
+          "junk"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 29,
+        "type": "straight",
+        "raw_response": "fun",
+        "extracted_word": "fun",
+        "outcome": "other",
+        "expected": [
+          "blast",
+          "riot",
+          "character"
+        ],
+        "contrast": [
+          "fungi"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 29,
+        "type": "funny",
+        "raw_response": "fun",
+        "extracted_word": "fun",
+        "outcome": "other",
+        "expected": [
+          "fungi"
+        ],
+        "contrast": [
+          "blast",
+          "riot",
+          "character"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 30,
+        "type": "straight",
+        "raw_response": "book",
+        "extracted_word": "book",
+        "outcome": "other",
+        "expected": [
+          "library",
+          "university",
+          "museum"
+        ],
+        "contrast": [
+          "school"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 30,
+        "type": "funny",
+        "raw_response": "school",
+        "extracted_word": "school",
+        "outcome": "correct",
+        "expected": [
+          "school"
+        ],
+        "contrast": [
+          "library",
+          "university",
+          "museum"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 31,
+        "type": "straight",
+        "raw_response": "roof",
+        "extracted_word": "roof",
+        "outcome": "other",
+        "expected": [
+          "limit",
+          "wall",
+          "breaking point"
+        ],
+        "contrast": [
+          "ceiling"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 31,
+        "type": "funny",
+        "raw_response": "roof",
+        "extracted_word": "roof",
+        "outcome": "other",
+        "expected": [
+          "ceiling"
+        ],
+        "contrast": [
+          "limit",
+          "wall",
+          "breaking point"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 32,
+        "type": "straight",
+        "raw_response": "recovered",
+        "extracted_word": "recovered",
+        "outcome": "contrast",
+        "expected": [
+          "injured",
+          "traumatized",
+          "stuck"
+        ],
+        "contrast": [
+          "recovered"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 32,
+        "type": "funny",
+        "raw_response": "recovered",
+        "extracted_word": "recovered",
+        "outcome": "correct",
+        "expected": [
+          "recovered"
+        ],
+        "contrast": [
+          "injured",
+          "traumatized",
+          "stuck"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 33,
+        "type": "straight",
+        "raw_response": "customer",
+        "extracted_word": "customer",
+        "outcome": "other",
+        "expected": [
+          "performance",
+          "leadership",
+          "attitude"
+        ],
+        "contrast": [
+          "track record"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 33,
+        "type": "funny",
+        "raw_response": "track",
+        "extracted_word": "track",
+        "outcome": "correct",
+        "expected": [
+          "track record"
+        ],
+        "contrast": [
+          "performance",
+          "leadership",
+          "attitude"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 34,
+        "type": "straight",
+        "raw_response": "stake",
+        "extracted_word": "stake",
+        "outcome": "other",
+        "expected": [
+          "bet",
+          "bar",
+          "ante"
+        ],
+        "contrast": [
+          "steaks"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 34,
+        "type": "funny",
+        "raw_response": "steaks",
+        "extracted_word": "steaks",
+        "outcome": "correct",
+        "expected": [
+          "steaks"
+        ],
+        "contrast": [
+          "bet",
+          "bar",
+          "ante"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 35,
+        "type": "straight",
+        "raw_response": "speech",
+        "extracted_word": "speech",
+        "outcome": "correct",
+        "expected": [
+          "tribute",
+          "monologue",
+          "dedication",
+          "speech"
+        ],
+        "contrast": [
+          "toast"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 35,
+        "type": "funny",
+        "raw_response": "toast",
+        "extracted_word": "toast",
+        "outcome": "correct",
+        "expected": [
+          "toast"
+        ],
+        "contrast": [
+          "tribute",
+          "monologue",
+          "dedication",
+          "speech"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 36,
+        "type": "straight",
+        "raw_response": "seal",
+        "extracted_word": "seal",
+        "outcome": "contrast",
+        "expected": [
+          "signature",
+          "credentials",
+          "authority"
+        ],
+        "contrast": [
+          "seal"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 36,
+        "type": "funny",
+        "raw_response": "seal",
+        "extracted_word": "seal",
+        "outcome": "correct",
+        "expected": [
+          "seal"
+        ],
+        "contrast": [
+          "signature",
+          "credentials",
+          "authority"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 37,
+        "type": "straight",
+        "raw_response": "nerdy",
+        "extracted_word": "nerdy",
+        "outcome": "other",
+        "expected": [
+          "harsh",
+          "cruel",
+          "nasty"
+        ],
+        "contrast": [
+          "mean"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 37,
+        "type": "funny",
+        "raw_response": "analytical",
+        "extracted_word": "analytical",
+        "outcome": "other",
+        "expected": [
+          "mean"
+        ],
+        "contrast": [
+          "harsh",
+          "cruel",
+          "nasty"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 38,
+        "type": "straight",
+        "raw_response": "backache",
+        "extracted_word": "backache",
+        "outcome": "other",
+        "expected": [
+          "back",
+          "stomach",
+          "leg"
+        ],
+        "contrast": [
+          "chest"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 38,
+        "type": "funny",
+        "raw_response": "arrhh",
+        "extracted_word": "arrhh",
+        "outcome": "other",
+        "expected": [
+          "chest"
+        ],
+        "contrast": [
+          "back",
+          "stomach",
+          "leg"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 39,
+        "type": "straight",
+        "raw_response": "see",
+        "extracted_word": "see",
+        "outcome": "contrast",
+        "expected": [
+          "accept it",
+          "commit",
+          "relocate"
+        ],
+        "contrast": [
+          "see himself doing it"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 39,
+        "type": "funny",
+        "raw_response": "see",
+        "extracted_word": "see",
+        "outcome": "correct",
+        "expected": [
+          "see himself doing it"
+        ],
+        "contrast": [
+          "accept it",
+          "commit",
+          "relocate"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 40,
+        "type": "straight",
+        "raw_response": "fine",
+        "extracted_word": "fine",
+        "outcome": "contrast",
+        "expected": [
+          "okay",
+          "normal",
+          "under control"
+        ],
+        "contrast": [
+          "fine"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 40,
+        "type": "funny",
+        "raw_response": "fine",
+        "extracted_word": "fine",
+        "outcome": "correct",
+        "expected": [
+          "fine"
+        ],
+        "contrast": [
+          "okay",
+          "normal",
+          "under control"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 41,
+        "type": "straight",
+        "raw_response": "success",
+        "extracted_word": "success",
+        "outcome": "correct",
+        "expected": [
+          "success",
+          "hit",
+          "deal"
+        ],
+        "contrast": [
+          "fan",
+          "blowhard"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 41,
+        "type": "funny",
+        "raw_response": "success",
+        "extracted_word": "success",
+        "outcome": "contrast",
+        "expected": [
+          "fan",
+          "blowhard"
+        ],
+        "contrast": [
+          "success",
+          "hit",
+          "deal"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 42,
+        "type": "straight",
+        "raw_response": "his",
+        "extracted_word": "his",
+        "outcome": "other",
+        "expected": [
+          "valuable",
+          "protected",
+          "important"
+        ],
+        "contrast": [
+          "mine"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 42,
+        "type": "funny",
+        "raw_response": "his",
+        "extracted_word": "his",
+        "outcome": "other",
+        "expected": [
+          "mine"
+        ],
+        "contrast": [
+          "valuable",
+          "protected",
+          "important"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 43,
+        "type": "straight",
+        "raw_response": "formula",
+        "extracted_word": "formula",
+        "outcome": "other",
+        "expected": [
+          "approach",
+          "compromise",
+          "strategy"
+        ],
+        "contrast": [
+          "solution"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 43,
+        "type": "funny",
+        "raw_response": "bond",
+        "extracted_word": "bond",
+        "outcome": "other",
+        "expected": [
+          "solution"
+        ],
+        "contrast": [
+          "approach",
+          "compromise",
+          "strategy"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 44,
+        "type": "straight",
+        "raw_response": "prescription",
+        "extracted_word": "prescription",
+        "outcome": "other",
+        "expected": [
+          "rebuttal",
+          "comeback",
+          "response"
+        ],
+        "contrast": [
+          "counter"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 44,
+        "type": "funny",
+        "raw_response": "prescription",
+        "extracted_word": "prescription",
+        "outcome": "other",
+        "expected": [
+          "counter"
+        ],
+        "contrast": [
+          "rebuttal",
+          "comeback",
+          "response"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 45,
+        "type": "straight",
+        "raw_response": "stupid",
+        "extracted_word": "stupid",
+        "outcome": "correct",
+        "expected": [
+          "stupid",
+          "embarrassed",
+          "inadequate"
+        ],
+        "contrast": [
+          "shallow"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 45,
+        "type": "funny",
+        "raw_response": "pressured",
+        "extracted_word": "pressured",
+        "outcome": "other",
+        "expected": [
+          "shallow"
+        ],
+        "contrast": [
+          "stupid",
+          "embarrassed",
+          "inadequate"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 46,
+        "type": "straight",
+        "raw_response": "job",
+        "extracted_word": "job",
+        "outcome": "contrast",
+        "expected": [
+          "floor",
+          "ground"
+        ],
+        "contrast": [
+          "job"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 46,
+        "type": "funny",
+        "raw_response": "job",
+        "extracted_word": "job",
+        "outcome": "correct",
+        "expected": [
+          "job"
+        ],
+        "contrast": [
+          "floor",
+          "ground"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 47,
+        "type": "straight",
+        "raw_response": "trouble",
+        "extracted_word": "trouble",
+        "outcome": "other",
+        "expected": [
+          "doubts",
+          "concerns",
+          "second thoughts",
+          "customers"
+        ],
+        "contrast": [
+          "reservations"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 47,
+        "type": "funny",
+        "raw_response": "cold",
+        "extracted_word": "cold",
+        "outcome": "other",
+        "expected": [
+          "reservations"
+        ],
+        "contrast": [
+          "doubts",
+          "concerns",
+          "second thoughts",
+          "customers"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 48,
+        "type": "straight",
+        "raw_response": "shirts",
+        "extracted_word": "shirts",
+        "outcome": "other",
+        "expected": [
+          "responsibilities",
+          "emergencies",
+          "crises",
+          "stress"
+        ],
+        "contrast": [
+          "pressing matters"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 48,
+        "type": "funny",
+        "raw_response": "shirts",
+        "extracted_word": "shirts",
+        "outcome": "other",
+        "expected": [
+          "pressing matters"
+        ],
+        "contrast": [
+          "responsibilities",
+          "emergencies",
+          "crises",
+          "stress"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 49,
+        "type": "straight",
+        "raw_response": "spotted",
+        "extracted_word": "spotted",
+        "outcome": "contrast",
+        "expected": [
+          "moving",
+          "noisy",
+          "distracted"
+        ],
+        "contrast": [
+          "spotted"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 49,
+        "type": "funny",
+        "raw_response": "spotted",
+        "extracted_word": "spotted",
+        "outcome": "correct",
+        "expected": [
+          "spotted"
+        ],
+        "contrast": [
+          "moving",
+          "noisy",
+          "distracted"
+        ],
+        "outcome_rescored": "correct"
+      }
+    ],
+    "summary_rescored": {
+      "accuracy": 0.61,
+      "straight_accuracy": 0.42,
+      "funny_accuracy": 0.8,
+      "correct": 61,
+      "contrast": 32,
+      "other": 7
+    }
+  },
+  "405b": {
+    "summary": {
+      "model": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+      "nickname": "405b",
+      "ndif": "meta-llama/Llama-3.1-405B-Instruct (NDIF hot)",
+      "total": 100,
+      "correct": 35,
+      "contrast_match": 25,
+      "other": 40,
+      "accuracy": 0.35,
+      "straight_accuracy": 0.14,
+      "funny_accuracy": 0.56,
+      "straight_contrast_rate": 0.42,
+      "funny_contrast_rate": 0.08
+    },
+    "details": [
+      {
+        "pair_id": 0,
+        "type": "straight",
+        "raw_response": "the",
+        "extracted_word": "the",
+        "outcome": "other",
+        "expected": [
+          "momentum",
+          "support",
+          "steam"
+        ],
+        "contrast": [
+          "power"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 0,
+        "type": "funny",
+        "raw_response": "power",
+        "extracted_word": "power",
+        "outcome": "correct",
+        "expected": [
+          "power"
+        ],
+        "contrast": [
+          "momentum",
+          "support",
+          "steam"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 1,
+        "type": "straight",
+        "raw_response": "stop",
+        "extracted_word": "stop",
+        "outcome": "correct",
+        "expected": [
+          "stop traffic",
+          "halt cars",
+          "work again"
+        ],
+        "contrast": [
+          "change"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 1,
+        "type": "funny",
+        "raw_response": "stop",
+        "extracted_word": "stop",
+        "outcome": "contrast",
+        "expected": [
+          "change"
+        ],
+        "contrast": [
+          "stop traffic",
+          "halt cars",
+          "work again"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 2,
+        "type": "straight",
+        "raw_response": "coins",
+        "extracted_word": "coins",
+        "outcome": "other",
+        "expected": [
+          "progress",
+          "friends",
+          "effort"
+        ],
+        "contrast": [
+          "cents"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 2,
+        "type": "funny",
+        "raw_response": "change",
+        "extracted_word": "change",
+        "outcome": "other",
+        "expected": [
+          "cents"
+        ],
+        "contrast": [
+          "progress",
+          "friends",
+          "effort"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 3,
+        "type": "straight",
+        "raw_response": "drumming",
+        "extracted_word": "drumming",
+        "outcome": "other",
+        "expected": [
+          "rhythm",
+          "timing",
+          "solo"
+        ],
+        "contrast": [
+          "drumsticks"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 3,
+        "type": "funny",
+        "raw_response": "drumsticks",
+        "extracted_word": "drumsticks",
+        "outcome": "correct",
+        "expected": [
+          "drumsticks"
+        ],
+        "contrast": [
+          "rhythm",
+          "timing",
+          "solo"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 4,
+        "type": "straight",
+        "raw_response": "money",
+        "extracted_word": "money",
+        "outcome": "correct",
+        "expected": [
+          "money",
+          "pressure",
+          "transactions"
+        ],
+        "contrast": [
+          "checks"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 4,
+        "type": "funny",
+        "raw_response": "money",
+        "extracted_word": "money",
+        "outcome": "contrast",
+        "expected": [
+          "checks"
+        ],
+        "contrast": [
+          "money",
+          "pressure",
+          "transactions"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 5,
+        "type": "straight",
+        "raw_response": "fired",
+        "extracted_word": "fired",
+        "outcome": "other",
+        "expected": [
+          "complaints",
+          "warnings",
+          "reprimanded"
+        ],
+        "contrast": [
+          "discharged"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 5,
+        "type": "funny",
+        "raw_response": "struck",
+        "extracted_word": "struck",
+        "outcome": "other",
+        "expected": [
+          "discharged"
+        ],
+        "contrast": [
+          "complaints",
+          "warnings",
+          "reprimanded"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 6,
+        "type": "straight",
+        "raw_response": "ear",
+        "extracted_word": "ear",
+        "outcome": "other",
+        "expected": [
+          "reputation",
+          "talent",
+          "network"
+        ],
+        "contrast": [
+          "staff"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 6,
+        "type": "funny",
+        "raw_response": "staff",
+        "extracted_word": "staff",
+        "outcome": "correct",
+        "expected": [
+          "staff"
+        ],
+        "contrast": [
+          "reputation",
+          "talent",
+          "network"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 7,
+        "type": "straight",
+        "raw_response": "underappreciated",
+        "extracted_word": "underappreciated",
+        "outcome": "other",
+        "expected": [
+          "important",
+          "revolutionary",
+          "significant"
+        ],
+        "contrast": [
+          "groundbreaking"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 7,
+        "type": "funny",
+        "raw_response": "groundbreaking",
+        "extracted_word": "groundbreaking",
+        "outcome": "correct",
+        "expected": [
+          "groundbreaking"
+        ],
+        "contrast": [
+          "important",
+          "revolutionary",
+          "significant"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 8,
+        "type": "straight",
+        "raw_response": "understand",
+        "extracted_word": "understand",
+        "outcome": "correct",
+        "expected": [
+          "understand",
+          "describe",
+          "ignore"
+        ],
+        "contrast": [
+          "express"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 8,
+        "type": "funny",
+        "raw_response": "track",
+        "extracted_word": "track",
+        "outcome": "other",
+        "expected": [
+          "express"
+        ],
+        "contrast": [
+          "understand",
+          "describe",
+          "ignore"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 9,
+        "type": "straight",
+        "raw_response": "strike",
+        "extracted_word": "strike",
+        "outcome": "contrast",
+        "expected": [
+          "beer",
+          "pizza",
+          "lane"
+        ],
+        "contrast": [
+          "strike"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 9,
+        "type": "funny",
+        "raw_response": "strike",
+        "extracted_word": "strike",
+        "outcome": "correct",
+        "expected": [
+          "strike"
+        ],
+        "contrast": [
+          "beer",
+          "pizza",
+          "lane"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 10,
+        "type": "straight",
+        "raw_response": "mugged",
+        "extracted_word": "mugged",
+        "outcome": "contrast",
+        "expected": [
+          "stolen",
+          "taken",
+          "robbed"
+        ],
+        "contrast": [
+          "mugged"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 10,
+        "type": "funny",
+        "raw_response": "mugged",
+        "extracted_word": "mugged",
+        "outcome": "correct",
+        "expected": [
+          "mugged"
+        ],
+        "contrast": [
+          "stolen",
+          "taken",
+          "robbed"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 11,
+        "type": "straight",
+        "raw_response": "ruler",
+        "extracted_word": "ruler",
+        "outcome": "contrast",
+        "expected": [
+          "warrior",
+          "fighter",
+          "leader"
+        ],
+        "contrast": [
+          "ruler"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 11,
+        "type": "funny",
+        "raw_response": "ruler",
+        "extracted_word": "ruler",
+        "outcome": "correct",
+        "expected": [
+          "ruler"
+        ],
+        "contrast": [
+          "warrior",
+          "fighter",
+          "leader"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 12,
+        "type": "straight",
+        "raw_response": "two-tired",
+        "extracted_word": "two-tired",
+        "outcome": "other",
+        "expected": [
+          "unbalanced",
+          "broken",
+          "unstable"
+        ],
+        "contrast": [
+          "two tired"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 12,
+        "type": "funny",
+        "raw_response": "two-tired",
+        "extracted_word": "two-tired",
+        "outcome": "other",
+        "expected": [
+          "two tired"
+        ],
+        "contrast": [
+          "unbalanced",
+          "broken",
+          "unstable"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 13,
+        "type": "straight",
+        "raw_response": "organized",
+        "extracted_word": "organized",
+        "outcome": "correct",
+        "expected": [
+          "running",
+          "working",
+          "organized"
+        ],
+        "contrast": [
+          "afloat"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 13,
+        "type": "funny",
+        "raw_response": "afloat",
+        "extracted_word": "afloat",
+        "outcome": "correct",
+        "expected": [
+          "afloat"
+        ],
+        "contrast": [
+          "running",
+          "working",
+          "organized"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 14,
+        "type": "straight",
+        "raw_response": "edge",
+        "extracted_word": "edge",
+        "outcome": "contrast",
+        "expected": [
+          "message",
+          "delivery",
+          "argument"
+        ],
+        "contrast": [
+          "edge"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 14,
+        "type": "funny",
+        "raw_response": "edge",
+        "extracted_word": "edge",
+        "outcome": "correct",
+        "expected": [
+          "edge"
+        ],
+        "contrast": [
+          "message",
+          "delivery",
+          "argument"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 15,
+        "type": "straight",
+        "raw_response": "carryon",
+        "extracted_word": "carryon",
+        "outcome": "other",
+        "expected": [
+          "bag",
+          "suitcase",
+          "item"
+        ],
+        "contrast": [
+          "carrion"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 15,
+        "type": "funny",
+        "raw_response": "carry-on",
+        "extracted_word": "carry-on",
+        "outcome": "other",
+        "expected": [
+          "carrion"
+        ],
+        "contrast": [
+          "bag",
+          "suitcase",
+          "item"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 16,
+        "type": "straight",
+        "raw_response": "dull",
+        "extracted_word": "dull",
+        "outcome": "contrast",
+        "expected": [
+          "tedious",
+          "boring",
+          "monotonous"
+        ],
+        "contrast": [
+          "dull"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 16,
+        "type": "funny",
+        "raw_response": "cutthroat",
+        "extracted_word": "cutthroat",
+        "outcome": "other",
+        "expected": [
+          "dull"
+        ],
+        "contrast": [
+          "tedious",
+          "boring",
+          "monotonous"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 17,
+        "type": "straight",
+        "raw_response": "exploding",
+        "extracted_word": "exploding",
+        "outcome": "contrast",
+        "expected": [
+          "spectacular",
+          "explosive",
+          "impressive"
+        ],
+        "contrast": [
+          "booming",
+          "exploding"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 17,
+        "type": "funny",
+        "raw_response": "exploding",
+        "extracted_word": "exploding",
+        "outcome": "correct",
+        "expected": [
+          "booming",
+          "exploding"
+        ],
+        "contrast": [
+          "spectacular",
+          "explosive",
+          "impressive"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 18,
+        "type": "straight",
+        "raw_response": "racket",
+        "extracted_word": "racket",
+        "outcome": "contrast",
+        "expected": [
+          "noise",
+          "disturbance",
+          "commotion"
+        ],
+        "contrast": [
+          "racket"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 18,
+        "type": "funny",
+        "raw_response": "racket",
+        "extracted_word": "racket",
+        "outcome": "correct",
+        "expected": [
+          "racket"
+        ],
+        "contrast": [
+          "noise",
+          "disturbance",
+          "commotion"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 19,
+        "type": "straight",
+        "raw_response": "release",
+        "extracted_word": "release",
+        "outcome": "correct",
+        "expected": [
+          "release",
+          "breakdown",
+          "moment"
+        ],
+        "contrast": [
+          "outlet"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 19,
+        "type": "funny",
+        "raw_response": "outlet",
+        "extracted_word": "outlet",
+        "outcome": "correct",
+        "expected": [
+          "outlet"
+        ],
+        "contrast": [
+          "release",
+          "breakdown",
+          "moment"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 20,
+        "type": "straight",
+        "raw_response": "fun-gi",
+        "extracted_word": "fun-gi",
+        "outcome": "other",
+        "expected": [
+          "limit",
+          "ceiling",
+          "restriction"
+        ],
+        "contrast": [
+          "cap"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 20,
+        "type": "funny",
+        "raw_response": "fun-gi",
+        "extracted_word": "fun-gi",
+        "outcome": "other",
+        "expected": [
+          "cap"
+        ],
+        "contrast": [
+          "limit",
+          "ceiling",
+          "restriction"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 21,
+        "type": "straight",
+        "raw_response": "selfish",
+        "extracted_word": "selfish",
+        "outcome": "other",
+        "expected": [
+          "mean",
+          "greedy",
+          "spoiled"
+        ],
+        "contrast": [
+          "shellfish"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 21,
+        "type": "funny",
+        "raw_response": "shellfish",
+        "extracted_word": "shellfish",
+        "outcome": "correct",
+        "expected": [
+          "shellfish"
+        ],
+        "contrast": [
+          "mean",
+          "greedy",
+          "spoiled"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 22,
+        "type": "straight",
+        "raw_response": "punch",
+        "extracted_word": "punch",
+        "outcome": "contrast",
+        "expected": [
+          "energy",
+          "food",
+          "music"
+        ],
+        "contrast": [
+          "punch"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 22,
+        "type": "funny",
+        "raw_response": "punch",
+        "extracted_word": "punch",
+        "outcome": "correct",
+        "expected": [
+          "punch"
+        ],
+        "contrast": [
+          "energy",
+          "food",
+          "music"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 23,
+        "type": "straight",
+        "raw_response": "reptiles",
+        "extracted_word": "reptiles",
+        "outcome": "other",
+        "expected": [
+          "screens",
+          "cables",
+          "systems"
+        ],
+        "contrast": [
+          "monitors"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 23,
+        "type": "funny",
+        "raw_response": "reptiles",
+        "extracted_word": "reptiles",
+        "outcome": "other",
+        "expected": [
+          "monitors"
+        ],
+        "contrast": [
+          "screens",
+          "cables",
+          "systems"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 24,
+        "type": "straight",
+        "raw_response": "trunk",
+        "extracted_word": "trunk",
+        "outcome": "contrast",
+        "expected": [
+          "toiletries",
+          "snacks",
+          "blanket"
+        ],
+        "contrast": [
+          "trunk"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 24,
+        "type": "funny",
+        "raw_response": "trunk",
+        "extracted_word": "trunk",
+        "outcome": "correct",
+        "expected": [
+          "trunk"
+        ],
+        "contrast": [
+          "toiletries",
+          "snacks",
+          "blanket"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 25,
+        "type": "straight",
+        "raw_response": "companionship",
+        "extracted_word": "companionship",
+        "outcome": "other",
+        "expected": [
+          "friends",
+          "attention",
+          "peace"
+        ],
+        "contrast": [
+          "company"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 25,
+        "type": "funny",
+        "raw_response": "company",
+        "extracted_word": "company",
+        "outcome": "correct",
+        "expected": [
+          "company"
+        ],
+        "contrast": [
+          "friends",
+          "attention",
+          "peace"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 26,
+        "type": "straight",
+        "raw_response": "Brian",
+        "extracted_word": "brian",
+        "outcome": "contrast",
+        "expected": [
+          "Steve",
+          "Mike",
+          "Dave"
+        ],
+        "contrast": [
+          "Brian"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 26,
+        "type": "funny",
+        "raw_response": "Brian",
+        "extracted_word": "brian",
+        "outcome": "correct",
+        "expected": [
+          "Brian"
+        ],
+        "contrast": [
+          "Steve",
+          "Mike",
+          "Dave"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 27,
+        "type": "straight",
+        "raw_response": "knights",
+        "extracted_word": "knights",
+        "outcome": "other",
+        "expected": [
+          "double shifts",
+          "long hours",
+          "overtime shifts"
+        ],
+        "contrast": [
+          "knight shifts"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 27,
+        "type": "funny",
+        "raw_response": "knights",
+        "extracted_word": "knights",
+        "outcome": "other",
+        "expected": [
+          "knight shifts"
+        ],
+        "contrast": [
+          "double shifts",
+          "long hours",
+          "overtime shifts"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 28,
+        "type": "straight",
+        "raw_response": "cake",
+        "extracted_word": "cake",
+        "outcome": "contrast",
+        "expected": [
+          "garbage",
+          "trash",
+          "junk"
+        ],
+        "contrast": [
+          "cake"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 28,
+        "type": "funny",
+        "raw_response": "cake",
+        "extracted_word": "cake",
+        "outcome": "correct",
+        "expected": [
+          "cake"
+        ],
+        "contrast": [
+          "garbage",
+          "trash",
+          "junk"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 29,
+        "type": "straight",
+        "raw_response": "fun-gi",
+        "extracted_word": "fun-gi",
+        "outcome": "other",
+        "expected": [
+          "blast",
+          "riot",
+          "character"
+        ],
+        "contrast": [
+          "fungi"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 29,
+        "type": "funny",
+        "raw_response": "fun-gi",
+        "extracted_word": "fun-gi",
+        "outcome": "other",
+        "expected": [
+          "fungi"
+        ],
+        "contrast": [
+          "blast",
+          "riot",
+          "character"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 30,
+        "type": "straight",
+        "raw_response": "school",
+        "extracted_word": "school",
+        "outcome": "contrast",
+        "expected": [
+          "library",
+          "university",
+          "museum"
+        ],
+        "contrast": [
+          "school"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 30,
+        "type": "funny",
+        "raw_response": "school",
+        "extracted_word": "school",
+        "outcome": "correct",
+        "expected": [
+          "school"
+        ],
+        "contrast": [
+          "library",
+          "university",
+          "museum"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 31,
+        "type": "straight",
+        "raw_response": "ceiling",
+        "extracted_word": "ceiling",
+        "outcome": "contrast",
+        "expected": [
+          "limit",
+          "wall",
+          "breaking point"
+        ],
+        "contrast": [
+          "ceiling"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 31,
+        "type": "funny",
+        "raw_response": "roof",
+        "extracted_word": "roof",
+        "outcome": "other",
+        "expected": [
+          "ceiling"
+        ],
+        "contrast": [
+          "limit",
+          "wall",
+          "breaking point"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 32,
+        "type": "straight",
+        "raw_response": "recovered",
+        "extracted_word": "recovered",
+        "outcome": "contrast",
+        "expected": [
+          "injured",
+          "traumatized",
+          "stuck"
+        ],
+        "contrast": [
+          "recovered"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 32,
+        "type": "funny",
+        "raw_response": "recovered",
+        "extracted_word": "recovered",
+        "outcome": "correct",
+        "expected": [
+          "recovered"
+        ],
+        "contrast": [
+          "injured",
+          "traumatized",
+          "stuck"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 33,
+        "type": "straight",
+        "raw_response": "record",
+        "extracted_word": "record",
+        "outcome": "other",
+        "expected": [
+          "performance",
+          "leadership",
+          "attitude"
+        ],
+        "contrast": [
+          "track record"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 33,
+        "type": "funny",
+        "raw_response": "track",
+        "extracted_word": "track",
+        "outcome": "correct",
+        "expected": [
+          "track record"
+        ],
+        "contrast": [
+          "performance",
+          "leadership",
+          "attitude"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 34,
+        "type": "straight",
+        "raw_response": "stakes",
+        "extracted_word": "stakes",
+        "outcome": "other",
+        "expected": [
+          "bet",
+          "bar",
+          "ante"
+        ],
+        "contrast": [
+          "steaks"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 34,
+        "type": "funny",
+        "raw_response": "stakes",
+        "extracted_word": "stakes",
+        "outcome": "other",
+        "expected": [
+          "steaks"
+        ],
+        "contrast": [
+          "bet",
+          "bar",
+          "ante"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 35,
+        "type": "straight",
+        "raw_response": "speech",
+        "extracted_word": "speech",
+        "outcome": "correct",
+        "expected": [
+          "tribute",
+          "monologue",
+          "dedication",
+          "speech"
+        ],
+        "contrast": [
+          "toast"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 35,
+        "type": "funny",
+        "raw_response": "speech",
+        "extracted_word": "speech",
+        "outcome": "contrast",
+        "expected": [
+          "toast"
+        ],
+        "contrast": [
+          "tribute",
+          "monologue",
+          "dedication",
+          "speech"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 36,
+        "type": "straight",
+        "raw_response": "seal",
+        "extracted_word": "seal",
+        "outcome": "contrast",
+        "expected": [
+          "signature",
+          "credentials",
+          "authority"
+        ],
+        "contrast": [
+          "seal"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 36,
+        "type": "funny",
+        "raw_response": "seal",
+        "extracted_word": "seal",
+        "outcome": "correct",
+        "expected": [
+          "seal"
+        ],
+        "contrast": [
+          "signature",
+          "credentials",
+          "authority"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 37,
+        "type": "straight",
+        "raw_response": "analytical",
+        "extracted_word": "analytical",
+        "outcome": "other",
+        "expected": [
+          "harsh",
+          "cruel",
+          "nasty"
+        ],
+        "contrast": [
+          "mean"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 37,
+        "type": "funny",
+        "raw_response": "analytical",
+        "extracted_word": "analytical",
+        "outcome": "other",
+        "expected": [
+          "mean"
+        ],
+        "contrast": [
+          "harsh",
+          "cruel",
+          "nasty"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 38,
+        "type": "straight",
+        "raw_response": "backache",
+        "extracted_word": "backache",
+        "outcome": "other",
+        "expected": [
+          "back",
+          "stomach",
+          "leg"
+        ],
+        "contrast": [
+          "chest"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 38,
+        "type": "funny",
+        "raw_response": "arrhythmia",
+        "extracted_word": "arrhythmia",
+        "outcome": "other",
+        "expected": [
+          "chest"
+        ],
+        "contrast": [
+          "back",
+          "stomach",
+          "leg"
+        ],
+        "outcome_rescored": "other"
+      },
+      {
+        "pair_id": 39,
+        "type": "straight",
+        "raw_response": "see",
+        "extracted_word": "see",
+        "outcome": "contrast",
+        "expected": [
+          "accept it",
+          "commit",
+          "relocate"
+        ],
+        "contrast": [
+          "see himself doing it"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 39,
+        "type": "funny",
+        "raw_response": "see",
+        "extracted_word": "see",
+        "outcome": "correct",
+        "expected": [
+          "see himself doing it"
+        ],
+        "contrast": [
+          "accept it",
+          "commit",
+          "relocate"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 40,
+        "type": "straight",
+        "raw_response": "fine",
+        "extracted_word": "fine",
+        "outcome": "contrast",
+        "expected": [
+          "okay",
+          "normal",
+          "under control"
+        ],
+        "contrast": [
+          "fine"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 40,
+        "type": "funny",
+        "raw_response": "fine",
+        "extracted_word": "fine",
+        "outcome": "correct",
+        "expected": [
+          "fine"
+        ],
+        "contrast": [
+          "okay",
+          "normal",
+          "under control"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 41,
+        "type": "straight",
+        "raw_response": "success",
+        "extracted_word": "success",
+        "outcome": "correct",
+        "expected": [
+          "success",
+          "hit",
+          "deal"
+        ],
+        "contrast": [
+          "fan",
+          "blowhard"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 41,
+        "type": "funny",
+        "raw_response": "success",
+        "extracted_word": "success",
+        "outcome": "contrast",
+        "expected": [
+          "fan",
+          "blowhard"
+        ],
+        "contrast": [
+          "success",
+          "hit",
+          "deal"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 42,
+        "type": "straight",
+        "raw_response": "his",
+        "extracted_word": "his",
+        "outcome": "other",
+        "expected": [
+          "valuable",
+          "protected",
+          "important"
+        ],
+        "contrast": [
+          "mine"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 42,
+        "type": "funny",
+        "raw_response": "hers",
+        "extracted_word": "hers",
+        "outcome": "other",
+        "expected": [
+          "mine"
+        ],
+        "contrast": [
+          "valuable",
+          "protected",
+          "important"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 43,
+        "type": "straight",
+        "raw_response": "solution",
+        "extracted_word": "solution",
+        "outcome": "contrast",
+        "expected": [
+          "approach",
+          "compromise",
+          "strategy"
+        ],
+        "contrast": [
+          "solution"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 43,
+        "type": "funny",
+        "raw_response": "bond",
+        "extracted_word": "bond",
+        "outcome": "other",
+        "expected": [
+          "solution"
+        ],
+        "contrast": [
+          "approach",
+          "compromise",
+          "strategy"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 44,
+        "type": "straight",
+        "raw_response": "prescription",
+        "extracted_word": "prescription",
+        "outcome": "other",
+        "expected": [
+          "rebuttal",
+          "comeback",
+          "response"
+        ],
+        "contrast": [
+          "counter"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 44,
+        "type": "funny",
+        "raw_response": "prescription",
+        "extracted_word": "prescription",
+        "outcome": "other",
+        "expected": [
+          "counter"
+        ],
+        "contrast": [
+          "rebuttal",
+          "comeback",
+          "response"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 45,
+        "type": "straight",
+        "raw_response": "nervous",
+        "extracted_word": "nervous",
+        "outcome": "other",
+        "expected": [
+          "stupid",
+          "embarrassed",
+          "inadequate"
+        ],
+        "contrast": [
+          "shallow"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 45,
+        "type": "funny",
+        "raw_response": "pressurized",
+        "extracted_word": "pressurized",
+        "outcome": "other",
+        "expected": [
+          "shallow"
+        ],
+        "contrast": [
+          "stupid",
+          "embarrassed",
+          "inadequate"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 46,
+        "type": "straight",
+        "raw_response": "job",
+        "extracted_word": "job",
+        "outcome": "contrast",
+        "expected": [
+          "floor",
+          "ground"
+        ],
+        "contrast": [
+          "job"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 46,
+        "type": "funny",
+        "raw_response": "job",
+        "extracted_word": "job",
+        "outcome": "correct",
+        "expected": [
+          "job"
+        ],
+        "contrast": [
+          "floor",
+          "ground"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 47,
+        "type": "straight",
+        "raw_response": "reservations",
+        "extracted_word": "reservations",
+        "outcome": "contrast",
+        "expected": [
+          "doubts",
+          "concerns",
+          "second thoughts",
+          "customers"
+        ],
+        "contrast": [
+          "reservations"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 47,
+        "type": "funny",
+        "raw_response": "reservations",
+        "extracted_word": "reservations",
+        "outcome": "correct",
+        "expected": [
+          "reservations"
+        ],
+        "contrast": [
+          "doubts",
+          "concerns",
+          "second thoughts",
+          "customers"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 48,
+        "type": "straight",
+        "raw_response": "stains",
+        "extracted_word": "stains",
+        "outcome": "other",
+        "expected": [
+          "responsibilities",
+          "emergencies",
+          "crises",
+          "stress"
+        ],
+        "contrast": [
+          "pressing matters"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 48,
+        "type": "funny",
+        "raw_response": "pressing",
+        "extracted_word": "pressing",
+        "outcome": "correct",
+        "expected": [
+          "pressing matters"
+        ],
+        "contrast": [
+          "responsibilities",
+          "emergencies",
+          "crises",
+          "stress"
+        ],
+        "outcome_rescored": "correct"
+      },
+      {
+        "pair_id": 49,
+        "type": "straight",
+        "raw_response": "spotted",
+        "extracted_word": "spotted",
+        "outcome": "contrast",
+        "expected": [
+          "moving",
+          "noisy",
+          "distracted"
+        ],
+        "contrast": [
+          "spotted"
+        ],
+        "outcome_rescored": "contrast"
+      },
+      {
+        "pair_id": 49,
+        "type": "funny",
+        "raw_response": "spotted",
+        "extracted_word": "spotted",
+        "outcome": "correct",
+        "expected": [
+          "spotted"
+        ],
+        "contrast": [
+          "moving",
+          "noisy",
+          "distracted"
+        ],
+        "outcome_rescored": "correct"
+      }
+    ],
+    "summary_rescored": {
+      "accuracy": 0.61,
+      "straight_accuracy": 0.34,
+      "funny_accuracy": 0.88,
+      "correct": 61,
+      "contrast": 37,
+      "other": 2
+    }
+  }
+}

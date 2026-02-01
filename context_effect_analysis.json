@@ -1,0 +1,556 @@
+{
+  "model_summaries": {
+    "3b": {
+      "straight": {
+        "n": 50,
+        "straight": 33,
+        "funny": 9,
+        "other": 8,
+        "pct_straight": 0.66,
+        "pct_funny": 0.18,
+        "pct_other": 0.16
+      },
+      "funny": {
+        "n": 50,
+        "straight": 32,
+        "funny": 9,
+        "other": 9,
+        "pct_straight": 0.64,
+        "pct_funny": 0.18,
+        "pct_other": 0.18
+      }
+    },
+    "8b": {
+      "straight": {
+        "n": 50,
+        "straight": 31,
+        "funny": 16,
+        "other": 3,
+        "pct_straight": 0.62,
+        "pct_funny": 0.32,
+        "pct_other": 0.06
+      },
+      "funny": {
+        "n": 50,
+        "straight": 23,
+        "funny": 18,
+        "other": 9,
+        "pct_straight": 0.46,
+        "pct_funny": 0.36,
+        "pct_other": 0.18
+      }
+    },
+    "70b": {
+      "straight": {
+        "n": 50,
+        "straight": 21,
+        "funny": 25,
+        "other": 4,
+        "pct_straight": 0.42,
+        "pct_funny": 0.5,
+        "pct_other": 0.08
+      },
+      "funny": {
+        "n": 50,
+        "straight": 9,
+        "funny": 38,
+        "other": 3,
+        "pct_straight": 0.18,
+        "pct_funny": 0.76,
+        "pct_other": 0.06
+      }
+    },
+    "3.3-70b": {
+      "straight": {
+        "n": 50,
+        "straight": 22,
+        "funny": 23,
+        "other": 5,
+        "pct_straight": 0.44,
+        "pct_funny": 0.46,
+        "pct_other": 0.1
+      },
+      "funny": {
+        "n": 50,
+        "straight": 10,
+        "funny": 38,
+        "other": 2,
+        "pct_straight": 0.2,
+        "pct_funny": 0.76,
+        "pct_other": 0.04
+      }
+    },
+    "405b": {
+      "straight": {
+        "n": 50,
+        "straight": 20,
+        "funny": 29,
+        "other": 1,
+        "pct_straight": 0.4,
+        "pct_funny": 0.58,
+        "pct_other": 0.02
+      },
+      "funny": {
+        "n": 50,
+        "straight": 9,
+        "funny": 40,
+        "other": 1,
+        "pct_straight": 0.18,
+        "pct_funny": 0.8,
+        "pct_other": 0.02
+      }
+    }
+  },
+  "question_shifts": [
+    {
+      "pair_id": 7,
+      "funny_shift": 0.6000000000000001,
+      "p_funny_straight_ctx": 0.2,
+      "p_funny_funny_ctx": 0.8,
+      "p_straight_straight_ctx": 0.8,
+      "p_straight_funny_ctx": 0.2,
+      "joke_sentence": "The shovel's greatest contribution to society was truly ___"
+    },
+    {
+      "pair_id": 16,
+      "funny_shift": 0.6000000000000001,
+      "p_funny_straight_ctx": 0.2,
+      "p_funny_funny_ctx": 0.8,
+      "p_straight_straight_ctx": 0.8,
+      "p_straight_funny_ctx": 0.0,
+      "joke_sentence": "The knife sharpener quit because work was ___"
+    },
+    {
+      "pair_id": 30,
+      "funny_shift": 0.6000000000000001,
+      "p_funny_straight_ctx": 0.2,
+      "p_funny_funny_ctx": 0.8,
+      "p_straight_straight_ctx": 0.6,
+      "p_straight_funny_ctx": 0.2,
+      "joke_sentence": "The fish was smart because it spent all its time in a ___"
+    },
+    {
+      "pair_id": 2,
+      "funny_shift": 0.6,
+      "p_funny_straight_ctx": 0.0,
+      "p_funny_funny_ctx": 0.6,
+      "p_straight_straight_ctx": 1.0,
+      "p_straight_funny_ctx": 0.4,
+      "joke_sentence": "The coin maker went crazy and stopped making any ___"
+    },
+    {
+      "pair_id": 6,
+      "funny_shift": 0.6,
+      "p_funny_straight_ctx": 0.0,
+      "p_funny_funny_ctx": 0.6,
+      "p_straight_straight_ctx": 1.0,
+      "p_straight_funny_ctx": 0.4,
+      "joke_sentence": "The wizard ran a fantastic music school because he had a great ___"
+    },
+    {
+      "pair_id": 13,
+      "funny_shift": 0.6,
+      "p_funny_straight_ctx": 0.0,
+      "p_funny_funny_ctx": 0.6,
+      "p_straight_straight_ctx": 0.8,
+      "p_straight_funny_ctx": 0.4,
+      "joke_sentence": "The boat mechanic kept the company going because he kept everything ___"
+    },
+    {
+      "pair_id": 19,
+      "funny_shift": 0.6,
+      "p_funny_straight_ctx": 0.0,
+      "p_funny_funny_ctx": 0.6,
+      "p_straight_straight_ctx": 1.0,
+      "p_straight_funny_ctx": 0.2,
+      "joke_sentence": "The electrician went to the mall for an emotional ___"
+    },
+    {
+      "pair_id": 45,
+      "funny_shift": 0.6,
+      "p_funny_straight_ctx": 0.0,
+      "p_funny_funny_ctx": 0.6,
+      "p_straight_straight_ctx": 1.0,
+      "p_straight_funny_ctx": 0.4,
+      "joke_sentence": "The scuba instructor's students loved her because she never made them feel ___"
+    },
+    {
+      "pair_id": 35,
+      "funny_shift": 0.4,
+      "p_funny_straight_ctx": 0.0,
+      "p_funny_funny_ctx": 0.4,
+      "p_straight_straight_ctx": 1.0,
+      "p_straight_funny_ctx": 0.6,
+      "joke_sentence": "The bread was afraid to be best man, because he would have to make a ___"
+    },
+    {
+      "pair_id": 38,
+      "funny_shift": 0.4,
+      "p_funny_straight_ctx": 0.0,
+      "p_funny_funny_ctx": 0.4,
+      "p_straight_straight_ctx": 0.6,
+      "p_straight_funny_ctx": 0.0,
+      "joke_sentence": "After digging for treasure the pirate went to the doctor complaining of ___ pains"
+    },
+    {
+      "pair_id": 33,
+      "funny_shift": 0.39999999999999997,
+      "p_funny_straight_ctx": 0.2,
+      "p_funny_funny_ctx": 0.6,
+      "p_straight_straight_ctx": 0.4,
+      "p_straight_funny_ctx": 0.4,
+      "joke_sentence": "The train conductor was promoted because of his excellent ___"
+    },
+    {
+      "pair_id": 47,
+      "funny_shift": 0.39999999999999997,
+      "p_funny_straight_ctx": 0.2,
+      "p_funny_funny_ctx": 0.6,
+      "p_straight_straight_ctx": 0.6,
+      "p_straight_funny_ctx": 0.2,
+      "joke_sentence": "The indecisive chef reopened his restaurant but still had ___"
+    },
+    {
+      "pair_id": 9,
+      "funny_shift": 0.20000000000000007,
+      "p_funny_straight_ctx": 0.6,
+      "p_funny_funny_ctx": 0.8,
+      "p_straight_straight_ctx": 0.2,
+      "p_straight_funny_ctx": 0.0,
+      "joke_sentence": "The union workers went bowling and got a ___"
+    },
+    {
+      "pair_id": 10,
+      "funny_shift": 0.20000000000000007,
+      "p_funny_straight_ctx": 0.6,
+      "p_funny_funny_ctx": 0.8,
+      "p_straight_straight_ctx": 0.4,
+      "p_straight_funny_ctx": 0.2,
+      "joke_sentence": "The coffee filed a police report after it got ___"
+    },
+    {
+      "pair_id": 25,
+      "funny_shift": 0.20000000000000007,
+      "p_funny_straight_ctx": 0.6,
+      "p_funny_funny_ctx": 0.8,
+      "p_straight_straight_ctx": 0.4,
+      "p_straight_funny_ctx": 0.2,
+      "joke_sentence": "The lonely CEO just wanted some ___"
+    },
+    {
+      "pair_id": 46,
+      "funny_shift": 0.20000000000000007,
+      "p_funny_straight_ctx": 0.6,
+      "p_funny_funny_ctx": 0.8,
+      "p_straight_straight_ctx": 0.4,
+      "p_straight_funny_ctx": 0.2,
+      "joke_sentence": "The mattress salesman was tired of lying on the ___"
+    },
+    {
+      "pair_id": 0,
+      "funny_shift": 0.2,
+      "p_funny_straight_ctx": 0.0,
+      "p_funny_funny_ctx": 0.2,
+      "p_straight_straight_ctx": 0.2,
+      "p_straight_funny_ctx": 0.2,
+      "joke_sentence": "The electrician quit politics after his party lost ___"
+    },
+    {
+      "pair_id": 1,
+      "funny_shift": 0.2,
+      "p_funny_straight_ctx": 0.0,
+      "p_funny_funny_ctx": 0.2,
+      "p_straight_straight_ctx": 1.0,
+      "p_straight_funny_ctx": 0.8,
+      "joke_sentence": "The traffic light was embarrassed and turned red when it had to ___"
+    },
+    {
+      "pair_id": 3,
+      "funny_shift": 0.2,
+      "p_funny_straight_ctx": 0.0,
+      "p_funny_funny_ctx": 0.2,
+      "p_straight_straight_ctx": 1.0,
+      "p_straight_funny_ctx": 0.8,
+      "joke_sentence": "The chicken won the percussion contest with her incredible ___"
+    },
+    {
+      "pair_id": 8,
+      "funny_shift": 0.2,
+      "p_funny_straight_ctx": 0.0,
+      "p_funny_funny_ctx": 0.2,
+      "p_straight_straight_ctx": 1.0,
+      "p_straight_funny_ctx": 0.8,
+      "joke_sentence": "The local commuter's experiences are very hard to ___"
+    },
+    {
+      "pair_id": 11,
+      "funny_shift": 0.2,
+      "p_funny_straight_ctx": 0.2,
+      "p_funny_funny_ctx": 0.4,
+      "p_straight_straight_ctx": 0.2,
+      "p_straight_funny_ctx": 0.2,
+      "joke_sentence": "The king was only 12 inches tall, making him a pretty good ___"
+    },
+    {
+      "pair_id": 23,
+      "funny_shift": 0.2,
+      "p_funny_straight_ctx": 0.0,
+      "p_funny_funny_ctx": 0.2,
+      "p_straight_straight_ctx": 1.0,
+      "p_straight_funny_ctx": 0.8,
+      "joke_sentence": "The lizard keeper got a job in IT because he already worked with ___"
+    },
+    {
+      "pair_id": 27,
+      "funny_shift": 0.2,
+      "p_funny_straight_ctx": 0.2,
+      "p_funny_funny_ctx": 0.4,
+      "p_straight_straight_ctx": 0.8,
+      "p_straight_funny_ctx": 0.4,
+      "joke_sentence": "Sir Lancelot's armor was rusty because he'd been pulling too many ___"
+    },
+    {
+      "pair_id": 48,
+      "funny_shift": 0.2,
+      "p_funny_straight_ctx": 0.0,
+      "p_funny_funny_ctx": 0.2,
+      "p_straight_straight_ctx": 1.0,
+      "p_straight_funny_ctx": 0.8,
+      "joke_sentence": "The dry cleaner could never stop to chat because he had so many ___"
+    },
+    {
+      "pair_id": 22,
+      "funny_shift": 0.19999999999999996,
+      "p_funny_straight_ctx": 0.8,
+      "p_funny_funny_ctx": 1.0,
+      "p_straight_straight_ctx": 0.2,
+      "p_straight_funny_ctx": 0.0,
+      "joke_sentence": "At every party the boxer would bring the ___"
+    },
+    {
+      "pair_id": 4,
+      "funny_shift": 0.0,
+      "p_funny_straight_ctx": 0.0,
+      "p_funny_funny_ctx": 0.0,
+      "p_straight_straight_ctx": 0.6,
+      "p_straight_funny_ctx": 0.6,
+      "joke_sentence": "The hockey player became a banker because he was used to handling ___"
+    },
+    {
+      "pair_id": 5,
+      "funny_shift": 0.0,
+      "p_funny_straight_ctx": 0.8,
+      "p_funny_funny_ctx": 0.8,
+      "p_straight_straight_ctx": 0.2,
+      "p_straight_funny_ctx": 0.2,
+      "joke_sentence": "The lightning bolt was let go from every job because he kept getting ___"
+    },
+    {
+      "pair_id": 12,
+      "funny_shift": 0.0,
+      "p_funny_straight_ctx": 1.0,
+      "p_funny_funny_ctx": 1.0,
+      "p_straight_straight_ctx": 0.0,
+      "p_straight_funny_ctx": 0.0,
+      "joke_sentence": "The bicycle fell over after the race because it was ___"
+    },
+    {
+      "pair_id": 14,
+      "funny_shift": 0.0,
+      "p_funny_straight_ctx": 1.0,
+      "p_funny_funny_ctx": 1.0,
+      "p_straight_straight_ctx": 0.0,
+      "p_straight_funny_ctx": 0.0,
+      "joke_sentence": "The knife salesman's pitch was convincing because it always had a sharp ___"
+    },
+    {
+      "pair_id": 15,
+      "funny_shift": 0.0,
+      "p_funny_straight_ctx": 0.4,
+      "p_funny_funny_ctx": 0.4,
+      "p_straight_straight_ctx": 0.6,
+      "p_straight_funny_ctx": 0.6,
+      "joke_sentence": "The vulture boarded the airplane with two dead raccoons but was told he was only allowed one ___"
+    },
+    {
+      "pair_id": 17,
+      "funny_shift": 0.0,
+      "p_funny_straight_ctx": 0.8,
+      "p_funny_funny_ctx": 0.8,
+      "p_straight_straight_ctx": 0.2,
+      "p_straight_funny_ctx": 0.2,
+      "joke_sentence": "The business of fireworks has been ___"
+    },
+    {
+      "pair_id": 18,
+      "funny_shift": 0.0,
+      "p_funny_straight_ctx": 0.8,
+      "p_funny_funny_ctx": 0.8,
+      "p_straight_straight_ctx": 0.0,
+      "p_straight_funny_ctx": 0.0,
+      "joke_sentence": "The tennis stringer was kicked out of the library for making a ___"
+    },
+    {
+      "pair_id": 21,
+      "funny_shift": 0.0,
+      "p_funny_straight_ctx": 0.8,
+      "p_funny_funny_ctx": 0.8,
+      "p_straight_straight_ctx": 0.0,
+      "p_straight_funny_ctx": 0.0,
+      "joke_sentence": "The crab never shared his toys because he was ___"
+    },
+    {
+      "pair_id": 24,
+      "funny_shift": 0.0,
+      "p_funny_straight_ctx": 0.8,
+      "p_funny_funny_ctx": 0.8,
+      "p_straight_straight_ctx": 0.2,
+      "p_straight_funny_ctx": 0.2,
+      "joke_sentence": "The elephant always packed light except for his ___"
+    },
+    {
+      "pair_id": 26,
+      "funny_shift": 0.0,
+      "p_funny_straight_ctx": 0.6,
+      "p_funny_funny_ctx": 0.6,
+      "p_straight_straight_ctx": 0.4,
+      "p_straight_funny_ctx": 0.2,
+      "joke_sentence": "The dyslexic zombie kept hunting guys named ___"
+    },
+    {
+      "pair_id": 29,
+      "funny_shift": 0.0,
+      "p_funny_straight_ctx": 1.0,
+      "p_funny_funny_ctx": 1.0,
+      "p_straight_straight_ctx": 0.0,
+      "p_straight_funny_ctx": 0.0,
+      "joke_sentence": "The mushroom was always invited to parties because he was a ___"
+    },
+    {
+      "pair_id": 32,
+      "funny_shift": 0.0,
+      "p_funny_straight_ctx": 1.0,
+      "p_funny_funny_ctx": 1.0,
+      "p_straight_straight_ctx": 0.0,
+      "p_straight_funny_ctx": 0.0,
+      "joke_sentence": "The man who fell into an upholstery machine is now fully ___"
+    },
+    {
+      "pair_id": 34,
+      "funny_shift": 0.0,
+      "p_funny_straight_ctx": 1.0,
+      "p_funny_funny_ctx": 1.0,
+      "p_straight_straight_ctx": 0.0,
+      "p_straight_funny_ctx": 0.0,
+      "joke_sentence": "The butcher was great at poker because he always raised the ___"
+    },
+    {
+      "pair_id": 36,
+      "funny_shift": 0.0,
+      "p_funny_straight_ctx": 0.6,
+      "p_funny_funny_ctx": 0.6,
+      "p_straight_straight_ctx": 0.2,
+      "p_straight_funny_ctx": 0.2,
+      "joke_sentence": "The walrus was great at notarizing documents because he had the perfect ___"
+    },
+    {
+      "pair_id": 37,
+      "funny_shift": 0.0,
+      "p_funny_straight_ctx": 0.0,
+      "p_funny_funny_ctx": 0.0,
+      "p_straight_straight_ctx": 1.0,
+      "p_straight_funny_ctx": 1.0,
+      "joke_sentence": "The average data scientist is hard to befriend because they are so ___"
+    },
+    {
+      "pair_id": 40,
+      "funny_shift": 0.0,
+      "p_funny_straight_ctx": 1.0,
+      "p_funny_funny_ctx": 1.0,
+      "p_straight_straight_ctx": 0.0,
+      "p_straight_funny_ctx": 0.0,
+      "joke_sentence": "The parking officer said everything was ___"
+    },
+    {
+      "pair_id": 41,
+      "funny_shift": 0.0,
+      "p_funny_straight_ctx": 0.0,
+      "p_funny_funny_ctx": 0.0,
+      "p_straight_straight_ctx": 1.0,
+      "p_straight_funny_ctx": 1.0,
+      "joke_sentence": "The wind turbine salesman was a huge ___"
+    },
+    {
+      "pair_id": 42,
+      "funny_shift": 0.0,
+      "p_funny_straight_ctx": 0.0,
+      "p_funny_funny_ctx": 0.0,
+      "p_straight_straight_ctx": 1.0,
+      "p_straight_funny_ctx": 1.0,
+      "joke_sentence": "The possessive geologist kept insisting everything underground was ___"
+    },
+    {
+      "pair_id": 43,
+      "funny_shift": 0.0,
+      "p_funny_straight_ctx": 0.6,
+      "p_funny_funny_ctx": 0.6,
+      "p_straight_straight_ctx": 0.4,
+      "p_straight_funny_ctx": 0.4,
+      "joke_sentence": "The chemistry teacher's marriage counselor found the perfect ___"
+    },
+    {
+      "pair_id": 44,
+      "funny_shift": 0.0,
+      "p_funny_straight_ctx": 0.0,
+      "p_funny_funny_ctx": 0.0,
+      "p_straight_straight_ctx": 1.0,
+      "p_straight_funny_ctx": 1.0,
+      "joke_sentence": "Argue with your pharmacist, and you will find she always has a ___"
+    },
+    {
+      "pair_id": 49,
+      "funny_shift": 0.0,
+      "p_funny_straight_ctx": 0.6,
+      "p_funny_funny_ctx": 0.6,
+      "p_straight_straight_ctx": 0.4,
+      "p_straight_funny_ctx": 0.4,
+      "joke_sentence": "The leopard was bad at hide-and-seek because he was always ___"
+    },
+    {
+      "pair_id": 20,
+      "funny_shift": -0.19999999999999996,
+      "p_funny_straight_ctx": 0.6,
+      "p_funny_funny_ctx": 0.4,
+      "p_straight_straight_ctx": 0.2,
+      "p_straight_funny_ctx": 0.2,
+      "joke_sentence": "The mushroom's salary never went up because there was always a ___"
+    },
+    {
+      "pair_id": 28,
+      "funny_shift": -0.20000000000000007,
+      "p_funny_straight_ctx": 0.8,
+      "p_funny_funny_ctx": 0.6,
+      "p_straight_straight_ctx": 0.2,
+      "p_straight_funny_ctx": 0.2,
+      "joke_sentence": "The student ate his homework because the teacher said it was a piece of ___"
+    },
+    {
+      "pair_id": 31,
+      "funny_shift": -0.20000000000000007,
+      "p_funny_straight_ctx": 0.8,
+      "p_funny_funny_ctx": 0.6,
+      "p_straight_straight_ctx": 0.2,
+      "p_straight_funny_ctx": 0.2,
+      "joke_sentence": "The homeowner was furious about the leak and finally hit the ___"
+    },
+    {
+      "pair_id": 39,
+      "funny_shift": -0.20000000000000007,
+      "p_funny_straight_ctx": 0.8,
+      "p_funny_funny_ctx": 0.6,
+      "p_straight_straight_ctx": 0.2,
+      "p_straight_funny_ctx": 0.2,
+      "joke_sentence": "The invisible man turned down the job offer because he couldn't ___"
+    }
+  ]
+}

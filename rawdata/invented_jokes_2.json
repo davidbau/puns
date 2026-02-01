@@ -1,0 +1,1122 @@
+[
+  {
+    "id": 2001,
+    "sentence": "The comedian's wife said he was even funnier during her ___",
+    "straight": [
+      "pregnancy",
+      "labor",
+      "hospital stay"
+    ],
+    "punny": [
+      "delivery"
+    ],
+    "claudecode_explanation": "'Delivery' means both comedy delivery (timing/execution of jokes) AND childbirth delivery. The comedian's wife provides the pregnancy context while 'even funnier' provides the comedy context. Both meanings converge perfectly \u2014 the comedian was hilarious even while his wife was in labor. Surprising and natural.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2002,
+    "sentence": "The spy worked at a dermatologist's office where nobody suspected the ___",
+    "straight": [
+      "receptionist",
+      "intern",
+      "newcomer"
+    ],
+    "punny": [
+      "mole"
+    ],
+    "claudecode_explanation": "'Mole' means both a spy/informant AND a skin mole (dermatology concern). The spy character activates the espionage meaning while the dermatologist's office activates the skin meaning. 'Nobody suspected the mole' works perfectly in both senses \u2014 a spy hiding in plain sight where moles are literally discussed daily.",
+    "claudecode_rating": 9
+  },
+  {
+    "id": 2003,
+    "sentence": "The pig wrote her memoir entirely from her ___",
+    "straight": [
+      "imagination",
+      "memory",
+      "bedroom"
+    ],
+    "punny": [
+      "pen"
+    ],
+    "claudecode_explanation": "'Pen' means both a writing instrument AND a pig enclosure. The pig 'wrote her memoir from her pen' works as both writing with a pen and writing from within her pig pen. Simple, clean, and the character makes both meanings inevitable.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2004,
+    "sentence": "The beaver's profanity was always excused because he was just building a ___",
+    "straight": [
+      "home",
+      "lodge",
+      "shelter"
+    ],
+    "punny": [
+      "dam"
+    ],
+    "claudecode_explanation": "'Dam' is a homophone for 'damn' (profanity). The beaver building a dam/damn \u2014 his swearing is excused because he's literally constructing a dam. The homophone is perfect and the beaver context makes it unavoidable. Funny and surprising.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2005,
+    "sentence": "The chemistry teacher's marriage counselor found the perfect ___",
+    "straight": [
+      "approach",
+      "compromise",
+      "strategy"
+    ],
+    "punny": [
+      "solution"
+    ],
+    "claudecode_explanation": "'Solution' means both an answer/resolution AND a chemical solution (liquid mixture). The chemistry teacher activates the chemical meaning while 'marriage counselor found the perfect solution' is a natural therapy phrase. Both meanings are equally strong.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2006,
+    "sentence": "The wizard opened a music school because he already had a great ___",
+    "straight": [
+      "reputation",
+      "talent",
+      "network"
+    ],
+    "punny": [
+      "staff"
+    ],
+    "claudecode_explanation": "'Staff' means employees AND a musical staff (notation lines) AND a wizard's staff (magical rod). Triple meaning activated by a wizard opening a music school. All three readings work simultaneously \u2014 he has a great wooden staff, a great musical staff, and great staff members.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2007,
+    "sentence": "The indecisive chef opened a restaurant but still had ___",
+    "straight": [
+      "doubts",
+      "concerns",
+      "second thoughts"
+    ],
+    "punny": [
+      "reservations"
+    ],
+    "claudecode_explanation": "'Reservations' means doubts/hesitations AND restaurant bookings. The indecisive chef activates the doubt meaning while opening a restaurant activates the booking meaning. 'Still had reservations' works perfectly for both \u2014 he's unsure about his choice AND he has customers booking tables. Tight and natural.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2008,
+    "sentence": "The golfer's shirt was always wrinkled because he could never find his ___",
+    "straight": [
+      "laundry",
+      "closet",
+      "hangers"
+    ],
+    "punny": [
+      "iron"
+    ],
+    "claudecode_explanation": "'Iron' means a clothes iron (for removing wrinkles) AND a golf iron (club). The golfer's 'wrinkled shirt' activates the clothes iron meaning while 'golfer' activates the golf club meaning. The causal logic is perfect \u2014 can't find his iron (either one) explains the wrinkles. Excellent.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2009,
+    "sentence": "The electrician went to the mall for an emotional ___",
+    "straight": [
+      "release",
+      "breakdown",
+      "moment"
+    ],
+    "punny": [
+      "outlet"
+    ],
+    "claudecode_explanation": "'Outlet' means an emotional outlet (release) AND an electrical outlet AND a shopping outlet (mall store). The electrician activates the electrical meaning, 'went to the mall' activates the shopping meaning, and 'emotional' activates the feelings meaning. Triple meaning, all working simultaneously.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2010,
+    "sentence": "The retired sailor became a news presenter because he was used to being the ___",
+    "straight": [
+      "leader",
+      "center of attention",
+      "spokesperson"
+    ],
+    "punny": [
+      "anchor"
+    ],
+    "claudecode_explanation": "'Anchor' means a news anchor AND a boat anchor. The retired sailor activates the nautical meaning while 'news presenter' activates the broadcast meaning. Clean career transition where 'being the anchor' works for both roles.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2011,
+    "sentence": "The doctor joined a band because he already had a ___",
+    "straight": [
+      "talent",
+      "schedule",
+      "following"
+    ],
+    "punny": [
+      "practice"
+    ],
+    "claudecode_explanation": "'Practice' means musical practice/rehearsal AND a medical practice (office/business). The doctor activates the medical meaning while 'joined a band' activates the musical meaning. 'Already had a practice' works perfectly for both \u2014 he has a medical office and musical experience. Excellent dual meaning.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2012,
+    "sentence": "The boxer loved hosting parties because he always brought the ___",
+    "straight": [
+      "energy",
+      "food",
+      "music"
+    ],
+    "punny": [
+      "punch"
+    ],
+    "claudecode_explanation": "'Punch' means a boxing punch AND party punch (beverage). The boxer activates the fighting meaning while 'hosting parties' activates the drink meaning. 'Always brought the punch' works for both \u2014 he brings the drinks and he brings the hitting power. Fun and clean.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2013,
+    "sentence": "The aging trampoline was depressed because it had lost its ___",
+    "straight": [
+      "purpose",
+      "bounce",
+      "appeal"
+    ],
+    "punny": [
+      "spring"
+    ],
+    "claudecode_explanation": "'Spring' means a coiled spring mechanism AND vitality/energy ('spring in one's step'). The trampoline character activates the mechanical spring meaning while 'depressed' and 'lost its' activates the vitality meaning. Both work naturally \u2014 an aging trampoline literally loses its springs and metaphorically loses its spirit.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2014,
+    "sentence": "The detective loved barbecues because he was great at the ___",
+    "straight": [
+      "cooking",
+      "socializing",
+      "hosting"
+    ],
+    "punny": [
+      "grill"
+    ],
+    "claudecode_explanation": "'Grill' means a barbecue grill AND to grill someone (interrogate). The detective activates the interrogation meaning while 'barbecues' activates the cooking meaning. 'Great at the grill' works for both scenarios. Clean and fun.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2015,
+    "sentence": "The ship captain's cardiologist was concerned about a blocked ___",
+    "straight": [
+      "artery",
+      "valve",
+      "passage"
+    ],
+    "punny": [
+      "vessel"
+    ],
+    "claudecode_explanation": "'Vessel' means a blood vessel AND a ship/vessel. The ship captain activates the nautical meaning while 'cardiologist' and 'blocked' activate the medical meaning. Both meanings work perfectly \u2014 a blocked vessel is serious in both contexts.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2016,
+    "sentence": "The farmer ran every stop sign because he refused to ___",
+    "straight": [
+      "slow down",
+      "obey",
+      "brake"
+    ],
+    "punny": [
+      "yield"
+    ],
+    "claudecode_explanation": "'Yield' means to yield/give way in traffic AND crop yield (farming production). The farmer activates the agricultural meaning while 'ran every stop sign' activates the traffic meaning. 'Refused to yield' works for both \u2014 he won't slow down and he won't produce crops. Clean and surprising.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2017,
+    "sentence": "The train conductor's feelings were impossible to ___",
+    "straight": [
+      "understand",
+      "describe",
+      "ignore"
+    ],
+    "punny": [
+      "express"
+    ],
+    "claudecode_explanation": "'Express' means to express/articulate feelings AND an express train (fast service). The train conductor activates the railroad meaning while 'feelings were impossible to express' is a natural emotional phrase. Both meanings are equally strong.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2018,
+    "sentence": "The actress took her illness in stride because she was used to going through ___",
+    "straight": [
+      "hardship",
+      "challenges",
+      "drama"
+    ],
+    "punny": [
+      "stages"
+    ],
+    "claudecode_explanation": "'Stages' means theater stages AND stages of illness. The actress activates the theater meaning while 'illness' activates the medical progression meaning. 'Used to going through stages' works perfectly for both \u2014 she performs on stages and she's experienced with phases of life. Natural and clever.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2019,
+    "sentence": "The bus driver became a motivational speaker because he was already a great ___",
+    "straight": [
+      "communicator",
+      "leader",
+      "listener"
+    ],
+    "punny": [
+      "coach"
+    ],
+    "claudecode_explanation": "'Coach' means a life/motivational coach AND a bus/coach (vehicle). The bus driver activates the vehicle meaning while 'motivational speaker' activates the mentoring meaning. 'Already a great coach' works for both roles. Solid career transition pun.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2020,
+    "sentence": "The carpenter became prime minister because he was famous for his ___",
+    "straight": [
+      "leadership",
+      "integrity",
+      "ambition"
+    ],
+    "punny": [
+      "cabinet"
+    ],
+    "claudecode_explanation": "'Cabinet' means a political cabinet (group of ministers) AND a wooden cabinet (furniture). The carpenter activates the furniture meaning while 'prime minister' activates the political meaning. 'Famous for his cabinet' works perfectly for both. Clever career transition.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2021,
+    "sentence": "The computer was denied boarding because it already had a ___",
+    "straight": [
+      "ticket",
+      "reservation",
+      "pass"
+    ],
+    "punny": [
+      "terminal"
+    ],
+    "claudecode_explanation": "'Terminal' means an airport terminal AND a computer terminal. The computer activates the tech meaning while 'denied boarding' activates the airport meaning. 'Already had a terminal' works for both \u2014 the computer literally has a terminal. Playful anthropomorphism with tight wordplay.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2022,
+    "sentence": "The sick water diviner said she wasn't feeling ___",
+    "straight": [
+      "great",
+      "good",
+      "better"
+    ],
+    "punny": [
+      "well"
+    ],
+    "claudecode_explanation": "'Well' means healthy/good AND a water well. The water diviner (someone who finds wells) activates the water meaning while 'sick' and 'not feeling well' is a natural health expression. Both meanings are perfectly activated by the character and situation. Clean, concise, and surprising.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2023,
+    "sentence": "The birdwatcher landed a job in construction because he already knew about ___",
+    "straight": [
+      "structures",
+      "heights",
+      "blueprints"
+    ],
+    "punny": [
+      "cranes"
+    ],
+    "claudecode_explanation": "'Cranes' means birds (cranes) AND construction cranes (machines). The birdwatcher activates the bird meaning while 'construction' activates the machine meaning. 'Already knew about cranes' works for both. Solid dual-meaning career transition.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2024,
+    "sentence": "The mountain climber opened a kitchen store because he understood ___",
+    "straight": [
+      "quality",
+      "design",
+      "durability"
+    ],
+    "punny": [
+      "ranges"
+    ],
+    "claudecode_explanation": "'Ranges' means mountain ranges AND kitchen ranges (stoves/ovens). The mountain climber activates the geological meaning while 'kitchen store' activates the appliance meaning. 'Understood ranges' works for both. Decent but the connection is somewhat predictable.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2025,
+    "sentence": "The cheese maker's creative projects always broke the ___",
+    "straight": [
+      "rules",
+      "norm",
+      "pattern"
+    ],
+    "punny": [
+      "mold"
+    ],
+    "claudecode_explanation": "'Mold' means a cheese mold (form for shaping cheese) AND 'break the mold' (be original/innovative). The cheese maker activates the literal cheese mold meaning while 'creative projects' activates the idiom. Both meanings work simultaneously \u2014 his projects literally and figuratively broke the mold.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2026,
+    "sentence": "The pencil factory manager got promoted because she knew how to ___",
+    "straight": [
+      "motivate",
+      "organize",
+      "delegate"
+    ],
+    "punny": [
+      "lead"
+    ],
+    "claudecode_explanation": "'Lead' means to lead/manage AND pencil lead (graphite). The pencil factory activates the graphite meaning while 'promoted' activates the leadership meaning. 'Knew how to lead' works for both \u2014 she's a good leader and understands pencil lead. Clean double meaning.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2027,
+    "sentence": "The mushroom's salary never went up because there was always a ___",
+    "straight": [
+      "limit",
+      "ceiling",
+      "restriction"
+    ],
+    "punny": [
+      "cap"
+    ],
+    "claudecode_explanation": "'Cap' means a salary cap (limit) AND a mushroom cap (top of a mushroom). The mushroom activates the fungal meaning while 'salary never went up' activates the financial limit meaning. Both meanings are clear and the mushroom anthropomorphism is charming.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2028,
+    "sentence": "The pharmacist never lost an argument because she always had a ___",
+    "straight": [
+      "rebuttal",
+      "comeback",
+      "response"
+    ],
+    "punny": [
+      "counter"
+    ],
+    "claudecode_explanation": "'Counter' means a counterargument AND a pharmacy counter (work surface). The pharmacist activates the physical counter meaning while 'never lost an argument' activates the debate meaning. 'Always had a counter' works for both. Clean and slightly surprising.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2029,
+    "sentence": "The Greek architect became a journalist because he loved building ___",
+    "straight": [
+      "narratives",
+      "stories",
+      "arguments"
+    ],
+    "punny": [
+      "columns"
+    ],
+    "claudecode_explanation": "'Columns' means architectural columns AND newspaper columns (written pieces). The Greek architect activates the architectural meaning while 'journalist' activates the writing meaning. 'Building columns' works brilliantly \u2014 constructing physical pillars and writing articles. Tight career transition.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2030,
+    "sentence": "The lightning was terrible at relationships because it always ___",
+    "straight": [
+      "vanished",
+      "overreacted",
+      "left"
+    ],
+    "punny": [
+      "bolted"
+    ],
+    "claudecode_explanation": "'Bolted' means to bolt/flee AND a lightning bolt. Lightning 'always bolted' works as both the natural phenomenon (lightning bolts) and running away from relationships. The personification is fun and both meanings are equally strong.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2031,
+    "sentence": "The card player became a dentist because she already excelled at ___",
+    "straight": [
+      "precision",
+      "patience",
+      "detail work"
+    ],
+    "punny": [
+      "bridge"
+    ],
+    "claudecode_explanation": "'Bridge' means a dental bridge AND the card game bridge. The card player activates the game meaning while 'dentist' activates the dental meaning. 'Excelled at bridge' works for both. Solid career transition pun.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2032,
+    "sentence": "The poker player loved hiking because every trail ended at a ___",
+    "straight": [
+      "summit",
+      "viewpoint",
+      "clearing"
+    ],
+    "punny": [
+      "bluff"
+    ],
+    "claudecode_explanation": "'Bluff' means a poker bluff (deception) AND a geographical bluff (cliff). The poker player activates the card game meaning while 'hiking' and 'trail ended at' activates the geographical meaning. 'Ended at a bluff' works for both \u2014 reaching a cliff and encountering a deception. Clever.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2033,
+    "sentence": "The assassin became a lawyer because she was already great at handling ___",
+    "straight": [
+      "negotiations",
+      "difficult people",
+      "pressure"
+    ],
+    "punny": [
+      "contracts"
+    ],
+    "claudecode_explanation": "'Contracts' means legal contracts AND assassination contracts (hits). The assassin activates the killing meaning while 'became a lawyer' activates the legal meaning. 'Great at handling contracts' works for both professions. Dark humor with clean double meaning.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2034,
+    "sentence": "The dockworker's biggest flaw was that he tended to ___ grudges",
+    "straight": [
+      "hold",
+      "keep",
+      "nurse"
+    ],
+    "punny": [
+      "harbor"
+    ],
+    "claudecode_explanation": "'Harbor' means to harbor/hold grudges AND a dock/harbor (port). The dockworker activates the nautical meaning while 'tended to harbor grudges' is a natural personality description. Both meanings work simultaneously \u2014 he works at a harbor and harbors resentment.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2035,
+    "sentence": "The bookworm's favorite part of the cruise was the ___",
+    "straight": [
+      "food",
+      "destination",
+      "sunset"
+    ],
+    "punny": [
+      "passage"
+    ],
+    "claudecode_explanation": "'Passage' means a text passage (reading) AND a ship's passage (journey/corridor). The bookworm activates the reading meaning while 'cruise' activates the nautical meaning. 'Favorite part of the cruise was the passage' works for both \u2014 enjoying the reading and the voyage.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2036,
+    "sentence": "The biologist cried at every sad movie because she was an expert on ___",
+    "straight": [
+      "emotions",
+      "grief",
+      "reactions"
+    ],
+    "punny": [
+      "tissues"
+    ],
+    "claudecode_explanation": "'Tissues' means biological tissues (cells/organs) AND tissue paper (for wiping tears). The biologist activates the scientific meaning while 'cried at every sad movie' activates the paper tissue meaning. 'Expert on tissues' works for both. Clever and natural.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2037,
+    "sentence": "The mortician's dance moves were predictably ___",
+    "straight": [
+      "awkward",
+      "terrible",
+      "rigid"
+    ],
+    "punny": [
+      "stiff"
+    ],
+    "claudecode_explanation": "'Stiff' means rigid/awkward (bad dancer) AND a corpse (slang: stiff). The mortician activates the dead body meaning while 'dance moves' activates the movement meaning. 'Predictably stiff' is a natural dance critique that also describes what a mortician works with. Dark and funny.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2038,
+    "sentence": "The garbage collector was so stubborn he would never ___",
+    "straight": [
+      "compromise",
+      "quit",
+      "back down"
+    ],
+    "punny": [
+      "refuse"
+    ],
+    "claudecode_explanation": "'Refuse' means to decline/reject AND garbage/waste (pronounced differently but spelled the same). The garbage collector activates the waste meaning while 'so stubborn he would never refuse' works as never declining anything. Clever homograph pun, though the pronunciation difference (REF-yoos vs re-FYOOZ) weakens it slightly in spoken form.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2039,
+    "sentence": "The coin collector's vintage collection was in ___ condition",
+    "straight": [
+      "pristine",
+      "perfect",
+      "excellent"
+    ],
+    "punny": [
+      "mint"
+    ],
+    "claudecode_explanation": "'Mint' means mint condition (perfect/pristine) AND the mint (where coins are produced). The coin collector activates the coin production meaning while 'vintage collection in mint condition' is a natural collector's phrase. Both meanings are perfectly activated.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2040,
+    "sentence": "The loyal camel would never ___ his post",
+    "straight": [
+      "abandon",
+      "leave",
+      "neglect"
+    ],
+    "punny": [
+      "desert"
+    ],
+    "claudecode_explanation": "'Desert' means to desert/abandon AND a desert (arid landscape where camels live). The camel activates the geographical meaning while 'loyal' and 'never desert his post' activates the abandonment meaning. Both meanings work simultaneously \u2014 a camel in the desert who won't desert his duty. Clean.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2041,
+    "sentence": "The window salesman's dates were always ___",
+    "straight": [
+      "awkward",
+      "disappointing",
+      "short"
+    ],
+    "punny": [
+      "blind"
+    ],
+    "claudecode_explanation": "'Blind' means a blind date (unseen) AND window blinds (coverings). The window salesman activates the window covering meaning while 'dates were always blind' works as unseen/unknown dates. Both meanings are clear though the connection between window blinds and romantic blindness is somewhat loose.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2042,
+    "sentence": "The clumsy travel agent gave every client a memorable ___",
+    "straight": [
+      "experience",
+      "vacation",
+      "adventure"
+    ],
+    "punny": [
+      "trip"
+    ],
+    "claudecode_explanation": "'Trip' means a vacation/travel trip AND a stumble/fall. The travel agent activates the vacation meaning while 'clumsy' activates the stumble meaning. 'Gave every client a memorable trip' \u2014 they got both an unforgettable vacation and a fall. Fun misdirection.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2043,
+    "sentence": "The bookbinder was barely profitable because her business operated on thin ___",
+    "straight": [
+      "budgets",
+      "profits",
+      "resources"
+    ],
+    "punny": [
+      "margins"
+    ],
+    "claudecode_explanation": "'Margins' means profit margins (financial) AND page margins (book binding). The bookbinder activates the page margin meaning while 'barely profitable' activates the financial meaning. 'Operated on thin margins' works perfectly for both \u2014 narrow page margins and slim profits. Excellent.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2044,
+    "sentence": "The hockey player became a banker because he was used to handling ___",
+    "straight": [
+      "money",
+      "pressure",
+      "transactions"
+    ],
+    "punny": [
+      "checks"
+    ],
+    "claudecode_explanation": "'Checks' means bank checks AND body checks (hockey hits). The hockey player activates the physical contact meaning while 'became a banker' activates the financial meaning. 'Used to handling checks' works for both careers. Clean career transition.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2045,
+    "sentence": "The mathematician became a fashion model because she had a great ___",
+    "straight": [
+      "look",
+      "style",
+      "physique"
+    ],
+    "punny": [
+      "figure"
+    ],
+    "claudecode_explanation": "'Figure' means body figure (physical shape) AND a mathematical figure (number/diagram). The mathematician activates the numerical meaning while 'fashion model' activates the physical meaning. 'Had a great figure' works for both \u2014 great body and great with numbers. Fun and natural.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2046,
+    "sentence": "The photographer loved cold weather because of all the ___",
+    "straight": [
+      "scenery",
+      "lighting",
+      "contrast"
+    ],
+    "punny": [
+      "snaps"
+    ],
+    "claudecode_explanation": "'Snaps' means photographs (snapping pictures) AND cold snaps (sudden cold weather). The photographer activates the photo meaning while 'cold weather' activates the weather meaning. 'Loved cold weather because of all the snaps' works for both \u2014 more cold snaps = more photo opportunities. Clever.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2047,
+    "sentence": "The parking attendant insisted everything was ___",
+    "straight": [
+      "okay",
+      "normal",
+      "under control"
+    ],
+    "punny": [
+      "fine"
+    ],
+    "claudecode_explanation": "'Fine' means okay/acceptable AND a monetary fine (penalty). The parking attendant activates the penalty meaning while 'insisted everything was fine' is a natural reassurance. The irony is that a parking attendant saying 'everything is fine' could mean either no problems or everything gets a ticket. Excellent.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2048,
+    "sentence": "The film director got a side job in HR because she knew how to ___ people",
+    "straight": [
+      "evaluate",
+      "interview",
+      "manage"
+    ],
+    "punny": [
+      "screen"
+    ],
+    "claudecode_explanation": "'Screen' means to screen/evaluate (HR process) AND a movie screen. The film director activates the cinema meaning while 'HR' and 'job candidates' activate the evaluation meaning. 'Knew how to screen people' works for both \u2014 casting actors and vetting applicants. Clean.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2049,
+    "sentence": "The chemist's marriage was strong because of their incredible ___",
+    "straight": [
+      "trust",
+      "communication",
+      "love"
+    ],
+    "punny": [
+      "bond"
+    ],
+    "claudecode_explanation": "'Bond' means an emotional bond (connection) AND a chemical bond (molecular connection). The chemist activates the chemical meaning while 'marriage was strong' activates the emotional meaning. 'Incredible bond' works for both \u2014 strong molecular bonds and a strong relationship. Clean and natural.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2050,
+    "sentence": "The possessive geologist kept insisting everything underground was ___",
+    "straight": [
+      "valuable",
+      "protected",
+      "important"
+    ],
+    "punny": [
+      "mine"
+    ],
+    "claudecode_explanation": "'Mine' means 'belonging to me' (possessive) AND a geological mine (excavation site). The geologist activates the mining meaning while 'possessive' activates the ownership meaning. 'Everything underground was mine' \u2014 both a territorial claim and a geological fact. Clever wordplay.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2051,
+    "sentence": "The vampire worked at a blood bank because he was very particular about ___",
+    "straight": [
+      "quality",
+      "freshness",
+      "selection"
+    ],
+    "punny": [
+      "type"
+    ],
+    "claudecode_explanation": "'Type' means blood type AND personality type (his type = attractive to him). The vampire activates the blood meaning while 'blood bank' and 'very particular' work for both \u2014 he wants a specific blood type and he's picky about what he likes. Both meanings are equally strong.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2052,
+    "sentence": "The fisherman landed the lead role because he had the best ___",
+    "straight": [
+      "audition",
+      "voice",
+      "presence"
+    ],
+    "punny": [
+      "cast"
+    ],
+    "claudecode_explanation": "'Cast' means a theater cast (actors) AND a fishing cast (throwing a line). The fisherman activates the fishing meaning while 'landed the lead role' activates the theater meaning. 'Had the best cast' works for both \u2014 best fishing technique and best group of actors. Clever.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2053,
+    "sentence": "The hairdresser loved tennis because both required a good ___",
+    "straight": [
+      "technique",
+      "grip",
+      "style"
+    ],
+    "punny": [
+      "set"
+    ],
+    "claudecode_explanation": "'Set' means a hair set (styling) AND a tennis set (match division). The hairdresser activates the hair meaning while tennis activates the sport meaning. 'Required a good set' works for both. Decent but the connection feels slightly forced.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2054,
+    "sentence": "The forest ranger was terrible at driving because she could never ___",
+    "straight": [
+      "focus",
+      "relax",
+      "concentrate"
+    ],
+    "punny": [
+      "park"
+    ],
+    "claudecode_explanation": "'Park' means to park a car AND a national/forest park. The forest ranger activates the nature park meaning while 'terrible at driving' activates the parking meaning. 'Could never park' \u2014 she works in a park but can't park her car. Simple, clean, and funny.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2055,
+    "sentence": "The military officer opened a restaurant because she loved taking ___",
+    "straight": [
+      "control",
+      "charge",
+      "initiative"
+    ],
+    "punny": [
+      "orders"
+    ],
+    "claudecode_explanation": "'Orders' means military orders (commands) AND food orders (restaurant). The military officer activates the command meaning while 'opened a restaurant' activates the food meaning. 'Loved taking orders' works for both \u2014 following commands and writing down food choices. Clean career transition.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2056,
+    "sentence": "The upholsterer was always tired because the fabric had too much ___",
+    "straight": [
+      "texture",
+      "weight",
+      "bulk"
+    ],
+    "punny": [
+      "nap"
+    ],
+    "claudecode_explanation": "'Nap' means a sleep nap AND fabric nap (the raised surface/texture of upholstery). The upholsterer activates the textile meaning while 'always tired' activates the sleep meaning. 'Fabric had too much nap' \u2014 both too much texture and too much sleepiness. Surprisingly clever for such a simple word.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2057,
+    "sentence": "The deaf astrologer was always looking for a ___",
+    "straight": [
+      "clue",
+      "signal",
+      "message"
+    ],
+    "punny": [
+      "sign"
+    ],
+    "claudecode_explanation": "'Sign' means a zodiac/astrological sign AND sign language (communication for deaf people). The deaf person activates the sign language meaning while 'astrologer' activates the zodiac meaning. 'Always looking for a sign' works for both \u2014 searching for celestial guidance and watching for sign language. Both meanings are beautifully activated.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2058,
+    "sentence": "The pirate's exercise routine was just walking the ___",
+    "straight": [
+      "deck",
+      "beach",
+      "dock"
+    ],
+    "punny": [
+      "plank"
+    ],
+    "claudecode_explanation": "'Plank' means a pirate's plank (wooden board for walking off) AND the exercise plank (core workout). The pirate activates the naval punishment meaning while 'exercise routine' activates the fitness meaning. 'Walking the plank' is a famous pirate phrase that doubles as a workout. Fun.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2059,
+    "sentence": "The walrus was great at notarizing documents because he had the perfect ___",
+    "straight": [
+      "signature",
+      "credentials",
+      "authority"
+    ],
+    "punny": [
+      "seal"
+    ],
+    "claudecode_explanation": "'Seal' means an official seal (stamp of authentication) AND a marine mammal (walrus is related to seals). The walrus activates the animal meaning while 'notarizing documents' activates the official seal meaning. 'Had the perfect seal' works for both. Charming.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2060,
+    "sentence": "The heating technician loved therapy because she finally had a chance to ___",
+    "straight": [
+      "relax",
+      "talk",
+      "open up"
+    ],
+    "punny": [
+      "vent"
+    ],
+    "claudecode_explanation": "'Vent' means to vent/express frustrations AND a heating vent (HVAC). The heating technician activates the HVAC meaning while 'therapy' and 'chance to' activates the emotional release meaning. 'Finally had a chance to vent' works perfectly for both. Clean and natural.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2061,
+    "sentence": "The locomotive engineer stayed fit because he knew how to ___",
+    "straight": [
+      "eat well",
+      "exercise",
+      "stay motivated"
+    ],
+    "punny": [
+      "train"
+    ],
+    "claudecode_explanation": "'Train' means to train/exercise AND a locomotive train. The locomotive engineer activates the vehicle meaning while 'stayed fit' activates the exercise meaning. 'Knew how to train' works for both \u2014 operating trains and working out. Simple and effective.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2062,
+    "sentence": "The helpful waitress was frustrated because no one valued her ___",
+    "straight": [
+      "effort",
+      "service",
+      "opinions"
+    ],
+    "punny": [
+      "tips"
+    ],
+    "claudecode_explanation": "'Tips' means gratuity (money) AND helpful advice/tips. The waitress activates the gratuity meaning while 'helpful' and 'no one valued' activates the advice meaning. Both meanings work but the joke is somewhat straightforward without much surprise.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2063,
+    "sentence": "The boat captain and his wife were always having a ___",
+    "straight": [
+      "disagreement",
+      "fight",
+      "argument"
+    ],
+    "punny": [
+      "row"
+    ],
+    "claudecode_explanation": "'Row' means an argument/quarrel AND rowing a boat. The boat captain activates the rowing meaning while 'wife were always having a' activates the argument meaning. 'Having a row' is a natural British English expression for a fight. Clean double meaning.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2064,
+    "sentence": "The wine connoisseur became a sailor because she already knew about ___",
+    "straight": [
+      "navigation",
+      "the sea",
+      "weather"
+    ],
+    "punny": [
+      "port"
+    ],
+    "claudecode_explanation": "'Port' means a harbor/port AND port wine. The wine connoisseur activates the wine meaning while 'sailor' activates the nautical meaning. 'Already knew about port' works for both \u2014 she knew about port wine and about harbor ports. Clean career transition.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2065,
+    "sentence": "The nervous race car driver always came through in the ___",
+    "straight": [
+      "end",
+      "finals",
+      "big moment"
+    ],
+    "punny": [
+      "clutch"
+    ],
+    "claudecode_explanation": "'Clutch' means a car clutch (pedal/mechanism) AND clutch performance (coming through under pressure). The race car driver activates the automotive meaning while 'nervous' and 'came through' activates the performance meaning. 'Always came through in the clutch' is a natural sports expression that also describes using the car's clutch. Excellent.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2066,
+    "sentence": "The billiard player drowned because he jumped into the wrong ___",
+    "straight": [
+      "end",
+      "lane",
+      "area"
+    ],
+    "punny": [
+      "pool"
+    ],
+    "claudecode_explanation": "'Pool' means a swimming pool AND a billiard/pool table. The billiard player activates the game meaning while 'drowned' activates the water meaning. 'Jumped into the wrong pool' \u2014 both a wrong swimming pool and wrong billiards game. Dark humor, effective.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2067,
+    "sentence": "The lonely CEO just wanted some ___",
+    "straight": [
+      "friends",
+      "attention",
+      "peace"
+    ],
+    "punny": [
+      "company"
+    ],
+    "claudecode_explanation": "'Company' means companionship AND a business company. The CEO activates the business meaning while 'lonely' and 'just wanted some' activates the companionship meaning. The irony is poignant \u2014 a CEO runs a company but lacks company. Simple and emotionally resonant.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2068,
+    "sentence": "The makeup artist drove the smallest car because she liked things ___",
+    "straight": [
+      "simple",
+      "tidy",
+      "organized"
+    ],
+    "punny": [
+      "compact"
+    ],
+    "claudecode_explanation": "'Compact' means small/compact (car size) AND a makeup compact (small case with mirror). The makeup artist activates the cosmetics meaning while 'smallest car' activates the vehicle size meaning. 'Liked things compact' works for both. Neat and surprising.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2069,
+    "sentence": "The mechanic's kid was always in trouble at school because of his ___",
+    "straight": [
+      "behavior",
+      "attitude",
+      "temper"
+    ],
+    "punny": [
+      "suspension"
+    ],
+    "claudecode_explanation": "'Suspension' means school suspension (disciplinary) AND car suspension (shock absorbers). The mechanic activates the automotive meaning while 'trouble at school' activates the disciplinary meaning. 'Always in trouble because of his suspension' \u2014 the car part and the school punishment. Clever.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2070,
+    "sentence": "The broke football player said at least he always had a good ___",
+    "straight": [
+      "attitude",
+      "game",
+      "work ethic"
+    ],
+    "punny": [
+      "quarter"
+    ],
+    "claudecode_explanation": "'Quarter' means a quarter coin (25 cents) AND a football quarter (game period). The football player activates the sport meaning while 'broke' activates the money meaning. 'At least he always had a good quarter' \u2014 both a good game period and at least 25 cents. Fun.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2071,
+    "sentence": "The tattoo artist always left his ___ on every client",
+    "straight": [
+      "impression",
+      "stamp",
+      "influence"
+    ],
+    "punny": [
+      "mark"
+    ],
+    "claudecode_explanation": "'Mark' means an impression/impact AND a tattoo mark (ink on skin). The tattoo artist activates the ink meaning while 'left his mark' is a natural expression for making an impression. Both meanings work but it's somewhat predictable.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2072,
+    "sentence": "The mountain climber thought the tea shop's prices were too ___",
+    "straight": [
+      "high",
+      "expensive",
+      "outrageous"
+    ],
+    "punny": [
+      "steep"
+    ],
+    "claudecode_explanation": "'Steep' means expensive AND physically steep (mountain) AND steeping tea. The mountain climber activates the slope meaning, 'tea shop prices' activates the cost meaning, and tea is steeped. Triple meaning all activated simultaneously. Very clever.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2073,
+    "sentence": "The pool player became a wine collector because he appreciated a good ___",
+    "straight": [
+      "vintage",
+      "selection",
+      "taste"
+    ],
+    "punny": [
+      "rack"
+    ],
+    "claudecode_explanation": "'Rack' means a wine rack AND a billiards rack (triangle for arranging balls). The pool player activates the billiards meaning while 'wine collector' activates the wine storage meaning. 'Appreciated a good rack' works for both. Clean career transition.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2074,
+    "sentence": "The postal worker left a lasting ___ on the community",
+    "straight": [
+      "impression",
+      "impact",
+      "legacy"
+    ],
+    "punny": [
+      "stamp"
+    ],
+    "claudecode_explanation": "'Stamp' means an impression/mark AND a postage stamp. The postal worker activates the mail meaning while 'lasting stamp on the community' is a natural expression for making an impact. Both meanings work but it's fairly straightforward.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2075,
+    "sentence": "The librarian was the most ___ person in the building",
+    "straight": [
+      "quiet",
+      "patient",
+      "dedicated"
+    ],
+    "punny": [
+      "content"
+    ],
+    "claudecode_explanation": "'Content' means happy/satisfied AND the content of books/media. The librarian activates the book content meaning while 'most content person' is a natural happiness description. Both meanings are activated by the library setting. Clean but subtle.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2076,
+    "sentence": "The fashion designer's behavior at work was always ___",
+    "straight": [
+      "professional",
+      "impeccable",
+      "exemplary"
+    ],
+    "punny": [
+      "model"
+    ],
+    "claudecode_explanation": "'Model' means exemplary/perfect AND a fashion model. The fashion designer activates the fashion meaning while 'behavior at work was always model' is a natural workplace compliment. Both meanings work but the joke is somewhat predictable.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2077,
+    "sentence": "The pirate went to the doctor complaining of ___ pains",
+    "straight": [
+      "back",
+      "stomach",
+      "leg"
+    ],
+    "punny": [
+      "chest"
+    ],
+    "claudecode_explanation": "'Chest' means the body part (torso) AND a treasure chest. The pirate activates the treasure chest meaning while 'went to the doctor complaining of chest pains' is a natural medical complaint. Both meanings are perfectly activated \u2014 a pirate's chest pains could be about his treasure or his health. Excellent.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2078,
+    "sentence": "The lizard keeper got a job in IT because he already worked with ___",
+    "straight": [
+      "screens",
+      "cables",
+      "systems"
+    ],
+    "punny": [
+      "monitors"
+    ],
+    "claudecode_explanation": "'Monitors' means computer monitors AND monitor lizards (reptiles). The lizard keeper activates the reptile meaning while 'IT job' activates the computer meaning. 'Already worked with monitors' \u2014 both reptile monitors and screen monitors. Surprising and clever.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 2079,
+    "sentence": "The barber's favorite part of any movie was the ___",
+    "straight": [
+      "ending",
+      "soundtrack",
+      "plot twist"
+    ],
+    "punny": [
+      "clip"
+    ],
+    "claudecode_explanation": "'Clip' means a movie clip (short video) AND a hair clip/clipping. The barber activates the hair meaning while 'favorite part of any movie' activates the film meaning. 'Favorite clip' works for both. Clean and simple.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 2080,
+    "sentence": "The candle maker was eloquent because she could always ___ lyrical",
+    "straight": [
+      "wander",
+      "turn",
+      "grow"
+    ],
+    "punny": [
+      "wax"
+    ],
+    "claudecode_explanation": "'Wax' means candle wax AND to wax lyrical (speak eloquently). The candle maker activates the material meaning while 'eloquent' and 'wax lyrical' is a natural literary expression. Both meanings are clear, though 'wax lyrical' is a somewhat obscure phrase that limits the joke's accessibility.",
+    "claudecode_rating": 7
+  }
+]

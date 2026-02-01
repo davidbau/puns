@@ -1,0 +1,898 @@
+[
+  {
+    "id": 1001,
+    "sentence": "The earthquake couldn't accept blame because nothing was ever his ___",
+    "straight": [
+      "responsibility",
+      "problem",
+      "concern"
+    ],
+    "punny": [
+      "fault"
+    ],
+    "claudecode_explanation": "'Fault' means both blame/responsibility AND a geological fault line where earthquakes originate. The setup with earthquake directly activates the geology meaning while 'couldn't accept blame' sets up the blame meaning. Both meanings work simultaneously and naturally — tight, clever pun.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 1002,
+    "sentence": "The archaeologist's career was in ___",
+    "straight": [
+      "trouble",
+      "jeopardy",
+      "decline"
+    ],
+    "punny": [
+      "ruins"
+    ],
+    "claudecode_explanation": "'Ruins' means both a career being ruined/in bad shape AND archaeological ruins that archaeologists study. The archaeologist context activates the ancient ruins meaning while 'career was in' naturally leads to the trouble meaning. Classic concept, well-executed.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1003,
+    "sentence": "The math teacher's garden was full of ___",
+    "straight": [
+      "weeds",
+      "flowers",
+      "vegetables"
+    ],
+    "punny": [
+      "square roots"
+    ],
+    "claudecode_explanation": "'Square roots' is both a mathematical concept AND a play on plant roots. The math teacher activates the math meaning while 'garden was full of' activates the botanical meaning. Clever combination, though it's a fairly well-known pun.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1004,
+    "sentence": "The baker told his lazy son to stop ___ around",
+    "straight": [
+      "messing",
+      "fooling",
+      "hanging"
+    ],
+    "punny": [
+      "loafing"
+    ],
+    "claudecode_explanation": "'Loafing' means being lazy/idle AND relates to a loaf of bread. Baker context activates the bread meaning while 'lazy son' + 'stop ___ around' activates the idleness idiom. Natural phrasing, both meanings work well.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1005,
+    "sentence": "The ship captain was impossible to negotiate with because he was too ___",
+    "straight": [
+      "stubborn",
+      "rigid",
+      "demanding"
+    ],
+    "punny": [
+      "stern"
+    ],
+    "claudecode_explanation": "'Stern' means strict/unyielding AND the back section of a ship. Ship captain activates the nautical meaning while 'impossible to negotiate with' activates the personality meaning. Tight, natural double meaning.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1006,
+    "sentence": "The tree dreaded autumn because that's when it had to ___",
+    "straight": [
+      "change",
+      "prepare",
+      "suffer"
+    ],
+    "punny": [
+      "leave"
+    ],
+    "claudecode_explanation": "'Leave' means depart AND relates to leaves falling from a tree. However, trees don't actually 'leave' — their leaves fall off. The verb/noun mismatch weakens the pun slightly, though the autumn dread framing is charming.",
+    "claudecode_rating": 6
+  },
+  {
+    "id": 1007,
+    "sentence": "The window installer finally admitted his biggest mistake was a real ___",
+    "straight": [
+      "disaster",
+      "problem",
+      "embarrassment"
+    ],
+    "punny": [
+      "pane"
+    ],
+    "claudecode_explanation": "'Pane' is a homophone for 'pain' AND is a window pane. Window installer activates the glass meaning while 'biggest mistake was a real pain' is a natural expression. Great homophone pun with clean setup.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1008,
+    "sentence": "The prison's phone service was terrible because of all the dropped ___",
+    "straight": [
+      "calls",
+      "connections",
+      "signals"
+    ],
+    "punny": [
+      "cells"
+    ],
+    "claudecode_explanation": "'Cells' means prison cells AND relates to cell phone/cellular service. 'Dropped cells' cleverly evokes dropped calls on cellular networks while the prison context activates the jail cell meaning. Inventive connection between phone service and prison.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1009,
+    "sentence": "The newspaper editor was always ___ for time",
+    "straight": [
+      "short",
+      "rushed",
+      "scrambling"
+    ],
+    "punny": [
+      "pressed"
+    ],
+    "claudecode_explanation": "'Pressed' means rushed/under pressure AND relates to a printing press. The newspaper context activates the printing press meaning while 'pressed for time' is a natural idiom for being rushed. Both meanings are equally strong.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1010,
+    "sentence": "The retired pilot's therapist said he was surprisingly well ___",
+    "straight": [
+      "adjusted",
+      "balanced",
+      "centered"
+    ],
+    "punny": [
+      "grounded"
+    ],
+    "claudecode_explanation": "'Grounded' means psychologically stable/well-adjusted AND refers to a plane being grounded (unable to fly). A retired pilot being 'well grounded' works perfectly as both a therapeutic assessment and an ironic aviation reference. Excellent dual meaning.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 1011,
+    "sentence": "The elephant always packed light except for his ___",
+    "straight": [
+      "toiletries",
+      "snacks",
+      "blanket"
+    ],
+    "punny": [
+      "trunk"
+    ],
+    "claudecode_explanation": "'Trunk' means a travel trunk/luggage AND an elephant's trunk. The elephant 'always packed light except for his trunk' — he can't leave his trunk behind either way. The joke structure makes the inevitable trunk both literal and figurative. Clean and clever.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 1012,
+    "sentence": "The judge loved serving ice cream because he could finally hand out just ___",
+    "straight": [
+      "treats",
+      "scoops",
+      "rewards"
+    ],
+    "punny": [
+      "desserts"
+    ],
+    "claudecode_explanation": "'Desserts' plays on 'just deserts' (deserved punishment) AND ice cream desserts. The judge context activates justice/punishment while 'serving ice cream' activates the sweet treats meaning. 'Hand out just desserts' works in both senses, though the spelling difference (deserts vs desserts) is a minor issue.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1013,
+    "sentence": "The fish struggled with guitar because he couldn't get past the ___",
+    "straight": [
+      "basics",
+      "chords",
+      "fingering"
+    ],
+    "punny": [
+      "scales"
+    ],
+    "claudecode_explanation": "'Scales' means musical scales (which guitar students must learn) AND fish scales. The fish context activates the biological meaning while 'struggled with guitar' + 'couldn't get past' activates the musical practice meaning. Both meanings work simultaneously.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1014,
+    "sentence": "The river kept losing money because it had two ___",
+    "straight": [
+      "problems",
+      "expenses",
+      "debts"
+    ],
+    "punny": [
+      "banks"
+    ],
+    "claudecode_explanation": "'Banks' means financial banks AND river banks. A river literally has two banks, and 'losing money' activates the financial meaning. However, having two banks wouldn't normally cause money loss — the causal logic is slightly off.",
+    "claudecode_rating": 6
+  },
+  {
+    "id": 1015,
+    "sentence": "The bread's wedding speech was a heartfelt ___",
+    "straight": [
+      "tribute",
+      "monologue",
+      "dedication"
+    ],
+    "punny": [
+      "toast"
+    ],
+    "claudecode_explanation": "'Toast' means a wedding toast/speech AND toasted bread. Bread making a wedding speech that is a 'heartfelt toast' works perfectly — the bread character gives the literal food meaning while the ceremony context gives the speech meaning. Tight and surprising.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 1016,
+    "sentence": "The church musician donated blood because she had spare ___",
+    "straight": [
+      "time",
+      "energy",
+      "resources"
+    ],
+    "punny": [
+      "organs"
+    ],
+    "claudecode_explanation": "'Organs' means body organs AND church/pipe organs. A church musician having 'spare organs' works both as having extra pipe organs and as having spare body organs to donate blood. Both meanings are equally activated.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1017,
+    "sentence": "The comedian's fishing stories always had a great ___",
+    "straight": [
+      "ending",
+      "twist",
+      "setup"
+    ],
+    "punny": [
+      "line"
+    ],
+    "claudecode_explanation": "'Line' means a joke's punchline/delivery AND a fishing line. The comedian context activates the comedy meaning while 'fishing stories' activates the angling meaning. Both work naturally, though it's a fairly common pairing.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1018,
+    "sentence": "The poker player became a laundry worker because he already knew when to ___",
+    "straight": [
+      "quit",
+      "stop",
+      "walk away"
+    ],
+    "punny": [
+      "fold"
+    ],
+    "claudecode_explanation": "'Fold' means to fold in poker (concede a hand) AND to fold laundry. The poker player 'already knew when to fold' provides a natural career transition narrative. Both meanings of fold are equally strong in context.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 1019,
+    "sentence": "At the baseball team's dinner party, drinks were served by the ___",
+    "straight": [
+      "host",
+      "bartender",
+      "caterer"
+    ],
+    "punny": [
+      "pitcher"
+    ],
+    "claudecode_explanation": "'Pitcher' means a beverage pitcher/container AND a baseball pitcher (player position). 'Drinks were served by the pitcher' works perfectly as both a container for drinks and a player doing the serving at a dinner party. Tight double meaning.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 1020,
+    "sentence": "The cemetery had excellent marketing because every lot came with a great ___",
+    "straight": [
+      "view",
+      "location",
+      "deal"
+    ],
+    "punny": [
+      "plot"
+    ],
+    "claudecode_explanation": "'Plot' means a burial plot AND a marketing plot/storyline/scheme. The cemetery context activates the burial meaning while 'excellent marketing' and 'great plot' activates the narrative/scheme meaning. Multi-layered and darkly humorous.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 1021,
+    "sentence": "The retired basketball player became a judge because he loved ruling the ___",
+    "straight": [
+      "room",
+      "proceedings",
+      "courtroom"
+    ],
+    "punny": [
+      "court"
+    ],
+    "claudecode_explanation": "'Court' means a basketball court AND a court of law. 'Ruling the court' works perfectly for both a dominant basketball player and a judge presiding over a courtroom. Natural career transition narrative with tight pun.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 1022,
+    "sentence": "The frog's car broke down because it kept ___",
+    "straight": [
+      "stalling",
+      "overheating",
+      "sputtering"
+    ],
+    "punny": [
+      "croaking"
+    ],
+    "claudecode_explanation": "'Croaking' means dying/breaking down AND a frog's sound. The frog character activates the animal sound while 'car broke down' + 'kept croaking' activates the dying/failing meaning. Clean and amusing.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1023,
+    "sentence": "The optician went to jail for ___ innocent people",
+    "straight": [
+      "deceiving",
+      "cheating",
+      "swindling"
+    ],
+    "punny": [
+      "framing"
+    ],
+    "claudecode_explanation": "'Framing' means framing someone (false accusation) AND framing glasses/lenses. The optician context activates the eyeglasses meaning while 'went to jail for framing innocent people' is a clear criminal accusation. Both meanings work simultaneously — excellent pun.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 1024,
+    "sentence": "The train conductor was promoted because of his excellent ___",
+    "straight": [
+      "performance",
+      "leadership",
+      "attitude"
+    ],
+    "punny": [
+      "track record"
+    ],
+    "claudecode_explanation": "'Track record' means work history/performance record AND relates to railroad tracks. The train conductor context activates the railroad meaning while 'promoted because of his excellent track record' is a natural workplace expression. Very smooth phrase that works both ways.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 1025,
+    "sentence": "The beekeeper's big announcement created quite a ___",
+    "straight": [
+      "stir",
+      "commotion",
+      "reaction"
+    ],
+    "punny": [
+      "buzz"
+    ],
+    "claudecode_explanation": "'Buzz' means excitement/talk AND the sound bees make. The beekeeper activates the bee meaning while 'big announcement created quite a buzz' is a natural idiom for generating excitement. Clean and classic, though predictable.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1026,
+    "sentence": "The philosophy professor dismissed the baker's theory as half ___",
+    "straight": [
+      "finished",
+      "hearted",
+      "formed"
+    ],
+    "punny": [
+      "baked"
+    ],
+    "claudecode_explanation": "'Half-baked' means not fully thought through AND literally half-baked/undercooked. The baker character activates the cooking meaning while the philosophy professor dismissing a theory as 'half-baked' is a natural intellectual critique. Great exploitation of the idiom.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 1027,
+    "sentence": "The computer's favorite snack was ___",
+    "straight": [
+      "crackers",
+      "cookies",
+      "pretzels"
+    ],
+    "punny": [
+      "chips"
+    ],
+    "claudecode_explanation": "'Chips' means snack chips AND computer chips/microchips. The computer context activates the technology meaning while 'favorite snack' activates the food meaning. Simple and clean, though the 'favorite snack' framing is somewhat predictable.",
+    "claudecode_rating": 6
+  },
+  {
+    "id": 1028,
+    "sentence": "The chicken won the percussion contest with her incredible ___",
+    "straight": [
+      "rhythm",
+      "timing",
+      "solo"
+    ],
+    "punny": [
+      "drumsticks"
+    ],
+    "claudecode_explanation": "'Drumsticks' means percussion sticks AND chicken drumsticks (legs). The chicken character activates the poultry meaning while 'percussion contest' activates the music meaning. Clever — the chicken literally has drumsticks. Surprising and well-constructed.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 1029,
+    "sentence": "The ghost's autobiography was a bestseller because the writing was truly ___",
+    "straight": [
+      "compelling",
+      "vivid",
+      "moving"
+    ],
+    "punny": [
+      "haunting"
+    ],
+    "claudecode_explanation": "'Haunting' means emotionally moving/lingering AND a ghost haunting. The ghost context activates the supernatural meaning while 'writing was truly haunting' is a legitimate literary compliment. Both meanings align perfectly and naturally.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 1030,
+    "sentence": "The farmer won the DJ competition because he had the best ___",
+    "straight": [
+      "music",
+      "mixing",
+      "rhythm"
+    ],
+    "punny": [
+      "beets"
+    ],
+    "claudecode_explanation": "'Beets' is a homophone for 'beats' (music) AND a root vegetable. The farmer activates the agricultural meaning while 'DJ competition' + 'best beats/beets' activates the music meaning. Clever homophone pun with a surprising character pairing.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 1031,
+    "sentence": "The mattress salesman refused to quit — he wouldn't take it lying ___",
+    "straight": [
+      "still",
+      "quietly",
+      "passively"
+    ],
+    "punny": [
+      "down"
+    ],
+    "claudecode_explanation": "'Take it lying down' means to accept defeat passively AND literally lying down on a mattress. The mattress salesman context activates the literal meaning while 'refused to quit' activates the idiom. The idiom is exploited perfectly — both meanings are equally strong.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 1032,
+    "sentence": "The boat maker's excuse wouldn't ___",
+    "straight": [
+      "work",
+      "hold up",
+      "stick"
+    ],
+    "punny": [
+      "float"
+    ],
+    "claudecode_explanation": "'Float' means to be believable (as in 'that excuse won't float') AND a boat floating on water. The boat maker activates the water meaning while 'excuse wouldn't float' works as an expression for an unbelievable excuse. Clean and concise.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1033,
+    "sentence": "The lamb's family considered him the ___",
+    "straight": [
+      "troublemaker",
+      "rebel",
+      "outcast"
+    ],
+    "punny": [
+      "black sheep"
+    ],
+    "claudecode_explanation": "'Black sheep' is an idiom for a family outcast AND a literal black-colored sheep. The lamb being a black sheep in his family works both as the literal animal description and the family outcast idiom. Very clean, though the idiom-to-literal connection is almost too easy.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1034,
+    "sentence": "The tree and the dog got along because they both had impressive ___",
+    "straight": [
+      "presence",
+      "strength",
+      "character"
+    ],
+    "punny": [
+      "bark"
+    ],
+    "claudecode_explanation": "'Bark' means tree bark AND a dog's bark/sound. Both a tree and a dog naturally have 'bark,' and the setup frames it as an impressive shared trait. Simple and clean, though the dual-character setup telegraphs the pun somewhat.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1035,
+    "sentence": "The satellite's relationships always failed because it was too ___",
+    "straight": [
+      "cold",
+      "unavailable",
+      "aloof"
+    ],
+    "punny": [
+      "distant"
+    ],
+    "claudecode_explanation": "'Distant' means emotionally unavailable AND physically far away in space. The satellite activates the space/physical distance meaning while 'relationships always failed' + 'too distant' activates the emotional meaning. Natural, though 'distant' as a personality flaw is somewhat mild as a pun.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1036,
+    "sentence": "The stamp collector's love letters were always properly ___",
+    "straight": [
+      "written",
+      "sealed",
+      "worded"
+    ],
+    "punny": [
+      "addressed"
+    ],
+    "claudecode_explanation": "'Addressed' means dealt with/handled AND having a mailing address (important for stamps). The stamp collector activates the postal meaning while 'love letters properly addressed' works as both properly handled emotionally and properly labeled for mailing. The double meaning is subtle but real.",
+    "claudecode_rating": 6
+  },
+  {
+    "id": 1037,
+    "sentence": "The laundry worker's complaints were always being ___",
+    "straight": [
+      "ignored",
+      "dismissed",
+      "silenced"
+    ],
+    "punny": [
+      "aired"
+    ],
+    "claudecode_explanation": "'Aired' means expressed/made public AND air-drying laundry. The laundry worker activates the drying meaning while 'complaints were always being aired' is a natural expression for grievances being broadcast. Both meanings work cleanly.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1038,
+    "sentence": "The grape farmer threw the wildest parties because he loved a good ___",
+    "straight": [
+      "time",
+      "celebration",
+      "crowd"
+    ],
+    "punny": [
+      "crush"
+    ],
+    "claudecode_explanation": "'Crush' means a party crush/exciting crowd AND grape crushing (for winemaking). The grape farmer activates the winemaking meaning while 'wildest parties' + 'good crush' evokes an exciting gathering. Nice connection between viticulture and socializing.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1039,
+    "sentence": "The hairdresser quit her job because she couldn't deal with all the ___",
+    "straight": [
+      "customers",
+      "complaints",
+      "drama"
+    ],
+    "punny": [
+      "layers"
+    ],
+    "claudecode_explanation": "'Layers' means complexity/difficulty AND hair layers (a hairdressing technique). The hairdresser context activates the hair meaning while 'quit her job' + 'couldn't deal with all the layers' activates the complexity/difficulty meaning. Both work naturally.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1040,
+    "sentence": "The retired general opened a battery store because he loved taking ___",
+    "straight": [
+      "control",
+      "initiative",
+      "command"
+    ],
+    "punny": [
+      "charge"
+    ],
+    "claudecode_explanation": "'Charge' means taking charge/command AND electrical charge (batteries). The retired general activates the military command meaning while the battery store activates the electrical meaning. 'Taking charge' works perfectly in both contexts — excellent pun.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 1041,
+    "sentence": "The stadium was unbearably hot because none of the ___ were working",
+    "straight": [
+      "vents",
+      "air conditioners",
+      "coolers"
+    ],
+    "punny": [
+      "fans"
+    ],
+    "claudecode_explanation": "'Fans' means cooling fans/ventilation AND sports fans/supporters. The stadium activates the sports fan meaning while 'unbearably hot' activates the cooling fan meaning. 'None of the fans were working' is brilliantly ambiguous — no supporters cheering and no ventilation. Very clever.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 1042,
+    "sentence": "The mushroom was always invited to parties because he was a ___",
+    "straight": [
+      "blast",
+      "riot",
+      "character"
+    ],
+    "punny": [
+      "fungi"
+    ],
+    "claudecode_explanation": "'Fungi' sounds like 'fun guy.' The mushroom character activates the biological meaning while 'always invited to parties' activates the personality meaning. This is probably the most famous pun in existence, so it loses points for originality, but it's perfectly constructed.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1043,
+    "sentence": "The boat's relationship with the dock was getting too ___",
+    "straight": [
+      "complicated",
+      "dependent",
+      "close"
+    ],
+    "punny": [
+      "attached"
+    ],
+    "claudecode_explanation": "'Attached' means emotionally attached AND physically attached/moored (boat to dock). The boat + dock pairing activates the mooring meaning while 'relationship getting too attached' is a natural relationship complaint. Both work naturally.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1044,
+    "sentence": "The art thief was caught because all the evidence was ___",
+    "straight": [
+      "clear",
+      "solid",
+      "damning"
+    ],
+    "punny": [
+      "framed"
+    ],
+    "claudecode_explanation": "'Framed' means falsely accused AND art being in a frame. Art thief activates the art frame meaning, but there's a logical contradiction: if evidence was 'framed' (fabricated), the thief was set up and shouldn't have been 'caught' as if guilty. The two meanings work against each other rather than together.",
+    "claudecode_rating": 5
+  },
+  {
+    "id": 1045,
+    "sentence": "The bicycle therapist helped patients break their destructive ___",
+    "straight": [
+      "habits",
+      "patterns",
+      "behaviors"
+    ],
+    "punny": [
+      "cycles"
+    ],
+    "claudecode_explanation": "'Cycles' means behavioral cycles/patterns AND bicycle cycles. The bicycle therapist is a creative character who activates the vehicle meaning while 'break destructive cycles' is natural therapeutic language. Both meanings work well.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1046,
+    "sentence": "The escaped convict opened a gym because he was used to being on the ___",
+    "straight": [
+      "move",
+      "go",
+      "lam"
+    ],
+    "punny": [
+      "run"
+    ],
+    "claudecode_explanation": "'Run' means being on the run (fugitive) AND running/exercise. The escaped convict activates the fugitive meaning while opening a gym activates the exercise meaning. 'Used to being on the run' works both ways. Clean and natural.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1047,
+    "sentence": "The retired tennis player became a waiter because he was great at ___",
+    "straight": [
+      "multitasking",
+      "hustling",
+      "working fast"
+    ],
+    "punny": [
+      "serving"
+    ],
+    "claudecode_explanation": "'Serving' means serving food (as a waiter) AND serving in tennis. Tennis player activates the sport meaning while waiter activates the food service meaning. Clean career transition pun, though straightforward.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1048,
+    "sentence": "The clock was impossible to calm down because it was always ___",
+    "straight": [
+      "tense",
+      "anxious",
+      "agitated"
+    ],
+    "punny": [
+      "wound up"
+    ],
+    "claudecode_explanation": "'Wound up' means agitated/excited AND wound up (as in winding a clock mechanism). The clock context activates the mechanical meaning while 'impossible to calm down' + 'always wound up' activates the emotional meaning. Perfect double meaning with the tense/past-tense ambiguity adding another layer.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 1049,
+    "sentence": "The tea shop owner's scandal left him in hot ___",
+    "straight": [
+      "trouble",
+      "mess",
+      "shame"
+    ],
+    "punny": [
+      "water"
+    ],
+    "claudecode_explanation": "'Hot water' means trouble AND literally hot water for brewing tea. The tea shop context activates the literal hot water meaning while 'scandal left him in hot water' is a natural idiom for being in trouble. Both meanings are equally strong.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1050,
+    "sentence": "The lumberjack's blog was popular because he kept detailed ___",
+    "straight": [
+      "records",
+      "entries",
+      "notes"
+    ],
+    "punny": [
+      "logs"
+    ],
+    "claudecode_explanation": "'Logs' means records/entries AND wood logs that lumberjacks cut. The lumberjack activates the wood meaning while 'blog was popular' + 'kept detailed logs' activates the record-keeping meaning. Triple play: blog (web log), detailed records (ship's log), and wood logs. Excellent.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 1051,
+    "sentence": "The accountant's entire life was one long ___",
+    "straight": [
+      "struggle",
+      "routine",
+      "challenge"
+    ],
+    "punny": [
+      "balancing act"
+    ],
+    "claudecode_explanation": "'Balancing act' means a difficult juggling of responsibilities AND balancing financial accounts/books. The accountant activates the financial meaning while 'entire life was one long balancing act' activates the difficulty/circus meaning. Solid but somewhat predictable.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1052,
+    "sentence": "The ocean was the friendliest body of water because it always ___",
+    "straight": [
+      "welcomed visitors",
+      "sparkled",
+      "looked inviting"
+    ],
+    "punny": [
+      "waved"
+    ],
+    "claudecode_explanation": "'Waved' means waved hello/greeting AND ocean waves. The ocean context activates the water wave meaning while 'friendliest' + 'always waved' activates the greeting meaning. Classic and clean, well-known but well-constructed.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1053,
+    "sentence": "The electricity company's orchestra sounded awful because of the ___",
+    "straight": [
+      "acoustics",
+      "musicians",
+      "instruments"
+    ],
+    "punny": [
+      "conductor"
+    ],
+    "claudecode_explanation": "'Conductor' means an electrical conductor AND an orchestra conductor. The electricity company activates the electrical meaning while 'orchestra sounded awful because of the conductor' clearly blames the musical leader. The joke cleverly suggests the same 'conductor' is the problem in both domains. Excellent layering.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 1054,
+    "sentence": "The comedian's clock was always funny because it was full of ___",
+    "straight": [
+      "surprises",
+      "quirks",
+      "oddities"
+    ],
+    "punny": [
+      "ticks"
+    ],
+    "claudecode_explanation": "'Ticks' means clock ticks AND comedy ticks/quirks. However, comedy 'ticks' typically refers to nervous habits rather than funny elements. The connection between ticks and humor is weak — being 'full of ticks' doesn't naturally mean something is funny. The setup forces the meaning.",
+    "claudecode_rating": 5
+  },
+  {
+    "id": 1055,
+    "sentence": "The dentist and the manicurist bonded over their shared love of ___",
+    "straight": [
+      "precision",
+      "detail",
+      "hygiene"
+    ],
+    "punny": [
+      "filing"
+    ],
+    "claudecode_explanation": "'Filing' means filing teeth (dental work) AND filing nails (manicure). Both professionals genuinely perform 'filing' in their work, making this a clean dual-profession pun. The shared activity is real and the framing is natural.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1056,
+    "sentence": "The dry cleaner never panicked because he could always handle ___",
+    "straight": [
+      "emergencies",
+      "crises",
+      "stress"
+    ],
+    "punny": [
+      "pressing matters"
+    ],
+    "claudecode_explanation": "'Pressing matters' means urgent issues AND pressing/ironing clothes. The dry cleaner activates the garment care meaning while 'never panicked' + 'handle pressing matters' is a natural expression for dealing with urgency. Very smooth double meaning.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 1057,
+    "sentence": "The gardener's relationship ended because there were too many ___",
+    "straight": [
+      "issues",
+      "arguments",
+      "problems"
+    ],
+    "punny": [
+      "thorns"
+    ],
+    "claudecode_explanation": "'Thorns' means irritations/problems AND literal garden thorns. The gardener activates the botanical meaning while 'relationship ended' + 'too many thorns' works as metaphorical problems. However, 'thorns' as relationship problems is a slight stretch — 'thorns in one's side' is the idiom, not just 'thorns.'",
+    "claudecode_rating": 6
+  },
+  {
+    "id": 1058,
+    "sentence": "The painter never enjoyed dinner because nothing suited his ___",
+    "straight": [
+      "taste",
+      "preferences",
+      "standards"
+    ],
+    "punny": [
+      "palette"
+    ],
+    "claudecode_explanation": "'Palette' is a homophone for 'palate' (sense of taste) AND a painter's color palette. The painter context activates the art meaning while 'never enjoyed dinner' + 'nothing suited his palate' is a perfectly natural food expression. Excellent homophone pun where both meanings are equally strong.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 1059,
+    "sentence": "The baker couldn't solve the mystery because the evidence kept ___",
+    "straight": [
+      "disappearing",
+      "changing",
+      "shifting"
+    ],
+    "punny": [
+      "crumbling"
+    ],
+    "claudecode_explanation": "'Crumbling' means falling apart/deteriorating AND baked goods crumbling. The baker activates the baking meaning while 'couldn't solve the mystery' + 'evidence kept crumbling' is a natural expression for a case falling apart. Both meanings work simultaneously.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1060,
+    "sentence": "The tailor won his court case because he had an excellent ___",
+    "straight": [
+      "lawyer",
+      "defense",
+      "argument"
+    ],
+    "punny": [
+      "suit"
+    ],
+    "claudecode_explanation": "'Suit' means a lawsuit AND a tailored suit of clothes. The tailor activates the clothing meaning while 'won his court case' + 'excellent suit' activates the legal meaning. Both meanings are perfectly natural — one of the cleanest double meanings possible.",
+    "claudecode_rating": 8
+  },
+  {
+    "id": 1061,
+    "sentence": "The calendar company's annual report was already ___",
+    "straight": [
+      "finished",
+      "published",
+      "submitted"
+    ],
+    "punny": [
+      "dated"
+    ],
+    "claudecode_explanation": "'Dated' means outdated/old AND having dates printed (calendar). The calendar company activates the dates/calendar meaning while 'annual report was already dated' works as being outdated. Both meanings click naturally, and the irony of a calendar company's report being 'dated' adds humor.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1062,
+    "sentence": "The librarian was terrible at keeping secrets because she was an open ___",
+    "straight": [
+      "person",
+      "talker",
+      "gossip"
+    ],
+    "punny": [
+      "book"
+    ],
+    "claudecode_explanation": "'Open book' means a transparent/easy-to-read person AND literally an open book in a library. The librarian context activates the physical book meaning while 'terrible at keeping secrets' + 'was an open book' is a natural personality description. Classic but effective.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1063,
+    "sentence": "The clock factory worker was fired for always ___ people off",
+    "straight": [
+      "putting",
+      "setting",
+      "pushing"
+    ],
+    "punny": [
+      "ticking"
+    ],
+    "claudecode_explanation": "'Ticking off' means annoying/irritating people AND a clock ticking. The clock factory context activates the mechanism meaning while 'fired for always ticking people off' is a natural workplace complaint. Both meanings work naturally in the sentence.",
+    "claudecode_rating": 7
+  },
+  {
+    "id": 1064,
+    "sentence": "The blanket was the most supportive friend because it had everyone ___",
+    "straight": [
+      "comforted",
+      "protected",
+      "helped"
+    ],
+    "punny": [
+      "covered"
+    ],
+    "claudecode_explanation": "'Covered' means supported/taken care of AND physically covered by a blanket. The blanket character activates the physical covering meaning while 'most supportive friend' + 'had everyone covered' is a natural expression for being helpful. Clean and warm.",
+    "claudecode_rating": 7
+  }
+]

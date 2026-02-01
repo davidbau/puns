@@ -1,0 +1,7448 @@
+[
+  {
+    "index": 0,
+    "id": 1060,
+    "sentence": "The tailor won his court case because he had an excellent ___",
+    "straight": [
+      "lawyer",
+      "alibi",
+      "attorney",
+      "memory",
+      "defense",
+      "argument",
+      "reputation",
+      "excuse",
+      "defence",
+      "testimony",
+      "representative",
+      "attitude",
+      "testimonial"
+    ],
+    "punny": [
+      "suit"
+    ],
+    "explanation": "\"Suit\" means both a legal lawsuit (winning a court case) and a set of clothes made by a tailor. The setup connects both professions seamlessly.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.99,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.01,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 1,
+    "id": 427,
+    "sentence": "The magazine editor was overwhelmed because there were too many ___",
+    "straight": [
+      "submissions",
+      "articles",
+      "applications",
+      "requests",
+      "writers",
+      "entries",
+      "manuscripts",
+      "journalists",
+      "demands",
+      "deadlines",
+      "tasks"
+    ],
+    "punny": [
+      "issues"
+    ],
+    "explanation": "\"Issues\" means both problems/concerns and editions of a magazine. A magazine editor being overwhelmed by too many 'issues' works perfectly in both senses.",
+    "gemini_rating": 6,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 13,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.96,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.04,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 2,
+    "id": 40,
+    "sentence": "The calendar thief got twelve ___",
+    "straight": [
+      "years",
+      "days",
+      "robberies",
+      "hours",
+      "strikes",
+      "felonies",
+      "counts"
+    ],
+    "punny": [
+      "months"
+    ],
+    "explanation": "\"Twelve months\" works as both a prison sentence length and the number of months in a calendar (which the thief stole). The number twelve perfectly and necessarily bridges both meanings.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 8,
+    "consensus_score": 16,
+    "cloze_balance": 0.2105,
+    "cloze_p_straight": 0.16,
+    "cloze_p_funny": 0.76,
+    "cloze_p_other": 0.08,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.8,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 3,
+    "id": 455,
+    "sentence": "After parachuting from space, the adventurer was ___",
+    "straight": [
+      "exhausted",
+      "found",
+      "stranded",
+      "exhilarated",
+      "relieved",
+      "struggling",
+      "rescued",
+      "recovered",
+      "hospitalized",
+      "shaken",
+      "shocked",
+      "covered",
+      "dazed",
+      "greeted",
+      "freezing",
+      "spotted",
+      "thrilled",
+      "met",
+      "successful",
+      "overwhelmed",
+      "lost",
+      "famous",
+      "relaxed",
+      "celebrated"
+    ],
+    "punny": [
+      "down to earth"
+    ],
+    "explanation": "\"Down to earth\" means both humble/grounded in personality and literally descending back to Earth after parachuting from space. The literal and figurative meanings align perfectly.",
+    "gemini_rating": 8,
+    "anthropic_rating": 8,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.71,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.29,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 4,
+    "id": 2050,
+    "sentence": "The possessive geologist kept insisting everything underground was ___",
+    "straight": [
+      "his",
+      "stable",
+      "hers",
+      "theirs",
+      "solid",
+      "hot",
+      "real",
+      "formed",
+      "sturdy",
+      "excavated",
+      "valuable",
+      "protected",
+      "important"
+    ],
+    "punny": [
+      "mine",
+      "hers"
+    ],
+    "explanation": "\"Mine\" means both a possessive pronoun (belonging to me) and an underground excavation for extracting minerals. The possessive geologist character neatly bridges both meanings.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0104,
+    "cloze_p_straight": 0.96,
+    "cloze_p_funny": 0.01,
+    "cloze_p_other": 0.03,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 5,
+    "id": 148,
+    "sentence": "The cow became a philosopher because she loved to ___",
+    "straight": [
+      "think",
+      "ponder",
+      "munch",
+      "contemplate",
+      "mull",
+      "wander",
+      "muse",
+      "reflect"
+    ],
+    "punny": [
+      "ruminate"
+    ],
+    "explanation": "\"Ruminate\" genuinely means both to think deeply/philosophize and to chew cud, which is exactly what cows do. The word naturally carries both meanings from its Latin origin, making this an unusually elegant pun.",
+    "gemini_rating": 8,
+    "anthropic_rating": 8,
+    "claudecode_rating": 8,
+    "consensus_score": 16,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.9,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.1,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 6,
+    "id": 161,
+    "sentence": "The shoe store went bankrupt because it couldn't find its ___",
+    "straight": [
+      "niche",
+      "target",
+      "inventory",
+      "way",
+      "market",
+      "accounts",
+      "ideal",
+      "accountant",
+      "suppliers",
+      "cashflow",
+      "bestseller",
+      "mainstay",
+      "owner",
+      "manager",
+      "customers",
+      "strategy"
+    ],
+    "punny": [
+      "footing",
+      "soles",
+      "sole"
+    ],
+    "explanation": "\"Sole\" sounds like \"soul\" and also refers to the bottom of a shoe. The shoe store losing its 'sole' means it lost its essential identity and its core product. The homophone works well.",
+    "gemini_rating": 5,
+    "anthropic_rating": 6,
+    "claudecode_rating": 6,
+    "consensus_score": 11,
+    "cloze_balance": 0.0879,
+    "cloze_p_straight": 0.91,
+    "cloze_p_funny": 0.08,
+    "cloze_p_other": 0.01,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.3,
+      "8b": 0.05,
+      "70b": 0.05,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 7,
+    "id": 1025,
+    "sentence": "The beekeeper's announcement created quite a ___",
+    "straight": [
+      "commotion",
+      "stir",
+      "frenzy",
+      "flutter",
+      "scene",
+      "fuss",
+      "reaction"
+    ],
+    "punny": [
+      "buzz"
+    ],
+    "explanation": "\"Buzz\" means both excitement/commotion and the sound bees make. A beekeeper's announcement creating a buzz connects the apiary world to social excitement.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 6,
+    "consensus_score": 13,
+    "cloze_balance": 0.4286,
+    "cloze_p_straight": 0.3,
+    "cloze_p_funny": 0.7,
+    "cloze_p_other": 0.0,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.7,
+      "8b": 0.0,
+      "70b": 0.9,
+      "3.3-70b": 1.0,
+      "405b": 0.9
+    }
+  },
+  {
+    "index": 8,
+    "id": 52,
+    "sentence": "The broom maker decided to make a clean ___",
+    "straight": [
+      "break",
+      "start",
+      "business",
+      "getaway"
+    ],
+    "punny": [
+      "sweep"
+    ],
+    "explanation": "\"Sweep\" means both a clean sweeping motion (what brooms do) and a \"clean sweep\" is an idiom meaning a fresh, thorough start. The broom maker literally sweeps, while \"make a clean sweep\" means to start fresh or win decisively.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 6,
+    "consensus_score": 13,
+    "cloze_balance": 0.3387,
+    "cloze_p_straight": 0.21,
+    "cloze_p_funny": 0.62,
+    "cloze_p_other": 0.17,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.1,
+      "8b": 0.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 9,
+    "id": 291,
+    "sentence": "The seamstress was the funniest person in the shop; she kept everyone in ___",
+    "straight": [
+      "laughs",
+      "tears",
+      "laughter",
+      "joy"
+    ],
+    "punny": [
+      "stitches"
+    ],
+    "explanation": "\"In stitches\" is an idiom meaning laughing uncontrollably, while stitches are literally what a seamstress creates with needle and thread. The double meaning works cleanly.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 8,
+    "consensus_score": 15,
+    "cloze_balance": 0.0101,
+    "cloze_p_straight": 0.01,
+    "cloze_p_funny": 0.99,
+    "cloze_p_other": 0.0,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 1.0,
+      "8b": 0.95,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 10,
+    "id": 335,
+    "sentence": "The arsonist quit playing tennis after someone stole his ___",
+    "straight": [
+      "racket",
+      "racquet",
+      "backhand",
+      "rackets",
+      "shoes",
+      "bag"
+    ],
+    "punny": [
+      "matches"
+    ],
+    "explanation": "\"Matches\" refers to both tennis matches (games) and fire-starting matches that an arsonist would need. Losing his 'matches' means he can't play tennis or start fires.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 8,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.99,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.01,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 11,
+    "id": 348,
+    "sentence": "The frog was happy because he ate what ___",
+    "straight": [
+      "insects",
+      "everything",
+      "dinner",
+      "something",
+      "breakfast",
+      "he wanted",
+      "tasted good",
+      "was healthy"
+    ],
+    "punny": [
+      "flies",
+      "fly",
+      "bugs",
+      "bugged him"
+    ],
+    "explanation": "\"Bugged him\" means both annoyed/bothered him and refers to actual bugs (insects) that frogs eat. The frog eliminated what bugged him by literally eating the bugs.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.1579,
+    "cloze_p_straight": 0.09,
+    "cloze_p_funny": 0.57,
+    "cloze_p_other": 0.34,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 1.0,
+      "70b": 0.05,
+      "3.3-70b": 0.8,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 12,
+    "id": 482,
+    "sentence": "The roof repairman offered his services for free because it was on the ___",
+    "straight": [
+      "property",
+      "properties",
+      "company",
+      "firm",
+      "boss"
+    ],
+    "punny": [
+      "house"
+    ],
+    "explanation": "\"On the house\" means both free of charge and literally on top of a house, which is where a roof repairman works. Clean double meaning with a nice situational setup.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 8,
+    "consensus_score": 15,
+    "cloze_balance": 0.1562,
+    "cloze_p_straight": 0.1,
+    "cloze_p_funny": 0.64,
+    "cloze_p_other": 0.26,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.2,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 13,
+    "id": 170,
+    "sentence": "The judge loved writing because it let him pass ___",
+    "straight": [
+      "judgment",
+      "time",
+      "decision",
+      "judgement",
+      "days"
+    ],
+    "punny": [
+      "sentence"
+    ],
+    "explanation": "\"Sentence\" means both a grammatical sentence in writing and a legal sentence that a judge passes. The judge who loves writing because he gets to pass 'sentences' is a tight, clever pun.",
+    "gemini_rating": 9,
+    "anthropic_rating": 6,
+    "claudecode_rating": 8,
+    "consensus_score": 17,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.82,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.18,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 14,
+    "id": 471,
+    "sentence": "The shovel's greatest contribution to society was truly ___",
+    "straight": [
+      "revolutionary",
+      "underappreciated",
+      "underrated",
+      "remarkable",
+      "invaluable",
+      "underestimated",
+      "immeasurable",
+      "transformative",
+      "historical",
+      "significant",
+      "unprecedented",
+      "unappreciated",
+      "unrivaled",
+      "revolutionizing",
+      "pioneering",
+      "unheralded",
+      "understated",
+      "monumental",
+      "important",
+      "amazing"
+    ],
+    "punny": [
+      "groundbreaking",
+      "digging"
+    ],
+    "explanation": "\"Groundbreaking\" means both revolutionary or pioneering and literally breaking ground, which is the primary function of a shovel. Punchy and efficient.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 8,
+    "consensus_score": 15,
+    "cloze_balance": 0.0822,
+    "cloze_p_straight": 0.73,
+    "cloze_p_funny": 0.06,
+    "cloze_p_other": 0.21,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.1,
+      "70b": 0.05,
+      "3.3-70b": 0.05,
+      "405b": 0.05
+    }
+  },
+  {
+    "index": 15,
+    "id": 2072,
+    "sentence": "The mountain climber thought the tea shop's prices were too ___",
+    "straight": [
+      "high",
+      "expensive",
+      "extreme",
+      "outrageous"
+    ],
+    "punny": [
+      "steep"
+    ],
+    "explanation": "\"Steep\" means expensive prices, steep terrain that a mountain climber navigates, and potentially steeping tea (brewing). The mountain climber at a tea shop activates all three meanings simultaneously.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 8,
+    "consensus_score": 16,
+    "cloze_balance": 0.2195,
+    "cloze_p_straight": 0.82,
+    "cloze_p_funny": 0.18,
+    "cloze_p_other": 0.0,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.2,
+      "8b": 0.2,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.5
+    }
+  },
+  {
+    "index": 16,
+    "id": 1028,
+    "sentence": "The chicken won the percussion contest with her incredible ___",
+    "straight": [
+      "drumming",
+      "talents",
+      "beats",
+      "talent",
+      "rhythm",
+      "rhythms",
+      "beating",
+      "timekeeping",
+      "skills",
+      "timing",
+      "solo",
+      "performance"
+    ],
+    "punny": [
+      "drumsticks"
+    ],
+    "explanation": "\"Drumsticks\" means both the sticks used for percussion instruments and the leg portions of a chicken. The chicken winning a percussion contest cleverly bridges both meanings.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.88,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.12,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 17,
+    "id": 266,
+    "sentence": "The elevator operator had an eventful life with many ___",
+    "straight": [
+      "adventures",
+      "experiences",
+      "twists",
+      "turns",
+      "surprises",
+      "travels",
+      "incidents",
+      "perils",
+      "excitements",
+      "disturbances",
+      "encounters",
+      "stories",
+      "benefits",
+      "perks",
+      "moments"
+    ],
+    "punny": [
+      "ups and downs"
+    ],
+    "explanation": "\"Ups and downs\" is an idiom for a turbulent or eventful life, and an elevator literally goes up and down. The double meaning is straightforward and well-executed.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.8,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.2,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 18,
+    "id": 2008,
+    "sentence": "The golfer's shirt was always wrinkled because he could never find his ___",
+    "straight": [
+      "ironing",
+      "dresser",
+      "dryer",
+      "laundrybasket",
+      "laundry",
+      "closet",
+      "hangers"
+    ],
+    "punny": [
+      "iron"
+    ],
+    "explanation": "\"Iron\" is both a golf club (used for various shots) and a clothes iron (used to remove wrinkles). The golfer can't find his iron to press his shirt because he associates irons with golf.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.1111,
+    "cloze_p_straight": 0.1,
+    "cloze_p_funny": 0.9,
+    "cloze_p_other": 0.0,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.8,
+      "8b": 0.7,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 19,
+    "id": 1024,
+    "sentence": "The train conductor was promoted because of his excellent ___",
+    "straight": [
+      "leadership",
+      "service",
+      "work",
+      "performance",
+      "communication",
+      "management",
+      "communications",
+      "attitude"
+    ],
+    "punny": [
+      "track record",
+      "record",
+      "track"
+    ],
+    "explanation": "\"Track record\" means both a history of performance (reason for a promotion) and a literal railroad track record for a train conductor. The compound phrase carries both meanings naturally.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.92,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.08,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 20,
+    "id": 457,
+    "sentence": "The puzzle maker's alibi had too many missing ___",
+    "straight": [
+      "links",
+      "details",
+      "documents",
+      "facts"
+    ],
+    "punny": [
+      "pieces",
+      "holes"
+    ],
+    "explanation": "\"Pieces\" refers to both puzzle pieces (what a puzzle maker works with) and missing pieces of information in an alibi. Both meanings integrate smoothly into the sentence.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 6,
+    "consensus_score": 14,
+    "cloze_balance": 0.0532,
+    "cloze_p_straight": 0.05,
+    "cloze_p_funny": 0.94,
+    "cloze_p_other": 0.01,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.85,
+      "8b": 0.85,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 21,
+    "id": 396,
+    "sentence": "The Swiss cheese maker's alibis were always ___",
+    "straight": [
+      "questionable",
+      "shaky",
+      "questioned",
+      "dubious",
+      "unconvincing",
+      "flawed",
+      "problematic",
+      "rock-solid",
+      "unverifiable",
+      "suspicious",
+      "convincing"
+    ],
+    "punny": [
+      "full of holes"
+    ],
+    "explanation": "\"Full of holes\" describes both Swiss cheese (which is literally full of holes) and an alibi that is unconvincing/flawed. The double meaning is immediately apparent and satisfying.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.72,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.28,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 22,
+    "id": 336,
+    "sentence": "The cat always interrupted the swimmer by jumping into his ___",
+    "straight": [
+      "pool",
+      "lane",
+      "lanes",
+      "towel",
+      "goggles",
+      "clothes"
+    ],
+    "punny": [
+      "lap"
+    ],
+    "explanation": "\"Lap\" means both a lap in a swimming pool (a length of the pool) and a cat sitting on someone's lap. A cat jumping into a swimmer's 'lap' bridges the aquatic and feline contexts cleverly.",
+    "gemini_rating": 6,
+    "anthropic_rating": 5,
+    "claudecode_rating": 7,
+    "consensus_score": 13,
+    "cloze_balance": 0.1236,
+    "cloze_p_straight": 0.89,
+    "cloze_p_funny": 0.11,
+    "cloze_p_other": 0.0,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.1,
+      "8b": 0.3,
+      "70b": 0.1,
+      "3.3-70b": 0.0,
+      "405b": 0.05
+    }
+  },
+  {
+    "index": 23,
+    "id": 2063,
+    "sentence": "The sailor and his wife were always having a ___",
+    "straight": [
+      "disagreement",
+      "fight",
+      "argument",
+      "debate",
+      "quarrel",
+      "feud",
+      "fistfight"
+    ],
+    "punny": [
+      "row"
+    ],
+    "explanation": "\"Row\" means both an argument/disagreement and the act of rowing a boat. The sailor and his wife were always having a row (quarrel), while sailors row boats.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 6,
+    "consensus_score": 13,
+    "cloze_balance": 0.0145,
+    "cloze_p_straight": 0.69,
+    "cloze_p_funny": 0.01,
+    "cloze_p_other": 0.3,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 24,
+    "id": 1064,
+    "sentence": "The blanket was the most supportive friend because it had everyone ___",
+    "straight": [
+      "snuggled",
+      "together",
+      "cuddled",
+      "comforted",
+      "protected",
+      "helped"
+    ],
+    "punny": [
+      "wrapped",
+      "covered",
+      "back"
+    ],
+    "explanation": "\"Covered\" means both protected/supported (like a supportive friend who has your back) and physically covered by a blanket. The setup is warm and the double meaning is clean.",
+    "gemini_rating": 8,
+    "anthropic_rating": 5,
+    "claudecode_rating": 6,
+    "consensus_score": 14,
+    "cloze_balance": 0.1,
+    "cloze_p_straight": 0.07,
+    "cloze_p_funny": 0.7,
+    "cloze_p_other": 0.23,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.65,
+      "70b": 0.8,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 25,
+    "id": 438,
+    "sentence": "The poker player never panicked because he never showed his ___",
+    "straight": [
+      "emotions",
+      "weakness",
+      "feelings"
+    ],
+    "punny": [
+      "hand",
+      "bluff",
+      "cards"
+    ],
+    "explanation": "\"Hand\" means both showing emotion/vulnerability (showing your hand as revealing yourself) and a poker hand (the cards a player holds). The poker player setup makes the double meaning natural and effective.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.5385,
+    "cloze_p_straight": 0.35,
+    "cloze_p_funny": 0.65,
+    "cloze_p_other": 0.0,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.9,
+      "8b": 0.8,
+      "70b": 0.3,
+      "3.3-70b": 0.25,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 26,
+    "id": 304,
+    "sentence": "The dog was a tree expert because he knew his ___",
+    "straight": [
+      "roots",
+      "branches",
+      "trees",
+      "trunk",
+      "way",
+      "surroundings",
+      "spot",
+      "place",
+      "species",
+      "leaves",
+      "wood"
+    ],
+    "punny": [
+      "bark"
+    ],
+    "explanation": "\"Bark\" refers to both the outer covering of a tree and the sound a dog makes. A dog being a tree expert because he knows his 'bark' connects both meanings simply.",
+    "gemini_rating": 7,
+    "anthropic_rating": 5,
+    "claudecode_rating": 6,
+    "consensus_score": 13,
+    "cloze_balance": 0.4194,
+    "cloze_p_straight": 0.62,
+    "cloze_p_funny": 0.26,
+    "cloze_p_other": 0.12,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.25,
+      "3.3-70b": 1.0,
+      "405b": 0.05
+    }
+  },
+  {
+    "index": 27,
+    "id": 449,
+    "sentence": "The lawsuit about instant coffee was ___",
+    "straight": [
+      "filed",
+      "dismissed",
+      "launched",
+      "ongoing",
+      "overturned",
+      "initiated",
+      "decided",
+      "dropped",
+      "unsuccessful",
+      "controversial",
+      "expensive",
+      "hot"
+    ],
+    "punny": [
+      "settled",
+      "groundless"
+    ],
+    "explanation": "\"Groundless\" means without basis or merit (for a lawsuit), but instant coffee doesn't use coffee grounds -- it's literally groundless. Clever double meaning connecting coffee preparation to legal terminology.",
+    "gemini_rating": 7,
+    "anthropic_rating": 8,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.3871,
+    "cloze_p_straight": 0.62,
+    "cloze_p_funny": 0.24,
+    "cloze_p_other": 0.14,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.0,
+      "70b": 0.35,
+      "3.3-70b": 0.8,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 28,
+    "id": 2074,
+    "sentence": "The forgetful collector left their ___",
+    "straight": [
+      "wallet",
+      "valuables",
+      "portfolio",
+      "luggage",
+      "items",
+      "belongings",
+      "umbrella",
+      "jewels",
+      "treasures",
+      "backpack",
+      "glasses",
+      "note",
+      "artifacts",
+      "notebook",
+      "purse",
+      "house",
+      "paintings",
+      "passport",
+      "impression",
+      "impact",
+      "legacy"
+    ],
+    "punny": [
+      "stamp"
+    ],
+    "explanation": "\"Stamp\" as in a postage stamp (what a collector might collect) and \"left their stamp\" meaning left their mark/legacy. However, a forgetful collector leaving their stamp is a bit muddled -- did they forget to take it? The construction is somewhat awkward.",
+    "gemini_rating": 7,
+    "anthropic_rating": 5,
+    "claudecode_rating": 4,
+    "consensus_score": 11,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.74,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.26,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 29,
+    "id": 281,
+    "sentence": "The tennis player broke up with his girlfriend because love meant ___",
+    "straight": [
+      "heartbreak",
+      "happiness",
+      "infidelity",
+      "loss",
+      "compromise",
+      "pain",
+      "commitment"
+    ],
+    "punny": [
+      "nothing"
+    ],
+    "explanation": "\"Nothing\" means both emotionally meaningless (love meant nothing to him) and the tennis term where \"love\" equals a score of zero. The breakup context adds a bittersweet layer.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0667,
+    "cloze_p_straight": 0.06,
+    "cloze_p_funny": 0.9,
+    "cloze_p_other": 0.04,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.7,
+      "8b": 0.8,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 30,
+    "id": 475,
+    "sentence": "The sun doesn't need to go to college since it already has a million ___",
+    "straight": [
+      "fans",
+      "admirers",
+      "followers"
+    ],
+    "punny": [
+      "degrees",
+      "degree"
+    ],
+    "explanation": "\"Degrees\" means both academic degrees (from college) and temperature degrees. The sun literally has millions of degrees of temperature, making the factual accuracy of the pun especially satisfying.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 8,
+    "consensus_score": 16,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.0,
+    "cloze_p_funny": 1.0,
+    "cloze_p_other": 0.0,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 1.0,
+      "8b": 1.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 31,
+    "id": 256,
+    "sentence": "The tomato blushed because it saw the salad ___",
+    "straight": [
+      "greens",
+      "bowl",
+      "ingredients",
+      "leaves"
+    ],
+    "punny": [
+      "dressing"
+    ],
+    "explanation": "\"Dressing\" means both putting on clothes (the salad was getting dressed, causing embarrassment) and salad dressing (a food topping). The tomato blushing at nudity is a charming image.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0189,
+    "cloze_p_straight": 0.01,
+    "cloze_p_funny": 0.53,
+    "cloze_p_other": 0.46,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.2,
+      "70b": 0.6,
+      "3.3-70b": 0.85,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 32,
+    "id": 182,
+    "sentence": "The painter's breakup letter was short, but it still carried a lot of ___",
+    "straight": [
+      "emotion",
+      "weight",
+      "pain",
+      "hurt",
+      "feeling",
+      "meaning"
+    ],
+    "punny": [
+      "shade"
+    ],
+    "explanation": "\"Shade\" means both a color tone/hue (relevant to a painter) and subtle disrespect or criticism (as in \"throwing shade\" in a breakup letter). The connection to painting is clear, and the emotional context of a breakup fits well.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.56,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.44,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 33,
+    "id": 308,
+    "sentence": "The crab never shared his toys because he was ___",
+    "straight": [
+      "possessive",
+      "greedy",
+      "jealous",
+      "protective",
+      "mean",
+      "spoiled"
+    ],
+    "punny": [
+      "selfish",
+      "shellfish"
+    ],
+    "explanation": "\"Shellfish\" sounds like \"selfish\" (not sharing toys) and describes what a crab literally is -- a shellfish. Simple homophone pun that works cleanly.",
+    "gemini_rating": 8,
+    "anthropic_rating": 5,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.6875,
+    "cloze_p_straight": 0.32,
+    "cloze_p_funny": 0.22,
+    "cloze_p_other": 0.46,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.05,
+      "3.3-70b": 0.05,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 34,
+    "id": 488,
+    "sentence": "The carefully-planned museum heist pulled off a ___",
+    "straight": [
+      "miracle",
+      "feat",
+      "accomplishment"
+    ],
+    "punny": [
+      "masterpiece"
+    ],
+    "explanation": "\"Masterpiece\" means both a great accomplishment and a piece of master artwork. The museum heist stole a masterpiece (artwork) while also pulling off a masterpiece (feat). Nicely constructed.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.0,
+    "cloze_p_funny": 0.19,
+    "cloze_p_other": 0.81,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.9,
+      "8b": 0.05,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 35,
+    "id": 1059,
+    "sentence": "The baker couldn't solve the mystery because the evidence kept ___",
+    "straight": [
+      "disappearing",
+      "fading",
+      "vanishing",
+      "changing",
+      "slipping",
+      "eluding",
+      "moving",
+      "shifting"
+    ],
+    "punny": [
+      "crumbling"
+    ],
+    "explanation": "\"Crumbling\" means both falling apart (as evidence in a mystery might become unreliable) and what baked goods do when they break apart. The baker-mystery combination works but feels slightly forced.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 5,
+    "consensus_score": 12,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.98,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.02,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 36,
+    "id": 346,
+    "sentence": "The psychic midget escaped prison and was a small ___",
+    "straight": [
+      "fugitive",
+      "problem",
+      "target",
+      "threat",
+      "villain",
+      "menace",
+      "criminal",
+      "outlaw"
+    ],
+    "punny": [
+      "medium at large"
+    ],
+    "explanation": "\"Small medium at large\" packs three puns: \"small\" = short in stature, \"medium\" = a psychic, and \"at large\" = escaped fugitive. Together they also sound like three clothing sizes in sequence. An all-time classic layered pun.",
+    "gemini_rating": 8,
+    "anthropic_rating": 9,
+    "claudecode_rating": 9,
+    "consensus_score": 17,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.54,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.46,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 37,
+    "id": 329,
+    "sentence": "The union workers went bowling and got a ___",
+    "straight": [
+      "discount",
+      "coupon",
+      "beer",
+      "pizza",
+      "lane",
+      "trophy",
+      "win"
+    ],
+    "punny": [
+      "strike",
+      "turkey",
+      "split"
+    ],
+    "explanation": "\"Strike\" means both knocking down all bowling pins and a labor union strike (work stoppage). Union workers bowling and getting a strike connects their labor action to their recreation perfectly.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 8,
+    "consensus_score": 16,
+    "cloze_balance": 0.0328,
+    "cloze_p_straight": 0.02,
+    "cloze_p_funny": 0.61,
+    "cloze_p_other": 0.37,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.05,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 38,
+    "id": 468,
+    "sentence": "The lightning bolt was let go from every job because he kept getting ___",
+    "straight": [
+      "sacked",
+      "dismissed",
+      "arrested",
+      "frustrated",
+      "reprimanded",
+      "discouraged",
+      "injured",
+      "sick",
+      "sued",
+      "canned",
+      "distracted",
+      "complaints",
+      "warnings",
+      "electrocuted"
+    ],
+    "punny": [
+      "fired",
+      "struck",
+      "shocked",
+      "discharged"
+    ],
+    "explanation": "\"Discharged\" means both fired/let go from a job and the release of electrical energy (what lightning bolts do). Both meanings align perfectly with the setup about being let go from jobs.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.3788,
+    "cloze_p_straight": 0.25,
+    "cloze_p_funny": 0.66,
+    "cloze_p_other": 0.09,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.45,
+      "70b": 0.85,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 39,
+    "id": 502,
+    "sentence": "Ghosts love going to bars because they enjoy the ___",
+    "straight": [
+      "atmosphere",
+      "vibes",
+      "mood",
+      "company",
+      "music",
+      "crowd"
+    ],
+    "punny": [
+      "boos",
+      "spirits"
+    ],
+    "explanation": "\"Boos\" is a near-homophone of \"booze\" (bar drinks), and ghosts say 'boo.' Alternatively, 'spirits' means both ghosts and alcoholic drinks. Either pun word works, though both are well-worn.",
+    "gemini_rating": 7,
+    "anthropic_rating": 8,
+    "claudecode_rating": 6,
+    "consensus_score": 13,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.98,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.02,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 40,
+    "id": 437,
+    "sentence": "The basketball player became a writer because he was great at the ___",
+    "straight": [
+      "storytelling",
+      "craft",
+      "art",
+      "narrative",
+      "telling",
+      "sportswriting",
+      "genre",
+      "beginning",
+      "outline",
+      "opening"
+    ],
+    "punny": [
+      "draft"
+    ],
+    "explanation": "\"Draft\" means both a preliminary written manuscript (what writers create) and the NBA/sports draft where basketball players are selected. The career change framing connects both meanings.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 6,
+    "consensus_score": 13,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.39,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.61,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 41,
+    "id": 16,
+    "sentence": "The arborist's marriage failed because his wife said he was too ___",
+    "straight": [
+      "distant",
+      "distracted",
+      "absent",
+      "obsessive",
+      "preoccupied",
+      "absorbed",
+      "selfish",
+      "domineering",
+      "moody",
+      "guarded",
+      "emotional",
+      "focused",
+      "absentminded",
+      "involved",
+      "cold",
+      "stubborn"
+    ],
+    "punny": [
+      "rooted",
+      "attached",
+      "shady",
+      "wooden"
+    ],
+    "explanation": "\"Shady\" means both untrustworthy/sketchy (a reason for marriage failure) and providing shade, which is what trees (an arborist's domain) do. The double meaning fits both contexts well.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0633,
+    "cloze_p_straight": 0.79,
+    "cloze_p_funny": 0.05,
+    "cloze_p_other": 0.16,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.05,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.15
+    }
+  },
+  {
+    "index": 42,
+    "id": 360,
+    "sentence": "The vulture boarded the airplane with two dead raccoons but was told he was only allowed one ___",
+    "straight": [
+      "carry-on",
+      "carryon",
+      "baggage",
+      "carcass",
+      "animal",
+      "bag",
+      "companion",
+      "suitcase",
+      "item"
+    ],
+    "punny": [
+      "carrion",
+      "carry",
+      "carryon",
+      "carry-on"
+    ],
+    "explanation": "\"Carrion\" sounds like \"carry-on\" (airline luggage allowance) and means dead flesh that vultures eat. The dead raccoons make the carrion meaning vivid while the airline setting activates the carry-on meaning.",
+    "gemini_rating": 7,
+    "anthropic_rating": 8,
+    "claudecode_rating": 8,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.6,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.4,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 43,
+    "id": 349,
+    "sentence": "After his return the astronaut chose this restaurant because it had great ___",
+    "straight": [
+      "reviews",
+      "food",
+      "views",
+      "service",
+      "reputation",
+      "steaks",
+      "view",
+      "barbecue",
+      "review",
+      "burgers",
+      "ambiance"
+    ],
+    "punny": [
+      "atmosphere"
+    ],
+    "explanation": "\"Atmosphere\" means both the ambiance of a restaurant and the layer of gases surrounding Earth that an astronaut passes through. An astronaut appreciating 'atmosphere' after returning from space is a nice touch.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0417,
+    "cloze_p_straight": 0.96,
+    "cloze_p_funny": 0.04,
+    "cloze_p_other": 0.0,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.2,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 44,
+    "id": 113,
+    "sentence": "The scarecrow got promoted because he was outstanding in his ___",
+    "straight": [
+      "ability",
+      "job",
+      "work",
+      "role"
+    ],
+    "punny": [
+      "field",
+      "fields",
+      "fieldwork"
+    ],
+    "explanation": "\"Outstanding in his field\" means both exceptional at his job and literally standing out in an agricultural field, which is exactly where a scarecrow spends its existence. An all-time classic pun.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 8,
+    "consensus_score": 16,
+    "cloze_balance": 0.0116,
+    "cloze_p_straight": 0.01,
+    "cloze_p_funny": 0.86,
+    "cloze_p_other": 0.13,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.35,
+      "8b": 0.95,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 45,
+    "id": 239,
+    "sentence": "The invisible man turned down the job offer because he couldn't ___",
+    "straight": [
+      "afford",
+      "handle",
+      "cope",
+      "stand",
+      "trust",
+      "live",
+      "accept",
+      "control",
+      "resist",
+      "accept it",
+      "commit",
+      "relocate"
+    ],
+    "punny": [
+      "see",
+      "see himself doing it"
+    ],
+    "explanation": "\"See himself doing it\" means both to envision or imagine oneself in a role and to literally see oneself, which an invisible man cannot do. A natural idiom repurposed perfectly.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.4203,
+    "cloze_p_straight": 0.69,
+    "cloze_p_funny": 0.29,
+    "cloze_p_other": 0.02,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.45,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 46,
+    "id": 22,
+    "sentence": "The mattress salesman was tired of lying on the ___",
+    "straight": [
+      "floor",
+      "salesfloor",
+      "ground",
+      "shopfloor",
+      "beds",
+      "mattress"
+    ],
+    "punny": [
+      "job"
+    ],
+    "explanation": "\"Lying\" means both reclining on a mattress (what you do on a bed) and being dishonest (a frustration of the sales job). The mattress salesman 'lying on the job' captures both perfectly.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 8,
+    "consensus_score": 15,
+    "cloze_balance": 0.5,
+    "cloze_p_straight": 0.58,
+    "cloze_p_funny": 0.29,
+    "cloze_p_other": 0.13,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.3,
+      "70b": 0.05,
+      "3.3-70b": 0.05,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 47,
+    "id": 6,
+    "sentence": "The astronaut broke up with his girlfriend because he needed more ___",
+    "straight": [
+      "time",
+      "freedom",
+      "independence"
+    ],
+    "punny": [
+      "space"
+    ],
+    "explanation": "\"Space\" means both personal space/freedom in a relationship and outer space where astronauts work. The astronaut needing more space connects the breakup cliche to his profession.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0989,
+    "cloze_p_straight": 0.09,
+    "cloze_p_funny": 0.91,
+    "cloze_p_other": 0.0,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.6,
+      "8b": 0.95,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 48,
+    "id": 2043,
+    "sentence": "The bookbinder's business operated on thin ___",
+    "straight": [
+      "lines",
+      "profit",
+      "strings",
+      "budgets",
+      "profits",
+      "resources"
+    ],
+    "punny": [
+      "margins",
+      "margin"
+    ],
+    "explanation": "\"Margins\" means both profit margins (business operating on thin margins) and page margins in bound books. The phrase 'thin margins' works naturally in both contexts.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.3378,
+    "cloze_p_straight": 0.25,
+    "cloze_p_funny": 0.74,
+    "cloze_p_other": 0.01,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.7,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 49,
+    "id": 235,
+    "sentence": "The bicycle fell over after the race because it was ___",
+    "straight": [
+      "unstable",
+      "unbalanced",
+      "broken",
+      "overloaded",
+      "wet",
+      "overweight",
+      "exhausted",
+      "overwhelmed",
+      "underweight",
+      "overheated",
+      "tipped",
+      "unsteady",
+      "overbalanced",
+      "unattended",
+      "leaning"
+    ],
+    "punny": [
+      "tired",
+      "two tired",
+      "two-tired",
+      "two"
+    ],
+    "explanation": "\"Two tired\" sounds like \"too tired\" (exhausted after a race) and references the bicycle's two tires. A classic homophone pun with a clean setup.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.1622,
+    "cloze_p_straight": 0.74,
+    "cloze_p_funny": 0.12,
+    "cloze_p_other": 0.14,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.15,
+      "8b": 0.45,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 50,
+    "id": 218,
+    "sentence": "The electrician quit the band because he couldn't handle the constant ___",
+    "straight": [
+      "traveling",
+      "travel",
+      "rehearsals",
+      "drama",
+      "pressure",
+      "touring",
+      "drumming",
+      "conflict",
+      "stress",
+      "arguments",
+      "criticism",
+      "demands",
+      "noisiness",
+      "noise",
+      "volume",
+      "disruptions",
+      "chaos"
+    ],
+    "punny": [
+      "tension",
+      "shocking",
+      "feedback",
+      "static"
+    ],
+    "explanation": "\"Static\" means both interference/noise (in a band or radio context) and electrical static that an electrician would encounter. The band context gives \"static\" an additional layer of meaning as interpersonal friction.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 6,
+    "consensus_score": 13,
+    "cloze_balance": 0.0698,
+    "cloze_p_straight": 0.86,
+    "cloze_p_funny": 0.06,
+    "cloze_p_other": 0.08,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.2,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.1
+    }
+  },
+  {
+    "index": 51,
+    "id": 462,
+    "sentence": "After 40 years of teaching archaeology, they told the professor, 'You're ___'",
+    "straight": [
+      "fired",
+      "retiring",
+      "retired",
+      "done",
+      "overqualified",
+      "finished"
+    ],
+    "punny": [
+      "history"
+    ],
+    "explanation": "\"History\" means both the academic subject the professor taught and \"you're history\" meaning you're done/finished/irrelevant. Telling an archaeology professor they're history is both a subject-matter reference and a dismissal.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.82,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.18,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 52,
+    "id": 1001,
+    "sentence": "The earthquake couldn't accept blame because nothing was ever his ___",
+    "straight": [
+      "responsibility",
+      "mistake",
+      "intention",
+      "problem",
+      "concern"
+    ],
+    "punny": [
+      "fault"
+    ],
+    "explanation": "\"Fault\" means both personal responsibility or blame and a geological fault line (where earthquakes occur). The personification of the earthquake refusing blame is clever and the dual meaning is very tight.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 8,
+    "consensus_score": 16,
+    "cloze_balance": 0.0469,
+    "cloze_p_straight": 0.03,
+    "cloze_p_funny": 0.64,
+    "cloze_p_other": 0.33,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.1,
+      "8b": 0.1,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 53,
+    "id": 290,
+    "sentence": "Sir Lancelot's armor was rusty because he'd been pulling too many ___",
+    "straight": [
+      "all-nighters",
+      "shifts",
+      "double shifts",
+      "long hours",
+      "overtime shifts",
+      "pranks",
+      "double",
+      "long",
+      "overtime"
+    ],
+    "punny": [
+      "knight shifts",
+      "knights",
+      "knight"
+    ],
+    "explanation": "\"Knight shifts\" sounds like \"night shifts\" -- working overnight shifts would explain why armor gets rusty (exposed to dew/moisture), while \"knight\" refers to Sir Lancelot being a knight. This is a clever phonetic pun.",
+    "gemini_rating": 6,
+    "anthropic_rating": 6,
+    "claudecode_rating": 8,
+    "consensus_score": 14,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.51,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.49,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 54,
+    "id": 1009,
+    "sentence": "The newspaper editor was always ___ for time",
+    "straight": [
+      "short",
+      "rushed",
+      "scrambling"
+    ],
+    "punny": [
+      "pressed"
+    ],
+    "explanation": "\"Pressed for time\" means being in a hurry, while \"pressed\" also refers to the printing press used in newspaper production. The newspaper editor context makes both meanings work simultaneously.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.0,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 1.0,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 55,
+    "id": 277,
+    "sentence": "The nose was sad because it was tired of getting ___",
+    "straight": [
+      "poked",
+      "kicked",
+      "bullied",
+      "ignored",
+      "hit"
+    ],
+    "punny": [
+      "picked",
+      "picked on"
+    ],
+    "explanation": "\"Picked on\" means both bullied/teased and the act of picking one's nose. The nose being \"tired of getting picked on\" works on both levels with a mild gross-out humor factor.",
+    "gemini_rating": 6,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 13,
+    "cloze_balance": 0.5741,
+    "cloze_p_straight": 0.31,
+    "cloze_p_funny": 0.54,
+    "cloze_p_other": 0.15,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.2,
+      "8b": 0.3,
+      "70b": 0.8,
+      "3.3-70b": 0.65,
+      "405b": 0.75
+    }
+  },
+  {
+    "index": 56,
+    "id": 130,
+    "sentence": "The lawyer's jokes flopped because they were too ___",
+    "straight": [
+      "obscure",
+      "corny",
+      "convoluted",
+      "obvious",
+      "predictable",
+      "sophisticated",
+      "clich\u00e9d",
+      "long",
+      "absurd",
+      "rude",
+      "bad",
+      "serious",
+      "cheesy",
+      "longwinded",
+      "technical",
+      "dry",
+      "complicated"
+    ],
+    "punny": [
+      "brief"
+    ],
+    "explanation": "\"Brief\" means both too short (why jokes would flop) and a legal brief (a document lawyers prepare). The connection between a lawyer and brevity in humor is clean.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 6,
+    "consensus_score": 13,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.85,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.15,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 57,
+    "id": 2017,
+    "sentence": "The local commuter's experiences are very hard to ___",
+    "straight": [
+      "relate",
+      "quantify",
+      "predict",
+      "understand",
+      "describe",
+      "document",
+      "recreate",
+      "imagine",
+      "fathom",
+      "reproduce",
+      "explain",
+      "gauge",
+      "analyze",
+      "capture",
+      "ignore",
+      "translate",
+      "believe"
+    ],
+    "punny": [
+      "express",
+      "track"
+    ],
+    "explanation": "\"Express\" means both to articulate/communicate and an express train/commuter service. A commuter's experiences being hard to express connects the difficulty of communication with the transit system they use.",
+    "gemini_rating": 6,
+    "anthropic_rating": 7,
+    "claudecode_rating": 6,
+    "consensus_score": 12,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.95,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.05,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 58,
+    "id": 306,
+    "sentence": "The fish was smart because it spent all its time in a ___",
+    "straight": [
+      "library",
+      "tank",
+      "cave",
+      "university",
+      "museum"
+    ],
+    "punny": [
+      "school"
+    ],
+    "explanation": "\"School\" means both an educational institution (where one becomes smart) and a school of fish (where a fish lives). Simple and classic.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 6,
+    "consensus_score": 14,
+    "cloze_balance": 0.0274,
+    "cloze_p_straight": 0.73,
+    "cloze_p_funny": 0.02,
+    "cloze_p_other": 0.25,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.1,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 59,
+    "id": 1052,
+    "sentence": "The ocean seems so friendly because it is always ___",
+    "straight": [
+      "calm",
+      "moving",
+      "wet",
+      "warm",
+      "big"
+    ],
+    "punny": [
+      "waving"
+    ],
+    "explanation": "\"Waving\" means both the motion of ocean waves and the friendly gesture of waving hello. The ocean literally has waves, which is reinterpreted as a friendly social behavior.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 6,
+    "consensus_score": 13,
+    "cloze_balance": 0.0476,
+    "cloze_p_straight": 0.63,
+    "cloze_p_funny": 0.03,
+    "cloze_p_other": 0.34,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.15,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 60,
+    "id": 373,
+    "sentence": "The witch couldn't do magic in English because she couldn't ___",
+    "straight": [
+      "pronounce",
+      "speak",
+      "cast",
+      "remember",
+      "understand",
+      "control",
+      "read",
+      "translate",
+      "write",
+      "focus"
+    ],
+    "punny": [
+      "spell"
+    ],
+    "explanation": "\"Spell\" means both to cast a magic spell (what witches do) and to spell words in English. The witch struggling with English because she can't spell is a clean, elegant double meaning.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 8,
+    "consensus_score": 16,
+    "cloze_balance": 0.1364,
+    "cloze_p_straight": 0.88,
+    "cloze_p_funny": 0.12,
+    "cloze_p_other": 0.0,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.2,
+      "8b": 0.35,
+      "70b": 0.05,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 61,
+    "id": 384,
+    "sentence": "The optician fell into his lens grinder and made a complete ___",
+    "straight": [
+      "mess",
+      "shambles",
+      "mishap",
+      "mayhem",
+      "disaster",
+      "breakdown",
+      "fool"
+    ],
+    "punny": [
+      "spectacle",
+      "break",
+      "fracture",
+      "shatter"
+    ],
+    "explanation": "\"Spectacle\" means both a scene of embarrassment/commotion and eyeglasses (spectacles), which an optician makes. Falling into a lens grinder and making a 'spectacle' of oneself is well-constructed.",
+    "gemini_rating": 8,
+    "anthropic_rating": 8,
+    "claudecode_rating": 8,
+    "consensus_score": 16,
+    "cloze_balance": 0.5079,
+    "cloze_p_straight": 0.3232,
+    "cloze_p_funny": 0.6364,
+    "cloze_p_other": 0.0404,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.1579,
+      "8b": 0.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 62,
+    "id": 1051,
+    "sentence": "The accountant's entire life was one long ___",
+    "straight": [
+      "struggle",
+      "desperation",
+      "routine",
+      "endeavor",
+      "nightmare",
+      "journey",
+      "challenge"
+    ],
+    "punny": [
+      "spreadsheet",
+      "audit",
+      "calculation",
+      "exercise",
+      "number-crunching",
+      "reconciliation",
+      "balancing act"
+    ],
+    "explanation": "\"Balancing act\" means both a difficult juggling of competing demands (life as a struggle) and literally balancing numbers, which is what accountants do. Solid but not surprising.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 5,
+    "consensus_score": 12,
+    "cloze_balance": 0.6596,
+    "cloze_p_straight": 0.31,
+    "cloze_p_funny": 0.47,
+    "cloze_p_other": 0.22,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.35,
+      "70b": 0.55,
+      "3.3-70b": 0.45,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 63,
+    "id": 90,
+    "sentence": "The sausage maker's work was the ___",
+    "straight": [
+      "talk",
+      "envy",
+      "backbone",
+      "result",
+      "key",
+      "foundation",
+      "source",
+      "best",
+      "basis",
+      "centerpiece",
+      "topic",
+      "epitome",
+      "center",
+      "finest",
+      "greatest"
+    ],
+    "punny": [
+      "wurst"
+    ],
+    "explanation": "\"Wurst\" is a German word for sausage that sounds like \"worst.\" So the sausage maker's work was the worst/wurst. A phonetic pun that's silly and fun.",
+    "gemini_rating": 9,
+    "anthropic_rating": 4,
+    "claudecode_rating": 6,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.67,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.33,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 64,
+    "id": 278,
+    "sentence": "The cross-eyed teacher lost her job because she couldn't control her ___",
+    "straight": [
+      "classroom",
+      "students",
+      "temper",
+      "emotions",
+      "schedule"
+    ],
+    "punny": [
+      "class",
+      "pupils"
+    ],
+    "explanation": "\"Pupils\" means both students in a classroom (teacher context) and the parts of the eye (cross-eyed context). Both the visual condition and the teaching profession connect naturally to the word.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 8,
+    "consensus_score": 16,
+    "cloze_balance": 0.9231,
+    "cloze_p_straight": 0.52,
+    "cloze_p_funny": 0.48,
+    "cloze_p_other": 0.0,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.85,
+      "70b": 0.85,
+      "3.3-70b": 0.25,
+      "405b": 0.45
+    }
+  },
+  {
+    "index": 65,
+    "id": 2001,
+    "sentence": "The mailman's jokes were hilarious because of his ___",
+    "straight": [
+      "ability",
+      "charisma",
+      "route",
+      "truck",
+      "ideas"
+    ],
+    "punny": [
+      "delivery"
+    ],
+    "explanation": "\"Delivery\" means both comedic delivery (timing and presentation of jokes) and mail delivery (a mailman's job). Natural and well-constructed.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0536,
+    "cloze_p_straight": 0.0303,
+    "cloze_p_funny": 0.5657,
+    "cloze_p_other": 0.404,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.8,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 66,
+    "id": 237,
+    "sentence": "The golfer brought an extra pair of pants in case he got a ___",
+    "straight": [
+      "stain",
+      "soaking",
+      "rip",
+      "tear"
+    ],
+    "punny": [
+      "hole",
+      "hole in one"
+    ],
+    "explanation": "\"Hole in one\" is a celebrated golf achievement (an ace) and also literally describes getting a hole in one pair of pants. The extra pants as precaution ties both meanings together neatly.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 8,
+    "consensus_score": 15,
+    "cloze_balance": 0.6757,
+    "cloze_p_straight": 0.25,
+    "cloze_p_funny": 0.37,
+    "cloze_p_other": 0.38,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.35,
+      "8b": 0.05,
+      "70b": 0.35,
+      "3.3-70b": 1.0,
+      "405b": 0.1
+    }
+  },
+  {
+    "index": 67,
+    "id": 453,
+    "sentence": "The cliff diver's career took a sudden ___",
+    "straight": [
+      "turn",
+      "downturn",
+      "downfall",
+      "hit"
+    ],
+    "punny": [
+      "plunge"
+    ],
+    "explanation": "\"Plunge\" means both a sudden dramatic decline (in a career) and a dive downward (what cliff divers do). The double meaning is tight and the sentence flows well.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.1412,
+    "cloze_p_straight": 0.85,
+    "cloze_p_funny": 0.12,
+    "cloze_p_other": 0.03,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.6
+    }
+  },
+  {
+    "index": 68,
+    "id": 469,
+    "sentence": "The bread was nervous about the meeting because he was about to get ___",
+    "straight": [
+      "fired",
+      "dismissed",
+      "promoted",
+      "sacked",
+      "rejected",
+      "reprimanded",
+      "reviewed",
+      "criticized"
+    ],
+    "punny": [
+      "toasted",
+      "served",
+      "eaten"
+    ],
+    "explanation": "\"Toasted\" means both criticized/roasted harshly (in a meeting) and literally toasted (what happens to bread). The bread being nervous about getting toasted in a meeting is a fun personification.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.3151,
+    "cloze_p_straight": 0.73,
+    "cloze_p_funny": 0.23,
+    "cloze_p_other": 0.04,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.1,
+      "8b": 0.0,
+      "70b": 0.05,
+      "3.3-70b": 0.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 69,
+    "id": 454,
+    "sentence": "The butcher was great at poker because he always raised the ___",
+    "straight": [
+      "bet",
+      "bar",
+      "ante"
+    ],
+    "punny": [
+      "stakes",
+      "stake",
+      "steaks",
+      "steak"
+    ],
+    "explanation": "\"Steaks\" is a homophone of \"stakes\" -- raising the stakes in poker versus a butcher raising literal steaks (cuts of meat). Classic homophone pun with clean execution.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0101,
+    "cloze_p_straight": 0.01,
+    "cloze_p_funny": 0.99,
+    "cloze_p_other": 0.0,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.95,
+      "8b": 1.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 70,
+    "id": 2076,
+    "sentence": "The fashion designer's behavior at work was always ___",
+    "straight": [
+      "professional",
+      "unprofessional",
+      "unpredictable",
+      "problematic",
+      "impeccable",
+      "erratic",
+      "disruptive",
+      "rebellious",
+      "inconsistent",
+      "turbulent",
+      "questionable",
+      "exemplary"
+    ],
+    "punny": [
+      "model"
+    ],
+    "explanation": "\"Model\" means both exemplary/ideal behavior and a fashion model that a designer works with. The double meaning works but the sentence reads a bit plainly.",
+    "gemini_rating": 7,
+    "anthropic_rating": 5,
+    "claudecode_rating": 5,
+    "consensus_score": 12,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.99,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.01,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 71,
+    "id": 2027,
+    "sentence": "The mushroom's salary never went up because there was always a ___",
+    "straight": [
+      "ceiling",
+      "limit",
+      "catch",
+      "snafu",
+      "budget",
+      "snag",
+      "restriction",
+      "shortage"
+    ],
+    "punny": [
+      "cap",
+      "fun-gi",
+      "fungus"
+    ],
+    "explanation": "\"Cap\" means both a salary cap or limit on earnings and the cap of a mushroom (the top part). The connection between a mushroom's anatomy and wage restrictions is inventive.",
+    "gemini_rating": 6,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 13,
+    "cloze_balance": 0.4444,
+    "cloze_p_straight": 0.09,
+    "cloze_p_funny": 0.04,
+    "cloze_p_other": 0.87,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.2,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 72,
+    "id": 2038,
+    "sentence": "The garbage collector was so stubborn he would never ___",
+    "straight": [
+      "listen",
+      "compromise",
+      "accept",
+      "give",
+      "agree",
+      "move",
+      "budge",
+      "comply",
+      "leave",
+      "change",
+      "quit",
+      "back down"
+    ],
+    "punny": [
+      "refuse"
+    ],
+    "explanation": "\"Refuse\" means both to decline/reject and garbage/waste material. A garbage collector who would never refuse connects his stubbornness to the literal material he handles daily.",
+    "gemini_rating": 7,
+    "anthropic_rating": 8,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.9,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.1,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 73,
+    "id": 444,
+    "sentence": "The laundry felt betrayed after it was ___",
+    "straight": [
+      "shrunk",
+      "accused",
+      "forgotten",
+      "lost",
+      "stolen",
+      "overloaded",
+      "abandoned",
+      "stained",
+      "suffer",
+      "fail",
+      "fend"
+    ],
+    "punny": [
+      "hung out to dry"
+    ],
+    "explanation": "\"Hung out to dry\" means both abandoned or betrayed and the literal act of hanging laundry on a line to dry. The idiom maps perfectly to the literal laundry action.",
+    "gemini_rating": 8,
+    "anthropic_rating": 8,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.45,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.55,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 74,
+    "id": 1041,
+    "sentence": "The stadium was unbearably hot because there weren't any ___",
+    "straight": [
+      "shades",
+      "shadows",
+      "ventilation",
+      "windows",
+      "umbrellas",
+      "shade",
+      "ventilators",
+      "vents",
+      "air conditioners",
+      "coolers"
+    ],
+    "punny": [
+      "fans"
+    ],
+    "explanation": "\"Fans\" means both ventilation/cooling fans and sports fans who attend games at stadiums. An empty, hot stadium lacks both kinds of fans. Simple and effective.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.6667,
+    "cloze_p_straight": 0.6,
+    "cloze_p_funny": 0.4,
+    "cloze_p_other": 0.0,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.7,
+      "70b": 0.1,
+      "3.3-70b": 0.3,
+      "405b": 0.9
+    }
+  },
+  {
+    "index": 75,
+    "id": 1017,
+    "sentence": "The comedian's fishing stories always had a great ___",
+    "straight": [
+      "twist",
+      "punchline",
+      "impact",
+      "effect",
+      "ending",
+      "setup"
+    ],
+    "punny": [
+      "hook",
+      "line"
+    ],
+    "explanation": "\"Line\" means both a fishing line and a comedic punchline/joke line. The comedian's fishing stories having a great line connects angling equipment to comedy craft.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 6,
+    "consensus_score": 14,
+    "cloze_balance": 0.1538,
+    "cloze_p_straight": 0.65,
+    "cloze_p_funny": 0.1,
+    "cloze_p_other": 0.25,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.0,
+      "70b": 0.4,
+      "3.3-70b": 0.05,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 76,
+    "id": 2006,
+    "sentence": "The wizard ran a fantastic music school because he had a great ___",
+    "straight": [
+      "passion",
+      "ear",
+      "understanding",
+      "talent",
+      "reputation",
+      "affection",
+      "appreciation",
+      "network",
+      "imagination",
+      "teacher",
+      "sense",
+      "melody",
+      "gift"
+    ],
+    "punny": [
+      "staff",
+      "spell"
+    ],
+    "explanation": "\"Staff\" means both employees/personnel and a musical staff (the five lines music is written on), and also a wizard's staff (magical rod). The joke layers three meanings cleverly -- wizard, music, and personnel.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.99,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.01,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 77,
+    "id": 1048,
+    "sentence": "The clock was impossible to calm down because it was always ___",
+    "straight": [
+      "running",
+      "fast",
+      "tense",
+      "anxious",
+      "agitated"
+    ],
+    "punny": [
+      "ticking",
+      "wound up"
+    ],
+    "explanation": "\"Wound up\" means both emotionally agitated or tense and mechanically wound (as clocks with mainsprings are wound up to operate). Both meanings describe a state of stored tension.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.1325,
+    "cloze_p_straight": 0.11,
+    "cloze_p_funny": 0.83,
+    "cloze_p_other": 0.06,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.2,
+      "8b": 1.0,
+      "70b": 0.95,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 78,
+    "id": 415,
+    "sentence": "When the egg farmer tried to organize his inventory, everything turned into a complete ___",
+    "straight": [
+      "chaos",
+      "mess",
+      "disaster",
+      "nightmare"
+    ],
+    "punny": [
+      "scramble"
+    ],
+    "explanation": "\"Scramble\" means both a chaotic mess/disorganized situation and scrambled eggs. An egg farmer's inventory turning into a scramble connects the chaos of disorganization to the egg preparation method.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 1.0,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.0,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 79,
+    "id": 341,
+    "sentence": "The dyslexic zombie kept hunting guys named ___",
+    "straight": [
+      "steve",
+      "dave",
+      "mike"
+    ],
+    "punny": [
+      "brian",
+      "brain",
+      "braaaaain",
+      "braaaaad"
+    ],
+    "explanation": "\"Brian\" sounds like \"brain\" -- a dyslexic zombie, instead of hunting brains, hunts guys named Brian due to the letter-swapping associated with dyslexia. This is a creative twist on the zombie trope.",
+    "gemini_rating": 8,
+    "anthropic_rating": 8,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.4419,
+    "cloze_p_straight": 0.19,
+    "cloze_p_funny": 0.43,
+    "cloze_p_other": 0.38,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.3,
+      "70b": 0.35,
+      "3.3-70b": 0.5,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 80,
+    "id": 7,
+    "sentence": "The optometrist's startup failed because he lacked ___",
+    "straight": [
+      "funding",
+      "capital",
+      "experience",
+      "investment",
+      "management",
+      "dedication",
+      "planning"
+    ],
+    "punny": [
+      "vision",
+      "focus"
+    ],
+    "explanation": "\"Vision\" means both a strategic plan/foresight needed for a startup and eyesight, which is an optometrist's specialty. The connection is natural and well-crafted.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 8,
+    "consensus_score": 16,
+    "cloze_balance": 0.3538,
+    "cloze_p_straight": 0.65,
+    "cloze_p_funny": 0.23,
+    "cloze_p_other": 0.12,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.25,
+      "8b": 0.05,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.85
+    }
+  },
+  {
+    "index": 81,
+    "id": 274,
+    "sentence": "The thunder cloud joined the union and then it kept ___",
+    "straight": [
+      "growing",
+      "raining",
+      "moving",
+      "gathering",
+      "pouring",
+      "rising",
+      "rolling",
+      "shaking",
+      "working",
+      "shifting",
+      "running",
+      "pounding",
+      "breaking",
+      "roaring",
+      "drifting",
+      "slacking off",
+      "being late",
+      "causing trouble"
+    ],
+    "punny": [
+      "striking"
+    ],
+    "explanation": "\"Striking\" means both going on strike (a union action) and a lightning strike, which is what thunder clouds produce. The union/weather double meaning is solid.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.069,
+    "cloze_p_straight": 0.87,
+    "cloze_p_funny": 0.06,
+    "cloze_p_other": 0.07,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.25,
+      "3.3-70b": 0.05,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 82,
+    "id": 18,
+    "sentence": "The batteries were given out free of ___",
+    "straight": [
+      "cost"
+    ],
+    "punny": [
+      "charge"
+    ],
+    "explanation": "\"Charge\" means both monetary cost (free of charge = no cost) and electrical charge stored in batteries. Maximally concise and clean.",
+    "gemini_rating": 8,
+    "anthropic_rating": 5,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0417,
+    "cloze_p_straight": 0.04,
+    "cloze_p_funny": 0.96,
+    "cloze_p_other": 0.0,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.8,
+      "8b": 1.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 83,
+    "id": 319,
+    "sentence": "The live art competition was very close and ended in a ___",
+    "straight": [
+      "tie",
+      "deadlock",
+      "draw",
+      "deadheat",
+      "stalemate"
+    ],
+    "punny": [
+      "draw"
+    ],
+    "explanation": "\"Draw\" means both a tied result in a competition and the act of creating art by drawing. Since it's an art competition, the tie is literally a 'draw' in both senses.",
+    "gemini_rating": 8,
+    "anthropic_rating": 2,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.79,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.21,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 84,
+    "id": 1013,
+    "sentence": "The fish couldn't learn guitar because he couldn't get past the ___",
+    "straight": [
+      "fretboard",
+      "fingers",
+      "fingering",
+      "strings",
+      "difficulty",
+      "fret",
+      "frets",
+      "fingertips",
+      "chords",
+      "barrier",
+      "fretting",
+      "chord",
+      "technique",
+      "bar",
+      "finger",
+      "basics"
+    ],
+    "punny": [
+      "scales"
+    ],
+    "explanation": "\"Scales\" means both musical scales (practiced when learning guitar) and fish scales (covering a fish's body). Both meanings are strongly relevant to their respective subjects.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0217,
+    "cloze_p_straight": 0.92,
+    "cloze_p_funny": 0.02,
+    "cloze_p_other": 0.06,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.05,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.05
+    }
+  },
+  {
+    "index": 85,
+    "id": 470,
+    "sentence": "The electrician's party was going well until someone blew a ___",
+    "straight": [
+      "whistle",
+      "trumpet",
+      "horn",
+      "gambit",
+      "gasket",
+      "chance"
+    ],
+    "punny": [
+      "fuse"
+    ],
+    "explanation": "\"Blew a fuse\" means both losing one's temper (an idiom for getting very angry) and an electrical fuse blowing, which an electrician would deal with. The party context where someone loses their temper is well-constructed.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.1176,
+    "cloze_p_straight": 0.1,
+    "cloze_p_funny": 0.85,
+    "cloze_p_other": 0.05,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.25,
+      "8b": 1.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 86,
+    "id": 300,
+    "sentence": "The photon checked into a hotel without luggage because it was traveling ___",
+    "straight": [
+      "alone",
+      "fast",
+      "poorly"
+    ],
+    "punny": [
+      "light",
+      "lightly"
+    ],
+    "explanation": "\"Light\" means both traveling with minimal luggage and the literal nature of a photon, which is a particle of light. The setup elegantly connects the hotel/luggage scenario to physics.",
+    "gemini_rating": 5,
+    "anthropic_rating": 8,
+    "claudecode_rating": 8,
+    "consensus_score": 13,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.0,
+    "cloze_p_funny": 0.8,
+    "cloze_p_other": 0.2,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 1.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 87,
+    "id": 464,
+    "sentence": "The deli owner was great at ending arguments because he could see through the ___",
+    "straight": [
+      "nonsense",
+      "facade",
+      "emotions",
+      "bickering",
+      "rhetoric",
+      "bitchiness",
+      "bitterness",
+      "histrionics",
+      "frustration",
+      "emotion",
+      "bullshit",
+      "smokescreen",
+      "posturing",
+      "bull",
+      "hypocrisy",
+      "expectations",
+      "b.s",
+      "subtext",
+      "subtleties",
+      "surface",
+      "bluff",
+      "lies",
+      "excuses"
+    ],
+    "punny": [
+      "baloney"
+    ],
+    "explanation": "\"Baloney\" means both nonsense or lies (seeing through the baloney in arguments) and bologna deli meat. The deli context grounds the meat meaning.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 6,
+    "consensus_score": 13,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.91,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.09,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 88,
+    "id": 2067,
+    "sentence": "The lonely CEO just wanted some ___",
+    "straight": [
+      "companionship",
+      "solitude",
+      "peace",
+      "friendship",
+      "humanity",
+      "attention",
+      "solace",
+      "normalcy",
+      "friends"
+    ],
+    "punny": [
+      "company"
+    ],
+    "explanation": "\"Company\" means both companionship/social presence and a business corporation. The lonely CEO wanting company connects the desire for friendship with the business entity they run.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.9756,
+    "cloze_p_straight": 0.41,
+    "cloze_p_funny": 0.4,
+    "cloze_p_other": 0.19,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.2,
+      "8b": 0.1,
+      "70b": 0.75,
+      "3.3-70b": 0.4,
+      "405b": 0.55
+    }
+  },
+  {
+    "index": 89,
+    "id": 209,
+    "sentence": "The electrician quit politics after his party lost ___",
+    "straight": [
+      "election",
+      "elections",
+      "momentum",
+      "support",
+      "steam"
+    ],
+    "punny": [
+      "power"
+    ],
+    "explanation": "\"Power\" means both political power/influence (what a party loses in an election) and electrical power (what an electrician works with). Both meanings are strong and the sentence is concise.",
+    "gemini_rating": 9,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 16,
+    "cloze_balance": 0.8,
+    "cloze_p_straight": 0.08,
+    "cloze_p_funny": 0.1,
+    "cloze_p_other": 0.82,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.1,
+      "3.3-70b": 0.35,
+      "405b": 0.05
+    }
+  },
+  {
+    "index": 90,
+    "id": 2044,
+    "sentence": "The hockey player became a banker because he was used to handling ___",
+    "straight": [
+      "money",
+      "pressure",
+      "pucks",
+      "transactions"
+    ],
+    "punny": [
+      "checks"
+    ],
+    "explanation": "\"Checks\" refers to both body checks in hockey and bank checks/cheques handled by bankers. The career transition framing is clean and both meanings are clear.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 6,
+    "consensus_score": 14,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.35,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.65,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 91,
+    "id": 485,
+    "sentence": "The boat mechanic kept the company going because he kept everything ___",
+    "straight": [
+      "running",
+      "organized",
+      "well-oiled",
+      "spotless",
+      "up",
+      "working",
+      "together",
+      "operational"
+    ],
+    "punny": [
+      "afloat"
+    ],
+    "explanation": "\"Afloat\" means both keeping a business financially viable and keeping something on water, which is what a boat mechanic's work ensures. Both meanings blend seamlessly.",
+    "gemini_rating": 8,
+    "anthropic_rating": 5,
+    "claudecode_rating": 6,
+    "consensus_score": 14,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.75,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.25,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 92,
+    "id": 116,
+    "sentence": "The tightrope walker went to the bank to check his ___",
+    "straight": [
+      "account",
+      "statement",
+      "numbers"
+    ],
+    "punny": [
+      "balance"
+    ],
+    "explanation": "\"Balance\" means both a financial account balance (bank context) and physical equilibrium (tightrope walker context). Both meanings fit naturally into the sentence.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.2821,
+    "cloze_p_straight": 0.78,
+    "cloze_p_funny": 0.22,
+    "cloze_p_other": 0.0,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.25,
+      "70b": 0.25,
+      "3.3-70b": 0.0,
+      "405b": 0.55
+    }
+  },
+  {
+    "index": 93,
+    "id": 495,
+    "sentence": "The caterpillar was optimistic because he believed in personal ___",
+    "straight": [
+      "growth",
+      "change",
+      "development"
+    ],
+    "punny": [
+      "transformation"
+    ],
+    "explanation": "\"Transformation\" means both personal self-improvement and the biological metamorphosis a caterpillar undergoes to become a butterfly. The word genuinely captures both concepts.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 1.0,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.0,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 94,
+    "id": 330,
+    "sentence": "The lemonade stand hired a baseball player because they needed a ___",
+    "straight": [
+      "spokesperson",
+      "salesperson",
+      "spokesman",
+      "security",
+      "salesman",
+      "person",
+      "star",
+      "shill",
+      "publicist",
+      "someone",
+      "mascot",
+      "worker",
+      "sign"
+    ],
+    "punny": [
+      "pitcher",
+      "pitchman"
+    ],
+    "explanation": "\"Pitcher\" means both a container for pouring beverages like lemonade and a baseball player who throws the ball. The lemonade stand needing a baseball player connects both uses naturally.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.4545,
+    "cloze_p_straight": 0.25,
+    "cloze_p_funny": 0.55,
+    "cloze_p_other": 0.2,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.3,
+      "70b": 0.65,
+      "3.3-70b": 0.8,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 95,
+    "id": 2007,
+    "sentence": "The indecisive chef reopened his restaurant but still had ___",
+    "straight": [
+      "trouble",
+      "doubts",
+      "difficulty",
+      "difficulties",
+      "second-guessing",
+      "troubles",
+      "concerns",
+      "second thoughts",
+      "customers",
+      "second"
+    ],
+    "punny": [
+      "reservations",
+      "cold"
+    ],
+    "explanation": "\"Reservations\" means both doubts or hesitations (indecisive context) and restaurant table bookings. The indecisive chef reopening his restaurant activates both meanings simultaneously. Well constructed.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 8,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.85,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.15,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 96,
+    "id": 2057,
+    "sentence": "The deaf astrologer was always looking for a ___",
+    "straight": [
+      "connection",
+      "way",
+      "solution",
+      "companion",
+      "pattern",
+      "clue",
+      "system",
+      "method",
+      "signal",
+      "message"
+    ],
+    "punny": [
+      "sign"
+    ],
+    "explanation": "\"Sign\" means both an astrological/zodiac sign (astrologer context) and a gesture in sign language (deaf context). Both meanings involve looking for or interpreting signs.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.6136,
+    "cloze_p_straight": 0.27,
+    "cloze_p_funny": 0.44,
+    "cloze_p_other": 0.29,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.3,
+      "70b": 0.4,
+      "3.3-70b": 0.85,
+      "405b": 0.65
+    }
+  },
+  {
+    "index": 97,
+    "id": 318,
+    "sentence": "The history teacher was depressed because he lived in the ___",
+    "straight": [
+      "shadow",
+      "shadows",
+      "projects",
+      "neighborhood",
+      "poverty",
+      "basement",
+      "dark",
+      "slums"
+    ],
+    "punny": [
+      "past",
+      "present"
+    ],
+    "explanation": "\"Lived in the past\" means both being stuck on old memories (causing depression) and the subject matter that a history teacher deals with daily. Simple but effective double meaning.",
+    "gemini_rating": 7,
+    "anthropic_rating": 5,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.4531,
+    "cloze_p_straight": 0.29,
+    "cloze_p_funny": 0.64,
+    "cloze_p_other": 0.07,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.15,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 98,
+    "id": 2078,
+    "sentence": "The lizard keeper got a job in IT because he already worked with ___",
+    "straight": [
+      "computers",
+      "reptiles",
+      "networks",
+      "snakes",
+      "systems",
+      "servers",
+      "computer",
+      "lizards",
+      "mainframes",
+      "mainframe",
+      "screens",
+      "hardware",
+      "reptile",
+      "cold-blooded",
+      "reptilian",
+      "cables"
+    ],
+    "punny": [
+      "scales",
+      "monitors",
+      "scale"
+    ],
+    "explanation": "\"Monitors\" refers to both computer monitors (IT equipment) and monitor lizards (a species of lizard). A lizard keeper already working with monitors transitioning to IT is a clever occupational pun.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0118,
+    "cloze_p_straight": 0.85,
+    "cloze_p_funny": 0.01,
+    "cloze_p_other": 0.14,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.05,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 99,
+    "id": 2010,
+    "sentence": "The retired sailor worked in the news because he liked being the ___",
+    "straight": [
+      "center",
+      "narrator",
+      "face",
+      "centre",
+      "star",
+      "spokesperson",
+      "boss",
+      "source",
+      "voice",
+      "spotlight",
+      "storyteller",
+      "leader",
+      "center of attention"
+    ],
+    "punny": [
+      "anchor",
+      "anchorman"
+    ],
+    "explanation": "\"Anchor\" means both a news anchor (TV presenter) and a ship's anchor (relevant to a sailor). The career transition setup is reasonable.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 6,
+    "consensus_score": 14,
+    "cloze_balance": 0.338,
+    "cloze_p_straight": 0.71,
+    "cloze_p_funny": 0.24,
+    "cloze_p_other": 0.05,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.35,
+      "70b": 0.2,
+      "3.3-70b": 0.1,
+      "405b": 0.55
+    }
+  },
+  {
+    "index": 100,
+    "id": 144,
+    "sentence": "The photographer hated gossip because it always developed into ___",
+    "straight": [
+      "rumors",
+      "slander",
+      "unpleasantness",
+      "gossip",
+      "ridicule",
+      "tension",
+      "scandal",
+      "drama",
+      "badmouthing",
+      "confrontations",
+      "lies",
+      "trouble",
+      "conflict",
+      "chaos"
+    ],
+    "punny": [
+      "negatives"
+    ],
+    "explanation": "This is a double pun: \"developed\" means both to evolve/grow and to develop film, while \"negatives\" means both bad outcomes and photographic negatives. Two photography terms doing double duty in one sentence is impressive.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 8,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.26,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.74,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 101,
+    "id": 316,
+    "sentence": "The math book looked sad because it had too many ___",
+    "straight": [
+      "defects",
+      "pages",
+      "tears",
+      "stains"
+    ],
+    "punny": [
+      "problems"
+    ],
+    "explanation": "\"Problems\" means both personal troubles/sadness and mathematical problems found in a math book. The math book being sad because it has too many problems works neatly on both levels.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0104,
+    "cloze_p_straight": 0.01,
+    "cloze_p_funny": 0.96,
+    "cloze_p_other": 0.03,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.85,
+      "8b": 0.95,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 102,
+    "id": 8,
+    "sentence": "The dentist and the manicurist argued ___",
+    "straight": [
+      "loudly",
+      "bitterly",
+      "constantly",
+      "heavily",
+      "fiercely",
+      "heatedly",
+      "endlessly"
+    ],
+    "punny": [
+      "tooth and nail"
+    ],
+    "explanation": "\"Tooth and nail\" is an idiom meaning to fight fiercely, but it literally references a dentist's domain (tooth) and a manicurist's domain (nail). The idiom perfectly encapsulates both professions.",
+    "gemini_rating": 7,
+    "anthropic_rating": 8,
+    "claudecode_rating": 8,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.13,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.87,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 103,
+    "id": 2048,
+    "sentence": "The filmmaker somehow ended up in HR because she knew how to ___ people",
+    "straight": [
+      "mediate",
+      "handle",
+      "manage",
+      "manipulate",
+      "negotiate",
+      "influence",
+      "problem-solve",
+      "evaluate",
+      "interview"
+    ],
+    "punny": [
+      "screen"
+    ],
+    "explanation": "\"Screen\" means both to vet or evaluate people (HR screening) and to show a film (film screening). The 'somehow ended up' phrase cleverly suggests an unexpected career shift.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.78,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.22,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 104,
+    "id": 250,
+    "sentence": "The pony couldn't sing in the choir because he was a little ___",
+    "straight": [
+      "scared",
+      "off-key",
+      "squeaky",
+      "silly",
+      "timid",
+      "untrained",
+      "shy",
+      "silent",
+      "sensitive",
+      "unskilled",
+      "offkey",
+      "quiet",
+      "untalented"
+    ],
+    "punny": [
+      "hoarse",
+      "horse"
+    ],
+    "explanation": "\"Hoarse\" (rough, strained voice) sounds like \"horse,\" and a pony is a small horse. So the pony is both \"a little horse\" in species and \"a little hoarse\" in voice quality, disqualifying it from choir.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 8,
+    "consensus_score": 15,
+    "cloze_balance": 0.4576,
+    "cloze_p_straight": 0.27,
+    "cloze_p_funny": 0.59,
+    "cloze_p_other": 0.14,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.05,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 0.9
+    }
+  },
+  {
+    "index": 105,
+    "id": 389,
+    "sentence": "The average data scientist is hard to befriend because they are so ___",
+    "straight": [
+      "intelligent",
+      "analytical",
+      "introverted",
+      "focused",
+      "absorbed",
+      "intense",
+      "self-contained",
+      "self-absorbed",
+      "reserved",
+      "obsessed",
+      "introspective",
+      "meticulous",
+      "logical",
+      "harsh",
+      "cruel",
+      "nasty",
+      "nerdy"
+    ],
+    "punny": [
+      "mean",
+      "analytical"
+    ],
+    "explanation": "\"Mean\" refers to both being unkind/unfriendly and the statistical average (mean), which is what a data scientist calculates. The word 'average' in the setup cleverly hints at the statistical meaning.",
+    "gemini_rating": 6,
+    "anthropic_rating": 7,
+    "claudecode_rating": 8,
+    "consensus_score": 14,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.9798,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.0202,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 106,
+    "id": 80,
+    "sentence": "The clueless archaeologist was terrible at ___",
+    "straight": [
+      "deciphering",
+      "excavating",
+      "finding",
+      "reading",
+      "excavations",
+      "digging",
+      "excavation",
+      "interpreting",
+      "identifying",
+      "anything",
+      "archaeology",
+      "assembling",
+      "understanding",
+      "digs",
+      "navigating",
+      "interpretation",
+      "following",
+      "translating",
+      "appreciating",
+      "handling"
+    ],
+    "punny": [
+      "dating"
+    ],
+    "explanation": "\"Dating\" means both romantic dating and the archaeological practice of determining the age of artifacts. A clueless archaeologist being bad at 'dating' plays on both meanings humorously.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 8,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.95,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.05,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 107,
+    "id": 272,
+    "sentence": "The clock was so hungry it went back four ___",
+    "straight": [
+      "hours",
+      "years",
+      "days"
+    ],
+    "punny": [
+      "seconds"
+    ],
+    "explanation": "\"Seconds\" means both units of time (a clock going back) and second helpings of food (the clock was hungry). 'Went back four' means both reversing time and going back for more servings.",
+    "gemini_rating": 6,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 13,
+    "cloze_balance": 0.2532,
+    "cloze_p_straight": 0.79,
+    "cloze_p_funny": 0.2,
+    "cloze_p_other": 0.01,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 108,
+    "id": 399,
+    "sentence": "The business of fireworks has been ___",
+    "straight": [
+      "evolving",
+      "thriving",
+      "growing",
+      "fragmented",
+      "impacted",
+      "spectacular",
+      "explosive",
+      "impressive",
+      "prohibited",
+      "increasing"
+    ],
+    "punny": [
+      "booming",
+      "exploding"
+    ],
+    "explanation": "\"Booming\" means both thriving/successful in business and the loud explosive sound fireworks make. The pun connects the fireworks industry to commercial success.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 6,
+    "consensus_score": 13,
+    "cloze_balance": 0.25,
+    "cloze_p_straight": 0.16,
+    "cloze_p_funny": 0.04,
+    "cloze_p_other": 0.8,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.2
+    }
+  },
+  {
+    "index": 109,
+    "id": 118,
+    "sentence": "The picture should have never been found guilty, but it had been ___",
+    "straight": [
+      "convicted",
+      "accused",
+      "misinterpreted",
+      "misidentified",
+      "prosecuted",
+      "exposed",
+      "condemned",
+      "arrested",
+      "captured",
+      "mischaracterized",
+      "misrepresented",
+      "defamed",
+      "sentenced",
+      "charged",
+      "illegal",
+      "suspicious",
+      "involved"
+    ],
+    "punny": [
+      "framed"
+    ],
+    "explanation": "\"Framed\" means both falsely accused of a crime and placed in a picture frame. The legal language ('found guilty') pairs perfectly with the picture as subject.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 8,
+    "consensus_score": 16,
+    "cloze_balance": 0.082,
+    "cloze_p_straight": 0.61,
+    "cloze_p_funny": 0.05,
+    "cloze_p_other": 0.34,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.25
+    }
+  },
+  {
+    "index": 110,
+    "id": 14,
+    "sentence": "The banker left her job because she lost ___",
+    "straight": [
+      "faith",
+      "everything",
+      "trust",
+      "confidence",
+      "money",
+      "motivation",
+      "hope",
+      "enthusiasm"
+    ],
+    "punny": [
+      "interest"
+    ],
+    "explanation": "\"Interest\" means both personal enthusiasm or motivation (losing interest in a job) and financial interest earned on accounts (central to banking). Clean and natural.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.1733,
+    "cloze_p_straight": 0.75,
+    "cloze_p_funny": 0.13,
+    "cloze_p_other": 0.12,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.5,
+      "405b": 0.1
+    }
+  },
+  {
+    "index": 111,
+    "id": 1050,
+    "sentence": "The lumberjack's diary was thick because he kept detailed ___",
+    "straight": [
+      "records",
+      "accounts",
+      "entries",
+      "notes",
+      "account",
+      "notations",
+      "descriptions"
+    ],
+    "punny": [
+      "logs"
+    ],
+    "explanation": "\"Logs\" means both the physical timber a lumberjack cuts and written records/journal entries. The \"thick diary\" setup works naturally with both meanings - detailed logging of trees and detailed diary entries.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 1.0,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.0,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 112,
+    "id": 117,
+    "sentence": "The coffee filed a police report after it got ___",
+    "straight": [
+      "stolen",
+      "robbed",
+      "spilled",
+      "vandalized",
+      "taken"
+    ],
+    "punny": [
+      "mugged"
+    ],
+    "explanation": "\"Mugged\" means both being robbed/attacked and having something done to a mug (coffee cup). The coffee getting mugged connects the vessel it's served in to the crime of robbery.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.3939,
+    "cloze_p_straight": 0.66,
+    "cloze_p_funny": 0.26,
+    "cloze_p_other": 0.08,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.25,
+      "8b": 0.05,
+      "70b": 0.05,
+      "3.3-70b": 0.0,
+      "405b": 0.95
+    }
+  },
+  {
+    "index": 113,
+    "id": 402,
+    "sentence": "The coin maker went crazy and stopped making any ___",
+    "straight": [
+      "coins",
+      "money",
+      "specimens",
+      "progress",
+      "friends",
+      "effort"
+    ],
+    "punny": [
+      "cents",
+      "change"
+    ],
+    "explanation": "\"Cents\" sounds like \"sense\" -- the coin maker stopped making any cents (coins) and also stopped making any sense (being rational) after going crazy. The homophone pun is clean.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.94,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.06,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 114,
+    "id": 287,
+    "sentence": "The geometry teacher was adorable because she was so ___",
+    "straight": [
+      "passionate",
+      "quirky",
+      "patient",
+      "young",
+      "enthusiastic",
+      "kind",
+      "sweet",
+      "handsome",
+      "hands-on",
+      "nice",
+      "tall",
+      "affectionate",
+      "petite",
+      "funny",
+      "beautiful",
+      "meticulous",
+      "nerdy",
+      "pretty"
+    ],
+    "punny": [
+      "acute"
+    ],
+    "explanation": "\"Acute\" sounds like \"a cute\" and also refers to an acute angle in geometry. The geometry teacher being so acute (a cute / mathematically precise) is a fun phonetic pun.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 6,
+    "consensus_score": 13,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.98,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.02,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 115,
+    "id": 1016,
+    "sentence": "The church musician was a transplant donor because she had spare ___",
+    "straight": [
+      "kidneys",
+      "liver",
+      "time",
+      "tissue",
+      "tissues",
+      "joints",
+      "brain",
+      "energy",
+      "resources"
+    ],
+    "punny": [
+      "organs",
+      "organ"
+    ],
+    "explanation": "\"Organs\" refers to both musical instruments played in churches (pipe organs) and body organs for transplant donation. The church musician context makes this a clever and unexpected pairing.",
+    "gemini_rating": 6,
+    "anthropic_rating": 8,
+    "claudecode_rating": 8,
+    "consensus_score": 14,
+    "cloze_balance": 0.1951,
+    "cloze_p_straight": 0.16,
+    "cloze_p_funny": 0.82,
+    "cloze_p_other": 0.02,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.4,
+      "8b": 0.85,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 0.85
+    }
+  },
+  {
+    "index": 116,
+    "id": 2005,
+    "sentence": "The chemistry teacher's marriage counselor found the perfect ___",
+    "straight": [
+      "match",
+      "analogy",
+      "therapist",
+      "prescription",
+      "metaphor",
+      "way",
+      "candidate",
+      "pair",
+      "assistant",
+      "matchmaker",
+      "strategy",
+      "balance",
+      "approach",
+      "compromise"
+    ],
+    "punny": [
+      "solution",
+      "chemistry",
+      "catalyst",
+      "antidote",
+      "formula",
+      "blend",
+      "recipe",
+      "bond"
+    ],
+    "explanation": "\"Solution\" means both an answer to a problem (marriage counseling context) and a chemical solution (chemistry teacher context). Functional but the connection between chemistry and marriage counseling feels slightly forced.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 6,
+    "consensus_score": 14,
+    "cloze_balance": 0.7193,
+    "cloze_p_straight": 0.41,
+    "cloze_p_funny": 0.57,
+    "cloze_p_other": 0.02,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.55,
+      "70b": 0.55,
+      "3.3-70b": 0.85,
+      "405b": 0.9
+    }
+  },
+  {
+    "index": 117,
+    "id": 2012,
+    "sentence": "At every party the boxer would bring the ___",
+    "straight": [
+      "champagne",
+      "music",
+      "crowd",
+      "strength",
+      "hostess",
+      "flavors",
+      "wine",
+      "cream",
+      "celebrity",
+      "gifts",
+      "cake",
+      "energy",
+      "food",
+      "catering"
+    ],
+    "punny": [
+      "punch",
+      "punchbowl",
+      "punchbowls",
+      "punchline"
+    ],
+    "explanation": "\"Punch\" means both a party drink (fruit punch) and the boxing action. The boxer bringing punch to every party works on both levels.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.814,
+    "cloze_p_straight": 0.43,
+    "cloze_p_funny": 0.35,
+    "cloze_p_other": 0.22,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.25,
+      "70b": 0.7,
+      "3.3-70b": 0.5,
+      "405b": 0.3
+    }
+  },
+  {
+    "index": 118,
+    "id": 2022,
+    "sentence": "The ailing water diviner said she wasn't feeling ___",
+    "straight": [
+      "great",
+      "good",
+      "better"
+    ],
+    "punny": [
+      "well"
+    ],
+    "explanation": "\"Well\" means both feeling healthy (not feeling well) and a water well, which is what a water diviner seeks. The word 'ailing' naturally sets up the health context.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.0,
+    "cloze_p_funny": 1.0,
+    "cloze_p_other": 0.0,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 1.0,
+      "8b": 1.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 119,
+    "id": 193,
+    "sentence": "The wedding photographer refused to work divorces because they involved too much ___",
+    "straight": [
+      "drama",
+      "negativity",
+      "sadness",
+      "conflict",
+      "emotion",
+      "stress",
+      "hate",
+      "cruelty",
+      "sorrow",
+      "damage"
+    ],
+    "punny": [
+      "exposure"
+    ],
+    "explanation": "\"Exposure\" means both emotional vulnerability/public attention (in a divorce context) and photographic exposure (light hitting film/sensor). A wedding photographer avoiding divorces because of too much exposure connects the emotional toll to the technical photography term.",
+    "gemini_rating": 8,
+    "anthropic_rating": 5,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.86,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.14,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 120,
+    "id": 115,
+    "sentence": "I think the bank is very impressed with my loan because they tell me how it is still ___",
+    "straight": [
+      "performing",
+      "available",
+      "going",
+      "owed",
+      "increasing",
+      "approved",
+      "underperforming",
+      "open",
+      "negotiable",
+      "underway",
+      "active",
+      "unpaid"
+    ],
+    "punny": [
+      "outstanding"
+    ],
+    "explanation": "\"Outstanding\" means both excellent/impressive and still unpaid/remaining (as in an outstanding balance). The ironic humor is that the bank calling it 'outstanding' really means you still owe money.",
+    "gemini_rating": 8,
+    "anthropic_rating": 8,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.92,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.08,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 121,
+    "id": 3,
+    "sentence": "The calendar factory worker was let go because his days were ___",
+    "straight": [
+      "filled",
+      "slow",
+      "few",
+      "overlapping",
+      "over",
+      "limited",
+      "fixed",
+      "inconsistent",
+      "finished",
+      "done"
+    ],
+    "punny": [
+      "numbered"
+    ],
+    "explanation": "\"Numbered\" means both counted/assigned numbers (as days on a calendar) and \"days are numbered\" meaning coming to an end. A calendar factory worker's days being numbered connects their product to their impending termination.",
+    "gemini_rating": 8,
+    "anthropic_rating": 8,
+    "claudecode_rating": 8,
+    "consensus_score": 16,
+    "cloze_balance": 0.2742,
+    "cloze_p_straight": 0.17,
+    "cloze_p_funny": 0.62,
+    "cloze_p_other": 0.21,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.1,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 122,
+    "id": 89,
+    "sentence": "This terrible mirror was obviously made without ___",
+    "straight": [
+      "care",
+      "regard",
+      "consideration",
+      "quality",
+      "thought",
+      "craftsmanship",
+      "patience",
+      "love",
+      "pride",
+      "ego",
+      "confidence"
+    ],
+    "punny": [
+      "reflection"
+    ],
+    "explanation": "\"Reflection\" means both careful thought or consideration (made without reflection = carelessly) and the mirror's literal function of producing a visual reflection. A terrible mirror lacks both.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 8,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.69,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.31,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 123,
+    "id": 500,
+    "sentence": "The elevator operator's jokes were brilliant because they worked on so many ___",
+    "straight": [
+      "people",
+      "audiences",
+      "topics"
+    ],
+    "punny": [
+      "levels"
+    ],
+    "explanation": "\"Levels\" means both layers of comedic depth (jokes that work on multiple levels) and the floors of a building that an elevator operates between. Clean and elegant.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.0,
+    "cloze_p_funny": 0.82,
+    "cloze_p_other": 0.18,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.2,
+      "8b": 0.9,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 124,
+    "id": 1056,
+    "sentence": "The dry cleaner could never stop to chat because he had so many ___",
+    "straight": [
+      "customers",
+      "shirts",
+      "clothes",
+      "orders",
+      "responsibilities",
+      "emergencies",
+      "crises",
+      "stress",
+      "garments",
+      "stains"
+    ],
+    "punny": [
+      "pressing matters",
+      "pressing"
+    ],
+    "explanation": "\"Pressing matters\" means both urgent business requiring immediate attention and the literal act of pressing clothes with an iron, which is the dry cleaner's job.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.99,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.01,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 125,
+    "id": 1005,
+    "sentence": "The ship captain was impossible to negotiate with because he was too ___",
+    "straight": [
+      "stubborn",
+      "proud",
+      "independent",
+      "ambitious",
+      "absolutist",
+      "blind",
+      "obstinate",
+      "conceited",
+      "adamant",
+      "assertive",
+      "authoritative",
+      "controlling",
+      "shortsighted",
+      "demanding",
+      "stingy",
+      "rigid"
+    ],
+    "punny": [
+      "stern"
+    ],
+    "explanation": "\"Stern\" means both strict/unyielding (hard to negotiate with) and the rear section of a ship. The ship captain connection makes both meanings land naturally.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0105,
+    "cloze_p_straight": 0.95,
+    "cloze_p_funny": 0.01,
+    "cloze_p_other": 0.04,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.05,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 126,
+    "id": 125,
+    "sentence": "The electrician stayed calm in conflict because he had low ___",
+    "straight": [
+      "stress",
+      "tolerance",
+      "self-esteem",
+      "expectations",
+      "reactivity",
+      "tension",
+      "bloodpressure",
+      "emotionality",
+      "anger"
+    ],
+    "punny": [
+      "voltage",
+      "maintenance",
+      "resistance"
+    ],
+    "explanation": "\"Resistance\" is both a personality trait (low resistance to conflict means staying calm) and an electrical property that electricians work with. Both meanings fit naturally in the sentence.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.75,
+    "cloze_p_straight": 0.21,
+    "cloze_p_funny": 0.28,
+    "cloze_p_other": 0.51,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.05,
+      "70b": 0.35,
+      "3.3-70b": 1.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 127,
+    "id": 361,
+    "sentence": "The man who fell into an upholstery machine is now fully ___",
+    "straight": [
+      "covered",
+      "recuperated",
+      "restored",
+      "mended",
+      "injured",
+      "traumatized",
+      "stuck"
+    ],
+    "punny": [
+      "recovered",
+      "upholstered"
+    ],
+    "explanation": "\"Recovered\" means both to recuperate from an accident and to be re-covered with fabric by an upholstery machine. The prefix 're-covered' creates a clever literal meaning alongside the idiomatic one.",
+    "gemini_rating": 7,
+    "anthropic_rating": 8,
+    "claudecode_rating": 8,
+    "consensus_score": 15,
+    "cloze_balance": 0.0526,
+    "cloze_p_straight": 0.05,
+    "cloze_p_funny": 0.95,
+    "cloze_p_other": 0.0,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.9,
+      "8b": 0.95,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 0.9
+    }
+  },
+  {
+    "index": 128,
+    "id": 1010,
+    "sentence": "The retired pilot's therapist said he was surprisingly well ___",
+    "straight": [
+      "adjusted",
+      "adjusting",
+      "adapted",
+      "balanced",
+      "centered"
+    ],
+    "punny": [
+      "grounded"
+    ],
+    "explanation": "\"Grounded\" means both emotionally stable and well-adjusted (therapist's assessment) and being on the ground rather than in the air (relevant for a retired pilot who no longer flies). Nicely constructed.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 8,
+    "consensus_score": 16,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.99,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.01,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 129,
+    "id": 2049,
+    "sentence": "The chemists' marriage was strong because of their incredible ___",
+    "straight": [
+      "compatibility",
+      "teamwork",
+      "communication",
+      "passion",
+      "support",
+      "partnership",
+      "trust",
+      "love"
+    ],
+    "punny": [
+      "chemistry",
+      "bond"
+    ],
+    "explanation": "\"Bond\" means both an emotional connection between married partners and a chemical bond between atoms. The chemists' marriage having a strong 'bond' works cleanly in both domains.",
+    "gemini_rating": 6,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 13,
+    "cloze_balance": 0.6441,
+    "cloze_p_straight": 0.38,
+    "cloze_p_funny": 0.59,
+    "cloze_p_other": 0.03,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.4,
+      "70b": 0.8,
+      "3.3-70b": 0.95,
+      "405b": 0.75
+    }
+  },
+  {
+    "index": 130,
+    "id": 339,
+    "sentence": "The boxer proposed marriage in the ___",
+    "straight": [
+      "park",
+      "gym",
+      "restaurant",
+      "hotel"
+    ],
+    "punny": [
+      "ring",
+      "corner"
+    ],
+    "explanation": "\"Ring\" means both a boxing ring (where a boxer works) and an engagement ring (used in a marriage proposal). Short and efficient with strong dual meaning.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.1111,
+    "cloze_p_straight": 0.08,
+    "cloze_p_funny": 0.72,
+    "cloze_p_other": 0.2,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.1,
+      "8b": 0.5,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 131,
+    "id": 249,
+    "sentence": "The leopard was bad at hide-and-seek because he was always ___",
+    "straight": [
+      "visible",
+      "found",
+      "seen",
+      "standing",
+      "moving",
+      "noticed",
+      "unmasked",
+      "hiding",
+      "noisy",
+      "distracted"
+    ],
+    "punny": [
+      "spotted"
+    ],
+    "explanation": "\"Spotted\" means both seen or found (bad for hide-and-seek) and having spots on one's coat (a leopard's distinctive pattern). The leopard is always spotted in both senses.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.5079,
+    "cloze_p_straight": 0.63,
+    "cloze_p_funny": 0.32,
+    "cloze_p_other": 0.05,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.1,
+      "70b": 0.75,
+      "3.3-70b": 0.3,
+      "405b": 0.45
+    }
+  },
+  {
+    "index": 132,
+    "id": 295,
+    "sentence": "The thief fell in the cement and became a ___",
+    "straight": [
+      "stuck",
+      "fugitive",
+      "man",
+      "fighter",
+      "expert"
+    ],
+    "punny": [
+      "statue",
+      "fixture",
+      "mold",
+      "permanentfixture",
+      "part",
+      "hardened criminal"
+    ],
+    "explanation": "\"Hardened criminal\" means both a habitual/tough criminal and someone literally hardened by falling in cement. The physical hardening from cement maps perfectly to the criminal justice term.",
+    "gemini_rating": 8,
+    "anthropic_rating": 8,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0333,
+    "cloze_p_straight": 0.03,
+    "cloze_p_funny": 0.9,
+    "cloze_p_other": 0.07,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.8,
+      "8b": 0.8,
+      "70b": 0.95,
+      "3.3-70b": 0.95,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 133,
+    "id": 244,
+    "sentence": "The kleptomaniac didn't understand puns because he always took things ___",
+    "straight": [
+      "literally",
+      "seriously",
+      "personally"
+    ],
+    "punny": [
+      "away",
+      "literally"
+    ],
+    "explanation": "\"Took things literally\" means both interpreting words at face value (the opposite of understanding puns) and physically stealing (taking) literal objects, as kleptomaniacs do. A brilliant meta-pun about puns themselves.",
+    "gemini_rating": 7,
+    "anthropic_rating": 1,
+    "claudecode_rating": 9,
+    "consensus_score": 16,
+    "cloze_balance": 0.1481,
+    "cloze_p_straight": 0.81,
+    "cloze_p_funny": 0.12,
+    "cloze_p_other": 0.07,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.6,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 134,
+    "id": 299,
+    "sentence": "The chemist was reading a book on helium and he just couldn't ___",
+    "straight": [
+      "understand",
+      "stop",
+      "concentrate",
+      "believe",
+      "forget",
+      "comprehend",
+      "focus",
+      "finish it",
+      "understand it"
+    ],
+    "punny": [
+      "put it down"
+    ],
+    "explanation": "\"Put it down\" means both to stop reading an engrossing book and to physically set something down -- but helium is lighter than air and rises, so it literally cannot be put down.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.72,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.28,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 135,
+    "id": 1011,
+    "sentence": "The elephant always packed light except for his ___",
+    "straight": [
+      "back",
+      "backpack",
+      "truckload",
+      "trumpet",
+      "toiletries",
+      "snacks",
+      "blanket"
+    ],
+    "punny": [
+      "trunk",
+      "trunkfuls",
+      "trunkfull",
+      "trunkful"
+    ],
+    "explanation": "\"Trunk\" means both a piece of luggage and an elephant's trunk (the appendage). The elephant packing light except for his trunk connects the travel accessory with his anatomy.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.1081,
+    "cloze_p_straight": 0.08,
+    "cloze_p_funny": 0.74,
+    "cloze_p_other": 0.18,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.7,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 0.95
+    }
+  },
+  {
+    "index": 136,
+    "id": 24,
+    "sentence": "The knife sharpener quit because work was ___",
+    "straight": [
+      "unbearable",
+      "scarce",
+      "sporadic",
+      "difficult",
+      "stressful",
+      "unavailable",
+      "unfulfilling",
+      "overwhelming",
+      "slow",
+      "exhausting",
+      "repetitive",
+      "unsatisfying",
+      "strenuous",
+      "sparse",
+      "suffocating",
+      "insufficient",
+      "grueling",
+      "tedious",
+      "boring",
+      "monotonous"
+    ],
+    "punny": [
+      "dull",
+      "cutting",
+      "cutthroat"
+    ],
+    "explanation": "\"Dull\" means both boring/tedious and not sharp. A knife sharpener quitting because work is dull connects the lack of sharpness to the monotony of the job.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.1818,
+    "cloze_p_straight": 0.44,
+    "cloze_p_funny": 0.08,
+    "cloze_p_other": 0.48,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.4
+    }
+  },
+  {
+    "index": 137,
+    "id": 345,
+    "sentence": "The artistic detective was great at drawing ___",
+    "straight": [
+      "portraits",
+      "sketches",
+      "picture",
+      "people",
+      "suspects",
+      "witnesses",
+      "crime scenes"
+    ],
+    "punny": [
+      "conclusions",
+      "distinctions",
+      "conclusion"
+    ],
+    "explanation": "\"Drawing conclusions\" means both forming logical deductions (a detective's job) and literally creating art/drawings of conclusions. The 'artistic detective' setup makes the double meaning work, though it is a bit forced since 'drawing conclusions' is really an idiom about reasoning, not art.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 6,
+    "consensus_score": 14,
+    "cloze_balance": 0.7544,
+    "cloze_p_straight": 0.43,
+    "cloze_p_funny": 0.57,
+    "cloze_p_other": 0.0,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.6,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 0.2
+    }
+  },
+  {
+    "index": 138,
+    "id": 289,
+    "sentence": "The dangerous iPhone was arrested and charged with ___",
+    "straight": [
+      "assault",
+      "misdemeanor",
+      "manslaughter",
+      "possession",
+      "crimes",
+      "hacking",
+      "negligence",
+      "conspiracy",
+      "theft",
+      "arson",
+      "fraud"
+    ],
+    "punny": [
+      "battery"
+    ],
+    "explanation": "\"Battery\" means both a criminal charge of physical assault and a phone battery. Additionally, \"charged\" works as a secondary pun -- charged with a crime and charging a device. Nice layering.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.04,
+    "cloze_p_straight": 0.75,
+    "cloze_p_funny": 0.03,
+    "cloze_p_other": 0.22,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.05,
+      "405b": 0.1
+    }
+  },
+  {
+    "index": 139,
+    "id": 255,
+    "sentence": "The police even arrested a belt for holding up a pair of ___",
+    "straight": [
+      "sneakers",
+      "skateboards",
+      "sunglasses",
+      "scissors",
+      "suspects",
+      "victims",
+      "citizens"
+    ],
+    "punny": [
+      "pants",
+      "trousers",
+      "jeans",
+      "panties"
+    ],
+    "explanation": "\"Holding up\" means both committing a robbery (why police would arrest someone) and physically holding up pants (what a belt does). The punchline 'pants' reveals the literal, innocent meaning.",
+    "gemini_rating": 6,
+    "anthropic_rating": 5,
+    "claudecode_rating": 7,
+    "consensus_score": 13,
+    "cloze_balance": 0.0556,
+    "cloze_p_straight": 0.05,
+    "cloze_p_funny": 0.9,
+    "cloze_p_other": 0.05,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.55,
+      "8b": 0.95,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 140,
+    "id": 2047,
+    "sentence": "The parking officer said everything was ___",
+    "straight": [
+      "okay",
+      "aboveboard",
+      "taken",
+      "legitimate",
+      "signed",
+      "normal",
+      "under control",
+      "under"
+    ],
+    "punny": [
+      "fine"
+    ],
+    "explanation": "\"Fine\" means both okay/satisfactory and a monetary penalty (parking fine). A parking officer saying everything is fine carries both reassurance and the threat of a ticket.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.1875,
+    "cloze_p_straight": 0.15,
+    "cloze_p_funny": 0.8,
+    "cloze_p_other": 0.05,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.9,
+      "8b": 0.35,
+      "70b": 0.95,
+      "3.3-70b": 0.8,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 141,
+    "id": 19,
+    "sentence": "The tennis player was upset because love meant ___",
+    "straight": [
+      "something",
+      "everything",
+      "so much"
+    ],
+    "punny": [
+      "nothing",
+      "zero"
+    ],
+    "explanation": "\"Nothing\" means both emotionally meaningless (love meant nothing, causing upset) and the tennis term where \"love\" is the score of zero. Concise and effective, though a very well-known joke.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0102,
+    "cloze_p_straight": 0.01,
+    "cloze_p_funny": 0.98,
+    "cloze_p_other": 0.01,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.9,
+      "8b": 1.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 142,
+    "id": 2003,
+    "sentence": "The pig's memoir came straight from her ___",
+    "straight": [
+      "heart",
+      "mouth",
+      "experiences",
+      "kitchen",
+      "diary",
+      "experience",
+      "memories",
+      "imagination",
+      "life",
+      "lips",
+      "memory",
+      "bedroom"
+    ],
+    "punny": [
+      "pen"
+    ],
+    "explanation": "\"Pen\" means both a writing instrument (for memoirs) and a pig pen (enclosure). The pig's memoir coming from her pen neatly connects her living space to the act of writing.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0864,
+    "cloze_p_straight": 0.81,
+    "cloze_p_funny": 0.07,
+    "cloze_p_other": 0.12,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.35
+    }
+  },
+  {
+    "index": 143,
+    "id": 496,
+    "sentence": "The firefighter's mixtape was hot because every track was straight ___",
+    "straight": [
+      "gold",
+      "platinum",
+      "perfection"
+    ],
+    "punny": [
+      "fire"
+    ],
+    "explanation": "\"Fire\" means both excellent/amazing (slang for great music) and literal fire that firefighters deal with. Using \"straight fire\" as slang makes the firefighter connection playful, though it leans heavily on slang.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 6,
+    "consensus_score": 13,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.0,
+    "cloze_p_funny": 0.74,
+    "cloze_p_other": 0.26,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.65,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 144,
+    "id": 456,
+    "sentence": "The rabbit was great at math because he knew how to ___",
+    "straight": [
+      "calculate",
+      "simplify",
+      "solve",
+      "add",
+      "balance",
+      "think",
+      "count",
+      "compute"
+    ],
+    "punny": [
+      "multiply"
+    ],
+    "explanation": "\"Multiply\" means both mathematical multiplication and to reproduce rapidly, which is famously what rabbits do. Classic and clean.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.7193,
+    "cloze_p_straight": 0.57,
+    "cloze_p_funny": 0.41,
+    "cloze_p_other": 0.02,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.7,
+      "70b": 0.3,
+      "3.3-70b": 0.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 145,
+    "id": 296,
+    "sentence": "The pirate had to learn the alphabet but he got lost at ___",
+    "straight": [
+      "z",
+      "b",
+      "q",
+      "x",
+      "school",
+      "library",
+      "class"
+    ],
+    "punny": [
+      "c",
+      "sea"
+    ],
+    "explanation": "\"C\" sounds like \"sea,\" where pirates famously get lost or spend their lives. The alphabet-learning context makes the letter C the natural answer while the pirate context evokes the sea.",
+    "gemini_rating": 8,
+    "anthropic_rating": 5,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.1569,
+    "cloze_p_straight": 0.08,
+    "cloze_p_funny": 0.51,
+    "cloze_p_other": 0.41,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.85,
+      "8b": 0.1,
+      "70b": 0.55,
+      "3.3-70b": 0.05,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 146,
+    "id": 2055,
+    "sentence": "I think the colonel opened a restaurant because he loved taking ___",
+    "straight": [
+      "care",
+      "shortcuts",
+      "risks",
+      "control",
+      "charge",
+      "initiative"
+    ],
+    "punny": [
+      "orders",
+      "order"
+    ],
+    "explanation": "\"Orders\" means both military orders (given to/by a colonel) and restaurant orders (taken from customers). There's also a subtle Colonel Sanders / KFC allusion that adds a layer.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.4697,
+    "cloze_p_straight": 0.31,
+    "cloze_p_funny": 0.66,
+    "cloze_p_other": 0.03,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.5,
+      "8b": 0.8,
+      "70b": 0.85,
+      "3.3-70b": 1.0,
+      "405b": 0.15
+    }
+  },
+  {
+    "index": 147,
+    "id": 1004,
+    "sentence": "The baker told his lazy son to stop ___",
+    "straight": [
+      "daydreaming",
+      "wasting",
+      "sleeping",
+      "sitting",
+      "procrastinating",
+      "slacking",
+      "helping",
+      "eating",
+      "baking",
+      "playing",
+      "watching",
+      "asking",
+      "making",
+      "snoozing",
+      "stealing",
+      "yelling",
+      "messing",
+      "fooling",
+      "hanging"
+    ],
+    "punny": [
+      "loafing"
+    ],
+    "explanation": "\"Loafing\" means both being lazy/idle and relates to a loaf of bread, which a baker makes. The baker telling his son to stop 'loafing' around is a natural fit.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.2308,
+    "cloze_p_straight": 0.78,
+    "cloze_p_funny": 0.18,
+    "cloze_p_other": 0.04,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.25,
+      "70b": 0.0,
+      "3.3-70b": 0.2,
+      "405b": 0.45
+    }
+  },
+  {
+    "index": 148,
+    "id": 46,
+    "sentence": "The baker's bread business was on the ___",
+    "straight": [
+      "verge",
+      "brink",
+      "upswing",
+      "rocks",
+      "decline"
+    ],
+    "punny": [
+      "rise"
+    ],
+    "explanation": "\"Rise\" means both to improve or grow (a business on the rise) and the rising of bread dough caused by yeast. Concise and effective.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.6316,
+    "cloze_p_straight": 0.36,
+    "cloze_p_funny": 0.57,
+    "cloze_p_other": 0.07,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.2,
+      "70b": 0.95,
+      "3.3-70b": 1.0,
+      "405b": 0.7
+    }
+  },
+  {
+    "index": 149,
+    "id": 66,
+    "sentence": "The balloon advertisement was full of ___",
+    "straight": [
+      "misleading",
+      "promises",
+      "hype",
+      "empty",
+      "hyperbole",
+      "buzzwords",
+      "vacuous",
+      "flaws",
+      "deception",
+      "exaggerations",
+      "excitement",
+      "promise",
+      "potential",
+      "problems"
+    ],
+    "punny": [
+      "air",
+      "hot air"
+    ],
+    "explanation": "\"Hot air\" means both exaggerated or empty talk (as in advertising hype) and literal hot air used to inflate balloons. A balloon advertisement being full of hot air works perfectly on both levels.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0556,
+    "cloze_p_straight": 0.18,
+    "cloze_p_funny": 0.01,
+    "cloze_p_other": 0.81,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.05,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 150,
+    "id": 337,
+    "sentence": "The submarine captain went to a cheap bar that was a total ___",
+    "straight": [
+      "dump",
+      "disappointment",
+      "disaster",
+      "shithole",
+      "wreck",
+      "eyesore",
+      "ripoff",
+      "slum",
+      "mess"
+    ],
+    "punny": [
+      "dive"
+    ],
+    "explanation": "\"Dive\" means both a disreputable bar (a 'dive bar') and the act of submerging underwater, which is what a submarine does. The submarine captain going to a 'dive' works on both levels.",
+    "gemini_rating": 6,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 13,
+    "cloze_balance": 0.2405,
+    "cloze_p_straight": 0.79,
+    "cloze_p_funny": 0.19,
+    "cloze_p_other": 0.02,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.1,
+      "70b": 0.55,
+      "3.3-70b": 0.25,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 151,
+    "id": 69,
+    "sentence": "The tailor's business was just ___",
+    "straight": [
+      "starting",
+      "booming",
+      "beginning",
+      "thriving",
+      "struggling",
+      "okay",
+      "fine",
+      "average"
+    ],
+    "punny": [
+      "sew-sew",
+      "seamy"
+    ],
+    "explanation": "\"Sew-sew\" is a homophone of \"so-so\" (meaning mediocre), while also referencing sewing, a tailor's primary activity. The phonetic pun is simple but effective.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 6,
+    "consensus_score": 13,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.97,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.03,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 152,
+    "id": 400,
+    "sentence": "The arctic navigator was great at parties because he knew how to break the ___",
+    "straight": [
+      "silence",
+      "tension",
+      "monotony"
+    ],
+    "punny": [
+      "ice"
+    ],
+    "explanation": "\"Break the ice\" means both to initiate social interaction at a party and to literally break ice, which an arctic navigator would do. Classic pun with a well-matched setup.",
+    "gemini_rating": 8,
+    "anthropic_rating": 5,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.0,
+    "cloze_p_funny": 1.0,
+    "cloze_p_other": 0.0,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 1.0,
+      "8b": 1.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 153,
+    "id": 292,
+    "sentence": "Never ask a circle for advice because it is totally ___",
+    "straight": [
+      "one-sided",
+      "selfish",
+      "incomplete",
+      "biased",
+      "inflexible",
+      "inconsistent",
+      "absurd",
+      "useless",
+      "insincere",
+      "weak",
+      "slow",
+      "lazy"
+    ],
+    "punny": [
+      "roundabout",
+      "pointless"
+    ],
+    "explanation": "\"Pointless\" means both useless/futile and literally having no points or corners, which is a defining geometric property of a circle.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0606,
+    "cloze_p_straight": 0.33,
+    "cloze_p_funny": 0.02,
+    "cloze_p_other": 0.65,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.1,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 154,
+    "id": 2030,
+    "sentence": "The lightning was terrible at relationships because it always ___",
+    "straight": [
+      "separated",
+      "destroyed",
+      "fizzled",
+      "disrupted",
+      "vanished",
+      "overreacted",
+      "left"
+    ],
+    "punny": [
+      "struck",
+      "bolted"
+    ],
+    "explanation": "\"Bolted\" means both to flee suddenly and refers to a lightning bolt. Lightning bolting (fleeing) from relationships while literally being a bolt of lightning is a clean double meaning.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 6,
+    "consensus_score": 13,
+    "cloze_balance": 0.0988,
+    "cloze_p_straight": 0.08,
+    "cloze_p_funny": 0.81,
+    "cloze_p_other": 0.11,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.1,
+      "8b": 0.95,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 155,
+    "id": 368,
+    "sentence": "The corn stalk was a good listener because it was all ___",
+    "straight": [
+      "there",
+      "attention",
+      "focus",
+      "silence"
+    ],
+    "punny": [
+      "ears"
+    ],
+    "explanation": "\"Ears\" refers to both the organs for listening (being a good listener) and ears of corn on a corn stalk. The double meaning is simple and clean.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0127,
+    "cloze_p_straight": 0.01,
+    "cloze_p_funny": 0.79,
+    "cloze_p_other": 0.2,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.9,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 156,
+    "id": 1015,
+    "sentence": "The bread was afraid to be best man, because he would have to make a ___",
+    "straight": [
+      "speech",
+      "tribute",
+      "monologue",
+      "dedication"
+    ],
+    "punny": [
+      "toast"
+    ],
+    "explanation": "\"Toast\" means both a wedding speech (what a best man makes) and toasted bread. Personifying bread as being afraid to become toast is darkly funny since it implies the bread's own destruction.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 8,
+    "consensus_score": 15,
+    "cloze_balance": 0.0426,
+    "cloze_p_straight": 0.94,
+    "cloze_p_funny": 0.04,
+    "cloze_p_other": 0.02,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.1,
+      "70b": 0.05,
+      "3.3-70b": 0.0,
+      "405b": 0.05
+    }
+  },
+  {
+    "index": 157,
+    "id": 1002,
+    "sentence": "The archaeologist's career was in ___",
+    "straight": [
+      "jeopardy",
+      "discovery",
+      "shambles",
+      "tatters",
+      "trouble",
+      "decline"
+    ],
+    "punny": [
+      "ruins",
+      "ruin"
+    ],
+    "explanation": "\"Ruins\" means both a state of decline/destruction and archaeological ruins (ancient remains). An archaeologist's career being in ruins connects their professional subject matter to their personal downfall.",
+    "gemini_rating": 8,
+    "anthropic_rating": 8,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0333,
+    "cloze_p_straight": 0.9,
+    "cloze_p_funny": 0.03,
+    "cloze_p_other": 0.07,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.15
+    }
+  },
+  {
+    "index": 158,
+    "id": 407,
+    "sentence": "The pilot's autobiography sold out after his career ___",
+    "straight": [
+      "ended",
+      "sparked",
+      "inspired people",
+      "impressed readers",
+      "resonated"
+    ],
+    "punny": [
+      "took off"
+    ],
+    "explanation": "\"Took off\" means both became very popular/successful and an airplane lifting off the runway. A pilot's career 'taking off' neatly bridges both meanings.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.6,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.4,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 159,
+    "id": 356,
+    "sentence": "The man sued the airline for losing his luggage but he lost his ___",
+    "straight": [
+      "temper",
+      "mind",
+      "voice",
+      "wife",
+      "wits",
+      "phone",
+      "identification",
+      "key",
+      "wallet",
+      "lawsuit",
+      "money",
+      "time",
+      "dignity"
+    ],
+    "punny": [
+      "case",
+      "suit"
+    ],
+    "explanation": "\"Case\" means both a legal case (lawsuit) and a suitcase/luggage. The man loses both his luggage and his lawsuit, so he lost his 'case' in both senses.",
+    "gemini_rating": 6,
+    "anthropic_rating": 8,
+    "claudecode_rating": 8,
+    "consensus_score": 14,
+    "cloze_balance": 0.2405,
+    "cloze_p_straight": 0.19,
+    "cloze_p_funny": 0.79,
+    "cloze_p_other": 0.02,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.95,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 160,
+    "id": 301,
+    "sentence": "The two antennas met on a roof and the wedding had excellent ___",
+    "straight": [
+      "weather",
+      "acoustics",
+      "views",
+      "sound",
+      "success",
+      "view",
+      "music",
+      "food",
+      "decor"
+    ],
+    "punny": [
+      "reception"
+    ],
+    "explanation": "\"Reception\" means both a wedding celebration/party and the quality of a signal received by antennas. Two antennas meeting and having excellent reception at their wedding is a clean dual meaning.",
+    "gemini_rating": 8,
+    "anthropic_rating": 9,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.5,
+    "cloze_p_straight": 0.33,
+    "cloze_p_funny": 0.66,
+    "cloze_p_other": 0.01,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.1,
+      "8b": 0.2,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 161,
+    "id": 387,
+    "sentence": "The graveyard worker was depressed because his career was a ___",
+    "straight": [
+      "failure",
+      "waste",
+      "disappointment"
+    ],
+    "punny": [
+      "deadend",
+      "dead-end",
+      "dead end"
+    ],
+    "explanation": "\"Dead end\" means both a career with no advancement and literally relates to death/the dead, which is what a graveyard contains. The morbid wordplay is direct and effective.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.0,
+    "cloze_p_funny": 0.67,
+    "cloze_p_other": 0.33,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 1.0,
+      "8b": 1.0,
+      "70b": 0.3,
+      "3.3-70b": 0.1,
+      "405b": 0.95
+    }
+  },
+  {
+    "index": 162,
+    "id": 489,
+    "sentence": "The scuba instructor's students loved her because she never made them feel ___",
+    "straight": [
+      "stupid",
+      "nervous",
+      "overwhelmed",
+      "intimidated",
+      "uncomfortable",
+      "inadequate",
+      "inferior",
+      "embarrassed",
+      "belittled",
+      "self-conscious",
+      "scared",
+      "anxious",
+      "overcrowded",
+      "bored",
+      "guilty"
+    ],
+    "punny": [
+      "shallow",
+      "pressured",
+      "pressurized"
+    ],
+    "explanation": "\"Shallow\" means both superficial/making someone feel inadequate and the opposite of deep water, which is relevant to scuba diving. A scuba instructor dealing with depth makes this connection natural.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.94,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.06,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 163,
+    "id": 364,
+    "sentence": "The traffic light was embarrassed and turned red when it had to ___",
+    "straight": [
+      "admit",
+      "stop",
+      "confront",
+      "announce",
+      "signal",
+      "yield",
+      "confess",
+      "fail",
+      "direct",
+      "inform",
+      "interrupt",
+      "explain",
+      "apologize",
+      "serve",
+      "stop traffic",
+      "halt cars",
+      "work again",
+      "halt",
+      "work"
+    ],
+    "punny": [
+      "change"
+    ],
+    "explanation": "\"Change\" means both to switch clothes (embarrassment from undressing) and the traffic light changing colors. The traffic light turning red from embarrassment when it has to change is a cute personification.",
+    "gemini_rating": 4,
+    "anthropic_rating": 4,
+    "claudecode_rating": 5,
+    "consensus_score": 9,
+    "cloze_balance": 0.0213,
+    "cloze_p_straight": 0.94,
+    "cloze_p_funny": 0.02,
+    "cloze_p_other": 0.04,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.1,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 164,
+    "id": 494,
+    "sentence": "The plumber went to the casino and got a ___",
+    "straight": [
+      "jackpot",
+      "job",
+      "bet",
+      "win",
+      "bonus"
+    ],
+    "punny": [
+      "flush"
+    ],
+    "explanation": "\"Flush\" means both a winning poker hand (a flush) at a casino and flushing a toilet, which relates to plumbing. The plumber getting a 'flush' at a casino bridges both worlds.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.78,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.22,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 165,
+    "id": 321,
+    "sentence": "The grammarian knew he had to be careful whenever he got ___",
+    "straight": [
+      "involved",
+      "drunk",
+      "talking",
+      "tired",
+      "confronted",
+      "anxious",
+      "worried",
+      "nervous"
+    ],
+    "punny": [
+      "tense"
+    ],
+    "explanation": "\"Tense\" means both anxious/nervous and a grammatical verb form (past, present, future tense). A grammarian getting tense is both an emotional state and a professional hazard.",
+    "gemini_rating": 8,
+    "anthropic_rating": 8,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.15,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.85,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 166,
+    "id": 467,
+    "sentence": "The knife salesman's pitch was convincing because it always had a sharp ___",
+    "straight": [
+      "blade",
+      "demonstration",
+      "message",
+      "delivery",
+      "argument"
+    ],
+    "punny": [
+      "edge",
+      "point"
+    ],
+    "explanation": "\"Sharp edge\" means both a keen, persuasive quality in a sales pitch and the literal cutting edge of a knife. The knife salesman setup makes both meanings work, though it's somewhat predictable.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 5,
+    "consensus_score": 13,
+    "cloze_balance": 0.0309,
+    "cloze_p_straight": 0.03,
+    "cloze_p_funny": 0.97,
+    "cloze_p_other": 0.0,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 1.0,
+      "8b": 1.0,
+      "70b": 0.95,
+      "3.3-70b": 1.0,
+      "405b": 0.9
+    }
+  },
+  {
+    "index": 167,
+    "id": 425,
+    "sentence": "The homeowner was furious about the leak and finally hit the ___",
+    "straight": [
+      "wall",
+      "limit",
+      "breaking point",
+      "breaking"
+    ],
+    "punny": [
+      "ceiling",
+      "roof"
+    ],
+    "explanation": "\"Hit the ceiling\" is an idiom meaning to become extremely angry, while a literal ceiling is where a leak in a home would come from. The homeowner being furious about a leak connects both meanings cleverly.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.2174,
+    "cloze_p_straight": 0.1,
+    "cloze_p_funny": 0.46,
+    "cloze_p_other": 0.44,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.7,
+      "70b": 0.55,
+      "3.3-70b": 0.05,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 168,
+    "id": 1042,
+    "sentence": "The mushroom was always invited to parties because he was a ___",
+    "straight": [
+      "socialite",
+      "gentleman",
+      "success",
+      "funnyman",
+      "blast",
+      "riot",
+      "character"
+    ],
+    "punny": [
+      "fun-gi",
+      "fungi",
+      "fun",
+      "funny"
+    ],
+    "explanation": "\"Fungi\" sounds like \"fun guy.\" The mushroom (a fungus) is invited to parties because he's a fun guy to be around.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.1892,
+    "cloze_p_straight": 0.07,
+    "cloze_p_funny": 0.37,
+    "cloze_p_other": 0.56,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.85,
+      "3.3-70b": 0.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 169,
+    "id": 2059,
+    "sentence": "The walrus was great at notarizing documents because he had the perfect ___",
+    "straight": [
+      "signature",
+      "stamp",
+      "handwriting",
+      "temperament",
+      "penmanship",
+      "touch",
+      "stamps",
+      "credentials",
+      "authority"
+    ],
+    "punny": [
+      "seal"
+    ],
+    "explanation": "\"Seal\" means both an official seal or stamp (used in notarizing documents) and a marine mammal related to walruses. The connection is slightly imprecise since walruses aren't technically seals, but it's close enough.",
+    "gemini_rating": 8,
+    "anthropic_rating": 8,
+    "claudecode_rating": 6,
+    "consensus_score": 14,
+    "cloze_balance": 0.2,
+    "cloze_p_straight": 0.6,
+    "cloze_p_funny": 0.12,
+    "cloze_p_other": 0.28,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.05,
+      "3.3-70b": 0.45,
+      "405b": 0.1
+    }
+  },
+  {
+    "index": 170,
+    "id": 234,
+    "sentence": "The mathematician's garden was struggling because the plants had square ___",
+    "straight": [
+      "leaves",
+      "petals",
+      "pots",
+      "stems"
+    ],
+    "punny": [
+      "roots"
+    ],
+    "explanation": "\"Square roots\" means both a mathematical operation (square root) and literal plant roots that are square-shaped. The mathematician-gardener setup bridges both domains well.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0761,
+    "cloze_p_straight": 0.07,
+    "cloze_p_funny": 0.92,
+    "cloze_p_other": 0.01,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.6,
+      "8b": 1.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 171,
+    "id": 96,
+    "sentence": "The pilot's jokes never seemed to ___",
+    "straight": [
+      "work",
+      "hit",
+      "succeed",
+      "connect"
+    ],
+    "punny": [
+      "land",
+      "take off"
+    ],
+    "explanation": "\"Land\" means both to touch down (what planes do) and to succeed or connect (as in a joke landing with an audience). \"Take off\" similarly means both an airplane departing and something becoming popular. Both pun words work well for a pilot.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.04,
+    "cloze_p_straight": 0.02,
+    "cloze_p_funny": 0.5,
+    "cloze_p_other": 0.48,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.8,
+      "8b": 0.15,
+      "70b": 0.65,
+      "3.3-70b": 0.8,
+      "405b": 0.1
+    }
+  },
+  {
+    "index": 172,
+    "id": 49,
+    "sentence": "The wind turbine salesman was a huge ___",
+    "straight": [
+      "success",
+      "liar",
+      "failure",
+      "disappointment",
+      "enthusiast",
+      "talker",
+      "scammer",
+      "charlatan",
+      "con",
+      "character",
+      "fibber",
+      "legend",
+      "schmoozer",
+      "supporter",
+      "hit",
+      "deal"
+    ],
+    "punny": [
+      "fan",
+      "blowhard"
+    ],
+    "explanation": "\"Fan\" means both an enthusiast/supporter and a device that moves air (like a wind turbine). The wind turbine salesman being a huge fan connects his product to his enthusiasm.",
+    "gemini_rating": 7,
+    "anthropic_rating": 8,
+    "claudecode_rating": 6,
+    "consensus_score": 13,
+    "cloze_balance": 0.0345,
+    "cloze_p_straight": 0.87,
+    "cloze_p_funny": 0.03,
+    "cloze_p_other": 0.1,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.15,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 173,
+    "id": 2009,
+    "sentence": "The electrician went to the mall for an emotional ___",
+    "straight": [
+      "breakdown",
+      "outburst",
+      "break",
+      "episode",
+      "escape",
+      "appointment",
+      "epiphany",
+      "outpouring",
+      "encounter",
+      "moment",
+      "experience",
+      "reunion",
+      "release",
+      "outing"
+    ],
+    "punny": [
+      "outlet",
+      "charge"
+    ],
+    "explanation": "\"Outlet\" means both an emotional outlet (a way to release feelings) and an electrical outlet (relevant to an electrician). The mall setting adds a third layer with retail outlets.",
+    "gemini_rating": 7,
+    "anthropic_rating": 5,
+    "claudecode_rating": 6,
+    "consensus_score": 13,
+    "cloze_balance": 0.0125,
+    "cloze_p_straight": 0.8,
+    "cloze_p_funny": 0.01,
+    "cloze_p_other": 0.19,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.05,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 174,
+    "id": 472,
+    "sentence": "The wall was embarrassed after the party because he got completely ___",
+    "straight": [
+      "drunk",
+      "covered",
+      "splattered",
+      "soaked",
+      "distracted",
+      "hurt",
+      "dumped",
+      "drenched",
+      "wet",
+      "trashed",
+      "naked",
+      "ignored",
+      "humiliated",
+      "wrecked"
+    ],
+    "punny": [
+      "plastered"
+    ],
+    "explanation": "\"Plastered\" means both drunk (getting plastered at a party) and covered with plaster (what you do to walls). The wall being embarrassed after a party neatly bridges both meanings.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 8,
+    "consensus_score": 16,
+    "cloze_balance": 0.0538,
+    "cloze_p_straight": 0.93,
+    "cloze_p_funny": 0.05,
+    "cloze_p_other": 0.02,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.25
+    }
+  },
+  {
+    "index": 175,
+    "id": 2020,
+    "sentence": "Even after the bad carpenter was elected president, he couldn't assemble a ___",
+    "straight": [
+      "team",
+      "furniture",
+      "house",
+      "leadership",
+      "integrity",
+      "ambition"
+    ],
+    "punny": [
+      "cabinet"
+    ],
+    "explanation": "\"Cabinet\" means both a piece of wooden furniture (carpentry) and a president's cabinet of advisors. \"Assemble\" works for both -- building furniture and forming a team. The bad-carpenter-turned-president premise is clever.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 8,
+    "consensus_score": 15,
+    "cloze_balance": 0.0263,
+    "cloze_p_straight": 0.02,
+    "cloze_p_funny": 0.76,
+    "cloze_p_other": 0.22,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.25,
+      "8b": 0.55,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 176,
+    "id": 2032,
+    "sentence": "The poker player loved this mountain trail because it ended at a ___",
+    "straight": [
+      "casino",
+      "lodge",
+      "waterfall",
+      "lake",
+      "meadow",
+      "cabins",
+      "lakehouse",
+      "summit",
+      "viewpoint",
+      "clearing"
+    ],
+    "punny": [
+      "bluff"
+    ],
+    "explanation": "\"Bluff\" means both a steep cliff/overlook at the end of a trail and a poker bluff (deceptive play). The poker player enjoying a trail that ends at a bluff connects both meanings naturally.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.7,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.3,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 177,
+    "id": 450,
+    "sentence": "The elevator was stressed because everyone kept pushing his ___",
+    "straight": [
+      "patience",
+      "limits",
+      "temper"
+    ],
+    "punny": [
+      "buttons",
+      "button"
+    ],
+    "explanation": "\"Pushing his buttons\" means both provoking someone emotionally and literally pressing elevator buttons. The elevator personification makes this pun work on both levels with a nice visual.",
+    "gemini_rating": 8,
+    "anthropic_rating": 8,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.0,
+    "cloze_p_funny": 0.99,
+    "cloze_p_other": 0.01,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.95,
+      "8b": 1.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 178,
+    "id": 2015,
+    "sentence": "During the embargo, the navy cardiologist had to work on a blocked ___",
+    "straight": [
+      "artery",
+      "coronary",
+      "aorta",
+      "airway",
+      "vena",
+      "valve",
+      "passage",
+      "ship"
+    ],
+    "punny": [
+      "vessel"
+    ],
+    "explanation": "\"Vessel\" means both a blood vessel (cardiologist context) and a naval ship (navy/embargo context). \"Blocked\" amplifies the pun, working for both a blocked artery and a blockaded ship during an embargo. Impressively layered.",
+    "gemini_rating": 7,
+    "anthropic_rating": 8,
+    "claudecode_rating": 8,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.95,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.05,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 179,
+    "id": 35,
+    "sentence": "The ski instructor's career went ___",
+    "straight": [
+      "poorly",
+      "badly",
+      "south"
+    ],
+    "punny": [
+      "downhill",
+      "uphill"
+    ],
+    "explanation": "\"Downhill\" means both deteriorating/declining (a career going badly) and literally going down a hill, which is what ski instructors do. Clean and concise.",
+    "gemini_rating": 8,
+    "anthropic_rating": 5,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.0,
+    "cloze_p_funny": 0.94,
+    "cloze_p_other": 0.06,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.8,
+      "8b": 0.9,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 180,
+    "id": 323,
+    "sentence": "The cafeteria lady quit because she was ___",
+    "straight": [
+      "tired",
+      "overworked",
+      "underpaid",
+      "overwhelmed",
+      "sick",
+      "bored"
+    ],
+    "punny": [
+      "fed up"
+    ],
+    "explanation": "\"Fed up\" means both frustrated/tired of something and literally having been fed, which connects to the cafeteria lady's job of feeding people. Simple and effective.",
+    "gemini_rating": 8,
+    "anthropic_rating": 5,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.91,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.09,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 181,
+    "id": 2025,
+    "sentence": "The cheese maker's creative projects always broke the ___",
+    "straight": [
+      "rules",
+      "pattern",
+      "boundaries",
+      "norm"
+    ],
+    "punny": [
+      "mold"
+    ],
+    "explanation": "\"Mold\" means both a convention or pattern (break the mold = be innovative) and a cheese mold used in cheese making. The 'creative projects' setup reinforces the innovation meaning.",
+    "gemini_rating": 8,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.1618,
+    "cloze_p_straight": 0.11,
+    "cloze_p_funny": 0.68,
+    "cloze_p_other": 0.21,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.35,
+      "8b": 0.25,
+      "70b": 0.9,
+      "3.3-70b": 1.0,
+      "405b": 0.9
+    }
+  },
+  {
+    "index": 182,
+    "id": 1032,
+    "sentence": "The boat maker's excuse wouldn't ___",
+    "straight": [
+      "hold",
+      "stand",
+      "work",
+      "hold up",
+      "stick"
+    ],
+    "punny": [
+      "wash",
+      "fly",
+      "float"
+    ],
+    "explanation": "\"Float\" means both to be convincing or hold up (an excuse that won't float) and to stay on water (what boats should do). The boat maker connection is natural and the pun is satisfying.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.1149,
+    "cloze_p_straight": 0.87,
+    "cloze_p_funny": 0.1,
+    "cloze_p_other": 0.03,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.05,
+      "70b": 0.35,
+      "3.3-70b": 0.1,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 183,
+    "id": 76,
+    "sentence": "The horse breeder's business was always ___",
+    "straight": [
+      "thriving",
+      "booming",
+      "struggling",
+      "understaffed",
+      "successful",
+      "flourishing",
+      "busy",
+      "profitable"
+    ],
+    "punny": [
+      "stable"
+    ],
+    "explanation": "\"Stable\" means both steady/consistent (describing a business) and a building where horses are kept. The horse breeder's business is literally connected to stables, while figuratively the business was reliably steady.",
+    "gemini_rating": 8,
+    "anthropic_rating": 5,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.99,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.01,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 184,
+    "id": 271,
+    "sentence": "The king was only 12 inches tall, making him a pretty good ___",
+    "straight": [
+      "warrior",
+      "fighter",
+      "leader",
+      "candidate"
+    ],
+    "punny": [
+      "fit",
+      "ruler"
+    ],
+    "explanation": "\"Ruler\" means both a monarch (king) and a measuring instrument. The 12-inch detail is the clever connector, since 12 inches equals one foot on a ruler.",
+    "gemini_rating": 6,
+    "anthropic_rating": 6,
+    "claudecode_rating": 8,
+    "consensus_score": 14,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.0,
+    "cloze_p_funny": 0.02,
+    "cloze_p_other": 0.98,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.05,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.05
+    }
+  },
+  {
+    "index": 185,
+    "id": 479,
+    "sentence": "The door salesman was good at his job because he knew exactly how to ___",
+    "straight": [
+      "manipulate",
+      "persuade",
+      "sell",
+      "market",
+      "approach",
+      "present",
+      "pitch",
+      "negotiate",
+      "succeed",
+      "impress",
+      "connect",
+      "persist",
+      "walk away"
+    ],
+    "punny": [
+      "handle",
+      "close",
+      "push"
+    ],
+    "explanation": "\"Close\" means both to shut a door and to finalize a sale in business. A door salesman who knows how to 'close' works on both levels perfectly.",
+    "gemini_rating": 6,
+    "anthropic_rating": 8,
+    "claudecode_rating": 7,
+    "consensus_score": 13,
+    "cloze_balance": 0.2388,
+    "cloze_p_straight": 0.67,
+    "cloze_p_funny": 0.16,
+    "cloze_p_other": 0.17,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.25,
+      "8b": 0.25,
+      "70b": 0.2,
+      "3.3-70b": 0.1,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 186,
+    "id": 1061,
+    "sentence": "The calendar company's annual report was already ___",
+    "straight": [
+      "available",
+      "released",
+      "delayed",
+      "published",
+      "late",
+      "out",
+      "underway",
+      "circulating",
+      "public",
+      "missing",
+      "issued",
+      "finished",
+      "submitted"
+    ],
+    "punny": [
+      "overdue",
+      "due",
+      "dated"
+    ],
+    "explanation": "\"Dated\" means both out-of-date/obsolete and having calendar dates on it (which a calendar company's report literally would). Clever irony that a calendar company's report would be \"dated.\"",
+    "gemini_rating": 7,
+    "anthropic_rating": 5,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.4375,
+    "cloze_p_straight": 0.64,
+    "cloze_p_funny": 0.28,
+    "cloze_p_other": 0.08,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.3,
+      "8b": 0.1,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 187,
+    "id": 195,
+    "sentence": "The chef stopped dating comedians because every meal ended with a ___",
+    "straight": [
+      "joke",
+      "punchline",
+      "fight",
+      "routine",
+      "disaster",
+      "laugh",
+      "lecture",
+      "story",
+      "performance"
+    ],
+    "punny": [
+      "roast"
+    ],
+    "explanation": "\"Roast\" means both a comedy roast (comedians mocking someone) and a roasted dish (what a chef prepares). The dating scenario connecting both professions is well-constructed.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0323,
+    "cloze_p_straight": 0.93,
+    "cloze_p_funny": 0.03,
+    "cloze_p_other": 0.04,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.15,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 188,
+    "id": 2028,
+    "sentence": "Argue with your pharmacist, and you will find she always has a ___",
+    "straight": [
+      "prescription",
+      "reason",
+      "solution",
+      "point",
+      "script",
+      "counterargument",
+      "selection",
+      "recommendation",
+      "answer",
+      "perscription",
+      "justification",
+      "rebuttal",
+      "comeback",
+      "response"
+    ],
+    "punny": [
+      "counter",
+      "prescription",
+      "solution"
+    ],
+    "explanation": "\"Counter\" means both a counterargument (in an argument) and a pharmacy counter (where a pharmacist works). The connection is functional but the sentence feels slightly forced.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 5,
+    "consensus_score": 12,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.83,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.17,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 189,
+    "id": 248,
+    "sentence": "The student ate his homework because the teacher said it was a piece of ___",
+    "straight": [
+      "junk",
+      "art",
+      "literature",
+      "story",
+      "paper",
+      "work",
+      "trash",
+      "garbage"
+    ],
+    "punny": [
+      "cake",
+      "candy"
+    ],
+    "explanation": "\"Piece of cake\" is an idiom meaning something easy, but the student interprets it literally and eats the homework. The absurd literalism of eating homework because it was called cake is charming.",
+    "gemini_rating": 5,
+    "anthropic_rating": 4,
+    "claudecode_rating": 7,
+    "consensus_score": 12,
+    "cloze_balance": 0.1481,
+    "cloze_p_straight": 0.12,
+    "cloze_p_funny": 0.81,
+    "cloze_p_other": 0.07,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.35,
+      "8b": 0.75,
+      "70b": 0.95,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 190,
+    "id": 257,
+    "sentence": "The tennis stringer was kicked out of the library for making a ___",
+    "straight": [
+      "ruckus",
+      "fuss",
+      "mess",
+      "scene",
+      "noise",
+      "disturbance",
+      "commotion"
+    ],
+    "punny": [
+      "racket"
+    ],
+    "explanation": "\"Racket\" means both a loud noise (reason to be kicked out of a library) and a tennis racket (the tool a tennis stringer works on). The setup connects the noise-making to the tennis profession neatly.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.1486,
+    "cloze_p_straight": 0.11,
+    "cloze_p_funny": 0.74,
+    "cloze_p_other": 0.15,
+    "cloze_tier": "leaning",
+    "cloze_model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.8,
+      "70b": 1.0,
+      "3.3-70b": 0.85,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 191,
+    "id": 56,
+    "sentence": "The comedian's jokes about unemployment weren't ___",
+    "straight": [
+      "funny",
+      "well-received",
+      "popular",
+      "good",
+      "landing"
+    ],
+    "punny": [
+      "working"
+    ],
+    "explanation": "\"Working\" means both functioning/being funny and being employed. Jokes about unemployment not working is a tight, self-referential pun where the subject matter mirrors the pun word.",
+    "gemini_rating": 8,
+    "anthropic_rating": 7,
+    "claudecode_rating": 8,
+    "consensus_score": 16,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.91,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.09,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 192,
+    "id": 126,
+    "sentence": "The singer couldn't find a good practice room since every apartment was a little ___",
+    "straight": [
+      "noisy",
+      "small",
+      "chaotic",
+      "smaller",
+      "expensive",
+      "cramped",
+      "furnished",
+      "overcrowded",
+      "noisier",
+      "loud"
+    ],
+    "punny": [
+      "flat"
+    ],
+    "explanation": "\"Flat\" means both slightly off-pitch in music (a problem for a singer) and an apartment (British English). The singer searching for a practice room ties the musical and residential meanings together.",
+    "gemini_rating": 6,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 13,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.72,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.28,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 193,
+    "id": 2036,
+    "sentence": "The biologist cried at every sad movie because she was an expert on ___",
+    "straight": [
+      "emotions",
+      "empathy",
+      "grief",
+      "animal",
+      "human",
+      "tragedy",
+      "suffering",
+      "extinction",
+      "pain",
+      "trauma",
+      "reactions"
+    ],
+    "punny": [
+      "tissues"
+    ],
+    "explanation": "\"Tissues\" refers to both the paper products used for crying and biological tissues that biologists study. The setup about crying at movies provides a natural path to both meanings.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 6,
+    "consensus_score": 13,
+    "cloze_balance": 0.0106,
+    "cloze_p_straight": 0.94,
+    "cloze_p_funny": 0.01,
+    "cloze_p_other": 0.05,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.05,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 194,
+    "id": 2052,
+    "sentence": "The fisherman's film won an award because he had the best ___",
+    "straight": [
+      "footage",
+      "camera",
+      "equipment",
+      "photography",
+      "scene",
+      "acting",
+      "shot",
+      "cinematography",
+      "audition",
+      "voice",
+      "presence",
+      "bait",
+      "actors"
+    ],
+    "punny": [
+      "catch",
+      "cast"
+    ],
+    "explanation": "\"Cast\" means both a group of actors in a film and the act of casting a fishing line. The fisherman making a film connects both domains cleanly.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.34,
+    "cloze_p_straight": 0.5,
+    "cloze_p_funny": 0.17,
+    "cloze_p_other": 0.33,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.65,
+      "8b": 0.2,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 195,
+    "id": 212,
+    "sentence": "The barber's philosophy lectures were popular because he always made the ___",
+    "straight": [
+      "point",
+      "subject",
+      "connection",
+      "points",
+      "material",
+      "ideas",
+      "concept",
+      "argument"
+    ],
+    "punny": [
+      "cut"
+    ],
+    "explanation": "\"Made the cut\" means both met the standard/was good enough (why lectures were popular) and literally cutting hair (what barbers do). The philosophy lecture framing is an amusing contrast with barbering.",
+    "gemini_rating": 8,
+    "anthropic_rating": 4,
+    "claudecode_rating": 6,
+    "consensus_score": 14,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.47,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.53,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 196,
+    "id": 1018,
+    "sentence": "The poker player always did his laundry at the right time, because he knew when to ___",
+    "straight": [
+      "wash",
+      "quit",
+      "stop",
+      "walk away"
+    ],
+    "punny": [
+      "fold",
+      "folding"
+    ],
+    "explanation": "\"Fold\" means both folding laundry and folding in poker (giving up your hand). The poker player's timing skill transfers amusingly to knowing when to do laundry.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.0,
+    "cloze_p_funny": 0.82,
+    "cloze_p_other": 0.18,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.9,
+      "8b": 0.3,
+      "70b": 1.0,
+      "3.3-70b": 0.95,
+      "405b": 0.95
+    }
+  },
+  {
+    "index": 197,
+    "id": 108,
+    "sentence": "The glass maker's lies were completely ___",
+    "straight": [
+      "exposed",
+      "unbelievable",
+      "unreliable",
+      "outlandish",
+      "absurd",
+      "obvious",
+      "inconceivable",
+      "detected"
+    ],
+    "punny": [
+      "transparent",
+      "shattering",
+      "clear"
+    ],
+    "explanation": "\"Transparent\" (and \"clear\") means both see-through (like glass) and easily seen through (as in obvious lies). The glass maker produces transparent objects, and his lies were transparently false.",
+    "gemini_rating": 9,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 16,
+    "cloze_balance": 0.7255,
+    "cloze_p_straight": 0.51,
+    "cloze_p_funny": 0.37,
+    "cloze_p_other": 0.12,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.05,
+      "70b": 0.8,
+      "3.3-70b": 0.9,
+      "405b": 0.1
+    }
+  },
+  {
+    "index": 198,
+    "id": 273,
+    "sentence": "The cannibal showed up late to the luncheon so he was given the cold ___",
+    "straight": [
+      "welcome",
+      "soup",
+      "stare",
+      "treatment"
+    ],
+    "punny": [
+      "shoulder",
+      "shoulders"
+    ],
+    "explanation": "\"Cold shoulder\" means both a social snub (being given the cold shoulder for being late) and a literal cold shoulder (body part that a cannibal might eat). At a cannibal luncheon, being given the cold shoulder is both punishment and a meal.",
+    "gemini_rating": 8,
+    "anthropic_rating": 8,
+    "claudecode_rating": 8,
+    "consensus_score": 16,
+    "cloze_balance": 0.0103,
+    "cloze_p_straight": 0.01,
+    "cloze_p_funny": 0.97,
+    "cloze_p_other": 0.02,
+    "cloze_tier": "funny_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.9,
+      "8b": 0.95,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 199,
+    "id": 2077,
+    "sentence": "After digging for treasure the pirate went to the doctor complaining of ___ pains",
+    "straight": [
+      "back",
+      "stomach",
+      "leg",
+      "backache"
+    ],
+    "punny": [
+      "chest",
+      "arrhh"
+    ],
+    "explanation": "\"Chest\" means both a treasure chest (what a pirate digs for) and the human chest (where one feels pains). The digging-for-treasure setup neatly primes the treasure meaning while the doctor visit delivers the medical meaning.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.15,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.85,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 200,
+    "id": 25,
+    "sentence": "The dieter went to the paint store to get ___",
+    "straight": [
+      "paint",
+      "colors",
+      "color",
+      "red",
+      "trim",
+      "acrylic",
+      "enamel",
+      "supplies",
+      "spray",
+      "brushes"
+    ],
+    "punny": [
+      "thinner"
+    ],
+    "explanation": "\"Thinner\" means both paint thinner (a solvent sold at paint stores) and becoming thinner/losing weight (what a dieter wants). The setup misdirects toward weight loss, then the paint store context reveals the other meaning.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 8,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.39,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.61,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 201,
+    "id": 461,
+    "sentence": "The tree was a great networker because it had so many ___",
+    "straight": [
+      "connections",
+      "friends",
+      "contacts"
+    ],
+    "punny": [
+      "roots",
+      "branches"
+    ],
+    "explanation": "\"Branches\" means both divisions or connections in a network and the literal limbs of a tree. The networking metaphor is natural, though the pun is fairly predictable.",
+    "gemini_rating": 8,
+    "anthropic_rating": 5,
+    "claudecode_rating": 5,
+    "consensus_score": 13,
+    "cloze_balance": 0.5556,
+    "cloze_p_straight": 0.35,
+    "cloze_p_funny": 0.63,
+    "cloze_p_other": 0.02,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.95,
+      "8b": 0.0,
+      "70b": 0.95,
+      "3.3-70b": 1.0,
+      "405b": 0.25
+    }
+  },
+  {
+    "index": 202,
+    "id": 2029,
+    "sentence": "The Greek architect became a journalist because he totally loved ___",
+    "straight": [
+      "writing",
+      "reporting",
+      "storytelling",
+      "covering",
+      "researching",
+      "narratives",
+      "stories",
+      "arguments"
+    ],
+    "punny": [
+      "columns"
+    ],
+    "explanation": "\"Columns\" means both architectural columns (Greek architecture is famous for them) and newspaper/journalism columns. The career switch from architect to journalist bridges the two meanings.",
+    "gemini_rating": 7,
+    "anthropic_rating": 6,
+    "claudecode_rating": 6,
+    "consensus_score": 13,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.96,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.04,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 203,
+    "id": 366,
+    "sentence": "The baby strawberry was crying because his mom was in a ___",
+    "straight": [
+      "rush",
+      "hurry",
+      "accident",
+      "panic"
+    ],
+    "punny": [
+      "jam",
+      "jar"
+    ],
+    "explanation": "\"Jam\" means both a difficult/distressing situation and fruit preserves (made from strawberries). The baby strawberry's mom being in a jam works as both maternal peril and literal strawberry jam.",
+    "gemini_rating": 7,
+    "anthropic_rating": 7,
+    "claudecode_rating": 7,
+    "consensus_score": 14,
+    "cloze_balance": 0.5312,
+    "cloze_p_straight": 0.17,
+    "cloze_p_funny": 0.32,
+    "cloze_p_other": 0.51,
+    "cloze_tier": "balanced",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.35,
+      "3.3-70b": 0.25,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 204,
+    "id": 409,
+    "sentence": "The chicken soup company is a great investment and a great ___",
+    "straight": [
+      "opportunity",
+      "business",
+      "venture",
+      "buy",
+      "soup",
+      "broth",
+      "sauce"
+    ],
+    "punny": [
+      "stock"
+    ],
+    "explanation": "\"Stock\" means both chicken stock/broth used in soup-making and financial stock as an investment. The sentence elegantly bridges both meanings in one claim.",
+    "gemini_rating": 8,
+    "anthropic_rating": 8,
+    "claudecode_rating": 7,
+    "consensus_score": 15,
+    "cloze_balance": 0.0,
+    "cloze_p_straight": 0.84,
+    "cloze_p_funny": 0.0,
+    "cloze_p_other": 0.16,
+    "cloze_tier": "straight_dominated",
+    "cloze_model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  }
+]

@@ -1,0 +1,5955 @@
+[
+  {
+    "index": 88,
+    "sentence": "The lonely CEO just wanted some ___",
+    "balance": 0.9756,
+    "p_straight": 0.41,
+    "p_funny": 0.4,
+    "p_other": 0.19,
+    "n_straight": 41,
+    "n_funny": 40,
+    "n_other": 19,
+    "straight_words": {
+      "companionship": 29,
+      "solitude": 3,
+      "peace": 2,
+      "friendship": 2,
+      "humanity": 2,
+      "attention": 1,
+      "solace": 1,
+      "normalcy": 1
+    },
+    "funny_words": {
+      "company": 40
+    },
+    "model_funny_rate": {
+      "3b": 0.2,
+      "8b": 0.1,
+      "70b": 0.75,
+      "3.3-70b": 0.4,
+      "405b": 0.55
+    }
+  },
+  {
+    "index": 64,
+    "sentence": "The cross-eyed teacher lost her job because she couldn't control her ___",
+    "balance": 0.9231,
+    "p_straight": 0.52,
+    "p_funny": 0.48,
+    "p_other": 0.0,
+    "n_straight": 52,
+    "n_funny": 48,
+    "n_other": 0,
+    "straight_words": {
+      "classroom": 36,
+      "students": 8,
+      "temper": 7,
+      "emotions": 1
+    },
+    "funny_words": {
+      "class": 37,
+      "pupils": 11
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.85,
+      "70b": 0.85,
+      "3.3-70b": 0.25,
+      "405b": 0.45
+    }
+  },
+  {
+    "index": 117,
+    "sentence": "At every party the boxer would bring the ___",
+    "balance": 0.814,
+    "p_straight": 0.43,
+    "p_funny": 0.35,
+    "p_other": 0.22,
+    "n_straight": 43,
+    "n_funny": 35,
+    "n_other": 22,
+    "straight_words": {
+      "champagne": 26,
+      "music": 7,
+      "crowd": 2,
+      "strength": 1,
+      "hostess": 1,
+      "flavors": 1,
+      "wine": 1,
+      "cream": 1,
+      "celebrity": 1,
+      "gifts": 1,
+      "cake": 1
+    },
+    "funny_words": {
+      "punch": 31,
+      "punchbowl": 2,
+      "punchbowls": 2
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.25,
+      "70b": 0.7,
+      "3.3-70b": 0.5,
+      "405b": 0.3
+    }
+  },
+  {
+    "index": 89,
+    "sentence": "The electrician quit politics after his party lost ___",
+    "balance": 0.8,
+    "p_straight": 0.08,
+    "p_funny": 0.1,
+    "p_other": 0.82,
+    "n_straight": 8,
+    "n_funny": 10,
+    "n_other": 82,
+    "straight_words": {
+      "election": 4,
+      "elections": 4
+    },
+    "funny_words": {
+      "power": 10
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.1,
+      "3.3-70b": 0.35,
+      "405b": 0.05
+    }
+  },
+  {
+    "index": 137,
+    "sentence": "The artistic detective was great at drawing ___",
+    "balance": 0.7544,
+    "p_straight": 0.43,
+    "p_funny": 0.57,
+    "p_other": 0.0,
+    "n_straight": 43,
+    "n_funny": 57,
+    "n_other": 0,
+    "straight_words": {
+      "portraits": 33,
+      "sketches": 8,
+      "picture": 1,
+      "people": 1
+    },
+    "funny_words": {
+      "conclusions": 55,
+      "distinctions": 1,
+      "conclusion": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.6,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 0.2
+    }
+  },
+  {
+    "index": 126,
+    "sentence": "The electrician stayed calm in conflict because he had low ___",
+    "balance": 0.75,
+    "p_straight": 0.21,
+    "p_funny": 0.28,
+    "p_other": 0.51,
+    "n_straight": 21,
+    "n_funny": 28,
+    "n_other": 51,
+    "straight_words": {
+      "stress": 8,
+      "tolerance": 3,
+      "self-esteem": 3,
+      "expectations": 2,
+      "reactivity": 2,
+      "tension": 1,
+      "bloodpressure": 1,
+      "emotionality": 1
+    },
+    "funny_words": {
+      "voltage": 27,
+      "maintenance": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.05,
+      "70b": 0.35,
+      "3.3-70b": 1.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 197,
+    "sentence": "The glass maker's lies were completely ___",
+    "balance": 0.7255,
+    "p_straight": 0.51,
+    "p_funny": 0.37,
+    "p_other": 0.12,
+    "n_straight": 51,
+    "n_funny": 37,
+    "n_other": 12,
+    "straight_words": {
+      "exposed": 41,
+      "unbelievable": 4,
+      "unreliable": 2,
+      "outlandish": 1,
+      "absurd": 1,
+      "obvious": 1,
+      "inconceivable": 1
+    },
+    "funny_words": {
+      "transparent": 36,
+      "shattering": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.05,
+      "70b": 0.8,
+      "3.3-70b": 0.9,
+      "405b": 0.1
+    }
+  },
+  {
+    "index": 116,
+    "sentence": "The chemistry teacher's marriage counselor found the perfect ___",
+    "balance": 0.7193,
+    "p_straight": 0.41,
+    "p_funny": 0.57,
+    "p_other": 0.02,
+    "n_straight": 41,
+    "n_funny": 57,
+    "n_other": 2,
+    "straight_words": {
+      "match": 18,
+      "analogy": 9,
+      "therapist": 2,
+      "prescription": 2,
+      "metaphor": 2,
+      "way": 2,
+      "candidate": 1,
+      "pair": 1,
+      "assistant": 1,
+      "matchmaker": 1,
+      "strategy": 1,
+      "balance": 1
+    },
+    "funny_words": {
+      "solution": 46,
+      "chemistry": 3,
+      "catalyst": 2,
+      "antidote": 2,
+      "formula": 2,
+      "blend": 1,
+      "recipe": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.55,
+      "70b": 0.55,
+      "3.3-70b": 0.85,
+      "405b": 0.9
+    }
+  },
+  {
+    "index": 144,
+    "sentence": "The rabbit was great at math because he knew how to ___",
+    "balance": 0.7193,
+    "p_straight": 0.57,
+    "p_funny": 0.41,
+    "p_other": 0.02,
+    "n_straight": 57,
+    "n_funny": 41,
+    "n_other": 2,
+    "straight_words": {
+      "calculate": 29,
+      "simplify": 11,
+      "solve": 7,
+      "add": 7,
+      "balance": 1,
+      "think": 1,
+      "count": 1
+    },
+    "funny_words": {
+      "multiply": 41
+    },
+    "model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.7,
+      "70b": 0.3,
+      "3.3-70b": 0.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 33,
+    "sentence": "The crab never shared his toys because he was ___",
+    "balance": 0.6875,
+    "p_straight": 0.32,
+    "p_funny": 0.22,
+    "p_other": 0.46,
+    "n_straight": 32,
+    "n_funny": 22,
+    "n_other": 46,
+    "straight_words": {
+      "possessive": 14,
+      "greedy": 14,
+      "jealous": 3,
+      "protective": 1
+    },
+    "funny_words": {
+      "selfish": 22
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.05,
+      "3.3-70b": 0.05,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 66,
+    "sentence": "The golfer brought an extra pair of pants in case he got a ___",
+    "balance": 0.6757,
+    "p_straight": 0.25,
+    "p_funny": 0.37,
+    "p_other": 0.38,
+    "n_straight": 25,
+    "n_funny": 37,
+    "n_other": 38,
+    "straight_words": {
+      "stain": 13,
+      "soaking": 12
+    },
+    "funny_words": {
+      "hole": 37
+    },
+    "model_funny_rate": {
+      "3b": 0.35,
+      "8b": 0.05,
+      "70b": 0.35,
+      "3.3-70b": 1.0,
+      "405b": 0.1
+    }
+  },
+  {
+    "index": 74,
+    "sentence": "The stadium was unbearably hot because there weren't any ___",
+    "balance": 0.6667,
+    "p_straight": 0.6,
+    "p_funny": 0.4,
+    "p_other": 0.0,
+    "n_straight": 60,
+    "n_funny": 40,
+    "n_other": 0,
+    "straight_words": {
+      "shades": 47,
+      "shadows": 5,
+      "ventilation": 3,
+      "windows": 2,
+      "umbrellas": 1,
+      "shade": 1,
+      "ventilators": 1
+    },
+    "funny_words": {
+      "fans": 40
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.7,
+      "70b": 0.1,
+      "3.3-70b": 0.3,
+      "405b": 0.9
+    }
+  },
+  {
+    "index": 62,
+    "sentence": "The accountant's entire life was one long ___",
+    "balance": 0.6596,
+    "p_straight": 0.31,
+    "p_funny": 0.47,
+    "p_other": 0.22,
+    "n_straight": 31,
+    "n_funny": 47,
+    "n_other": 22,
+    "straight_words": {
+      "struggle": 26,
+      "desperation": 1,
+      "routine": 1,
+      "endeavor": 1,
+      "nightmare": 1,
+      "journey": 1
+    },
+    "funny_words": {
+      "spreadsheet": 20,
+      "audit": 12,
+      "calculation": 11,
+      "exercise": 2,
+      "number-crunching": 1,
+      "reconciliation": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.35,
+      "70b": 0.55,
+      "3.3-70b": 0.45,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 129,
+    "sentence": "The chemists' marriage was strong because of their incredible ___",
+    "balance": 0.6441,
+    "p_straight": 0.38,
+    "p_funny": 0.59,
+    "p_other": 0.03,
+    "n_straight": 38,
+    "n_funny": 59,
+    "n_other": 3,
+    "straight_words": {
+      "compatibility": 31,
+      "teamwork": 2,
+      "communication": 2,
+      "passion": 1,
+      "support": 1,
+      "partnership": 1
+    },
+    "funny_words": {
+      "chemistry": 57,
+      "bond": 2
+    },
+    "model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.4,
+      "70b": 0.8,
+      "3.3-70b": 0.95,
+      "405b": 0.75
+    }
+  },
+  {
+    "index": 148,
+    "sentence": "The baker's bread business was on the ___",
+    "balance": 0.6316,
+    "p_straight": 0.36,
+    "p_funny": 0.57,
+    "p_other": 0.07,
+    "n_straight": 36,
+    "n_funny": 57,
+    "n_other": 7,
+    "straight_words": {
+      "verge": 16,
+      "brink": 10,
+      "upswing": 8,
+      "rocks": 1,
+      "decline": 1
+    },
+    "funny_words": {
+      "rise": 57
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.2,
+      "70b": 0.95,
+      "3.3-70b": 1.0,
+      "405b": 0.7
+    }
+  },
+  {
+    "index": 96,
+    "sentence": "The deaf astrologer was always looking for a ___",
+    "balance": 0.6136,
+    "p_straight": 0.27,
+    "p_funny": 0.44,
+    "p_other": 0.29,
+    "n_straight": 27,
+    "n_funny": 44,
+    "n_other": 29,
+    "straight_words": {
+      "connection": 11,
+      "way": 5,
+      "solution": 3,
+      "companion": 2,
+      "pattern": 2,
+      "clue": 2,
+      "system": 1,
+      "method": 1
+    },
+    "funny_words": {
+      "sign": 44
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.3,
+      "70b": 0.4,
+      "3.3-70b": 0.85,
+      "405b": 0.65
+    }
+  },
+  {
+    "index": 55,
+    "sentence": "The nose was sad because it was tired of getting ___",
+    "balance": 0.5741,
+    "p_straight": 0.31,
+    "p_funny": 0.54,
+    "p_other": 0.15,
+    "n_straight": 31,
+    "n_funny": 54,
+    "n_other": 15,
+    "straight_words": {
+      "poked": 30,
+      "kicked": 1
+    },
+    "funny_words": {
+      "picked": 54
+    },
+    "model_funny_rate": {
+      "3b": 0.2,
+      "8b": 0.3,
+      "70b": 0.8,
+      "3.3-70b": 0.65,
+      "405b": 0.75
+    }
+  },
+  {
+    "index": 201,
+    "sentence": "The tree was a great networker because it had so many ___",
+    "balance": 0.5556,
+    "p_straight": 0.35,
+    "p_funny": 0.63,
+    "p_other": 0.02,
+    "n_straight": 35,
+    "n_funny": 63,
+    "n_other": 2,
+    "straight_words": {
+      "connections": 35
+    },
+    "funny_words": {
+      "roots": 42,
+      "branches": 21
+    },
+    "model_funny_rate": {
+      "3b": 0.95,
+      "8b": 0.0,
+      "70b": 0.95,
+      "3.3-70b": 1.0,
+      "405b": 0.25
+    }
+  },
+  {
+    "index": 25,
+    "sentence": "The poker player never panicked because he never showed his ___",
+    "balance": 0.5385,
+    "p_straight": 0.35,
+    "p_funny": 0.65,
+    "p_other": 0.0,
+    "n_straight": 35,
+    "n_funny": 65,
+    "n_other": 0,
+    "straight_words": {
+      "emotions": 34,
+      "weakness": 1
+    },
+    "funny_words": {
+      "hand": 62,
+      "bluff": 2,
+      "cards": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.9,
+      "8b": 0.8,
+      "70b": 0.3,
+      "3.3-70b": 0.25,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 203,
+    "sentence": "The baby strawberry was crying because his mom was in a ___",
+    "balance": 0.5312,
+    "p_straight": 0.17,
+    "p_funny": 0.32,
+    "p_other": 0.51,
+    "n_straight": 17,
+    "n_funny": 32,
+    "n_other": 51,
+    "straight_words": {
+      "rush": 14,
+      "hurry": 2,
+      "accident": 1
+    },
+    "funny_words": {
+      "jam": 30,
+      "jar": 2
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.35,
+      "3.3-70b": 0.25,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 61,
+    "sentence": "The optician fell into his lens grinder and made a complete ___",
+    "balance": 0.5079,
+    "p_straight": 0.3232,
+    "p_funny": 0.6364,
+    "p_other": 0.0404,
+    "n_straight": 32,
+    "n_funny": 63,
+    "n_other": 4,
+    "straight_words": {
+      "mess": 24,
+      "shambles": 3,
+      "mishap": 2,
+      "mayhem": 1,
+      "disaster": 1,
+      "breakdown": 1
+    },
+    "funny_words": {
+      "spectacle": 60,
+      "break": 1,
+      "fracture": 1,
+      "shatter": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.1579,
+      "8b": 0.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 131,
+    "sentence": "The leopard was bad at hide-and-seek because he was always ___",
+    "balance": 0.5079,
+    "p_straight": 0.63,
+    "p_funny": 0.32,
+    "p_other": 0.05,
+    "n_straight": 63,
+    "n_funny": 32,
+    "n_other": 5,
+    "straight_words": {
+      "visible": 44,
+      "found": 10,
+      "seen": 3,
+      "standing": 2,
+      "moving": 1,
+      "noticed": 1,
+      "unmasked": 1,
+      "hiding": 1
+    },
+    "funny_words": {
+      "spotted": 32
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.1,
+      "70b": 0.75,
+      "3.3-70b": 0.3,
+      "405b": 0.45
+    }
+  },
+  {
+    "index": 160,
+    "sentence": "The two antennas met on a roof and the wedding had excellent ___",
+    "balance": 0.5,
+    "p_straight": 0.33,
+    "p_funny": 0.66,
+    "p_other": 0.01,
+    "n_straight": 33,
+    "n_funny": 66,
+    "n_other": 1,
+    "straight_words": {
+      "weather": 13,
+      "acoustics": 8,
+      "views": 7,
+      "sound": 2,
+      "success": 1,
+      "view": 1,
+      "music": 1
+    },
+    "funny_words": {
+      "reception": 66
+    },
+    "model_funny_rate": {
+      "3b": 0.1,
+      "8b": 0.2,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 46,
+    "sentence": "The mattress salesman was tired of lying on the ___",
+    "balance": 0.5,
+    "p_straight": 0.58,
+    "p_funny": 0.29,
+    "p_other": 0.13,
+    "n_straight": 58,
+    "n_funny": 29,
+    "n_other": 13,
+    "straight_words": {
+      "floor": 51,
+      "salesfloor": 3,
+      "ground": 2,
+      "shopfloor": 1,
+      "beds": 1
+    },
+    "funny_words": {
+      "job": 29
+    },
+    "model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.3,
+      "70b": 0.05,
+      "3.3-70b": 0.05,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 146,
+    "sentence": "I think the colonel opened a restaurant because he loved taking ___",
+    "balance": 0.4697,
+    "p_straight": 0.31,
+    "p_funny": 0.66,
+    "p_other": 0.03,
+    "n_straight": 31,
+    "n_funny": 66,
+    "n_other": 3,
+    "straight_words": {
+      "care": 29,
+      "shortcuts": 1,
+      "risks": 1
+    },
+    "funny_words": {
+      "orders": 65,
+      "order": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.5,
+      "8b": 0.8,
+      "70b": 0.85,
+      "3.3-70b": 1.0,
+      "405b": 0.15
+    }
+  },
+  {
+    "index": 104,
+    "sentence": "The pony couldn't sing in the choir because he was a little ___",
+    "balance": 0.4576,
+    "p_straight": 0.27,
+    "p_funny": 0.59,
+    "p_other": 0.14,
+    "n_straight": 27,
+    "n_funny": 59,
+    "n_other": 14,
+    "straight_words": {
+      "scared": 7,
+      "off-key": 5,
+      "squeaky": 3,
+      "silly": 3,
+      "timid": 2,
+      "untrained": 2,
+      "shy": 1,
+      "silent": 1,
+      "sensitive": 1,
+      "unskilled": 1,
+      "offkey": 1
+    },
+    "funny_words": {
+      "hoarse": 57,
+      "horse": 2
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.05,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 0.9
+    }
+  },
+  {
+    "index": 94,
+    "sentence": "The lemonade stand hired a baseball player because they needed a ___",
+    "balance": 0.4545,
+    "p_straight": 0.25,
+    "p_funny": 0.55,
+    "p_other": 0.2,
+    "n_straight": 25,
+    "n_funny": 55,
+    "n_other": 20,
+    "straight_words": {
+      "spokesperson": 6,
+      "salesperson": 4,
+      "spokesman": 4,
+      "security": 3,
+      "salesman": 2,
+      "person": 1,
+      "star": 1,
+      "shill": 1,
+      "publicist": 1,
+      "someone": 1,
+      "mascot": 1
+    },
+    "funny_words": {
+      "pitcher": 49,
+      "pitchman": 6
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.3,
+      "70b": 0.65,
+      "3.3-70b": 0.8,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 97,
+    "sentence": "The history teacher was depressed because he lived in the ___",
+    "balance": 0.4531,
+    "p_straight": 0.29,
+    "p_funny": 0.64,
+    "p_other": 0.07,
+    "n_straight": 29,
+    "n_funny": 64,
+    "n_other": 7,
+    "straight_words": {
+      "shadow": 21,
+      "shadows": 4,
+      "projects": 2,
+      "neighborhood": 1,
+      "poverty": 1
+    },
+    "funny_words": {
+      "past": 63,
+      "present": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.15,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 71,
+    "sentence": "The mushroom's salary never went up because there was always a ___",
+    "balance": 0.4444,
+    "p_straight": 0.09,
+    "p_funny": 0.04,
+    "p_other": 0.87,
+    "n_straight": 9,
+    "n_funny": 4,
+    "n_other": 87,
+    "straight_words": {
+      "ceiling": 4,
+      "limit": 1,
+      "catch": 1,
+      "snafu": 1,
+      "budget": 1,
+      "snag": 1
+    },
+    "funny_words": {
+      "cap": 4
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.2,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 79,
+    "sentence": "The dyslexic zombie kept hunting guys named ___",
+    "balance": 0.4419,
+    "p_straight": 0.19,
+    "p_funny": 0.43,
+    "p_other": 0.38,
+    "n_straight": 19,
+    "n_funny": 43,
+    "n_other": 38,
+    "straight_words": {
+      "steve": 12,
+      "dave": 7
+    },
+    "funny_words": {
+      "brian": 38,
+      "brain": 4,
+      "braaaaain": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.3,
+      "70b": 0.35,
+      "3.3-70b": 0.5,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 186,
+    "sentence": "The calendar company's annual report was already ___",
+    "balance": 0.4375,
+    "p_straight": 0.64,
+    "p_funny": 0.28,
+    "p_other": 0.08,
+    "n_straight": 64,
+    "n_funny": 28,
+    "n_other": 8,
+    "straight_words": {
+      "available": 15,
+      "released": 13,
+      "delayed": 12,
+      "published": 12,
+      "late": 3,
+      "out": 2,
+      "underway": 2,
+      "circulating": 2,
+      "public": 1,
+      "missing": 1,
+      "issued": 1
+    },
+    "funny_words": {
+      "overdue": 27,
+      "due": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.3,
+      "8b": 0.1,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 7,
+    "sentence": "The beekeeper's announcement created quite a ___",
+    "balance": 0.4286,
+    "p_straight": 0.3,
+    "p_funny": 0.7,
+    "p_other": 0.0,
+    "n_straight": 30,
+    "n_funny": 70,
+    "n_other": 0,
+    "straight_words": {
+      "commotion": 18,
+      "stir": 8,
+      "frenzy": 1,
+      "flutter": 1,
+      "scene": 1,
+      "fuss": 1
+    },
+    "funny_words": {
+      "buzz": 70
+    },
+    "model_funny_rate": {
+      "3b": 0.7,
+      "8b": 0.0,
+      "70b": 0.9,
+      "3.3-70b": 1.0,
+      "405b": 0.9
+    }
+  },
+  {
+    "index": 45,
+    "sentence": "The invisible man turned down the job offer because he couldn't ___",
+    "balance": 0.4203,
+    "p_straight": 0.69,
+    "p_funny": 0.29,
+    "p_other": 0.02,
+    "n_straight": 69,
+    "n_funny": 29,
+    "n_other": 2,
+    "straight_words": {
+      "afford": 30,
+      "handle": 14,
+      "cope": 6,
+      "stand": 5,
+      "trust": 5,
+      "live": 4,
+      "accept": 3,
+      "control": 1,
+      "resist": 1
+    },
+    "funny_words": {
+      "see": 29
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.45,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 26,
+    "sentence": "The dog was a tree expert because he knew his ___",
+    "balance": 0.4194,
+    "p_straight": 0.62,
+    "p_funny": 0.26,
+    "p_other": 0.12,
+    "n_straight": 62,
+    "n_funny": 26,
+    "n_other": 12,
+    "straight_words": {
+      "roots": 41,
+      "branches": 9,
+      "trees": 4,
+      "trunk": 2,
+      "way": 2,
+      "surroundings": 1,
+      "spot": 1,
+      "place": 1,
+      "species": 1
+    },
+    "funny_words": {
+      "bark": 26
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.25,
+      "3.3-70b": 1.0,
+      "405b": 0.05
+    }
+  },
+  {
+    "index": 112,
+    "sentence": "The coffee filed a police report after it got ___",
+    "balance": 0.3939,
+    "p_straight": 0.66,
+    "p_funny": 0.26,
+    "p_other": 0.08,
+    "n_straight": 66,
+    "n_funny": 26,
+    "n_other": 8,
+    "straight_words": {
+      "stolen": 39,
+      "robbed": 18,
+      "spilled": 8,
+      "vandalized": 1
+    },
+    "funny_words": {
+      "mugged": 26
+    },
+    "model_funny_rate": {
+      "3b": 0.25,
+      "8b": 0.05,
+      "70b": 0.05,
+      "3.3-70b": 0.0,
+      "405b": 0.95
+    }
+  },
+  {
+    "index": 27,
+    "sentence": "The lawsuit about instant coffee was ___",
+    "balance": 0.3871,
+    "p_straight": 0.62,
+    "p_funny": 0.24,
+    "p_other": 0.14,
+    "n_straight": 62,
+    "n_funny": 24,
+    "n_other": 14,
+    "straight_words": {
+      "filed": 31,
+      "dismissed": 23,
+      "launched": 2,
+      "ongoing": 1,
+      "overturned": 1,
+      "initiated": 1,
+      "decided": 1,
+      "dropped": 1,
+      "unsuccessful": 1
+    },
+    "funny_words": {
+      "settled": 24
+    },
+    "model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.0,
+      "70b": 0.35,
+      "3.3-70b": 0.8,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 38,
+    "sentence": "The lightning bolt was let go from every job because he kept getting ___",
+    "balance": 0.3788,
+    "p_straight": 0.25,
+    "p_funny": 0.66,
+    "p_other": 0.09,
+    "n_straight": 25,
+    "n_funny": 66,
+    "n_other": 9,
+    "straight_words": {
+      "sacked": 11,
+      "dismissed": 4,
+      "arrested": 2,
+      "frustrated": 1,
+      "reprimanded": 1,
+      "discouraged": 1,
+      "injured": 1,
+      "sick": 1,
+      "sued": 1,
+      "canned": 1,
+      "distracted": 1
+    },
+    "funny_words": {
+      "fired": 52,
+      "struck": 10,
+      "shocked": 4
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.45,
+      "70b": 0.85,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 80,
+    "sentence": "The optometrist's startup failed because he lacked ___",
+    "balance": 0.3538,
+    "p_straight": 0.65,
+    "p_funny": 0.23,
+    "p_other": 0.12,
+    "n_straight": 65,
+    "n_funny": 23,
+    "n_other": 12,
+    "straight_words": {
+      "funding": 37,
+      "capital": 13,
+      "experience": 12,
+      "investment": 1,
+      "management": 1,
+      "dedication": 1
+    },
+    "funny_words": {
+      "vision": 21,
+      "focus": 2
+    },
+    "model_funny_rate": {
+      "3b": 0.25,
+      "8b": 0.05,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.85
+    }
+  },
+  {
+    "index": 194,
+    "sentence": "The fisherman's film won an award because he had the best ___",
+    "balance": 0.34,
+    "p_straight": 0.5,
+    "p_funny": 0.17,
+    "p_other": 0.33,
+    "n_straight": 50,
+    "n_funny": 17,
+    "n_other": 33,
+    "straight_words": {
+      "footage": 35,
+      "camera": 7,
+      "equipment": 2,
+      "photography": 2,
+      "scene": 1,
+      "acting": 1,
+      "shot": 1,
+      "cinematography": 1
+    },
+    "funny_words": {
+      "catch": 17
+    },
+    "model_funny_rate": {
+      "3b": 0.65,
+      "8b": 0.2,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 8,
+    "sentence": "The broom maker decided to make a clean ___",
+    "balance": 0.3387,
+    "p_straight": 0.21,
+    "p_funny": 0.62,
+    "p_other": 0.17,
+    "n_straight": 21,
+    "n_funny": 62,
+    "n_other": 17,
+    "straight_words": {
+      "break": 15,
+      "start": 5,
+      "business": 1
+    },
+    "funny_words": {
+      "sweep": 62
+    },
+    "model_funny_rate": {
+      "3b": 0.1,
+      "8b": 0.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 99,
+    "sentence": "The retired sailor worked in the news because he liked being the ___",
+    "balance": 0.338,
+    "p_straight": 0.71,
+    "p_funny": 0.24,
+    "p_other": 0.05,
+    "n_straight": 71,
+    "n_funny": 24,
+    "n_other": 5,
+    "straight_words": {
+      "center": 46,
+      "narrator": 8,
+      "face": 4,
+      "centre": 3,
+      "star": 3,
+      "spokesperson": 2,
+      "boss": 1,
+      "source": 1,
+      "voice": 1,
+      "spotlight": 1,
+      "storyteller": 1
+    },
+    "funny_words": {
+      "anchor": 23,
+      "anchorman": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.35,
+      "70b": 0.2,
+      "3.3-70b": 0.1,
+      "405b": 0.55
+    }
+  },
+  {
+    "index": 48,
+    "sentence": "The bookbinder's business operated on thin ___",
+    "balance": 0.3378,
+    "p_straight": 0.25,
+    "p_funny": 0.74,
+    "p_other": 0.01,
+    "n_straight": 25,
+    "n_funny": 74,
+    "n_other": 1,
+    "straight_words": {
+      "lines": 15,
+      "profit": 8,
+      "strings": 2
+    },
+    "funny_words": {
+      "margins": 70,
+      "margin": 4
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.7,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 68,
+    "sentence": "The bread was nervous about the meeting because he was about to get ___",
+    "balance": 0.3151,
+    "p_straight": 0.73,
+    "p_funny": 0.23,
+    "p_other": 0.04,
+    "n_straight": 73,
+    "n_funny": 23,
+    "n_other": 4,
+    "straight_words": {
+      "fired": 62,
+      "dismissed": 3,
+      "promoted": 3,
+      "sacked": 2,
+      "rejected": 1,
+      "reprimanded": 1,
+      "reviewed": 1
+    },
+    "funny_words": {
+      "toasted": 20,
+      "served": 2,
+      "eaten": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.1,
+      "8b": 0.0,
+      "70b": 0.05,
+      "3.3-70b": 0.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 92,
+    "sentence": "The tightrope walker went to the bank to check his ___",
+    "balance": 0.2821,
+    "p_straight": 0.78,
+    "p_funny": 0.22,
+    "p_other": 0.0,
+    "n_straight": 78,
+    "n_funny": 22,
+    "n_other": 0,
+    "straight_words": {
+      "account": 78
+    },
+    "funny_words": {
+      "balance": 22
+    },
+    "model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.25,
+      "70b": 0.25,
+      "3.3-70b": 0.0,
+      "405b": 0.55
+    }
+  },
+  {
+    "index": 121,
+    "sentence": "The calendar factory worker was let go because his days were ___",
+    "balance": 0.2742,
+    "p_straight": 0.17,
+    "p_funny": 0.62,
+    "p_other": 0.21,
+    "n_straight": 17,
+    "n_funny": 62,
+    "n_other": 21,
+    "straight_words": {
+      "filled": 7,
+      "slow": 2,
+      "few": 2,
+      "overlapping": 2,
+      "over": 1,
+      "limited": 1,
+      "fixed": 1,
+      "inconsistent": 1
+    },
+    "funny_words": {
+      "numbered": 62
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.1,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 107,
+    "sentence": "The clock was so hungry it went back four ___",
+    "balance": 0.2532,
+    "p_straight": 0.79,
+    "p_funny": 0.2,
+    "p_other": 0.01,
+    "n_straight": 79,
+    "n_funny": 20,
+    "n_other": 1,
+    "straight_words": {
+      "hours": 67,
+      "years": 12
+    },
+    "funny_words": {
+      "seconds": 20
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 108,
+    "sentence": "The business of fireworks has been ___",
+    "balance": 0.25,
+    "p_straight": 0.16,
+    "p_funny": 0.04,
+    "p_other": 0.8,
+    "n_straight": 16,
+    "n_funny": 4,
+    "n_other": 80,
+    "straight_words": {
+      "evolving": 9,
+      "thriving": 3,
+      "growing": 2,
+      "fragmented": 1,
+      "impacted": 1
+    },
+    "funny_words": {
+      "booming": 4
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.2
+    }
+  },
+  {
+    "index": 159,
+    "sentence": "The man sued the airline for losing his luggage but he lost his ___",
+    "balance": 0.2405,
+    "p_straight": 0.19,
+    "p_funny": 0.79,
+    "p_other": 0.02,
+    "n_straight": 19,
+    "n_funny": 79,
+    "n_other": 2,
+    "straight_words": {
+      "temper": 6,
+      "mind": 3,
+      "voice": 3,
+      "wife": 1,
+      "wits": 1,
+      "phone": 1,
+      "identification": 1,
+      "key": 1,
+      "wallet": 1,
+      "lawsuit": 1
+    },
+    "funny_words": {
+      "case": 78,
+      "suit": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.95,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 150,
+    "sentence": "The submarine captain went to a cheap bar that was a total ___",
+    "balance": 0.2405,
+    "p_straight": 0.79,
+    "p_funny": 0.19,
+    "p_other": 0.02,
+    "n_straight": 79,
+    "n_funny": 19,
+    "n_other": 2,
+    "straight_words": {
+      "dump": 49,
+      "disappointment": 12,
+      "disaster": 12,
+      "shithole": 2,
+      "wreck": 1,
+      "eyesore": 1,
+      "ripoff": 1,
+      "slum": 1
+    },
+    "funny_words": {
+      "dive": 19
+    },
+    "model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.1,
+      "70b": 0.55,
+      "3.3-70b": 0.25,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 185,
+    "sentence": "The door salesman was good at his job because he knew exactly how to ___",
+    "balance": 0.2388,
+    "p_straight": 0.67,
+    "p_funny": 0.16,
+    "p_other": 0.17,
+    "n_straight": 67,
+    "n_funny": 16,
+    "n_other": 17,
+    "straight_words": {
+      "manipulate": 23,
+      "persuade": 12,
+      "sell": 11,
+      "market": 6,
+      "approach": 4,
+      "present": 3,
+      "pitch": 3,
+      "negotiate": 2,
+      "succeed": 1,
+      "impress": 1,
+      "connect": 1
+    },
+    "funny_words": {
+      "handle": 8,
+      "close": 6,
+      "push": 2
+    },
+    "model_funny_rate": {
+      "3b": 0.25,
+      "8b": 0.25,
+      "70b": 0.2,
+      "3.3-70b": 0.1,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 147,
+    "sentence": "The baker told his lazy son to stop ___",
+    "balance": 0.2308,
+    "p_straight": 0.78,
+    "p_funny": 0.18,
+    "p_other": 0.04,
+    "n_straight": 78,
+    "n_funny": 18,
+    "n_other": 4,
+    "straight_words": {
+      "daydreaming": 25,
+      "wasting": 18,
+      "sleeping": 7,
+      "sitting": 4,
+      "procrastinating": 4,
+      "slacking": 3,
+      "helping": 3,
+      "eating": 2,
+      "baking": 2,
+      "playing": 2,
+      "watching": 2,
+      "asking": 1,
+      "making": 1,
+      "snoozing": 1,
+      "stealing": 1,
+      "yelling": 1,
+      "messing": 1
+    },
+    "funny_words": {
+      "loafing": 18
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.25,
+      "70b": 0.0,
+      "3.3-70b": 0.2,
+      "405b": 0.45
+    }
+  },
+  {
+    "index": 15,
+    "sentence": "The mountain climber thought the tea shop's prices were too ___",
+    "balance": 0.2195,
+    "p_straight": 0.82,
+    "p_funny": 0.18,
+    "p_other": 0.0,
+    "n_straight": 82,
+    "n_funny": 18,
+    "n_other": 0,
+    "straight_words": {
+      "high": 60,
+      "expensive": 21,
+      "extreme": 1
+    },
+    "funny_words": {
+      "steep": 18
+    },
+    "model_funny_rate": {
+      "3b": 0.2,
+      "8b": 0.2,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.5
+    }
+  },
+  {
+    "index": 167,
+    "sentence": "The homeowner was furious about the leak and finally hit the ___",
+    "balance": 0.2174,
+    "p_straight": 0.1,
+    "p_funny": 0.46,
+    "p_other": 0.44,
+    "n_straight": 10,
+    "n_funny": 46,
+    "n_other": 44,
+    "straight_words": {
+      "wall": 10
+    },
+    "funny_words": {
+      "ceiling": 41,
+      "roof": 5
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.7,
+      "70b": 0.55,
+      "3.3-70b": 0.05,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 2,
+    "sentence": "The calendar thief got twelve ___",
+    "balance": 0.2105,
+    "p_straight": 0.16,
+    "p_funny": 0.76,
+    "p_other": 0.08,
+    "n_straight": 16,
+    "n_funny": 76,
+    "n_other": 8,
+    "straight_words": {
+      "years": 11,
+      "days": 3,
+      "robberies": 1,
+      "hours": 1
+    },
+    "funny_words": {
+      "months": 76
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.8,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 169,
+    "sentence": "The walrus was great at notarizing documents because he had the perfect ___",
+    "balance": 0.2,
+    "p_straight": 0.6,
+    "p_funny": 0.12,
+    "p_other": 0.28,
+    "n_straight": 60,
+    "n_funny": 12,
+    "n_other": 28,
+    "straight_words": {
+      "signature": 34,
+      "stamp": 12,
+      "handwriting": 10,
+      "temperament": 1,
+      "penmanship": 1,
+      "touch": 1,
+      "stamps": 1
+    },
+    "funny_words": {
+      "seal": 12
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.05,
+      "3.3-70b": 0.45,
+      "405b": 0.1
+    }
+  },
+  {
+    "index": 115,
+    "sentence": "The church musician was a transplant donor because she had spare ___",
+    "balance": 0.1951,
+    "p_straight": 0.16,
+    "p_funny": 0.82,
+    "p_other": 0.02,
+    "n_straight": 16,
+    "n_funny": 82,
+    "n_other": 2,
+    "straight_words": {
+      "kidneys": 5,
+      "liver": 4,
+      "time": 2,
+      "tissue": 2,
+      "tissues": 1,
+      "joints": 1,
+      "brain": 1
+    },
+    "funny_words": {
+      "organs": 76,
+      "organ": 6
+    },
+    "model_funny_rate": {
+      "3b": 0.4,
+      "8b": 0.85,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 0.85
+    }
+  },
+  {
+    "index": 168,
+    "sentence": "The mushroom was always invited to parties because he was a ___",
+    "balance": 0.1892,
+    "p_straight": 0.07,
+    "p_funny": 0.37,
+    "p_other": 0.56,
+    "n_straight": 7,
+    "n_funny": 37,
+    "n_other": 56,
+    "straight_words": {
+      "socialite": 4,
+      "gentleman": 1,
+      "success": 1,
+      "funnyman": 1
+    },
+    "funny_words": {
+      "fun-gi": 37
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.85,
+      "3.3-70b": 0.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 140,
+    "sentence": "The parking officer said everything was ___",
+    "balance": 0.1875,
+    "p_straight": 0.15,
+    "p_funny": 0.8,
+    "p_other": 0.05,
+    "n_straight": 15,
+    "n_funny": 80,
+    "n_other": 5,
+    "straight_words": {
+      "okay": 6,
+      "aboveboard": 5,
+      "taken": 2,
+      "legitimate": 1,
+      "signed": 1
+    },
+    "funny_words": {
+      "fine": 80
+    },
+    "model_funny_rate": {
+      "3b": 0.9,
+      "8b": 0.35,
+      "70b": 0.95,
+      "3.3-70b": 0.8,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 136,
+    "sentence": "The knife sharpener quit because work was ___",
+    "balance": 0.1818,
+    "p_straight": 0.44,
+    "p_funny": 0.08,
+    "p_other": 0.48,
+    "n_straight": 44,
+    "n_funny": 8,
+    "n_other": 48,
+    "straight_words": {
+      "unbearable": 8,
+      "scarce": 6,
+      "sporadic": 4,
+      "difficult": 4,
+      "stressful": 3,
+      "unavailable": 3,
+      "unfulfilling": 2,
+      "overwhelming": 2,
+      "slow": 2,
+      "exhausting": 2,
+      "repetitive": 1,
+      "unsatisfying": 1,
+      "strenuous": 1,
+      "sparse": 1,
+      "suffocating": 1,
+      "insufficient": 1,
+      "grueling": 1,
+      "tedious": 1
+    },
+    "funny_words": {
+      "dull": 5,
+      "cutting": 3
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.4
+    }
+  },
+  {
+    "index": 110,
+    "sentence": "The banker left her job because she lost ___",
+    "balance": 0.1733,
+    "p_straight": 0.75,
+    "p_funny": 0.13,
+    "p_other": 0.12,
+    "n_straight": 75,
+    "n_funny": 13,
+    "n_other": 12,
+    "straight_words": {
+      "faith": 22,
+      "everything": 18,
+      "trust": 18,
+      "confidence": 15,
+      "money": 2
+    },
+    "funny_words": {
+      "interest": 13
+    },
+    "model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.5,
+      "405b": 0.1
+    }
+  },
+  {
+    "index": 49,
+    "sentence": "The bicycle fell over after the race because it was ___",
+    "balance": 0.1622,
+    "p_straight": 0.74,
+    "p_funny": 0.12,
+    "p_other": 0.14,
+    "n_straight": 74,
+    "n_funny": 12,
+    "n_other": 14,
+    "straight_words": {
+      "unstable": 34,
+      "unbalanced": 15,
+      "broken": 7,
+      "overloaded": 5,
+      "wet": 2,
+      "overweight": 2,
+      "exhausted": 1,
+      "overwhelmed": 1,
+      "underweight": 1,
+      "overheated": 1,
+      "tipped": 1,
+      "unsteady": 1,
+      "overbalanced": 1,
+      "unattended": 1,
+      "leaning": 1
+    },
+    "funny_words": {
+      "tired": 12
+    },
+    "model_funny_rate": {
+      "3b": 0.15,
+      "8b": 0.45,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 181,
+    "sentence": "The cheese maker's creative projects always broke the ___",
+    "balance": 0.1618,
+    "p_straight": 0.11,
+    "p_funny": 0.68,
+    "p_other": 0.21,
+    "n_straight": 11,
+    "n_funny": 68,
+    "n_other": 21,
+    "straight_words": {
+      "rules": 9,
+      "pattern": 1,
+      "boundaries": 1
+    },
+    "funny_words": {
+      "mold": 68
+    },
+    "model_funny_rate": {
+      "3b": 0.35,
+      "8b": 0.25,
+      "70b": 0.9,
+      "3.3-70b": 1.0,
+      "405b": 0.9
+    }
+  },
+  {
+    "index": 11,
+    "sentence": "The frog was happy because he ate what ___",
+    "balance": 0.1579,
+    "p_straight": 0.09,
+    "p_funny": 0.57,
+    "p_other": 0.34,
+    "n_straight": 9,
+    "n_funny": 57,
+    "n_other": 34,
+    "straight_words": {
+      "insects": 4,
+      "everything": 2,
+      "dinner": 1,
+      "something": 1,
+      "breakfast": 1
+    },
+    "funny_words": {
+      "flies": 49,
+      "fly": 7,
+      "bugs": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 1.0,
+      "70b": 0.05,
+      "3.3-70b": 0.8,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 145,
+    "sentence": "The pirate had to learn the alphabet but he got lost at ___",
+    "balance": 0.1569,
+    "p_straight": 0.08,
+    "p_funny": 0.51,
+    "p_other": 0.41,
+    "n_straight": 8,
+    "n_funny": 51,
+    "n_other": 41,
+    "straight_words": {
+      "z": 3,
+      "b": 2,
+      "q": 2,
+      "x": 1
+    },
+    "funny_words": {
+      "c": 31,
+      "sea": 20
+    },
+    "model_funny_rate": {
+      "3b": 0.85,
+      "8b": 0.1,
+      "70b": 0.55,
+      "3.3-70b": 0.05,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 12,
+    "sentence": "The roof repairman offered his services for free because it was on the ___",
+    "balance": 0.1562,
+    "p_straight": 0.1,
+    "p_funny": 0.64,
+    "p_other": 0.26,
+    "n_straight": 10,
+    "n_funny": 64,
+    "n_other": 26,
+    "straight_words": {
+      "property": 9,
+      "properties": 1
+    },
+    "funny_words": {
+      "house": 64
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.2,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 75,
+    "sentence": "The comedian's fishing stories always had a great ___",
+    "balance": 0.1538,
+    "p_straight": 0.65,
+    "p_funny": 0.1,
+    "p_other": 0.25,
+    "n_straight": 65,
+    "n_funny": 10,
+    "n_other": 25,
+    "straight_words": {
+      "twist": 32,
+      "punchline": 22,
+      "impact": 6,
+      "effect": 5
+    },
+    "funny_words": {
+      "hook": 10
+    },
+    "model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.0,
+      "70b": 0.4,
+      "3.3-70b": 0.05,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 190,
+    "sentence": "The tennis stringer was kicked out of the library for making a ___",
+    "balance": 0.1486,
+    "p_straight": 0.11,
+    "p_funny": 0.74,
+    "p_other": 0.15,
+    "n_straight": 11,
+    "n_funny": 74,
+    "n_other": 15,
+    "straight_words": {
+      "ruckus": 6,
+      "fuss": 2,
+      "mess": 2,
+      "scene": 1
+    },
+    "funny_words": {
+      "racket": 74
+    },
+    "model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.8,
+      "70b": 1.0,
+      "3.3-70b": 0.85,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 189,
+    "sentence": "The student ate his homework because the teacher said it was a piece of ___",
+    "balance": 0.1481,
+    "p_straight": 0.12,
+    "p_funny": 0.81,
+    "p_other": 0.07,
+    "n_straight": 12,
+    "n_funny": 81,
+    "n_other": 7,
+    "straight_words": {
+      "junk": 6,
+      "art": 1,
+      "literature": 1,
+      "story": 1,
+      "paper": 1,
+      "work": 1,
+      "trash": 1
+    },
+    "funny_words": {
+      "cake": 79,
+      "candy": 2
+    },
+    "model_funny_rate": {
+      "3b": 0.35,
+      "8b": 0.75,
+      "70b": 0.95,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 133,
+    "sentence": "The kleptomaniac didn't understand puns because he always took things ___",
+    "balance": 0.1481,
+    "p_straight": 0.81,
+    "p_funny": 0.12,
+    "p_other": 0.07,
+    "n_straight": 81,
+    "n_funny": 12,
+    "n_other": 7,
+    "straight_words": {
+      "literally": 81
+    },
+    "funny_words": {
+      "away": 12
+    },
+    "model_funny_rate": {
+      "3b": 0.6,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 67,
+    "sentence": "The cliff diver's career took a sudden ___",
+    "balance": 0.1412,
+    "p_straight": 0.85,
+    "p_funny": 0.12,
+    "p_other": 0.03,
+    "n_straight": 85,
+    "n_funny": 12,
+    "n_other": 3,
+    "straight_words": {
+      "turn": 80,
+      "downturn": 4,
+      "downfall": 1
+    },
+    "funny_words": {
+      "plunge": 12
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.6
+    }
+  },
+  {
+    "index": 60,
+    "sentence": "The witch couldn't do magic in English because she couldn't ___",
+    "balance": 0.1364,
+    "p_straight": 0.88,
+    "p_funny": 0.12,
+    "p_other": 0.0,
+    "n_straight": 88,
+    "n_funny": 12,
+    "n_other": 0,
+    "straight_words": {
+      "pronounce": 60,
+      "speak": 11,
+      "cast": 6,
+      "remember": 6,
+      "understand": 2,
+      "control": 1,
+      "read": 1,
+      "translate": 1
+    },
+    "funny_words": {
+      "spell": 12
+    },
+    "model_funny_rate": {
+      "3b": 0.2,
+      "8b": 0.35,
+      "70b": 0.05,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 77,
+    "sentence": "The clock was impossible to calm down because it was always ___",
+    "balance": 0.1325,
+    "p_straight": 0.11,
+    "p_funny": 0.83,
+    "p_other": 0.06,
+    "n_straight": 11,
+    "n_funny": 83,
+    "n_other": 6,
+    "straight_words": {
+      "running": 10,
+      "fast": 1
+    },
+    "funny_words": {
+      "ticking": 83
+    },
+    "model_funny_rate": {
+      "3b": 0.2,
+      "8b": 1.0,
+      "70b": 0.95,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 22,
+    "sentence": "The cat always interrupted the swimmer by jumping into his ___",
+    "balance": 0.1236,
+    "p_straight": 0.89,
+    "p_funny": 0.11,
+    "p_other": 0.0,
+    "n_straight": 89,
+    "n_funny": 11,
+    "n_other": 0,
+    "straight_words": {
+      "pool": 71,
+      "lane": 15,
+      "lanes": 3
+    },
+    "funny_words": {
+      "lap": 11
+    },
+    "model_funny_rate": {
+      "3b": 0.1,
+      "8b": 0.3,
+      "70b": 0.1,
+      "3.3-70b": 0.0,
+      "405b": 0.05
+    }
+  },
+  {
+    "index": 85,
+    "sentence": "The electrician's party was going well until someone blew a ___",
+    "balance": 0.1176,
+    "p_straight": 0.1,
+    "p_funny": 0.85,
+    "p_other": 0.05,
+    "n_straight": 10,
+    "n_funny": 85,
+    "n_other": 5,
+    "straight_words": {
+      "whistle": 7,
+      "trumpet": 1,
+      "horn": 1,
+      "gambit": 1
+    },
+    "funny_words": {
+      "fuse": 85
+    },
+    "model_funny_rate": {
+      "3b": 0.25,
+      "8b": 1.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 182,
+    "sentence": "The boat maker's excuse wouldn't ___",
+    "balance": 0.1149,
+    "p_straight": 0.87,
+    "p_funny": 0.1,
+    "p_other": 0.03,
+    "n_straight": 87,
+    "n_funny": 10,
+    "n_other": 3,
+    "straight_words": {
+      "hold": 74,
+      "stand": 13
+    },
+    "funny_words": {
+      "wash": 8,
+      "fly": 2
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.05,
+      "70b": 0.35,
+      "3.3-70b": 0.1,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 18,
+    "sentence": "The golfer's shirt was always wrinkled because he could never find his ___",
+    "balance": 0.1111,
+    "p_straight": 0.1,
+    "p_funny": 0.9,
+    "p_other": 0.0,
+    "n_straight": 10,
+    "n_funny": 90,
+    "n_other": 0,
+    "straight_words": {
+      "ironing": 6,
+      "dresser": 1,
+      "dryer": 1,
+      "laundrybasket": 1,
+      "laundry": 1
+    },
+    "funny_words": {
+      "iron": 90
+    },
+    "model_funny_rate": {
+      "3b": 0.8,
+      "8b": 0.7,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 130,
+    "sentence": "The boxer proposed marriage in the ___",
+    "balance": 0.1111,
+    "p_straight": 0.08,
+    "p_funny": 0.72,
+    "p_other": 0.2,
+    "n_straight": 8,
+    "n_funny": 72,
+    "n_other": 20,
+    "straight_words": {
+      "park": 7,
+      "gym": 1
+    },
+    "funny_words": {
+      "ring": 71,
+      "corner": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.1,
+      "8b": 0.5,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 135,
+    "sentence": "The elephant always packed light except for his ___",
+    "balance": 0.1081,
+    "p_straight": 0.08,
+    "p_funny": 0.74,
+    "p_other": 0.18,
+    "n_straight": 8,
+    "n_funny": 74,
+    "n_other": 18,
+    "straight_words": {
+      "back": 4,
+      "backpack": 2,
+      "truckload": 1,
+      "trumpet": 1
+    },
+    "funny_words": {
+      "trunk": 71,
+      "trunkfuls": 1,
+      "trunkfull": 1,
+      "trunkful": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.7,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 0.95
+    }
+  },
+  {
+    "index": 24,
+    "sentence": "The blanket was the most supportive friend because it had everyone ___",
+    "balance": 0.1,
+    "p_straight": 0.07,
+    "p_funny": 0.7,
+    "p_other": 0.23,
+    "n_straight": 7,
+    "n_funny": 70,
+    "n_other": 23,
+    "straight_words": {
+      "snuggled": 4,
+      "together": 2,
+      "cuddled": 1
+    },
+    "funny_words": {
+      "wrapped": 60,
+      "covered": 7,
+      "back": 3
+    },
+    "model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.65,
+      "70b": 0.8,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 47,
+    "sentence": "The astronaut broke up with his girlfriend because he needed more ___",
+    "balance": 0.0989,
+    "p_straight": 0.09,
+    "p_funny": 0.91,
+    "p_other": 0.0,
+    "n_straight": 9,
+    "n_funny": 91,
+    "n_other": 0,
+    "straight_words": {
+      "time": 6,
+      "freedom": 3
+    },
+    "funny_words": {
+      "space": 91
+    },
+    "model_funny_rate": {
+      "3b": 0.6,
+      "8b": 0.95,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 154,
+    "sentence": "The lightning was terrible at relationships because it always ___",
+    "balance": 0.0988,
+    "p_straight": 0.08,
+    "p_funny": 0.81,
+    "p_other": 0.11,
+    "n_straight": 8,
+    "n_funny": 81,
+    "n_other": 11,
+    "straight_words": {
+      "separated": 5,
+      "destroyed": 1,
+      "fizzled": 1,
+      "disrupted": 1
+    },
+    "funny_words": {
+      "struck": 81
+    },
+    "model_funny_rate": {
+      "3b": 0.1,
+      "8b": 0.95,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 6,
+    "sentence": "The shoe store went bankrupt because it couldn't find its ___",
+    "balance": 0.0879,
+    "p_straight": 0.91,
+    "p_funny": 0.08,
+    "p_other": 0.01,
+    "n_straight": 91,
+    "n_funny": 8,
+    "n_other": 1,
+    "straight_words": {
+      "niche": 64,
+      "target": 7,
+      "inventory": 5,
+      "way": 3,
+      "market": 2,
+      "accounts": 2,
+      "ideal": 1,
+      "accountant": 1,
+      "suppliers": 1,
+      "cashflow": 1,
+      "bestseller": 1,
+      "mainstay": 1,
+      "owner": 1,
+      "manager": 1
+    },
+    "funny_words": {
+      "footing": 7,
+      "soles": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.3,
+      "8b": 0.05,
+      "70b": 0.05,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 142,
+    "sentence": "The pig's memoir came straight from her ___",
+    "balance": 0.0864,
+    "p_straight": 0.81,
+    "p_funny": 0.07,
+    "p_other": 0.12,
+    "n_straight": 81,
+    "n_funny": 7,
+    "n_other": 12,
+    "straight_words": {
+      "heart": 57,
+      "mouth": 8,
+      "experiences": 7,
+      "kitchen": 2,
+      "diary": 2,
+      "experience": 1,
+      "memories": 1,
+      "imagination": 1,
+      "life": 1,
+      "lips": 1
+    },
+    "funny_words": {
+      "pen": 7
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.35
+    }
+  },
+  {
+    "index": 14,
+    "sentence": "The shovel's greatest contribution to society was truly ___",
+    "balance": 0.0822,
+    "p_straight": 0.73,
+    "p_funny": 0.06,
+    "p_other": 0.21,
+    "n_straight": 73,
+    "n_funny": 6,
+    "n_other": 21,
+    "straight_words": {
+      "revolutionary": 26,
+      "underappreciated": 12,
+      "underrated": 12,
+      "remarkable": 5,
+      "invaluable": 3,
+      "underestimated": 2,
+      "immeasurable": 2,
+      "transformative": 1,
+      "historical": 1,
+      "significant": 1,
+      "unprecedented": 1,
+      "unappreciated": 1,
+      "unrivaled": 1,
+      "revolutionizing": 1,
+      "pioneering": 1,
+      "unheralded": 1,
+      "understated": 1,
+      "monumental": 1
+    },
+    "funny_words": {
+      "groundbreaking": 6
+    },
+    "model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.1,
+      "70b": 0.05,
+      "3.3-70b": 0.05,
+      "405b": 0.05
+    }
+  },
+  {
+    "index": 109,
+    "sentence": "The picture should have never been found guilty, but it had been ___",
+    "balance": 0.082,
+    "p_straight": 0.61,
+    "p_funny": 0.05,
+    "p_other": 0.34,
+    "n_straight": 61,
+    "n_funny": 5,
+    "n_other": 34,
+    "straight_words": {
+      "convicted": 17,
+      "accused": 13,
+      "misinterpreted": 12,
+      "misidentified": 4,
+      "prosecuted": 3,
+      "exposed": 2,
+      "condemned": 2,
+      "arrested": 2,
+      "captured": 1,
+      "mischaracterized": 1,
+      "misrepresented": 1,
+      "defamed": 1,
+      "sentenced": 1,
+      "charged": 1
+    },
+    "funny_words": {
+      "framed": 5
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.25
+    }
+  },
+  {
+    "index": 170,
+    "sentence": "The mathematician's garden was struggling because the plants had square ___",
+    "balance": 0.0761,
+    "p_straight": 0.07,
+    "p_funny": 0.92,
+    "p_other": 0.01,
+    "n_straight": 7,
+    "n_funny": 92,
+    "n_other": 1,
+    "straight_words": {
+      "leaves": 6,
+      "petals": 1
+    },
+    "funny_words": {
+      "roots": 92
+    },
+    "model_funny_rate": {
+      "3b": 0.6,
+      "8b": 1.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 50,
+    "sentence": "The electrician quit the band because he couldn't handle the constant ___",
+    "balance": 0.0698,
+    "p_straight": 0.86,
+    "p_funny": 0.06,
+    "p_other": 0.08,
+    "n_straight": 86,
+    "n_funny": 6,
+    "n_other": 8,
+    "straight_words": {
+      "traveling": 24,
+      "travel": 10,
+      "rehearsals": 9,
+      "drama": 9,
+      "pressure": 8,
+      "touring": 6,
+      "drumming": 5,
+      "conflict": 3,
+      "stress": 2,
+      "arguments": 2,
+      "criticism": 2,
+      "demands": 1,
+      "noisiness": 1,
+      "noise": 1,
+      "volume": 1,
+      "disruptions": 1,
+      "chaos": 1
+    },
+    "funny_words": {
+      "tension": 4,
+      "shocking": 1,
+      "feedback": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.2,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.1
+    }
+  },
+  {
+    "index": 81,
+    "sentence": "The thunder cloud joined the union and then it kept ___",
+    "balance": 0.069,
+    "p_straight": 0.87,
+    "p_funny": 0.06,
+    "p_other": 0.07,
+    "n_straight": 87,
+    "n_funny": 6,
+    "n_other": 7,
+    "straight_words": {
+      "growing": 36,
+      "raining": 25,
+      "moving": 8,
+      "gathering": 4,
+      "pouring": 2,
+      "rising": 2,
+      "rolling": 2,
+      "shaking": 1,
+      "working": 1,
+      "shifting": 1,
+      "running": 1,
+      "pounding": 1,
+      "breaking": 1,
+      "roaring": 1,
+      "drifting": 1
+    },
+    "funny_words": {
+      "striking": 6
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.25,
+      "3.3-70b": 0.05,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 29,
+    "sentence": "The tennis player broke up with his girlfriend because love meant ___",
+    "balance": 0.0667,
+    "p_straight": 0.06,
+    "p_funny": 0.9,
+    "p_other": 0.04,
+    "n_straight": 6,
+    "n_funny": 90,
+    "n_other": 4,
+    "straight_words": {
+      "heartbreak": 2,
+      "happiness": 1,
+      "infidelity": 1,
+      "loss": 1,
+      "compromise": 1
+    },
+    "funny_words": {
+      "nothing": 90
+    },
+    "model_funny_rate": {
+      "3b": 0.7,
+      "8b": 0.8,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 41,
+    "sentence": "The arborist's marriage failed because his wife said he was too ___",
+    "balance": 0.0633,
+    "p_straight": 0.79,
+    "p_funny": 0.05,
+    "p_other": 0.16,
+    "n_straight": 79,
+    "n_funny": 5,
+    "n_other": 16,
+    "straight_words": {
+      "distant": 25,
+      "distracted": 23,
+      "absent": 13,
+      "obsessive": 4,
+      "preoccupied": 3,
+      "absorbed": 2,
+      "selfish": 2,
+      "domineering": 1,
+      "moody": 1,
+      "guarded": 1,
+      "emotional": 1,
+      "focused": 1,
+      "absentminded": 1,
+      "involved": 1
+    },
+    "funny_words": {
+      "rooted": 3,
+      "attached": 2
+    },
+    "model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.05,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.15
+    }
+  },
+  {
+    "index": 153,
+    "sentence": "Never ask a circle for advice because it is totally ___",
+    "balance": 0.0606,
+    "p_straight": 0.33,
+    "p_funny": 0.02,
+    "p_other": 0.65,
+    "n_straight": 33,
+    "n_funny": 2,
+    "n_other": 65,
+    "straight_words": {
+      "one-sided": 16,
+      "selfish": 5,
+      "incomplete": 3,
+      "biased": 3,
+      "inflexible": 2,
+      "inconsistent": 1,
+      "absurd": 1,
+      "useless": 1,
+      "insincere": 1
+    },
+    "funny_words": {
+      "roundabout": 2
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.1,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 139,
+    "sentence": "The police even arrested a belt for holding up a pair of ___",
+    "balance": 0.0556,
+    "p_straight": 0.05,
+    "p_funny": 0.9,
+    "p_other": 0.05,
+    "n_straight": 5,
+    "n_funny": 90,
+    "n_other": 5,
+    "straight_words": {
+      "sneakers": 2,
+      "skateboards": 1,
+      "sunglasses": 1,
+      "scissors": 1
+    },
+    "funny_words": {
+      "pants": 71,
+      "trousers": 10,
+      "jeans": 8,
+      "panties": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.55,
+      "8b": 0.95,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 149,
+    "sentence": "The balloon advertisement was full of ___",
+    "balance": 0.0556,
+    "p_straight": 0.18,
+    "p_funny": 0.01,
+    "p_other": 0.81,
+    "n_straight": 18,
+    "n_funny": 1,
+    "n_other": 81,
+    "straight_words": {
+      "misleading": 4,
+      "promises": 3,
+      "hype": 2,
+      "empty": 2,
+      "hyperbole": 1,
+      "buzzwords": 1,
+      "vacuous": 1,
+      "flaws": 1,
+      "deception": 1,
+      "exaggerations": 1,
+      "excitement": 1
+    },
+    "funny_words": {
+      "air": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.05,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 174,
+    "sentence": "The wall was embarrassed after the party because he got completely ___",
+    "balance": 0.0538,
+    "p_straight": 0.93,
+    "p_funny": 0.05,
+    "p_other": 0.02,
+    "n_straight": 93,
+    "n_funny": 5,
+    "n_other": 2,
+    "straight_words": {
+      "drunk": 69,
+      "covered": 13,
+      "splattered": 2,
+      "soaked": 2,
+      "distracted": 1,
+      "hurt": 1,
+      "dumped": 1,
+      "drenched": 1,
+      "wet": 1,
+      "trashed": 1,
+      "naked": 1
+    },
+    "funny_words": {
+      "plastered": 5
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.25
+    }
+  },
+  {
+    "index": 65,
+    "sentence": "The mailman's jokes were hilarious because of his ___",
+    "balance": 0.0536,
+    "p_straight": 0.0303,
+    "p_funny": 0.5657,
+    "p_other": 0.404,
+    "n_straight": 3,
+    "n_funny": 56,
+    "n_other": 40,
+    "straight_words": {
+      "ability": 2,
+      "charisma": 1
+    },
+    "funny_words": {
+      "delivery": 56
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.8,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 20,
+    "sentence": "The puzzle maker's alibi had too many missing ___",
+    "balance": 0.0532,
+    "p_straight": 0.05,
+    "p_funny": 0.94,
+    "p_other": 0.01,
+    "n_straight": 5,
+    "n_funny": 94,
+    "n_other": 1,
+    "straight_words": {
+      "links": 2,
+      "details": 2,
+      "documents": 1
+    },
+    "funny_words": {
+      "pieces": 92,
+      "holes": 2
+    },
+    "model_funny_rate": {
+      "3b": 0.85,
+      "8b": 0.85,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 127,
+    "sentence": "The man who fell into an upholstery machine is now fully ___",
+    "balance": 0.0526,
+    "p_straight": 0.05,
+    "p_funny": 0.95,
+    "p_other": 0.0,
+    "n_straight": 5,
+    "n_funny": 95,
+    "n_other": 0,
+    "straight_words": {
+      "covered": 2,
+      "recuperated": 1,
+      "restored": 1,
+      "mended": 1
+    },
+    "funny_words": {
+      "recovered": 89,
+      "upholstered": 6
+    },
+    "model_funny_rate": {
+      "3b": 0.9,
+      "8b": 0.95,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 0.9
+    }
+  },
+  {
+    "index": 59,
+    "sentence": "The ocean seems so friendly because it is always ___",
+    "balance": 0.0476,
+    "p_straight": 0.63,
+    "p_funny": 0.03,
+    "p_other": 0.34,
+    "n_straight": 63,
+    "n_funny": 3,
+    "n_other": 34,
+    "straight_words": {
+      "calm": 34,
+      "moving": 29
+    },
+    "funny_words": {
+      "waving": 3
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.15,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 52,
+    "sentence": "The earthquake couldn't accept blame because nothing was ever his ___",
+    "balance": 0.0469,
+    "p_straight": 0.03,
+    "p_funny": 0.64,
+    "p_other": 0.33,
+    "n_straight": 3,
+    "n_funny": 64,
+    "n_other": 33,
+    "straight_words": {
+      "responsibility": 1,
+      "mistake": 1,
+      "intention": 1
+    },
+    "funny_words": {
+      "fault": 64
+    },
+    "model_funny_rate": {
+      "3b": 0.1,
+      "8b": 0.1,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 156,
+    "sentence": "The bread was afraid to be best man, because he would have to make a ___",
+    "balance": 0.0426,
+    "p_straight": 0.94,
+    "p_funny": 0.04,
+    "p_other": 0.02,
+    "n_straight": 94,
+    "n_funny": 4,
+    "n_other": 2,
+    "straight_words": {
+      "speech": 94
+    },
+    "funny_words": {
+      "toast": 4
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.1,
+      "70b": 0.05,
+      "3.3-70b": 0.0,
+      "405b": 0.05
+    }
+  },
+  {
+    "index": 82,
+    "sentence": "The batteries were given out free of ___",
+    "balance": 0.0417,
+    "p_straight": 0.04,
+    "p_funny": 0.96,
+    "p_other": 0.0,
+    "n_straight": 4,
+    "n_funny": 96,
+    "n_other": 0,
+    "straight_words": {
+      "cost": 4
+    },
+    "funny_words": {
+      "charge": 96
+    },
+    "model_funny_rate": {
+      "3b": 0.8,
+      "8b": 1.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 43,
+    "sentence": "After his return the astronaut chose this restaurant because it had great ___",
+    "balance": 0.0417,
+    "p_straight": 0.96,
+    "p_funny": 0.04,
+    "p_other": 0.0,
+    "n_straight": 96,
+    "n_funny": 4,
+    "n_other": 0,
+    "straight_words": {
+      "reviews": 39,
+      "food": 24,
+      "views": 23,
+      "service": 2,
+      "reputation": 2,
+      "steaks": 2,
+      "view": 1,
+      "barbecue": 1,
+      "review": 1,
+      "burgers": 1
+    },
+    "funny_words": {
+      "atmosphere": 4
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.2,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 171,
+    "sentence": "The pilot's jokes never seemed to ___",
+    "balance": 0.04,
+    "p_straight": 0.02,
+    "p_funny": 0.5,
+    "p_other": 0.48,
+    "n_straight": 2,
+    "n_funny": 50,
+    "n_other": 48,
+    "straight_words": {
+      "work": 1,
+      "hit": 1
+    },
+    "funny_words": {
+      "land": 50
+    },
+    "model_funny_rate": {
+      "3b": 0.8,
+      "8b": 0.15,
+      "70b": 0.65,
+      "3.3-70b": 0.8,
+      "405b": 0.1
+    }
+  },
+  {
+    "index": 138,
+    "sentence": "The dangerous iPhone was arrested and charged with ___",
+    "balance": 0.04,
+    "p_straight": 0.75,
+    "p_funny": 0.03,
+    "p_other": 0.22,
+    "n_straight": 75,
+    "n_funny": 3,
+    "n_other": 22,
+    "straight_words": {
+      "assault": 35,
+      "misdemeanor": 17,
+      "manslaughter": 17,
+      "possession": 2,
+      "crimes": 1,
+      "hacking": 1,
+      "negligence": 1,
+      "conspiracy": 1
+    },
+    "funny_words": {
+      "battery": 3
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.05,
+      "405b": 0.1
+    }
+  },
+  {
+    "index": 172,
+    "sentence": "The wind turbine salesman was a huge ___",
+    "balance": 0.0345,
+    "p_straight": 0.87,
+    "p_funny": 0.03,
+    "p_other": 0.1,
+    "n_straight": 87,
+    "n_funny": 3,
+    "n_other": 10,
+    "straight_words": {
+      "success": 46,
+      "liar": 9,
+      "failure": 8,
+      "disappointment": 4,
+      "enthusiast": 4,
+      "talker": 3,
+      "scammer": 3,
+      "charlatan": 2,
+      "con": 2,
+      "character": 2,
+      "fibber": 1,
+      "legend": 1,
+      "schmoozer": 1,
+      "supporter": 1
+    },
+    "funny_words": {
+      "fan": 3
+    },
+    "model_funny_rate": {
+      "3b": 0.15,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 132,
+    "sentence": "The thief fell in the cement and became a ___",
+    "balance": 0.0333,
+    "p_straight": 0.03,
+    "p_funny": 0.9,
+    "p_other": 0.07,
+    "n_straight": 3,
+    "n_funny": 90,
+    "n_other": 7,
+    "straight_words": {
+      "stuck": 2,
+      "fugitive": 1
+    },
+    "funny_words": {
+      "statue": 80,
+      "fixture": 6,
+      "mold": 2,
+      "permanentfixture": 1,
+      "part": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.8,
+      "8b": 0.8,
+      "70b": 0.95,
+      "3.3-70b": 0.95,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 157,
+    "sentence": "The archaeologist's career was in ___",
+    "balance": 0.0333,
+    "p_straight": 0.9,
+    "p_funny": 0.03,
+    "p_other": 0.07,
+    "n_straight": 90,
+    "n_funny": 3,
+    "n_other": 7,
+    "straight_words": {
+      "jeopardy": 80,
+      "discovery": 8,
+      "shambles": 1,
+      "tatters": 1
+    },
+    "funny_words": {
+      "ruins": 2,
+      "ruin": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.15
+    }
+  },
+  {
+    "index": 37,
+    "sentence": "The union workers went bowling and got a ___",
+    "balance": 0.0328,
+    "p_straight": 0.02,
+    "p_funny": 0.61,
+    "p_other": 0.37,
+    "n_straight": 2,
+    "n_funny": 61,
+    "n_other": 37,
+    "straight_words": {
+      "discount": 1,
+      "coupon": 1
+    },
+    "funny_words": {
+      "strike": 57,
+      "turkey": 3,
+      "split": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.05,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 187,
+    "sentence": "The chef stopped dating comedians because every meal ended with a ___",
+    "balance": 0.0323,
+    "p_straight": 0.93,
+    "p_funny": 0.03,
+    "p_other": 0.04,
+    "n_straight": 93,
+    "n_funny": 3,
+    "n_other": 4,
+    "straight_words": {
+      "joke": 68,
+      "punchline": 17,
+      "fight": 4,
+      "routine": 1,
+      "disaster": 1,
+      "laugh": 1,
+      "lecture": 1
+    },
+    "funny_words": {
+      "roast": 3
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.15,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 166,
+    "sentence": "The knife salesman's pitch was convincing because it always had a sharp ___",
+    "balance": 0.0309,
+    "p_straight": 0.03,
+    "p_funny": 0.97,
+    "p_other": 0.0,
+    "n_straight": 3,
+    "n_funny": 97,
+    "n_other": 0,
+    "straight_words": {
+      "blade": 2,
+      "demonstration": 1
+    },
+    "funny_words": {
+      "edge": 94,
+      "point": 3
+    },
+    "model_funny_rate": {
+      "3b": 1.0,
+      "8b": 1.0,
+      "70b": 0.95,
+      "3.3-70b": 1.0,
+      "405b": 0.9
+    }
+  },
+  {
+    "index": 58,
+    "sentence": "The fish was smart because it spent all its time in a ___",
+    "balance": 0.0274,
+    "p_straight": 0.73,
+    "p_funny": 0.02,
+    "p_other": 0.25,
+    "n_straight": 73,
+    "n_funny": 2,
+    "n_other": 25,
+    "straight_words": {
+      "library": 56,
+      "tank": 16,
+      "cave": 1
+    },
+    "funny_words": {
+      "school": 2
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.1,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 175,
+    "sentence": "Even after the bad carpenter was elected president, he couldn't assemble a ___",
+    "balance": 0.0263,
+    "p_straight": 0.02,
+    "p_funny": 0.76,
+    "p_other": 0.22,
+    "n_straight": 2,
+    "n_funny": 76,
+    "n_other": 22,
+    "straight_words": {
+      "team": 1,
+      "furniture": 1
+    },
+    "funny_words": {
+      "cabinet": 76
+    },
+    "model_funny_rate": {
+      "3b": 0.25,
+      "8b": 0.55,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 84,
+    "sentence": "The fish couldn't learn guitar because he couldn't get past the ___",
+    "balance": 0.0217,
+    "p_straight": 0.92,
+    "p_funny": 0.02,
+    "p_other": 0.06,
+    "n_straight": 92,
+    "n_funny": 2,
+    "n_other": 6,
+    "straight_words": {
+      "fretboard": 24,
+      "fingers": 21,
+      "fingering": 11,
+      "strings": 9,
+      "difficulty": 5,
+      "fret": 4,
+      "frets": 4,
+      "fingertips": 3,
+      "chords": 3,
+      "barrier": 2,
+      "fretting": 2,
+      "chord": 1,
+      "technique": 1,
+      "bar": 1,
+      "finger": 1
+    },
+    "funny_words": {
+      "scales": 2
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.05,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.05
+    }
+  },
+  {
+    "index": 163,
+    "sentence": "The traffic light was embarrassed and turned red when it had to ___",
+    "balance": 0.0213,
+    "p_straight": 0.94,
+    "p_funny": 0.02,
+    "p_other": 0.04,
+    "n_straight": 94,
+    "n_funny": 2,
+    "n_other": 4,
+    "straight_words": {
+      "admit": 36,
+      "stop": 30,
+      "confront": 6,
+      "announce": 4,
+      "signal": 4,
+      "yield": 3,
+      "confess": 3,
+      "fail": 2,
+      "direct": 1,
+      "inform": 1,
+      "interrupt": 1,
+      "explain": 1,
+      "apologize": 1,
+      "serve": 1
+    },
+    "funny_words": {
+      "change": 2
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.1,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 31,
+    "sentence": "The tomato blushed because it saw the salad ___",
+    "balance": 0.0189,
+    "p_straight": 0.01,
+    "p_funny": 0.53,
+    "p_other": 0.46,
+    "n_straight": 1,
+    "n_funny": 53,
+    "n_other": 46,
+    "straight_words": {
+      "greens": 1
+    },
+    "funny_words": {
+      "dressing": 53
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.2,
+      "70b": 0.6,
+      "3.3-70b": 0.85,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 23,
+    "sentence": "The sailor and his wife were always having a ___",
+    "balance": 0.0145,
+    "p_straight": 0.69,
+    "p_funny": 0.01,
+    "p_other": 0.3,
+    "n_straight": 69,
+    "n_funny": 1,
+    "n_other": 30,
+    "straight_words": {
+      "disagreement": 46,
+      "fight": 16,
+      "argument": 3,
+      "debate": 1,
+      "quarrel": 1,
+      "feud": 1,
+      "fistfight": 1
+    },
+    "funny_words": {
+      "row": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 155,
+    "sentence": "The corn stalk was a good listener because it was all ___",
+    "balance": 0.0127,
+    "p_straight": 0.01,
+    "p_funny": 0.79,
+    "p_other": 0.2,
+    "n_straight": 1,
+    "n_funny": 79,
+    "n_other": 20,
+    "straight_words": {
+      "there": 1
+    },
+    "funny_words": {
+      "ears": 79
+    },
+    "model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.9,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 173,
+    "sentence": "The electrician went to the mall for an emotional ___",
+    "balance": 0.0125,
+    "p_straight": 0.8,
+    "p_funny": 0.01,
+    "p_other": 0.19,
+    "n_straight": 80,
+    "n_funny": 1,
+    "n_other": 19,
+    "straight_words": {
+      "breakdown": 26,
+      "outburst": 13,
+      "break": 11,
+      "episode": 10,
+      "escape": 9,
+      "appointment": 2,
+      "epiphany": 2,
+      "outpouring": 2,
+      "encounter": 2,
+      "moment": 1,
+      "experience": 1,
+      "reunion": 1
+    },
+    "funny_words": {
+      "outlet": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.05,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 98,
+    "sentence": "The lizard keeper got a job in IT because he already worked with ___",
+    "balance": 0.0118,
+    "p_straight": 0.85,
+    "p_funny": 0.01,
+    "p_other": 0.14,
+    "n_straight": 85,
+    "n_funny": 1,
+    "n_other": 14,
+    "straight_words": {
+      "computers": 30,
+      "reptiles": 14,
+      "networks": 12,
+      "snakes": 11,
+      "systems": 4,
+      "servers": 4,
+      "computer": 2,
+      "lizards": 1,
+      "mainframes": 1,
+      "mainframe": 1,
+      "screens": 1,
+      "hardware": 1,
+      "reptile": 1,
+      "cold-blooded": 1,
+      "reptilian": 1
+    },
+    "funny_words": {
+      "scales": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.05,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 44,
+    "sentence": "The scarecrow got promoted because he was outstanding in his ___",
+    "balance": 0.0116,
+    "p_straight": 0.01,
+    "p_funny": 0.86,
+    "p_other": 0.13,
+    "n_straight": 1,
+    "n_funny": 86,
+    "n_other": 13,
+    "straight_words": {
+      "ability": 1
+    },
+    "funny_words": {
+      "field": 84,
+      "fields": 1,
+      "fieldwork": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.35,
+      "8b": 0.95,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 193,
+    "sentence": "The biologist cried at every sad movie because she was an expert on ___",
+    "balance": 0.0106,
+    "p_straight": 0.94,
+    "p_funny": 0.01,
+    "p_other": 0.05,
+    "n_straight": 94,
+    "n_funny": 1,
+    "n_other": 5,
+    "straight_words": {
+      "emotions": 61,
+      "empathy": 14,
+      "grief": 8,
+      "animal": 3,
+      "human": 2,
+      "tragedy": 2,
+      "suffering": 1,
+      "extinction": 1,
+      "pain": 1,
+      "trauma": 1
+    },
+    "funny_words": {
+      "tissues": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.05,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 125,
+    "sentence": "The ship captain was impossible to negotiate with because he was too ___",
+    "balance": 0.0105,
+    "p_straight": 0.95,
+    "p_funny": 0.01,
+    "p_other": 0.04,
+    "n_straight": 95,
+    "n_funny": 1,
+    "n_other": 4,
+    "straight_words": {
+      "stubborn": 72,
+      "proud": 7,
+      "independent": 3,
+      "ambitious": 2,
+      "absolutist": 1,
+      "blind": 1,
+      "obstinate": 1,
+      "conceited": 1,
+      "adamant": 1,
+      "assertive": 1,
+      "authoritative": 1,
+      "controlling": 1,
+      "shortsighted": 1,
+      "demanding": 1,
+      "stingy": 1
+    },
+    "funny_words": {
+      "stern": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.05,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 101,
+    "sentence": "The math book looked sad because it had too many ___",
+    "balance": 0.0104,
+    "p_straight": 0.01,
+    "p_funny": 0.96,
+    "p_other": 0.03,
+    "n_straight": 1,
+    "n_funny": 96,
+    "n_other": 3,
+    "straight_words": {
+      "defects": 1
+    },
+    "funny_words": {
+      "problems": 96
+    },
+    "model_funny_rate": {
+      "3b": 0.85,
+      "8b": 0.95,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 4,
+    "sentence": "The possessive geologist kept insisting everything underground was ___",
+    "balance": 0.0104,
+    "p_straight": 0.96,
+    "p_funny": 0.01,
+    "p_other": 0.03,
+    "n_straight": 96,
+    "n_funny": 1,
+    "n_other": 3,
+    "straight_words": {
+      "his": 71,
+      "stable": 10,
+      "hers": 5,
+      "theirs": 3,
+      "solid": 2,
+      "hot": 1,
+      "real": 1,
+      "formed": 1,
+      "sturdy": 1,
+      "excavated": 1
+    },
+    "funny_words": {
+      "mine": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 198,
+    "sentence": "The cannibal showed up late to the luncheon so he was given the cold ___",
+    "balance": 0.0103,
+    "p_straight": 0.01,
+    "p_funny": 0.97,
+    "p_other": 0.02,
+    "n_straight": 1,
+    "n_funny": 97,
+    "n_other": 2,
+    "straight_words": {
+      "welcome": 1
+    },
+    "funny_words": {
+      "shoulder": 95,
+      "shoulders": 2
+    },
+    "model_funny_rate": {
+      "3b": 0.9,
+      "8b": 0.95,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 141,
+    "sentence": "The tennis player was upset because love meant ___",
+    "balance": 0.0102,
+    "p_straight": 0.01,
+    "p_funny": 0.98,
+    "p_other": 0.01,
+    "n_straight": 1,
+    "n_funny": 98,
+    "n_other": 1,
+    "straight_words": {
+      "something": 1
+    },
+    "funny_words": {
+      "nothing": 77,
+      "zero": 21
+    },
+    "model_funny_rate": {
+      "3b": 0.9,
+      "8b": 1.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 9,
+    "sentence": "The seamstress was the funniest person in the shop; she kept everyone in ___",
+    "balance": 0.0101,
+    "p_straight": 0.01,
+    "p_funny": 0.99,
+    "p_other": 0.0,
+    "n_straight": 1,
+    "n_funny": 99,
+    "n_other": 0,
+    "straight_words": {
+      "laughs": 1
+    },
+    "funny_words": {
+      "stitches": 99
+    },
+    "model_funny_rate": {
+      "3b": 1.0,
+      "8b": 0.95,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 69,
+    "sentence": "The butcher was great at poker because he always raised the ___",
+    "balance": 0.0101,
+    "p_straight": 0.01,
+    "p_funny": 0.99,
+    "p_other": 0.0,
+    "n_straight": 1,
+    "n_funny": 99,
+    "n_other": 0,
+    "straight_words": {
+      "bet": 1
+    },
+    "funny_words": {
+      "stakes": 79,
+      "stake": 12,
+      "steaks": 8
+    },
+    "model_funny_rate": {
+      "3b": 0.95,
+      "8b": 1.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 30,
+    "sentence": "The sun doesn't need to go to college since it already has a million ___",
+    "balance": 0.0,
+    "p_straight": 0.0,
+    "p_funny": 1.0,
+    "p_other": 0.0,
+    "n_straight": 0,
+    "n_funny": 100,
+    "n_other": 0,
+    "straight_words": {},
+    "funny_words": {
+      "degrees": 84,
+      "degree": 16
+    },
+    "model_funny_rate": {
+      "3b": 1.0,
+      "8b": 1.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 118,
+    "sentence": "The ailing water diviner said she wasn't feeling ___",
+    "balance": 0.0,
+    "p_straight": 0.0,
+    "p_funny": 1.0,
+    "p_other": 0.0,
+    "n_straight": 0,
+    "n_funny": 100,
+    "n_other": 0,
+    "straight_words": {},
+    "funny_words": {
+      "well": 100
+    },
+    "model_funny_rate": {
+      "3b": 1.0,
+      "8b": 1.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 152,
+    "sentence": "The arctic navigator was great at parties because he knew how to break the ___",
+    "balance": 0.0,
+    "p_straight": 0.0,
+    "p_funny": 1.0,
+    "p_other": 0.0,
+    "n_straight": 0,
+    "n_funny": 100,
+    "n_other": 0,
+    "straight_words": {},
+    "funny_words": {
+      "ice": 100
+    },
+    "model_funny_rate": {
+      "3b": 1.0,
+      "8b": 1.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 177,
+    "sentence": "The elevator was stressed because everyone kept pushing his ___",
+    "balance": 0.0,
+    "p_straight": 0.0,
+    "p_funny": 0.99,
+    "p_other": 0.01,
+    "n_straight": 0,
+    "n_funny": 99,
+    "n_other": 1,
+    "straight_words": {},
+    "funny_words": {
+      "buttons": 87,
+      "button": 12
+    },
+    "model_funny_rate": {
+      "3b": 0.95,
+      "8b": 1.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 179,
+    "sentence": "The ski instructor's career went ___",
+    "balance": 0.0,
+    "p_straight": 0.0,
+    "p_funny": 0.94,
+    "p_other": 0.06,
+    "n_straight": 0,
+    "n_funny": 94,
+    "n_other": 6,
+    "straight_words": {},
+    "funny_words": {
+      "downhill": 90,
+      "uphill": 4
+    },
+    "model_funny_rate": {
+      "3b": 0.8,
+      "8b": 0.9,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 123,
+    "sentence": "The elevator operator's jokes were brilliant because they worked on so many ___",
+    "balance": 0.0,
+    "p_straight": 0.0,
+    "p_funny": 0.82,
+    "p_other": 0.18,
+    "n_straight": 0,
+    "n_funny": 82,
+    "n_other": 18,
+    "straight_words": {},
+    "funny_words": {
+      "levels": 82
+    },
+    "model_funny_rate": {
+      "3b": 0.2,
+      "8b": 0.9,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 196,
+    "sentence": "The poker player always did his laundry at the right time, because he knew when to ___",
+    "balance": 0.0,
+    "p_straight": 0.0,
+    "p_funny": 0.82,
+    "p_other": 0.18,
+    "n_straight": 0,
+    "n_funny": 82,
+    "n_other": 18,
+    "straight_words": {},
+    "funny_words": {
+      "fold": 81,
+      "folding": 1
+    },
+    "model_funny_rate": {
+      "3b": 0.9,
+      "8b": 0.3,
+      "70b": 1.0,
+      "3.3-70b": 0.95,
+      "405b": 0.95
+    }
+  },
+  {
+    "index": 86,
+    "sentence": "The photon checked into a hotel without luggage because it was traveling ___",
+    "balance": 0.0,
+    "p_straight": 0.0,
+    "p_funny": 0.8,
+    "p_other": 0.2,
+    "n_straight": 0,
+    "n_funny": 80,
+    "n_other": 20,
+    "straight_words": {},
+    "funny_words": {
+      "light": 74,
+      "lightly": 6
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 1.0,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 143,
+    "sentence": "The firefighter's mixtape was hot because every track was straight ___",
+    "balance": 0.0,
+    "p_straight": 0.0,
+    "p_funny": 0.74,
+    "p_other": 0.26,
+    "n_straight": 0,
+    "n_funny": 74,
+    "n_other": 26,
+    "straight_words": {},
+    "funny_words": {
+      "fire": 74
+    },
+    "model_funny_rate": {
+      "3b": 0.05,
+      "8b": 0.65,
+      "70b": 1.0,
+      "3.3-70b": 1.0,
+      "405b": 1.0
+    }
+  },
+  {
+    "index": 161,
+    "sentence": "The graveyard worker was depressed because his career was a ___",
+    "balance": 0.0,
+    "p_straight": 0.0,
+    "p_funny": 0.67,
+    "p_other": 0.33,
+    "n_straight": 0,
+    "n_funny": 67,
+    "n_other": 33,
+    "straight_words": {},
+    "funny_words": {
+      "deadend": 35,
+      "dead-end": 32
+    },
+    "model_funny_rate": {
+      "3b": 1.0,
+      "8b": 1.0,
+      "70b": 0.3,
+      "3.3-70b": 0.1,
+      "405b": 0.95
+    }
+  },
+  {
+    "index": 34,
+    "sentence": "The carefully-planned museum heist pulled off a ___",
+    "balance": 0.0,
+    "p_straight": 0.0,
+    "p_funny": 0.19,
+    "p_other": 0.81,
+    "n_straight": 0,
+    "n_funny": 19,
+    "n_other": 81,
+    "straight_words": {},
+    "funny_words": {
+      "masterpiece": 19
+    },
+    "model_funny_rate": {
+      "3b": 0.9,
+      "8b": 0.05,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 184,
+    "sentence": "The king was only 12 inches tall, making him a pretty good ___",
+    "balance": 0.0,
+    "p_straight": 0.0,
+    "p_funny": 0.02,
+    "p_other": 0.98,
+    "n_straight": 0,
+    "n_funny": 2,
+    "n_other": 98,
+    "straight_words": {},
+    "funny_words": {
+      "fit": 2
+    },
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.05,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.05
+    }
+  },
+  {
+    "index": 0,
+    "sentence": "The tailor won his court case because he had an excellent ___",
+    "balance": 0.0,
+    "p_straight": 0.99,
+    "p_funny": 0.0,
+    "p_other": 0.01,
+    "n_straight": 99,
+    "n_funny": 0,
+    "n_other": 1,
+    "straight_words": {
+      "lawyer": 60,
+      "alibi": 14,
+      "attorney": 11,
+      "memory": 6,
+      "defense": 3,
+      "argument": 2,
+      "reputation": 1,
+      "excuse": 1,
+      "defence": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 1,
+    "sentence": "The magazine editor was overwhelmed because there were too many ___",
+    "balance": 0.0,
+    "p_straight": 0.96,
+    "p_funny": 0.0,
+    "p_other": 0.04,
+    "n_straight": 96,
+    "n_funny": 0,
+    "n_other": 4,
+    "straight_words": {
+      "submissions": 74,
+      "articles": 16,
+      "applications": 2,
+      "requests": 2,
+      "writers": 1,
+      "entries": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 3,
+    "sentence": "After parachuting from space, the adventurer was ___",
+    "balance": 0.0,
+    "p_straight": 0.71,
+    "p_funny": 0.0,
+    "p_other": 0.29,
+    "n_straight": 71,
+    "n_funny": 0,
+    "n_other": 29,
+    "straight_words": {
+      "exhausted": 20,
+      "found": 11,
+      "stranded": 9,
+      "exhilarated": 7,
+      "relieved": 3,
+      "struggling": 3,
+      "rescued": 2,
+      "recovered": 2,
+      "hospitalized": 2,
+      "shaken": 1,
+      "shocked": 1,
+      "covered": 1,
+      "dazed": 1,
+      "greeted": 1,
+      "freezing": 1,
+      "spotted": 1,
+      "thrilled": 1,
+      "met": 1,
+      "successful": 1,
+      "overwhelmed": 1,
+      "lost": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 5,
+    "sentence": "The cow became a philosopher because she loved to ___",
+    "balance": 0.0,
+    "p_straight": 0.9,
+    "p_funny": 0.0,
+    "p_other": 0.1,
+    "n_straight": 90,
+    "n_funny": 0,
+    "n_other": 10,
+    "straight_words": {
+      "think": 35,
+      "ponder": 25,
+      "munch": 14,
+      "contemplate": 8,
+      "mull": 6,
+      "wander": 1,
+      "muse": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 10,
+    "sentence": "The arsonist quit playing tennis after someone stole his ___",
+    "balance": 0.0,
+    "p_straight": 0.99,
+    "p_funny": 0.0,
+    "p_other": 0.01,
+    "n_straight": 99,
+    "n_funny": 0,
+    "n_other": 1,
+    "straight_words": {
+      "racket": 95,
+      "racquet": 2,
+      "backhand": 1,
+      "rackets": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 13,
+    "sentence": "The judge loved writing because it let him pass ___",
+    "balance": 0.0,
+    "p_straight": 0.82,
+    "p_funny": 0.0,
+    "p_other": 0.18,
+    "n_straight": 82,
+    "n_funny": 0,
+    "n_other": 18,
+    "straight_words": {
+      "judgment": 46,
+      "time": 34,
+      "decision": 1,
+      "judgement": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 16,
+    "sentence": "The chicken won the percussion contest with her incredible ___",
+    "balance": 0.0,
+    "p_straight": 0.88,
+    "p_funny": 0.0,
+    "p_other": 0.12,
+    "n_straight": 88,
+    "n_funny": 0,
+    "n_other": 12,
+    "straight_words": {
+      "drumming": 71,
+      "talents": 6,
+      "beats": 2,
+      "talent": 2,
+      "rhythm": 2,
+      "rhythms": 2,
+      "beating": 1,
+      "timekeeping": 1,
+      "skills": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 17,
+    "sentence": "The elevator operator had an eventful life with many ___",
+    "balance": 0.0,
+    "p_straight": 0.8,
+    "p_funny": 0.0,
+    "p_other": 0.2,
+    "n_straight": 80,
+    "n_funny": 0,
+    "n_other": 20,
+    "straight_words": {
+      "adventures": 49,
+      "experiences": 16,
+      "twists": 5,
+      "turns": 2,
+      "surprises": 1,
+      "travels": 1,
+      "incidents": 1,
+      "perils": 1,
+      "excitements": 1,
+      "disturbances": 1,
+      "encounters": 1,
+      "stories": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 19,
+    "sentence": "The train conductor was promoted because of his excellent ___",
+    "balance": 0.0,
+    "p_straight": 0.92,
+    "p_funny": 0.0,
+    "p_other": 0.08,
+    "n_straight": 92,
+    "n_funny": 0,
+    "n_other": 8,
+    "straight_words": {
+      "leadership": 27,
+      "service": 18,
+      "work": 18,
+      "performance": 15,
+      "communication": 11,
+      "management": 2,
+      "communications": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 21,
+    "sentence": "The Swiss cheese maker's alibis were always ___",
+    "balance": 0.0,
+    "p_straight": 0.72,
+    "p_funny": 0.0,
+    "p_other": 0.28,
+    "n_straight": 72,
+    "n_funny": 0,
+    "n_other": 28,
+    "straight_words": {
+      "questionable": 43,
+      "shaky": 8,
+      "questioned": 5,
+      "dubious": 4,
+      "unconvincing": 3,
+      "flawed": 3,
+      "problematic": 2,
+      "rock-solid": 1,
+      "unverifiable": 1,
+      "suspicious": 1,
+      "convincing": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 28,
+    "sentence": "The forgetful collector left their ___",
+    "balance": 0.0,
+    "p_straight": 0.74,
+    "p_funny": 0.0,
+    "p_other": 0.26,
+    "n_straight": 74,
+    "n_funny": 0,
+    "n_other": 26,
+    "straight_words": {
+      "wallet": 39,
+      "valuables": 12,
+      "portfolio": 4,
+      "luggage": 3,
+      "items": 3,
+      "belongings": 1,
+      "umbrella": 1,
+      "jewels": 1,
+      "treasures": 1,
+      "backpack": 1,
+      "glasses": 1,
+      "note": 1,
+      "artifacts": 1,
+      "notebook": 1,
+      "purse": 1,
+      "house": 1,
+      "paintings": 1,
+      "passport": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 32,
+    "sentence": "The painter's breakup letter was short, but it still carried a lot of ___",
+    "balance": 0.0,
+    "p_straight": 0.56,
+    "p_funny": 0.0,
+    "p_other": 0.44,
+    "n_straight": 56,
+    "n_funny": 0,
+    "n_other": 44,
+    "straight_words": {
+      "emotion": 36,
+      "weight": 18,
+      "pain": 1,
+      "hurt": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 35,
+    "sentence": "The baker couldn't solve the mystery because the evidence kept ___",
+    "balance": 0.0,
+    "p_straight": 0.98,
+    "p_funny": 0.0,
+    "p_other": 0.02,
+    "n_straight": 98,
+    "n_funny": 0,
+    "n_other": 2,
+    "straight_words": {
+      "disappearing": 79,
+      "fading": 6,
+      "vanishing": 5,
+      "changing": 4,
+      "slipping": 2,
+      "eluding": 1,
+      "moving": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 36,
+    "sentence": "The psychic midget escaped prison and was a small ___",
+    "balance": 0.0,
+    "p_straight": 0.54,
+    "p_funny": 0.0,
+    "p_other": 0.46,
+    "n_straight": 54,
+    "n_funny": 0,
+    "n_other": 46,
+    "straight_words": {
+      "fugitive": 32,
+      "problem": 15,
+      "target": 3,
+      "threat": 2,
+      "villain": 1,
+      "menace": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 39,
+    "sentence": "Ghosts love going to bars because they enjoy the ___",
+    "balance": 0.0,
+    "p_straight": 0.98,
+    "p_funny": 0.0,
+    "p_other": 0.02,
+    "n_straight": 98,
+    "n_funny": 0,
+    "n_other": 2,
+    "straight_words": {
+      "atmosphere": 95,
+      "vibes": 1,
+      "mood": 1,
+      "company": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 40,
+    "sentence": "The basketball player became a writer because he was great at the ___",
+    "balance": 0.0,
+    "p_straight": 0.39,
+    "p_funny": 0.0,
+    "p_other": 0.61,
+    "n_straight": 39,
+    "n_funny": 0,
+    "n_other": 61,
+    "straight_words": {
+      "storytelling": 17,
+      "craft": 5,
+      "art": 5,
+      "narrative": 5,
+      "telling": 4,
+      "sportswriting": 2,
+      "genre": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 42,
+    "sentence": "The vulture boarded the airplane with two dead raccoons but was told he was only allowed one ___",
+    "balance": 0.0,
+    "p_straight": 0.6,
+    "p_funny": 0.0,
+    "p_other": 0.4,
+    "n_straight": 60,
+    "n_funny": 0,
+    "n_other": 40,
+    "straight_words": {
+      "carry-on": 32,
+      "carryon": 19,
+      "baggage": 4,
+      "carcass": 2,
+      "animal": 1,
+      "bag": 1,
+      "companion": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 51,
+    "sentence": "After 40 years of teaching archaeology, they told the professor, 'You're ___'",
+    "balance": 0.0,
+    "p_straight": 0.82,
+    "p_funny": 0.0,
+    "p_other": 0.18,
+    "n_straight": 82,
+    "n_funny": 0,
+    "n_other": 18,
+    "straight_words": {
+      "fired": 39,
+      "retiring": 28,
+      "retired": 10,
+      "done": 4,
+      "overqualified": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 53,
+    "sentence": "Sir Lancelot's armor was rusty because he'd been pulling too many ___",
+    "balance": 0.0,
+    "p_straight": 0.51,
+    "p_funny": 0.0,
+    "p_other": 0.49,
+    "n_straight": 51,
+    "n_funny": 0,
+    "n_other": 49,
+    "straight_words": {
+      "all-nighters": 50,
+      "shifts": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 54,
+    "sentence": "The newspaper editor was always ___ for time",
+    "balance": 0.0,
+    "p_straight": 0.0,
+    "p_funny": 0.0,
+    "p_other": 1.0,
+    "n_straight": 0,
+    "n_funny": 0,
+    "n_other": 100,
+    "straight_words": {},
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 56,
+    "sentence": "The lawyer's jokes flopped because they were too ___",
+    "balance": 0.0,
+    "p_straight": 0.85,
+    "p_funny": 0.0,
+    "p_other": 0.15,
+    "n_straight": 85,
+    "n_funny": 0,
+    "n_other": 15,
+    "straight_words": {
+      "obscure": 27,
+      "corny": 18,
+      "convoluted": 11,
+      "obvious": 7,
+      "predictable": 7,
+      "sophisticated": 4,
+      "clich\u00e9d": 3,
+      "long": 2,
+      "absurd": 1,
+      "rude": 1,
+      "bad": 1,
+      "serious": 1,
+      "cheesy": 1,
+      "longwinded": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 57,
+    "sentence": "The local commuter's experiences are very hard to ___",
+    "balance": 0.0,
+    "p_straight": 0.95,
+    "p_funny": 0.0,
+    "p_other": 0.05,
+    "n_straight": 95,
+    "n_funny": 0,
+    "n_other": 5,
+    "straight_words": {
+      "relate": 23,
+      "quantify": 17,
+      "predict": 14,
+      "understand": 12,
+      "describe": 9,
+      "document": 5,
+      "recreate": 4,
+      "imagine": 3,
+      "fathom": 2,
+      "reproduce": 2,
+      "explain": 1,
+      "gauge": 1,
+      "analyze": 1,
+      "capture": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 63,
+    "sentence": "The sausage maker's work was the ___",
+    "balance": 0.0,
+    "p_straight": 0.67,
+    "p_funny": 0.0,
+    "p_other": 0.33,
+    "n_straight": 67,
+    "n_funny": 0,
+    "n_other": 33,
+    "straight_words": {
+      "talk": 22,
+      "envy": 12,
+      "backbone": 9,
+      "result": 7,
+      "key": 5,
+      "foundation": 3,
+      "source": 3,
+      "best": 1,
+      "basis": 1,
+      "centerpiece": 1,
+      "topic": 1,
+      "epitome": 1,
+      "center": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 70,
+    "sentence": "The fashion designer's behavior at work was always ___",
+    "balance": 0.0,
+    "p_straight": 0.99,
+    "p_funny": 0.0,
+    "p_other": 0.01,
+    "n_straight": 99,
+    "n_funny": 0,
+    "n_other": 1,
+    "straight_words": {
+      "professional": 61,
+      "unprofessional": 18,
+      "unpredictable": 9,
+      "problematic": 2,
+      "impeccable": 2,
+      "erratic": 1,
+      "disruptive": 1,
+      "rebellious": 1,
+      "inconsistent": 1,
+      "turbulent": 1,
+      "questionable": 1,
+      "exemplary": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 72,
+    "sentence": "The garbage collector was so stubborn he would never ___",
+    "balance": 0.0,
+    "p_straight": 0.9,
+    "p_funny": 0.0,
+    "p_other": 0.1,
+    "n_straight": 90,
+    "n_funny": 0,
+    "n_other": 10,
+    "straight_words": {
+      "listen": 48,
+      "compromise": 20,
+      "accept": 5,
+      "give": 4,
+      "agree": 3,
+      "move": 3,
+      "budge": 3,
+      "comply": 2,
+      "leave": 1,
+      "change": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 73,
+    "sentence": "The laundry felt betrayed after it was ___",
+    "balance": 0.0,
+    "p_straight": 0.45,
+    "p_funny": 0.0,
+    "p_other": 0.55,
+    "n_straight": 45,
+    "n_funny": 0,
+    "n_other": 55,
+    "straight_words": {
+      "shrunk": 20,
+      "accused": 7,
+      "forgotten": 6,
+      "lost": 4,
+      "stolen": 2,
+      "overloaded": 2,
+      "abandoned": 2,
+      "stained": 2
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 76,
+    "sentence": "The wizard ran a fantastic music school because he had a great ___",
+    "balance": 0.0,
+    "p_straight": 0.99,
+    "p_funny": 0.0,
+    "p_other": 0.01,
+    "n_straight": 99,
+    "n_funny": 0,
+    "n_other": 1,
+    "straight_words": {
+      "passion": 75,
+      "ear": 9,
+      "understanding": 7,
+      "talent": 3,
+      "reputation": 3,
+      "affection": 1,
+      "appreciation": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 78,
+    "sentence": "When the egg farmer tried to organize his inventory, everything turned into a complete ___",
+    "balance": 0.0,
+    "p_straight": 1.0,
+    "p_funny": 0.0,
+    "p_other": 0.0,
+    "n_straight": 100,
+    "n_funny": 0,
+    "n_other": 0,
+    "straight_words": {
+      "chaos": 55,
+      "mess": 37,
+      "disaster": 7,
+      "nightmare": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 83,
+    "sentence": "The live art competition was very close and ended in a ___",
+    "balance": 0.0,
+    "p_straight": 0.79,
+    "p_funny": 0.0,
+    "p_other": 0.21,
+    "n_straight": 79,
+    "n_funny": 0,
+    "n_other": 21,
+    "straight_words": {
+      "tie": 72,
+      "deadlock": 4,
+      "draw": 2,
+      "deadheat": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 87,
+    "sentence": "The deli owner was great at ending arguments because he could see through the ___",
+    "balance": 0.0,
+    "p_straight": 0.91,
+    "p_funny": 0.0,
+    "p_other": 0.09,
+    "n_straight": 91,
+    "n_funny": 0,
+    "n_other": 9,
+    "straight_words": {
+      "nonsense": 37,
+      "facade": 23,
+      "emotions": 9,
+      "bickering": 3,
+      "rhetoric": 3,
+      "bitchiness": 1,
+      "bitterness": 1,
+      "histrionics": 1,
+      "frustration": 1,
+      "emotion": 1,
+      "bullshit": 1,
+      "smokescreen": 1,
+      "posturing": 1,
+      "bull": 1,
+      "hypocrisy": 1,
+      "expectations": 1,
+      "b.s": 1,
+      "subtext": 1,
+      "subtleties": 1,
+      "surface": 1,
+      "bluff": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 90,
+    "sentence": "The hockey player became a banker because he was used to handling ___",
+    "balance": 0.0,
+    "p_straight": 0.35,
+    "p_funny": 0.0,
+    "p_other": 0.65,
+    "n_straight": 35,
+    "n_funny": 0,
+    "n_other": 65,
+    "straight_words": {
+      "money": 28,
+      "pressure": 6,
+      "pucks": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 91,
+    "sentence": "The boat mechanic kept the company going because he kept everything ___",
+    "balance": 0.0,
+    "p_straight": 0.75,
+    "p_funny": 0.0,
+    "p_other": 0.25,
+    "n_straight": 75,
+    "n_funny": 0,
+    "n_other": 25,
+    "straight_words": {
+      "running": 52,
+      "organized": 19,
+      "well-oiled": 2,
+      "spotless": 1,
+      "up": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 93,
+    "sentence": "The caterpillar was optimistic because he believed in personal ___",
+    "balance": 0.0,
+    "p_straight": 1.0,
+    "p_funny": 0.0,
+    "p_other": 0.0,
+    "n_straight": 100,
+    "n_funny": 0,
+    "n_other": 0,
+    "straight_words": {
+      "growth": 100
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 95,
+    "sentence": "The indecisive chef reopened his restaurant but still had ___",
+    "balance": 0.0,
+    "p_straight": 0.85,
+    "p_funny": 0.0,
+    "p_other": 0.15,
+    "n_straight": 85,
+    "n_funny": 0,
+    "n_other": 15,
+    "straight_words": {
+      "trouble": 62,
+      "doubts": 10,
+      "difficulty": 7,
+      "difficulties": 3,
+      "second-guessing": 2,
+      "troubles": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 100,
+    "sentence": "The photographer hated gossip because it always developed into ___",
+    "balance": 0.0,
+    "p_straight": 0.26,
+    "p_funny": 0.0,
+    "p_other": 0.74,
+    "n_straight": 26,
+    "n_funny": 0,
+    "n_other": 74,
+    "straight_words": {
+      "rumors": 12,
+      "slander": 3,
+      "unpleasantness": 2,
+      "gossip": 1,
+      "ridicule": 1,
+      "tension": 1,
+      "scandal": 1,
+      "drama": 1,
+      "badmouthing": 1,
+      "confrontations": 1,
+      "lies": 1,
+      "trouble": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 102,
+    "sentence": "The dentist and the manicurist argued ___",
+    "balance": 0.0,
+    "p_straight": 0.13,
+    "p_funny": 0.0,
+    "p_other": 0.87,
+    "n_straight": 13,
+    "n_funny": 0,
+    "n_other": 87,
+    "straight_words": {
+      "loudly": 4,
+      "bitterly": 4,
+      "constantly": 2,
+      "heavily": 1,
+      "fiercely": 1,
+      "heatedly": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 103,
+    "sentence": "The filmmaker somehow ended up in HR because she knew how to ___ people",
+    "balance": 0.0,
+    "p_straight": 0.78,
+    "p_funny": 0.0,
+    "p_other": 0.22,
+    "n_straight": 78,
+    "n_funny": 0,
+    "n_other": 22,
+    "straight_words": {
+      "mediate": 31,
+      "handle": 20,
+      "manage": 15,
+      "manipulate": 7,
+      "negotiate": 3,
+      "influence": 1,
+      "problem-solve": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 105,
+    "sentence": "The average data scientist is hard to befriend because they are so ___",
+    "balance": 0.0,
+    "p_straight": 0.9798,
+    "p_funny": 0.0,
+    "p_other": 0.0202,
+    "n_straight": 97,
+    "n_funny": 0,
+    "n_other": 2,
+    "straight_words": {
+      "intelligent": 31,
+      "analytical": 19,
+      "introverted": 17,
+      "focused": 12,
+      "absorbed": 6,
+      "intense": 3,
+      "self-contained": 2,
+      "self-absorbed": 2,
+      "reserved": 1,
+      "obsessed": 1,
+      "introspective": 1,
+      "meticulous": 1,
+      "logical": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 106,
+    "sentence": "The clueless archaeologist was terrible at ___",
+    "balance": 0.0,
+    "p_straight": 0.95,
+    "p_funny": 0.0,
+    "p_other": 0.05,
+    "n_straight": 95,
+    "n_funny": 0,
+    "n_other": 5,
+    "straight_words": {
+      "deciphering": 24,
+      "excavating": 21,
+      "finding": 11,
+      "reading": 9,
+      "excavations": 7,
+      "digging": 6,
+      "excavation": 3,
+      "interpreting": 3,
+      "identifying": 2,
+      "anything": 1,
+      "archaeology": 1,
+      "assembling": 1,
+      "understanding": 1,
+      "digs": 1,
+      "navigating": 1,
+      "interpretation": 1,
+      "following": 1,
+      "translating": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 111,
+    "sentence": "The lumberjack's diary was thick because he kept detailed ___",
+    "balance": 0.0,
+    "p_straight": 1.0,
+    "p_funny": 0.0,
+    "p_other": 0.0,
+    "n_straight": 100,
+    "n_funny": 0,
+    "n_other": 0,
+    "straight_words": {
+      "records": 44,
+      "accounts": 42,
+      "entries": 8,
+      "notes": 3,
+      "account": 1,
+      "notations": 1,
+      "descriptions": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 113,
+    "sentence": "The coin maker went crazy and stopped making any ___",
+    "balance": 0.0,
+    "p_straight": 0.94,
+    "p_funny": 0.0,
+    "p_other": 0.06,
+    "n_straight": 94,
+    "n_funny": 0,
+    "n_other": 6,
+    "straight_words": {
+      "coins": 90,
+      "money": 3,
+      "specimens": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 114,
+    "sentence": "The geometry teacher was adorable because she was so ___",
+    "balance": 0.0,
+    "p_straight": 0.98,
+    "p_funny": 0.0,
+    "p_other": 0.02,
+    "n_straight": 98,
+    "n_funny": 0,
+    "n_other": 2,
+    "straight_words": {
+      "passionate": 30,
+      "quirky": 18,
+      "patient": 10,
+      "young": 8,
+      "enthusiastic": 8,
+      "kind": 5,
+      "sweet": 4,
+      "handsome": 3,
+      "hands-on": 3,
+      "nice": 2,
+      "tall": 1,
+      "affectionate": 1,
+      "petite": 1,
+      "funny": 1,
+      "beautiful": 1,
+      "meticulous": 1,
+      "nerdy": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 119,
+    "sentence": "The wedding photographer refused to work divorces because they involved too much ___",
+    "balance": 0.0,
+    "p_straight": 0.86,
+    "p_funny": 0.0,
+    "p_other": 0.14,
+    "n_straight": 86,
+    "n_funny": 0,
+    "n_other": 14,
+    "straight_words": {
+      "drama": 47,
+      "negativity": 14,
+      "sadness": 6,
+      "conflict": 5,
+      "emotion": 4,
+      "stress": 4,
+      "hate": 2,
+      "cruelty": 2,
+      "sorrow": 1,
+      "damage": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 120,
+    "sentence": "I think the bank is very impressed with my loan because they tell me how it is still ___",
+    "balance": 0.0,
+    "p_straight": 0.92,
+    "p_funny": 0.0,
+    "p_other": 0.08,
+    "n_straight": 92,
+    "n_funny": 0,
+    "n_other": 8,
+    "straight_words": {
+      "performing": 73,
+      "available": 7,
+      "going": 2,
+      "owed": 2,
+      "increasing": 2,
+      "approved": 2,
+      "underperforming": 1,
+      "open": 1,
+      "negotiable": 1,
+      "underway": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 122,
+    "sentence": "This terrible mirror was obviously made without ___",
+    "balance": 0.0,
+    "p_straight": 0.69,
+    "p_funny": 0.0,
+    "p_other": 0.31,
+    "n_straight": 69,
+    "n_funny": 0,
+    "n_other": 31,
+    "straight_words": {
+      "care": 31,
+      "regard": 18,
+      "consideration": 10,
+      "quality": 6,
+      "thought": 1,
+      "craftsmanship": 1,
+      "patience": 1,
+      "love": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 124,
+    "sentence": "The dry cleaner could never stop to chat because he had so many ___",
+    "balance": 0.0,
+    "p_straight": 0.99,
+    "p_funny": 0.0,
+    "p_other": 0.01,
+    "n_straight": 99,
+    "n_funny": 0,
+    "n_other": 1,
+    "straight_words": {
+      "customers": 92,
+      "shirts": 4,
+      "clothes": 2,
+      "orders": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 128,
+    "sentence": "The retired pilot's therapist said he was surprisingly well ___",
+    "balance": 0.0,
+    "p_straight": 0.99,
+    "p_funny": 0.0,
+    "p_other": 0.01,
+    "n_straight": 99,
+    "n_funny": 0,
+    "n_other": 1,
+    "straight_words": {
+      "adjusted": 95,
+      "adjusting": 3,
+      "adapted": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 134,
+    "sentence": "The chemist was reading a book on helium and he just couldn't ___",
+    "balance": 0.0,
+    "p_straight": 0.72,
+    "p_funny": 0.0,
+    "p_other": 0.28,
+    "n_straight": 72,
+    "n_funny": 0,
+    "n_other": 28,
+    "straight_words": {
+      "understand": 36,
+      "stop": 18,
+      "concentrate": 10,
+      "believe": 5,
+      "forget": 1,
+      "comprehend": 1,
+      "focus": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 151,
+    "sentence": "The tailor's business was just ___",
+    "balance": 0.0,
+    "p_straight": 0.97,
+    "p_funny": 0.0,
+    "p_other": 0.03,
+    "n_straight": 97,
+    "n_funny": 0,
+    "n_other": 3,
+    "straight_words": {
+      "starting": 57,
+      "booming": 20,
+      "beginning": 15,
+      "thriving": 4,
+      "struggling": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 158,
+    "sentence": "The pilot's autobiography sold out after his career ___",
+    "balance": 0.0,
+    "p_straight": 0.6,
+    "p_funny": 0.0,
+    "p_other": 0.4,
+    "n_straight": 60,
+    "n_funny": 0,
+    "n_other": 40,
+    "straight_words": {
+      "ended": 59,
+      "sparked": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 162,
+    "sentence": "The scuba instructor's students loved her because she never made them feel ___",
+    "balance": 0.0,
+    "p_straight": 0.94,
+    "p_funny": 0.0,
+    "p_other": 0.06,
+    "n_straight": 94,
+    "n_funny": 0,
+    "n_other": 6,
+    "straight_words": {
+      "stupid": 29,
+      "nervous": 16,
+      "overwhelmed": 9,
+      "intimidated": 9,
+      "uncomfortable": 7,
+      "inadequate": 5,
+      "inferior": 4,
+      "embarrassed": 3,
+      "belittled": 3,
+      "self-conscious": 2,
+      "scared": 2,
+      "anxious": 2,
+      "overcrowded": 1,
+      "bored": 1,
+      "guilty": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 164,
+    "sentence": "The plumber went to the casino and got a ___",
+    "balance": 0.0,
+    "p_straight": 0.78,
+    "p_funny": 0.0,
+    "p_other": 0.22,
+    "n_straight": 78,
+    "n_funny": 0,
+    "n_other": 22,
+    "straight_words": {
+      "jackpot": 53,
+      "job": 24,
+      "bet": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 165,
+    "sentence": "The grammarian knew he had to be careful whenever he got ___",
+    "balance": 0.0,
+    "p_straight": 0.15,
+    "p_funny": 0.0,
+    "p_other": 0.85,
+    "n_straight": 15,
+    "n_funny": 0,
+    "n_other": 85,
+    "straight_words": {
+      "involved": 9,
+      "drunk": 2,
+      "talking": 2,
+      "tired": 1,
+      "confronted": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 176,
+    "sentence": "The poker player loved this mountain trail because it ended at a ___",
+    "balance": 0.0,
+    "p_straight": 0.7,
+    "p_funny": 0.0,
+    "p_other": 0.3,
+    "n_straight": 70,
+    "n_funny": 0,
+    "n_other": 30,
+    "straight_words": {
+      "casino": 52,
+      "lodge": 7,
+      "waterfall": 4,
+      "lake": 4,
+      "meadow": 1,
+      "cabins": 1,
+      "lakehouse": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 178,
+    "sentence": "During the embargo, the navy cardiologist had to work on a blocked ___",
+    "balance": 0.0,
+    "p_straight": 0.95,
+    "p_funny": 0.0,
+    "p_other": 0.05,
+    "n_straight": 95,
+    "n_funny": 0,
+    "n_other": 5,
+    "straight_words": {
+      "artery": 70,
+      "coronary": 19,
+      "aorta": 3,
+      "airway": 2,
+      "vena": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 180,
+    "sentence": "The cafeteria lady quit because she was ___",
+    "balance": 0.0,
+    "p_straight": 0.91,
+    "p_funny": 0.0,
+    "p_other": 0.09,
+    "n_straight": 91,
+    "n_funny": 0,
+    "n_other": 9,
+    "straight_words": {
+      "tired": 54,
+      "overworked": 23,
+      "underpaid": 9,
+      "overwhelmed": 3,
+      "sick": 2
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 183,
+    "sentence": "The horse breeder's business was always ___",
+    "balance": 0.0,
+    "p_straight": 0.99,
+    "p_funny": 0.0,
+    "p_other": 0.01,
+    "n_straight": 99,
+    "n_funny": 0,
+    "n_other": 1,
+    "straight_words": {
+      "thriving": 66,
+      "booming": 16,
+      "struggling": 14,
+      "understaffed": 1,
+      "successful": 1,
+      "flourishing": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 188,
+    "sentence": "Argue with your pharmacist, and you will find she always has a ___",
+    "balance": 0.0,
+    "p_straight": 0.83,
+    "p_funny": 0.0,
+    "p_other": 0.17,
+    "n_straight": 83,
+    "n_funny": 0,
+    "n_other": 17,
+    "straight_words": {
+      "prescription": 26,
+      "reason": 23,
+      "solution": 14,
+      "point": 6,
+      "script": 5,
+      "counterargument": 4,
+      "selection": 1,
+      "recommendation": 1,
+      "answer": 1,
+      "perscription": 1,
+      "justification": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 191,
+    "sentence": "The comedian's jokes about unemployment weren't ___",
+    "balance": 0.0,
+    "p_straight": 0.91,
+    "p_funny": 0.0,
+    "p_other": 0.09,
+    "n_straight": 91,
+    "n_funny": 0,
+    "n_other": 9,
+    "straight_words": {
+      "funny": 86,
+      "well-received": 4,
+      "popular": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 192,
+    "sentence": "The singer couldn't find a good practice room since every apartment was a little ___",
+    "balance": 0.0,
+    "p_straight": 0.72,
+    "p_funny": 0.0,
+    "p_other": 0.28,
+    "n_straight": 72,
+    "n_funny": 0,
+    "n_other": 28,
+    "straight_words": {
+      "noisy": 38,
+      "small": 12,
+      "chaotic": 6,
+      "smaller": 6,
+      "expensive": 4,
+      "cramped": 2,
+      "furnished": 1,
+      "overcrowded": 1,
+      "noisier": 1,
+      "loud": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 195,
+    "sentence": "The barber's philosophy lectures were popular because he always made the ___",
+    "balance": 0.0,
+    "p_straight": 0.47,
+    "p_funny": 0.0,
+    "p_other": 0.53,
+    "n_straight": 47,
+    "n_funny": 0,
+    "n_other": 53,
+    "straight_words": {
+      "point": 19,
+      "subject": 18,
+      "connection": 6,
+      "points": 1,
+      "material": 1,
+      "ideas": 1,
+      "concept": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 199,
+    "sentence": "After digging for treasure the pirate went to the doctor complaining of ___ pains",
+    "balance": 0.0,
+    "p_straight": 0.15,
+    "p_funny": 0.0,
+    "p_other": 0.85,
+    "n_straight": 15,
+    "n_funny": 0,
+    "n_other": 85,
+    "straight_words": {
+      "back": 15
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 200,
+    "sentence": "The dieter went to the paint store to get ___",
+    "balance": 0.0,
+    "p_straight": 0.39,
+    "p_funny": 0.0,
+    "p_other": 0.61,
+    "n_straight": 39,
+    "n_funny": 0,
+    "n_other": 61,
+    "straight_words": {
+      "paint": 16,
+      "colors": 15,
+      "color": 2,
+      "red": 1,
+      "trim": 1,
+      "acrylic": 1,
+      "enamel": 1,
+      "supplies": 1,
+      "spray": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 202,
+    "sentence": "The Greek architect became a journalist because he totally loved ___",
+    "balance": 0.0,
+    "p_straight": 0.96,
+    "p_funny": 0.0,
+    "p_other": 0.04,
+    "n_straight": 96,
+    "n_funny": 0,
+    "n_other": 4,
+    "straight_words": {
+      "writing": 88,
+      "reporting": 4,
+      "storytelling": 2,
+      "covering": 1,
+      "researching": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  },
+  {
+    "index": 204,
+    "sentence": "The chicken soup company is a great investment and a great ___",
+    "balance": 0.0,
+    "p_straight": 0.84,
+    "p_funny": 0.0,
+    "p_other": 0.16,
+    "n_straight": 84,
+    "n_funny": 0,
+    "n_other": 16,
+    "straight_words": {
+      "opportunity": 70,
+      "business": 11,
+      "venture": 2,
+      "buy": 1
+    },
+    "funny_words": {},
+    "model_funny_rate": {
+      "3b": 0.0,
+      "8b": 0.0,
+      "70b": 0.0,
+      "3.3-70b": 0.0,
+      "405b": 0.0
+    }
+  }
+]

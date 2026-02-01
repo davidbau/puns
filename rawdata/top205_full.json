@@ -1,0 +1,2677 @@
+[
+  {
+    "id": 300,
+    "source": "original",
+    "sentence": "The photon checked into a hotel without luggage because it was traveling ___",
+    "straight": [
+      "alone",
+      "fast",
+      "poorly"
+    ],
+    "punny": [
+      "light"
+    ]
+  },
+  {
+    "id": 244,
+    "source": "original",
+    "sentence": "The kleptomaniac didn't understand puns because he always took things ___",
+    "straight": [
+      "seriously",
+      "personally",
+      "literally"
+    ],
+    "punny": [
+      "literally"
+    ]
+  },
+  {
+    "id": 346,
+    "source": "original",
+    "sentence": "The psychic midget escaped prison and was a small ___",
+    "straight": [
+      "fugitive",
+      "criminal",
+      "outlaw"
+    ],
+    "punny": [
+      "medium at large"
+    ]
+  },
+  {
+    "id": 237,
+    "source": "original",
+    "sentence": "The golfer brought an extra pair of pants in case he got a ___",
+    "straight": [
+      "stain",
+      "rip",
+      "tear"
+    ],
+    "punny": [
+      "hole in one"
+    ]
+  },
+  {
+    "id": 281,
+    "source": "original",
+    "sentence": "The tennis player broke up with his girlfriend because love meant ___",
+    "straight": [
+      "pain",
+      "heartbreak",
+      "commitment"
+    ],
+    "punny": [
+      "nothing"
+    ]
+  },
+  {
+    "id": 271,
+    "source": "original",
+    "sentence": "The king was only 12 inches tall, making him a pretty good ___",
+    "straight": [
+      "warrior",
+      "fighter",
+      "leader"
+    ],
+    "punny": [
+      "ruler"
+    ]
+  },
+  {
+    "id": 360,
+    "source": "original",
+    "sentence": "The vulture boarded the airplane with two dead raccoons but was told he was only allowed one ___",
+    "straight": [
+      "bag",
+      "suitcase",
+      "item"
+    ],
+    "punny": [
+      "carrion"
+    ]
+  },
+  {
+    "id": 500,
+    "source": "rewritten",
+    "sentence": "The elevator operator's jokes were brilliant because they worked on so many ___",
+    "straight": [
+      "people",
+      "audiences",
+      "topics"
+    ],
+    "punny": [
+      "levels"
+    ]
+  },
+  {
+    "id": 126,
+    "source": "rewritten",
+    "sentence": "The singer couldn't find a good practice room since every apartment was a little ___",
+    "straight": [
+      "small",
+      "expensive",
+      "noisy"
+    ],
+    "punny": [
+      "flat"
+    ]
+  },
+  {
+    "id": 278,
+    "source": "original",
+    "sentence": "The cross-eyed teacher lost her job because she couldn't control her ___",
+    "straight": [
+      "temper",
+      "classroom",
+      "schedule"
+    ],
+    "punny": [
+      "pupils"
+    ]
+  },
+  {
+    "id": 2029,
+    "source": "invented2",
+    "sentence": "The Greek architect became a journalist because he totally loved ___",
+    "straight": [
+      "narratives",
+      "stories",
+      "arguments"
+    ],
+    "punny": [
+      "columns"
+    ]
+  },
+  {
+    "id": 113,
+    "source": "original",
+    "sentence": "The scarecrow got promoted because he was outstanding in his ___",
+    "straight": [
+      "job",
+      "work",
+      "role"
+    ],
+    "punny": [
+      "field"
+    ]
+  },
+  {
+    "id": 296,
+    "source": "original",
+    "sentence": "The pirate had to learn the alphabet but he got lost at ___",
+    "straight": [
+      "school",
+      "library",
+      "class"
+    ],
+    "punny": [
+      "C"
+    ]
+  },
+  {
+    "id": 89,
+    "source": "rewritten",
+    "sentence": "This terrible mirror was obviously made without ___",
+    "straight": [
+      "care",
+      "pride",
+      "ego",
+      "confidence"
+    ],
+    "punny": [
+      "reflection"
+    ]
+  },
+  {
+    "id": 19,
+    "source": "original",
+    "sentence": "The tennis player was upset because love meant ___",
+    "straight": [
+      "everything",
+      "so much"
+    ],
+    "punny": [
+      "nothing",
+      "zero"
+    ]
+  },
+  {
+    "id": 250,
+    "source": "original",
+    "sentence": "The pony couldn't sing in the choir because he was a little ___",
+    "straight": [
+      "shy",
+      "quiet",
+      "untalented"
+    ],
+    "punny": [
+      "hoarse"
+    ]
+  },
+  {
+    "id": 471,
+    "source": "original",
+    "sentence": "The shovel's greatest contribution to society was truly ___",
+    "straight": [
+      "important",
+      "revolutionary",
+      "significant"
+    ],
+    "punny": [
+      "groundbreaking"
+    ]
+  },
+  {
+    "id": 116,
+    "source": "original",
+    "sentence": "The tightrope walker went to the bank to check his ___",
+    "straight": [
+      "account",
+      "statement",
+      "numbers"
+    ],
+    "punny": [
+      "balance"
+    ]
+  },
+  {
+    "id": 308,
+    "source": "original",
+    "sentence": "The crab never shared his toys because he was ___",
+    "straight": [
+      "mean",
+      "greedy",
+      "spoiled"
+    ],
+    "punny": [
+      "shellfish"
+    ]
+  },
+  {
+    "id": 1018,
+    "source": "invented",
+    "sentence": "The poker player always did his laundry at the right time, because he knew when to ___",
+    "straight": [
+      "wash",
+      "quit",
+      "stop",
+      "walk away"
+    ],
+    "punny": [
+      "fold"
+    ]
+  },
+  {
+    "id": 2020,
+    "source": "invented2",
+    "sentence": "Even after the bad carpenter was elected president, he couldn't assemble a ___",
+    "straight": [
+      "house",
+      "leadership",
+      "integrity",
+      "ambition"
+    ],
+    "punny": [
+      "cabinet"
+    ]
+  },
+  {
+    "id": 239,
+    "source": "original",
+    "sentence": "The invisible man turned down the job offer because he couldn't ___",
+    "straight": [
+      "accept it",
+      "commit",
+      "relocate"
+    ],
+    "punny": [
+      "see himself doing it"
+    ]
+  },
+  {
+    "id": 1041,
+    "source": "invented",
+    "sentence": "The stadium was unbearably hot because there weren't any ___",
+    "straight": [
+      "vents",
+      "air conditioners",
+      "coolers"
+    ],
+    "punny": [
+      "fans"
+    ]
+  },
+  {
+    "id": 299,
+    "source": "original",
+    "sentence": "The chemist was reading a book on helium and he just couldn't ___",
+    "straight": [
+      "finish it",
+      "understand it",
+      "focus"
+    ],
+    "punny": [
+      "put it down"
+    ]
+  },
+  {
+    "id": 1056,
+    "source": "invented",
+    "sentence": "The dry cleaner could never stop to chat because he had so many ___",
+    "straight": [
+      "responsibilities",
+      "emergencies",
+      "crises",
+      "stress"
+    ],
+    "punny": [
+      "pressing matters"
+    ]
+  },
+  {
+    "id": 2015,
+    "source": "invented2",
+    "sentence": "During the embargo, the navy cardiologist had to work on a blocked ___",
+    "straight": [
+      "artery",
+      "valve",
+      "passage",
+      "ship"
+    ],
+    "punny": [
+      "vessel"
+    ]
+  },
+  {
+    "id": 1048,
+    "source": "invented",
+    "sentence": "The clock was impossible to calm down because it was always ___",
+    "straight": [
+      "tense",
+      "anxious",
+      "agitated"
+    ],
+    "punny": [
+      "wound up"
+    ]
+  },
+  {
+    "id": 1028,
+    "source": "invented",
+    "sentence": "The chicken won the percussion contest with her incredible ___",
+    "straight": [
+      "rhythm",
+      "timing",
+      "solo"
+    ],
+    "punny": [
+      "drumsticks"
+    ]
+  },
+  {
+    "id": 2052,
+    "source": "invented2",
+    "sentence": "The fisherman's film won an award because he had the best ___",
+    "straight": [
+      "audition",
+      "voice",
+      "presence",
+      "bait",
+      "actors"
+    ],
+    "punny": [
+      "cast"
+    ]
+  },
+  {
+    "id": 2007,
+    "source": "invented2",
+    "sentence": "The indecisive chef reopened his restaurant but still had ___",
+    "straight": [
+      "doubts",
+      "concerns",
+      "second thoughts",
+      "customers"
+    ],
+    "punny": [
+      "reservations"
+    ]
+  },
+  {
+    "id": 235,
+    "source": "original",
+    "sentence": "The bicycle fell over after the race because it was ___",
+    "straight": [
+      "unbalanced",
+      "broken",
+      "unstable"
+    ],
+    "punny": [
+      "two tired"
+    ]
+  },
+  {
+    "id": 2057,
+    "source": "invented2",
+    "sentence": "The deaf astrologer was always looking for a ___",
+    "straight": [
+      "clue",
+      "signal",
+      "message"
+    ],
+    "punny": [
+      "sign"
+    ]
+  },
+  {
+    "id": 289,
+    "source": "original",
+    "sentence": "The dangerous iPhone was arrested and charged with ___",
+    "straight": [
+      "theft",
+      "arson",
+      "fraud"
+    ],
+    "punny": [
+      "battery"
+    ]
+  },
+  {
+    "id": 18,
+    "source": "original",
+    "sentence": "The batteries were given out free of ___",
+    "straight": [
+      "cost"
+    ],
+    "punny": [
+      "charge"
+    ]
+  },
+  {
+    "id": 2050,
+    "source": "invented2",
+    "sentence": "The possessive geologist kept insisting everything underground was ___",
+    "straight": [
+      "valuable",
+      "protected",
+      "important"
+    ],
+    "punny": [
+      "mine"
+    ]
+  },
+  {
+    "id": 330,
+    "source": "original",
+    "sentence": "The lemonade stand hired a baseball player because they needed a ___",
+    "straight": [
+      "worker",
+      "sign",
+      "salesman"
+    ],
+    "punny": [
+      "pitcher"
+    ]
+  },
+  {
+    "id": 2005,
+    "source": "invented2",
+    "sentence": "The chemistry teacher's marriage counselor found the perfect ___",
+    "straight": [
+      "approach",
+      "compromise",
+      "strategy"
+    ],
+    "punny": [
+      "solution"
+    ]
+  },
+  {
+    "id": 1010,
+    "source": "invented",
+    "sentence": "The retired pilot's therapist said he was surprisingly well ___",
+    "straight": [
+      "adjusted",
+      "balanced",
+      "centered"
+    ],
+    "punny": [
+      "grounded"
+    ]
+  },
+  {
+    "id": 2072,
+    "source": "invented2",
+    "sentence": "The mountain climber thought the tea shop's prices were too ___",
+    "straight": [
+      "high",
+      "expensive",
+      "outrageous"
+    ],
+    "punny": [
+      "steep"
+    ]
+  },
+  {
+    "id": 249,
+    "source": "original",
+    "sentence": "The leopard was bad at hide-and-seek because he was always ___",
+    "straight": [
+      "moving",
+      "noisy",
+      "distracted"
+    ],
+    "punny": [
+      "spotted"
+    ]
+  },
+  {
+    "id": 1050,
+    "source": "invented",
+    "sentence": "The lumberjack's diary was thick because he kept detailed ___",
+    "straight": [
+      "records",
+      "entries",
+      "notes"
+    ],
+    "punny": [
+      "logs"
+    ]
+  },
+  {
+    "id": 1060,
+    "source": "invented",
+    "sentence": "The tailor won his court case because he had an excellent ___",
+    "straight": [
+      "lawyer",
+      "defense",
+      "argument"
+    ],
+    "punny": [
+      "suit"
+    ]
+  },
+  {
+    "id": 2077,
+    "source": "invented2",
+    "sentence": "After digging for treasure the pirate went to the doctor complaining of ___ pains",
+    "straight": [
+      "back",
+      "stomach",
+      "leg"
+    ],
+    "punny": [
+      "chest"
+    ]
+  },
+  {
+    "id": 2022,
+    "source": "invented2",
+    "sentence": "The ailing water diviner said she wasn't feeling ___",
+    "straight": [
+      "great",
+      "good",
+      "better"
+    ],
+    "punny": [
+      "well"
+    ]
+  },
+  {
+    "id": 1024,
+    "source": "invented",
+    "sentence": "The train conductor was promoted because of his excellent ___",
+    "straight": [
+      "performance",
+      "leadership",
+      "attitude"
+    ],
+    "punny": [
+      "track record"
+    ]
+  },
+  {
+    "id": 2025,
+    "source": "invented2",
+    "sentence": "The cheese maker's creative projects always broke the ___",
+    "straight": [
+      "rules",
+      "norm",
+      "pattern"
+    ],
+    "punny": [
+      "mold"
+    ]
+  },
+  {
+    "id": 2009,
+    "source": "invented2",
+    "sentence": "The electrician went to the mall for an emotional ___",
+    "straight": [
+      "release",
+      "breakdown",
+      "moment"
+    ],
+    "punny": [
+      "outlet"
+    ]
+  },
+  {
+    "id": 1015,
+    "source": "invented",
+    "sentence": "The bread was afraid to be best man, because he would have to make a ___",
+    "straight": [
+      "tribute",
+      "monologue",
+      "dedication",
+      "speech"
+    ],
+    "punny": [
+      "toast"
+    ]
+  },
+  {
+    "id": 454,
+    "source": "original",
+    "sentence": "The butcher was great at poker because he always raised the ___",
+    "straight": [
+      "bet",
+      "bar",
+      "ante"
+    ],
+    "punny": [
+      "steaks"
+    ]
+  },
+  {
+    "id": 255,
+    "source": "original",
+    "sentence": "The police even arrested a belt for holding up a pair of ___",
+    "straight": [
+      "suspects",
+      "victims",
+      "citizens"
+    ],
+    "punny": [
+      "pants"
+    ]
+  },
+  {
+    "id": 234,
+    "source": "original",
+    "sentence": "The mathematician's garden was struggling because the plants had square ___",
+    "straight": [
+      "leaves",
+      "pots",
+      "stems"
+    ],
+    "punny": [
+      "roots"
+    ]
+  },
+  {
+    "id": 2059,
+    "source": "invented2",
+    "sentence": "The walrus was great at notarizing documents because he had the perfect ___",
+    "straight": [
+      "signature",
+      "credentials",
+      "authority"
+    ],
+    "punny": [
+      "seal"
+    ]
+  },
+  {
+    "id": 144,
+    "source": "original",
+    "sentence": "The photographer hated gossip because it always developed into ___",
+    "straight": [
+      "drama",
+      "conflict",
+      "chaos"
+    ],
+    "punny": [
+      "negatives"
+    ]
+  },
+  {
+    "id": 118,
+    "source": "original",
+    "sentence": "The picture should have never been found guilty, but it had been ___",
+    "straight": [
+      "illegal",
+      "suspicious",
+      "involved"
+    ],
+    "punny": [
+      "framed"
+    ]
+  },
+  {
+    "id": 292,
+    "source": "original",
+    "sentence": "Never ask a circle for advice because it is totally ___",
+    "straight": [
+      "weak",
+      "slow",
+      "lazy"
+    ],
+    "punny": [
+      "pointless"
+    ]
+  },
+  {
+    "id": 148,
+    "source": "rewritten",
+    "sentence": "The cow became a philosopher because she loved to ___",
+    "straight": [
+      "ponder",
+      "reflect",
+      "contemplate"
+    ],
+    "punny": [
+      "ruminate"
+    ]
+  },
+  {
+    "id": 502,
+    "source": "original",
+    "sentence": "Ghosts love going to bars because they enjoy the ___",
+    "straight": [
+      "atmosphere",
+      "music",
+      "crowd"
+    ],
+    "punny": [
+      "boos",
+      "spirits"
+    ]
+  },
+  {
+    "id": 256,
+    "source": "original",
+    "sentence": "The tomato blushed because it saw the salad ___",
+    "straight": [
+      "bowl",
+      "ingredients",
+      "leaves"
+    ],
+    "punny": [
+      "dressing"
+    ]
+  },
+  {
+    "id": 14,
+    "source": "original",
+    "sentence": "The banker left her job because she lost ___",
+    "straight": [
+      "motivation",
+      "hope",
+      "enthusiasm"
+    ],
+    "punny": [
+      "interest"
+    ]
+  },
+  {
+    "id": 46,
+    "source": "original",
+    "sentence": "The baker's bread business was on the ___",
+    "straight": [
+      "decline",
+      "rocks",
+      "verge"
+    ],
+    "punny": [
+      "rise"
+    ]
+  },
+  {
+    "id": 339,
+    "source": "original",
+    "sentence": "The boxer proposed marriage in the ___",
+    "straight": [
+      "park",
+      "restaurant",
+      "hotel"
+    ],
+    "punny": [
+      "ring"
+    ]
+  },
+  {
+    "id": 90,
+    "source": "original",
+    "sentence": "The sausage maker's work was the ___",
+    "straight": [
+      "best",
+      "finest",
+      "greatest"
+    ],
+    "punny": [
+      "wurst"
+    ]
+  },
+  {
+    "id": 40,
+    "source": "original",
+    "sentence": "The calendar thief got twelve ___",
+    "straight": [
+      "years",
+      "counts"
+    ],
+    "punny": [
+      "months"
+    ]
+  },
+  {
+    "id": 2010,
+    "source": "invented2",
+    "sentence": "The retired sailor worked in the news because he liked being the ___",
+    "straight": [
+      "leader",
+      "center of attention",
+      "spokesperson"
+    ],
+    "punny": [
+      "anchor"
+    ]
+  },
+  {
+    "id": 2043,
+    "source": "invented2",
+    "sentence": "The bookbinder's business operated on thin ___",
+    "straight": [
+      "budgets",
+      "profits",
+      "resources"
+    ],
+    "punny": [
+      "margins"
+    ]
+  },
+  {
+    "id": 2048,
+    "source": "invented2",
+    "sentence": "The filmmaker somehow ended up in HR because she knew how to ___ people",
+    "straight": [
+      "evaluate",
+      "interview",
+      "manage"
+    ],
+    "punny": [
+      "screen"
+    ]
+  },
+  {
+    "id": 195,
+    "source": "rewritten",
+    "sentence": "The chef stopped dating comedians because every meal ended with a ___",
+    "straight": [
+      "story",
+      "performance",
+      "routine"
+    ],
+    "punny": [
+      "roast"
+    ]
+  },
+  {
+    "id": 1001,
+    "source": "invented",
+    "sentence": "The earthquake couldn't accept blame because nothing was ever his ___",
+    "straight": [
+      "responsibility",
+      "problem",
+      "concern"
+    ],
+    "punny": [
+      "fault"
+    ]
+  },
+  {
+    "id": 2055,
+    "source": "invented2",
+    "sentence": "I think the colonel opened a restaurant because he loved taking ___",
+    "straight": [
+      "control",
+      "charge",
+      "initiative"
+    ],
+    "punny": [
+      "orders"
+    ]
+  },
+  {
+    "id": 475,
+    "source": "original",
+    "sentence": "The sun doesn't need to go to college since it already has a million ___",
+    "straight": [
+      "fans",
+      "admirers",
+      "followers"
+    ],
+    "punny": [
+      "degrees"
+    ]
+  },
+  {
+    "id": 2028,
+    "source": "invented2",
+    "sentence": "Argue with your pharmacist, and you will find she always has a ___",
+    "straight": [
+      "rebuttal",
+      "comeback",
+      "response"
+    ],
+    "punny": [
+      "counter"
+    ]
+  },
+  {
+    "id": 361,
+    "source": "original",
+    "sentence": "The man who fell into an upholstery machine is now fully ___",
+    "straight": [
+      "injured",
+      "traumatized",
+      "stuck"
+    ],
+    "punny": [
+      "recovered"
+    ]
+  },
+  {
+    "id": 2001,
+    "source": "invented2",
+    "sentence": "The mailman's jokes were hilarious because of his ___",
+    "straight": [
+      "route",
+      "truck",
+      "ideas"
+    ],
+    "punny": [
+      "delivery"
+    ]
+  },
+  {
+    "id": 115,
+    "source": "original",
+    "sentence": "I think the bank is very impressed with my loan because they tell me how it is still ___",
+    "straight": [
+      "active",
+      "unpaid",
+      "open"
+    ],
+    "punny": [
+      "outstanding"
+    ]
+  },
+  {
+    "id": 456,
+    "source": "original",
+    "sentence": "The rabbit was great at math because he knew how to ___",
+    "straight": [
+      "calculate",
+      "count",
+      "compute"
+    ],
+    "punny": [
+      "multiply"
+    ]
+  },
+  {
+    "id": 8,
+    "source": "original",
+    "sentence": "The dentist and the manicurist argued ___",
+    "straight": [
+      "endlessly"
+    ],
+    "punny": [
+      "tooth and nail"
+    ]
+  },
+  {
+    "id": 272,
+    "source": "original",
+    "sentence": "The clock was so hungry it went back four ___",
+    "straight": [
+      "hours",
+      "days",
+      "years"
+    ],
+    "punny": [
+      "seconds"
+    ]
+  },
+  {
+    "id": 306,
+    "source": "original",
+    "sentence": "The fish was smart because it spent all its time in a ___",
+    "straight": [
+      "library",
+      "university",
+      "museum"
+    ],
+    "punny": [
+      "school"
+    ]
+  },
+  {
+    "id": 464,
+    "source": "original",
+    "sentence": "The deli owner was great at ending arguments because he could see through the ___",
+    "straight": [
+      "lies",
+      "excuses",
+      "nonsense"
+    ],
+    "punny": [
+      "baloney"
+    ]
+  },
+  {
+    "id": 444,
+    "source": "original",
+    "sentence": "The laundry felt betrayed after it was ___",
+    "straight": [
+      "suffer",
+      "fail",
+      "fend"
+    ],
+    "punny": [
+      "hung out to dry"
+    ]
+  },
+  {
+    "id": 1013,
+    "source": "invented",
+    "sentence": "The fish couldn't learn guitar because he couldn't get past the ___",
+    "straight": [
+      "basics",
+      "chords",
+      "fingering"
+    ],
+    "punny": [
+      "scales"
+    ]
+  },
+  {
+    "id": 495,
+    "source": "original",
+    "sentence": "The caterpillar was optimistic because he believed in personal ___",
+    "straight": [
+      "growth",
+      "change",
+      "development"
+    ],
+    "punny": [
+      "transformation"
+    ]
+  },
+  {
+    "id": 1052,
+    "source": "invented",
+    "sentence": "The ocean seems so friendly because it is always ___",
+    "straight": [
+      "wet",
+      "warm",
+      "big"
+    ],
+    "punny": [
+      "waving"
+    ]
+  },
+  {
+    "id": 1042,
+    "source": "invented",
+    "sentence": "The mushroom was always invited to parties because he was a ___",
+    "straight": [
+      "blast",
+      "riot",
+      "character"
+    ],
+    "punny": [
+      "fungi"
+    ]
+  },
+  {
+    "id": 449,
+    "source": "original",
+    "sentence": "The lawsuit about instant coffee was ___",
+    "straight": [
+      "controversial",
+      "expensive",
+      "hot"
+    ],
+    "punny": [
+      "groundless"
+    ]
+  },
+  {
+    "id": 2063,
+    "source": "invented2",
+    "sentence": "The sailor and his wife were always having a ___",
+    "straight": [
+      "disagreement",
+      "fight",
+      "argument"
+    ],
+    "punny": [
+      "row"
+    ]
+  },
+  {
+    "id": 488,
+    "source": "original",
+    "sentence": "The carefully-planned museum heist pulled off a ___",
+    "straight": [
+      "miracle",
+      "feat",
+      "accomplishment"
+    ],
+    "punny": [
+      "masterpiece"
+    ]
+  },
+  {
+    "id": 321,
+    "source": "original",
+    "sentence": "The grammarian knew he had to be careful whenever he got ___",
+    "straight": [
+      "anxious",
+      "worried",
+      "nervous"
+    ],
+    "punny": [
+      "tense"
+    ]
+  },
+  {
+    "id": 66,
+    "source": "original",
+    "sentence": "The balloon advertisement was full of ___",
+    "straight": [
+      "promise",
+      "potential",
+      "problems"
+    ],
+    "punny": [
+      "hot air"
+    ]
+  },
+  {
+    "id": 24,
+    "source": "original",
+    "sentence": "The knife sharpener quit because work was ___",
+    "straight": [
+      "tedious",
+      "boring",
+      "monotonous"
+    ],
+    "punny": [
+      "dull"
+    ]
+  },
+  {
+    "id": 348,
+    "source": "original",
+    "sentence": "The frog was happy because he ate what ___",
+    "straight": [
+      "he wanted",
+      "tasted good",
+      "was healthy"
+    ],
+    "punny": [
+      "bugged him"
+    ]
+  },
+  {
+    "id": 2008,
+    "source": "invented2",
+    "sentence": "The golfer's shirt was always wrinkled because he could never find his ___",
+    "straight": [
+      "laundry",
+      "closet",
+      "hangers"
+    ],
+    "punny": [
+      "iron"
+    ]
+  },
+  {
+    "id": 2006,
+    "source": "invented2",
+    "sentence": "The wizard ran a fantastic music school because he had a great ___",
+    "straight": [
+      "reputation",
+      "talent",
+      "network"
+    ],
+    "punny": [
+      "staff"
+    ]
+  },
+  {
+    "id": 2012,
+    "source": "invented2",
+    "sentence": "At every party the boxer would bring the ___",
+    "straight": [
+      "energy",
+      "food",
+      "music"
+    ],
+    "punny": [
+      "punch"
+    ]
+  },
+  {
+    "id": 2030,
+    "source": "invented2",
+    "sentence": "The lightning was terrible at relationships because it always ___",
+    "straight": [
+      "vanished",
+      "overreacted",
+      "left"
+    ],
+    "punny": [
+      "bolted"
+    ]
+  },
+  {
+    "id": 366,
+    "source": "original",
+    "sentence": "The baby strawberry was crying because his mom was in a ___",
+    "straight": [
+      "hurry",
+      "rush",
+      "panic"
+    ],
+    "punny": [
+      "jam"
+    ]
+  },
+  {
+    "id": 287,
+    "source": "original",
+    "sentence": "The geometry teacher was adorable because she was so ___",
+    "straight": [
+      "kind",
+      "pretty",
+      "nice"
+    ],
+    "punny": [
+      "acute"
+    ]
+  },
+  {
+    "id": 295,
+    "source": "original",
+    "sentence": "The thief fell in the cement and became a ___",
+    "straight": [
+      "man",
+      "fighter",
+      "expert"
+    ],
+    "punny": [
+      "hardened criminal"
+    ]
+  },
+  {
+    "id": 1017,
+    "source": "invented",
+    "sentence": "The comedian's fishing stories always had a great ___",
+    "straight": [
+      "ending",
+      "twist",
+      "setup"
+    ],
+    "punny": [
+      "line"
+    ]
+  },
+  {
+    "id": 56,
+    "source": "original",
+    "sentence": "The comedian's jokes about unemployment weren't ___",
+    "straight": [
+      "funny",
+      "good",
+      "landing"
+    ],
+    "punny": [
+      "working"
+    ]
+  },
+  {
+    "id": 2047,
+    "source": "invented2",
+    "sentence": "The parking officer said everything was ___",
+    "straight": [
+      "okay",
+      "normal",
+      "under control"
+    ],
+    "punny": [
+      "fine"
+    ]
+  },
+  {
+    "id": 2003,
+    "source": "invented2",
+    "sentence": "The pig's memoir came straight from her ___",
+    "straight": [
+      "imagination",
+      "memory",
+      "bedroom"
+    ],
+    "punny": [
+      "pen"
+    ]
+  },
+  {
+    "id": 25,
+    "source": "original",
+    "sentence": "The dieter went to the paint store to get ___",
+    "straight": [
+      "supplies",
+      "paint",
+      "brushes"
+    ],
+    "punny": [
+      "thinner"
+    ]
+  },
+  {
+    "id": 49,
+    "source": "original",
+    "sentence": "The wind turbine salesman was a huge ___",
+    "straight": [
+      "success",
+      "hit",
+      "deal"
+    ],
+    "punny": [
+      "fan",
+      "blowhard"
+    ]
+  },
+  {
+    "id": 1002,
+    "source": "invented",
+    "sentence": "The archaeologist's career was in ___",
+    "straight": [
+      "trouble",
+      "jeopardy",
+      "decline"
+    ],
+    "punny": [
+      "ruins"
+    ]
+  },
+  {
+    "id": 2017,
+    "source": "invented2",
+    "sentence": "The local commuter's experiences are very hard to ___",
+    "straight": [
+      "understand",
+      "describe",
+      "ignore"
+    ],
+    "punny": [
+      "express"
+    ]
+  },
+  {
+    "id": 1025,
+    "source": "invented",
+    "sentence": "The beekeeper's announcement created quite a ___",
+    "straight": [
+      "stir",
+      "commotion",
+      "reaction"
+    ],
+    "punny": [
+      "buzz"
+    ]
+  },
+  {
+    "id": 2067,
+    "source": "invented2",
+    "sentence": "The lonely CEO just wanted some ___",
+    "straight": [
+      "friends",
+      "attention",
+      "peace"
+    ],
+    "punny": [
+      "company"
+    ]
+  },
+  {
+    "id": 2074,
+    "source": "invented2",
+    "sentence": "The forgetful collector left their ___",
+    "straight": [
+      "impression",
+      "impact",
+      "legacy"
+    ],
+    "punny": [
+      "stamp"
+    ]
+  },
+  {
+    "id": 1011,
+    "source": "invented",
+    "sentence": "The elephant always packed light except for his ___",
+    "straight": [
+      "toiletries",
+      "snacks",
+      "blanket"
+    ],
+    "punny": [
+      "trunk"
+    ]
+  },
+  {
+    "id": 273,
+    "source": "original",
+    "sentence": "The cannibal showed up late to the luncheon so he was given the cold ___",
+    "straight": [
+      "soup",
+      "stare",
+      "treatment"
+    ],
+    "punny": [
+      "shoulder"
+    ]
+  },
+  {
+    "id": 3,
+    "source": "original",
+    "sentence": "The calendar factory worker was let go because his days were ___",
+    "straight": [
+      "over",
+      "finished",
+      "done"
+    ],
+    "punny": [
+      "numbered"
+    ]
+  },
+  {
+    "id": 301,
+    "source": "original",
+    "sentence": "The two antennas met on a roof and the wedding had excellent ___",
+    "straight": [
+      "food",
+      "decor",
+      "music"
+    ],
+    "punny": [
+      "reception"
+    ]
+  },
+  {
+    "id": 117,
+    "source": "original",
+    "sentence": "The coffee filed a police report after it got ___",
+    "straight": [
+      "stolen",
+      "taken",
+      "robbed"
+    ],
+    "punny": [
+      "mugged"
+    ]
+  },
+  {
+    "id": 6,
+    "source": "original",
+    "sentence": "The astronaut broke up with his girlfriend because he needed more ___",
+    "straight": [
+      "time",
+      "freedom",
+      "independence"
+    ],
+    "punny": [
+      "space"
+    ]
+  },
+  {
+    "id": 2078,
+    "source": "invented2",
+    "sentence": "The lizard keeper got a job in IT because he already worked with ___",
+    "straight": [
+      "screens",
+      "cables",
+      "systems"
+    ],
+    "punny": [
+      "monitors"
+    ]
+  },
+  {
+    "id": 2038,
+    "source": "invented2",
+    "sentence": "The garbage collector was so stubborn he would never ___",
+    "straight": [
+      "compromise",
+      "quit",
+      "back down"
+    ],
+    "punny": [
+      "refuse"
+    ]
+  },
+  {
+    "id": 316,
+    "source": "original",
+    "sentence": "The math book looked sad because it had too many ___",
+    "straight": [
+      "pages",
+      "tears",
+      "stains"
+    ],
+    "punny": [
+      "problems"
+    ]
+  },
+  {
+    "id": 329,
+    "source": "original",
+    "sentence": "The union workers went bowling and got a ___",
+    "straight": [
+      "beer",
+      "pizza",
+      "lane"
+    ],
+    "punny": [
+      "strike"
+    ]
+  },
+  {
+    "id": 69,
+    "source": "original",
+    "sentence": "The tailor's business was just ___",
+    "straight": [
+      "okay",
+      "fine",
+      "average"
+    ],
+    "punny": [
+      "sew-sew",
+      "seamy"
+    ]
+  },
+  {
+    "id": 462,
+    "source": "rewritten",
+    "sentence": "After 40 years of teaching archaeology, they told the professor, 'You're ___'",
+    "straight": [
+      "done",
+      "finished",
+      "retired"
+    ],
+    "punny": [
+      "history"
+    ]
+  },
+  {
+    "id": 415,
+    "source": "rewritten",
+    "sentence": "When the egg farmer tried to organize his inventory, everything turned into a complete ___",
+    "straight": [
+      "disaster",
+      "mess",
+      "chaos"
+    ],
+    "punny": [
+      "scramble"
+    ]
+  },
+  {
+    "id": 193,
+    "source": "rewritten",
+    "sentence": "The wedding photographer refused to work divorces because they involved too much ___",
+    "straight": [
+      "drama",
+      "conflict",
+      "emotion"
+    ],
+    "punny": [
+      "exposure"
+    ]
+  },
+  {
+    "id": 319,
+    "source": "rewritten",
+    "sentence": "The live art competition was very close and ended in a ___",
+    "straight": [
+      "deadlock",
+      "stalemate",
+      "draw"
+    ],
+    "punny": [
+      "draw"
+    ]
+  },
+  {
+    "id": 257,
+    "source": "original",
+    "sentence": "The tennis stringer was kicked out of the library for making a ___",
+    "straight": [
+      "noise",
+      "disturbance",
+      "commotion"
+    ],
+    "punny": [
+      "racket"
+    ]
+  },
+  {
+    "id": 399,
+    "source": "rewritten",
+    "sentence": "The business of fireworks has been ___",
+    "straight": [
+      "spectacular",
+      "explosive",
+      "impressive"
+    ],
+    "punny": [
+      "booming",
+      "exploding"
+    ]
+  },
+  {
+    "id": 489,
+    "source": "rewritten",
+    "sentence": "The scuba instructor's students loved her because she never made them feel ___",
+    "straight": [
+      "stupid",
+      "embarrassed",
+      "inadequate"
+    ],
+    "punny": [
+      "shallow"
+    ]
+  },
+  {
+    "id": 291,
+    "source": "original",
+    "sentence": "The seamstress was the funniest person in the shop; she kept everyone in ___",
+    "straight": [
+      "tears",
+      "laughter",
+      "joy"
+    ],
+    "punny": [
+      "stitches"
+    ]
+  },
+  {
+    "id": 479,
+    "source": "rewritten",
+    "sentence": "The door salesman was good at his job because he knew exactly how to ___",
+    "straight": [
+      "negotiate",
+      "persist",
+      "walk away"
+    ],
+    "punny": [
+      "close"
+    ]
+  },
+  {
+    "id": 248,
+    "source": "original",
+    "sentence": "The student ate his homework because the teacher said it was a piece of ___",
+    "straight": [
+      "garbage",
+      "trash",
+      "junk"
+    ],
+    "punny": [
+      "cake"
+    ]
+  },
+  {
+    "id": 389,
+    "source": "rewritten",
+    "sentence": "The average data scientist is hard to befriend because they are so ___",
+    "straight": [
+      "harsh",
+      "cruel",
+      "nasty"
+    ],
+    "punny": [
+      "mean"
+    ]
+  },
+  {
+    "id": 409,
+    "source": "rewritten",
+    "sentence": "The chicken soup company is a great investment and a great ___",
+    "straight": [
+      "soup",
+      "broth",
+      "sauce"
+    ],
+    "punny": [
+      "stock"
+    ]
+  },
+  {
+    "id": 130,
+    "source": "rewritten",
+    "sentence": "The lawyer's jokes flopped because they were too ___",
+    "straight": [
+      "technical",
+      "dry",
+      "complicated"
+    ],
+    "punny": [
+      "brief"
+    ]
+  },
+  {
+    "id": 290,
+    "source": "rewritten",
+    "sentence": "Sir Lancelot's armor was rusty because he'd been pulling too many ___",
+    "straight": [
+      "double shifts",
+      "long hours",
+      "overtime shifts"
+    ],
+    "punny": [
+      "knight shifts"
+    ]
+  },
+  {
+    "id": 266,
+    "source": "original",
+    "sentence": "The elevator operator had an eventful life with many ___",
+    "straight": [
+      "benefits",
+      "perks",
+      "moments"
+    ],
+    "punny": [
+      "ups and downs"
+    ]
+  },
+  {
+    "id": 356,
+    "source": "original",
+    "sentence": "The man sued the airline for losing his luggage but he lost his ___",
+    "straight": [
+      "money",
+      "time",
+      "dignity"
+    ],
+    "punny": [
+      "case"
+    ]
+  },
+  {
+    "id": 364,
+    "source": "rewritten",
+    "sentence": "The traffic light was embarrassed and turned red when it had to ___",
+    "straight": [
+      "stop traffic",
+      "halt cars",
+      "work again"
+    ],
+    "punny": [
+      "change"
+    ]
+  },
+  {
+    "id": 427,
+    "source": "rewritten",
+    "sentence": "The magazine editor was overwhelmed because there were too many ___",
+    "straight": [
+      "demands",
+      "deadlines",
+      "tasks"
+    ],
+    "punny": [
+      "issues"
+    ]
+  },
+  {
+    "id": 16,
+    "source": "rewritten",
+    "sentence": "The arborist's marriage failed because his wife said he was too ___",
+    "straight": [
+      "distant",
+      "cold",
+      "stubborn"
+    ],
+    "punny": [
+      "shady",
+      "wooden"
+    ]
+  },
+  {
+    "id": 2027,
+    "source": "invented2",
+    "sentence": "The mushroom's salary never went up because there was always a ___",
+    "straight": [
+      "limit",
+      "ceiling",
+      "restriction"
+    ],
+    "punny": [
+      "cap"
+    ]
+  },
+  {
+    "id": 407,
+    "source": "original",
+    "sentence": "The pilot's autobiography sold out after his career ___",
+    "straight": [
+      "inspired people",
+      "impressed readers",
+      "resonated"
+    ],
+    "punny": [
+      "took off"
+    ]
+  },
+  {
+    "id": 2049,
+    "source": "invented2",
+    "sentence": "The chemists' marriage was strong because of their incredible ___",
+    "straight": [
+      "trust",
+      "communication",
+      "love"
+    ],
+    "punny": [
+      "bond"
+    ]
+  },
+  {
+    "id": 2032,
+    "source": "invented2",
+    "sentence": "The poker player loved this mountain trail because it ended at a ___",
+    "straight": [
+      "summit",
+      "viewpoint",
+      "clearing"
+    ],
+    "punny": [
+      "bluff"
+    ]
+  },
+  {
+    "id": 349,
+    "source": "rewritten",
+    "sentence": "After his return the astronaut chose this restaurant because it had great ___",
+    "straight": [
+      "service",
+      "food",
+      "ambiance"
+    ],
+    "punny": [
+      "atmosphere"
+    ]
+  },
+  {
+    "id": 384,
+    "source": "original",
+    "sentence": "The optician fell into his lens grinder and made a complete ___",
+    "straight": [
+      "fool",
+      "mess",
+      "disaster"
+    ],
+    "punny": [
+      "spectacle"
+    ]
+  },
+  {
+    "id": 387,
+    "source": "original",
+    "sentence": "The graveyard worker was depressed because his career was a ___",
+    "straight": [
+      "failure",
+      "waste",
+      "disappointment"
+    ],
+    "punny": [
+      "dead end"
+    ]
+  },
+  {
+    "id": 337,
+    "source": "original",
+    "sentence": "The submarine captain went to a cheap bar that was a total ___",
+    "straight": [
+      "mess",
+      "dump",
+      "disaster"
+    ],
+    "punny": [
+      "dive"
+    ]
+  },
+  {
+    "id": 161,
+    "source": "original",
+    "sentence": "The shoe store went bankrupt because it couldn't find its ___",
+    "straight": [
+      "customers",
+      "market",
+      "strategy"
+    ],
+    "punny": [
+      "sole"
+    ]
+  },
+  {
+    "id": 336,
+    "source": "rewritten",
+    "sentence": "The cat always interrupted the swimmer by jumping into his ___",
+    "straight": [
+      "towel",
+      "goggles",
+      "clothes"
+    ],
+    "punny": [
+      "lap"
+    ]
+  },
+  {
+    "id": 274,
+    "source": "rewritten",
+    "sentence": "The thunder cloud joined the union and then it kept ___",
+    "straight": [
+      "slacking off",
+      "being late",
+      "causing trouble"
+    ],
+    "punny": [
+      "striking"
+    ]
+  },
+  {
+    "id": 335,
+    "source": "rewritten",
+    "sentence": "The arsonist quit playing tennis after someone stole his ___",
+    "straight": [
+      "racket",
+      "shoes",
+      "bag"
+    ],
+    "punny": [
+      "matches"
+    ]
+  },
+  {
+    "id": 455,
+    "source": "rewritten",
+    "sentence": "After parachuting from space, the adventurer was ___",
+    "straight": [
+      "famous",
+      "relaxed",
+      "celebrated"
+    ],
+    "punny": [
+      "down to earth"
+    ]
+  },
+  {
+    "id": 368,
+    "source": "original",
+    "sentence": "The corn stalk was a good listener because it was all ___",
+    "straight": [
+      "attention",
+      "focus",
+      "silence"
+    ],
+    "punny": [
+      "ears"
+    ]
+  },
+  {
+    "id": 7,
+    "source": "rewritten",
+    "sentence": "The optometrist's startup failed because he lacked ___",
+    "straight": [
+      "funding",
+      "experience",
+      "planning"
+    ],
+    "punny": [
+      "vision"
+    ]
+  },
+  {
+    "id": 80,
+    "source": "rewritten",
+    "sentence": "The clueless archaeologist was terrible at ___",
+    "straight": [
+      "understanding",
+      "appreciating",
+      "handling"
+    ],
+    "punny": [
+      "dating"
+    ]
+  },
+  {
+    "id": 402,
+    "source": "original",
+    "sentence": "The coin maker went crazy and stopped making any ___",
+    "straight": [
+      "progress",
+      "friends",
+      "effort"
+    ],
+    "punny": [
+      "cents"
+    ]
+  },
+  {
+    "id": 22,
+    "source": "original",
+    "sentence": "The mattress salesman was tired of lying on the ___",
+    "straight": [
+      "floor",
+      "ground"
+    ],
+    "punny": [
+      "job"
+    ]
+  },
+  {
+    "id": 170,
+    "source": "rewritten",
+    "sentence": "The judge loved writing because it let him pass ___",
+    "straight": [
+      "time",
+      "judgment",
+      "days"
+    ],
+    "punny": [
+      "sentence"
+    ]
+  },
+  {
+    "id": 304,
+    "source": "original",
+    "sentence": "The dog was a tree expert because he knew his ___",
+    "straight": [
+      "leaves",
+      "wood",
+      "roots"
+    ],
+    "punny": [
+      "bark"
+    ]
+  },
+  {
+    "id": 341,
+    "source": "rewritten",
+    "sentence": "The dyslexic zombie kept hunting guys named ___",
+    "straight": [
+      "Steve",
+      "Mike",
+      "Dave"
+    ],
+    "punny": [
+      "Brian"
+    ]
+  },
+  {
+    "id": 396,
+    "source": "rewritten",
+    "sentence": "The Swiss cheese maker's alibis were always ___",
+    "straight": [
+      "suspicious",
+      "unconvincing",
+      "questionable"
+    ],
+    "punny": [
+      "full of holes"
+    ]
+  },
+  {
+    "id": 1004,
+    "source": "invented",
+    "sentence": "The baker told his lazy son to stop ___",
+    "straight": [
+      "messing",
+      "fooling",
+      "hanging"
+    ],
+    "punny": [
+      "loafing"
+    ]
+  },
+  {
+    "id": 345,
+    "source": "rewritten",
+    "sentence": "The artistic detective was great at drawing ___",
+    "straight": [
+      "suspects",
+      "witnesses",
+      "crime scenes"
+    ],
+    "punny": [
+      "conclusions"
+    ]
+  },
+  {
+    "id": 494,
+    "source": "original",
+    "sentence": "The plumber went to the casino and got a ___",
+    "straight": [
+      "win",
+      "jackpot",
+      "bonus"
+    ],
+    "punny": [
+      "flush"
+    ]
+  },
+  {
+    "id": 52,
+    "source": "original",
+    "sentence": "The broom maker decided to make a clean ___",
+    "straight": [
+      "break",
+      "start",
+      "getaway"
+    ],
+    "punny": [
+      "sweep"
+    ]
+  },
+  {
+    "id": 76,
+    "source": "original",
+    "sentence": "The horse breeder's business was always ___",
+    "straight": [
+      "busy",
+      "successful",
+      "profitable"
+    ],
+    "punny": [
+      "stable"
+    ]
+  },
+  {
+    "id": 108,
+    "source": "rewritten",
+    "sentence": "The glass maker's lies were completely ___",
+    "straight": [
+      "obvious",
+      "exposed",
+      "detected"
+    ],
+    "punny": [
+      "transparent",
+      "clear"
+    ]
+  },
+  {
+    "id": 96,
+    "source": "original",
+    "sentence": "The pilot's jokes never seemed to ___",
+    "straight": [
+      "work",
+      "succeed",
+      "connect"
+    ],
+    "punny": [
+      "land",
+      "take off"
+    ]
+  },
+  {
+    "id": 482,
+    "source": "original",
+    "sentence": "The roof repairman offered his services for free because it was on the ___",
+    "straight": [
+      "company",
+      "firm",
+      "boss"
+    ],
+    "punny": [
+      "house"
+    ]
+  },
+  {
+    "id": 182,
+    "source": "original",
+    "sentence": "The painter's breakup letter was short, but it still carried a lot of ___",
+    "straight": [
+      "emotion",
+      "feeling",
+      "meaning"
+    ],
+    "punny": [
+      "shade"
+    ]
+  },
+  {
+    "id": 468,
+    "source": "original",
+    "sentence": "The lightning bolt was let go from every job because he kept getting ___",
+    "straight": [
+      "complaints",
+      "warnings",
+      "reprimanded"
+    ],
+    "punny": [
+      "discharged"
+    ]
+  },
+  {
+    "id": 1005,
+    "source": "invented",
+    "sentence": "The ship captain was impossible to negotiate with because he was too ___",
+    "straight": [
+      "stubborn",
+      "rigid",
+      "demanding"
+    ],
+    "punny": [
+      "stern"
+    ]
+  },
+  {
+    "id": 2036,
+    "source": "invented2",
+    "sentence": "The biologist cried at every sad movie because she was an expert on ___",
+    "straight": [
+      "emotions",
+      "grief",
+      "reactions"
+    ],
+    "punny": [
+      "tissues"
+    ]
+  },
+  {
+    "id": 472,
+    "source": "original",
+    "sentence": "The wall was embarrassed after the party because he got completely ___",
+    "straight": [
+      "ignored",
+      "humiliated",
+      "wrecked"
+    ],
+    "punny": [
+      "plastered"
+    ]
+  },
+  {
+    "id": 2044,
+    "source": "invented2",
+    "sentence": "The hockey player became a banker because he was used to handling ___",
+    "straight": [
+      "money",
+      "pressure",
+      "transactions"
+    ],
+    "punny": [
+      "checks"
+    ]
+  },
+  {
+    "id": 1059,
+    "source": "invented",
+    "sentence": "The baker couldn't solve the mystery because the evidence kept ___",
+    "straight": [
+      "disappearing",
+      "changing",
+      "shifting"
+    ],
+    "punny": [
+      "crumbling"
+    ]
+  },
+  {
+    "id": 425,
+    "source": "original",
+    "sentence": "The homeowner was furious about the leak and finally hit the ___",
+    "straight": [
+      "limit",
+      "wall",
+      "breaking point"
+    ],
+    "punny": [
+      "ceiling"
+    ]
+  },
+  {
+    "id": 125,
+    "source": "original",
+    "sentence": "The electrician stayed calm in conflict because he had low ___",
+    "straight": [
+      "anger",
+      "stress",
+      "tension"
+    ],
+    "punny": [
+      "resistance"
+    ]
+  },
+  {
+    "id": 318,
+    "source": "original",
+    "sentence": "The history teacher was depressed because he lived in the ___",
+    "straight": [
+      "basement",
+      "dark",
+      "slums"
+    ],
+    "punny": [
+      "past"
+    ]
+  },
+  {
+    "id": 1016,
+    "source": "invented",
+    "sentence": "The church musician was a transplant donor because she had spare ___",
+    "straight": [
+      "time",
+      "energy",
+      "resources"
+    ],
+    "punny": [
+      "organs"
+    ]
+  },
+  {
+    "id": 461,
+    "source": "original",
+    "sentence": "The tree was a great networker because it had so many ___",
+    "straight": [
+      "friends",
+      "contacts",
+      "connections"
+    ],
+    "punny": [
+      "branches"
+    ]
+  },
+  {
+    "id": 2076,
+    "source": "invented2",
+    "sentence": "The fashion designer's behavior at work was always ___",
+    "straight": [
+      "professional",
+      "impeccable",
+      "exemplary"
+    ],
+    "punny": [
+      "model"
+    ]
+  },
+  {
+    "id": 277,
+    "source": "original",
+    "sentence": "The nose was sad because it was tired of getting ___",
+    "straight": [
+      "bullied",
+      "ignored",
+      "hit"
+    ],
+    "punny": [
+      "picked on"
+    ]
+  },
+  {
+    "id": 1061,
+    "source": "invented",
+    "sentence": "The calendar company's annual report was already ___",
+    "straight": [
+      "finished",
+      "published",
+      "submitted"
+    ],
+    "punny": [
+      "dated"
+    ]
+  },
+  {
+    "id": 373,
+    "source": "original",
+    "sentence": "The witch couldn't do magic in English because she couldn't ___",
+    "straight": [
+      "read",
+      "write",
+      "focus"
+    ],
+    "punny": [
+      "spell"
+    ]
+  },
+  {
+    "id": 1051,
+    "source": "invented",
+    "sentence": "The accountant's entire life was one long ___",
+    "straight": [
+      "struggle",
+      "routine",
+      "challenge"
+    ],
+    "punny": [
+      "balancing act"
+    ]
+  },
+  {
+    "id": 1009,
+    "source": "invented",
+    "sentence": "The newspaper editor was always ___ for time",
+    "straight": [
+      "short",
+      "rushed",
+      "scrambling"
+    ],
+    "punny": [
+      "pressed"
+    ]
+  },
+  {
+    "id": 323,
+    "source": "original",
+    "sentence": "The cafeteria lady quit because she was ___",
+    "straight": [
+      "tired",
+      "underpaid",
+      "bored"
+    ],
+    "punny": [
+      "fed up"
+    ]
+  },
+  {
+    "id": 453,
+    "source": "original",
+    "sentence": "The cliff diver's career took a sudden ___",
+    "straight": [
+      "turn",
+      "hit",
+      "downturn"
+    ],
+    "punny": [
+      "plunge"
+    ]
+  },
+  {
+    "id": 35,
+    "source": "original",
+    "sentence": "The ski instructor's career went ___",
+    "straight": [
+      "poorly",
+      "badly",
+      "south"
+    ],
+    "punny": [
+      "downhill"
+    ]
+  },
+  {
+    "id": 1032,
+    "source": "invented",
+    "sentence": "The boat maker's excuse wouldn't ___",
+    "straight": [
+      "work",
+      "hold up",
+      "stick"
+    ],
+    "punny": [
+      "float"
+    ]
+  },
+  {
+    "id": 457,
+    "source": "original",
+    "sentence": "The puzzle maker's alibi had too many missing ___",
+    "straight": [
+      "facts",
+      "details",
+      "links"
+    ],
+    "punny": [
+      "pieces"
+    ]
+  },
+  {
+    "id": 212,
+    "source": "rewritten",
+    "sentence": "The barber's philosophy lectures were popular because he always made the ___",
+    "straight": [
+      "point",
+      "connection",
+      "argument"
+    ],
+    "punny": [
+      "cut"
+    ]
+  },
+  {
+    "id": 467,
+    "source": "original",
+    "sentence": "The knife salesman's pitch was convincing because it always had a sharp ___",
+    "straight": [
+      "message",
+      "delivery",
+      "argument"
+    ],
+    "punny": [
+      "edge"
+    ]
+  },
+  {
+    "id": 400,
+    "source": "original",
+    "sentence": "The arctic navigator was great at parties because he knew how to break the ___",
+    "straight": [
+      "silence",
+      "tension",
+      "monotony"
+    ],
+    "punny": [
+      "ice"
+    ]
+  },
+  {
+    "id": 218,
+    "source": "rewritten",
+    "sentence": "The electrician quit the band because he couldn't handle the constant ___",
+    "straight": [
+      "noise",
+      "chaos",
+      "arguments"
+    ],
+    "punny": [
+      "static"
+    ]
+  },
+  {
+    "id": 469,
+    "source": "original",
+    "sentence": "The bread was nervous about the meeting because he was about to get ___",
+    "straight": [
+      "fired",
+      "criticized",
+      "rejected"
+    ],
+    "punny": [
+      "toasted"
+    ]
+  },
+  {
+    "id": 485,
+    "source": "original",
+    "sentence": "The boat mechanic kept the company going because he kept everything ___",
+    "straight": [
+      "running",
+      "working",
+      "organized"
+    ],
+    "punny": [
+      "afloat"
+    ]
+  },
+  {
+    "id": 496,
+    "source": "original",
+    "sentence": "The firefighter's mixtape was hot because every track was straight ___",
+    "straight": [
+      "gold",
+      "platinum",
+      "perfection"
+    ],
+    "punny": [
+      "fire"
+    ]
+  },
+  {
+    "id": 1064,
+    "source": "invented",
+    "sentence": "The blanket was the most supportive friend because it had everyone ___",
+    "straight": [
+      "comforted",
+      "protected",
+      "helped"
+    ],
+    "punny": [
+      "covered"
+    ]
+  },
+  {
+    "id": 437,
+    "source": "original",
+    "sentence": "The basketball player became a writer because he was great at the ___",
+    "straight": [
+      "beginning",
+      "outline",
+      "opening"
+    ],
+    "punny": [
+      "draft"
+    ]
+  },
+  {
+    "id": 450,
+    "source": "original",
+    "sentence": "The elevator was stressed because everyone kept pushing his ___",
+    "straight": [
+      "patience",
+      "limits",
+      "temper"
+    ],
+    "punny": [
+      "buttons"
+    ]
+  },
+  {
+    "id": 209,
+    "source": "rewritten",
+    "sentence": "The electrician quit politics after his party lost ___",
+    "straight": [
+      "momentum",
+      "support",
+      "steam"
+    ],
+    "punny": [
+      "power"
+    ]
+  },
+  {
+    "id": 438,
+    "source": "original",
+    "sentence": "The poker player never panicked because he never showed his ___",
+    "straight": [
+      "emotions",
+      "feelings",
+      "weakness"
+    ],
+    "punny": [
+      "hand"
+    ]
+  },
+  {
+    "id": 470,
+    "source": "original",
+    "sentence": "The electrician's party was going well until someone blew a ___",
+    "straight": [
+      "whistle",
+      "gasket",
+      "chance"
+    ],
+    "punny": [
+      "fuse"
+    ]
+  }
+]

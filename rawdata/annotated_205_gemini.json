@@ -1,0 +1,2882 @@
+[
+  {
+    "id": 300,
+    "sentence": "The photon checked into a hotel without luggage because it was traveling ___",
+    "straight": [
+      "alone",
+      "fast",
+      "poorly"
+    ],
+    "punny": [
+      "light"
+    ],
+    "gemini_explanation": "\"Light\" refers both to the photon's nature and the lack of luggage. It's a decent pun, but not particularly surprising.",
+    "gemini_rating": 5
+  },
+  {
+    "id": 244,
+    "sentence": "The kleptomaniac didn't understand puns because he always took things ___",
+    "straight": [
+      "seriously",
+      "personally",
+      "literally"
+    ],
+    "punny": [
+      "literally"
+    ],
+    "gemini_explanation": "The pun plays on the double meaning of \"literally,\" meaning both \"in a literal manner\" and \"actually.\"",
+    "gemini_rating": 7
+  },
+  {
+    "id": 346,
+    "sentence": "The psychic midget escaped prison and was a small ___",
+    "straight": [
+      "fugitive",
+      "criminal",
+      "outlaw"
+    ],
+    "punny": [
+      "medium at large"
+    ],
+    "gemini_explanation": "\"Medium at large\" plays on the phrase \"at large\" (meaning escaped) and \"medium\" (a psychic).",
+    "gemini_rating": 8
+  },
+  {
+    "id": 237,
+    "sentence": "The golfer brought an extra pair of pants in case he got a ___",
+    "straight": [
+      "stain",
+      "rip",
+      "tear"
+    ],
+    "punny": [
+      "hole in one"
+    ],
+    "gemini_explanation": "The pun uses the golfing term \"hole in one\" to also mean a literal hole in the pants.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 281,
+    "sentence": "The tennis player broke up with his girlfriend because love meant ___",
+    "straight": [
+      "pain",
+      "heartbreak",
+      "commitment"
+    ],
+    "punny": [
+      "nothing"
+    ],
+    "gemini_explanation": "The pun uses the fact that in tennis, a score of zero is called \"love\", so love means \"nothing\".",
+    "gemini_rating": 7
+  },
+  {
+    "id": 271,
+    "sentence": "The king was only 12 inches tall, making him a pretty good ___",
+    "straight": [
+      "warrior",
+      "fighter",
+      "leader"
+    ],
+    "punny": [
+      "ruler"
+    ],
+    "gemini_explanation": "\"Ruler\" refers both to a measuring tool and a monarch. The setup is a bit contrived, but the pun works.",
+    "gemini_rating": 6
+  },
+  {
+    "id": 360,
+    "sentence": "The vulture boarded the airplane with two dead raccoons but was told he was only allowed one ___",
+    "straight": [
+      "bag",
+      "suitcase",
+      "item"
+    ],
+    "punny": [
+      "carrion"
+    ],
+    "gemini_explanation": "\"Carrion\" sounds like \"carry on\", referring to luggage. The setup is a bit bizarre, but the pun is clever.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 500,
+    "sentence": "The elevator operator's jokes were brilliant because they worked on so many ___",
+    "straight": [
+      "people",
+      "audiences",
+      "topics"
+    ],
+    "punny": [
+      "levels"
+    ],
+    "gemini_explanation": "\"Levels\" refers both to the floors in an elevator and the complexity/quality of the jokes.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 126,
+    "sentence": "The singer couldn't find a good practice room since every apartment was a little ___",
+    "straight": [
+      "small",
+      "expensive",
+      "noisy"
+    ],
+    "punny": [
+      "flat"
+    ],
+    "gemini_explanation": "\"Flat\" refers both to the musical term and the undesirable quality of an apartment.",
+    "gemini_rating": 6
+  },
+  {
+    "id": 278,
+    "sentence": "The cross-eyed teacher lost her job because she couldn't control her ___",
+    "straight": [
+      "temper",
+      "classroom",
+      "schedule"
+    ],
+    "punny": [
+      "pupils"
+    ],
+    "gemini_explanation": "\"Pupils\" refers both to students and the part of the eye. It's a classic pun.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 2029,
+    "sentence": "The Greek architect became a journalist because he totally loved ___",
+    "straight": [
+      "narratives",
+      "stories",
+      "arguments"
+    ],
+    "punny": [
+      "columns"
+    ],
+    "gemini_explanation": "\"Columns\" refers both to architectural columns and newspaper columns.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 113,
+    "sentence": "The scarecrow got promoted because he was outstanding in his ___",
+    "straight": [
+      "job",
+      "work",
+      "role"
+    ],
+    "punny": [
+      "field"
+    ],
+    "gemini_explanation": "\"Field\" refers both to an area of land and a profession.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 296,
+    "sentence": "The pirate had to learn the alphabet but he got lost at ___",
+    "straight": [
+      "school",
+      "library",
+      "class"
+    ],
+    "punny": [
+      "C"
+    ],
+    "gemini_explanation": "The pirate got lost at \"C\" because \"sea\" sounds like the letter C.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 89,
+    "sentence": "This terrible mirror was obviously made without ___",
+    "straight": [
+      "care",
+      "pride",
+      "ego",
+      "confidence"
+    ],
+    "punny": [
+      "reflection"
+    ],
+    "gemini_explanation": "\"Reflection\" refers both to the act of thinking and the image in a mirror.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 19,
+    "sentence": "The tennis player was upset because love meant ___",
+    "straight": [
+      "everything",
+      "so much"
+    ],
+    "punny": [
+      "nothing",
+      "zero"
+    ],
+    "gemini_explanation": "The pun uses the fact that in tennis, a score of zero is called \"love\", so love means \"nothing\" or \"zero\".",
+    "gemini_rating": 7
+  },
+  {
+    "id": 250,
+    "sentence": "The pony couldn't sing in the choir because he was a little ___",
+    "straight": [
+      "shy",
+      "quiet",
+      "untalented"
+    ],
+    "punny": [
+      "hoarse"
+    ],
+    "gemini_explanation": "\"Hoarse\" sounds like \"horse\", and refers to a raspy voice.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 471,
+    "sentence": "The shovel's greatest contribution to society was truly ___",
+    "straight": [
+      "important",
+      "revolutionary",
+      "significant"
+    ],
+    "punny": [
+      "groundbreaking"
+    ],
+    "gemini_explanation": "\"Groundbreaking\" refers both to the literal act of digging and something being innovative.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 116,
+    "sentence": "The tightrope walker went to the bank to check his ___",
+    "straight": [
+      "account",
+      "statement",
+      "numbers"
+    ],
+    "punny": [
+      "balance"
+    ],
+    "gemini_explanation": "\"Balance\" refers both to financial balance and physical balance.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 308,
+    "sentence": "The crab never shared his toys because he was ___",
+    "straight": [
+      "mean",
+      "greedy",
+      "spoiled"
+    ],
+    "punny": [
+      "shellfish"
+    ],
+    "gemini_explanation": "\"Shellfish\" sounds like \"selfish\".",
+    "gemini_rating": 8
+  },
+  {
+    "id": 1018,
+    "sentence": "The poker player always did his laundry at the right time, because he knew when to ___",
+    "straight": [
+      "wash",
+      "quit",
+      "stop",
+      "walk away"
+    ],
+    "punny": [
+      "fold"
+    ],
+    "gemini_explanation": "\"Fold\" refers both to folding laundry and folding in poker.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 2020,
+    "sentence": "Even after the bad carpenter was elected president, he couldn't assemble a ___",
+    "straight": [
+      "house",
+      "leadership",
+      "integrity",
+      "ambition"
+    ],
+    "punny": [
+      "cabinet"
+    ],
+    "gemini_explanation": "\"Cabinet\" refers both to a group of advisors and a piece of furniture.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 239,
+    "sentence": "The invisible man turned down the job offer because he couldn't ___",
+    "straight": [
+      "accept it",
+      "commit",
+      "relocate"
+    ],
+    "punny": [
+      "see himself doing it"
+    ],
+    "gemini_explanation": "The pun plays on the literal meaning of \"see himself doing it\" when the subject is an invisible man.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 1041,
+    "sentence": "The stadium was unbearably hot because there weren't any ___",
+    "straight": [
+      "vents",
+      "air conditioners",
+      "coolers"
+    ],
+    "punny": [
+      "fans"
+    ],
+    "gemini_explanation": "\"Fans\" refers both to people who support a team and devices that cool the air.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 299,
+    "sentence": "The chemist was reading a book on helium and he just couldn't ___",
+    "straight": [
+      "finish it",
+      "understand it",
+      "focus"
+    ],
+    "punny": [
+      "put it down"
+    ],
+    "gemini_explanation": "\"Put it down\" refers both to finishing a book and helium's tendency to make things float.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 1056,
+    "sentence": "The dry cleaner could never stop to chat because he had so many ___",
+    "straight": [
+      "responsibilities",
+      "emergencies",
+      "crises",
+      "stress"
+    ],
+    "punny": [
+      "pressing matters"
+    ],
+    "gemini_explanation": "\"Pressing matters\" refers both to urgent issues and the act of pressing clothes.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 2015,
+    "sentence": "During the embargo, the navy cardiologist had to work on a blocked ___",
+    "straight": [
+      "artery",
+      "valve",
+      "passage",
+      "ship"
+    ],
+    "punny": [
+      "vessel"
+    ],
+    "gemini_explanation": "\"Vessel\" can refer to both a ship and a blood vessel, making it a relevant pun for a navy cardiologist working during an embargo.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 1048,
+    "sentence": "The clock was impossible to calm down because it was always ___",
+    "straight": [
+      "tense",
+      "anxious",
+      "agitated"
+    ],
+    "punny": [
+      "wound up"
+    ],
+    "gemini_explanation": "\"Wound up\" can mean both tense/anxious and the state of a clock mechanism being tightened.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 1028,
+    "sentence": "The chicken won the percussion contest with her incredible ___",
+    "straight": [
+      "rhythm",
+      "timing",
+      "solo"
+    ],
+    "punny": [
+      "drumsticks"
+    ],
+    "gemini_explanation": "\"Drumsticks\" are both percussion instruments and chicken legs.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 2052,
+    "sentence": "The fisherman's film won an award because he had the best ___",
+    "straight": [
+      "audition",
+      "voice",
+      "presence",
+      "bait",
+      "actors"
+    ],
+    "punny": [
+      "cast"
+    ],
+    "gemini_explanation": "\"Cast\" refers to both the actors in a film and the act of casting a fishing line.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 2007,
+    "sentence": "The indecisive chef reopened his restaurant but still had ___",
+    "straight": [
+      "doubts",
+      "concerns",
+      "second thoughts",
+      "customers"
+    ],
+    "punny": [
+      "reservations"
+    ],
+    "gemini_explanation": "\"Reservations\" refers to both a chef taking bookings and having doubts.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 235,
+    "sentence": "The bicycle fell over after the race because it was ___",
+    "straight": [
+      "unbalanced",
+      "broken",
+      "unstable"
+    ],
+    "punny": [
+      "two tired"
+    ],
+    "gemini_explanation": "\"Two tired\" sounds like \"too tired,\" playing on the bicycle having two wheels.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 2057,
+    "sentence": "The deaf astrologer was always looking for a ___",
+    "straight": [
+      "clue",
+      "signal",
+      "message"
+    ],
+    "punny": [
+      "sign"
+    ],
+    "gemini_explanation": "\"Sign\" refers to both an astrological sign and a visual cue for a deaf person.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 289,
+    "sentence": "The dangerous iPhone was arrested and charged with ___",
+    "straight": [
+      "theft",
+      "arson",
+      "fraud"
+    ],
+    "punny": [
+      "battery"
+    ],
+    "gemini_explanation": "\"Battery\" refers to both a crime and the power source for an iPhone.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 18,
+    "sentence": "The batteries were given out free of ___",
+    "straight": [
+      "cost"
+    ],
+    "punny": [
+      "charge"
+    ],
+    "gemini_explanation": "\"Charge\" refers to both the cost of something and the electrical charge of a battery.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 2050,
+    "sentence": "The possessive geologist kept insisting everything underground was ___",
+    "straight": [
+      "valuable",
+      "protected",
+      "important"
+    ],
+    "punny": [
+      "mine"
+    ],
+    "gemini_explanation": "\"Mine\" refers to both a geologist's excavation site and a possessive pronoun.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 330,
+    "sentence": "The lemonade stand hired a baseball player because they needed a ___",
+    "straight": [
+      "worker",
+      "sign",
+      "salesman"
+    ],
+    "punny": [
+      "pitcher"
+    ],
+    "gemini_explanation": "\"Pitcher\" refers to both a baseball player and a container for lemonade.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 2005,
+    "sentence": "The chemistry teacher's marriage counselor found the perfect ___",
+    "straight": [
+      "approach",
+      "compromise",
+      "strategy"
+    ],
+    "punny": [
+      "solution"
+    ],
+    "gemini_explanation": "\"Solution\" refers to both a chemical solution and the answer to a problem.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 1010,
+    "sentence": "The retired pilot's therapist said he was surprisingly well ___",
+    "straight": [
+      "adjusted",
+      "balanced",
+      "centered"
+    ],
+    "punny": [
+      "grounded"
+    ],
+    "gemini_explanation": "\"Grounded\" refers to both being well-adjusted and an airplane being on the ground.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 2072,
+    "sentence": "The mountain climber thought the tea shop's prices were too ___",
+    "straight": [
+      "high",
+      "expensive",
+      "outrageous"
+    ],
+    "punny": [
+      "steep"
+    ],
+    "gemini_explanation": "\"Steep\" refers to both a high price and a steep incline, relevant to mountain climbing.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 249,
+    "sentence": "The leopard was bad at hide-and-seek because he was always ___",
+    "straight": [
+      "moving",
+      "noisy",
+      "distracted"
+    ],
+    "punny": [
+      "spotted"
+    ],
+    "gemini_explanation": "\"Spotted\" refers to both being seen and the pattern on a leopard's fur.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 1050,
+    "sentence": "The lumberjack's diary was thick because he kept detailed ___",
+    "straight": [
+      "records",
+      "entries",
+      "notes"
+    ],
+    "punny": [
+      "logs"
+    ],
+    "gemini_explanation": "\"Logs\" refers to both diary entries and pieces of wood, relevant to a lumberjack.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 1060,
+    "sentence": "The tailor won his court case because he had an excellent ___",
+    "straight": [
+      "lawyer",
+      "defense",
+      "argument"
+    ],
+    "punny": [
+      "suit"
+    ],
+    "gemini_explanation": "\"Suit\" refers to both a legal case and a tailored garment.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 2077,
+    "sentence": "After digging for treasure the pirate went to the doctor complaining of ___ pains",
+    "straight": [
+      "back",
+      "stomach",
+      "leg"
+    ],
+    "punny": [
+      "chest"
+    ],
+    "gemini_explanation": "\"Chest\" refers to both the part of the body and a treasure chest.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 2022,
+    "sentence": "The ailing water diviner said she wasn't feeling ___",
+    "straight": [
+      "great",
+      "good",
+      "better"
+    ],
+    "punny": [
+      "well"
+    ],
+    "gemini_explanation": "\"Well\" refers to both feeling healthy and a water source that a diviner would search for.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 1024,
+    "sentence": "The train conductor was promoted because of his excellent ___",
+    "straight": [
+      "performance",
+      "leadership",
+      "attitude"
+    ],
+    "punny": [
+      "track record"
+    ],
+    "gemini_explanation": "\"Track record\" refers to both a train's history and a person's past achievements.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 2025,
+    "sentence": "The cheese maker's creative projects always broke the ___",
+    "straight": [
+      "rules",
+      "norm",
+      "pattern"
+    ],
+    "punny": [
+      "mold"
+    ],
+    "gemini_explanation": "\"Mold\" refers to both a cheese making process and breaking the norm.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 2009,
+    "sentence": "The electrician went to the mall for an emotional ___",
+    "straight": [
+      "release",
+      "breakdown",
+      "moment"
+    ],
+    "punny": [
+      "outlet"
+    ],
+    "gemini_explanation": "\"Outlet\" refers to both an electrical outlet and a way to release emotions.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 1015,
+    "sentence": "The bread was afraid to be best man, because he would have to make a ___",
+    "straight": [
+      "tribute",
+      "monologue",
+      "dedication",
+      "speech"
+    ],
+    "punny": [
+      "toast"
+    ],
+    "gemini_explanation": "\"Toast\" refers to both a speech and toasted bread.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 454,
+    "sentence": "The butcher was great at poker because he always raised the ___",
+    "straight": [
+      "bet",
+      "bar",
+      "ante"
+    ],
+    "punny": [
+      "steaks"
+    ],
+    "gemini_explanation": "\"Steaks\" sounds like \"stakes\", referring to the betting stakes in poker and cuts of meat.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 255,
+    "sentence": "The police even arrested a belt for holding up a pair of ___",
+    "straight": [
+      "suspects",
+      "victims",
+      "citizens"
+    ],
+    "punny": [
+      "pants"
+    ],
+    "gemini_explanation": "\"Pants\" sounds like \"punts\", referring to the act of holding up pants with a belt.",
+    "gemini_rating": 6
+  },
+  {
+    "id": 234,
+    "sentence": "The mathematician's garden was struggling because the plants had square ___",
+    "straight": [
+      "leaves",
+      "pots",
+      "stems"
+    ],
+    "punny": [
+      "roots"
+    ],
+    "gemini_explanation": "\"Roots\" can refer to the underground part of a plant or the square root in mathematics. The joke plays on the mathematician's garden having square roots instead of healthy roots.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 2059,
+    "sentence": "The walrus was great at notarizing documents because he had the perfect ___",
+    "straight": [
+      "signature",
+      "credentials",
+      "authority"
+    ],
+    "punny": [
+      "seal"
+    ],
+    "gemini_explanation": "A walrus has a literal seal, but \"seal\" also refers to the stamp used to notarize documents.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 144,
+    "sentence": "The photographer hated gossip because it always developed into ___",
+    "straight": [
+      "drama",
+      "conflict",
+      "chaos"
+    ],
+    "punny": [
+      "negatives"
+    ],
+    "gemini_explanation": "\"Negatives\" are bad things in gossip, but also refer to photographic negatives.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 118,
+    "sentence": "The picture should have never been found guilty, but it had been ___",
+    "straight": [
+      "illegal",
+      "suspicious",
+      "involved"
+    ],
+    "punny": [
+      "framed"
+    ],
+    "gemini_explanation": "\"Framed\" means to be wrongly accused of a crime, but also refers to putting a picture in a frame.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 292,
+    "sentence": "Never ask a circle for advice because it is totally ___",
+    "straight": [
+      "weak",
+      "slow",
+      "lazy"
+    ],
+    "punny": [
+      "pointless"
+    ],
+    "gemini_explanation": "\"Pointless\" means lacking a purpose, but also refers to a circle not having any points.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 148,
+    "sentence": "The cow became a philosopher because she loved to ___",
+    "straight": [
+      "ponder",
+      "reflect",
+      "contemplate"
+    ],
+    "punny": [
+      "ruminate"
+    ],
+    "gemini_explanation": "\"Ruminate\" means to think deeply, but also refers to how cows digest food.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 502,
+    "sentence": "Ghosts love going to bars because they enjoy the ___",
+    "straight": [
+      "atmosphere",
+      "music",
+      "crowd"
+    ],
+    "punny": [
+      "boos",
+      "spirits"
+    ],
+    "gemini_explanation": "\"Boos\" are sounds of disapproval, but \"spirits\" are alcoholic drinks, both relevant to bars and ghosts.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 256,
+    "sentence": "The tomato blushed because it saw the salad ___",
+    "straight": [
+      "bowl",
+      "ingredients",
+      "leaves"
+    ],
+    "punny": [
+      "dressing"
+    ],
+    "gemini_explanation": "\"Dressing\" is what you put on a salad, but also means to get dressed, implying the salad is naked.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 14,
+    "sentence": "The banker left her job because she lost ___",
+    "straight": [
+      "motivation",
+      "hope",
+      "enthusiasm"
+    ],
+    "punny": [
+      "interest"
+    ],
+    "gemini_explanation": "\"Interest\" is a feeling of wanting to learn about something, but also refers to the money banks charge for loans.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 46,
+    "sentence": "The baker's bread business was on the ___",
+    "straight": [
+      "decline",
+      "rocks",
+      "verge"
+    ],
+    "punny": [
+      "rise"
+    ],
+    "gemini_explanation": "\"Rise\" means to increase, but also refers to the rising of bread dough.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 339,
+    "sentence": "The boxer proposed marriage in the ___",
+    "straight": [
+      "park",
+      "restaurant",
+      "hotel"
+    ],
+    "punny": [
+      "ring"
+    ],
+    "gemini_explanation": "A \"ring\" is a place where boxers fight, but also refers to a wedding ring.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 90,
+    "sentence": "The sausage maker's work was the ___",
+    "straight": [
+      "best",
+      "finest",
+      "greatest"
+    ],
+    "punny": [
+      "wurst"
+    ],
+    "gemini_explanation": "\"Wurst\" is German for sausage, but sounds like \"worst\", meaning the least good.",
+    "gemini_rating": 9
+  },
+  {
+    "id": 40,
+    "sentence": "The calendar thief got twelve ___",
+    "straight": [
+      "years",
+      "counts"
+    ],
+    "punny": [
+      "months"
+    ],
+    "gemini_explanation": "\"Months\" are units of time, but sounds like \"munce\" which is slang for money.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 2010,
+    "sentence": "The retired sailor worked in the news because he liked being the ___",
+    "straight": [
+      "leader",
+      "center of attention",
+      "spokesperson"
+    ],
+    "punny": [
+      "anchor"
+    ],
+    "gemini_explanation": "An \"anchor\" is a heavy object that keeps a ship in place, but also refers to the main news presenter.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 2043,
+    "sentence": "The bookbinder's business operated on thin ___",
+    "straight": [
+      "budgets",
+      "profits",
+      "resources"
+    ],
+    "punny": [
+      "margins"
+    ],
+    "gemini_explanation": "\"Margins\" are the edges of a page, but also refer to profit margins in business.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 2048,
+    "sentence": "The filmmaker somehow ended up in HR because she knew how to ___ people",
+    "straight": [
+      "evaluate",
+      "interview",
+      "manage"
+    ],
+    "punny": [
+      "screen"
+    ],
+    "gemini_explanation": "\"Screen\" means to filter candidates, but also refers to the screen of a film.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 195,
+    "sentence": "The chef stopped dating comedians because every meal ended with a ___",
+    "straight": [
+      "story",
+      "performance",
+      "routine"
+    ],
+    "punny": [
+      "roast"
+    ],
+    "gemini_explanation": "\"Roast\" is a style of comedy, but also refers to a cooked meal.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 1001,
+    "sentence": "The earthquake couldn't accept blame because nothing was ever his ___",
+    "straight": [
+      "responsibility",
+      "problem",
+      "concern"
+    ],
+    "punny": [
+      "fault"
+    ],
+    "gemini_explanation": "\"Fault\" means responsibility for something bad, but also refers to a geological fault line, relevant to earthquakes.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 2055,
+    "sentence": "I think the colonel opened a restaurant because he loved taking ___",
+    "straight": [
+      "control",
+      "charge",
+      "initiative"
+    ],
+    "punny": [
+      "orders"
+    ],
+    "gemini_explanation": "\"Orders\" means to take command, but also refers to food orders in a restaurant.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 475,
+    "sentence": "The sun doesn't need to go to college since it already has a million ___",
+    "straight": [
+      "fans",
+      "admirers",
+      "followers"
+    ],
+    "punny": [
+      "degrees"
+    ],
+    "gemini_explanation": "\"Degrees\" are academic qualifications, but also units of temperature, relevant to the sun.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 2028,
+    "sentence": "Argue with your pharmacist, and you will find she always has a ___",
+    "straight": [
+      "rebuttal",
+      "comeback",
+      "response"
+    ],
+    "punny": [
+      "counter"
+    ],
+    "gemini_explanation": "\"Counter\" is a surface in a pharmacy, but also refers to a response in an argument.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 361,
+    "sentence": "The man who fell into an upholstery machine is now fully ___",
+    "straight": [
+      "injured",
+      "traumatized",
+      "stuck"
+    ],
+    "punny": [
+      "recovered"
+    ],
+    "gemini_explanation": "\"Recovered\" means to get better, but also refers to furniture being reupholstered.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 2001,
+    "sentence": "The mailman's jokes were hilarious because of his ___",
+    "straight": [
+      "route",
+      "truck",
+      "ideas"
+    ],
+    "punny": [
+      "delivery"
+    ],
+    "gemini_explanation": "\"Delivery\" means the act of delivering mail, but also refers to the way someone tells a joke.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 115,
+    "sentence": "I think the bank is very impressed with my loan because they tell me how it is still ___",
+    "straight": [
+      "active",
+      "unpaid",
+      "open"
+    ],
+    "punny": [
+      "outstanding"
+    ],
+    "gemini_explanation": "\"Outstanding\" means still owed, but also means exceptionally good.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 456,
+    "sentence": "The rabbit was great at math because he knew how to ___",
+    "straight": [
+      "calculate",
+      "count",
+      "compute"
+    ],
+    "punny": [
+      "multiply"
+    ],
+    "gemini_explanation": "\"Multiply\" means to perform multiplication, but also refers to how rabbits reproduce.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 8,
+    "sentence": "The dentist and the manicurist argued ___",
+    "straight": [
+      "endlessly"
+    ],
+    "punny": [
+      "tooth and nail"
+    ],
+    "gemini_explanation": "\"Tooth and nail\" is an idiom for arguing fiercely, playing on the literal dental and manicure context.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 272,
+    "sentence": "The clock was so hungry it went back four ___",
+    "straight": [
+      "hours",
+      "days",
+      "years"
+    ],
+    "punny": [
+      "seconds"
+    ],
+    "gemini_explanation": "The pun plays on the double meaning of \"seconds,\" referring to both units of time and portions of food.",
+    "gemini_rating": 6
+  },
+  {
+    "id": 306,
+    "sentence": "The fish was smart because it spent all its time in a ___",
+    "straight": [
+      "library",
+      "university",
+      "museum"
+    ],
+    "punny": [
+      "school"
+    ],
+    "gemini_explanation": "\"School\" refers both to an educational institution and a group of fish.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 464,
+    "sentence": "The deli owner was great at ending arguments because he could see through the ___",
+    "straight": [
+      "lies",
+      "excuses",
+      "nonsense"
+    ],
+    "punny": [
+      "baloney"
+    ],
+    "gemini_explanation": "\"Baloney\" refers both to the deli meat and to nonsense or lies.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 444,
+    "sentence": "The laundry felt betrayed after it was ___",
+    "straight": [
+      "suffer",
+      "fail",
+      "fend"
+    ],
+    "punny": [
+      "hung out to dry"
+    ],
+    "gemini_explanation": "\"Hung out to dry\" is an idiom for being betrayed, playing on the literal laundry context.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 1013,
+    "sentence": "The fish couldn't learn guitar because he couldn't get past the ___",
+    "straight": [
+      "basics",
+      "chords",
+      "fingering"
+    ],
+    "punny": [
+      "scales"
+    ],
+    "gemini_explanation": "\"Scales\" refers both to musical scales and the scales of a fish.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 495,
+    "sentence": "The caterpillar was optimistic because he believed in personal ___",
+    "straight": [
+      "growth",
+      "change",
+      "development"
+    ],
+    "punny": [
+      "transformation"
+    ],
+    "gemini_explanation": "\"Transformation\" refers both to personal growth and the metamorphosis of a caterpillar into a butterfly.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 1052,
+    "sentence": "The ocean seems so friendly because it is always ___",
+    "straight": [
+      "wet",
+      "warm",
+      "big"
+    ],
+    "punny": [
+      "waving"
+    ],
+    "gemini_explanation": "\"Waving\" refers both to the motion of the ocean and a friendly greeting.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 1042,
+    "sentence": "The mushroom was always invited to parties because he was a ___",
+    "straight": [
+      "blast",
+      "riot",
+      "character"
+    ],
+    "punny": [
+      "fungi"
+    ],
+    "gemini_explanation": "\"Fungi\" sounds like \"fun guy,\" playing on the mushroom context.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 449,
+    "sentence": "The lawsuit about instant coffee was ___",
+    "straight": [
+      "controversial",
+      "expensive",
+      "hot"
+    ],
+    "punny": [
+      "groundless"
+    ],
+    "gemini_explanation": "\"Groundless\" refers both to a lack of legal basis and coffee grounds.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 2063,
+    "sentence": "The sailor and his wife were always having a ___",
+    "straight": [
+      "disagreement",
+      "fight",
+      "argument"
+    ],
+    "punny": [
+      "row"
+    ],
+    "gemini_explanation": "\"Row\" refers both to an argument and to propelling a boat.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 488,
+    "sentence": "The carefully-planned museum heist pulled off a ___",
+    "straight": [
+      "miracle",
+      "feat",
+      "accomplishment"
+    ],
+    "punny": [
+      "masterpiece"
+    ],
+    "gemini_explanation": "\"Masterpiece\" refers both to a great work of art and a masterfully executed plan.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 321,
+    "sentence": "The grammarian knew he had to be careful whenever he got ___",
+    "straight": [
+      "anxious",
+      "worried",
+      "nervous"
+    ],
+    "punny": [
+      "tense"
+    ],
+    "gemini_explanation": "\"Tense\" refers both to grammatical tense and a state of anxiety.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 66,
+    "sentence": "The balloon advertisement was full of ___",
+    "straight": [
+      "promise",
+      "potential",
+      "problems"
+    ],
+    "punny": [
+      "hot air"
+    ],
+    "gemini_explanation": "\"Hot air\" refers both to the gas inside a balloon and empty promises.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 24,
+    "sentence": "The knife sharpener quit because work was ___",
+    "straight": [
+      "tedious",
+      "boring",
+      "monotonous"
+    ],
+    "punny": [
+      "dull"
+    ],
+    "gemini_explanation": "\"Dull\" refers both to the sharpness of a knife and the quality of being boring.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 348,
+    "sentence": "The frog was happy because he ate what ___",
+    "straight": [
+      "he wanted",
+      "tasted good",
+      "was healthy"
+    ],
+    "punny": [
+      "bugged him"
+    ],
+    "gemini_explanation": "\"Bugged him\" refers both to insects and to something that annoys someone.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 2008,
+    "sentence": "The golfer's shirt was always wrinkled because he could never find his ___",
+    "straight": [
+      "laundry",
+      "closet",
+      "hangers"
+    ],
+    "punny": [
+      "iron"
+    ],
+    "gemini_explanation": "\"Iron\" refers both to the appliance for removing wrinkles and the metal used to make golf clubs.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 2006,
+    "sentence": "The wizard ran a fantastic music school because he had a great ___",
+    "straight": [
+      "reputation",
+      "talent",
+      "network"
+    ],
+    "punny": [
+      "staff"
+    ],
+    "gemini_explanation": "\"Staff\" refers both to the employees of a school and the musical notation system.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 2012,
+    "sentence": "At every party the boxer would bring the ___",
+    "straight": [
+      "energy",
+      "food",
+      "music"
+    ],
+    "punny": [
+      "punch"
+    ],
+    "gemini_explanation": "\"Punch\" refers both to a beverage and a boxing strike.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 2030,
+    "sentence": "The lightning was terrible at relationships because it always ___",
+    "straight": [
+      "vanished",
+      "overreacted",
+      "left"
+    ],
+    "punny": [
+      "bolted"
+    ],
+    "gemini_explanation": "\"Bolted\" refers both to lightning striking and someone running away quickly.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 366,
+    "sentence": "The baby strawberry was crying because his mom was in a ___",
+    "straight": [
+      "hurry",
+      "rush",
+      "panic"
+    ],
+    "punny": [
+      "jam"
+    ],
+    "gemini_explanation": "\"Jam\" refers both to a fruit preserve and a difficult situation.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 287,
+    "sentence": "The geometry teacher was adorable because she was so ___",
+    "straight": [
+      "kind",
+      "pretty",
+      "nice"
+    ],
+    "punny": [
+      "acute"
+    ],
+    "gemini_explanation": "\"Acute\" refers both to an angle and the quality of being sharp or clever.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 295,
+    "sentence": "The thief fell in the cement and became a ___",
+    "straight": [
+      "man",
+      "fighter",
+      "expert"
+    ],
+    "punny": [
+      "hardened criminal"
+    ],
+    "gemini_explanation": "\"Hardened criminal\" refers both to someone who is tough and cement that has hardened.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 1017,
+    "sentence": "The comedian's fishing stories always had a great ___",
+    "straight": [
+      "ending",
+      "twist",
+      "setup"
+    ],
+    "punny": [
+      "line"
+    ],
+    "gemini_explanation": "\"Line\" refers both to the punchline of a joke and a fishing line.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 56,
+    "sentence": "The comedian's jokes about unemployment weren't ___",
+    "straight": [
+      "funny",
+      "good",
+      "landing"
+    ],
+    "punny": [
+      "working"
+    ],
+    "gemini_explanation": "\"Working\" refers both to the quality of a joke and having a job.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 2047,
+    "sentence": "The parking officer said everything was ___",
+    "straight": [
+      "okay",
+      "normal",
+      "under control"
+    ],
+    "punny": [
+      "fine"
+    ],
+    "gemini_explanation": "\"Fine\" can mean acceptable, or a monetary penalty issued by a parking officer.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 2003,
+    "sentence": "The pig's memoir came straight from her ___",
+    "straight": [
+      "imagination",
+      "memory",
+      "bedroom"
+    ],
+    "punny": [
+      "pen"
+    ],
+    "gemini_explanation": "\"Pen\" refers both to a writing instrument and a pig enclosure.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 25,
+    "sentence": "The dieter went to the paint store to get ___",
+    "straight": [
+      "supplies",
+      "paint",
+      "brushes"
+    ],
+    "punny": [
+      "thinner"
+    ],
+    "gemini_explanation": "\"Thinner\" refers both to a paint solvent and a way to lose weight.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 49,
+    "sentence": "The wind turbine salesman was a huge ___",
+    "straight": [
+      "success",
+      "hit",
+      "deal"
+    ],
+    "punny": [
+      "fan",
+      "blowhard"
+    ],
+    "gemini_explanation": "\"Fan\" can refer to someone who is enthusiastic, or a device that blows air.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 1002,
+    "sentence": "The archaeologist's career was in ___",
+    "straight": [
+      "trouble",
+      "jeopardy",
+      "decline"
+    ],
+    "punny": [
+      "ruins"
+    ],
+    "gemini_explanation": "\"Ruins\" refers to the remnants of ancient structures and a state of decline.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 2017,
+    "sentence": "The local commuter's experiences are very hard to ___",
+    "straight": [
+      "understand",
+      "describe",
+      "ignore"
+    ],
+    "punny": [
+      "express"
+    ],
+    "gemini_explanation": "\"Express\" means to convey something, but also refers to a fast form of public transportation.",
+    "gemini_rating": 6
+  },
+  {
+    "id": 1025,
+    "sentence": "The beekeeper's announcement created quite a ___",
+    "straight": [
+      "stir",
+      "commotion",
+      "reaction"
+    ],
+    "punny": [
+      "buzz"
+    ],
+    "gemini_explanation": "\"Buzz\" refers to the sound of bees and a feeling of excitement or gossip.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 2067,
+    "sentence": "The lonely CEO just wanted some ___",
+    "straight": [
+      "friends",
+      "attention",
+      "peace"
+    ],
+    "punny": [
+      "company"
+    ],
+    "gemini_explanation": "\"Company\" refers to companionship and a business organization.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 2074,
+    "sentence": "The forgetful collector left their ___",
+    "straight": [
+      "impression",
+      "impact",
+      "legacy"
+    ],
+    "punny": [
+      "stamp"
+    ],
+    "gemini_explanation": "\"Stamp\" refers to a postage stamp and a lasting impression.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 1011,
+    "sentence": "The elephant always packed light except for his ___",
+    "straight": [
+      "toiletries",
+      "snacks",
+      "blanket"
+    ],
+    "punny": [
+      "trunk"
+    ],
+    "gemini_explanation": "\"Trunk\" refers to an elephant's nose and a piece of luggage.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 273,
+    "sentence": "The cannibal showed up late to the luncheon so he was given the cold ___",
+    "straight": [
+      "soup",
+      "stare",
+      "treatment"
+    ],
+    "punny": [
+      "shoulder"
+    ],
+    "gemini_explanation": "\"Cold shoulder\" refers to a cut of meat and ignoring someone.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 3,
+    "sentence": "The calendar factory worker was let go because his days were ___",
+    "straight": [
+      "over",
+      "finished",
+      "done"
+    ],
+    "punny": [
+      "numbered"
+    ],
+    "gemini_explanation": "\"Numbered\" refers to having a limited quantity and being close to death/the end.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 301,
+    "sentence": "The two antennas met on a roof and the wedding had excellent ___",
+    "straight": [
+      "food",
+      "decor",
+      "music"
+    ],
+    "punny": [
+      "reception"
+    ],
+    "gemini_explanation": "\"Reception\" refers to a wedding party and the quality of a signal.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 117,
+    "sentence": "The coffee filed a police report after it got ___",
+    "straight": [
+      "stolen",
+      "taken",
+      "robbed"
+    ],
+    "punny": [
+      "mugged"
+    ],
+    "gemini_explanation": "\"Mugged\" refers to being robbed and putting coffee in a mug.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 6,
+    "sentence": "The astronaut broke up with his girlfriend because he needed more ___",
+    "straight": [
+      "time",
+      "freedom",
+      "independence"
+    ],
+    "punny": [
+      "space"
+    ],
+    "gemini_explanation": "\"Space\" refers to physical distance and outer space.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 2078,
+    "sentence": "The lizard keeper got a job in IT because he already worked with ___",
+    "straight": [
+      "screens",
+      "cables",
+      "systems"
+    ],
+    "punny": [
+      "monitors"
+    ],
+    "gemini_explanation": "\"Monitors\" refers to lizard species and computer screens.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 2038,
+    "sentence": "The garbage collector was so stubborn he would never ___",
+    "straight": [
+      "compromise",
+      "quit",
+      "back down"
+    ],
+    "punny": [
+      "refuse"
+    ],
+    "gemini_explanation": "\"Refuse\" refers to garbage and the act of refusing.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 316,
+    "sentence": "The math book looked sad because it had too many ___",
+    "straight": [
+      "pages",
+      "tears",
+      "stains"
+    ],
+    "punny": [
+      "problems"
+    ],
+    "gemini_explanation": "\"Problems\" refers to emotional issues and math problems.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 329,
+    "sentence": "The union workers went bowling and got a ___",
+    "straight": [
+      "beer",
+      "pizza",
+      "lane"
+    ],
+    "punny": [
+      "strike"
+    ],
+    "gemini_explanation": "\"Strike\" refers to a bowling term and a labor action.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 69,
+    "sentence": "The tailor's business was just ___",
+    "straight": [
+      "okay",
+      "fine",
+      "average"
+    ],
+    "punny": [
+      "sew-sew",
+      "seamy"
+    ],
+    "gemini_explanation": "\"Sew-sew\" sounds like \"so-so\", and refers to the act of sewing.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 462,
+    "sentence": "After 40 years of teaching archaeology, they told the professor, 'You're ___'",
+    "straight": [
+      "done",
+      "finished",
+      "retired"
+    ],
+    "punny": [
+      "history"
+    ],
+    "gemini_explanation": "\"History\" refers to the past and the professor's field of study.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 415,
+    "sentence": "When the egg farmer tried to organize his inventory, everything turned into a complete ___",
+    "straight": [
+      "disaster",
+      "mess",
+      "chaos"
+    ],
+    "punny": [
+      "scramble"
+    ],
+    "gemini_explanation": "\"Scramble\" refers to mixing up eggs and a chaotic situation.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 193,
+    "sentence": "The wedding photographer refused to work divorces because they involved too much ___",
+    "straight": [
+      "drama",
+      "conflict",
+      "emotion"
+    ],
+    "punny": [
+      "exposure"
+    ],
+    "gemini_explanation": "\"Exposure\" refers to emotional vulnerability and a photography term.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 319,
+    "sentence": "The live art competition was very close and ended in a ___",
+    "straight": [
+      "deadlock",
+      "stalemate",
+      "draw"
+    ],
+    "punny": [
+      "draw"
+    ],
+    "gemini_explanation": "\"Draw\" refers to a tie and the act of creating art.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 257,
+    "sentence": "The tennis stringer was kicked out of the library for making a ___",
+    "straight": [
+      "noise",
+      "disturbance",
+      "commotion"
+    ],
+    "punny": [
+      "racket"
+    ],
+    "gemini_explanation": "\"Racket\" refers to a tennis racket and a loud noise.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 399,
+    "sentence": "The business of fireworks has been ___",
+    "straight": [
+      "spectacular",
+      "explosive",
+      "impressive"
+    ],
+    "punny": [
+      "booming",
+      "exploding"
+    ],
+    "gemini_explanation": "\"Booming\" and \"exploding\" refer both to the sound fireworks make and to a successful business. The pun works because fireworks are inherently explosive.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 489,
+    "sentence": "The scuba instructor's students loved her because she never made them feel ___",
+    "straight": [
+      "stupid",
+      "embarrassed",
+      "inadequate"
+    ],
+    "punny": [
+      "shallow"
+    ],
+    "gemini_explanation": "\"Shallow\" refers both to the depth of the water in scuba diving and to a lack of intellectual depth or understanding. The pun is effective because it plays on a common fear/anxiety of new scuba divers.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 291,
+    "sentence": "The seamstress was the funniest person in the shop; she kept everyone in ___",
+    "straight": [
+      "tears",
+      "laughter",
+      "joy"
+    ],
+    "punny": [
+      "stitches"
+    ],
+    "gemini_explanation": "\"Stitches\" refers both to the act of sewing and to the pain one feels when laughing too hard. The pun is well-integrated into the sentence.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 479,
+    "sentence": "The door salesman was good at his job because he knew exactly how to ___",
+    "straight": [
+      "negotiate",
+      "persist",
+      "walk away"
+    ],
+    "punny": [
+      "close"
+    ],
+    "gemini_explanation": "\"Close\" refers both to the act of closing a door and to closing a sale. The pun is straightforward but effective.",
+    "gemini_rating": 6
+  },
+  {
+    "id": 248,
+    "sentence": "The student ate his homework because the teacher said it was a piece of ___",
+    "straight": [
+      "garbage",
+      "trash",
+      "junk"
+    ],
+    "punny": [
+      "cake"
+    ],
+    "gemini_explanation": "\"Piece of cake\" is an idiom meaning something is easy, but literally refers to a slice of cake. The joke is predictable but still works.",
+    "gemini_rating": 5
+  },
+  {
+    "id": 389,
+    "sentence": "The average data scientist is hard to befriend because they are so ___",
+    "straight": [
+      "harsh",
+      "cruel",
+      "nasty"
+    ],
+    "punny": [
+      "mean"
+    ],
+    "gemini_explanation": "\"Mean\" refers both to the average in mathematics and to someone who is unkind. The pun is simple and relies on a common stereotype.",
+    "gemini_rating": 6
+  },
+  {
+    "id": 409,
+    "sentence": "The chicken soup company is a great investment and a great ___",
+    "straight": [
+      "soup",
+      "broth",
+      "sauce"
+    ],
+    "punny": [
+      "stock"
+    ],
+    "gemini_explanation": "\"Stock\" refers both to chicken stock (soup base) and to financial stock (investment). The pun is clever and relevant to the context.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 130,
+    "sentence": "The lawyer's jokes flopped because they were too ___",
+    "straight": [
+      "technical",
+      "dry",
+      "complicated"
+    ],
+    "punny": [
+      "brief"
+    ],
+    "gemini_explanation": "\"Brief\" refers both to the length of a joke and to a legal document. The pun is well-suited to the lawyer context.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 290,
+    "sentence": "Sir Lancelot's armor was rusty because he'd been pulling too many ___",
+    "straight": [
+      "double shifts",
+      "long hours",
+      "overtime shifts"
+    ],
+    "punny": [
+      "knight shifts"
+    ],
+    "gemini_explanation": "\"Knight shift\" sounds like \"night shift,\" playing on the profession of Sir Lancelot. The pun is a bit cheesy but works.",
+    "gemini_rating": 6
+  },
+  {
+    "id": 266,
+    "sentence": "The elevator operator had an eventful life with many ___",
+    "straight": [
+      "benefits",
+      "perks",
+      "moments"
+    ],
+    "punny": [
+      "ups and downs"
+    ],
+    "gemini_explanation": "\"Ups and downs\" refers both to the literal movement of an elevator and to the figurative experiences in life. The pun is a classic and fits the context well.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 356,
+    "sentence": "The man sued the airline for losing his luggage but he lost his ___",
+    "straight": [
+      "money",
+      "time",
+      "dignity"
+    ],
+    "punny": [
+      "case"
+    ],
+    "gemini_explanation": "\"Case\" refers both to luggage and to a legal case. The pun is direct and relevant.",
+    "gemini_rating": 6
+  },
+  {
+    "id": 364,
+    "sentence": "The traffic light was embarrassed and turned red when it had to ___",
+    "straight": [
+      "stop traffic",
+      "halt cars",
+      "work again"
+    ],
+    "punny": [
+      "change"
+    ],
+    "gemini_explanation": "\"Change\" refers both to the changing of a traffic light and to feeling embarrassed. The pun is a bit weak, as the connection is not very strong.",
+    "gemini_rating": 4
+  },
+  {
+    "id": 427,
+    "sentence": "The magazine editor was overwhelmed because there were too many ___",
+    "straight": [
+      "demands",
+      "deadlines",
+      "tasks"
+    ],
+    "punny": [
+      "issues"
+    ],
+    "gemini_explanation": "\"Issues\" refers both to problems and to editions of a magazine. The pun is straightforward and effective in the context.",
+    "gemini_rating": 6
+  },
+  {
+    "id": 16,
+    "sentence": "The arborist's marriage failed because his wife said he was too ___",
+    "straight": [
+      "distant",
+      "cold",
+      "stubborn"
+    ],
+    "punny": [
+      "shady",
+      "wooden"
+    ],
+    "gemini_explanation": "\"Shady\" and \"wooden\" both describe trees and negative personality traits. The double pun makes it a bit stronger.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 2027,
+    "sentence": "The mushroom's salary never went up because there was always a ___",
+    "straight": [
+      "limit",
+      "ceiling",
+      "restriction"
+    ],
+    "punny": [
+      "cap"
+    ],
+    "gemini_explanation": "\"Cap\" refers both to the top of a mushroom and a limit on salary. The pun is simple and effective.",
+    "gemini_rating": 6
+  },
+  {
+    "id": 407,
+    "sentence": "The pilot's autobiography sold out after his career ___",
+    "straight": [
+      "inspired people",
+      "impressed readers",
+      "resonated"
+    ],
+    "punny": [
+      "took off"
+    ],
+    "gemini_explanation": "\"Took off\" refers both to a plane taking off and a career becoming successful. The pun is a classic and fits the context well.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 2049,
+    "sentence": "The chemists' marriage was strong because of their incredible ___",
+    "straight": [
+      "trust",
+      "communication",
+      "love"
+    ],
+    "punny": [
+      "bond"
+    ],
+    "gemini_explanation": "\"Bond\" refers both to a chemical bond and the connection between people. The pun is simple and effective.",
+    "gemini_rating": 6
+  },
+  {
+    "id": 2032,
+    "sentence": "The poker player loved this mountain trail because it ended at a ___",
+    "straight": [
+      "summit",
+      "viewpoint",
+      "clearing"
+    ],
+    "punny": [
+      "bluff"
+    ],
+    "gemini_explanation": "\"Bluff\" refers both to a geographical feature and a poker term. The pun is clever and specific.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 349,
+    "sentence": "After his return the astronaut chose this restaurant because it had great ___",
+    "straight": [
+      "service",
+      "food",
+      "ambiance"
+    ],
+    "punny": [
+      "atmosphere"
+    ],
+    "gemini_explanation": "\"Atmosphere\" refers both to the atmosphere of a restaurant and the Earth's atmosphere. The pun is well-suited to the astronaut context.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 384,
+    "sentence": "The optician fell into his lens grinder and made a complete ___",
+    "straight": [
+      "fool",
+      "mess",
+      "disaster"
+    ],
+    "punny": [
+      "spectacle"
+    ],
+    "gemini_explanation": "\"Spectacle\" refers both to a ridiculous sight and to eyeglasses. The pun is clever and well-integrated into the scenario.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 387,
+    "sentence": "The graveyard worker was depressed because his career was a ___",
+    "straight": [
+      "failure",
+      "waste",
+      "disappointment"
+    ],
+    "punny": [
+      "dead end"
+    ],
+    "gemini_explanation": "\"Dead end\" refers both to a street that doesn't connect and a career that doesn't progress. The pun is a bit dark but effective.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 337,
+    "sentence": "The submarine captain went to a cheap bar that was a total ___",
+    "straight": [
+      "mess",
+      "dump",
+      "disaster"
+    ],
+    "punny": [
+      "dive"
+    ],
+    "gemini_explanation": "\"Dive\" refers both to a cheap bar and the act of diving underwater. The pun is straightforward and fits the submarine captain context.",
+    "gemini_rating": 6
+  },
+  {
+    "id": 161,
+    "sentence": "The shoe store went bankrupt because it couldn't find its ___",
+    "straight": [
+      "customers",
+      "market",
+      "strategy"
+    ],
+    "punny": [
+      "sole"
+    ],
+    "gemini_explanation": "\"Sole\" refers both to the bottom of a shoe and being the only one. The pun is a bit predictable but still works.",
+    "gemini_rating": 5
+  },
+  {
+    "id": 336,
+    "sentence": "The cat always interrupted the swimmer by jumping into his ___",
+    "straight": [
+      "towel",
+      "goggles",
+      "clothes"
+    ],
+    "punny": [
+      "lap"
+    ],
+    "gemini_explanation": "\"Lap\" refers both to the swimmer's lap in the pool and the cat's lap. The pun is simple and creates a humorous image.",
+    "gemini_rating": 6
+  },
+  {
+    "id": 274,
+    "sentence": "The thunder cloud joined the union and then it kept ___",
+    "straight": [
+      "slacking off",
+      "being late",
+      "causing trouble"
+    ],
+    "punny": [
+      "striking"
+    ],
+    "gemini_explanation": "\"Striking\" refers both to a thunder cloud striking with lightning and workers going on strike. The pun is well-suited to the context.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 335,
+    "sentence": "The arsonist quit playing tennis after someone stole his ___",
+    "straight": [
+      "racket",
+      "shoes",
+      "bag"
+    ],
+    "punny": [
+      "matches"
+    ],
+    "gemini_explanation": "The pun plays on \"matches\" referring both to the equipment used in tennis and the tool used to start fires.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 455,
+    "sentence": "After parachuting from space, the adventurer was ___",
+    "straight": [
+      "famous",
+      "relaxed",
+      "celebrated"
+    ],
+    "punny": [
+      "down to earth"
+    ],
+    "gemini_explanation": "\"Down to earth\" has the literal meaning of returning to the ground, and the figurative meaning of being humble or practical.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 368,
+    "sentence": "The corn stalk was a good listener because it was all ___",
+    "straight": [
+      "attention",
+      "focus",
+      "silence"
+    ],
+    "punny": [
+      "ears"
+    ],
+    "gemini_explanation": "The pun uses the literal \"ears\" of corn and the figurative \"ears\" meaning the ability to listen.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 7,
+    "sentence": "The optometrist's startup failed because he lacked ___",
+    "straight": [
+      "funding",
+      "experience",
+      "planning"
+    ],
+    "punny": [
+      "vision"
+    ],
+    "gemini_explanation": "\"Vision\" refers both to eyesight and a business plan/foresight.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 80,
+    "sentence": "The clueless archaeologist was terrible at ___",
+    "straight": [
+      "understanding",
+      "appreciating",
+      "handling"
+    ],
+    "punny": [
+      "dating"
+    ],
+    "gemini_explanation": "\"Dating\" refers both to going on dates and determining the age of an artifact.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 402,
+    "sentence": "The coin maker went crazy and stopped making any ___",
+    "straight": [
+      "progress",
+      "friends",
+      "effort"
+    ],
+    "punny": [
+      "cents"
+    ],
+    "gemini_explanation": "\"Cents\" refers both to monetary units and a sense of reason or logic.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 22,
+    "sentence": "The mattress salesman was tired of lying on the ___",
+    "straight": [
+      "floor",
+      "ground"
+    ],
+    "punny": [
+      "job"
+    ],
+    "gemini_explanation": "The pun uses the phrase \"lying on the job\" which can mean physically lying down at work or figuratively being dishonest at work.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 170,
+    "sentence": "The judge loved writing because it let him pass ___",
+    "straight": [
+      "time",
+      "judgment",
+      "days"
+    ],
+    "punny": [
+      "sentence"
+    ],
+    "gemini_explanation": "\"Sentence\" refers both to a grammatical unit and a punishment given by a judge.",
+    "gemini_rating": 9
+  },
+  {
+    "id": 304,
+    "sentence": "The dog was a tree expert because he knew his ___",
+    "straight": [
+      "leaves",
+      "wood",
+      "roots"
+    ],
+    "punny": [
+      "bark"
+    ],
+    "gemini_explanation": "\"Bark\" refers both to the outer layer of a tree and the sound a dog makes.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 341,
+    "sentence": "The dyslexic zombie kept hunting guys named ___",
+    "straight": [
+      "Steve",
+      "Mike",
+      "Dave"
+    ],
+    "punny": [
+      "Brian"
+    ],
+    "gemini_explanation": "The dyslexic zombie wants \"brains\", but pronounces it \"Brian\".",
+    "gemini_rating": 8
+  },
+  {
+    "id": 396,
+    "sentence": "The Swiss cheese maker's alibis were always ___",
+    "straight": [
+      "suspicious",
+      "unconvincing",
+      "questionable"
+    ],
+    "punny": [
+      "full of holes"
+    ],
+    "gemini_explanation": "The pun plays on Swiss cheese having literal holes, and \"full of holes\" meaning inconsistent or unbelievable.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 1004,
+    "sentence": "The baker told his lazy son to stop ___",
+    "straight": [
+      "messing",
+      "fooling",
+      "hanging"
+    ],
+    "punny": [
+      "loafing"
+    ],
+    "gemini_explanation": "\"Loafing\" refers both to baking bread and being lazy.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 345,
+    "sentence": "The artistic detective was great at drawing ___",
+    "straight": [
+      "suspects",
+      "witnesses",
+      "crime scenes"
+    ],
+    "punny": [
+      "conclusions"
+    ],
+    "gemini_explanation": "\"Drawing conclusions\" refers both to literally drawing something and to inferring something.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 494,
+    "sentence": "The plumber went to the casino and got a ___",
+    "straight": [
+      "win",
+      "jackpot",
+      "bonus"
+    ],
+    "punny": [
+      "flush"
+    ],
+    "gemini_explanation": "\"Flush\" refers both to a plumbing action and a poker hand.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 52,
+    "sentence": "The broom maker decided to make a clean ___",
+    "straight": [
+      "break",
+      "start",
+      "getaway"
+    ],
+    "punny": [
+      "sweep"
+    ],
+    "gemini_explanation": "\"Sweep\" refers both to the action of cleaning with a broom and a broad change or victory.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 76,
+    "sentence": "The horse breeder's business was always ___",
+    "straight": [
+      "busy",
+      "successful",
+      "profitable"
+    ],
+    "punny": [
+      "stable"
+    ],
+    "gemini_explanation": "\"Stable\" refers both to a place for horses and a state of being steady or successful.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 108,
+    "sentence": "The glass maker's lies were completely ___",
+    "straight": [
+      "obvious",
+      "exposed",
+      "detected"
+    ],
+    "punny": [
+      "transparent",
+      "clear"
+    ],
+    "gemini_explanation": "\"Transparent\" and \"clear\" refer both to the physical properties of glass and the quality of being easily understood or honest.",
+    "gemini_rating": 9
+  },
+  {
+    "id": 96,
+    "sentence": "The pilot's jokes never seemed to ___",
+    "straight": [
+      "work",
+      "succeed",
+      "connect"
+    ],
+    "punny": [
+      "land",
+      "take off"
+    ],
+    "gemini_explanation": "\"Land\" and \"take off\" refer both to airplanes and the success of a joke.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 482,
+    "sentence": "The roof repairman offered his services for free because it was on the ___",
+    "straight": [
+      "company",
+      "firm",
+      "boss"
+    ],
+    "punny": [
+      "house"
+    ],
+    "gemini_explanation": "\"House\" refers both to a building and a business/company.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 182,
+    "sentence": "The painter's breakup letter was short, but it still carried a lot of ___",
+    "straight": [
+      "emotion",
+      "feeling",
+      "meaning"
+    ],
+    "punny": [
+      "shade"
+    ],
+    "gemini_explanation": "\"Shade\" refers both to a color variation and a subtle insult.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 468,
+    "sentence": "The lightning bolt was let go from every job because he kept getting ___",
+    "straight": [
+      "complaints",
+      "warnings",
+      "reprimanded"
+    ],
+    "punny": [
+      "discharged"
+    ],
+    "gemini_explanation": "\"Discharged\" refers both to being fired from a job and the electrical discharge of lightning.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 1005,
+    "sentence": "The ship captain was impossible to negotiate with because he was too ___",
+    "straight": [
+      "stubborn",
+      "rigid",
+      "demanding"
+    ],
+    "punny": [
+      "stern"
+    ],
+    "gemini_explanation": "\"Stern\" refers both to the rear of a ship and a strict personality.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 2036,
+    "sentence": "The biologist cried at every sad movie because she was an expert on ___",
+    "straight": [
+      "emotions",
+      "grief",
+      "reactions"
+    ],
+    "punny": [
+      "tissues"
+    ],
+    "gemini_explanation": "\"Tissues\" refers both to biological tissues and paper tissues used for crying.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 472,
+    "sentence": "The wall was embarrassed after the party because he got completely ___",
+    "straight": [
+      "ignored",
+      "humiliated",
+      "wrecked"
+    ],
+    "punny": [
+      "plastered"
+    ],
+    "gemini_explanation": "\"Plastered\" refers both to applying plaster to a wall and being drunk.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 2044,
+    "sentence": "The hockey player became a banker because he was used to handling ___",
+    "straight": [
+      "money",
+      "pressure",
+      "transactions"
+    ],
+    "punny": [
+      "checks"
+    ],
+    "gemini_explanation": "\"Checks\" refers both to hockey checks and bank checks.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 1059,
+    "sentence": "The baker couldn't solve the mystery because the evidence kept ___",
+    "straight": [
+      "disappearing",
+      "changing",
+      "shifting"
+    ],
+    "punny": [
+      "crumbling"
+    ],
+    "gemini_explanation": "\"Crumbling\" refers both to the evidence physically breaking apart and the investigation falling apart.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 425,
+    "sentence": "The homeowner was furious about the leak and finally hit the ___",
+    "straight": [
+      "limit",
+      "wall",
+      "breaking point"
+    ],
+    "punny": [
+      "ceiling"
+    ],
+    "gemini_explanation": "The pun plays on \"ceiling\" as both the upper limit of a room and a limit of tolerance.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 125,
+    "sentence": "The electrician stayed calm in conflict because he had low ___",
+    "straight": [
+      "anger",
+      "stress",
+      "tension"
+    ],
+    "punny": [
+      "resistance"
+    ],
+    "gemini_explanation": "\"Resistance\" refers both to emotional resistance to conflict and electrical resistance.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 318,
+    "sentence": "The history teacher was depressed because he lived in the ___",
+    "straight": [
+      "basement",
+      "dark",
+      "slums"
+    ],
+    "punny": [
+      "past"
+    ],
+    "gemini_explanation": "The pun is that the history teacher lives in the \"past,\" both literally and figuratively.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 1016,
+    "sentence": "The church musician was a transplant donor because she had spare ___",
+    "straight": [
+      "time",
+      "energy",
+      "resources"
+    ],
+    "punny": [
+      "organs"
+    ],
+    "gemini_explanation": "\"Spare organs\" refers both to having extra resources and literal body parts for donation.",
+    "gemini_rating": 6
+  },
+  {
+    "id": 461,
+    "sentence": "The tree was a great networker because it had so many ___",
+    "straight": [
+      "friends",
+      "contacts",
+      "connections"
+    ],
+    "punny": [
+      "branches"
+    ],
+    "gemini_explanation": "\"Branches\" refers both to connections in a network and the limbs of a tree.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 2076,
+    "sentence": "The fashion designer's behavior at work was always ___",
+    "straight": [
+      "professional",
+      "impeccable",
+      "exemplary"
+    ],
+    "punny": [
+      "model"
+    ],
+    "gemini_explanation": "\"Model\" refers both to being a good example and a fashion model.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 277,
+    "sentence": "The nose was sad because it was tired of getting ___",
+    "straight": [
+      "bullied",
+      "ignored",
+      "hit"
+    ],
+    "punny": [
+      "picked on"
+    ],
+    "gemini_explanation": "\"Picked on\" refers both to being bullied and literally having one's nose picked.",
+    "gemini_rating": 6
+  },
+  {
+    "id": 1061,
+    "sentence": "The calendar company's annual report was already ___",
+    "straight": [
+      "finished",
+      "published",
+      "submitted"
+    ],
+    "punny": [
+      "dated"
+    ],
+    "gemini_explanation": "\"Dated\" refers both to the report being old and calendars being dated.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 373,
+    "sentence": "The witch couldn't do magic in English because she couldn't ___",
+    "straight": [
+      "read",
+      "write",
+      "focus"
+    ],
+    "punny": [
+      "spell"
+    ],
+    "gemini_explanation": "\"Spell\" refers both to the act of writing words and performing magic.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 1051,
+    "sentence": "The accountant's entire life was one long ___",
+    "straight": [
+      "struggle",
+      "routine",
+      "challenge"
+    ],
+    "punny": [
+      "balancing act"
+    ],
+    "gemini_explanation": "\"Balancing act\" refers both to the challenges of life and the act of balancing accounts.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 1009,
+    "sentence": "The newspaper editor was always ___ for time",
+    "straight": [
+      "short",
+      "rushed",
+      "scrambling"
+    ],
+    "punny": [
+      "pressed"
+    ],
+    "gemini_explanation": "\"Pressed\" refers both to being short on time and the printing press used for newspapers.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 323,
+    "sentence": "The cafeteria lady quit because she was ___",
+    "straight": [
+      "tired",
+      "underpaid",
+      "bored"
+    ],
+    "punny": [
+      "fed up"
+    ],
+    "gemini_explanation": "\"Fed up\" refers both to being tired of a job and being full of food.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 453,
+    "sentence": "The cliff diver's career took a sudden ___",
+    "straight": [
+      "turn",
+      "hit",
+      "downturn"
+    ],
+    "punny": [
+      "plunge"
+    ],
+    "gemini_explanation": "\"Plunge\" refers both to a sudden downturn in a career and the act of diving off a cliff.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 35,
+    "sentence": "The ski instructor's career went ___",
+    "straight": [
+      "poorly",
+      "badly",
+      "south"
+    ],
+    "punny": [
+      "downhill"
+    ],
+    "gemini_explanation": "\"Downhill\" refers both to a career going badly and the direction of skiing.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 1032,
+    "sentence": "The boat maker's excuse wouldn't ___",
+    "straight": [
+      "work",
+      "hold up",
+      "stick"
+    ],
+    "punny": [
+      "float"
+    ],
+    "gemini_explanation": "\"Float\" refers both to an excuse being believable and something staying on the surface of water.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 457,
+    "sentence": "The puzzle maker's alibi had too many missing ___",
+    "straight": [
+      "facts",
+      "details",
+      "links"
+    ],
+    "punny": [
+      "pieces"
+    ],
+    "gemini_explanation": "\"Pieces\" refers both to missing information in an alibi and the pieces of a puzzle.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 212,
+    "sentence": "The barber's philosophy lectures were popular because he always made the ___",
+    "straight": [
+      "point",
+      "connection",
+      "argument"
+    ],
+    "punny": [
+      "cut"
+    ],
+    "gemini_explanation": "\"Cut\" refers both to making a point in an argument and the act of cutting hair.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 467,
+    "sentence": "The knife salesman's pitch was convincing because it always had a sharp ___",
+    "straight": [
+      "message",
+      "delivery",
+      "argument"
+    ],
+    "punny": [
+      "edge"
+    ],
+    "gemini_explanation": "\"Edge\" refers both to having a sharp argument and the sharp edge of a knife.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 400,
+    "sentence": "The arctic navigator was great at parties because he knew how to break the ___",
+    "straight": [
+      "silence",
+      "tension",
+      "monotony"
+    ],
+    "punny": [
+      "ice"
+    ],
+    "gemini_explanation": "\"Break the ice\" refers both to easing tension and physically breaking ice in the arctic.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 218,
+    "sentence": "The electrician quit the band because he couldn't handle the constant ___",
+    "straight": [
+      "noise",
+      "chaos",
+      "arguments"
+    ],
+    "punny": [
+      "static"
+    ],
+    "gemini_explanation": "\"Static\" refers both to noise/chaos and electrical static.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 469,
+    "sentence": "The bread was nervous about the meeting because he was about to get ___",
+    "straight": [
+      "fired",
+      "criticized",
+      "rejected"
+    ],
+    "punny": [
+      "toasted"
+    ],
+    "gemini_explanation": "\"Toasted\" refers both to being in trouble and the act of toasting bread.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 485,
+    "sentence": "The boat mechanic kept the company going because he kept everything ___",
+    "straight": [
+      "running",
+      "working",
+      "organized"
+    ],
+    "punny": [
+      "afloat"
+    ],
+    "gemini_explanation": "\"Afloat\" refers both to keeping a company running and a boat staying on the water.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 496,
+    "sentence": "The firefighter's mixtape was hot because every track was straight ___",
+    "straight": [
+      "gold",
+      "platinum",
+      "perfection"
+    ],
+    "punny": [
+      "fire"
+    ],
+    "gemini_explanation": "\"Fire\" refers both to something being excellent and literal fire.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 1064,
+    "sentence": "The blanket was the most supportive friend because it had everyone ___",
+    "straight": [
+      "comforted",
+      "protected",
+      "helped"
+    ],
+    "punny": [
+      "covered"
+    ],
+    "gemini_explanation": "\"Covered\" refers both to supporting someone and a blanket physically covering someone.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 437,
+    "sentence": "The basketball player became a writer because he was great at the ___",
+    "straight": [
+      "beginning",
+      "outline",
+      "opening"
+    ],
+    "punny": [
+      "draft"
+    ],
+    "gemini_explanation": "\"Draft\" refers both to the NBA draft process and the early stages of writing.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 450,
+    "sentence": "The elevator was stressed because everyone kept pushing his ___",
+    "straight": [
+      "patience",
+      "limits",
+      "temper"
+    ],
+    "punny": [
+      "buttons"
+    ],
+    "gemini_explanation": "\"Buttons\" are both what you push in an elevator and a source of stress when pushed too much.",
+    "gemini_rating": 8
+  },
+  {
+    "id": 209,
+    "sentence": "The electrician quit politics after his party lost ___",
+    "straight": [
+      "momentum",
+      "support",
+      "steam"
+    ],
+    "punny": [
+      "power"
+    ],
+    "gemini_explanation": "\"Power\" refers both to political power and electrical power.",
+    "gemini_rating": 9
+  },
+  {
+    "id": 438,
+    "sentence": "The poker player never panicked because he never showed his ___",
+    "straight": [
+      "emotions",
+      "feelings",
+      "weakness"
+    ],
+    "punny": [
+      "hand"
+    ],
+    "gemini_explanation": "\"Hand\" refers both to a poker hand and revealing one's true feelings/intentions.",
+    "gemini_rating": 7
+  },
+  {
+    "id": 470,
+    "sentence": "The electrician's party was going well until someone blew a ___",
+    "straight": [
+      "whistle",
+      "gasket",
+      "chance"
+    ],
+    "punny": [
+      "fuse"
+    ],
+    "gemini_explanation": "\"Fuse\" refers to both a literal electrical fuse and ruining a party.",
+    "gemini_rating": 8
+  }
+]
