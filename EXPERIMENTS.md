@@ -17,9 +17,13 @@ the context uses literal words.
 
 ### Experiment Design
 
-**Dataset.** 50 target jokes selected from balanced and leaning tiers (jokes
-where models naturally split between straight and funny completions). Each
-target is paired with two context jokes from the straight-dominated tier.
+**Dataset.** 50 target jokes selected from the straight-dominated tier —
+jokes where models naturally default to the literal (straight) completion.
+This ensures the baseline funny rate is low, so any increase under funny
+context reflects genuine context sensitivity rather than ceiling effects.
+Each target is paired with two context jokes drawn from balanced, leaning,
+and remaining straight-dominated tiers, which provide clear straight/funny
+word contrasts for effective priming.
 See [DATASET.md](DATASET.md) for dataset construction details.
 
 **Test structure.** Each of 50 joke triples (A, B, C) generates two test prompts:
@@ -56,26 +60,26 @@ word lists in `datasets/puns_205.json`.
 
 | Model | Context | Straight | Funny | Other |
 |-------|---------|:--------:|:-----:|:-----:|
-| Llama-3.2-3B | straight | 56% | 26% | 18% |
-| | funny | 48% | 32% | 20% |
-| Llama-3.1-8B | straight | 54% | 20% | 26% |
-| | funny | 36% | 44% | 20% |
-| Llama-3.1-70B | straight | 16% | 78% | 6% |
-| | funny | 10% | 76% | 14% |
-| Llama-3.3-70B | straight | 12% | 78% | 10% |
-| | funny | 4% | 84% | 12% |
-| Llama-3.1-405B | straight | 12% | 86% | 2% |
-| | funny | 6% | 90% | 4% |
+| Llama-3.2-3B | straight | 72% | 0% | 28% |
+| | funny | 70% | 0% | 30% |
+| Llama-3.1-8B | straight | 60% | 6% | 34% |
+| | funny | 48% | 10% | 42% |
+| Llama-3.1-70B | straight | 66% | 12% | 22% |
+| | funny | 34% | 34% | 32% |
+| Llama-3.3-70B | straight | 66% | 8% | 26% |
+| | funny | 36% | 32% | 32% |
+| Llama-3.1-405B | straight | 66% | 18% | 16% |
+| | funny | 22% | 46% | 32% |
 
 #### Context Effect: Funny-Rate Shift
 
 | Model | P(funny \| straight ctx) | P(funny \| funny ctx) | Delta |
 |-------|:-:|:-:|:-:|
-| Llama-3.2-3B | 26% | 32% | +6pp |
-| Llama-3.1-8B | 20% | 44% | +24pp |
-| Llama-3.1-70B | 78% | 76% | -2pp |
-| Llama-3.3-70B | 78% | 84% | +6pp |
-| Llama-3.1-405B | 86% | 90% | +4pp |
+| Llama-3.2-3B | 0% | 0% | +0pp |
+| Llama-3.1-8B | 6% | 10% | +4pp |
+| Llama-3.1-70B | 12% | 34% | +22pp |
+| Llama-3.3-70B | 8% | 32% | +24pp |
+| Llama-3.1-405B | 18% | 46% | +28pp |
 
 #### Plots
 
@@ -89,28 +93,34 @@ word lists in `datasets/puns_205.json`.
 
 ### Key Findings
 
-1. **Pun awareness scales with model size.** Small models (3B, 8B) default to
-   straight completions (54-56% straight in neutral/straight context), while
-   large models (70B+) overwhelmingly prefer puns (78-90% funny) regardless
-   of context.
+1. **Context sensitivity scales monotonically with model size.** The funny-rate
+   delta increases steadily from +0pp (3B) through +4pp (8B) to +22–28pp
+   (70B–405B). Larger models are not just better at puns — they are
+   specifically better at recognizing when the surrounding context invites a pun.
 
-2. **The 8B model shows the strongest context effect.** Its funny rate jumps
-   from 20% to 44% (+24pp) when switching from straight to funny context —
-   the largest shift of any model. This suggests 8B sits at a capacity
-   threshold where pun awareness exists but is not yet dominant, making it
-   most susceptible to contextual priming.
+2. **The 3B model is completely pun-blind.** It produces 0% funny completions
+   regardless of context. It doesn't recognize the pun opportunity at all,
+   and the context manipulation has no effect.
 
-3. **Large models are pun-saturated.** The 70B, 3.3-70B, and 405B models
-   produce puns 76-90% of the time even with straight priming context. The
-   context effect is small (+4 to +6pp) because the baseline funny rate is
-   already near ceiling. These models have internalized the pun structure so
-   thoroughly that straight context barely suppresses it.
+3. **The 8B model shows early pun awareness.** It produces a small number of
+   pun completions (6–10%) with a modest +4pp context effect. This suggests
+   the 8B model is at the threshold of pun recognition — it occasionally
+   detects the pun structure, but context provides only a small nudge.
 
-4. **The 3B model is pun-naive.** It shows only a +6pp context effect but for
-   a different reason than the large models: it mostly doesn't recognize the
-   pun opportunity at all (only 26-32% funny), regardless of priming.
+4. **70B+ models show strong context-driven pun activation.** The 70B and
+   3.3-70B models jump from 8–12% funny in straight context to 32–34% in
+   funny context (+22–24pp). The 405B model shows the largest shift: 18%
+   to 46% (+28pp). These models have the capacity to recognize and produce
+   puns, but only do so when the surrounding context activates pun-mode
+   processing.
 
-5. **There is a "Goldilocks zone" for contextual influence.** Models need
-   enough capacity to recognize puns (3B is too small) but not so much that
-   pun completion is automatic (70B+ is saturated). The 8B model occupies this
-   zone, making it the most interesting target for interpretability analysis.
+5. **Straight completions are suppressed by funny context.** Across all models
+   with pun awareness, the straight-completion rate drops sharply in funny
+   context: from 66% to 22–36% for the 70B+ models. This is the flip side
+   of the funny-rate increase and confirms the context manipulation is
+   genuinely shifting model behavior, not just adding noise.
+
+6. **The "other" category increases with model size under funny context.**
+   Large models in funny context produce more responses that don't match
+   either word list (22–32% other), suggesting they sometimes produce
+   creative pun-adjacent completions that aren't in the curated lists.

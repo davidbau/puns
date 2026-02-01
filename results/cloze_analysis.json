@@ -3,112 +3,112 @@
     "3b": {
       "straight_context": {
         "n": 50,
-        "straight": 28,
-        "funny": 13,
-        "other": 9,
-        "pct_straight": 0.56,
-        "pct_funny": 0.26,
-        "pct_other": 0.18
+        "straight": 36,
+        "funny": 0,
+        "other": 14,
+        "pct_straight": 0.72,
+        "pct_funny": 0.0,
+        "pct_other": 0.28
       },
       "funny_context": {
         "n": 50,
-        "straight": 24,
-        "funny": 16,
-        "other": 10,
-        "pct_straight": 0.48,
-        "pct_funny": 0.32,
-        "pct_other": 0.2
+        "straight": 35,
+        "funny": 0,
+        "other": 15,
+        "pct_straight": 0.7,
+        "pct_funny": 0.0,
+        "pct_other": 0.3
       },
-      "funny_rate_shift": 0.06,
-      "straight_rate_shift": -0.08
+      "funny_rate_shift": 0.0,
+      "straight_rate_shift": -0.02
     },
     "8b": {
       "straight_context": {
         "n": 50,
-        "straight": 27,
-        "funny": 10,
+        "straight": 30,
+        "funny": 3,
+        "other": 17,
+        "pct_straight": 0.6,
+        "pct_funny": 0.06,
+        "pct_other": 0.34
+      },
+      "funny_context": {
+        "n": 50,
+        "straight": 24,
+        "funny": 5,
+        "other": 21,
+        "pct_straight": 0.48,
+        "pct_funny": 0.1,
+        "pct_other": 0.42
+      },
+      "funny_rate_shift": 0.04,
+      "straight_rate_shift": -0.12
+    },
+    "70b": {
+      "straight_context": {
+        "n": 50,
+        "straight": 33,
+        "funny": 6,
+        "other": 11,
+        "pct_straight": 0.66,
+        "pct_funny": 0.12,
+        "pct_other": 0.22
+      },
+      "funny_context": {
+        "n": 50,
+        "straight": 17,
+        "funny": 17,
+        "other": 16,
+        "pct_straight": 0.34,
+        "pct_funny": 0.34,
+        "pct_other": 0.32
+      },
+      "funny_rate_shift": 0.22,
+      "straight_rate_shift": -0.32
+    },
+    "3.3-70b": {
+      "straight_context": {
+        "n": 50,
+        "straight": 33,
+        "funny": 4,
         "other": 13,
-        "pct_straight": 0.54,
-        "pct_funny": 0.2,
+        "pct_straight": 0.66,
+        "pct_funny": 0.08,
         "pct_other": 0.26
       },
       "funny_context": {
         "n": 50,
         "straight": 18,
-        "funny": 22,
-        "other": 10,
+        "funny": 16,
+        "other": 16,
         "pct_straight": 0.36,
-        "pct_funny": 0.44,
-        "pct_other": 0.2
+        "pct_funny": 0.32,
+        "pct_other": 0.32
       },
       "funny_rate_shift": 0.24,
-      "straight_rate_shift": -0.18
-    },
-    "70b": {
-      "straight_context": {
-        "n": 50,
-        "straight": 8,
-        "funny": 39,
-        "other": 3,
-        "pct_straight": 0.16,
-        "pct_funny": 0.78,
-        "pct_other": 0.06
-      },
-      "funny_context": {
-        "n": 50,
-        "straight": 5,
-        "funny": 38,
-        "other": 7,
-        "pct_straight": 0.1,
-        "pct_funny": 0.76,
-        "pct_other": 0.14
-      },
-      "funny_rate_shift": -0.02,
-      "straight_rate_shift": -0.06
-    },
-    "3.3-70b": {
-      "straight_context": {
-        "n": 50,
-        "straight": 6,
-        "funny": 39,
-        "other": 5,
-        "pct_straight": 0.12,
-        "pct_funny": 0.78,
-        "pct_other": 0.1
-      },
-      "funny_context": {
-        "n": 50,
-        "straight": 2,
-        "funny": 42,
-        "other": 6,
-        "pct_straight": 0.04,
-        "pct_funny": 0.84,
-        "pct_other": 0.12
-      },
-      "funny_rate_shift": 0.06,
-      "straight_rate_shift": -0.08
+      "straight_rate_shift": -0.3
     },
     "405b": {
       "straight_context": {
         "n": 50,
-        "straight": 6,
-        "funny": 43,
-        "other": 1,
-        "pct_straight": 0.12,
-        "pct_funny": 0.86,
-        "pct_other": 0.02
+        "straight": 33,
+        "funny": 9,
+        "other": 8,
+        "pct_straight": 0.66,
+        "pct_funny": 0.18,
+        "pct_other": 0.16
       },
       "funny_context": {
         "n": 50,
-        "straight": 3,
-        "funny": 45,
-        "other": 2,
-        "pct_straight": 0.06,
-        "pct_funny": 0.9,
-        "pct_other": 0.04
+        "straight": 11,
+        "funny": 23,
+        "other": 16,
+        "pct_straight": 0.22,
+        "pct_funny": 0.46,
+        "pct_other": 0.32
       },
-      "funny_rate_shift": 0.04,
-      "straight_rate_shift": -0.06
+      "funny_rate_shift": 0.28,
+      "straight_rate_shift": -0.44
     }
   },
   "per_response": {
@@ -116,3510 +116,3510 @@
       {
         "pair_id": 0,
         "context": "straight",
-        "word": "clumsy",
-        "classification": "other",
-        "joke_index": 104
+        "word": "misdemeanor",
+        "classification": "straight",
+        "joke_index": 138
       },
       {
         "pair_id": 0,
         "context": "funny",
-        "word": "hoarse",
-        "classification": "funny",
-        "joke_index": 104
+        "word": "misdemeanor",
+        "classification": "straight",
+        "joke_index": 138
       },
       {
         "pair_id": 1,
         "context": "straight",
-        "word": "shadows",
+        "word": "speech",
         "classification": "straight",
-        "joke_index": 97
+        "joke_index": 156
       },
       {
         "pair_id": 1,
         "context": "funny",
-        "word": "shadows",
+        "word": "speech",
         "classification": "straight",
-        "joke_index": 97
+        "joke_index": 156
       },
       {
         "pair_id": 2,
         "context": "straight",
-        "word": "company",
-        "classification": "funny",
-        "joke_index": 88
+        "word": "passion",
+        "classification": "straight",
+        "joke_index": 76
       },
       {
         "pair_id": 2,
         "context": "funny",
-        "word": "attention",
+        "word": "passion",
         "classification": "straight",
-        "joke_index": 88
+        "joke_index": 76
       },
       {
         "pair_id": 3,
         "context": "straight",
-        "word": "mess",
-        "classification": "straight",
-        "joke_index": 61
+        "word": "layoff",
+        "classification": "other",
+        "joke_index": 71
       },
       {
         "pair_id": 3,
         "context": "funny",
+        "word": "crisis",
+        "classification": "other",
+        "joke_index": 71
+      },
+      {
+        "pair_id": 4,
+        "context": "straight",
+        "word": "animal",
+        "classification": "straight",
+        "joke_index": 42
+      },
+      {
+        "pair_id": 4,
+        "context": "funny",
+        "word": "animal",
+        "classification": "straight",
+        "joke_index": 42
+      },
+      {
+        "pair_id": 5,
+        "context": "straight",
+        "word": "tank",
+        "classification": "straight",
+        "joke_index": 58
+      },
+      {
+        "pair_id": 5,
+        "context": "funny",
+        "word": "tank",
+        "classification": "straight",
+        "joke_index": 58
+      },
+      {
+        "pair_id": 6,
+        "context": "straight",
+        "word": "absorbed",
+        "classification": "straight",
+        "joke_index": 105
+      },
+      {
+        "pair_id": 6,
+        "context": "funny",
+        "word": "absorbed",
+        "classification": "straight",
+        "joke_index": 105
+      },
+      {
+        "pair_id": 7,
+        "context": "straight",
+        "word": "big",
+        "classification": "other",
+        "joke_index": 164
+      },
+      {
+        "pair_id": 7,
+        "context": "funny",
+        "word": "big",
+        "classification": "other",
+        "joke_index": 164
+      },
+      {
+        "pair_id": 8,
+        "context": "straight",
+        "word": "disappearing",
+        "classification": "straight",
+        "joke_index": 35
+      },
+      {
+        "pair_id": 8,
+        "context": "funny",
+        "word": "disappearing",
+        "classification": "straight",
+        "joke_index": 35
+      },
+      {
+        "pair_id": 9,
+        "context": "straight",
+        "word": "overwhelmed",
+        "classification": "straight",
+        "joke_index": 162
+      },
+      {
+        "pair_id": 9,
+        "context": "funny",
+        "word": "overwhelmed",
+        "classification": "straight",
+        "joke_index": 162
+      },
+      {
+        "pair_id": 10,
+        "context": "straight",
+        "word": "computers",
+        "classification": "straight",
+        "joke_index": 98
+      },
+      {
+        "pair_id": 10,
+        "context": "funny",
+        "word": "reptiles",
+        "classification": "straight",
+        "joke_index": 98
+      },
+      {
+        "pair_id": 11,
+        "context": "straight",
+        "word": "writers",
+        "classification": "straight",
+        "joke_index": 1
+      },
+      {
+        "pair_id": 11,
+        "context": "funny",
+        "word": "articles",
+        "classification": "straight",
+        "joke_index": 1
+      },
+      {
+        "pair_id": 12,
+        "context": "straight",
+        "word": "struggling",
+        "classification": "straight",
+        "joke_index": 183
+      },
+      {
+        "pair_id": 12,
+        "context": "funny",
+        "word": "struggling",
+        "classification": "straight",
+        "joke_index": 183
+      },
+      {
+        "pair_id": 13,
+        "context": "straight",
+        "word": "colorful",
+        "classification": "other",
+        "joke_index": 149
+      },
+      {
+        "pair_id": 13,
+        "context": "funny",
+        "word": "colorful",
+        "classification": "other",
+        "joke_index": 149
+      },
+      {
+        "pair_id": 14,
+        "context": "straight",
+        "word": "ambitious",
+        "classification": "straight",
+        "joke_index": 125
+      },
+      {
+        "pair_id": 14,
+        "context": "funny",
+        "word": "ambitious",
+        "classification": "straight",
+        "joke_index": 125
+      },
+      {
+        "pair_id": 15,
+        "context": "straight",
+        "word": "eyes",
+        "classification": "other",
+        "joke_index": 87
+      },
+      {
+        "pair_id": 15,
+        "context": "funny",
+        "word": "eyes",
+        "classification": "other",
+        "joke_index": 87
+      },
+      {
+        "pair_id": 16,
+        "context": "straight",
+        "word": "stop",
+        "classification": "straight",
+        "joke_index": 163
+      },
+      {
+        "pair_id": 16,
+        "context": "funny",
+        "word": "stop",
+        "classification": "straight",
+        "joke_index": 163
+      },
+      {
+        "pair_id": 17,
+        "context": "straight",
+        "word": "fretboard",
+        "classification": "straight",
+        "joke_index": 84
+      },
+      {
+        "pair_id": 17,
+        "context": "funny",
+        "word": "fretboard",
+        "classification": "straight",
+        "joke_index": 84
+      },
+      {
+        "pair_id": 18,
+        "context": "straight",
+        "word": "drama",
+        "classification": "straight",
+        "joke_index": 119
+      },
+      {
+        "pair_id": 18,
+        "context": "funny",
+        "word": "drama",
+        "classification": "straight",
+        "joke_index": 119
+      },
+      {
+        "pair_id": 19,
+        "context": "straight",
+        "word": "manage",
+        "classification": "straight",
+        "joke_index": 103
+      },
+      {
+        "pair_id": 19,
+        "context": "funny",
+        "word": "negotiate",
+        "classification": "straight",
+        "joke_index": 103
+      },
+      {
+        "pair_id": 20,
+        "context": "straight",
+        "word": "lake",
+        "classification": "straight",
+        "joke_index": 176
+      },
+      {
+        "pair_id": 20,
+        "context": "funny",
+        "word": "lake",
+        "classification": "straight",
+        "joke_index": 176
+      },
+      {
+        "pair_id": 21,
+        "context": "straight",
+        "word": "food",
+        "classification": "straight",
+        "joke_index": 43
+      },
+      {
+        "pair_id": 21,
+        "context": "funny",
+        "word": "food",
+        "classification": "straight",
+        "joke_index": 43
+      },
+      {
+        "pair_id": 22,
+        "context": "straight",
+        "word": "point",
+        "classification": "straight",
+        "joke_index": 195
+      },
+      {
+        "pair_id": 22,
+        "context": "funny",
+        "word": "point",
+        "classification": "straight",
+        "joke_index": 195
+      },
+      {
+        "pair_id": 23,
+        "context": "straight",
+        "word": "incidents",
+        "classification": "straight",
+        "joke_index": 17
+      },
+      {
+        "pair_id": 23,
+        "context": "funny",
+        "word": "incidents",
+        "classification": "straight",
+        "joke_index": 17
+      },
+      {
+        "pair_id": 24,
+        "context": "straight",
+        "word": "trouble",
+        "classification": "straight",
+        "joke_index": 95
+      },
+      {
+        "pair_id": 24,
+        "context": "funny",
+        "word": "no",
+        "classification": "other",
+        "joke_index": 95
+      },
+      {
+        "pair_id": 25,
+        "context": "straight",
+        "word": "solution",
+        "classification": "straight",
+        "joke_index": 188
+      },
+      {
+        "pair_id": 25,
+        "context": "funny",
+        "word": "solution",
+        "classification": "straight",
+        "joke_index": 188
+      },
+      {
+        "pair_id": 26,
+        "context": "straight",
+        "word": "growth",
+        "classification": "straight",
+        "joke_index": 93
+      },
+      {
+        "pair_id": 26,
+        "context": "funny",
+        "word": "growth",
+        "classification": "straight",
+        "joke_index": 93
+      },
+      {
+        "pair_id": 27,
+        "context": "straight",
+        "word": "stop",
+        "classification": "straight",
+        "joke_index": 134
+      },
+      {
+        "pair_id": 27,
+        "context": "funny",
+        "word": "stop",
+        "classification": "straight",
+        "joke_index": 134
+      },
+      {
+        "pair_id": 28,
+        "context": "straight",
+        "word": "washed",
+        "classification": "other",
+        "joke_index": 73
+      },
+      {
+        "pair_id": 28,
+        "context": "funny",
+        "word": "folded",
+        "classification": "other",
+        "joke_index": 73
+      },
+      {
+        "pair_id": 29,
+        "context": "straight",
+        "word": "customers",
+        "classification": "straight",
+        "joke_index": 124
+      },
+      {
+        "pair_id": 29,
+        "context": "funny",
+        "word": "customers",
+        "classification": "straight",
+        "joke_index": 124
+      },
+      {
+        "pair_id": 30,
+        "context": "straight",
+        "word": "in",
+        "classification": "other",
+        "joke_index": 91
+      },
+      {
+        "pair_id": 30,
+        "context": "funny",
+        "word": "in",
+        "classification": "other",
+        "joke_index": 91
+      },
+      {
+        "pair_id": 31,
+        "context": "straight",
+        "word": "writing",
+        "classification": "straight",
+        "joke_index": 202
+      },
+      {
+        "pair_id": 31,
+        "context": "funny",
+        "word": "writing",
+        "classification": "straight",
+        "joke_index": 202
+      },
+      {
+        "pair_id": 32,
+        "context": "straight",
+        "word": "something",
+        "classification": "other",
+        "joke_index": 100
+      },
+      {
+        "pair_id": 32,
+        "context": "funny",
+        "word": "something",
+        "classification": "other",
+        "joke_index": 100
+      },
+      {
+        "pair_id": 33,
+        "context": "straight",
+        "word": "target",
+        "classification": "other",
+        "joke_index": 184
+      },
+      {
+        "pair_id": 33,
+        "context": "funny",
+        "word": "joke",
+        "classification": "other",
+        "joke_index": 184
+      },
+      {
+        "pair_id": 34,
+        "context": "straight",
+        "word": "valuable",
+        "classification": "other",
+        "joke_index": 28
+      },
+      {
+        "pair_id": 34,
+        "context": "funny",
+        "word": "valuable",
+        "classification": "other",
+        "joke_index": 28
+      },
+      {
+        "pair_id": 35,
+        "context": "straight",
+        "word": "under",
+        "classification": "other",
+        "joke_index": 54
+      },
+      {
+        "pair_id": 35,
+        "context": "funny",
+        "word": "under",
+        "classification": "other",
+        "joke_index": 54
+      },
+      {
+        "pair_id": 36,
+        "context": "straight",
+        "word": "describing",
+        "classification": "other",
+        "joke_index": 40
+      },
+      {
+        "pair_id": 36,
+        "context": "funny",
+        "word": "describing",
+        "classification": "other",
+        "joke_index": 40
+      },
+      {
+        "pair_id": 37,
+        "context": "straight",
+        "word": "amuse",
+        "classification": "other",
+        "joke_index": 171
+      },
+      {
+        "pair_id": 37,
+        "context": "funny",
+        "word": "amuse",
+        "classification": "other",
+        "joke_index": 171
+      },
+      {
+        "pair_id": 38,
+        "context": "straight",
+        "word": "coins",
+        "classification": "straight",
+        "joke_index": 113
+      },
+      {
+        "pair_id": 38,
+        "context": "funny",
+        "word": "coins",
+        "classification": "straight",
+        "joke_index": 113
+      },
+      {
+        "pair_id": 39,
+        "context": "straight",
+        "word": "notes",
+        "classification": "straight",
+        "joke_index": 111
+      },
+      {
+        "pair_id": 39,
+        "context": "funny",
+        "word": "accounts",
+        "classification": "straight",
+        "joke_index": 111
+      },
+      {
+        "pair_id": 40,
+        "context": "straight",
+        "word": "drumming",
+        "classification": "straight",
+        "joke_index": 16
+      },
+      {
+        "pair_id": 40,
+        "context": "funny",
+        "word": "drumming",
+        "classification": "straight",
+        "joke_index": 16
+      },
+      {
+        "pair_id": 41,
+        "context": "straight",
         "word": "mess",
         "classification": "straight",
-        "joke_index": 61
-      },
-      {
-        "pair_id": 4,
-        "context": "straight",
-        "word": "controversial",
-        "classification": "straight",
-        "joke_index": 27
-      },
-      {
-        "pair_id": 4,
-        "context": "funny",
-        "word": "interesting",
-        "classification": "other",
-        "joke_index": 27
-      },
-      {
-        "pair_id": 5,
-        "context": "straight",
-        "word": "disaster",
-        "classification": "straight",
-        "joke_index": 150
-      },
-      {
-        "pair_id": 5,
-        "context": "funny",
-        "word": "disappointment",
-        "classification": "straight",
-        "joke_index": 150
-      },
-      {
-        "pair_id": 6,
-        "context": "straight",
-        "word": "mugged",
-        "classification": "funny",
-        "joke_index": 112
-      },
-      {
-        "pair_id": 6,
-        "context": "funny",
-        "word": "mugged",
-        "classification": "funny",
-        "joke_index": 112
-      },
-      {
-        "pair_id": 7,
-        "context": "straight",
-        "word": "lines",
-        "classification": "straight",
-        "joke_index": 48
-      },
-      {
-        "pair_id": 7,
-        "context": "funny",
-        "word": "lines",
-        "classification": "straight",
-        "joke_index": 48
-      },
-      {
-        "pair_id": 8,
-        "context": "straight",
-        "word": "stress",
-        "classification": "straight",
-        "joke_index": 126
-      },
-      {
-        "pair_id": 8,
-        "context": "funny",
-        "word": "voltage",
-        "classification": "funny",
-        "joke_index": 126
-      },
-      {
-        "pair_id": 9,
-        "context": "straight",
-        "word": "shades",
-        "classification": "straight",
-        "joke_index": 74
-      },
-      {
-        "pair_id": 9,
-        "context": "funny",
-        "word": "shades",
-        "classification": "straight",
-        "joke_index": 74
-      },
-      {
-        "pair_id": 10,
-        "context": "straight",
-        "word": "found",
-        "classification": "straight",
-        "joke_index": 131
-      },
-      {
-        "pair_id": 10,
-        "context": "funny",
-        "word": "found",
-        "classification": "straight",
-        "joke_index": 131
-      },
-      {
-        "pair_id": 11,
-        "context": "straight",
-        "word": "local",
-        "classification": "other",
-        "joke_index": 94
-      },
-      {
-        "pair_id": 11,
-        "context": "funny",
-        "word": "local",
-        "classification": "other",
-        "joke_index": 94
-      },
-      {
-        "pair_id": 12,
-        "context": "straight",
-        "word": "desperation",
-        "classification": "straight",
-        "joke_index": 62
-      },
-      {
-        "pair_id": 12,
-        "context": "funny",
-        "word": "desperation",
-        "classification": "straight",
-        "joke_index": 62
-      },
-      {
-        "pair_id": 13,
-        "context": "straight",
-        "word": "business",
-        "classification": "other",
-        "joke_index": 26
-      },
-      {
-        "pair_id": 13,
-        "context": "funny",
-        "word": "business",
-        "classification": "other",
-        "joke_index": 26
-      },
-      {
-        "pair_id": 14,
-        "context": "straight",
-        "word": "unbelievable",
-        "classification": "straight",
-        "joke_index": 197
-      },
-      {
-        "pair_id": 14,
-        "context": "funny",
-        "word": "unbelievable",
-        "classification": "straight",
-        "joke_index": 197
-      },
-      {
-        "pair_id": 15,
-        "context": "straight",
-        "word": "catch",
-        "classification": "funny",
-        "joke_index": 194
-      },
-      {
-        "pair_id": 15,
-        "context": "funny",
-        "word": "catch",
-        "classification": "funny",
-        "joke_index": 194
-      },
-      {
-        "pair_id": 16,
-        "context": "straight",
-        "word": "picked",
-        "classification": "funny",
-        "joke_index": 55
-      },
-      {
-        "pair_id": 16,
-        "context": "funny",
-        "word": "poked",
-        "classification": "straight",
-        "joke_index": 55
-      },
-      {
-        "pair_id": 17,
-        "context": "straight",
-        "word": "center",
-        "classification": "straight",
-        "joke_index": 99
-      },
-      {
-        "pair_id": 17,
-        "context": "funny",
-        "word": "main",
-        "classification": "other",
-        "joke_index": 99
-      },
-      {
-        "pair_id": 18,
-        "context": "straight",
-        "word": "rise",
-        "classification": "funny",
-        "joke_index": 148
-      },
-      {
-        "pair_id": 18,
-        "context": "funny",
-        "word": "rise",
-        "classification": "funny",
-        "joke_index": 148
-      },
-      {
-        "pair_id": 19,
-        "context": "straight",
-        "word": "frenzy",
-        "classification": "straight",
-        "joke_index": 7
-      },
-      {
-        "pair_id": 19,
-        "context": "funny",
-        "word": "buzz",
-        "classification": "funny",
-        "joke_index": 7
-      },
-      {
-        "pair_id": 20,
-        "context": "straight",
-        "word": "getting",
-        "classification": "other",
-        "joke_index": 121
-      },
-      {
-        "pair_id": 20,
-        "context": "funny",
-        "word": "getting",
-        "classification": "other",
-        "joke_index": 121
-      },
-      {
-        "pair_id": 21,
-        "context": "straight",
-        "word": "vision",
-        "classification": "funny",
-        "joke_index": 80
-      },
-      {
-        "pair_id": 21,
-        "context": "funny",
-        "word": "vision",
-        "classification": "funny",
-        "joke_index": 80
-      },
-      {
-        "pair_id": 22,
-        "context": "straight",
-        "word": "think",
-        "classification": "straight",
-        "joke_index": 144
-      },
-      {
-        "pair_id": 22,
-        "context": "funny",
-        "word": "think",
-        "classification": "straight",
-        "joke_index": 144
-      },
-      {
-        "pair_id": 23,
-        "context": "straight",
-        "word": "wasting",
-        "classification": "straight",
-        "joke_index": 147
-      },
-      {
-        "pair_id": 23,
-        "context": "funny",
-        "word": "wasting",
-        "classification": "straight",
-        "joke_index": 147
-      },
-      {
-        "pair_id": 24,
-        "context": "straight",
-        "word": "bad",
-        "classification": "other",
-        "joke_index": 203
-      },
-      {
-        "pair_id": 24,
-        "context": "funny",
-        "word": "bad",
-        "classification": "other",
-        "joke_index": 203
-      },
-      {
-        "pair_id": 25,
-        "context": "straight",
-        "word": "compatibility",
-        "classification": "straight",
-        "joke_index": 129
-      },
-      {
-        "pair_id": 25,
-        "context": "funny",
-        "word": "compatibility",
-        "classification": "straight",
-        "joke_index": 129
-      },
-      {
-        "pair_id": 26,
-        "context": "straight",
-        "word": "wrong",
-        "classification": "other",
-        "joke_index": 117
-      },
-      {
-        "pair_id": 26,
-        "context": "funny",
-        "word": "right",
-        "classification": "other",
-        "joke_index": 117
-      },
-      {
-        "pair_id": 27,
-        "context": "straight",
-        "word": "repeatedly",
-        "classification": "other",
-        "joke_index": 89
-      },
-      {
-        "pair_id": 27,
-        "context": "funny",
-        "word": "the",
-        "classification": "other",
-        "joke_index": 89
-      },
-      {
-        "pair_id": 28,
-        "context": "straight",
-        "word": "connection",
-        "classification": "straight",
-        "joke_index": 96
-      },
-      {
-        "pair_id": 28,
-        "context": "funny",
-        "word": "connection",
-        "classification": "straight",
-        "joke_index": 96
-      },
-      {
-        "pair_id": 29,
-        "context": "straight",
-        "word": "account",
-        "classification": "straight",
-        "joke_index": 92
-      },
-      {
-        "pair_id": 29,
-        "context": "funny",
-        "word": "account",
-        "classification": "straight",
-        "joke_index": 92
-      },
-      {
-        "pair_id": 30,
-        "context": "straight",
-        "word": "case",
-        "classification": "funny",
-        "joke_index": 159
-      },
-      {
-        "pair_id": 30,
-        "context": "funny",
-        "word": "case",
-        "classification": "funny",
-        "joke_index": 159
-      },
-      {
-        "pair_id": 31,
-        "context": "straight",
-        "word": "music",
-        "classification": "straight",
-        "joke_index": 160
-      },
-      {
-        "pair_id": 31,
-        "context": "funny",
-        "word": "reception",
-        "classification": "funny",
-        "joke_index": 160
-      },
-      {
-        "pair_id": 32,
-        "context": "straight",
-        "word": "portraits",
-        "classification": "straight",
-        "joke_index": 137
-      },
-      {
-        "pair_id": 32,
-        "context": "funny",
-        "word": "portraits",
-        "classification": "straight",
-        "joke_index": 137
-      },
-      {
-        "pair_id": 33,
-        "context": "straight",
-        "word": "hours",
-        "classification": "straight",
-        "joke_index": 107
-      },
-      {
-        "pair_id": 33,
-        "context": "funny",
-        "word": "hours",
-        "classification": "straight",
-        "joke_index": 107
-      },
-      {
-        "pair_id": 34,
-        "context": "straight",
-        "word": "temper",
-        "classification": "straight",
-        "joke_index": 64
-      },
-      {
-        "pair_id": 34,
-        "context": "funny",
-        "word": "temper",
-        "classification": "straight",
-        "joke_index": 64
-      },
-      {
-        "pair_id": 35,
-        "context": "straight",
-        "word": "high",
-        "classification": "straight",
-        "joke_index": 15
-      },
-      {
-        "pair_id": 35,
-        "context": "funny",
-        "word": "steep",
-        "classification": "funny",
-        "joke_index": 15
-      },
-      {
-        "pair_id": 36,
-        "context": "straight",
-        "word": "close",
-        "classification": "funny",
-        "joke_index": 185
-      },
-      {
-        "pair_id": 36,
-        "context": "funny",
-        "word": "close",
-        "classification": "funny",
-        "joke_index": 185
-      },
-      {
-        "pair_id": 37,
-        "context": "straight",
-        "word": "hand",
-        "classification": "funny",
-        "joke_index": 25
-      },
-      {
-        "pair_id": 37,
-        "context": "funny",
-        "word": "hand",
-        "classification": "funny",
-        "joke_index": 25
-      },
-      {
-        "pair_id": 38,
-        "context": "straight",
-        "word": "match",
-        "classification": "straight",
-        "joke_index": 116
-      },
-      {
-        "pair_id": 38,
-        "context": "funny",
-        "word": "match",
-        "classification": "straight",
-        "joke_index": 116
-      },
-      {
-        "pair_id": 39,
-        "context": "straight",
-        "word": "out",
-        "classification": "straight",
-        "joke_index": 186
-      },
-      {
-        "pair_id": 39,
-        "context": "funny",
-        "word": "out",
-        "classification": "straight",
-        "joke_index": 186
-      },
-      {
-        "pair_id": 40,
-        "context": "straight",
-        "word": "afraid",
-        "classification": "other",
-        "joke_index": 33
-      },
-      {
-        "pair_id": 40,
-        "context": "funny",
-        "word": "afraid",
-        "classification": "other",
-        "joke_index": 33
-      },
-      {
-        "pair_id": 41,
-        "context": "straight",
-        "word": "orders",
-        "classification": "funny",
-        "joke_index": 146
+        "joke_index": 78
       },
       {
         "pair_id": 41,
         "context": "funny",
-        "word": "orders",
-        "classification": "funny",
-        "joke_index": 146
+        "word": "mess",
+        "classification": "straight",
+        "joke_index": 78
       },
       {
         "pair_id": 42,
         "context": "straight",
-        "word": "fired",
-        "classification": "funny",
-        "joke_index": 38
+        "word": "success",
+        "classification": "straight",
+        "joke_index": 172
       },
       {
         "pair_id": 42,
         "context": "funny",
-        "word": "struck",
-        "classification": "funny",
-        "joke_index": 38
+        "word": "success",
+        "classification": "straight",
+        "joke_index": 172
       },
       {
         "pair_id": 43,
         "context": "straight",
-        "word": "mattress",
+        "word": "covered",
         "classification": "straight",
-        "joke_index": 46
+        "joke_index": 3
       },
       {
         "pair_id": 43,
         "context": "funny",
-        "word": "mattress",
+        "word": "covered",
         "classification": "straight",
-        "joke_index": 46
+        "joke_index": 3
       },
       {
         "pair_id": 44,
         "context": "straight",
-        "word": "hole",
-        "classification": "funny",
-        "joke_index": 66
+        "word": "part",
+        "classification": "other",
+        "joke_index": 36
       },
       {
         "pair_id": 44,
         "context": "funny",
-        "word": "hole",
-        "classification": "funny",
-        "joke_index": 66
+        "word": "part",
+        "classification": "other",
+        "joke_index": 36
       },
       {
         "pair_id": 45,
         "context": "straight",
-        "word": "kicked",
-        "classification": "other",
-        "joke_index": 68
+        "word": "pressure",
+        "classification": "straight",
+        "joke_index": 90
       },
       {
         "pair_id": 45,
         "context": "funny",
-        "word": "kicked",
+        "word": "pressure",
+        "classification": "straight",
+        "joke_index": 90
+      },
+      {
+        "pair_id": 46,
+        "context": "straight",
+        "word": "mathematics",
         "classification": "other",
-        "joke_index": 68
-      },
-      {
-        "pair_id": 46,
-        "context": "straight",
-        "word": "steve",
-        "classification": "straight",
-        "joke_index": 79
+        "joke_index": 106
       },
       {
         "pair_id": 46,
         "context": "funny",
-        "word": "steve",
+        "word": "excavating",
         "classification": "straight",
-        "joke_index": 79
+        "joke_index": 106
       },
       {
         "pair_id": 47,
         "context": "straight",
-        "word": "break",
+        "word": "pranks",
         "classification": "straight",
-        "joke_index": 8
+        "joke_index": 53
       },
       {
         "pair_id": 47,
         "context": "funny",
-        "word": "break",
+        "word": "pranks",
         "classification": "straight",
-        "joke_index": 8
+        "joke_index": 53
       },
       {
         "pair_id": 48,
         "context": "straight",
-        "word": "afford",
+        "word": "struggling",
         "classification": "straight",
-        "joke_index": 45
+        "joke_index": 151
       },
       {
         "pair_id": 48,
         "context": "funny",
-        "word": "afford",
+        "word": "booming",
         "classification": "straight",
-        "joke_index": 45
+        "joke_index": 151
       },
       {
         "pair_id": 49,
         "context": "straight",
-        "word": "branches",
-        "classification": "funny",
-        "joke_index": 201
+        "word": "obvious",
+        "classification": "straight",
+        "joke_index": 56
       },
       {
         "pair_id": 49,
         "context": "funny",
-        "word": "branches",
-        "classification": "funny",
-        "joke_index": 201
+        "word": "clich",
+        "classification": "other",
+        "joke_index": 56
       }
     ],
     "8b": [
       {
         "pair_id": 0,
         "context": "straight",
-        "word": "off-key",
-        "classification": "straight",
-        "joke_index": 104
+        "word": "murder",
+        "classification": "other",
+        "joke_index": 138
       },
       {
         "pair_id": 0,
         "context": "funny",
-        "word": "off",
+        "word": "stealing",
         "classification": "other",
-        "joke_index": 104
+        "joke_index": 138
       },
       {
         "pair_id": 1,
         "context": "straight",
-        "word": "past",
-        "classification": "funny",
-        "joke_index": 97
+        "word": "speech",
+        "classification": "straight",
+        "joke_index": 156
       },
       {
         "pair_id": 1,
         "context": "funny",
-        "word": "past",
-        "classification": "funny",
-        "joke_index": 97
+        "word": "speech",
+        "classification": "straight",
+        "joke_index": 156
       },
       {
         "pair_id": 2,
         "context": "straight",
-        "word": "human",
-        "classification": "other",
-        "joke_index": 88
+        "word": "talent",
+        "classification": "straight",
+        "joke_index": 76
       },
       {
         "pair_id": 2,
         "context": "funny",
-        "word": "companionship",
-        "classification": "straight",
-        "joke_index": 88
+        "word": "beat",
+        "classification": "other",
+        "joke_index": 76
       },
       {
         "pair_id": 3,
         "context": "straight",
-        "word": "mess",
-        "classification": "straight",
-        "joke_index": 61
+        "word": "strike",
+        "classification": "other",
+        "joke_index": 71
       },
       {
         "pair_id": 3,
         "context": "funny",
-        "word": "breakdown",
-        "classification": "straight",
-        "joke_index": 61
+        "word": "hiccup",
+        "classification": "other",
+        "joke_index": 71
       },
       {
         "pair_id": 4,
         "context": "straight",
-        "word": "dismissed",
+        "word": "carryon",
         "classification": "straight",
-        "joke_index": 27
+        "joke_index": 42
       },
       {
         "pair_id": 4,
         "context": "funny",
-        "word": "dismissed",
+        "word": "carryon",
         "classification": "straight",
-        "joke_index": 27
+        "joke_index": 42
       },
       {
         "pair_id": 5,
         "context": "straight",
-        "word": "disaster",
+        "word": "tank",
         "classification": "straight",
-        "joke_index": 150
+        "joke_index": 58
       },
       {
         "pair_id": 5,
         "context": "funny",
-        "word": "disaster",
-        "classification": "straight",
-        "joke_index": 150
+        "word": "school",
+        "classification": "funny",
+        "joke_index": 58
       },
       {
         "pair_id": 6,
         "context": "straight",
-        "word": "stolen",
+        "word": "introverted",
         "classification": "straight",
-        "joke_index": 112
+        "joke_index": 105
       },
       {
         "pair_id": 6,
         "context": "funny",
-        "word": "stolen",
+        "word": "introverted",
         "classification": "straight",
-        "joke_index": 112
+        "joke_index": 105
       },
       {
         "pair_id": 7,
         "context": "straight",
-        "word": "profit",
-        "classification": "straight",
-        "joke_index": 48
+        "word": "huge",
+        "classification": "other",
+        "joke_index": 164
       },
       {
         "pair_id": 7,
         "context": "funny",
-        "word": "ice",
+        "word": "huge",
         "classification": "other",
-        "joke_index": 48
+        "joke_index": 164
       },
       {
         "pair_id": 8,
         "context": "straight",
-        "word": "blood",
-        "classification": "other",
-        "joke_index": 126
+        "word": "disappearing",
+        "classification": "straight",
+        "joke_index": 35
       },
       {
         "pair_id": 8,
         "context": "funny",
-        "word": "voltage",
+        "word": "crumbling",
         "classification": "funny",
-        "joke_index": 126
+        "joke_index": 35
       },
       {
         "pair_id": 9,
         "context": "straight",
-        "word": "shades",
+        "word": "nervous",
         "classification": "straight",
-        "joke_index": 74
+        "joke_index": 162
       },
       {
         "pair_id": 9,
         "context": "funny",
-        "word": "fans",
-        "classification": "funny",
-        "joke_index": 74
+        "word": "nervous",
+        "classification": "straight",
+        "joke_index": 162
       },
       {
         "pair_id": 10,
         "context": "straight",
-        "word": "found",
+        "word": "computers",
         "classification": "straight",
-        "joke_index": 131
+        "joke_index": 98
       },
       {
         "pair_id": 10,
         "context": "funny",
-        "word": "found",
+        "word": "computers",
         "classification": "straight",
-        "joke_index": 131
+        "joke_index": 98
       },
       {
         "pair_id": 11,
         "context": "straight",
-        "word": "salesman",
+        "word": "submissions",
         "classification": "straight",
-        "joke_index": 94
+        "joke_index": 1
       },
       {
         "pair_id": 11,
         "context": "funny",
-        "word": "pitcher",
-        "classification": "funny",
-        "joke_index": 94
+        "word": "submissions",
+        "classification": "straight",
+        "joke_index": 1
       },
       {
         "pair_id": 12,
         "context": "straight",
-        "word": "nightmare",
+        "word": "struggling",
         "classification": "straight",
-        "joke_index": 62
+        "joke_index": 183
       },
       {
         "pair_id": 12,
         "context": "funny",
-        "word": "series",
-        "classification": "other",
-        "joke_index": 62
+        "word": "booming",
+        "classification": "straight",
+        "joke_index": 183
       },
       {
         "pair_id": 13,
         "context": "straight",
-        "word": "roots",
-        "classification": "straight",
-        "joke_index": 26
+        "word": "hot",
+        "classification": "funny",
+        "joke_index": 149
       },
       {
         "pair_id": 13,
         "context": "funny",
-        "word": "roots",
-        "classification": "straight",
-        "joke_index": 26
+        "word": "hot",
+        "classification": "funny",
+        "joke_index": 149
       },
       {
         "pair_id": 14,
         "context": "straight",
-        "word": "exposed",
-        "classification": "straight",
-        "joke_index": 197
+        "word": "prickly",
+        "classification": "other",
+        "joke_index": 125
       },
       {
         "pair_id": 14,
         "context": "funny",
-        "word": "transparent",
-        "classification": "funny",
-        "joke_index": 197
+        "word": "stubborn",
+        "classification": "straight",
+        "joke_index": 125
       },
       {
         "pair_id": 15,
         "context": "straight",
-        "word": "camera",
-        "classification": "straight",
-        "joke_index": 194
+        "word": "smoke",
+        "classification": "other",
+        "joke_index": 87
       },
       {
         "pair_id": 15,
         "context": "funny",
-        "word": "catch",
-        "classification": "funny",
-        "joke_index": 194
+        "word": "smoke",
+        "classification": "other",
+        "joke_index": 87
       },
       {
         "pair_id": 16,
         "context": "straight",
-        "word": "pickled",
-        "classification": "other",
-        "joke_index": 55
+        "word": "change",
+        "classification": "funny",
+        "joke_index": 163
       },
       {
         "pair_id": 16,
         "context": "funny",
-        "word": "picked",
-        "classification": "funny",
-        "joke_index": 55
+        "word": "admit",
+        "classification": "straight",
+        "joke_index": 163
       },
       {
         "pair_id": 17,
         "context": "straight",
-        "word": "center",
+        "word": "fretting",
         "classification": "straight",
-        "joke_index": 99
+        "joke_index": 84
       },
       {
         "pair_id": 17,
         "context": "funny",
-        "word": "anchor",
-        "classification": "funny",
-        "joke_index": 99
+        "word": "fretting",
+        "classification": "straight",
+        "joke_index": 84
       },
       {
         "pair_id": 18,
         "context": "straight",
-        "word": "skids",
+        "word": "crying",
         "classification": "other",
-        "joke_index": 148
+        "joke_index": 119
       },
       {
         "pair_id": 18,
         "context": "funny",
-        "word": "skids",
+        "word": "cheesecake",
         "classification": "other",
-        "joke_index": 148
+        "joke_index": 119
       },
       {
         "pair_id": 19,
         "context": "straight",
-        "word": "sensation",
-        "classification": "other",
-        "joke_index": 7
+        "word": "handle",
+        "classification": "straight",
+        "joke_index": 103
       },
       {
         "pair_id": 19,
         "context": "funny",
-        "word": "buzz",
-        "classification": "funny",
-        "joke_index": 7
+        "word": "edit",
+        "classification": "other",
+        "joke_index": 103
       },
       {
         "pair_id": 20,
         "context": "straight",
-        "word": "miscounted",
-        "classification": "other",
-        "joke_index": 121
+        "word": "casino",
+        "classification": "straight",
+        "joke_index": 176
       },
       {
         "pair_id": 20,
         "context": "funny",
-        "word": "numbered",
-        "classification": "funny",
-        "joke_index": 121
+        "word": "casino",
+        "classification": "straight",
+        "joke_index": 176
       },
       {
         "pair_id": 21,
         "context": "straight",
-        "word": "capital",
+        "word": "food",
         "classification": "straight",
-        "joke_index": 80
+        "joke_index": 43
       },
       {
         "pair_id": 21,
         "context": "funny",
-        "word": "focus",
-        "classification": "funny",
-        "joke_index": 80
+        "word": "food",
+        "classification": "straight",
+        "joke_index": 43
       },
       {
         "pair_id": 22,
         "context": "straight",
-        "word": "multiply",
-        "classification": "funny",
-        "joke_index": 144
+        "word": "points",
+        "classification": "straight",
+        "joke_index": 195
       },
       {
         "pair_id": 22,
         "context": "funny",
-        "word": "multiply",
-        "classification": "funny",
-        "joke_index": 144
+        "word": "points",
+        "classification": "straight",
+        "joke_index": 195
       },
       {
         "pair_id": 23,
         "context": "straight",
-        "word": "kneading",
-        "classification": "other",
-        "joke_index": 147
+        "word": "ups",
+        "classification": "funny",
+        "joke_index": 17
       },
       {
         "pair_id": 23,
         "context": "funny",
-        "word": "kneading",
-        "classification": "other",
-        "joke_index": 147
+        "word": "ups",
+        "classification": "funny",
+        "joke_index": 17
       },
       {
         "pair_id": 24,
         "context": "straight",
-        "word": "kitchen",
-        "classification": "other",
-        "joke_index": 203
+        "word": "trouble",
+        "classification": "straight",
+        "joke_index": 95
       },
       {
         "pair_id": 24,
         "context": "funny",
-        "word": "kitchen",
-        "classification": "other",
-        "joke_index": 203
+        "word": "trouble",
+        "classification": "straight",
+        "joke_index": 95
       },
       {
         "pair_id": 25,
         "context": "straight",
-        "word": "chemistry",
-        "classification": "funny",
-        "joke_index": 129
+        "word": "good",
+        "classification": "other",
+        "joke_index": 188
       },
       {
         "pair_id": 25,
         "context": "funny",
-        "word": "chemistry",
-        "classification": "funny",
-        "joke_index": 129
+        "word": "good",
+        "classification": "other",
+        "joke_index": 188
       },
       {
         "pair_id": 26,
         "context": "straight",
-        "word": "piano",
-        "classification": "other",
-        "joke_index": 117
+        "word": "growth",
+        "classification": "straight",
+        "joke_index": 93
       },
       {
         "pair_id": 26,
         "context": "funny",
-        "word": "punchline",
-        "classification": "funny",
-        "joke_index": 117
+        "word": "growth",
+        "classification": "straight",
+        "joke_index": 93
       },
       {
         "pair_id": 27,
         "context": "straight",
-        "word": "elections",
+        "word": "understand",
         "classification": "straight",
-        "joke_index": 89
+        "joke_index": 134
       },
       {
         "pair_id": 27,
         "context": "funny",
-        "word": "power",
-        "classification": "funny",
-        "joke_index": 89
+        "word": "get",
+        "classification": "other",
+        "joke_index": 134
       },
       {
         "pair_id": 28,
         "context": "straight",
-        "word": "clue",
-        "classification": "straight",
-        "joke_index": 96
+        "word": "left",
+        "classification": "other",
+        "joke_index": 73
       },
       {
         "pair_id": 28,
         "context": "funny",
-        "word": "sign",
-        "classification": "funny",
-        "joke_index": 96
+        "word": "washed",
+        "classification": "other",
+        "joke_index": 73
       },
       {
         "pair_id": 29,
         "context": "straight",
-        "word": "balance",
-        "classification": "funny",
-        "joke_index": 92
+        "word": "customers",
+        "classification": "straight",
+        "joke_index": 124
       },
       {
         "pair_id": 29,
         "context": "funny",
-        "word": "balance",
-        "classification": "funny",
-        "joke_index": 92
+        "word": "customers",
+        "classification": "straight",
+        "joke_index": 124
       },
       {
         "pair_id": 30,
         "context": "straight",
-        "word": "case",
-        "classification": "funny",
-        "joke_index": 159
+        "word": "running",
+        "classification": "straight",
+        "joke_index": 91
       },
       {
         "pair_id": 30,
         "context": "funny",
-        "word": "case",
-        "classification": "funny",
-        "joke_index": 159
+        "word": "running",
+        "classification": "straight",
+        "joke_index": 91
       },
       {
         "pair_id": 31,
         "context": "straight",
-        "word": "coverage",
-        "classification": "other",
-        "joke_index": 160
+        "word": "writing",
+        "classification": "straight",
+        "joke_index": 202
       },
       {
         "pair_id": 31,
         "context": "funny",
-        "word": "coverage",
-        "classification": "other",
-        "joke_index": 160
+        "word": "writing",
+        "classification": "straight",
+        "joke_index": 202
       },
       {
         "pair_id": 32,
         "context": "straight",
-        "word": "sketches",
+        "word": "gossip",
         "classification": "straight",
-        "joke_index": 137
+        "joke_index": 100
       },
       {
         "pair_id": 32,
         "context": "funny",
-        "word": "portraits",
-        "classification": "straight",
-        "joke_index": 137
+        "word": "a",
+        "classification": "other",
+        "joke_index": 100
       },
       {
         "pair_id": 33,
         "context": "straight",
-        "word": "hours",
-        "classification": "straight",
-        "joke_index": 107
+        "word": "joke",
+        "classification": "other",
+        "joke_index": 184
       },
       {
         "pair_id": 33,
         "context": "funny",
-        "word": "hours",
-        "classification": "straight",
-        "joke_index": 107
+        "word": "joke",
+        "classification": "other",
+        "joke_index": 184
       },
       {
         "pair_id": 34,
         "context": "straight",
-        "word": "class",
-        "classification": "funny",
-        "joke_index": 64
+        "word": "keys",
+        "classification": "other",
+        "joke_index": 28
       },
       {
         "pair_id": 34,
         "context": "funny",
-        "word": "students",
-        "classification": "straight",
-        "joke_index": 64
+        "word": "keys",
+        "classification": "other",
+        "joke_index": 28
       },
       {
         "pair_id": 35,
         "context": "straight",
-        "word": "steep",
-        "classification": "funny",
-        "joke_index": 15
+        "word": "looking",
+        "classification": "other",
+        "joke_index": 54
       },
       {
         "pair_id": 35,
         "context": "funny",
-        "word": "steep",
-        "classification": "funny",
-        "joke_index": 15
+        "word": "on",
+        "classification": "other",
+        "joke_index": 54
       },
       {
         "pair_id": 36,
         "context": "straight",
-        "word": "manipulate",
+        "word": "telling",
         "classification": "straight",
-        "joke_index": 185
+        "joke_index": 40
       },
       {
         "pair_id": 36,
         "context": "funny",
-        "word": "sell",
+        "word": "telling",
         "classification": "straight",
-        "joke_index": 185
+        "joke_index": 40
       },
       {
         "pair_id": 37,
         "context": "straight",
-        "word": "hand",
-        "classification": "funny",
-        "joke_index": 25
+        "word": "landed",
+        "classification": "other",
+        "joke_index": 171
       },
       {
         "pair_id": 37,
         "context": "funny",
-        "word": "emotions",
-        "classification": "straight",
-        "joke_index": 25
+        "word": "land",
+        "classification": "funny",
+        "joke_index": 171
       },
       {
         "pair_id": 38,
         "context": "straight",
-        "word": "match",
+        "word": "coins",
         "classification": "straight",
-        "joke_index": 116
+        "joke_index": 113
       },
       {
         "pair_id": 38,
         "context": "funny",
-        "word": "match",
+        "word": "coins",
         "classification": "straight",
-        "joke_index": 116
+        "joke_index": 113
       },
       {
         "pair_id": 39,
         "context": "straight",
-        "word": "delayed",
+        "word": "records",
         "classification": "straight",
-        "joke_index": 186
+        "joke_index": 111
       },
       {
         "pair_id": 39,
         "context": "funny",
-        "word": "delayed",
+        "word": "records",
         "classification": "straight",
-        "joke_index": 186
+        "joke_index": 111
       },
       {
         "pair_id": 40,
         "context": "straight",
-        "word": "afraid",
-        "classification": "other",
-        "joke_index": 33
+        "word": "talents",
+        "classification": "straight",
+        "joke_index": 16
       },
       {
         "pair_id": 40,
         "context": "funny",
-        "word": "afraid",
-        "classification": "other",
-        "joke_index": 33
+        "word": "talents",
+        "classification": "straight",
+        "joke_index": 16
       },
       {
         "pair_id": 41,
         "context": "straight",
-        "word": "orders",
-        "classification": "funny",
-        "joke_index": 146
+        "word": "chaos",
+        "classification": "straight",
+        "joke_index": 78
       },
       {
         "pair_id": 41,
         "context": "funny",
-        "word": "orders",
-        "classification": "funny",
-        "joke_index": 146
+        "word": "chaos",
+        "classification": "straight",
+        "joke_index": 78
       },
       {
         "pair_id": 42,
         "context": "straight",
-        "word": "fired",
-        "classification": "funny",
-        "joke_index": 38
+        "word": "scam",
+        "classification": "other",
+        "joke_index": 172
       },
       {
         "pair_id": 42,
         "context": "funny",
-        "word": "struck",
-        "classification": "funny",
-        "joke_index": 38
+        "word": "scam",
+        "classification": "other",
+        "joke_index": 172
       },
       {
         "pair_id": 43,
         "context": "straight",
-        "word": "floor",
+        "word": "stranded",
         "classification": "straight",
-        "joke_index": 46
+        "joke_index": 3
       },
       {
         "pair_id": 43,
         "context": "funny",
-        "word": "floor",
-        "classification": "straight",
-        "joke_index": 46
+        "word": "left",
+        "classification": "other",
+        "joke_index": 3
       },
       {
         "pair_id": 44,
         "context": "straight",
-        "word": "birdie",
+        "word": "miracle",
         "classification": "other",
-        "joke_index": 66
+        "joke_index": 36
       },
       {
         "pair_id": 44,
         "context": "funny",
-        "word": "birdie",
+        "word": "free",
         "classification": "other",
-        "joke_index": 66
+        "joke_index": 36
       },
       {
         "pair_id": 45,
         "context": "straight",
-        "word": "kneaded",
+        "word": "large",
         "classification": "other",
-        "joke_index": 68
+        "joke_index": 90
       },
       {
         "pair_id": 45,
         "context": "funny",
-        "word": "kneaded",
+        "word": "large",
         "classification": "other",
-        "joke_index": 68
+        "joke_index": 90
       },
       {
         "pair_id": 46,
         "context": "straight",
-        "word": "dave",
-        "classification": "straight",
-        "joke_index": 79
+        "word": "math",
+        "classification": "other",
+        "joke_index": 106
       },
       {
         "pair_id": 46,
         "context": "funny",
-        "word": "dave",
-        "classification": "straight",
-        "joke_index": 79
+        "word": "math",
+        "classification": "other",
+        "joke_index": 106
       },
       {
         "pair_id": 47,
         "context": "straight",
-        "word": "break",
+        "word": "all-nighters",
         "classification": "straight",
-        "joke_index": 8
+        "joke_index": 53
       },
       {
         "pair_id": 47,
         "context": "funny",
-        "word": "break",
-        "classification": "straight",
-        "joke_index": 8
+        "word": "strings",
+        "classification": "other",
+        "joke_index": 53
       },
       {
         "pair_id": 48,
         "context": "straight",
-        "word": "afford",
+        "word": "booming",
         "classification": "straight",
-        "joke_index": 45
+        "joke_index": 151
       },
       {
         "pair_id": 48,
         "context": "funny",
-        "word": "see",
-        "classification": "funny",
-        "joke_index": 45
+        "word": "booming",
+        "classification": "straight",
+        "joke_index": 151
       },
       {
         "pair_id": 49,
         "context": "straight",
-        "word": "connections",
-        "classification": "straight",
-        "joke_index": 201
+        "word": "lawyerly",
+        "classification": "other",
+        "joke_index": 56
       },
       {
         "pair_id": 49,
         "context": "funny",
-        "word": "connections",
-        "classification": "straight",
-        "joke_index": 201
+        "word": "lawyerly",
+        "classification": "other",
+        "joke_index": 56
       }
     ],
     "70b": [
       {
         "pair_id": 0,
         "context": "straight",
-        "word": "hoarse",
-        "classification": "funny",
-        "joke_index": 104
+        "word": "assault",
+        "classification": "straight",
+        "joke_index": 138
       },
       {
         "pair_id": 0,
         "context": "funny",
-        "word": "hoarse",
+        "word": "battery",
         "classification": "funny",
-        "joke_index": 104
+        "joke_index": 138
       },
       {
         "pair_id": 1,
         "context": "straight",
-        "word": "past",
-        "classification": "funny",
-        "joke_index": 97
+        "word": "speech",
+        "classification": "straight",
+        "joke_index": 156
       },
       {
         "pair_id": 1,
         "context": "funny",
-        "word": "past",
+        "word": "toast",
         "classification": "funny",
-        "joke_index": 97
+        "joke_index": 156
       },
       {
         "pair_id": 2,
         "context": "straight",
-        "word": "company",
-        "classification": "funny",
-        "joke_index": 88
+        "word": "ear",
+        "classification": "straight",
+        "joke_index": 76
       },
       {
         "pair_id": 2,
         "context": "funny",
-        "word": "sympathy",
-        "classification": "other",
-        "joke_index": 88
+        "word": "spell",
+        "classification": "funny",
+        "joke_index": 76
       },
       {
         "pair_id": 3,
         "context": "straight",
-        "word": "spectacle",
-        "classification": "funny",
-        "joke_index": 61
+        "word": "shortage",
+        "classification": "straight",
+        "joke_index": 71
       },
       {
         "pair_id": 3,
         "context": "funny",
-        "word": "spectacle",
+        "word": "fungus",
         "classification": "funny",
-        "joke_index": 61
+        "joke_index": 71
       },
       {
         "pair_id": 4,
         "context": "straight",
-        "word": "dismissed",
-        "classification": "straight",
-        "joke_index": 27
+        "word": "carry",
+        "classification": "funny",
+        "joke_index": 42
       },
       {
         "pair_id": 4,
         "context": "funny",
-        "word": "brewing",
-        "classification": "other",
-        "joke_index": 27
+        "word": "carry",
+        "classification": "funny",
+        "joke_index": 42
       },
       {
         "pair_id": 5,
         "context": "straight",
-        "word": "dive",
-        "classification": "funny",
-        "joke_index": 150
+        "word": "bookstore",
+        "classification": "other",
+        "joke_index": 58
       },
       {
         "pair_id": 5,
         "context": "funny",
-        "word": "wreck",
-        "classification": "straight",
-        "joke_index": 150
+        "word": "school",
+        "classification": "funny",
+        "joke_index": 58
       },
       {
         "pair_id": 6,
         "context": "straight",
-        "word": "mugged",
-        "classification": "funny",
-        "joke_index": 112
+        "word": "analytical",
+        "classification": "straight",
+        "joke_index": 105
       },
       {
         "pair_id": 6,
         "context": "funny",
-        "word": "mugged",
-        "classification": "funny",
-        "joke_index": 112
+        "word": "analytical",
+        "classification": "straight",
+        "joke_index": 105
       },
       {
         "pair_id": 7,
         "context": "straight",
-        "word": "margins",
-        "classification": "funny",
-        "joke_index": 48
+        "word": "job",
+        "classification": "straight",
+        "joke_index": 164
       },
       {
         "pair_id": 7,
         "context": "funny",
-        "word": "pages",
-        "classification": "other",
-        "joke_index": 48
+        "word": "flush",
+        "classification": "funny",
+        "joke_index": 164
       },
       {
         "pair_id": 8,
         "context": "straight",
-        "word": "voltage",
-        "classification": "funny",
-        "joke_index": 126
+        "word": "disappearing",
+        "classification": "straight",
+        "joke_index": 35
       },
       {
         "pair_id": 8,
         "context": "funny",
-        "word": "voltage",
-        "classification": "funny",
-        "joke_index": 126
+        "word": "crumbing",
+        "classification": "other",
+        "joke_index": 35
       },
       {
         "pair_id": 9,
         "context": "straight",
-        "word": "shades",
-        "classification": "straight",
-        "joke_index": 74
+        "word": "dumb",
+        "classification": "other",
+        "joke_index": 162
       },
       {
         "pair_id": 9,
         "context": "funny",
-        "word": "shades",
-        "classification": "straight",
-        "joke_index": 74
+        "word": "pressured",
+        "classification": "funny",
+        "joke_index": 162
       },
       {
         "pair_id": 10,
         "context": "straight",
-        "word": "spotted",
-        "classification": "funny",
-        "joke_index": 131
+        "word": "reptiles",
+        "classification": "straight",
+        "joke_index": 98
       },
       {
         "pair_id": 10,
         "context": "funny",
-        "word": "spotted",
-        "classification": "funny",
-        "joke_index": 131
+        "word": "reptiles",
+        "classification": "straight",
+        "joke_index": 98
       },
       {
         "pair_id": 11,
         "context": "straight",
-        "word": "pitchman",
-        "classification": "funny",
-        "joke_index": 94
+        "word": "articles",
+        "classification": "straight",
+        "joke_index": 1
       },
       {
         "pair_id": 11,
         "context": "funny",
-        "word": "pitcher",
-        "classification": "funny",
-        "joke_index": 94
+        "word": "plots",
+        "classification": "other",
+        "joke_index": 1
       },
       {
         "pair_id": 12,
         "context": "straight",
-        "word": "audit",
-        "classification": "funny",
-        "joke_index": 62
+        "word": "thriving",
+        "classification": "straight",
+        "joke_index": 183
       },
       {
         "pair_id": 12,
         "context": "funny",
-        "word": "audit",
+        "word": "stable",
         "classification": "funny",
-        "joke_index": 62
+        "joke_index": 183
       },
       {
         "pair_id": 13,
         "context": "straight",
-        "word": "roots",
-        "classification": "straight",
-        "joke_index": 26
+        "word": "hot",
+        "classification": "funny",
+        "joke_index": 149
       },
       {
         "pair_id": 13,
         "context": "funny",
-        "word": "roots",
-        "classification": "straight",
-        "joke_index": 26
+        "word": "hot",
+        "classification": "funny",
+        "joke_index": 149
       },
       {
         "pair_id": 14,
         "context": "straight",
-        "word": "transparent",
-        "classification": "funny",
-        "joke_index": 197
+        "word": "stubborn",
+        "classification": "straight",
+        "joke_index": 125
       },
       {
         "pair_id": 14,
         "context": "funny",
-        "word": "transparent",
-        "classification": "funny",
-        "joke_index": 197
+        "word": "rigid",
+        "classification": "straight",
+        "joke_index": 125
       },
       {
         "pair_id": 15,
         "context": "straight",
-        "word": "reel",
-        "classification": "other",
-        "joke_index": 194
+        "word": "rhetoric",
+        "classification": "straight",
+        "joke_index": 87
       },
       {
         "pair_id": 15,
         "context": "funny",
-        "word": "reel",
+        "word": "grind",
         "classification": "other",
-        "joke_index": 194
+        "joke_index": 87
       },
       {
         "pair_id": 16,
         "context": "straight",
-        "word": "picked",
-        "classification": "funny",
-        "joke_index": 55
+        "word": "stop",
+        "classification": "straight",
+        "joke_index": 163
       },
       {
         "pair_id": 16,
         "context": "funny",
-        "word": "picked",
-        "classification": "funny",
-        "joke_index": 55
+        "word": "stop",
+        "classification": "straight",
+        "joke_index": 163
       },
       {
         "pair_id": 17,
         "context": "straight",
-        "word": "anchor",
-        "classification": "funny",
-        "joke_index": 99
+        "word": "bass",
+        "classification": "other",
+        "joke_index": 84
       },
       {
         "pair_id": 17,
         "context": "funny",
-        "word": "anchor",
-        "classification": "funny",
-        "joke_index": 99
+        "word": "bass",
+        "classification": "other",
+        "joke_index": 84
       },
       {
         "pair_id": 18,
         "context": "straight",
-        "word": "rise",
-        "classification": "funny",
-        "joke_index": 148
+        "word": "bitterness",
+        "classification": "other",
+        "joke_index": 119
       },
       {
         "pair_id": 18,
         "context": "funny",
-        "word": "rise",
-        "classification": "funny",
-        "joke_index": 148
+        "word": "shooting",
+        "classification": "other",
+        "joke_index": 119
       },
       {
         "pair_id": 19,
         "context": "straight",
-        "word": "buzz",
-        "classification": "funny",
-        "joke_index": 7
+        "word": "handle",
+        "classification": "straight",
+        "joke_index": 103
       },
       {
         "pair_id": 19,
         "context": "funny",
-        "word": "buzz",
-        "classification": "funny",
-        "joke_index": 7
+        "word": "develop",
+        "classification": "other",
+        "joke_index": 103
       },
       {
         "pair_id": 20,
         "context": "straight",
-        "word": "numbered",
-        "classification": "funny",
-        "joke_index": 121
+        "word": "casino",
+        "classification": "straight",
+        "joke_index": 176
       },
       {
         "pair_id": 20,
         "context": "funny",
-        "word": "numbered",
-        "classification": "funny",
-        "joke_index": 121
+        "word": "peak",
+        "classification": "other",
+        "joke_index": 176
       },
       {
         "pair_id": 21,
         "context": "straight",
-        "word": "vision",
-        "classification": "funny",
-        "joke_index": 80
+        "word": "food",
+        "classification": "straight",
+        "joke_index": 43
       },
       {
         "pair_id": 21,
         "context": "funny",
-        "word": "vision",
-        "classification": "funny",
-        "joke_index": 80
+        "word": "space",
+        "classification": "other",
+        "joke_index": 43
       },
       {
         "pair_id": 22,
         "context": "straight",
-        "word": "multiply",
+        "word": "cut",
         "classification": "funny",
-        "joke_index": 144
+        "joke_index": 195
       },
       {
         "pair_id": 22,
         "context": "funny",
-        "word": "multiply",
+        "word": "cut",
         "classification": "funny",
-        "joke_index": 144
+        "joke_index": 195
       },
       {
         "pair_id": 23,
         "context": "straight",
-        "word": "loafing",
+        "word": "ups",
         "classification": "funny",
-        "joke_index": 147
+        "joke_index": 17
       },
       {
         "pair_id": 23,
         "context": "funny",
-        "word": "kneading",
-        "classification": "other",
-        "joke_index": 147
+        "word": "ups",
+        "classification": "funny",
+        "joke_index": 17
       },
       {
         "pair_id": 24,
         "context": "straight",
-        "word": "jam",
-        "classification": "funny",
-        "joke_index": 203
+        "word": "trouble",
+        "classification": "straight",
+        "joke_index": 95
       },
       {
         "pair_id": 24,
         "context": "funny",
-        "word": "jam",
-        "classification": "funny",
-        "joke_index": 203
+        "word": "trouble",
+        "classification": "straight",
+        "joke_index": 95
       },
       {
         "pair_id": 25,
         "context": "straight",
-        "word": "chemistry",
-        "classification": "funny",
-        "joke_index": 129
+        "word": "prescription",
+        "classification": "straight",
+        "joke_index": 188
       },
       {
         "pair_id": 25,
         "context": "funny",
-        "word": "bond",
-        "classification": "funny",
-        "joke_index": 129
+        "word": "prescription",
+        "classification": "straight",
+        "joke_index": 188
       },
       {
         "pair_id": 26,
         "context": "straight",
-        "word": "punch",
-        "classification": "funny",
-        "joke_index": 117
+        "word": "growth",
+        "classification": "straight",
+        "joke_index": 93
       },
       {
         "pair_id": 26,
         "context": "funny",
-        "word": "punch",
-        "classification": "funny",
-        "joke_index": 117
+        "word": "growth",
+        "classification": "straight",
+        "joke_index": 93
       },
       {
         "pair_id": 27,
         "context": "straight",
-        "word": "the",
-        "classification": "other",
-        "joke_index": 89
+        "word": "stop",
+        "classification": "straight",
+        "joke_index": 134
       },
       {
         "pair_id": 27,
         "context": "funny",
-        "word": "power",
-        "classification": "funny",
-        "joke_index": 89
+        "word": "stop",
+        "classification": "straight",
+        "joke_index": 134
       },
       {
         "pair_id": 28,
         "context": "straight",
-        "word": "sign",
-        "classification": "funny",
-        "joke_index": 96
+        "word": "stained",
+        "classification": "straight",
+        "joke_index": 73
       },
       {
         "pair_id": 28,
         "context": "funny",
-        "word": "sign",
-        "classification": "funny",
-        "joke_index": 96
+        "word": "stained",
+        "classification": "straight",
+        "joke_index": 73
       },
       {
         "pair_id": 29,
         "context": "straight",
-        "word": "balance",
-        "classification": "funny",
-        "joke_index": 92
+        "word": "shirts",
+        "classification": "straight",
+        "joke_index": 124
       },
       {
         "pair_id": 29,
         "context": "funny",
-        "word": "balance",
-        "classification": "funny",
-        "joke_index": 92
+        "word": "shirts",
+        "classification": "straight",
+        "joke_index": 124
       },
       {
         "pair_id": 30,
         "context": "straight",
-        "word": "case",
-        "classification": "funny",
-        "joke_index": 159
+        "word": "running",
+        "classification": "straight",
+        "joke_index": 91
       },
       {
         "pair_id": 30,
         "context": "funny",
-        "word": "case",
+        "word": "afloat",
         "classification": "funny",
-        "joke_index": 159
+        "joke_index": 91
       },
       {
         "pair_id": 31,
         "context": "straight",
-        "word": "reception",
-        "classification": "funny",
-        "joke_index": 160
+        "word": "writing",
+        "classification": "straight",
+        "joke_index": 202
       },
       {
         "pair_id": 31,
         "context": "funny",
-        "word": "reception",
+        "word": "columns",
         "classification": "funny",
-        "joke_index": 160
+        "joke_index": 202
       },
       {
         "pair_id": 32,
         "context": "straight",
-        "word": "conclusions",
-        "classification": "funny",
-        "joke_index": 137
+        "word": "trouble",
+        "classification": "straight",
+        "joke_index": 100
       },
       {
         "pair_id": 32,
         "context": "funny",
-        "word": "conclusions",
-        "classification": "funny",
-        "joke_index": 137
+        "word": "something",
+        "classification": "other",
+        "joke_index": 100
       },
       {
         "pair_id": 33,
         "context": "straight",
-        "word": "seconds",
-        "classification": "funny",
-        "joke_index": 107
+        "word": "jockey",
+        "classification": "other",
+        "joke_index": 184
       },
       {
         "pair_id": 33,
         "context": "funny",
-        "word": "seconds",
+        "word": "ruler",
         "classification": "funny",
-        "joke_index": 107
+        "joke_index": 184
       },
       {
         "pair_id": 34,
         "context": "straight",
-        "word": "class",
-        "classification": "funny",
-        "joke_index": 64
+        "word": "wallet",
+        "classification": "straight",
+        "joke_index": 28
       },
       {
         "pair_id": 34,
         "context": "funny",
-        "word": "class",
-        "classification": "funny",
-        "joke_index": 64
+        "word": "wallet",
+        "classification": "straight",
+        "joke_index": 28
       },
       {
         "pair_id": 35,
         "context": "straight",
-        "word": "high",
-        "classification": "straight",
-        "joke_index": 15
+        "word": "looking",
+        "classification": "other",
+        "joke_index": 54
       },
       {
         "pair_id": 35,
         "context": "funny",
-        "word": "steep",
-        "classification": "funny",
-        "joke_index": 15
+        "word": "on",
+        "classification": "other",
+        "joke_index": 54
       },
       {
         "pair_id": 36,
         "context": "straight",
-        "word": "open",
+        "word": "court",
         "classification": "other",
-        "joke_index": 185
+        "joke_index": 40
       },
       {
         "pair_id": 36,
         "context": "funny",
-        "word": "open",
+        "word": "court",
         "classification": "other",
-        "joke_index": 185
+        "joke_index": 40
       },
       {
         "pair_id": 37,
         "context": "straight",
-        "word": "hand",
+        "word": "land",
         "classification": "funny",
-        "joke_index": 25
+        "joke_index": 171
       },
       {
         "pair_id": 37,
         "context": "funny",
-        "word": "hand",
-        "classification": "funny",
-        "joke_index": 25
-      },
-      {
-        "pair_id": 38,
-        "context": "straight",
-        "word": "match",
-        "classification": "straight",
-        "joke_index": 116
-      },
-      {
-        "pair_id": 38,
-        "context": "funny",
-        "word": "compound",
+        "word": "fly",
         "classification": "other",
-        "joke_index": 116
+        "joke_index": 171
+      },
+      {
+        "pair_id": 38,
+        "context": "straight",
+        "word": "change",
+        "classification": "funny",
+        "joke_index": 113
+      },
+      {
+        "pair_id": 38,
+        "context": "funny",
+        "word": "cents",
+        "classification": "funny",
+        "joke_index": 113
       },
       {
         "pair_id": 39,
         "context": "straight",
-        "word": "late",
+        "word": "records",
         "classification": "straight",
-        "joke_index": 186
+        "joke_index": 111
       },
       {
         "pair_id": 39,
         "context": "funny",
-        "word": "out",
+        "word": "records",
         "classification": "straight",
-        "joke_index": 186
+        "joke_index": 111
       },
       {
         "pair_id": 40,
         "context": "straight",
-        "word": "possessive",
+        "word": "drumming",
         "classification": "straight",
-        "joke_index": 33
+        "joke_index": 16
       },
       {
         "pair_id": 40,
         "context": "funny",
-        "word": "shellfish",
-        "classification": "funny",
-        "joke_index": 33
+        "word": "drumstick",
+        "classification": "other",
+        "joke_index": 16
       },
       {
         "pair_id": 41,
         "context": "straight",
-        "word": "orders",
-        "classification": "funny",
-        "joke_index": 146
+        "word": "mess",
+        "classification": "straight",
+        "joke_index": 78
       },
       {
         "pair_id": 41,
         "context": "funny",
-        "word": "orders",
+        "word": "scramble",
         "classification": "funny",
-        "joke_index": 146
+        "joke_index": 78
       },
       {
         "pair_id": 42,
         "context": "straight",
-        "word": "fired",
-        "classification": "funny",
-        "joke_index": 38
+        "word": "success",
+        "classification": "straight",
+        "joke_index": 172
       },
       {
         "pair_id": 42,
         "context": "funny",
-        "word": "fired",
-        "classification": "funny",
-        "joke_index": 38
+        "word": "success",
+        "classification": "straight",
+        "joke_index": 172
       },
       {
         "pair_id": 43,
         "context": "straight",
-        "word": "job",
-        "classification": "funny",
-        "joke_index": 46
+        "word": "left",
+        "classification": "other",
+        "joke_index": 3
       },
       {
         "pair_id": 43,
         "context": "funny",
-        "word": "job",
-        "classification": "funny",
-        "joke_index": 46
+        "word": "left",
+        "classification": "other",
+        "joke_index": 3
       },
       {
         "pair_id": 44,
         "context": "straight",
-        "word": "hole",
-        "classification": "funny",
-        "joke_index": 66
+        "word": "man",
+        "classification": "other",
+        "joke_index": 36
       },
       {
         "pair_id": 44,
         "context": "funny",
-        "word": "hole",
-        "classification": "funny",
-        "joke_index": 66
+        "word": "fugitive",
+        "classification": "straight",
+        "joke_index": 36
       },
       {
         "pair_id": 45,
         "context": "straight",
-        "word": "fired",
+        "word": "pucks",
         "classification": "straight",
-        "joke_index": 68
+        "joke_index": 90
       },
       {
         "pair_id": 45,
         "context": "funny",
-        "word": "fired",
+        "word": "pucks",
         "classification": "straight",
-        "joke_index": 68
+        "joke_index": 90
       },
       {
         "pair_id": 46,
         "context": "straight",
-        "word": "braaaaad",
-        "classification": "funny",
-        "joke_index": 79
+        "word": "time",
+        "classification": "other",
+        "joke_index": 106
       },
       {
         "pair_id": 46,
         "context": "funny",
-        "word": "braaaaad",
-        "classification": "funny",
-        "joke_index": 79
+        "word": "archaeology",
+        "classification": "straight",
+        "joke_index": 106
       },
       {
         "pair_id": 47,
         "context": "straight",
-        "word": "sweep",
-        "classification": "funny",
-        "joke_index": 8
+        "word": "all-nighters",
+        "classification": "straight",
+        "joke_index": 53
       },
       {
         "pair_id": 47,
         "context": "funny",
-        "word": "sweep",
-        "classification": "funny",
-        "joke_index": 8
+        "word": "all-nighters",
+        "classification": "straight",
+        "joke_index": 53
       },
       {
         "pair_id": 48,
         "context": "straight",
-        "word": "see",
-        "classification": "funny",
-        "joke_index": 45
+        "word": "booming",
+        "classification": "straight",
+        "joke_index": 151
       },
       {
         "pair_id": 48,
         "context": "funny",
-        "word": "see",
-        "classification": "funny",
-        "joke_index": 45
+        "word": "sewing",
+        "classification": "other",
+        "joke_index": 151
       },
       {
         "pair_id": 49,
         "context": "straight",
-        "word": "roots",
-        "classification": "funny",
-        "joke_index": 201
+        "word": "litigious",
+        "classification": "other",
+        "joke_index": 56
       },
       {
         "pair_id": 49,
         "context": "funny",
-        "word": "roots",
-        "classification": "funny",
-        "joke_index": 201
+        "word": "litigious",
+        "classification": "other",
+        "joke_index": 56
       }
     ],
     "3.3-70b": [
       {
         "pair_id": 0,
         "context": "straight",
-        "word": "hoarse",
-        "classification": "funny",
-        "joke_index": 104
+        "word": "assault",
+        "classification": "straight",
+        "joke_index": 138
       },
       {
         "pair_id": 0,
         "context": "funny",
-        "word": "hoarse",
+        "word": "battery",
         "classification": "funny",
-        "joke_index": 104
+        "joke_index": 138
       },
       {
         "pair_id": 1,
         "context": "straight",
-        "word": "past",
-        "classification": "funny",
-        "joke_index": 97
+        "word": "speech",
+        "classification": "straight",
+        "joke_index": 156
       },
       {
         "pair_id": 1,
         "context": "funny",
-        "word": "past",
+        "word": "toast",
         "classification": "funny",
-        "joke_index": 97
+        "joke_index": 156
       },
       {
         "pair_id": 2,
         "context": "straight",
-        "word": "company",
-        "classification": "funny",
-        "joke_index": 88
+        "word": "passion",
+        "classification": "straight",
+        "joke_index": 76
       },
       {
         "pair_id": 2,
         "context": "funny",
-        "word": "company",
+        "word": "spell",
         "classification": "funny",
-        "joke_index": 88
+        "joke_index": 76
       },
       {
         "pair_id": 3,
         "context": "straight",
-        "word": "spectacle",
-        "classification": "funny",
-        "joke_index": 61
+        "word": "shortage",
+        "classification": "straight",
+        "joke_index": 71
       },
       {
         "pair_id": 3,
         "context": "funny",
-        "word": "spectacle",
-        "classification": "funny",
-        "joke_index": 61
+        "word": "fungi",
+        "classification": "other",
+        "joke_index": 71
       },
       {
         "pair_id": 4,
         "context": "straight",
-        "word": "settled",
+        "word": "carry",
         "classification": "funny",
-        "joke_index": 27
+        "joke_index": 42
       },
       {
         "pair_id": 4,
         "context": "funny",
-        "word": "brewing",
-        "classification": "other",
-        "joke_index": 27
+        "word": "carry",
+        "classification": "funny",
+        "joke_index": 42
       },
       {
         "pair_id": 5,
         "context": "straight",
-        "word": "dive",
-        "classification": "funny",
-        "joke_index": 150
+        "word": "bookstore",
+        "classification": "other",
+        "joke_index": 58
       },
       {
         "pair_id": 5,
         "context": "funny",
-        "word": "dive",
+        "word": "school",
         "classification": "funny",
-        "joke_index": 150
+        "joke_index": 58
       },
       {
         "pair_id": 6,
         "context": "straight",
-        "word": "mugged",
-        "classification": "funny",
-        "joke_index": 112
+        "word": "analytical",
+        "classification": "straight",
+        "joke_index": 105
       },
       {
         "pair_id": 6,
         "context": "funny",
-        "word": "mugged",
-        "classification": "funny",
-        "joke_index": 112
+        "word": "focused",
+        "classification": "straight",
+        "joke_index": 105
       },
       {
         "pair_id": 7,
         "context": "straight",
-        "word": "margins",
-        "classification": "funny",
-        "joke_index": 48
+        "word": "jackpot",
+        "classification": "straight",
+        "joke_index": 164
       },
       {
         "pair_id": 7,
         "context": "funny",
-        "word": "pages",
+        "word": "crush",
         "classification": "other",
-        "joke_index": 48
+        "joke_index": 164
       },
       {
         "pair_id": 8,
         "context": "straight",
-        "word": "voltage",
-        "classification": "funny",
-        "joke_index": 126
+        "word": "disappearing",
+        "classification": "straight",
+        "joke_index": 35
       },
       {
         "pair_id": 8,
         "context": "funny",
-        "word": "voltage",
+        "word": "crumbling",
         "classification": "funny",
-        "joke_index": 126
+        "joke_index": 35
       },
       {
         "pair_id": 9,
         "context": "straight",
-        "word": "fans",
-        "classification": "funny",
-        "joke_index": 74
+        "word": "anxious",
+        "classification": "straight",
+        "joke_index": 162
       },
       {
         "pair_id": 9,
         "context": "funny",
-        "word": "fans",
+        "word": "pressured",
         "classification": "funny",
-        "joke_index": 74
+        "joke_index": 162
       },
       {
         "pair_id": 10,
         "context": "straight",
-        "word": "spotted",
-        "classification": "funny",
-        "joke_index": 131
+        "word": "systems",
+        "classification": "straight",
+        "joke_index": 98
       },
       {
         "pair_id": 10,
         "context": "funny",
-        "word": "spotted",
-        "classification": "funny",
-        "joke_index": 131
+        "word": "snakes",
+        "classification": "straight",
+        "joke_index": 98
       },
       {
         "pair_id": 11,
         "context": "straight",
-        "word": "pitcher",
-        "classification": "funny",
-        "joke_index": 94
+        "word": "stories",
+        "classification": "other",
+        "joke_index": 1
       },
       {
         "pair_id": 11,
         "context": "funny",
-        "word": "pitcher",
-        "classification": "funny",
-        "joke_index": 94
+        "word": "stories",
+        "classification": "other",
+        "joke_index": 1
       },
       {
         "pair_id": 12,
         "context": "straight",
-        "word": "lie",
-        "classification": "other",
-        "joke_index": 62
+        "word": "thriving",
+        "classification": "straight",
+        "joke_index": 183
       },
       {
         "pair_id": 12,
         "context": "funny",
-        "word": "audit",
+        "word": "stable",
         "classification": "funny",
-        "joke_index": 62
+        "joke_index": 183
       },
       {
         "pair_id": 13,
         "context": "straight",
-        "word": "stuff",
-        "classification": "other",
-        "joke_index": 26
+        "word": "hot",
+        "classification": "funny",
+        "joke_index": 149
       },
       {
         "pair_id": 13,
         "context": "funny",
-        "word": "bark",
+        "word": "hot",
         "classification": "funny",
-        "joke_index": 26
+        "joke_index": 149
       },
       {
         "pair_id": 14,
         "context": "straight",
-        "word": "transparent",
-        "classification": "funny",
-        "joke_index": 197
+        "word": "stubborn",
+        "classification": "straight",
+        "joke_index": 125
       },
       {
         "pair_id": 14,
         "context": "funny",
-        "word": "transparent",
-        "classification": "funny",
-        "joke_index": 197
+        "word": "rigid",
+        "classification": "straight",
+        "joke_index": 125
       },
       {
         "pair_id": 15,
         "context": "straight",
-        "word": "reel",
-        "classification": "other",
-        "joke_index": 194
+        "word": "nonsense",
+        "classification": "straight",
+        "joke_index": 87
       },
       {
         "pair_id": 15,
         "context": "funny",
-        "word": "reel",
+        "word": "meat",
         "classification": "other",
-        "joke_index": 194
+        "joke_index": 87
       },
       {
         "pair_id": 16,
         "context": "straight",
-        "word": "picked",
-        "classification": "funny",
-        "joke_index": 55
+        "word": "stop",
+        "classification": "straight",
+        "joke_index": 163
       },
       {
         "pair_id": 16,
         "context": "funny",
-        "word": "picked",
-        "classification": "funny",
-        "joke_index": 55
+        "word": "stop",
+        "classification": "straight",
+        "joke_index": 163
       },
       {
         "pair_id": 17,
         "context": "straight",
-        "word": "anchor",
-        "classification": "funny",
-        "joke_index": 99
+        "word": "bass",
+        "classification": "other",
+        "joke_index": 84
       },
       {
         "pair_id": 17,
         "context": "funny",
-        "word": "anchor",
-        "classification": "funny",
-        "joke_index": 99
+        "word": "bass",
+        "classification": "other",
+        "joke_index": 84
       },
       {
         "pair_id": 18,
         "context": "straight",
-        "word": "rise",
-        "classification": "funny",
-        "joke_index": 148
+        "word": "shooting",
+        "classification": "other",
+        "joke_index": 119
       },
       {
         "pair_id": 18,
         "context": "funny",
-        "word": "rise",
-        "classification": "funny",
-        "joke_index": 148
+        "word": "shooting",
+        "classification": "other",
+        "joke_index": 119
       },
       {
         "pair_id": 19,
         "context": "straight",
-        "word": "buzz",
-        "classification": "funny",
-        "joke_index": 7
+        "word": "manage",
+        "classification": "straight",
+        "joke_index": 103
       },
       {
         "pair_id": 19,
         "context": "funny",
-        "word": "buzz",
-        "classification": "funny",
-        "joke_index": 7
+        "word": "develop",
+        "classification": "other",
+        "joke_index": 103
       },
       {
         "pair_id": 20,
         "context": "straight",
-        "word": "numbered",
-        "classification": "funny",
-        "joke_index": 121
+        "word": "casino",
+        "classification": "straight",
+        "joke_index": 176
       },
       {
         "pair_id": 20,
         "context": "funny",
-        "word": "numbered",
-        "classification": "funny",
-        "joke_index": 121
+        "word": "peak",
+        "classification": "other",
+        "joke_index": 176
       },
       {
         "pair_id": 21,
         "context": "straight",
-        "word": "vision",
-        "classification": "funny",
-        "joke_index": 80
+        "word": "food",
+        "classification": "straight",
+        "joke_index": 43
       },
       {
         "pair_id": 21,
         "context": "funny",
-        "word": "vision",
-        "classification": "funny",
-        "joke_index": 80
+        "word": "food",
+        "classification": "straight",
+        "joke_index": 43
       },
       {
         "pair_id": 22,
         "context": "straight",
-        "word": "calculate",
-        "classification": "straight",
-        "joke_index": 144
+        "word": "cut",
+        "classification": "funny",
+        "joke_index": 195
       },
       {
         "pair_id": 22,
         "context": "funny",
-        "word": "multiply",
+        "word": "cut",
         "classification": "funny",
-        "joke_index": 144
+        "joke_index": 195
       },
       {
         "pair_id": 23,
         "context": "straight",
-        "word": "loafing",
-        "classification": "funny",
-        "joke_index": 147
+        "word": "twists",
+        "classification": "straight",
+        "joke_index": 17
       },
       {
         "pair_id": 23,
         "context": "funny",
-        "word": "kneading",
-        "classification": "other",
-        "joke_index": 147
+        "word": "ups",
+        "classification": "funny",
+        "joke_index": 17
       },
       {
         "pair_id": 24,
         "context": "straight",
-        "word": "jam",
-        "classification": "funny",
-        "joke_index": 203
+        "word": "trouble",
+        "classification": "straight",
+        "joke_index": 95
       },
       {
         "pair_id": 24,
         "context": "funny",
-        "word": "jam",
-        "classification": "funny",
-        "joke_index": 203
+        "word": "trouble",
+        "classification": "straight",
+        "joke_index": 95
       },
       {
         "pair_id": 25,
         "context": "straight",
-        "word": "chemistry",
-        "classification": "funny",
-        "joke_index": 129
+        "word": "prescription",
+        "classification": "straight",
+        "joke_index": 188
       },
       {
         "pair_id": 25,
         "context": "funny",
-        "word": "bond",
-        "classification": "funny",
-        "joke_index": 129
+        "word": "prescription",
+        "classification": "straight",
+        "joke_index": 188
       },
       {
         "pair_id": 26,
         "context": "straight",
-        "word": "punch",
-        "classification": "funny",
-        "joke_index": 117
+        "word": "growth",
+        "classification": "straight",
+        "joke_index": 93
       },
       {
         "pair_id": 26,
         "context": "funny",
-        "word": "punch",
-        "classification": "funny",
-        "joke_index": 117
+        "word": "growth",
+        "classification": "straight",
+        "joke_index": 93
       },
       {
         "pair_id": 27,
         "context": "straight",
-        "word": "the",
-        "classification": "other",
-        "joke_index": 89
+        "word": "stop",
+        "classification": "straight",
+        "joke_index": 134
       },
       {
         "pair_id": 27,
         "context": "funny",
-        "word": "power",
-        "classification": "funny",
-        "joke_index": 89
+        "word": "stop",
+        "classification": "straight",
+        "joke_index": 134
       },
       {
         "pair_id": 28,
         "context": "straight",
-        "word": "sign",
-        "classification": "funny",
-        "joke_index": 96
+        "word": "stained",
+        "classification": "straight",
+        "joke_index": 73
       },
       {
         "pair_id": 28,
         "context": "funny",
-        "word": "sign",
-        "classification": "funny",
-        "joke_index": 96
+        "word": "stained",
+        "classification": "straight",
+        "joke_index": 73
       },
       {
         "pair_id": 29,
         "context": "straight",
-        "word": "balance",
-        "classification": "funny",
-        "joke_index": 92
+        "word": "shirts",
+        "classification": "straight",
+        "joke_index": 124
       },
       {
         "pair_id": 29,
         "context": "funny",
-        "word": "balance",
-        "classification": "funny",
-        "joke_index": 92
+        "word": "shirts",
+        "classification": "straight",
+        "joke_index": 124
       },
       {
         "pair_id": 30,
         "context": "straight",
-        "word": "case",
-        "classification": "funny",
-        "joke_index": 159
+        "word": "running",
+        "classification": "straight",
+        "joke_index": 91
       },
       {
         "pair_id": 30,
         "context": "funny",
-        "word": "case",
+        "word": "afloat",
         "classification": "funny",
-        "joke_index": 159
+        "joke_index": 91
       },
       {
         "pair_id": 31,
         "context": "straight",
-        "word": "reception",
-        "classification": "funny",
-        "joke_index": 160
+        "word": "writing",
+        "classification": "straight",
+        "joke_index": 202
       },
       {
         "pair_id": 31,
         "context": "funny",
-        "word": "reception",
+        "word": "columns",
         "classification": "funny",
-        "joke_index": 160
+        "joke_index": 202
       },
       {
         "pair_id": 32,
         "context": "straight",
-        "word": "conclusions",
-        "classification": "funny",
-        "joke_index": 137
+        "word": "trouble",
+        "classification": "straight",
+        "joke_index": 100
       },
       {
         "pair_id": 32,
         "context": "funny",
-        "word": "conclusions",
-        "classification": "funny",
-        "joke_index": 137
+        "word": "something",
+        "classification": "other",
+        "joke_index": 100
       },
       {
         "pair_id": 33,
         "context": "straight",
-        "word": "seconds",
-        "classification": "funny",
-        "joke_index": 107
+        "word": "dollhouse",
+        "classification": "other",
+        "joke_index": 184
       },
       {
         "pair_id": 33,
         "context": "funny",
-        "word": "seconds",
+        "word": "ruler",
         "classification": "funny",
-        "joke_index": 107
+        "joke_index": 184
       },
       {
         "pair_id": 34,
         "context": "straight",
-        "word": "class",
-        "classification": "funny",
-        "joke_index": 64
+        "word": "wallet",
+        "classification": "straight",
+        "joke_index": 28
       },
       {
         "pair_id": 34,
         "context": "funny",
-        "word": "class",
-        "classification": "funny",
-        "joke_index": 64
+        "word": "wallet",
+        "classification": "straight",
+        "joke_index": 28
       },
       {
         "pair_id": 35,
         "context": "straight",
-        "word": "high",
-        "classification": "straight",
-        "joke_index": 15
+        "word": "looking",
+        "classification": "other",
+        "joke_index": 54
       },
       {
         "pair_id": 35,
         "context": "funny",
-        "word": "steep",
+        "word": "pressed",
         "classification": "funny",
-        "joke_index": 15
+        "joke_index": 54
       },
       {
         "pair_id": 36,
         "context": "straight",
-        "word": "open",
+        "word": "game",
         "classification": "other",
-        "joke_index": 185
+        "joke_index": 40
       },
       {
         "pair_id": 36,
         "context": "funny",
-        "word": "open",
+        "word": "jump",
         "classification": "other",
-        "joke_index": 185
+        "joke_index": 40
       },
       {
         "pair_id": 37,
         "context": "straight",
-        "word": "hand",
+        "word": "land",
         "classification": "funny",
-        "joke_index": 25
+        "joke_index": 171
       },
       {
         "pair_id": 37,
         "context": "funny",
-        "word": "hand",
-        "classification": "funny",
-        "joke_index": 25
-      },
-      {
-        "pair_id": 38,
-        "context": "straight",
-        "word": "match",
-        "classification": "straight",
-        "joke_index": 116
-      },
-      {
-        "pair_id": 38,
-        "context": "funny",
-        "word": "compound",
+        "word": "fly",
         "classification": "other",
-        "joke_index": 116
+        "joke_index": 171
+      },
+      {
+        "pair_id": 38,
+        "context": "straight",
+        "word": "sense",
+        "classification": "other",
+        "joke_index": 113
+      },
+      {
+        "pair_id": 38,
+        "context": "funny",
+        "word": "sense",
+        "classification": "other",
+        "joke_index": 113
       },
       {
         "pair_id": 39,
         "context": "straight",
-        "word": "published",
+        "word": "records",
         "classification": "straight",
-        "joke_index": 186
+        "joke_index": 111
       },
       {
         "pair_id": 39,
         "context": "funny",
-        "word": "out",
+        "word": "records",
         "classification": "straight",
-        "joke_index": 186
+        "joke_index": 111
       },
       {
         "pair_id": 40,
         "context": "straight",
-        "word": "greedy",
+        "word": "drumming",
         "classification": "straight",
-        "joke_index": 33
+        "joke_index": 16
       },
       {
         "pair_id": 40,
         "context": "funny",
-        "word": "shellfish",
-        "classification": "funny",
-        "joke_index": 33
+        "word": "drumming",
+        "classification": "straight",
+        "joke_index": 16
       },
       {
         "pair_id": 41,
         "context": "straight",
-        "word": "orders",
-        "classification": "funny",
-        "joke_index": 146
+        "word": "mess",
+        "classification": "straight",
+        "joke_index": 78
       },
       {
         "pair_id": 41,
         "context": "funny",
-        "word": "orders",
+        "word": "scramble",
         "classification": "funny",
-        "joke_index": 146
+        "joke_index": 78
       },
       {
         "pair_id": 42,
         "context": "straight",
-        "word": "fired",
-        "classification": "funny",
-        "joke_index": 38
+        "word": "success",
+        "classification": "straight",
+        "joke_index": 172
       },
       {
         "pair_id": 42,
         "context": "funny",
-        "word": "fired",
-        "classification": "funny",
-        "joke_index": 38
+        "word": "success",
+        "classification": "straight",
+        "joke_index": 172
       },
       {
         "pair_id": 43,
         "context": "straight",
-        "word": "job",
-        "classification": "funny",
-        "joke_index": 46
+        "word": "arrested",
+        "classification": "other",
+        "joke_index": 3
       },
       {
         "pair_id": 43,
         "context": "funny",
-        "word": "job",
-        "classification": "funny",
-        "joke_index": 46
+        "word": "back",
+        "classification": "other",
+        "joke_index": 3
       },
       {
         "pair_id": 44,
         "context": "straight",
-        "word": "hole",
-        "classification": "funny",
-        "joke_index": 66
+        "word": "man",
+        "classification": "other",
+        "joke_index": 36
       },
       {
         "pair_id": 44,
         "context": "funny",
-        "word": "hole",
-        "classification": "funny",
-        "joke_index": 66
+        "word": "fugitive",
+        "classification": "straight",
+        "joke_index": 36
       },
       {
         "pair_id": 45,
         "context": "straight",
-        "word": "fired",
+        "word": "pucks",
         "classification": "straight",
-        "joke_index": 68
+        "joke_index": 90
       },
       {
         "pair_id": 45,
         "context": "funny",
-        "word": "fired",
+        "word": "puck",
+        "classification": "other",
+        "joke_index": 90
+      },
+      {
+        "pair_id": 46,
+        "context": "straight",
+        "word": "time",
+        "classification": "other",
+        "joke_index": 106
+      },
+      {
+        "pair_id": 46,
+        "context": "funny",
+        "word": "archaeology",
         "classification": "straight",
-        "joke_index": 68
-      },
-      {
-        "pair_id": 46,
-        "context": "straight",
-        "word": "braaaaad",
-        "classification": "funny",
-        "joke_index": 79
-      },
-      {
-        "pair_id": 46,
-        "context": "funny",
-        "word": "braaaaad",
-        "classification": "funny",
-        "joke_index": 79
+        "joke_index": 106
       },
       {
         "pair_id": 47,
         "context": "straight",
-        "word": "sweep",
-        "classification": "funny",
-        "joke_index": 8
+        "word": "alligators",
+        "classification": "other",
+        "joke_index": 53
       },
       {
         "pair_id": 47,
         "context": "funny",
-        "word": "sweep",
-        "classification": "funny",
-        "joke_index": 8
+        "word": "all-nighters",
+        "classification": "straight",
+        "joke_index": 53
       },
       {
         "pair_id": 48,
         "context": "straight",
-        "word": "see",
-        "classification": "funny",
-        "joke_index": 45
+        "word": "booming",
+        "classification": "straight",
+        "joke_index": 151
       },
       {
         "pair_id": 48,
         "context": "funny",
-        "word": "see",
-        "classification": "funny",
-        "joke_index": 45
+        "word": "sewing",
+        "classification": "other",
+        "joke_index": 151
       },
       {
         "pair_id": 49,
         "context": "straight",
-        "word": "roots",
-        "classification": "funny",
-        "joke_index": 201
+        "word": "litigious",
+        "classification": "other",
+        "joke_index": 56
       },
       {
         "pair_id": 49,
         "context": "funny",
-        "word": "roots",
-        "classification": "funny",
-        "joke_index": 201
+        "word": "litigious",
+        "classification": "other",
+        "joke_index": 56
       }
     ],
     "405b": [
       {
         "pair_id": 0,
         "context": "straight",
-        "word": "hoarse",
-        "classification": "funny",
-        "joke_index": 104
+        "word": "assault",
+        "classification": "straight",
+        "joke_index": 138
       },
       {
         "pair_id": 0,
         "context": "funny",
-        "word": "hoarse",
+        "word": "battery",
         "classification": "funny",
-        "joke_index": 104
+        "joke_index": 138
       },
       {
         "pair_id": 1,
         "context": "straight",
-        "word": "past",
-        "classification": "funny",
-        "joke_index": 97
+        "word": "speech",
+        "classification": "straight",
+        "joke_index": 156
       },
       {
         "pair_id": 1,
         "context": "funny",
-        "word": "past",
+        "word": "toast",
         "classification": "funny",
-        "joke_index": 97
+        "joke_index": 156
       },
       {
         "pair_id": 2,
         "context": "straight",
-        "word": "companionship",
+        "word": "ear",
         "classification": "straight",
-        "joke_index": 88
+        "joke_index": 76
       },
       {
         "pair_id": 2,
         "context": "funny",
-        "word": "companionship",
-        "classification": "straight",
-        "joke_index": 88
+        "word": "spell",
+        "classification": "funny",
+        "joke_index": 76
       },
       {
         "pair_id": 3,
         "context": "straight",
-        "word": "spectacle",
+        "word": "fun-gi",
         "classification": "funny",
-        "joke_index": 61
+        "joke_index": 71
       },
       {
         "pair_id": 3,
         "context": "funny",
-        "word": "spectacle",
+        "word": "fun-gi",
         "classification": "funny",
-        "joke_index": 61
+        "joke_index": 71
       },
       {
         "pair_id": 4,
         "context": "straight",
-        "word": "dismissed",
+        "word": "carryon",
         "classification": "straight",
-        "joke_index": 27
+        "joke_index": 42
       },
       {
         "pair_id": 4,
         "context": "funny",
-        "word": "percolating",
-        "classification": "other",
-        "joke_index": 27
+        "word": "carry-on",
+        "classification": "straight",
+        "joke_index": 42
       },
       {
         "pair_id": 5,
         "context": "straight",
-        "word": "dive",
+        "word": "school",
         "classification": "funny",
-        "joke_index": 150
+        "joke_index": 58
       },
       {
         "pair_id": 5,
         "context": "funny",
-        "word": "dive",
+        "word": "school",
         "classification": "funny",
-        "joke_index": 150
+        "joke_index": 58
       },
       {
         "pair_id": 6,
         "context": "straight",
-        "word": "mugged",
-        "classification": "funny",
-        "joke_index": 112
+        "word": "analytical",
+        "classification": "straight",
+        "joke_index": 105
       },
       {
         "pair_id": 6,
         "context": "funny",
-        "word": "mugged",
-        "classification": "funny",
-        "joke_index": 112
+        "word": "variable",
+        "classification": "other",
+        "joke_index": 105
       },
       {
         "pair_id": 7,
         "context": "straight",
-        "word": "margins",
-        "classification": "funny",
-        "joke_index": 48
+        "word": "jackpot",
+        "classification": "straight",
+        "joke_index": 164
       },
       {
         "pair_id": 7,
         "context": "funny",
-        "word": "margins",
+        "word": "flush",
         "classification": "funny",
-        "joke_index": 48
+        "joke_index": 164
       },
       {
         "pair_id": 8,
         "context": "straight",
-        "word": "voltage",
+        "word": "crumbling",
         "classification": "funny",
-        "joke_index": 126
+        "joke_index": 35
       },
       {
         "pair_id": 8,
         "context": "funny",
-        "word": "resistance",
+        "word": "crumbling",
         "classification": "funny",
-        "joke_index": 126
+        "joke_index": 35
       },
       {
         "pair_id": 9,
         "context": "straight",
-        "word": "fans",
-        "classification": "funny",
-        "joke_index": 74
+        "word": "nervous",
+        "classification": "straight",
+        "joke_index": 162
       },
       {
         "pair_id": 9,
         "context": "funny",
-        "word": "fans",
-        "classification": "funny",
-        "joke_index": 74
+        "word": "nervous",
+        "classification": "straight",
+        "joke_index": 162
       },
       {
         "pair_id": 10,
         "context": "straight",
-        "word": "spotted",
-        "classification": "funny",
-        "joke_index": 131
+        "word": "computers",
+        "classification": "straight",
+        "joke_index": 98
       },
       {
         "pair_id": 10,
         "context": "funny",
-        "word": "spotted",
-        "classification": "funny",
-        "joke_index": 131
+        "word": "reptilian",
+        "classification": "straight",
+        "joke_index": 98
       },
       {
         "pair_id": 11,
         "context": "straight",
-        "word": "pitcher",
-        "classification": "funny",
-        "joke_index": 94
+        "word": "pressures",
+        "classification": "other",
+        "joke_index": 1
       },
       {
         "pair_id": 11,
         "context": "funny",
-        "word": "pitcher",
-        "classification": "funny",
-        "joke_index": 94
+        "word": "pressures",
+        "classification": "other",
+        "joke_index": 1
       },
       {
         "pair_id": 12,
         "context": "straight",
-        "word": "spreadsheet",
-        "classification": "funny",
-        "joke_index": 62
+        "word": "thriving",
+        "classification": "straight",
+        "joke_index": 183
       },
       {
         "pair_id": 12,
         "context": "funny",
-        "word": "calculation",
+        "word": "stable",
         "classification": "funny",
-        "joke_index": 62
+        "joke_index": 183
       },
       {
         "pair_id": 13,
         "context": "straight",
-        "word": "roots",
-        "classification": "straight",
-        "joke_index": 26
+        "word": "hot",
+        "classification": "funny",
+        "joke_index": 149
       },
       {
         "pair_id": 13,
         "context": "funny",
-        "word": "roots",
-        "classification": "straight",
-        "joke_index": 26
+        "word": "hot",
+        "classification": "funny",
+        "joke_index": 149
       },
       {
         "pair_id": 14,
         "context": "straight",
-        "word": "transparent",
-        "classification": "funny",
-        "joke_index": 197
+        "word": "stubborn",
+        "classification": "straight",
+        "joke_index": 125
       },
       {
         "pair_id": 14,
         "context": "funny",
-        "word": "transparent",
-        "classification": "funny",
-        "joke_index": 197
+        "word": "anchored",
+        "classification": "other",
+        "joke_index": 125
       },
       {
         "pair_id": 15,
         "context": "straight",
-        "word": "catch",
-        "classification": "funny",
-        "joke_index": 194
+        "word": "nonsense",
+        "classification": "straight",
+        "joke_index": 87
       },
       {
         "pair_id": 15,
         "context": "funny",
-        "word": "catch",
-        "classification": "funny",
-        "joke_index": 194
+        "word": "meat",
+        "classification": "other",
+        "joke_index": 87
       },
       {
         "pair_id": 16,
         "context": "straight",
-        "word": "picked",
-        "classification": "funny",
-        "joke_index": 55
+        "word": "stop",
+        "classification": "straight",
+        "joke_index": 163
       },
       {
         "pair_id": 16,
         "context": "funny",
-        "word": "picked",
-        "classification": "funny",
-        "joke_index": 55
+        "word": "stop",
+        "classification": "straight",
+        "joke_index": 163
       },
       {
         "pair_id": 17,
         "context": "straight",
-        "word": "anchor",
+        "word": "scales",
         "classification": "funny",
-        "joke_index": 99
+        "joke_index": 84
       },
       {
         "pair_id": 17,
         "context": "funny",
-        "word": "anchor",
+        "word": "scales",
         "classification": "funny",
-        "joke_index": 99
+        "joke_index": 84
       },
       {
         "pair_id": 18,
         "context": "straight",
-        "word": "rise",
-        "classification": "funny",
-        "joke_index": 148
+        "word": "separation",
+        "classification": "other",
+        "joke_index": 119
       },
       {
         "pair_id": 18,
         "context": "funny",
-        "word": "rise",
+        "word": "exposure",
         "classification": "funny",
-        "joke_index": 148
+        "joke_index": 119
       },
       {
         "pair_id": 19,
         "context": "straight",
-        "word": "buzz",
-        "classification": "funny",
-        "joke_index": 7
+        "word": "handle",
+        "classification": "straight",
+        "joke_index": 103
       },
       {
         "pair_id": 19,
         "context": "funny",
-        "word": "buzz",
-        "classification": "funny",
-        "joke_index": 7
+        "word": "frame",
+        "classification": "other",
+        "joke_index": 103
       },
       {
         "pair_id": 20,
         "context": "straight",
-        "word": "numbered",
-        "classification": "funny",
-        "joke_index": 121
+        "word": "peak",
+        "classification": "other",
+        "joke_index": 176
       },
       {
         "pair_id": 20,
         "context": "funny",
-        "word": "numbered",
-        "classification": "funny",
-        "joke_index": 121
+        "word": "peak",
+        "classification": "other",
+        "joke_index": 176
       },
       {
         "pair_id": 21,
         "context": "straight",
-        "word": "vision",
-        "classification": "funny",
-        "joke_index": 80
+        "word": "food",
+        "classification": "straight",
+        "joke_index": 43
       },
       {
         "pair_id": 21,
         "context": "funny",
-        "word": "vision",
+        "word": "atmosphere",
         "classification": "funny",
-        "joke_index": 80
+        "joke_index": 43
       },
       {
         "pair_id": 22,
         "context": "straight",
-        "word": "multiply",
+        "word": "cut",
         "classification": "funny",
-        "joke_index": 144
+        "joke_index": 195
       },
       {
         "pair_id": 22,
         "context": "funny",
-        "word": "multiply",
-        "classification": "funny",
-        "joke_index": 144
+        "word": "point",
+        "classification": "straight",
+        "joke_index": 195
       },
       {
         "pair_id": 23,
         "context": "straight",
-        "word": "loafing",
-        "classification": "funny",
-        "joke_index": 147
+        "word": "experiences",
+        "classification": "straight",
+        "joke_index": 17
       },
       {
         "pair_id": 23,
         "context": "funny",
-        "word": "loafing",
+        "word": "ups",
         "classification": "funny",
-        "joke_index": 147
+        "joke_index": 17
       },
       {
         "pair_id": 24,
         "context": "straight",
-        "word": "jam",
-        "classification": "funny",
-        "joke_index": 203
+        "word": "trouble",
+        "classification": "straight",
+        "joke_index": 95
       },
       {
         "pair_id": 24,
         "context": "funny",
-        "word": "jam",
-        "classification": "funny",
-        "joke_index": 203
+        "word": "trouble",
+        "classification": "straight",
+        "joke_index": 95
       },
       {
         "pair_id": 25,
         "context": "straight",
-        "word": "chemistry",
-        "classification": "funny",
-        "joke_index": 129
+        "word": "response",
+        "classification": "straight",
+        "joke_index": 188
       },
       {
         "pair_id": 25,
         "context": "funny",
-        "word": "bond",
-        "classification": "funny",
-        "joke_index": 129
+        "word": "prescription",
+        "classification": "straight",
+        "joke_index": 188
       },
       {
         "pair_id": 26,
         "context": "straight",
-        "word": "music",
+        "word": "growth",
         "classification": "straight",
-        "joke_index": 117
+        "joke_index": 93
       },
       {
         "pair_id": 26,
         "context": "funny",
-        "word": "punch",
-        "classification": "funny",
-        "joke_index": 117
+        "word": "growth",
+        "classification": "straight",
+        "joke_index": 93
       },
       {
         "pair_id": 27,
         "context": "straight",
-        "word": "power",
+        "word": "put",
         "classification": "funny",
-        "joke_index": 89
+        "joke_index": 134
       },
       {
         "pair_id": 27,
         "context": "funny",
-        "word": "power",
+        "word": "put",
         "classification": "funny",
-        "joke_index": 89
+        "joke_index": 134
       },
       {
         "pair_id": 28,
         "context": "straight",
-        "word": "sign",
-        "classification": "funny",
-        "joke_index": 96
+        "word": "abandoned",
+        "classification": "straight",
+        "joke_index": 73
       },
       {
         "pair_id": 28,
         "context": "funny",
-        "word": "sign",
-        "classification": "funny",
-        "joke_index": 96
+        "word": "folded",
+        "classification": "other",
+        "joke_index": 73
       },
       {
         "pair_id": 29,
         "context": "straight",
-        "word": "balance",
-        "classification": "funny",
-        "joke_index": 92
+        "word": "stains",
+        "classification": "straight",
+        "joke_index": 124
       },
       {
         "pair_id": 29,
         "context": "funny",
-        "word": "balance",
+        "word": "pressing",
         "classification": "funny",
-        "joke_index": 92
+        "joke_index": 124
       },
       {
         "pair_id": 30,
         "context": "straight",
-        "word": "case",
-        "classification": "funny",
-        "joke_index": 159
+        "word": "organized",
+        "classification": "straight",
+        "joke_index": 91
       },
       {
         "pair_id": 30,
         "context": "funny",
-        "word": "case",
+        "word": "afloat",
         "classification": "funny",
-        "joke_index": 159
+        "joke_index": 91
       },
       {
         "pair_id": 31,
         "context": "straight",
-        "word": "reception",
-        "classification": "funny",
-        "joke_index": 160
+        "word": "writing",
+        "classification": "straight",
+        "joke_index": 202
       },
       {
         "pair_id": 31,
         "context": "funny",
-        "word": "reception",
+        "word": "columns",
         "classification": "funny",
-        "joke_index": 160
+        "joke_index": 202
       },
       {
         "pair_id": 32,
         "context": "straight",
-        "word": "conclusions",
-        "classification": "funny",
-        "joke_index": 137
+        "word": "something",
+        "classification": "other",
+        "joke_index": 100
       },
       {
         "pair_id": 32,
         "context": "funny",
-        "word": "conclusions",
-        "classification": "funny",
-        "joke_index": 137
+        "word": "something",
+        "classification": "other",
+        "joke_index": 100
       },
       {
         "pair_id": 33,
         "context": "straight",
-        "word": "seconds",
+        "word": "ruler",
         "classification": "funny",
-        "joke_index": 107
+        "joke_index": 184
       },
       {
         "pair_id": 33,
         "context": "funny",
-        "word": "seconds",
+        "word": "ruler",
         "classification": "funny",
-        "joke_index": 107
+        "joke_index": 184
       },
       {
         "pair_id": 34,
         "context": "straight",
-        "word": "pupils",
-        "classification": "funny",
-        "joke_index": 64
+        "word": "portfolio",
+        "classification": "straight",
+        "joke_index": 28
       },
       {
         "pair_id": 34,
         "context": "funny",
-        "word": "pupils",
-        "classification": "funny",
-        "joke_index": 64
+        "word": "valuables",
+        "classification": "straight",
+        "joke_index": 28
       },
       {
         "pair_id": 35,
         "context": "straight",
-        "word": "steep",
-        "classification": "funny",
-        "joke_index": 15
+        "word": "under",
+        "classification": "other",
+        "joke_index": 54
       },
       {
         "pair_id": 35,
         "context": "funny",
-        "word": "steep",
-        "classification": "funny",
-        "joke_index": 15
+        "word": "under",
+        "classification": "other",
+        "joke_index": 54
       },
       {
         "pair_id": 36,
         "context": "straight",
-        "word": "open",
-        "classification": "other",
-        "joke_index": 185
+        "word": "storytelling",
+        "classification": "straight",
+        "joke_index": 40
       },
       {
         "pair_id": 36,
         "context": "funny",
-        "word": "open",
+        "word": "rebound",
         "classification": "other",
-        "joke_index": 185
+        "joke_index": 40
       },
       {
         "pair_id": 37,
         "context": "straight",
-        "word": "hand",
-        "classification": "funny",
-        "joke_index": 25
+        "word": "fly",
+        "classification": "other",
+        "joke_index": 171
       },
       {
         "pair_id": 37,
         "context": "funny",
-        "word": "hand",
-        "classification": "funny",
-        "joke_index": 25
+        "word": "fly",
+        "classification": "other",
+        "joke_index": 171
       },
       {
         "pair_id": 38,
         "context": "straight",
-        "word": "match",
-        "classification": "straight",
-        "joke_index": 116
+        "word": "change",
+        "classification": "funny",
+        "joke_index": 113
       },
       {
         "pair_id": 38,
         "context": "funny",
-        "word": "solution",
+        "word": "change",
         "classification": "funny",
-        "joke_index": 116
+        "joke_index": 113
       },
       {
         "pair_id": 39,
         "context": "straight",
-        "word": "overdue",
-        "classification": "funny",
-        "joke_index": 186
+        "word": "records",
+        "classification": "straight",
+        "joke_index": 111
       },
       {
         "pair_id": 39,
         "context": "funny",
-        "word": "dated",
+        "word": "logs",
         "classification": "funny",
-        "joke_index": 186
+        "joke_index": 111
       },
       {
         "pair_id": 40,
         "context": "straight",
-        "word": "selfish",
-        "classification": "funny",
-        "joke_index": 33
+        "word": "drumming",
+        "classification": "straight",
+        "joke_index": 16
       },
       {
         "pair_id": 40,
         "context": "funny",
-        "word": "shellfish",
+        "word": "drumsticks",
         "classification": "funny",
-        "joke_index": 33
+        "joke_index": 16
       },
       {
         "pair_id": 41,
         "context": "straight",
-        "word": "orders",
-        "classification": "funny",
-        "joke_index": 146
+        "word": "mess",
+        "classification": "straight",
+        "joke_index": 78
       },
       {
         "pair_id": 41,
         "context": "funny",
-        "word": "orders",
+        "word": "scramble",
         "classification": "funny",
-        "joke_index": 146
+        "joke_index": 78
       },
       {
         "pair_id": 42,
         "context": "straight",
-        "word": "fired",
-        "classification": "funny",
-        "joke_index": 38
+        "word": "success",
+        "classification": "straight",
+        "joke_index": 172
       },
       {
         "pair_id": 42,
         "context": "funny",
-        "word": "fired",
-        "classification": "funny",
-        "joke_index": 38
+        "word": "success",
+        "classification": "straight",
+        "joke_index": 172
       },
       {
         "pair_id": 43,
         "context": "straight",
-        "word": "job",
-        "classification": "funny",
-        "joke_index": 46
+        "word": "exhausted",
+        "classification": "straight",
+        "joke_index": 3
       },
       {
         "pair_id": 43,
         "context": "funny",
-        "word": "job",
-        "classification": "funny",
-        "joke_index": 46
+        "word": "grounded",
+        "classification": "other",
+        "joke_index": 3
       },
       {
         "pair_id": 44,
         "context": "straight",
-        "word": "hole",
-        "classification": "funny",
-        "joke_index": 66
+        "word": "problem",
+        "classification": "straight",
+        "joke_index": 36
       },
       {
         "pair_id": 44,
         "context": "funny",
-        "word": "hole",
-        "classification": "funny",
-        "joke_index": 66
+        "word": "problem",
+        "classification": "straight",
+        "joke_index": 36
       },
       {
         "pair_id": 45,
         "context": "straight",
-        "word": "toasted",
-        "classification": "funny",
-        "joke_index": 68
+        "word": "large",
+        "classification": "other",
+        "joke_index": 90
       },
       {
         "pair_id": 45,
         "context": "funny",
-        "word": "toasted",
-        "classification": "funny",
-        "joke_index": 68
+        "word": "large",
+        "classification": "other",
+        "joke_index": 90
       },
       {
         "pair_id": 46,
         "context": "straight",
-        "word": "brian",
-        "classification": "funny",
-        "joke_index": 79
+        "word": "math",
+        "classification": "other",
+        "joke_index": 106
       },
       {
         "pair_id": 46,
         "context": "funny",
-        "word": "brian",
-        "classification": "funny",
-        "joke_index": 79
+        "word": "his",
+        "classification": "other",
+        "joke_index": 106
       },
       {
         "pair_id": 47,
         "context": "straight",
-        "word": "sweep",
-        "classification": "funny",
-        "joke_index": 8
+        "word": "all-nighters",
+        "classification": "straight",
+        "joke_index": 53
       },
       {
         "pair_id": 47,
         "context": "funny",
-        "word": "sweep",
+        "word": "knights",
         "classification": "funny",
-        "joke_index": 8
+        "joke_index": 53
       },
       {
         "pair_id": 48,
         "context": "straight",
-        "word": "see",
-        "classification": "funny",
-        "joke_index": 45
+        "word": "struggling",
+        "classification": "straight",
+        "joke_index": 151
       },
       {
         "pair_id": 48,
         "context": "funny",
-        "word": "see",
-        "classification": "funny",
-        "joke_index": 45
+        "word": "sewing",
+        "classification": "other",
+        "joke_index": 151
       },
       {
         "pair_id": 49,
         "context": "straight",
-        "word": "connections",
+        "word": "convoluted",
         "classification": "straight",
-        "joke_index": 201
+        "joke_index": 56
       },
       {
         "pair_id": 49,
         "context": "funny",
-        "word": "connections",
-        "classification": "straight",
-        "joke_index": 201
+        "word": "argumentative",
+        "classification": "other",
+        "joke_index": 56
       }
     ]
   }
