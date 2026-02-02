@@ -436,3 +436,197 @@ def pun_boost_per_pair(detailed_preds):
         else:
             ratios[pid] = 1.0
     return ratios
+
+
+# ── Multi-layer projections ──────────────────────────────────────────────────
+
+def stable_contrastive_projections(layer_data, meta, n_components=3):
+    """
+    Compute 3-component contrastive projections at every layer with
+    Procrustes-aligned residual axes for smooth cross-layer visualization.
+
+    Axis 0 is the contrastive direction (sign-consistent across layers).
+    Axes 1-2 are residual PCA directions, 2x2-Procrustes-aligned to the
+    previous layer so that rotating between layers is visually smooth.
+
+    Parameters:
+        layer_data: dict {layer_idx: np.array (n_prompts, hidden_dim)}
+        meta: metadata dict
+        n_components: number of projection dimensions (default 3)
+
+    Returns:
+        dict with keys:
+            projections: {layer_idx: (n_prompts, n_components) array}
+            components: {layer_idx: (n_components, hidden_dim) array}
+            var_ratios: {layer_idx: (n_components,) array}
+            axis_ranges: [(min0, max0), (min1, max1), (min2, max2)]
+    """
+    indices = sorted(layer_data.keys())
+    projections = {}
+    components = {}
+    var_ratios = {}
+
+    prev_d = None
+    prev_resid_components = None
+
+    for layer_idx in indices:
+        X = layer_data[layer_idx]
+        X_proj, comps, vr = contrastive_projection(X, meta, n_components)
+
+        # Sign consistency for contrastive direction (axis 0)
+        d = comps[0]
+        if prev_d is not None and np.dot(d, prev_d) < 0:
+            d = -d
+            comps[0] = d
+            X_proj[:, 0] = -X_proj[:, 0]
+
+        # Procrustes alignment for residual axes (1+)
+        if n_components > 1 and prev_resid_components is not None:
+            curr_resid = comps[1:]  # (n_resid, hidden_dim)
+            prev_resid = prev_resid_components  # (n_resid, hidden_dim)
+
+            # Optimal 2D rotation: M = prev @ curr.T, then SVD
+            M = prev_resid @ curr_resid.T  # (n_resid, n_resid)
+            U, _, Vt = np.linalg.svd(M)
+            R = U @ Vt  # optimal rotation matrix
+
+            # Apply rotation to residual components and projections
+            aligned_resid = R @ curr_resid
+            comps = np.vstack([comps[0:1], aligned_resid])
+            X_proj[:, 1:] = X_proj[:, 1:] @ R.T
+
+        prev_d = d
+        if n_components > 1:
+            prev_resid_components = comps[1:]
+
+        projections[layer_idx] = X_proj
+        components[layer_idx] = comps
+        var_ratios[layer_idx] = vr
+
+    # Compute global axis ranges for stable camera
+    all_projs = np.concatenate(list(projections.values()), axis=0)
+    axis_ranges = []
+    for c in range(n_components):
+        axis_ranges.append((float(all_projs[:, c].min()),
+                            float(all_projs[:, c].max())))
+
+    return {
+        "projections": projections,
+        "components": components,
+        "var_ratios": var_ratios,
+        "axis_ranges": axis_ranges,
+    }
+
+
+# ── Holdout analysis ─────────────────────────────────────────────────────────
+
+def holdout_analysis(layer_data, meta, n_splits=2, seed=42):
+    """
+    Split-half cross-validation of contrastive direction.
+
+    Splits pairs into folds, computes contrastive direction from training
+    pairs, evaluates Cohen's d on held-out pairs, and measures angle
+    between fold directions and full-data direction.
+
+    Parameters:
+        layer_data: dict {layer_idx: np.array (n_prompts, hidden_dim)}
+        meta: metadata dict
+        n_splits: number of folds (default 2 for split-half)
+        seed: random seed for reproducible splits
+
+    Returns:
+        dict with keys:
+            layer_indices: sorted list of layer indices
+            cohens_d_cv: (n_layers,) mean cross-validated Cohen's d
+            cohens_d_full: (n_layers,) full-data Cohen's d for comparison
+            direction_angle: (n_layers,) mean angle (degrees) between
+                fold direction and full-data direction
+    """
+    indices = sorted(layer_data.keys())
+    n_layers = len(indices)
+
+    samples = meta["samples"]
+    pair_ids_unique = sorted(set(s["pair_id"] for s in samples))
+    n_pairs = len(pair_ids_unique)
+
+    # Build sample index lookup: {pair_id: {"funny": idx, "straight": idx}}
+    pair_sample_idx = {}
+    for i, s in enumerate(samples):
+        pair_sample_idx.setdefault(s["pair_id"], {})[s["type"]] = i
+
+    # Random fold assignment
+    rng = np.random.RandomState(seed)
+    fold_ids = rng.permutation(n_pairs) % n_splits
+
+    cohens_d_cv = np.zeros(n_layers)
+    cohens_d_full = np.zeros(n_layers)
+    direction_angle = np.zeros(n_layers)
+
+    for li, layer_idx in enumerate(indices):
+        X = layer_data[layer_idx]
+
+        # Full-data direction and Cohen's d
+        d_full = contrastive_direction(X, meta)
+        cd_full = cohens_d(X, meta, direction=d_full)
+        cohens_d_full[li] = cd_full
+
+        fold_cd = []
+        fold_angles = []
+
+        for fold in range(n_splits):
+            # Split pairs into train and test
+            train_pids = set(
+                pair_ids_unique[j] for j in range(n_pairs)
+                if fold_ids[j] != fold
+            )
+            test_pids = set(
+                pair_ids_unique[j] for j in range(n_pairs)
+                if fold_ids[j] == fold
+            )
+
+            # Build train meta (subset of samples)
+            train_indices = []
+            for pid in sorted(train_pids):
+                p = pair_sample_idx[pid]
+                if "straight" in p:
+                    train_indices.append(p["straight"])
+                if "funny" in p:
+                    train_indices.append(p["funny"])
+            train_samples = [samples[i] for i in train_indices]
+            meta_train = dict(meta, samples=train_samples,
+                              n_prompts=len(train_samples))
+            X_train = X[train_indices]
+
+            # Compute contrastive direction from training set
+            d_train = contrastive_direction(X_train, meta_train)
+
+            # Evaluate on held-out pairs
+            test_indices = []
+            for pid in sorted(test_pids):
+                p = pair_sample_idx[pid]
+                if "straight" in p:
+                    test_indices.append(p["straight"])
+                if "funny" in p:
+                    test_indices.append(p["funny"])
+            test_samples = [samples[i] for i in test_indices]
+            meta_test = dict(meta, samples=test_samples,
+                             n_prompts=len(test_samples))
+            X_test = X[test_indices]
+
+            cd_test = cohens_d(X_test, meta_test, direction=d_train)
+            fold_cd.append(cd_test)
+
+            # Angle between train direction and full-data direction
+            cos_sim = np.clip(np.dot(d_train, d_full), -1.0, 1.0)
+            angle_deg = np.degrees(np.arccos(np.abs(cos_sim)))
+            fold_angles.append(angle_deg)
+
+        cohens_d_cv[li] = np.mean(fold_cd)
+        direction_angle[li] = np.mean(fold_angles)
+
+    return {
+        "layer_indices": indices,
+        "cohens_d_cv": cohens_d_cv,
+        "cohens_d_full": cohens_d_full,
+        "direction_angle": direction_angle,
+    }
