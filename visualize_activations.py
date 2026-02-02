@@ -1,19 +1,17 @@
 #!/usr/bin/env python3
 """
-Visualize contrastive activations using PCA and mean-difference analysis.
+Visualize contrastive activations using the analyze_activations API.
 
-Reads per-layer activation files and metadata, applies PCA at each layer,
-and produces plots showing how well straight-primed and funny-primed
-prompts separate in activation space.
+Reads per-layer activation files and metadata, computes separation metrics
+and projections, and produces a suite of diagnostic plots.
 
-Also computes the mean-difference direction (funny - straight) and
-projects activations onto it for a 1D separation view.
-
-Output:
-    results/figures/{position}_separation_curve.png
-    results/figures/{position}_pca_by_layer.png
-    results/figures/{position}_pca_peak_layer.png
-    results/figures/{position}_mean_diff_projection.png
+Output figures (in results/figures/):
+    {pos}_separation_curves.png     — Fisher + Cohen's d across layers
+    {pos}_pca_by_layer.png          — PCA scatter at quartile + peak layers
+    {pos}_pca_peak_layer.png        — PCA scatter at peak layer with pair lines
+    {pos}_contrastive_scatter.png   — Contrastive projection at peak layer
+    {pos}_pair_diff_histogram.png   — Per-pair distance histogram at peak layer
+    {pos}_mean_diff_projection.png  — 1D projection histogram at peak Cohen's d layer
 
 Usage:
     python3 visualize_activations.py --position pred_c
@@ -22,79 +20,394 @@ Usage:
 """
 
 import argparse
-import json
 import sys
 from pathlib import Path
 
 import numpy as np
 
+from analyze_activations import (
+    load_activations,
+    get_pair_indices,
+    pair_differences,
+    contrastive_direction,
+    pca_projection,
+    contrastive_projection,
+    fisher_separation,
+    cohens_d,
+    pair_distances,
+    analyze_all_layers,
+    load_detailed_predictions,
+    pun_boost_per_pair,
+)
+
 BASE = Path(__file__).parent
 RAW_DIR = BASE / "results" / "raw_activations"
 FIGURES_DIR = BASE / "results" / "figures"
 
+# ── Plot styling ─────────────────────────────────────────────────────────────
 
-def load_activations(meta_file):
+COLOR_STRAIGHT = "#4A90D9"
+COLOR_FUNNY = "#E85D75"
+COLOR_FISHER = "#E85D75"
+COLOR_COHENS = "#2EAD6B"
+COLOR_PAIR_LINE = "#999"
+
+
+def _clean_axes(ax):
+    """Remove top and right spines."""
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
+
+
+def _pun_boost_markers(meta, pred_file, threshold=2.0):
     """
-    Load metadata and per-layer activation files.
+    Build a boolean array marking samples whose pair has a pun-word
+    probability boost >= threshold (funny context vs straight context).
+
+    Parameters:
+        meta: metadata dict with "samples" key
+        pred_file: path to *_detailed_preds.json
+        threshold: minimum P(pun|funny)/P(pun|straight) ratio for a star
 
     Returns:
-        meta: dict with metadata
-        layer_data: dict {layer_idx: np.array of shape (n_prompts, hidden_dim)}
-        layer_indices: sorted list of available layer indices
+        has_boost: bool array (n_prompts,) — True if pair has boost >= threshold,
+                   or None if pred_file doesn't exist
     """
-    with open(meta_file) as f:
-        meta = json.load(f)
+    if not Path(pred_file).exists():
+        return None
 
-    naming = meta["naming"]
-    raw_dir = meta_file.parent
+    detailed = load_detailed_predictions(pred_file)
+    ratios = pun_boost_per_pair(detailed)
 
-    # Discover which layer files exist
-    layer_data = {}
-    for layer_idx in range(meta["n_layers_total"]):
-        filename = naming.replace("{NN}", f"{layer_idx:02d}")
-        path = raw_dir / filename
-        if path.exists():
-            layer_data[layer_idx] = np.load(path)
-
-    layer_indices = sorted(layer_data.keys())
-    return meta, layer_data, layer_indices
+    samples = meta["samples"]
+    has_boost = np.array(
+        [ratios.get(s["pair_id"], 1.0) >= threshold for s in samples],
+        dtype=bool,
+    )
+    return has_boost
 
 
-def compute_separation(X_straight, X_funny):
+def _pair_labels(meta, tests_file=None):
     """
-    Compute a separation score between two groups of points.
+    Build short labels for each pair: "subject...punchline".
 
-    Uses the ratio of between-group distance to within-group spread
-    (a simplified Fisher discriminant criterion).
+    Uses joke_c_sentence for the subject noun and contrast_completion
+    from the tests file for the pun word.  Falls back to sentence-only
+    labels if the tests file isn't available.
+
+    Parameters:
+        meta: metadata dict
+        tests_file: path to contextual_cloze_tests_100.json (optional;
+                    defaults to datasets/contextual_cloze_tests_100.json)
+
+    Returns dict {pair_id: "subject...punchline"}
     """
-    mean_s = X_straight.mean(axis=0)
-    mean_f = X_funny.mean(axis=0)
+    import json
 
-    between = np.linalg.norm(mean_f - mean_s)
+    # Load pun words from tests file if available
+    pun_words = {}
+    if tests_file is None:
+        tests_file = BASE / "datasets" / "contextual_cloze_tests_100.json"
+    if Path(tests_file).exists():
+        with open(tests_file) as f:
+            tests = json.load(f)
+        for t in tests:
+            pid = t["pair_id"]
+            if pid not in pun_words and t.get("contrast_completion"):
+                pun_words[pid] = t["contrast_completion"][0]
 
-    within_s = np.mean(np.linalg.norm(X_straight - mean_s, axis=1))
-    within_f = np.mean(np.linalg.norm(X_funny - mean_f, axis=1))
-    within = (within_s + within_f) / 2
+    samples = meta["samples"]
+    labels = {}
+    for s in samples:
+        pid = s["pair_id"]
+        if pid in labels:
+            continue
+        sentence = s.get("joke_c_sentence", "")
+        # Extract subject: first noun phrase after "The"
+        words = sentence.replace("The ", "").replace("the ", "").split()
+        subject = words[0] if words else "?"
+        if subject.endswith("'s"):
+            subject = subject[:-2]
+        pun = pun_words.get(pid, "?")
+        labels[pid] = f"{subject}...{pun}"
+    return labels
 
-    return between / within if within > 0 else 0
+
+# ── Plot functions ───────────────────────────────────────────────────────────
+
+def plot_separation_curves(layer_results, pos, n_prompts, out_dir):
+    """Fisher separation and Cohen's d across layers (dual y-axis)."""
+    import matplotlib.pyplot as plt
+
+    indices = layer_results["layer_indices"]
+    fisher = layer_results["fisher"]
+    cd = layer_results["cohens_d"]
+
+    fig, ax1 = plt.subplots(figsize=(10, 4))
+
+    ax1.plot(indices, fisher, color=COLOR_FISHER, linewidth=2, label="Fisher separation")
+    ax1.set_xlabel("Layer", fontsize=11)
+    ax1.set_ylabel("Fisher separation\n(between / within)", fontsize=11, color=COLOR_FISHER)
+    ax1.tick_params(axis="y", labelcolor=COLOR_FISHER)
+    _clean_axes(ax1)
+
+    ax2 = ax1.twinx()
+    ax2.plot(indices, cd, color=COLOR_COHENS, linewidth=2, linestyle="--", label="Cohen's d")
+    ax2.set_ylabel("Cohen's d\n(contrastive direction)", fontsize=11, color=COLOR_COHENS)
+    ax2.tick_params(axis="y", labelcolor=COLOR_COHENS)
+    ax2.spines["top"].set_visible(False)
+
+    # Peak annotations
+    peak_f = layer_results["peak_fisher_layer"]
+    peak_f_idx = indices.index(peak_f)
+    ax1.annotate(f"Fisher peak: L{peak_f} ({fisher[peak_f_idx]:.2f})",
+                 xy=(peak_f, fisher[peak_f_idx]),
+                 xytext=(peak_f + 3, fisher[peak_f_idx]),
+                 fontsize=8, ha="left", color=COLOR_FISHER,
+                 arrowprops=dict(arrowstyle="->", color=COLOR_FISHER))
+
+    peak_d = layer_results["peak_cohens_d_layer"]
+    peak_d_idx = indices.index(peak_d)
+    ax2.annotate(f"Cohen's d peak: L{peak_d} ({cd[peak_d_idx]:.2f})",
+                 xy=(peak_d, cd[peak_d_idx]),
+                 xytext=(peak_d + 3, cd[peak_d_idx]),
+                 fontsize=8, ha="left", color=COLOR_COHENS,
+                 arrowprops=dict(arrowstyle="->", color=COLOR_COHENS))
+
+    # Combined legend
+    lines1, labels1 = ax1.get_legend_handles_labels()
+    lines2, labels2 = ax2.get_legend_handles_labels()
+    ax1.legend(lines1 + lines2, labels1 + labels2, fontsize=9, loc="upper left")
+
+    fig.suptitle(f"Straight vs. Funny Separation by Layer\n"
+                 f"(position={pos}, {n_prompts} contrastive prompts)",
+                 fontsize=13, fontweight="bold")
+    fig.tight_layout()
+    out_path = out_dir / f"{pos}_separation_curves.png"
+    fig.savefig(out_path, dpi=150, bbox_inches="tight")
+    plt.close(fig)
+    return out_path
 
 
-def compute_mean_diff_direction(X_straight, X_funny):
+def plot_pca_by_layer(layer_data, layer_list, meta, pos, out_dir):
+    """PCA scatter plots at selected layers."""
+    import matplotlib.pyplot as plt
+
+    _, is_funny, is_straight = get_pair_indices(meta)
+
+    n_plots = len(layer_list)
+    fig, axes = plt.subplots(1, n_plots, figsize=(5 * n_plots, 5))
+    if n_plots == 1:
+        axes = [axes]
+
+    for ax, layer in zip(axes, layer_list):
+        X = layer_data[layer]
+        X_pca, _, var_ratios = pca_projection(X, n_components=2)
+
+        ax.scatter(X_pca[is_straight, 0], X_pca[is_straight, 1],
+                   c=COLOR_STRAIGHT, alpha=0.7, s=40, label="Straight ctx",
+                   edgecolors="white", linewidths=0.5)
+        ax.scatter(X_pca[is_funny, 0], X_pca[is_funny, 1],
+                   c=COLOR_FUNNY, alpha=0.7, s=40, label="Funny ctx",
+                   edgecolors="white", linewidths=0.5)
+
+        ax.set_xlabel(f"PC1 ({var_ratios[0]:.1%} var)", fontsize=9)
+        ax.set_ylabel(f"PC2 ({var_ratios[1]:.1%} var)", fontsize=9)
+        ax.set_title(f"Layer {layer}", fontsize=11, fontweight="bold")
+        ax.legend(fontsize=8, loc="best")
+        _clean_axes(ax)
+
+    fig.suptitle(f"PCA of Activations: Straight vs. Funny Context (position={pos})",
+                 fontsize=14, fontweight="bold", y=1.02)
+    fig.tight_layout()
+    out_path = out_dir / f"{pos}_pca_by_layer.png"
+    fig.savefig(out_path, dpi=150, bbox_inches="tight")
+    plt.close(fig)
+    return out_path
+
+
+def _scatter_by_context_and_boost(ax, X_2d, is_funny, has_boost):
     """
-    Compute the unit vector in the direction of (mean_funny - mean_straight).
-    """
-    diff = X_funny.mean(axis=0) - X_straight.mean(axis=0)
-    norm = np.linalg.norm(diff)
-    if norm > 0:
-        return diff / norm
-    return diff
+    Scatter points with color = context and marker = pun-probability boost.
 
+    Color:  blue = straight context, pink = funny context
+    Marker: circle = no significant boost, star = 2x+ pun probability boost
+    """
+    groups = [
+        (~is_funny & ~has_boost, COLOR_STRAIGHT, "o", "Straight ctx"),
+        (~is_funny & has_boost,  COLOR_STRAIGHT, "*", "Straight ctx, 2x+ pun boost"),
+        (is_funny & ~has_boost,  COLOR_FUNNY,    "o", "Funny ctx"),
+        (is_funny & has_boost,   COLOR_FUNNY,    "*", "Funny ctx, 2x+ pun boost"),
+    ]
+    for mask, color, marker, label in groups:
+        if mask.sum() == 0:
+            continue
+        size = 120 if marker == "*" else 50
+        ax.scatter(X_2d[mask, 0], X_2d[mask, 1],
+                   c=color, marker=marker, alpha=0.7, s=size, label=label,
+                   edgecolors="white", linewidths=0.5, zorder=2)
+
+
+def plot_pca_peak(layer_data, peak_layer, meta, pos, out_dir, has_boost=None):
+    """Detailed PCA at peak layer with lines connecting matched pairs."""
+    import matplotlib.pyplot as plt
+
+    pair_ids, is_funny, is_straight = get_pair_indices(meta)
+    labels = _pair_labels(meta)
+    X = layer_data[peak_layer]
+    X_pca, _, var_ratios = pca_projection(X, n_components=2)
+
+    fig, ax = plt.subplots(figsize=(10, 8))
+
+    # Pair lines with labels
+    for pid in sorted(set(pair_ids)):
+        mask = pair_ids == pid
+        if mask.sum() == 2:
+            pts = X_pca[mask]
+            ax.plot(pts[:, 0], pts[:, 1], color=COLOR_PAIR_LINE, alpha=0.3,
+                    linewidth=0.8, zorder=1)
+            mid = pts.mean(axis=0)
+            ax.annotate(labels.get(pid, ""), xy=mid, fontsize=5, color="#666",
+                        ha="center", va="center", zorder=3)
+
+    if has_boost is not None:
+        _scatter_by_context_and_boost(ax, X_pca, is_funny, has_boost)
+    else:
+        ax.scatter(X_pca[is_straight, 0], X_pca[is_straight, 1],
+                   c=COLOR_STRAIGHT, alpha=0.7, s=50, label="Straight ctx",
+                   edgecolors="white", linewidths=0.5, zorder=2)
+        ax.scatter(X_pca[is_funny, 0], X_pca[is_funny, 1],
+                   c=COLOR_FUNNY, alpha=0.7, s=50, label="Funny ctx",
+                   edgecolors="white", linewidths=0.5, zorder=2)
+
+    ax.set_xlabel(f"PC1 ({var_ratios[0]:.1%} variance explained)", fontsize=11)
+    ax.set_ylabel(f"PC2 ({var_ratios[1]:.1%} variance explained)", fontsize=11)
+    star_label = "★ = 2x+ pun probability boost" if has_boost is not None else ""
+    ax.set_title(f"PCA at Layer {peak_layer} (Peak Separation, position={pos})\n"
+                 f"Lines connect matched pairs — {star_label}",
+                 fontsize=13, fontweight="bold")
+    ax.legend(fontsize=9, loc="best")
+    _clean_axes(ax)
+
+    fig.tight_layout()
+    out_path = out_dir / f"{pos}_pca_peak_layer.png"
+    fig.savefig(out_path, dpi=150, bbox_inches="tight")
+    plt.close(fig)
+    return out_path
+
+
+def plot_contrastive_scatter(layer_data, peak_layer, meta, pos, out_dir,
+                             has_boost=None):
+    """
+    Contrastive projection scatter: contrastive direction on x-axis,
+    residual PC1 on y-axis.  Lines connect matched pairs.
+    """
+    import matplotlib.pyplot as plt
+
+    pair_ids, is_funny, is_straight = get_pair_indices(meta)
+    labels = _pair_labels(meta)
+    X = layer_data[peak_layer]
+    X_proj, _, var_ratios = contrastive_projection(X, meta, n_components=2)
+
+    fig, ax = plt.subplots(figsize=(10, 8))
+
+    # Pair lines with labels
+    for pid in sorted(set(pair_ids)):
+        mask = pair_ids == pid
+        if mask.sum() == 2:
+            pts = X_proj[mask]
+            ax.plot(pts[:, 0], pts[:, 1], color=COLOR_PAIR_LINE, alpha=0.3,
+                    linewidth=0.8, zorder=1)
+            mid = pts.mean(axis=0)
+            ax.annotate(labels.get(pid, ""), xy=mid, fontsize=5, color="#666",
+                        ha="center", va="center", zorder=3)
+
+    if has_boost is not None:
+        _scatter_by_context_and_boost(ax, X_proj, is_funny, has_boost)
+    else:
+        ax.scatter(X_proj[is_straight, 0], X_proj[is_straight, 1],
+                   c=COLOR_STRAIGHT, alpha=0.7, s=50, label="Straight ctx",
+                   edgecolors="white", linewidths=0.5, zorder=2)
+        ax.scatter(X_proj[is_funny, 0], X_proj[is_funny, 1],
+                   c=COLOR_FUNNY, alpha=0.7, s=50, label="Funny ctx",
+                   edgecolors="white", linewidths=0.5, zorder=2)
+
+    ax.set_xlabel(f"Contrastive direction ({var_ratios[0]:.1%} var)", fontsize=11)
+    ax.set_ylabel(f"Residual PC1 ({var_ratios[1]:.1%} var)", fontsize=11)
+    star_label = "★ = 2x+ pun probability boost" if has_boost is not None else ""
+    ax.set_title(f"Contrastive Projection at Layer {peak_layer} (position={pos})\n"
+                 f"X-axis = mean(funny−straight) direction — {star_label}",
+                 fontsize=13, fontweight="bold")
+    ax.legend(fontsize=10, loc="best")
+    _clean_axes(ax)
+
+    fig.tight_layout()
+    out_path = out_dir / f"{pos}_contrastive_scatter.png"
+    fig.savefig(out_path, dpi=150, bbox_inches="tight")
+    plt.close(fig)
+    return out_path
+
+
+def plot_pair_diff_histogram(layer_data, peak_layer, meta, pos, out_dir):
+    """Histogram of per-pair Euclidean distances at peak layer."""
+    import matplotlib.pyplot as plt
+
+    X = layer_data[peak_layer]
+    dists = pair_distances(X, meta)
+
+    fig, ax = plt.subplots(figsize=(8, 4))
+    ax.hist(dists, bins=20, color=COLOR_FUNNY, alpha=0.7, edgecolor="white")
+    ax.axvline(dists.mean(), color="#333", linestyle="--", linewidth=1.5,
+               label=f"Mean = {dists.mean():.1f}")
+    ax.set_xlabel("Per-pair Euclidean distance (funny − straight)", fontsize=11)
+    ax.set_ylabel("Count", fontsize=11)
+    ax.set_title(f"Pair Difference Magnitudes at Layer {peak_layer} (position={pos})\n"
+                 f"{len(dists)} contrastive pairs",
+                 fontsize=13, fontweight="bold")
+    ax.legend(fontsize=10)
+    _clean_axes(ax)
+
+    fig.tight_layout()
+    out_path = out_dir / f"{pos}_pair_diff_histogram.png"
+    fig.savefig(out_path, dpi=150, bbox_inches="tight")
+    plt.close(fig)
+    return out_path
+
+
+def plot_mean_diff_projection(layer_data, peak_layer, peak_d_value, meta, pos, out_dir):
+    """1D histogram of projections onto contrastive direction at peak Cohen's d layer."""
+    import matplotlib.pyplot as plt
+
+    _, is_funny, is_straight = get_pair_indices(meta)
+    X = layer_data[peak_layer]
+    direction = contrastive_direction(X, meta)
+    projections = X @ direction
+
+    fig, ax = plt.subplots(figsize=(8, 4))
+    ax.hist(projections[is_straight], bins=15, alpha=0.6, color=COLOR_STRAIGHT,
+            label="Straight ctx", edgecolor="white")
+    ax.hist(projections[is_funny], bins=15, alpha=0.6, color=COLOR_FUNNY,
+            label="Funny ctx", edgecolor="white")
+    ax.set_xlabel("Projection onto contrastive direction", fontsize=11)
+    ax.set_ylabel("Count", fontsize=11)
+    ax.set_title(f"Contrastive Direction Projections at Layer {peak_layer} (position={pos})\n"
+                 f"Cohen's d = {peak_d_value:.2f}",
+                 fontsize=13, fontweight="bold")
+    ax.legend(fontsize=10)
+    _clean_axes(ax)
+
+    fig.tight_layout()
+    out_path = out_dir / f"{pos}_mean_diff_projection.png"
+    fig.savefig(out_path, dpi=150, bbox_inches="tight")
+    plt.close(fig)
+    return out_path
+
+
+# ── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
     import matplotlib
     matplotlib.use("Agg")
-    import matplotlib.pyplot as plt
-    from sklearn.decomposition import PCA
 
     parser = argparse.ArgumentParser(
         description="Visualize contrastive activations")
@@ -106,7 +419,7 @@ def main():
                         help="Model short name (default: llama31_70b_instruct)")
     args = parser.parse_args()
 
-    # Load metadata and activations
+    # ── Load data ────────────────────────────────────────────────────────────
     meta_file = RAW_DIR / f"{args.model_short}_{args.position}_meta.json"
     if not meta_file.exists():
         print(f"Metadata not found: {meta_file}")
@@ -119,211 +432,78 @@ def main():
         print("No layer files found.")
         sys.exit(1)
 
-    # Filter to requested layers
     if args.layers:
         layer_indices = [l for l in layer_indices if l in args.layers]
+        layer_data = {l: layer_data[l] for l in layer_indices}
 
     n_layers = len(layer_indices)
     n_prompts = meta["n_prompts"]
-    samples = meta["samples"]
-
-    print(f"Loaded {n_layers} layers, {n_prompts} prompts")
-
-    # Split by condition
-    is_funny = np.array([s["type"] == "funny" for s in samples])
-    is_straight = ~is_funny
-    pair_ids = np.array([s["pair_id"] for s in samples])
-
-    print(f"Straight: {is_straight.sum()}, Funny: {is_funny.sum()}")
-
-    FIGURES_DIR.mkdir(parents=True, exist_ok=True)
+    _, is_funny, is_straight = get_pair_indices(meta)
     pos = args.position
 
-    # ── 1. Separation score across layers ────────────────────────────────────
-    print("\n--- Computing separation scores ---")
-    separations = []
-    for layer_idx in layer_indices:
-        X = layer_data[layer_idx]
-        sep = compute_separation(X[is_straight], X[is_funny])
-        separations.append(sep)
+    print(f"Loaded {n_layers} layers, {n_prompts} prompts "
+          f"({is_straight.sum()} straight, {is_funny.sum()} funny)")
 
-    peak_idx = np.argmax(separations)
-    peak_layer = layer_indices[peak_idx]
+    FIGURES_DIR.mkdir(parents=True, exist_ok=True)
 
-    fig, ax = plt.subplots(figsize=(10, 4))
-    ax.plot(layer_indices, separations, color="#E85D75", linewidth=2)
-    ax.set_xlabel("Layer", fontsize=11)
-    ax.set_ylabel("Separation score\n(between / within)", fontsize=11)
-    ax.set_title(f"Straight vs. Funny Context Separation by Layer\n"
-                 f"(position={pos}, {n_prompts} contrastive prompts)",
-                 fontsize=13, fontweight="bold")
-    ax.spines["top"].set_visible(False)
-    ax.spines["right"].set_visible(False)
+    # ── Load detailed predictions (for pun boost markers) ────────────────────
+    pred_file = RAW_DIR / f"{args.model_short}_{pos}_detailed_preds.json"
+    has_boost = _pun_boost_markers(meta, pred_file, threshold=2.0)
+    if has_boost is not None:
+        n_boost = has_boost.sum()
+        print(f"  Pun boost markers (2x+ threshold): "
+              f"{n_boost // 2} pairs ({n_boost} samples) starred")
+    else:
+        print("  No detailed predictions found — stars disabled")
 
-    ax.annotate(f"Peak: layer {peak_layer}\n(score={separations[peak_idx]:.3f})",
-                xy=(peak_layer, separations[peak_idx]),
-                xytext=(peak_layer + 3, separations[peak_idx]),
-                fontsize=9, ha="left",
-                arrowprops=dict(arrowstyle="->", color="#333"))
+    # ── Compute metrics across all layers ────────────────────────────────────
+    print("\n--- Computing separation metrics across layers ---")
+    layer_results = analyze_all_layers(layer_data, meta)
 
-    fig.tight_layout()
-    out_path = FIGURES_DIR / f"{pos}_separation_curve.png"
-    fig.savefig(out_path, dpi=150, bbox_inches="tight")
-    plt.close(fig)
-    print(f"  Saved {out_path}")
-    print(f"  Peak: layer {peak_layer} (score={separations[peak_idx]:.3f})")
+    peak_fisher = layer_results["peak_fisher_layer"]
+    peak_d = layer_results["peak_cohens_d_layer"]
+    peak_d_idx = layer_indices.index(peak_d)
+    peak_d_value = layer_results["cohens_d"][peak_d_idx]
 
-    # ── 2. PCA scatter plots at selected layers ──────────────────────────────
+    print(f"  Fisher peak: layer {peak_fisher} "
+          f"(score={layer_results['fisher'][layer_indices.index(peak_fisher)]:.3f})")
+    print(f"  Cohen's d peak: layer {peak_d} (d={peak_d_value:.2f})")
+
+    # ── Generate all plots ───────────────────────────────────────────────────
+
+    # 1. Separation curves
+    out = plot_separation_curves(layer_results, pos, n_prompts, FIGURES_DIR)
+    print(f"  Saved {out}")
+
+    # 2. PCA scatter at quartile layers + peak
     quartile_layers = [
         layer_indices[n_layers // 4],
         layer_indices[n_layers // 2],
         layer_indices[3 * n_layers // 4],
-        peak_layer,
+        peak_fisher,
     ]
-    plot_layers = list(dict.fromkeys(quartile_layers))
+    plot_layers = list(dict.fromkeys(quartile_layers))  # deduplicate, preserve order
 
-    print(f"\n--- PCA scatter plots for layers: {plot_layers} ---")
+    out = plot_pca_by_layer(layer_data, plot_layers, meta, pos, FIGURES_DIR)
+    print(f"  Saved {out}")
 
-    n_plots = len(plot_layers)
-    fig, axes = plt.subplots(1, n_plots, figsize=(5 * n_plots, 5))
-    if n_plots == 1:
-        axes = [axes]
+    # 3. PCA at peak layer with pair lines
+    out = plot_pca_peak(layer_data, peak_fisher, meta, pos, FIGURES_DIR,
+                        has_boost=has_boost)
+    print(f"  Saved {out}")
 
-    for ax, layer in zip(axes, plot_layers):
-        X = layer_data[layer]
+    # 4. Contrastive projection scatter at peak Cohen's d layer
+    out = plot_contrastive_scatter(layer_data, peak_d, meta, pos, FIGURES_DIR,
+                                   has_boost=has_boost)
+    print(f"  Saved {out}")
 
-        pca = PCA(n_components=2)
-        X_pca = pca.fit_transform(X)
+    # 5. Per-pair distance histogram at peak layer
+    out = plot_pair_diff_histogram(layer_data, peak_d, meta, pos, FIGURES_DIR)
+    print(f"  Saved {out}")
 
-        ax.scatter(X_pca[is_straight, 0], X_pca[is_straight, 1],
-                   c="#4A90D9", alpha=0.7, s=40, label="Straight ctx",
-                   edgecolors="white", linewidths=0.5)
-        ax.scatter(X_pca[is_funny, 0], X_pca[is_funny, 1],
-                   c="#E85D75", alpha=0.7, s=40, label="Funny ctx",
-                   edgecolors="white", linewidths=0.5)
-
-        ev = pca.explained_variance_ratio_
-        ax.set_xlabel(f"PC1 ({ev[0]:.1%} var)", fontsize=9)
-        ax.set_ylabel(f"PC2 ({ev[1]:.1%} var)", fontsize=9)
-        ax.set_title(f"Layer {layer}", fontsize=11, fontweight="bold")
-        ax.legend(fontsize=8, loc="best")
-        ax.spines["top"].set_visible(False)
-        ax.spines["right"].set_visible(False)
-
-    fig.suptitle(f"PCA of Activations: Straight vs. Funny Context (position={pos})",
-                 fontsize=14, fontweight="bold", y=1.02)
-    fig.tight_layout()
-    out_path = FIGURES_DIR / f"{pos}_pca_by_layer.png"
-    fig.savefig(out_path, dpi=150, bbox_inches="tight")
-    plt.close(fig)
-    print(f"  Saved {out_path}")
-
-    # ── 3. Detailed PCA at peak layer ────────────────────────────────────────
-    X_peak = layer_data[peak_layer]
-    pca = PCA(n_components=2)
-    X_pca = pca.fit_transform(X_peak)
-
-    fig, ax = plt.subplots(figsize=(8, 6))
-
-    ax.scatter(X_pca[is_straight, 0], X_pca[is_straight, 1],
-               c="#4A90D9", alpha=0.7, s=50, label="Straight ctx",
-               edgecolors="white", linewidths=0.5, zorder=2)
-    ax.scatter(X_pca[is_funny, 0], X_pca[is_funny, 1],
-               c="#E85D75", alpha=0.7, s=50, label="Funny ctx",
-               edgecolors="white", linewidths=0.5, zorder=2)
-
-    # Draw lines connecting matched pairs
-    for pid in range(max(pair_ids) + 1):
-        mask = pair_ids == pid
-        if mask.sum() == 2:
-            pts = X_pca[mask]
-            ax.plot(pts[:, 0], pts[:, 1], color="#999", alpha=0.3,
-                    linewidth=0.8, zorder=1)
-
-    ev = pca.explained_variance_ratio_
-    ax.set_xlabel(f"PC1 ({ev[0]:.1%} variance explained)", fontsize=11)
-    ax.set_ylabel(f"PC2 ({ev[1]:.1%} variance explained)", fontsize=11)
-    ax.set_title(f"PCA at Layer {peak_layer} (Peak Separation, position={pos})\n"
-                 f"Lines connect matched straight/funny pairs",
-                 fontsize=13, fontweight="bold")
-    ax.legend(fontsize=10, loc="best")
-    ax.spines["top"].set_visible(False)
-    ax.spines["right"].set_visible(False)
-
-    fig.tight_layout()
-    out_path = FIGURES_DIR / f"{pos}_pca_peak_layer.png"
-    fig.savefig(out_path, dpi=150, bbox_inches="tight")
-    plt.close(fig)
-    print(f"  Saved {out_path}")
-
-    # ── 4. Mean-difference direction projection ──────────────────────────────
-    print(f"\n--- Mean-difference direction analysis ---")
-
-    # Compute mean-diff direction at each layer and project
-    diff_separations = []
-    for layer_idx in layer_indices:
-        X = layer_data[layer_idx]
-        direction = compute_mean_diff_direction(X[is_straight], X[is_funny])
-        projections = X @ direction
-        proj_s = projections[is_straight]
-        proj_f = projections[is_funny]
-
-        # 1D separation: difference in means / pooled std
-        gap = proj_f.mean() - proj_s.mean()
-        pooled_std = np.sqrt((proj_s.var() + proj_f.var()) / 2)
-        d = gap / pooled_std if pooled_std > 0 else 0
-        diff_separations.append(d)
-
-    diff_peak_idx = np.argmax(diff_separations)
-    diff_peak_layer = layer_indices[diff_peak_idx]
-
-    # Plot d' across layers
-    fig, ax = plt.subplots(figsize=(10, 4))
-    ax.plot(layer_indices, diff_separations, color="#2EAD6B", linewidth=2)
-    ax.set_xlabel("Layer", fontsize=11)
-    ax.set_ylabel("Cohen's d\n(mean-diff direction)", fontsize=11)
-    ax.set_title(f"Separation Along Mean-Difference Direction by Layer\n"
-                 f"(position={pos}, {n_prompts} contrastive prompts)",
-                 fontsize=13, fontweight="bold")
-    ax.spines["top"].set_visible(False)
-    ax.spines["right"].set_visible(False)
-
-    ax.annotate(f"Peak: layer {diff_peak_layer}\n(d={diff_separations[diff_peak_idx]:.2f})",
-                xy=(diff_peak_layer, diff_separations[diff_peak_idx]),
-                xytext=(diff_peak_layer + 3, diff_separations[diff_peak_idx]),
-                fontsize=9, ha="left",
-                arrowprops=dict(arrowstyle="->", color="#333"))
-
-    fig.tight_layout()
-    out_path = FIGURES_DIR / f"{pos}_mean_diff_curve.png"
-    fig.savefig(out_path, dpi=150, bbox_inches="tight")
-    plt.close(fig)
-    print(f"  Saved {out_path}")
-
-    # Histogram of projections at peak mean-diff layer
-    X_diff_peak = layer_data[diff_peak_layer]
-    direction = compute_mean_diff_direction(X_diff_peak[is_straight], X_diff_peak[is_funny])
-    projections = X_diff_peak @ direction
-
-    fig, ax = plt.subplots(figsize=(8, 4))
-    ax.hist(projections[is_straight], bins=15, alpha=0.6, color="#4A90D9",
-            label="Straight ctx", edgecolor="white")
-    ax.hist(projections[is_funny], bins=15, alpha=0.6, color="#E85D75",
-            label="Funny ctx", edgecolor="white")
-    ax.set_xlabel("Projection onto mean-difference direction", fontsize=11)
-    ax.set_ylabel("Count", fontsize=11)
-    ax.set_title(f"Projections at Layer {diff_peak_layer} (position={pos})\n"
-                 f"Cohen's d = {diff_separations[diff_peak_idx]:.2f}",
-                 fontsize=13, fontweight="bold")
-    ax.legend(fontsize=10)
-    ax.spines["top"].set_visible(False)
-    ax.spines["right"].set_visible(False)
-
-    fig.tight_layout()
-    out_path = FIGURES_DIR / f"{pos}_mean_diff_projection.png"
-    fig.savefig(out_path, dpi=150, bbox_inches="tight")
-    plt.close(fig)
-    print(f"  Saved {out_path}")
+    # 6. Mean-difference projection histogram
+    out = plot_mean_diff_projection(layer_data, peak_d, peak_d_value, meta, pos, FIGURES_DIR)
+    print(f"  Saved {out}")
 
     # ── Summary ──────────────────────────────────────────────────────────────
     print(f"\n{'='*60}")
@@ -333,13 +513,20 @@ def main():
     print(f"  Position: {pos}")
     print(f"  Prompts: {n_prompts} ({is_straight.sum()} straight, {is_funny.sum()} funny)")
     print(f"  Layers analyzed: {n_layers}")
-    print(f"  Fisher separation peak: layer {peak_layer} "
-          f"(score={separations[peak_idx]:.3f})")
-    print(f"  Mean-diff peak: layer {diff_peak_layer} "
-          f"(d={diff_separations[diff_peak_idx]:.2f})")
+    print(f"  Fisher separation peak: layer {peak_fisher} "
+          f"(score={layer_results['fisher'][layer_indices.index(peak_fisher)]:.3f})")
+    print(f"  Cohen's d peak: layer {peak_d} (d={peak_d_value:.2f})")
+
+    # PCA variance at peak
+    X_peak = layer_data[peak_fisher]
+    _, _, var_ratios = pca_projection(X_peak, n_components=2)
     print(f"  PCA variance at Fisher peak: "
-          f"PC1={pca.explained_variance_ratio_[0]:.1%}, "
-          f"PC2={pca.explained_variance_ratio_[1]:.1%}")
+          f"PC1={var_ratios[0]:.1%}, PC2={var_ratios[1]:.1%}")
+
+    # Contrastive projection variance at peak
+    _, _, c_var = contrastive_projection(layer_data[peak_d], meta, n_components=2)
+    print(f"  Contrastive projection variance at Cohen's d peak: "
+          f"contrast={c_var[0]:.1%}, resid_PC1={c_var[1]:.1%}")
 
 
 if __name__ == "__main__":
