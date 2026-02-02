@@ -131,13 +131,34 @@ Larger models produce pun completions more often, even without any special conte
 | Llama-3.1-405B | 41% |
 
 But this average masks an important structure.  We classify jokes into
-**tiers** based on how models naturally split between straight and funny:
+**four tiers** based on how models naturally split between straight and funny:
 
 ![Baseline by Tier](results/figures/baseline_by_tier.png)
 
-**Straight-dominated** jokes (88 of 205) are near-zero pun rate across all
-models — the models simply don't recognize the pun opportunity.  These
-become the key targets for the next step.
+At one extreme, **funny-dominated** jokes (24 of 205) are puns that every
+model gets, even the smallest.  These are jokes where the pun word is
+practically the only sensible completion:
+
+> *The arctic navigator was great at parties because he knew how to break the ___*
+> → "ice" (100% pun rate across all models)
+
+In the **balanced** middle (42 jokes), models split between straight and
+funny completions, and size matters — bigger models get the joke more often:
+
+> *The crab never shared his toys because he was ___*
+> → "shellfish" (pun) vs. "greedy" (straight).  The 3B and 8B models always
+> say "greedy"; the 405B model says "shellfish" every time.
+
+At the other extreme, **straight-dominated** jokes (88 of 205) have
+near-zero pun rates across all models — the pun is there, but no model
+recognizes it:
+
+> *The tailor won his court case because he had an excellent ___*
+> → "suit" (pun) vs. "lawyer" (straight).  Every model at every size says
+> "lawyer."  Zero pun completions.
+
+These straight-dominated jokes become the key targets for the next step:
+can we *make* the model see the pun by manipulating context?
 
 ## Step 3: Isolating Pun Awareness
 
