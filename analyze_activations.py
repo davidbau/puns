@@ -503,12 +503,17 @@ def stable_contrastive_projections(layer_data, meta, n_components=3):
         components[layer_idx] = comps
         var_ratios[layer_idx] = vr
 
-    # Compute global axis ranges for stable camera
+    # Compute global axis ranges for stable camera.
+    # Use 2nd/98th percentile to avoid outlier layers blowing up the scale.
     all_projs = np.concatenate(list(projections.values()), axis=0)
     axis_ranges = []
     for c in range(n_components):
-        axis_ranges.append((float(all_projs[:, c].min()),
-                            float(all_projs[:, c].max())))
+        lo = float(np.percentile(all_projs[:, c], 2))
+        hi = float(np.percentile(all_projs[:, c], 98))
+        # Ensure some minimum span and symmetry around the median
+        mid = (lo + hi) / 2
+        half = max((hi - lo) / 2, 1.0)
+        axis_ranges.append((mid - half, mid + half))
 
     return {
         "projections": projections,

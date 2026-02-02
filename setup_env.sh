@@ -54,11 +54,19 @@ pip install \
     matplotlib \
     scikit-learn \
     requests \
-    python-dotenv
+    python-dotenv \
+    jupyter \
+    ipykernel
+
+# Register Jupyter kernel
+echo "Registering Jupyter kernel..."
+python -m ipykernel install --user --name puns --display-name "Puns (3.12)"
 
 echo ""
 echo "=== Setup complete ==="
 echo "Activate with:  source venv/bin/activate"
+echo ""
+echo "To run Jupyter:  jupyter notebook interactive_explore.ipynb"
 echo ""
 echo "Make sure .env.local exists with your API keys:"
 echo "  TOGETHER_API_KEY=..."

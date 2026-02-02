@@ -155,46 +155,46 @@ _HTML_TEMPLATE = r"""<!DOCTYPE html>
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif;
-       background: #1a1a2e; color: #e0e0e0; display: flex; justify-content: center; padding: 16px; }
+       background: #fff; color: #333; display: flex; justify-content: center; padding: 16px; }
 .container { width: __WIDTH__px; }
 .header { margin-bottom: 8px; }
-.header h1 { font-size: 18px; font-weight: 600; color: #fff; }
-.header .subtitle { font-size: 13px; color: #999; margin-top: 2px; }
-.var-info { font-size: 12px; color: #888; margin-top: 4px; font-family: monospace; }
+.header h1 { font-size: 18px; font-weight: 600; color: #111; }
+.header .subtitle { font-size: 13px; color: #666; margin-top: 2px; }
+.var-info { font-size: 12px; color: #777; margin-top: 4px; font-family: monospace; }
 
-.svg-wrap { position: relative; border: 1px solid #333; border-radius: 8px;
-            background: #0f0f23; overflow: hidden; cursor: grab; }
+.svg-wrap { position: relative; border: 1px solid #ccc; border-radius: 8px;
+            background: #fafafa; overflow: hidden; cursor: grab; }
 .svg-wrap:active { cursor: grabbing; }
 svg { display: block; }
 
 .controls { display: flex; align-items: center; gap: 12px; margin-top: 10px; flex-wrap: wrap; }
-.controls label { font-size: 13px; color: #aaa; white-space: nowrap; }
+.controls label { font-size: 13px; color: #555; white-space: nowrap; }
 .slider-group { flex: 1; display: flex; align-items: center; gap: 8px; min-width: 200px; }
 .slider-group input[type=range] { flex: 1; accent-color: #7B68EE; }
-.layer-num { font-family: monospace; font-size: 14px; color: #fff; min-width: 60px; }
-.btn { background: #333; color: #ccc; border: 1px solid #555; border-radius: 4px;
+.layer-num { font-family: monospace; font-size: 14px; color: #222; min-width: 60px; }
+.btn { background: #eee; color: #444; border: 1px solid #bbb; border-radius: 4px;
        padding: 4px 12px; font-size: 12px; cursor: pointer; }
-.btn:hover { background: #444; color: #fff; }
+.btn:hover { background: #ddd; color: #222; }
 .btn.active { background: #7B68EE; color: #fff; border-color: #7B68EE; }
 
 .legend { display: flex; gap: 16px; margin-top: 8px; flex-wrap: wrap; }
-.legend-item { display: flex; align-items: center; gap: 4px; font-size: 12px; color: #bbb; }
-.legend-swatch { width: 12px; height: 12px; border-radius: 50%; border: 1px solid #555; }
+.legend-item { display: flex; align-items: center; gap: 4px; font-size: 12px; color: #555; }
+.legend-swatch { width: 12px; height: 12px; border-radius: 50%; border: 1px solid #aaa; }
 .legend-star { font-size: 16px; line-height: 12px; }
 
-.tooltip { position: absolute; pointer-events: none; background: rgba(15,15,35,0.95);
-           border: 1px solid #555; border-radius: 6px; padding: 10px 12px;
+.tooltip { position: absolute; pointer-events: none; background: rgba(255,255,255,0.97);
+           border: 1px solid #bbb; border-radius: 6px; padding: 10px 12px;
            font-size: 12px; line-height: 1.5; max-width: 380px; z-index: 100;
-           display: none; box-shadow: 0 4px 16px rgba(0,0,0,0.5); }
-.tooltip .tt-title { font-weight: 600; color: #fff; margin-bottom: 4px; }
-.tooltip .tt-context { color: #aaa; }
-.tooltip .tt-sentence { color: #ccc; font-style: italic; margin: 4px 0; }
-.tooltip .tt-detail { color: #999; font-family: monospace; font-size: 11px; }
-.tooltip .tt-boost { color: #f0c040; }
+           display: none; box-shadow: 0 4px 16px rgba(0,0,0,0.12); }
+.tooltip .tt-title { font-weight: 600; color: #111; margin-bottom: 4px; }
+.tooltip .tt-context { color: #555; }
+.tooltip .tt-sentence { color: #333; font-style: italic; margin: 4px 0; }
+.tooltip .tt-detail { color: #666; font-family: monospace; font-size: 11px; }
+.tooltip .tt-boost { color: #c08800; }
 
 .checkbox-group { display: flex; align-items: center; gap: 4px; }
 .checkbox-group input { accent-color: #7B68EE; }
-.checkbox-group label { font-size: 12px; color: #aaa; cursor: pointer; }
+.checkbox-group label { font-size: 12px; color: #555; cursor: pointer; }
 </style>
 </head>
 <body>
@@ -217,6 +217,8 @@ svg { display: block; }
       <span class="layer-num" id="layerNum">Layer 40</span>
     </div>
     <button class="btn" id="playBtn">Play &#9654;</button>
+    <button class="btn" id="resetBtn">Reset view</button>
+    <span class="layer-num" id="zoomInfo" style="min-width:40px; font-size:12px; color:#888;"></span>
     <div class="checkbox-group">
       <input type="checkbox" id="showLines" checked>
       <label for="showLines">Pair lines</label>
@@ -231,6 +233,7 @@ svg { display: block; }
     <div class="legend-item"><div class="legend-swatch" style="background:#4A90D9"></div> Straight context</div>
     <div class="legend-item"><div class="legend-swatch" style="background:#E85D75"></div> Funny context</div>
     <div class="legend-item"><span class="legend-star" style="color:#f0c040">&#9733;</span> 2x+ pun boost</div>
+    <div class="legend-item" style="color:#666; margin-left:auto;">Drag=rotate | Scroll/pinch=zoom | Shift-drag=pan</div>
   </div>
 </div>
 
@@ -243,11 +246,15 @@ const COLOR_S = "#4A90D9", COLOR_F = "#E85D75";
 
 // State
 let azimuth = -0.5, elevation = 0.35;
+let zoom = 1.0;
+let panX = 0, panY = 0;
 let currentLayer = 0;
 let playing = false;
 let playTimer = null;
 let selectedPair = null;
 let dragging = false, dragStartX = 0, dragStartY = 0, dragAz0 = 0, dragEl0 = 0;
+let panning = false, panStartX = 0, panStartY = 0, panX0 = 0, panY0 = 0;
+let pinching = false, pinchDist0 = 0, pinchZoom0 = 1;
 
 // DOM
 const svg = document.getElementById("mainSvg");
@@ -258,6 +265,8 @@ const layerNum = document.getElementById("layerNum");
 const playBtn = document.getElementById("playBtn");
 const showLines = document.getElementById("showLines");
 const showLabels = document.getElementById("showLabels");
+const resetBtn = document.getElementById("resetBtn");
+const zoomInfoEl = document.getElementById("zoomInfo");
 const modelInfo = document.getElementById("modelInfo");
 const varInfo = document.getElementById("varInfo");
 
@@ -294,6 +303,7 @@ function project3D(pts, az, el, ranges) {
     const sz = (ranges[2][1] - ranges[2][0]) / 2 || 1;
     const scale = Math.max(sx, sy, sz);
 
+    const zf = zoom;
     for (let i = 0; i < n; i++) {
         const x = (pts[i][0] - cx) / scale;
         const y = (pts[i][1] - cy) / scale;
@@ -302,8 +312,8 @@ function project3D(pts, az, el, ranges) {
         const py = R[1][0]*x + R[1][1]*y + R[1][2]*z;
         const pz = R[2][0]*x + R[2][1]*y + R[2][2]*z;
         out[i] = {
-            sx: W/2 + px * (W/2 - PAD),
-            sy: H/2 - py * (H/2 - PAD),
+            sx: W/2 + panX + px * (W/2 - PAD) * zf,
+            sy: H/2 + panY - py * (H/2 - PAD) * zf,
             depth: pz,
             idx: i
         };
@@ -346,6 +356,8 @@ function render() {
             "  residPC2=" + (vr[2]*100).toFixed(1) + "%";
     }
 
+    zoomInfoEl.textContent = zoom !== 1.0 ? (zoom.toFixed(1) + "x") : "";
+
     const projected = project3D(pts3d, azimuth, elevation, DATA.axisRanges);
 
     // Depth sort (painter's algorithm: render far objects first)
@@ -367,7 +379,7 @@ function render() {
             const line = svgEl("line", {
                 x1: sp.sx.toFixed(1), y1: sp.sy.toFixed(1),
                 x2: fp.sx.toFixed(1), y2: fp.sy.toFixed(1),
-                stroke: isSelected ? "#fff" : "#666",
+                stroke: isSelected ? "#333" : "#aaa",
                 "stroke-width": isSelected ? 2 : 0.8,
                 opacity: isSelected ? 1 : 0.5
             });
@@ -380,7 +392,7 @@ function render() {
                 const label = DATA.pairLabels[String(pid)] || "";
                 const txt = svgEl("text", {
                     x: mx.toFixed(1), y: my.toFixed(1),
-                    fill: "#666", "font-size": "8", "text-anchor": "middle",
+                    fill: "#999", "font-size": "8", "text-anchor": "middle",
                     "dominant-baseline": "middle"
                 });
                 txt.textContent = label;
@@ -404,7 +416,7 @@ function render() {
             const star = svgEl("polygon", {
                 points: starPath(p.sx, p.sy, r),
                 fill: color,
-                stroke: isSelected ? "#fff" : "#f0c040",
+                stroke: isSelected ? "#333" : "#c08800",
                 "stroke-width": isSelected ? 2 : 1,
                 opacity: alpha,
                 "data-idx": p.idx
@@ -417,7 +429,7 @@ function render() {
             const circle = svgEl("circle", {
                 cx: p.sx.toFixed(1), cy: p.sy.toFixed(1), r: baseR,
                 fill: color,
-                stroke: isSelected ? "#fff" : "rgba(255,255,255,0.3)",
+                stroke: isSelected ? "#333" : "rgba(0,0,0,0.15)",
                 "stroke-width": isSelected ? 2 : 0.5,
                 opacity: alpha,
                 "data-idx": p.idx
@@ -431,34 +443,84 @@ function render() {
     svg.appendChild(pointGroup);
 }
 
-function drawAxes() {
-    const len = 40;
-    const origin = [W - 70, H - 50];
+// Project a single normalized 3D point to screen coords
+function proj1(nx, ny, nz) {
     const R = rotMatrix(azimuth, elevation);
-    const axes = [
-        {dx: R[0][0], dy: -R[1][0], label: "C", color: "#7B68EE"},
-        {dx: R[0][1], dy: -R[1][1], label: "R1", color: "#4A90D9"},
-        {dx: R[0][2], dy: -R[1][2], label: "R2", color: "#E85D75"},
-    ];
-    const g = svgEl("g", {opacity: "0.6"});
-    for (const a of axes) {
-        const x2 = origin[0] + a.dx * len;
-        const y2 = origin[1] + a.dy * len;
+    const zf = zoom;
+    const px = R[0][0]*nx + R[0][1]*ny + R[0][2]*nz;
+    const py = R[1][0]*nx + R[1][1]*ny + R[1][2]*nz;
+    return {
+        sx: W/2 + panX + px * (W/2 - PAD) * zf,
+        sy: H/2 + panY - py * (H/2 - PAD) * zf
+    };
+}
+
+function drawAxes() {
+    const g = svgEl("g", {});
+
+    // Compute normalized extents: axis ranges mapped to [-1,1] using same scale as project3D
+    const ranges = DATA.axisRanges;
+    const sx = (ranges[0][1] - ranges[0][0]) / 2 || 1;
+    const sy = (ranges[1][1] - ranges[1][0]) / 2 || 1;
+    const sz = (ranges[2][1] - ranges[2][0]) / 2 || 1;
+    const scale = Math.max(sx, sy, sz);
+    const ex = sx / scale;  // extent in normalized coords
+    const ey = sy / scale;
+    const ez = sz / scale;
+
+    // Wireframe box: 12 edges connecting 8 corners
+    const corners = [];
+    for (const ix of [-1, 1])
+        for (const iy of [-1, 1])
+            for (const iz of [-1, 1])
+                corners.push([ix * ex, iy * ey, iz * ez]);
+
+    // Edges: pairs of corners that differ in exactly one coordinate
+    const edges = [];
+    for (let i = 0; i < 8; i++)
+        for (let j = i + 1; j < 8; j++) {
+            let diffs = 0;
+            for (let k = 0; k < 3; k++) if (corners[i][k] !== corners[j][k]) diffs++;
+            if (diffs === 1) edges.push([i, j]);
+        }
+
+    for (const [i, j] of edges) {
+        const a = proj1(corners[i][0], corners[i][1], corners[i][2]);
+        const b = proj1(corners[j][0], corners[j][1], corners[j][2]);
         g.appendChild(svgEl("line", {
-            x1: origin[0], y1: origin[1], x2: x2.toFixed(1), y2: y2.toFixed(1),
-            stroke: a.color, "stroke-width": 1.5
+            x1: a.sx.toFixed(1), y1: a.sy.toFixed(1),
+            x2: b.sx.toFixed(1), y2: b.sy.toFixed(1),
+            stroke: "#444", "stroke-width": 0.5, opacity: 0.4
         }));
-        g.appendChild((() => {
-            const t = svgEl("text", {
-                x: (origin[0] + a.dx * (len + 10)).toFixed(1),
-                y: (origin[1] + a.dy * (len + 10)).toFixed(1),
-                fill: a.color, "font-size": "10", "text-anchor": "middle",
-                "dominant-baseline": "middle"
-            });
-            t.textContent = a.label;
-            return t;
-        })());
     }
+
+    // Axis lines through origin, with labels at positive end
+    const axisInfo = [
+        {dir: [ex, 0, 0], label: "Contrastive", color: "#7B68EE"},
+        {dir: [0, ey, 0], label: "Resid PC1",   color: "#4A90D9"},
+        {dir: [0, 0, ez], label: "Resid PC2",   color: "#E85D75"},
+    ];
+    for (const ax of axisInfo) {
+        const neg = proj1(-ax.dir[0], -ax.dir[1], -ax.dir[2]);
+        const pos = proj1(ax.dir[0], ax.dir[1], ax.dir[2]);
+        // Axis line
+        g.appendChild(svgEl("line", {
+            x1: neg.sx.toFixed(1), y1: neg.sy.toFixed(1),
+            x2: pos.sx.toFixed(1), y2: pos.sy.toFixed(1),
+            stroke: ax.color, "stroke-width": 1, opacity: 0.5,
+            "stroke-dasharray": "4,3"
+        }));
+        // Label at positive end (offset slightly outward)
+        const lbl = proj1(ax.dir[0] * 1.1, ax.dir[1] * 1.1, ax.dir[2] * 1.1);
+        const t = svgEl("text", {
+            x: lbl.sx.toFixed(1), y: lbl.sy.toFixed(1),
+            fill: ax.color, "font-size": "10", "text-anchor": "middle",
+            "dominant-baseline": "middle", opacity: 0.7
+        });
+        t.textContent = ax.label;
+        g.appendChild(t);
+    }
+
     svg.appendChild(g);
 }
 
@@ -509,27 +571,167 @@ function togglePair(pairId) {
     render();
 }
 
-// Drag rotation
+// Rotation pivot: when you rotate, we orbit around the 3D point currently
+// at screen center.  For the ambiguous depth coordinate, use mean data depth (≈0).
+// This means if you pan to focus on a cluster, rotation orbits around it.
+let pivotData = [0, 0, 0];  // pivot in normalized data space
+
+function matTranspose3(R) {
+    return [
+        [R[0][0], R[1][0], R[2][0]],
+        [R[0][1], R[1][1], R[2][1]],
+        [R[0][2], R[1][2], R[2][2]]
+    ];
+}
+
+function mat3Mul(M, v) {
+    return [
+        M[0][0]*v[0] + M[0][1]*v[1] + M[0][2]*v[2],
+        M[1][0]*v[0] + M[1][1]*v[1] + M[1][2]*v[2],
+        M[2][0]*v[0] + M[2][1]*v[1] + M[2][2]*v[2]
+    ];
+}
+
+function computePivot() {
+    // Find what data-space point is at screen center, at depth = 0 in view space
+    const S = (W/2 - PAD) * zoom;
+    const viewX = -panX / (S || 1);
+    const viewY = panY / (S || 1);
+    const viewZ = 0;  // mean depth of centered data ≈ 0
+    const Rt = matTranspose3(rotMatrix(azimuth, elevation));
+    return mat3Mul(Rt, [viewX, viewY, viewZ]);
+}
+
+function panFromPivot(pivot, az, el) {
+    const R = rotMatrix(az, el);
+    const viewPos = mat3Mul(R, pivot);
+    const S = (W/2 - PAD) * zoom;
+    panX = -viewPos[0] * S;
+    panY =  viewPos[1] * S;
+}
+
+// Drag rotation + shift-drag panning
 svgWrap.addEventListener("mousedown", (e) => {
     if (e.target.closest(".controls")) return;
-    dragging = true;
-    dragStartX = e.clientX;
-    dragStartY = e.clientY;
-    dragAz0 = azimuth;
-    dragEl0 = elevation;
+    if (e.shiftKey || e.button === 1) {
+        // Shift+drag or middle-click = pan
+        panning = true;
+        panStartX = e.clientX;
+        panStartY = e.clientY;
+        panX0 = panX;
+        panY0 = panY;
+    } else {
+        dragging = true;
+        dragStartX = e.clientX;
+        dragStartY = e.clientY;
+        dragAz0 = azimuth;
+        dragEl0 = elevation;
+        pivotData = computePivot();
+    }
 });
 
 window.addEventListener("mousemove", (e) => {
-    if (!dragging) return;
-    const dx = e.clientX - dragStartX;
-    const dy = e.clientY - dragStartY;
-    azimuth = dragAz0 + dx * 0.005;
-    elevation = Math.max(-Math.PI/2 + 0.1, Math.min(Math.PI/2 - 0.1,
-        dragEl0 - dy * 0.005));
-    render();
+    if (dragging) {
+        const dx = e.clientX - dragStartX;
+        const dy = e.clientY - dragStartY;
+        azimuth = dragAz0 + dx * 0.005;
+        elevation = Math.max(-Math.PI/2 + 0.1, Math.min(Math.PI/2 - 0.1,
+            dragEl0 - dy * 0.005));
+        // Adjust pan so the pivot stays at screen center
+        panFromPivot(pivotData, azimuth, elevation);
+        render();
+    } else if (panning) {
+        panX = panX0 + (e.clientX - panStartX);
+        panY = panY0 + (e.clientY - panStartY);
+        render();
+    }
 });
 
-window.addEventListener("mouseup", () => { dragging = false; });
+window.addEventListener("mouseup", () => { dragging = false; panning = false; });
+
+// Scroll wheel zoom (centered on cursor)
+// screen_x = W/2 + panX + data_x * (W/2-PAD) * zoom
+// To keep cursor point fixed: panX_new = (1-ratio)*(mx - W/2) + ratio*panX_old
+svgWrap.addEventListener("wheel", (e) => {
+    e.preventDefault();
+    const rect = svgWrap.getBoundingClientRect();
+    const mx = e.clientX - rect.left;
+    const my = e.clientY - rect.top;
+
+    const delta = -e.deltaY * 0.001;
+    const newZoom = Math.max(0.2, Math.min(20, zoom * (1 + delta)));
+    const ratio = newZoom / zoom;
+
+    panX = (1 - ratio) * (mx - W/2) + ratio * panX;
+    panY = (1 - ratio) * (my - H/2) + ratio * panY;
+    zoom = newZoom;
+
+    render();
+}, {passive: false});
+
+// Touch: pinch-to-zoom (centered on midpoint) + single-finger rotate
+function touchDist(t) {
+    const dx = t[0].clientX - t[1].clientX;
+    const dy = t[0].clientY - t[1].clientY;
+    return Math.sqrt(dx*dx + dy*dy);
+}
+function touchMid(t, rect) {
+    return [(t[0].clientX + t[1].clientX) / 2 - rect.left,
+            (t[0].clientY + t[1].clientY) / 2 - rect.top];
+}
+
+let pinchPanX0 = 0, pinchPanY0 = 0, pinchMid0 = [0, 0];
+
+svgWrap.addEventListener("touchstart", (e) => {
+    if (e.touches.length === 2) {
+        e.preventDefault();
+        pinching = true;
+        dragging = false;
+        pinchDist0 = touchDist(e.touches);
+        pinchZoom0 = zoom;
+        pinchPanX0 = panX;
+        pinchPanY0 = panY;
+        const rect = svgWrap.getBoundingClientRect();
+        pinchMid0 = touchMid(e.touches, rect);
+    } else if (e.touches.length === 1) {
+        dragging = true;
+        dragStartX = e.touches[0].clientX;
+        dragStartY = e.touches[0].clientY;
+        dragAz0 = azimuth;
+        dragEl0 = elevation;
+        pivotData = computePivot();
+    }
+}, {passive: false});
+
+svgWrap.addEventListener("touchmove", (e) => {
+    if (pinching && e.touches.length === 2) {
+        e.preventDefault();
+        const dist = touchDist(e.touches);
+        const newZoom = Math.max(0.2, Math.min(20, pinchZoom0 * dist / pinchDist0));
+        const ratio = newZoom / pinchZoom0;
+        const rect = svgWrap.getBoundingClientRect();
+        const mid = touchMid(e.touches, rect);
+        // Zoom centered on pinch midpoint (using original pinch start as reference)
+        panX = (1 - ratio) * (pinchMid0[0] - W/2) + ratio * pinchPanX0 + (mid[0] - pinchMid0[0]);
+        panY = (1 - ratio) * (pinchMid0[1] - H/2) + ratio * pinchPanY0 + (mid[1] - pinchMid0[1]);
+        zoom = newZoom;
+        render();
+    } else if (dragging && e.touches.length === 1) {
+        e.preventDefault();
+        const dx = e.touches[0].clientX - dragStartX;
+        const dy = e.touches[0].clientY - dragStartY;
+        azimuth = dragAz0 + dx * 0.005;
+        elevation = Math.max(-Math.PI/2 + 0.1, Math.min(Math.PI/2 - 0.1,
+            dragEl0 - dy * 0.005));
+        panFromPivot(pivotData, azimuth, elevation);
+        render();
+    }
+}, {passive: false});
+
+svgWrap.addEventListener("touchend", (e) => {
+    if (e.touches.length < 2) pinching = false;
+    if (e.touches.length < 1) dragging = false;
+});
 
 // Layer slider
 slider.addEventListener("input", () => {
@@ -558,6 +760,13 @@ playBtn.addEventListener("click", () => {
 // Checkboxes
 showLines.addEventListener("change", render);
 showLabels.addEventListener("change", render);
+
+// Reset view
+resetBtn.addEventListener("click", () => {
+    azimuth = -0.5; elevation = 0.35;
+    zoom = 1.0; panX = 0; panY = 0;
+    render();
+});
 
 // Initial render
 render();
