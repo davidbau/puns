@@ -240,15 +240,10 @@ def collect_batch(model, layers_module, prompts_and_positions,
     layer_results = {l: [] for l in layer_indices} if collect_activations else {}
     all_detailed = [] if collect_detailed else None
 
-    # Probe layer output structure if collecting activations
-    output_is_tuple = False
+    # Layer outputs are tuples for most models (hidden_states, ...), access [0]
+    # We assume tuple format - this works for Llama and similar architectures
     if collect_activations:
-        with model.trace(remote=remote) as tracer:
-            with tracer.invoke("test"):
-                _probe = layers_module[layer_indices[0]].output.save()
-        output_is_tuple = isinstance(_probe, tuple)
-        print(f"    Layer output type: {'tuple' if output_is_tuple else 'tensor'}",
-              flush=True)
+        print(f"    Layer output: assuming tuple format (hidden_states, ...)", flush=True)
 
     for batch_start in range(0, n, batch_size):
         batch_end = min(batch_start + batch_size, n)
@@ -283,7 +278,8 @@ def collect_batch(model, layers_module, prompts_and_positions,
                         layer_vecs = []
                         for layer_idx in layer_indices:
                             out = layers_module[layer_idx].output
-                            hidden = out[0] if output_is_tuple else out
+                            # Layer output is tuple (hidden_states, ...), access [0]
+                            hidden = out[0]
                             layer_vecs.append(hidden[0, adjusted_pos, :].cpu())
                         result["activations"] = torch.stack(layer_vecs)
 
