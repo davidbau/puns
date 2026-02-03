@@ -860,7 +860,7 @@ def make_layer_viz(meta_file, pred_file=None, width=900, height=700):
         candidate = meta_file.parent / f"{stem}_detailed_preds.json"
         if candidate.exists():
             pred_file = candidate
-    if pred_file is not None:
+    if pred_file:  # Skip if False or None (after auto-detect fails)
         print(f"Loading detailed predictions: {Path(pred_file).name}")
         detailed_preds = load_detailed_predictions(pred_file)
 
