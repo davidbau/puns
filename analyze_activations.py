@@ -11,7 +11,12 @@ API overview:
         load_activations(meta_file) → (meta, layer_data, layer_indices)
         get_pair_indices(meta) → (pair_ids, is_funny, is_straight)
 
-    Contrastive pair analysis:
+    Explicit-argument analysis (pedagogical — shows exactly what data is needed):
+        mean_difference(X, is_group_a, is_group_b) → (hidden_dim,) direction
+        compute_fisher_separation(X, is_group_a, is_group_b) → float
+        compute_cohens_d(X, is_group_a, is_group_b, direction) → float
+
+    Contrastive pair analysis (convenience wrappers using meta):
         pair_differences(X, meta) → (n_pairs, hidden_dim)
         contrastive_direction(X, meta) → (hidden_dim,)
 
@@ -19,14 +24,13 @@ API overview:
         pca_projection(X, n_components=2) → (X_pca, components, var_ratios)
         contrastive_projection(X, meta, n_components=2) → (X_proj, components, var_ratios)
 
-    Separation metrics:
+    Separation metrics (convenience wrappers using meta):
         fisher_separation(X, meta) → float
         cohens_d(X, meta, direction=None) → float
         pair_distances(X, meta) → (n_pairs,)
 
     Multi-layer:
         analyze_all_layers(layer_data, meta) → dict
-
 
     Detailed predictions:
         load_detailed_predictions(pred_file) → dict
@@ -110,6 +114,103 @@ def get_pair_indices(meta):
     is_funny = np.array([s["type"] == "funny" for s in samples])
     is_straight = ~is_funny
     return pair_ids, is_funny, is_straight
+
+
+# ── Explicit-argument analysis functions (pedagogical) ───────────────────────
+#
+# These functions take explicit boolean masks instead of the meta dict,
+# making it clear exactly what data is needed for each analysis.
+
+def mean_difference(X, is_group_a, is_group_b):
+    """
+    Compute the mean difference direction between two groups.
+
+    This is the simplest way to find a direction that separates two groups:
+    just compute (mean_a - mean_b) and normalize to unit length.
+
+    Parameters:
+        X: (n_samples, hidden_dim) activation matrix
+        is_group_a: boolean mask for group A (e.g., funny prompts)
+        is_group_b: boolean mask for group B (e.g., straight prompts)
+
+    Returns:
+        direction: (hidden_dim,) unit vector pointing from B mean toward A mean
+    """
+    X = np.asarray(X, dtype=np.float32)
+    mean_a = X[is_group_a].mean(axis=0)
+    mean_b = X[is_group_b].mean(axis=0)
+    diff = mean_a - mean_b
+    norm = np.linalg.norm(diff)
+    return diff / norm if norm > 0 else diff
+
+
+def compute_fisher_separation(X, is_group_a, is_group_b):
+    """
+    Fisher-like separation score: between-group distance / within-group spread.
+
+    This measures how well-separated two groups are in the activation space.
+    Higher values mean better separation.
+
+    Parameters:
+        X: (n_samples, hidden_dim) activation matrix
+        is_group_a: boolean mask for group A
+        is_group_b: boolean mask for group B
+
+    Returns:
+        score: float — ratio of between-group to within-group distances
+    """
+    X = np.asarray(X, dtype=np.float32)
+    mean_a = X[is_group_a].mean(axis=0)
+    mean_b = X[is_group_b].mean(axis=0)
+
+    # Between-group distance: how far apart are the group means?
+    between = np.linalg.norm(mean_a - mean_b)
+
+    # Within-group spread: average distance from each point to its group mean
+    within_a = np.mean(np.linalg.norm(X[is_group_a] - mean_a, axis=1))
+    within_b = np.mean(np.linalg.norm(X[is_group_b] - mean_b, axis=1))
+    within = (within_a + within_b) / 2
+
+    return between / within if within > 0 else 0.0
+
+
+def compute_cohens_d(X, is_group_a, is_group_b, direction):
+    """
+    Cohen's d effect size along a specified direction.
+
+    Projects all activations onto the direction vector, then computes
+    the standardized mean difference between the two groups.
+
+    Cohen's d interpretation:
+        0.2 = small effect
+        0.5 = medium effect
+        0.8 = large effect
+        > 1.0 = very large effect
+
+    Parameters:
+        X: (n_samples, hidden_dim) activation matrix
+        is_group_a: boolean mask for group A
+        is_group_b: boolean mask for group B
+        direction: (hidden_dim,) unit vector to project onto
+
+    Returns:
+        d: float — standardized mean difference (positive = A > B)
+    """
+    X = np.asarray(X, dtype=np.float32)
+    direction = np.asarray(direction, dtype=np.float32)
+
+    # Project all points onto the direction
+    projections = X @ direction
+
+    # Split by group
+    proj_a = projections[is_group_a]
+    proj_b = projections[is_group_b]
+
+    # Cohen's d = (mean_a - mean_b) / pooled_std
+    gap = proj_a.mean() - proj_b.mean()
+    pooled_std = np.sqrt((proj_a.var() + proj_b.var()) / 2)
+
+    return gap / pooled_std if pooled_std > 0 else 0.0
 
 
 # ── Contrastive pair analysis ────────────────────────────────────────────────
