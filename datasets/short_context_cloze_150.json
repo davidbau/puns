@@ -1,0 +1,4388 @@
+[
+  {
+    "pair_id": 0,
+    "type": "straight",
+    "prompt": "The picture should have never been found guilty, but it had been convicted The dangerous iPhone was arrested and charged with",
+    "expected_completion": [
+      "assault",
+      "misdemeanor",
+      "manslaughter",
+      "possession",
+      "crimes",
+      "hacking",
+      "negligence",
+      "conspiracy",
+      "theft",
+      "arson",
+      "fraud",
+      "murder",
+      "stealing"
+    ],
+    "contrast_completion": [
+      "battery"
+    ],
+    "joke_a_index": 109,
+    "joke_c_index": 138,
+    "joke_a_sentence": "The picture should have never been found guilty, but it had been ___",
+    "joke_c_sentence": "The dangerous iPhone was arrested and charged with ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.04,
+    "a_completion": "convicted"
+  },
+  {
+    "pair_id": 0,
+    "type": "funny",
+    "prompt": "The picture should have never been found guilty, but it had been framed The dangerous iPhone was arrested and charged with",
+    "expected_completion": [
+      "battery"
+    ],
+    "contrast_completion": [
+      "assault",
+      "misdemeanor",
+      "manslaughter",
+      "possession",
+      "crimes",
+      "hacking",
+      "negligence",
+      "conspiracy",
+      "theft",
+      "arson",
+      "fraud",
+      "murder",
+      "stealing"
+    ],
+    "joke_a_index": 109,
+    "joke_c_index": 138,
+    "joke_a_sentence": "The picture should have never been found guilty, but it had been ___",
+    "joke_c_sentence": "The dangerous iPhone was arrested and charged with ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.04,
+    "a_completion": "framed"
+  },
+  {
+    "pair_id": 1,
+    "type": "straight",
+    "prompt": "The lightning was terrible at relationships because it always separated The bread was afraid to be best man, because he would have to make a",
+    "expected_completion": [
+      "speech",
+      "tribute",
+      "monologue",
+      "dedication"
+    ],
+    "contrast_completion": [
+      "toast"
+    ],
+    "joke_a_index": 154,
+    "joke_c_index": 156,
+    "joke_a_sentence": "The lightning was terrible at relationships because it always ___",
+    "joke_c_sentence": "The bread was afraid to be best man, because he would have to make a ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0426,
+    "a_completion": "separated"
+  },
+  {
+    "pair_id": 1,
+    "type": "funny",
+    "prompt": "The lightning was terrible at relationships because it always struck The bread was afraid to be best man, because he would have to make a",
+    "expected_completion": [
+      "toast"
+    ],
+    "contrast_completion": [
+      "speech",
+      "tribute",
+      "monologue",
+      "dedication"
+    ],
+    "joke_a_index": 154,
+    "joke_c_index": 156,
+    "joke_a_sentence": "The lightning was terrible at relationships because it always ___",
+    "joke_c_sentence": "The bread was afraid to be best man, because he would have to make a ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0426,
+    "a_completion": "struck"
+  },
+  {
+    "pair_id": 2,
+    "type": "straight",
+    "prompt": "The chemists' marriage was strong because of their incredible compatibility The wizard ran a fantastic music school because he had a great",
+    "expected_completion": [
+      "passion",
+      "ear",
+      "understanding",
+      "talent",
+      "reputation",
+      "affection",
+      "appreciation",
+      "network",
+      "imagination",
+      "teacher",
+      "sense",
+      "melody",
+      "gift",
+      "beat"
+    ],
+    "contrast_completion": [
+      "staff",
+      "spell"
+    ],
+    "joke_a_index": 129,
+    "joke_c_index": 76,
+    "joke_a_sentence": "The chemists' marriage was strong because of their incredible ___",
+    "joke_c_sentence": "The wizard ran a fantastic music school because he had a great ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "compatibility"
+  },
+  {
+    "pair_id": 2,
+    "type": "funny",
+    "prompt": "The chemists' marriage was strong because of their incredible chemistry The wizard ran a fantastic music school because he had a great",
+    "expected_completion": [
+      "staff",
+      "spell"
+    ],
+    "contrast_completion": [
+      "passion",
+      "ear",
+      "understanding",
+      "talent",
+      "reputation",
+      "affection",
+      "appreciation",
+      "network",
+      "imagination",
+      "teacher",
+      "sense",
+      "melody",
+      "gift",
+      "beat"
+    ],
+    "joke_a_index": 129,
+    "joke_c_index": 76,
+    "joke_a_sentence": "The chemists' marriage was strong because of their incredible ___",
+    "joke_c_sentence": "The wizard ran a fantastic music school because he had a great ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "chemistry"
+  },
+  {
+    "pair_id": 3,
+    "type": "straight",
+    "prompt": "The golfer's shirt was always wrinkled because he could never find his ironing The mushroom's salary never went up because there was always a",
+    "expected_completion": [
+      "ceiling",
+      "limit",
+      "catch",
+      "snafu",
+      "budget",
+      "snag",
+      "restriction",
+      "shortage"
+    ],
+    "contrast_completion": [
+      "cap",
+      "fun-gi",
+      "fungus",
+      "fungi"
+    ],
+    "joke_a_index": 18,
+    "joke_c_index": 71,
+    "joke_a_sentence": "The golfer's shirt was always wrinkled because he could never find his ___",
+    "joke_c_sentence": "The mushroom's salary never went up because there was always a ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.4444,
+    "a_completion": "ironing"
+  },
+  {
+    "pair_id": 3,
+    "type": "funny",
+    "prompt": "The golfer's shirt was always wrinkled because he could never find his iron The mushroom's salary never went up because there was always a",
+    "expected_completion": [
+      "cap",
+      "fun-gi",
+      "fungus",
+      "fungi"
+    ],
+    "contrast_completion": [
+      "ceiling",
+      "limit",
+      "catch",
+      "snafu",
+      "budget",
+      "snag",
+      "restriction",
+      "shortage"
+    ],
+    "joke_a_index": 18,
+    "joke_c_index": 71,
+    "joke_a_sentence": "The golfer's shirt was always wrinkled because he could never find his ___",
+    "joke_c_sentence": "The mushroom's salary never went up because there was always a ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.4444,
+    "a_completion": "iron"
+  },
+  {
+    "pair_id": 4,
+    "type": "straight",
+    "prompt": "The cross-eyed teacher lost her job because she couldn't control her classroom The vulture boarded the airplane with two dead raccoons but was told he was only allowed one",
+    "expected_completion": [
+      "carry-on",
+      "carryon",
+      "baggage",
+      "carcass",
+      "animal",
+      "bag",
+      "companion",
+      "suitcase",
+      "item"
+    ],
+    "contrast_completion": [
+      "carrion",
+      "carry",
+      "carryon",
+      "carry-on"
+    ],
+    "joke_a_index": 64,
+    "joke_c_index": 42,
+    "joke_a_sentence": "The cross-eyed teacher lost her job because she couldn't control her ___",
+    "joke_c_sentence": "The vulture boarded the airplane with two dead raccoons but was told he was only allowed one ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "classroom"
+  },
+  {
+    "pair_id": 4,
+    "type": "funny",
+    "prompt": "The cross-eyed teacher lost her job because she couldn't control her class The vulture boarded the airplane with two dead raccoons but was told he was only allowed one",
+    "expected_completion": [
+      "carrion",
+      "carry",
+      "carryon",
+      "carry-on"
+    ],
+    "contrast_completion": [
+      "carry-on",
+      "carryon",
+      "baggage",
+      "carcass",
+      "animal",
+      "bag",
+      "companion",
+      "suitcase",
+      "item"
+    ],
+    "joke_a_index": 64,
+    "joke_c_index": 42,
+    "joke_a_sentence": "The cross-eyed teacher lost her job because she couldn't control her ___",
+    "joke_c_sentence": "The vulture boarded the airplane with two dead raccoons but was told he was only allowed one ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "class"
+  },
+  {
+    "pair_id": 5,
+    "type": "straight",
+    "prompt": "The calendar thief got twelve years The fish was smart because it spent all its time in a",
+    "expected_completion": [
+      "library",
+      "tank",
+      "cave",
+      "university",
+      "museum"
+    ],
+    "contrast_completion": [
+      "school"
+    ],
+    "joke_a_index": 2,
+    "joke_c_index": 58,
+    "joke_a_sentence": "The calendar thief got twelve ___",
+    "joke_c_sentence": "The fish was smart because it spent all its time in a ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0274,
+    "a_completion": "years"
+  },
+  {
+    "pair_id": 5,
+    "type": "funny",
+    "prompt": "The calendar thief got twelve months The fish was smart because it spent all its time in a",
+    "expected_completion": [
+      "school"
+    ],
+    "contrast_completion": [
+      "library",
+      "tank",
+      "cave",
+      "university",
+      "museum"
+    ],
+    "joke_a_index": 2,
+    "joke_c_index": 58,
+    "joke_a_sentence": "The calendar thief got twelve ___",
+    "joke_c_sentence": "The fish was smart because it spent all its time in a ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0274,
+    "a_completion": "months"
+  },
+  {
+    "pair_id": 6,
+    "type": "straight",
+    "prompt": "The cafeteria lady quit because she was tired The average data scientist is hard to befriend because they are so",
+    "expected_completion": [
+      "intelligent",
+      "analytical",
+      "introverted",
+      "focused",
+      "absorbed",
+      "intense",
+      "self-contained",
+      "self-absorbed",
+      "reserved",
+      "obsessed",
+      "introspective",
+      "meticulous",
+      "logical",
+      "harsh",
+      "cruel",
+      "nasty",
+      "nerdy"
+    ],
+    "contrast_completion": [
+      "mean",
+      "analytical",
+      "variable"
+    ],
+    "joke_a_index": 180,
+    "joke_c_index": 105,
+    "joke_a_sentence": "The cafeteria lady quit because she was ___",
+    "joke_c_sentence": "The average data scientist is hard to befriend because they are so ___",
+    "joke_a_tier": "straight_dominated",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "tired"
+  },
+  {
+    "pair_id": 6,
+    "type": "funny",
+    "prompt": "The cafeteria lady quit because she was fed up The average data scientist is hard to befriend because they are so",
+    "expected_completion": [
+      "mean",
+      "analytical",
+      "variable"
+    ],
+    "contrast_completion": [
+      "intelligent",
+      "analytical",
+      "introverted",
+      "focused",
+      "absorbed",
+      "intense",
+      "self-contained",
+      "self-absorbed",
+      "reserved",
+      "obsessed",
+      "introspective",
+      "meticulous",
+      "logical",
+      "harsh",
+      "cruel",
+      "nasty",
+      "nerdy"
+    ],
+    "joke_a_index": 180,
+    "joke_c_index": 105,
+    "joke_a_sentence": "The cafeteria lady quit because she was ___",
+    "joke_c_sentence": "The average data scientist is hard to befriend because they are so ___",
+    "joke_a_tier": "straight_dominated",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "fed up"
+  },
+  {
+    "pair_id": 7,
+    "type": "straight",
+    "prompt": "The poker player never panicked because he never showed his emotions The plumber went to the casino and got a",
+    "expected_completion": [
+      "jackpot",
+      "job",
+      "bet",
+      "win",
+      "bonus"
+    ],
+    "contrast_completion": [
+      "flush"
+    ],
+    "joke_a_index": 25,
+    "joke_c_index": 164,
+    "joke_a_sentence": "The poker player never panicked because he never showed his ___",
+    "joke_c_sentence": "The plumber went to the casino and got a ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "emotions"
+  },
+  {
+    "pair_id": 7,
+    "type": "funny",
+    "prompt": "The poker player never panicked because he never showed his hand The plumber went to the casino and got a",
+    "expected_completion": [
+      "flush"
+    ],
+    "contrast_completion": [
+      "jackpot",
+      "job",
+      "bet",
+      "win",
+      "bonus"
+    ],
+    "joke_a_index": 25,
+    "joke_c_index": 164,
+    "joke_a_sentence": "The poker player never panicked because he never showed his ___",
+    "joke_c_sentence": "The plumber went to the casino and got a ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "hand"
+  },
+  {
+    "pair_id": 8,
+    "type": "straight",
+    "prompt": "The roof repairman offered his services for free because it was on the property The baker couldn't solve the mystery because the evidence kept",
+    "expected_completion": [
+      "disappearing",
+      "fading",
+      "vanishing",
+      "changing",
+      "slipping",
+      "eluding",
+      "moving",
+      "shifting"
+    ],
+    "contrast_completion": [
+      "crumbling",
+      "crumbing"
+    ],
+    "joke_a_index": 12,
+    "joke_c_index": 35,
+    "joke_a_sentence": "The roof repairman offered his services for free because it was on the ___",
+    "joke_c_sentence": "The baker couldn't solve the mystery because the evidence kept ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "property"
+  },
+  {
+    "pair_id": 8,
+    "type": "funny",
+    "prompt": "The roof repairman offered his services for free because it was on the house The baker couldn't solve the mystery because the evidence kept",
+    "expected_completion": [
+      "crumbling",
+      "crumbing"
+    ],
+    "contrast_completion": [
+      "disappearing",
+      "fading",
+      "vanishing",
+      "changing",
+      "slipping",
+      "eluding",
+      "moving",
+      "shifting"
+    ],
+    "joke_a_index": 12,
+    "joke_c_index": 35,
+    "joke_a_sentence": "The roof repairman offered his services for free because it was on the ___",
+    "joke_c_sentence": "The baker couldn't solve the mystery because the evidence kept ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "house"
+  },
+  {
+    "pair_id": 9,
+    "type": "straight",
+    "prompt": "The tightrope walker went to the bank to check his account The scuba instructor's students loved her because she never made them feel",
+    "expected_completion": [
+      "stupid",
+      "nervous",
+      "overwhelmed",
+      "intimidated",
+      "uncomfortable",
+      "inadequate",
+      "inferior",
+      "embarrassed",
+      "belittled",
+      "self-conscious",
+      "scared",
+      "anxious",
+      "overcrowded",
+      "bored",
+      "guilty",
+      "dumb"
+    ],
+    "contrast_completion": [
+      "shallow",
+      "pressured",
+      "pressurized"
+    ],
+    "joke_a_index": 92,
+    "joke_c_index": 162,
+    "joke_a_sentence": "The tightrope walker went to the bank to check his ___",
+    "joke_c_sentence": "The scuba instructor's students loved her because she never made them feel ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "account"
+  },
+  {
+    "pair_id": 9,
+    "type": "funny",
+    "prompt": "The tightrope walker went to the bank to check his balance The scuba instructor's students loved her because she never made them feel",
+    "expected_completion": [
+      "shallow",
+      "pressured",
+      "pressurized"
+    ],
+    "contrast_completion": [
+      "stupid",
+      "nervous",
+      "overwhelmed",
+      "intimidated",
+      "uncomfortable",
+      "inadequate",
+      "inferior",
+      "embarrassed",
+      "belittled",
+      "self-conscious",
+      "scared",
+      "anxious",
+      "overcrowded",
+      "bored",
+      "guilty",
+      "dumb"
+    ],
+    "joke_a_index": 92,
+    "joke_c_index": 162,
+    "joke_a_sentence": "The tightrope walker went to the bank to check his ___",
+    "joke_c_sentence": "The scuba instructor's students loved her because she never made them feel ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "balance"
+  },
+  {
+    "pair_id": 10,
+    "type": "straight",
+    "prompt": "The coffee filed a police report after it got stolen The lizard keeper got a job in IT because he already worked with",
+    "expected_completion": [
+      "computers",
+      "reptiles",
+      "networks",
+      "snakes",
+      "systems",
+      "servers",
+      "computer",
+      "lizards",
+      "mainframes",
+      "mainframe",
+      "screens",
+      "hardware",
+      "reptile",
+      "cold-blooded",
+      "reptilian",
+      "cables"
+    ],
+    "contrast_completion": [
+      "scales",
+      "monitors",
+      "scale"
+    ],
+    "joke_a_index": 112,
+    "joke_c_index": 98,
+    "joke_a_sentence": "The coffee filed a police report after it got ___",
+    "joke_c_sentence": "The lizard keeper got a job in IT because he already worked with ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0118,
+    "a_completion": "stolen"
+  },
+  {
+    "pair_id": 10,
+    "type": "funny",
+    "prompt": "The coffee filed a police report after it got mugged The lizard keeper got a job in IT because he already worked with",
+    "expected_completion": [
+      "scales",
+      "monitors",
+      "scale"
+    ],
+    "contrast_completion": [
+      "computers",
+      "reptiles",
+      "networks",
+      "snakes",
+      "systems",
+      "servers",
+      "computer",
+      "lizards",
+      "mainframes",
+      "mainframe",
+      "screens",
+      "hardware",
+      "reptile",
+      "cold-blooded",
+      "reptilian",
+      "cables"
+    ],
+    "joke_a_index": 112,
+    "joke_c_index": 98,
+    "joke_a_sentence": "The coffee filed a police report after it got ___",
+    "joke_c_sentence": "The lizard keeper got a job in IT because he already worked with ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0118,
+    "a_completion": "mugged"
+  },
+  {
+    "pair_id": 11,
+    "type": "straight",
+    "prompt": "The broom maker decided to make a clean break The magazine editor was overwhelmed because there were too many",
+    "expected_completion": [
+      "submissions",
+      "articles",
+      "applications",
+      "requests",
+      "writers",
+      "entries",
+      "manuscripts",
+      "journalists",
+      "demands",
+      "deadlines",
+      "tasks",
+      "stories",
+      "pressures"
+    ],
+    "contrast_completion": [
+      "issues"
+    ],
+    "joke_a_index": 8,
+    "joke_c_index": 1,
+    "joke_a_sentence": "The broom maker decided to make a clean ___",
+    "joke_c_sentence": "The magazine editor was overwhelmed because there were too many ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "break"
+  },
+  {
+    "pair_id": 11,
+    "type": "funny",
+    "prompt": "The broom maker decided to make a clean sweep The magazine editor was overwhelmed because there were too many",
+    "expected_completion": [
+      "issues"
+    ],
+    "contrast_completion": [
+      "submissions",
+      "articles",
+      "applications",
+      "requests",
+      "writers",
+      "entries",
+      "manuscripts",
+      "journalists",
+      "demands",
+      "deadlines",
+      "tasks",
+      "stories",
+      "pressures"
+    ],
+    "joke_a_index": 8,
+    "joke_c_index": 1,
+    "joke_a_sentence": "The broom maker decided to make a clean ___",
+    "joke_c_sentence": "The magazine editor was overwhelmed because there were too many ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "sweep"
+  },
+  {
+    "pair_id": 12,
+    "type": "straight",
+    "prompt": "The pony couldn't sing in the choir because he was a little scared The horse breeder's business was always",
+    "expected_completion": [
+      "thriving",
+      "booming",
+      "struggling",
+      "understaffed",
+      "successful",
+      "flourishing",
+      "busy",
+      "profitable"
+    ],
+    "contrast_completion": [
+      "stable"
+    ],
+    "joke_a_index": 104,
+    "joke_c_index": 183,
+    "joke_a_sentence": "The pony couldn't sing in the choir because he was a little ___",
+    "joke_c_sentence": "The horse breeder's business was always ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "scared"
+  },
+  {
+    "pair_id": 12,
+    "type": "funny",
+    "prompt": "The pony couldn't sing in the choir because he was a little hoarse The horse breeder's business was always",
+    "expected_completion": [
+      "stable"
+    ],
+    "contrast_completion": [
+      "thriving",
+      "booming",
+      "struggling",
+      "understaffed",
+      "successful",
+      "flourishing",
+      "busy",
+      "profitable"
+    ],
+    "joke_a_index": 104,
+    "joke_c_index": 183,
+    "joke_a_sentence": "The pony couldn't sing in the choir because he was a little ___",
+    "joke_c_sentence": "The horse breeder's business was always ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "hoarse"
+  },
+  {
+    "pair_id": 13,
+    "type": "straight",
+    "prompt": "The puzzle maker's alibi had too many missing links The balloon advertisement was full of",
+    "expected_completion": [
+      "misleading",
+      "promises",
+      "hype",
+      "empty",
+      "hyperbole",
+      "buzzwords",
+      "vacuous",
+      "flaws",
+      "deception",
+      "exaggerations",
+      "excitement",
+      "promise",
+      "potential",
+      "problems"
+    ],
+    "contrast_completion": [
+      "air",
+      "hot air"
+    ],
+    "joke_a_index": 20,
+    "joke_c_index": 149,
+    "joke_a_sentence": "The puzzle maker's alibi had too many missing ___",
+    "joke_c_sentence": "The balloon advertisement was full of ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0556,
+    "a_completion": "links"
+  },
+  {
+    "pair_id": 13,
+    "type": "funny",
+    "prompt": "The puzzle maker's alibi had too many missing pieces The balloon advertisement was full of",
+    "expected_completion": [
+      "air",
+      "hot air"
+    ],
+    "contrast_completion": [
+      "misleading",
+      "promises",
+      "hype",
+      "empty",
+      "hyperbole",
+      "buzzwords",
+      "vacuous",
+      "flaws",
+      "deception",
+      "exaggerations",
+      "excitement",
+      "promise",
+      "potential",
+      "problems"
+    ],
+    "joke_a_index": 20,
+    "joke_c_index": 149,
+    "joke_a_sentence": "The puzzle maker's alibi had too many missing ___",
+    "joke_c_sentence": "The balloon advertisement was full of ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0556,
+    "a_completion": "pieces"
+  },
+  {
+    "pair_id": 14,
+    "type": "straight",
+    "prompt": "The deaf astrologer was always looking for a connection The ship captain was impossible to negotiate with because he was too",
+    "expected_completion": [
+      "stubborn",
+      "proud",
+      "independent",
+      "ambitious",
+      "absolutist",
+      "blind",
+      "obstinate",
+      "conceited",
+      "adamant",
+      "assertive",
+      "authoritative",
+      "controlling",
+      "shortsighted",
+      "demanding",
+      "stingy",
+      "rigid"
+    ],
+    "contrast_completion": [
+      "stern",
+      "anchored"
+    ],
+    "joke_a_index": 96,
+    "joke_c_index": 125,
+    "joke_a_sentence": "The deaf astrologer was always looking for a ___",
+    "joke_c_sentence": "The ship captain was impossible to negotiate with because he was too ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0105,
+    "a_completion": "connection"
+  },
+  {
+    "pair_id": 14,
+    "type": "funny",
+    "prompt": "The deaf astrologer was always looking for a sign The ship captain was impossible to negotiate with because he was too",
+    "expected_completion": [
+      "stern",
+      "anchored"
+    ],
+    "contrast_completion": [
+      "stubborn",
+      "proud",
+      "independent",
+      "ambitious",
+      "absolutist",
+      "blind",
+      "obstinate",
+      "conceited",
+      "adamant",
+      "assertive",
+      "authoritative",
+      "controlling",
+      "shortsighted",
+      "demanding",
+      "stingy",
+      "rigid"
+    ],
+    "joke_a_index": 96,
+    "joke_c_index": 125,
+    "joke_a_sentence": "The deaf astrologer was always looking for a ___",
+    "joke_c_sentence": "The ship captain was impossible to negotiate with because he was too ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0105,
+    "a_completion": "sign"
+  },
+  {
+    "pair_id": 15,
+    "type": "straight",
+    "prompt": "The frog was happy because he ate what insects The deli owner was great at ending arguments because he could see through the",
+    "expected_completion": [
+      "nonsense",
+      "facade",
+      "emotions",
+      "bickering",
+      "rhetoric",
+      "bitchiness",
+      "bitterness",
+      "histrionics",
+      "frustration",
+      "emotion",
+      "bullshit",
+      "smokescreen",
+      "posturing",
+      "bull",
+      "hypocrisy",
+      "expectations",
+      "b.s",
+      "subtext",
+      "subtleties",
+      "surface",
+      "bluff",
+      "lies",
+      "excuses",
+      "smoke"
+    ],
+    "contrast_completion": [
+      "baloney",
+      "meat"
+    ],
+    "joke_a_index": 11,
+    "joke_c_index": 87,
+    "joke_a_sentence": "The frog was happy because he ate what ___",
+    "joke_c_sentence": "The deli owner was great at ending arguments because he could see through the ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "insects"
+  },
+  {
+    "pair_id": 15,
+    "type": "funny",
+    "prompt": "The frog was happy because he ate what flies The deli owner was great at ending arguments because he could see through the",
+    "expected_completion": [
+      "baloney",
+      "meat"
+    ],
+    "contrast_completion": [
+      "nonsense",
+      "facade",
+      "emotions",
+      "bickering",
+      "rhetoric",
+      "bitchiness",
+      "bitterness",
+      "histrionics",
+      "frustration",
+      "emotion",
+      "bullshit",
+      "smokescreen",
+      "posturing",
+      "bull",
+      "hypocrisy",
+      "expectations",
+      "b.s",
+      "subtext",
+      "subtleties",
+      "surface",
+      "bluff",
+      "lies",
+      "excuses",
+      "smoke"
+    ],
+    "joke_a_index": 11,
+    "joke_c_index": 87,
+    "joke_a_sentence": "The frog was happy because he ate what ___",
+    "joke_c_sentence": "The deli owner was great at ending arguments because he could see through the ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "flies"
+  },
+  {
+    "pair_id": 16,
+    "type": "straight",
+    "prompt": "The bookbinder's business operated on thin lines The traffic light was embarrassed and turned red when it had to",
+    "expected_completion": [
+      "admit",
+      "stop",
+      "confront",
+      "announce",
+      "signal",
+      "yield",
+      "confess",
+      "fail",
+      "direct",
+      "inform",
+      "interrupt",
+      "explain",
+      "apologize",
+      "serve",
+      "stop traffic",
+      "halt cars",
+      "work again",
+      "halt",
+      "work"
+    ],
+    "contrast_completion": [
+      "change"
+    ],
+    "joke_a_index": 48,
+    "joke_c_index": 163,
+    "joke_a_sentence": "The bookbinder's business operated on thin ___",
+    "joke_c_sentence": "The traffic light was embarrassed and turned red when it had to ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0213,
+    "a_completion": "lines"
+  },
+  {
+    "pair_id": 16,
+    "type": "funny",
+    "prompt": "The bookbinder's business operated on thin margins The traffic light was embarrassed and turned red when it had to",
+    "expected_completion": [
+      "change"
+    ],
+    "contrast_completion": [
+      "admit",
+      "stop",
+      "confront",
+      "announce",
+      "signal",
+      "yield",
+      "confess",
+      "fail",
+      "direct",
+      "inform",
+      "interrupt",
+      "explain",
+      "apologize",
+      "serve",
+      "stop traffic",
+      "halt cars",
+      "work again",
+      "halt",
+      "work"
+    ],
+    "joke_a_index": 48,
+    "joke_c_index": 163,
+    "joke_a_sentence": "The bookbinder's business operated on thin ___",
+    "joke_c_sentence": "The traffic light was embarrassed and turned red when it had to ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0213,
+    "a_completion": "margins"
+  },
+  {
+    "pair_id": 17,
+    "type": "straight",
+    "prompt": "The tennis stringer was kicked out of the library for making a ruckus The fish couldn't learn guitar because he couldn't get past the",
+    "expected_completion": [
+      "fretboard",
+      "fingers",
+      "fingering",
+      "strings",
+      "difficulty",
+      "fret",
+      "frets",
+      "fingertips",
+      "chords",
+      "barrier",
+      "fretting",
+      "chord",
+      "technique",
+      "bar",
+      "finger",
+      "basics"
+    ],
+    "contrast_completion": [
+      "scales",
+      "bass"
+    ],
+    "joke_a_index": 190,
+    "joke_c_index": 84,
+    "joke_a_sentence": "The tennis stringer was kicked out of the library for making a ___",
+    "joke_c_sentence": "The fish couldn't learn guitar because he couldn't get past the ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0217,
+    "a_completion": "ruckus"
+  },
+  {
+    "pair_id": 17,
+    "type": "funny",
+    "prompt": "The tennis stringer was kicked out of the library for making a racket The fish couldn't learn guitar because he couldn't get past the",
+    "expected_completion": [
+      "scales",
+      "bass"
+    ],
+    "contrast_completion": [
+      "fretboard",
+      "fingers",
+      "fingering",
+      "strings",
+      "difficulty",
+      "fret",
+      "frets",
+      "fingertips",
+      "chords",
+      "barrier",
+      "fretting",
+      "chord",
+      "technique",
+      "bar",
+      "finger",
+      "basics"
+    ],
+    "joke_a_index": 190,
+    "joke_c_index": 84,
+    "joke_a_sentence": "The tennis stringer was kicked out of the library for making a ___",
+    "joke_c_sentence": "The fish couldn't learn guitar because he couldn't get past the ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0217,
+    "a_completion": "racket"
+  },
+  {
+    "pair_id": 18,
+    "type": "straight",
+    "prompt": "The dog was a tree expert because he knew his roots The wedding photographer refused to work divorces because they involved too much",
+    "expected_completion": [
+      "drama",
+      "negativity",
+      "sadness",
+      "conflict",
+      "emotion",
+      "stress",
+      "hate",
+      "cruelty",
+      "sorrow",
+      "damage",
+      "crying",
+      "separation"
+    ],
+    "contrast_completion": [
+      "exposure",
+      "shooting"
+    ],
+    "joke_a_index": 26,
+    "joke_c_index": 119,
+    "joke_a_sentence": "The dog was a tree expert because he knew his ___",
+    "joke_c_sentence": "The wedding photographer refused to work divorces because they involved too much ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "roots"
+  },
+  {
+    "pair_id": 18,
+    "type": "funny",
+    "prompt": "The dog was a tree expert because he knew his bark The wedding photographer refused to work divorces because they involved too much",
+    "expected_completion": [
+      "exposure",
+      "shooting"
+    ],
+    "contrast_completion": [
+      "drama",
+      "negativity",
+      "sadness",
+      "conflict",
+      "emotion",
+      "stress",
+      "hate",
+      "cruelty",
+      "sorrow",
+      "damage",
+      "crying",
+      "separation"
+    ],
+    "joke_a_index": 26,
+    "joke_c_index": 119,
+    "joke_a_sentence": "The dog was a tree expert because he knew his ___",
+    "joke_c_sentence": "The wedding photographer refused to work divorces because they involved too much ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "bark"
+  },
+  {
+    "pair_id": 19,
+    "type": "straight",
+    "prompt": "The history teacher was depressed because he lived in the shadow The filmmaker somehow ended up in HR because she knew how to",
+    "expected_completion": [
+      "mediate",
+      "handle",
+      "manage",
+      "manipulate",
+      "negotiate",
+      "influence",
+      "problem-solve",
+      "evaluate",
+      "interview"
+    ],
+    "contrast_completion": [
+      "screen",
+      "frame",
+      "develop"
+    ],
+    "joke_a_index": 97,
+    "joke_c_index": 103,
+    "joke_a_sentence": "The history teacher was depressed because he lived in the ___",
+    "joke_c_sentence": "The filmmaker somehow ended up in HR because she knew how to ___ people",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "shadow"
+  },
+  {
+    "pair_id": 19,
+    "type": "funny",
+    "prompt": "The history teacher was depressed because he lived in the past The filmmaker somehow ended up in HR because she knew how to",
+    "expected_completion": [
+      "screen",
+      "frame",
+      "develop"
+    ],
+    "contrast_completion": [
+      "mediate",
+      "handle",
+      "manage",
+      "manipulate",
+      "negotiate",
+      "influence",
+      "problem-solve",
+      "evaluate",
+      "interview"
+    ],
+    "joke_a_index": 97,
+    "joke_c_index": 103,
+    "joke_a_sentence": "The history teacher was depressed because he lived in the ___",
+    "joke_c_sentence": "The filmmaker somehow ended up in HR because she knew how to ___ people",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "past"
+  },
+  {
+    "pair_id": 20,
+    "type": "straight",
+    "prompt": "The bread was nervous about the meeting because he was about to get fired The poker player loved this mountain trail because it ended at a",
+    "expected_completion": [
+      "casino",
+      "lodge",
+      "waterfall",
+      "lake",
+      "meadow",
+      "cabins",
+      "lakehouse",
+      "summit",
+      "viewpoint",
+      "clearing"
+    ],
+    "contrast_completion": [
+      "bluff",
+      "peak"
+    ],
+    "joke_a_index": 68,
+    "joke_c_index": 176,
+    "joke_a_sentence": "The bread was nervous about the meeting because he was about to get ___",
+    "joke_c_sentence": "The poker player loved this mountain trail because it ended at a ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "fired"
+  },
+  {
+    "pair_id": 20,
+    "type": "funny",
+    "prompt": "The bread was nervous about the meeting because he was about to get toasted The poker player loved this mountain trail because it ended at a",
+    "expected_completion": [
+      "bluff",
+      "peak"
+    ],
+    "contrast_completion": [
+      "casino",
+      "lodge",
+      "waterfall",
+      "lake",
+      "meadow",
+      "cabins",
+      "lakehouse",
+      "summit",
+      "viewpoint",
+      "clearing"
+    ],
+    "joke_a_index": 68,
+    "joke_c_index": 176,
+    "joke_a_sentence": "The bread was nervous about the meeting because he was about to get ___",
+    "joke_c_sentence": "The poker player loved this mountain trail because it ended at a ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "toasted"
+  },
+  {
+    "pair_id": 21,
+    "type": "straight",
+    "prompt": "The police even arrested a belt for holding up a pair of sneakers After his return the astronaut chose this restaurant because it had great",
+    "expected_completion": [
+      "reviews",
+      "food",
+      "views",
+      "service",
+      "reputation",
+      "steaks",
+      "view",
+      "barbecue",
+      "review",
+      "burgers",
+      "ambiance"
+    ],
+    "contrast_completion": [
+      "atmosphere",
+      "space"
+    ],
+    "joke_a_index": 139,
+    "joke_c_index": 43,
+    "joke_a_sentence": "The police even arrested a belt for holding up a pair of ___",
+    "joke_c_sentence": "After his return the astronaut chose this restaurant because it had great ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0417,
+    "a_completion": "sneakers"
+  },
+  {
+    "pair_id": 21,
+    "type": "funny",
+    "prompt": "The police even arrested a belt for holding up a pair of pants After his return the astronaut chose this restaurant because it had great",
+    "expected_completion": [
+      "atmosphere",
+      "space"
+    ],
+    "contrast_completion": [
+      "reviews",
+      "food",
+      "views",
+      "service",
+      "reputation",
+      "steaks",
+      "view",
+      "barbecue",
+      "review",
+      "burgers",
+      "ambiance"
+    ],
+    "joke_a_index": 139,
+    "joke_c_index": 43,
+    "joke_a_sentence": "The police even arrested a belt for holding up a pair of ___",
+    "joke_c_sentence": "After his return the astronaut chose this restaurant because it had great ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0417,
+    "a_completion": "pants"
+  },
+  {
+    "pair_id": 22,
+    "type": "straight",
+    "prompt": "The electrician quit the band because he couldn't handle the constant traveling The barber's philosophy lectures were popular because he always made the",
+    "expected_completion": [
+      "point",
+      "subject",
+      "connection",
+      "points",
+      "material",
+      "ideas",
+      "concept",
+      "argument"
+    ],
+    "contrast_completion": [
+      "cut"
+    ],
+    "joke_a_index": 50,
+    "joke_c_index": 195,
+    "joke_a_sentence": "The electrician quit the band because he couldn't handle the constant ___",
+    "joke_c_sentence": "The barber's philosophy lectures were popular because he always made the ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "traveling"
+  },
+  {
+    "pair_id": 22,
+    "type": "funny",
+    "prompt": "The electrician quit the band because he couldn't handle the constant tension The barber's philosophy lectures were popular because he always made the",
+    "expected_completion": [
+      "cut"
+    ],
+    "contrast_completion": [
+      "point",
+      "subject",
+      "connection",
+      "points",
+      "material",
+      "ideas",
+      "concept",
+      "argument"
+    ],
+    "joke_a_index": 50,
+    "joke_c_index": 195,
+    "joke_a_sentence": "The electrician quit the band because he couldn't handle the constant ___",
+    "joke_c_sentence": "The barber's philosophy lectures were popular because he always made the ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "tension"
+  },
+  {
+    "pair_id": 23,
+    "type": "straight",
+    "prompt": "The glass maker's lies were completely exposed The elevator operator had an eventful life with many",
+    "expected_completion": [
+      "adventures",
+      "experiences",
+      "twists",
+      "turns",
+      "surprises",
+      "travels",
+      "incidents",
+      "perils",
+      "excitements",
+      "disturbances",
+      "encounters",
+      "stories",
+      "benefits",
+      "perks",
+      "moments"
+    ],
+    "contrast_completion": [
+      "ups and downs"
+    ],
+    "joke_a_index": 197,
+    "joke_c_index": 17,
+    "joke_a_sentence": "The glass maker's lies were completely ___",
+    "joke_c_sentence": "The elevator operator had an eventful life with many ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "exposed"
+  },
+  {
+    "pair_id": 23,
+    "type": "funny",
+    "prompt": "The glass maker's lies were completely transparent The elevator operator had an eventful life with many",
+    "expected_completion": [
+      "ups and downs"
+    ],
+    "contrast_completion": [
+      "adventures",
+      "experiences",
+      "twists",
+      "turns",
+      "surprises",
+      "travels",
+      "incidents",
+      "perils",
+      "excitements",
+      "disturbances",
+      "encounters",
+      "stories",
+      "benefits",
+      "perks",
+      "moments"
+    ],
+    "joke_a_index": 197,
+    "joke_c_index": 17,
+    "joke_a_sentence": "The glass maker's lies were completely ___",
+    "joke_c_sentence": "The elevator operator had an eventful life with many ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "transparent"
+  },
+  {
+    "pair_id": 24,
+    "type": "straight",
+    "prompt": "The walrus was great at notarizing documents because he had the perfect signature The indecisive chef reopened his restaurant but still had",
+    "expected_completion": [
+      "trouble",
+      "doubts",
+      "difficulty",
+      "difficulties",
+      "second-guessing",
+      "troubles",
+      "concerns",
+      "second thoughts",
+      "customers",
+      "second"
+    ],
+    "contrast_completion": [
+      "reservations",
+      "cold"
+    ],
+    "joke_a_index": 169,
+    "joke_c_index": 95,
+    "joke_a_sentence": "The walrus was great at notarizing documents because he had the perfect ___",
+    "joke_c_sentence": "The indecisive chef reopened his restaurant but still had ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "signature"
+  },
+  {
+    "pair_id": 24,
+    "type": "funny",
+    "prompt": "The walrus was great at notarizing documents because he had the perfect seal The indecisive chef reopened his restaurant but still had",
+    "expected_completion": [
+      "reservations",
+      "cold"
+    ],
+    "contrast_completion": [
+      "trouble",
+      "doubts",
+      "difficulty",
+      "difficulties",
+      "second-guessing",
+      "troubles",
+      "concerns",
+      "second thoughts",
+      "customers",
+      "second"
+    ],
+    "joke_a_index": 169,
+    "joke_c_index": 95,
+    "joke_a_sentence": "The walrus was great at notarizing documents because he had the perfect ___",
+    "joke_c_sentence": "The indecisive chef reopened his restaurant but still had ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "seal"
+  },
+  {
+    "pair_id": 25,
+    "type": "straight",
+    "prompt": "The cow became a philosopher because she loved to think Argue with your pharmacist, and you will find she always has a",
+    "expected_completion": [
+      "prescription",
+      "reason",
+      "solution",
+      "point",
+      "script",
+      "counterargument",
+      "selection",
+      "recommendation",
+      "answer",
+      "perscription",
+      "justification",
+      "rebuttal",
+      "comeback",
+      "response"
+    ],
+    "contrast_completion": [
+      "counter",
+      "prescription",
+      "solution"
+    ],
+    "joke_a_index": 5,
+    "joke_c_index": 188,
+    "joke_a_sentence": "The cow became a philosopher because she loved to ___",
+    "joke_c_sentence": "Argue with your pharmacist, and you will find she always has a ___",
+    "joke_a_tier": "straight_dominated",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "think"
+  },
+  {
+    "pair_id": 25,
+    "type": "funny",
+    "prompt": "The cow became a philosopher because she loved to ruminate Argue with your pharmacist, and you will find she always has a",
+    "expected_completion": [
+      "counter",
+      "prescription",
+      "solution"
+    ],
+    "contrast_completion": [
+      "prescription",
+      "reason",
+      "solution",
+      "point",
+      "script",
+      "counterargument",
+      "selection",
+      "recommendation",
+      "answer",
+      "perscription",
+      "justification",
+      "rebuttal",
+      "comeback",
+      "response"
+    ],
+    "joke_a_index": 5,
+    "joke_c_index": 188,
+    "joke_a_sentence": "The cow became a philosopher because she loved to ___",
+    "joke_c_sentence": "Argue with your pharmacist, and you will find she always has a ___",
+    "joke_a_tier": "straight_dominated",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "ruminate"
+  },
+  {
+    "pair_id": 26,
+    "type": "straight",
+    "prompt": "The mountain climber thought the tea shop's prices were too high The caterpillar was optimistic because he believed in personal",
+    "expected_completion": [
+      "growth",
+      "change",
+      "development"
+    ],
+    "contrast_completion": [
+      "transformation"
+    ],
+    "joke_a_index": 15,
+    "joke_c_index": 93,
+    "joke_a_sentence": "The mountain climber thought the tea shop's prices were too ___",
+    "joke_c_sentence": "The caterpillar was optimistic because he believed in personal ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "high"
+  },
+  {
+    "pair_id": 26,
+    "type": "funny",
+    "prompt": "The mountain climber thought the tea shop's prices were too steep The caterpillar was optimistic because he believed in personal",
+    "expected_completion": [
+      "transformation"
+    ],
+    "contrast_completion": [
+      "growth",
+      "change",
+      "development"
+    ],
+    "joke_a_index": 15,
+    "joke_c_index": 93,
+    "joke_a_sentence": "The mountain climber thought the tea shop's prices were too ___",
+    "joke_c_sentence": "The caterpillar was optimistic because he believed in personal ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "steep"
+  },
+  {
+    "pair_id": 27,
+    "type": "straight",
+    "prompt": "The crab never shared his toys because he was possessive The chemist was reading a book on helium and he just couldn't",
+    "expected_completion": [
+      "understand",
+      "stop",
+      "concentrate",
+      "believe",
+      "forget",
+      "comprehend",
+      "focus",
+      "finish it",
+      "understand it"
+    ],
+    "contrast_completion": [
+      "put it down"
+    ],
+    "joke_a_index": 33,
+    "joke_c_index": 134,
+    "joke_a_sentence": "The crab never shared his toys because he was ___",
+    "joke_c_sentence": "The chemist was reading a book on helium and he just couldn't ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "possessive"
+  },
+  {
+    "pair_id": 27,
+    "type": "funny",
+    "prompt": "The crab never shared his toys because he was selfish The chemist was reading a book on helium and he just couldn't",
+    "expected_completion": [
+      "put it down"
+    ],
+    "contrast_completion": [
+      "understand",
+      "stop",
+      "concentrate",
+      "believe",
+      "forget",
+      "comprehend",
+      "focus",
+      "finish it",
+      "understand it"
+    ],
+    "joke_a_index": 33,
+    "joke_c_index": 134,
+    "joke_a_sentence": "The crab never shared his toys because he was ___",
+    "joke_c_sentence": "The chemist was reading a book on helium and he just couldn't ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "selfish"
+  },
+  {
+    "pair_id": 28,
+    "type": "straight",
+    "prompt": "The cliff diver's career took a sudden turn The laundry felt betrayed after it was",
+    "expected_completion": [
+      "shrunk",
+      "accused",
+      "forgotten",
+      "lost",
+      "stolen",
+      "overloaded",
+      "abandoned",
+      "stained",
+      "suffer",
+      "fail",
+      "fend",
+      "washed"
+    ],
+    "contrast_completion": [
+      "hung out to dry",
+      "folded"
+    ],
+    "joke_a_index": 67,
+    "joke_c_index": 73,
+    "joke_a_sentence": "The cliff diver's career took a sudden ___",
+    "joke_c_sentence": "The laundry felt betrayed after it was ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "turn"
+  },
+  {
+    "pair_id": 28,
+    "type": "funny",
+    "prompt": "The cliff diver's career took a sudden plunge The laundry felt betrayed after it was",
+    "expected_completion": [
+      "hung out to dry",
+      "folded"
+    ],
+    "contrast_completion": [
+      "shrunk",
+      "accused",
+      "forgotten",
+      "lost",
+      "stolen",
+      "overloaded",
+      "abandoned",
+      "stained",
+      "suffer",
+      "fail",
+      "fend",
+      "washed"
+    ],
+    "joke_a_index": 67,
+    "joke_c_index": 73,
+    "joke_a_sentence": "The cliff diver's career took a sudden ___",
+    "joke_c_sentence": "The laundry felt betrayed after it was ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "plunge"
+  },
+  {
+    "pair_id": 29,
+    "type": "straight",
+    "prompt": "The two antennas met on a roof and the wedding had excellent weather The dry cleaner could never stop to chat because he had so many",
+    "expected_completion": [
+      "customers",
+      "shirts",
+      "clothes",
+      "orders",
+      "responsibilities",
+      "emergencies",
+      "crises",
+      "stress",
+      "garments",
+      "stains"
+    ],
+    "contrast_completion": [
+      "pressing matters",
+      "pressing"
+    ],
+    "joke_a_index": 160,
+    "joke_c_index": 124,
+    "joke_a_sentence": "The two antennas met on a roof and the wedding had excellent ___",
+    "joke_c_sentence": "The dry cleaner could never stop to chat because he had so many ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "weather"
+  },
+  {
+    "pair_id": 29,
+    "type": "funny",
+    "prompt": "The two antennas met on a roof and the wedding had excellent reception The dry cleaner could never stop to chat because he had so many",
+    "expected_completion": [
+      "pressing matters",
+      "pressing"
+    ],
+    "contrast_completion": [
+      "customers",
+      "shirts",
+      "clothes",
+      "orders",
+      "responsibilities",
+      "emergencies",
+      "crises",
+      "stress",
+      "garments",
+      "stains"
+    ],
+    "joke_a_index": 160,
+    "joke_c_index": 124,
+    "joke_a_sentence": "The two antennas met on a roof and the wedding had excellent ___",
+    "joke_c_sentence": "The dry cleaner could never stop to chat because he had so many ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "reception"
+  },
+  {
+    "pair_id": 30,
+    "type": "straight",
+    "prompt": "The clock was impossible to calm down because it was always running The boat mechanic kept the company going because he kept everything",
+    "expected_completion": [
+      "running",
+      "organized",
+      "well-oiled",
+      "spotless",
+      "up",
+      "working",
+      "together",
+      "operational"
+    ],
+    "contrast_completion": [
+      "afloat"
+    ],
+    "joke_a_index": 77,
+    "joke_c_index": 91,
+    "joke_a_sentence": "The clock was impossible to calm down because it was always ___",
+    "joke_c_sentence": "The boat mechanic kept the company going because he kept everything ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "running"
+  },
+  {
+    "pair_id": 30,
+    "type": "funny",
+    "prompt": "The clock was impossible to calm down because it was always ticking The boat mechanic kept the company going because he kept everything",
+    "expected_completion": [
+      "afloat"
+    ],
+    "contrast_completion": [
+      "running",
+      "organized",
+      "well-oiled",
+      "spotless",
+      "up",
+      "working",
+      "together",
+      "operational"
+    ],
+    "joke_a_index": 77,
+    "joke_c_index": 91,
+    "joke_a_sentence": "The clock was impossible to calm down because it was always ___",
+    "joke_c_sentence": "The boat mechanic kept the company going because he kept everything ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "ticking"
+  },
+  {
+    "pair_id": 31,
+    "type": "straight",
+    "prompt": "The accountant's entire life was one long struggle The Greek architect became a journalist because he totally loved",
+    "expected_completion": [
+      "writing",
+      "reporting",
+      "storytelling",
+      "covering",
+      "researching",
+      "narratives",
+      "stories",
+      "arguments"
+    ],
+    "contrast_completion": [
+      "columns"
+    ],
+    "joke_a_index": 62,
+    "joke_c_index": 202,
+    "joke_a_sentence": "The accountant's entire life was one long ___",
+    "joke_c_sentence": "The Greek architect became a journalist because he totally loved ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "struggle"
+  },
+  {
+    "pair_id": 31,
+    "type": "funny",
+    "prompt": "The accountant's entire life was one long spreadsheet The Greek architect became a journalist because he totally loved",
+    "expected_completion": [
+      "columns"
+    ],
+    "contrast_completion": [
+      "writing",
+      "reporting",
+      "storytelling",
+      "covering",
+      "researching",
+      "narratives",
+      "stories",
+      "arguments"
+    ],
+    "joke_a_index": 62,
+    "joke_c_index": 202,
+    "joke_a_sentence": "The accountant's entire life was one long ___",
+    "joke_c_sentence": "The Greek architect became a journalist because he totally loved ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "spreadsheet"
+  },
+  {
+    "pair_id": 32,
+    "type": "straight",
+    "prompt": "The calendar factory worker was let go because his days were filled The photographer hated gossip because it always developed into",
+    "expected_completion": [
+      "rumors",
+      "slander",
+      "unpleasantness",
+      "gossip",
+      "ridicule",
+      "tension",
+      "scandal",
+      "drama",
+      "badmouthing",
+      "confrontations",
+      "lies",
+      "trouble",
+      "conflict",
+      "chaos"
+    ],
+    "contrast_completion": [
+      "negatives"
+    ],
+    "joke_a_index": 121,
+    "joke_c_index": 100,
+    "joke_a_sentence": "The calendar factory worker was let go because his days were ___",
+    "joke_c_sentence": "The photographer hated gossip because it always developed into ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "filled"
+  },
+  {
+    "pair_id": 32,
+    "type": "funny",
+    "prompt": "The calendar factory worker was let go because his days were numbered The photographer hated gossip because it always developed into",
+    "expected_completion": [
+      "negatives"
+    ],
+    "contrast_completion": [
+      "rumors",
+      "slander",
+      "unpleasantness",
+      "gossip",
+      "ridicule",
+      "tension",
+      "scandal",
+      "drama",
+      "badmouthing",
+      "confrontations",
+      "lies",
+      "trouble",
+      "conflict",
+      "chaos"
+    ],
+    "joke_a_index": 121,
+    "joke_c_index": 100,
+    "joke_a_sentence": "The calendar factory worker was let go because his days were ___",
+    "joke_c_sentence": "The photographer hated gossip because it always developed into ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "numbered"
+  },
+  {
+    "pair_id": 33,
+    "type": "straight",
+    "prompt": "The man who fell into an upholstery machine is now fully covered The king was only 12 inches tall, making him a pretty good",
+    "expected_completion": [
+      "warrior",
+      "fighter",
+      "leader",
+      "candidate",
+      "target",
+      "joke",
+      "man"
+    ],
+    "contrast_completion": [
+      "fit",
+      "ruler"
+    ],
+    "joke_a_index": 127,
+    "joke_c_index": 184,
+    "joke_a_sentence": "The man who fell into an upholstery machine is now fully ___",
+    "joke_c_sentence": "The king was only 12 inches tall, making him a pretty good ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "covered"
+  },
+  {
+    "pair_id": 33,
+    "type": "funny",
+    "prompt": "The man who fell into an upholstery machine is now fully recovered The king was only 12 inches tall, making him a pretty good",
+    "expected_completion": [
+      "fit",
+      "ruler"
+    ],
+    "contrast_completion": [
+      "warrior",
+      "fighter",
+      "leader",
+      "candidate",
+      "target",
+      "joke",
+      "man"
+    ],
+    "joke_a_index": 127,
+    "joke_c_index": 184,
+    "joke_a_sentence": "The man who fell into an upholstery machine is now fully ___",
+    "joke_c_sentence": "The king was only 12 inches tall, making him a pretty good ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "recovered"
+  },
+  {
+    "pair_id": 34,
+    "type": "straight",
+    "prompt": "The banker left her job because she lost faith The forgetful collector left their",
+    "expected_completion": [
+      "wallet",
+      "valuables",
+      "portfolio",
+      "luggage",
+      "items",
+      "belongings",
+      "umbrella",
+      "jewels",
+      "treasures",
+      "backpack",
+      "glasses",
+      "note",
+      "artifacts",
+      "notebook",
+      "purse",
+      "house",
+      "paintings",
+      "passport",
+      "impression",
+      "impact",
+      "legacy",
+      "valuable",
+      "keys"
+    ],
+    "contrast_completion": [
+      "stamp"
+    ],
+    "joke_a_index": 110,
+    "joke_c_index": 28,
+    "joke_a_sentence": "The banker left her job because she lost ___",
+    "joke_c_sentence": "The forgetful collector left their ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "faith"
+  },
+  {
+    "pair_id": 34,
+    "type": "funny",
+    "prompt": "The banker left her job because she lost interest The forgetful collector left their",
+    "expected_completion": [
+      "stamp"
+    ],
+    "contrast_completion": [
+      "wallet",
+      "valuables",
+      "portfolio",
+      "luggage",
+      "items",
+      "belongings",
+      "umbrella",
+      "jewels",
+      "treasures",
+      "backpack",
+      "glasses",
+      "note",
+      "artifacts",
+      "notebook",
+      "purse",
+      "house",
+      "paintings",
+      "passport",
+      "impression",
+      "impact",
+      "legacy",
+      "valuable",
+      "keys"
+    ],
+    "joke_a_index": 110,
+    "joke_c_index": 28,
+    "joke_a_sentence": "The banker left her job because she lost ___",
+    "joke_c_sentence": "The forgetful collector left their ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "interest"
+  },
+  {
+    "pair_id": 35,
+    "type": "straight",
+    "prompt": "The calendar company's annual report was already available The newspaper editor was always",
+    "expected_completion": [
+      "short",
+      "rushed",
+      "scrambling",
+      "looking"
+    ],
+    "contrast_completion": [
+      "pressed"
+    ],
+    "joke_a_index": 186,
+    "joke_c_index": 54,
+    "joke_a_sentence": "The calendar company's annual report was already ___",
+    "joke_c_sentence": "The newspaper editor was always ___ for time",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "available"
+  },
+  {
+    "pair_id": 35,
+    "type": "funny",
+    "prompt": "The calendar company's annual report was already overdue The newspaper editor was always",
+    "expected_completion": [
+      "pressed"
+    ],
+    "contrast_completion": [
+      "short",
+      "rushed",
+      "scrambling",
+      "looking"
+    ],
+    "joke_a_index": 186,
+    "joke_c_index": 54,
+    "joke_a_sentence": "The calendar company's annual report was already ___",
+    "joke_c_sentence": "The newspaper editor was always ___ for time",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "overdue"
+  },
+  {
+    "pair_id": 36,
+    "type": "straight",
+    "prompt": "The baker told his lazy son to stop daydreaming The basketball player became a writer because he was great at the",
+    "expected_completion": [
+      "storytelling",
+      "craft",
+      "art",
+      "narrative",
+      "telling",
+      "sportswriting",
+      "genre",
+      "beginning",
+      "outline",
+      "opening"
+    ],
+    "contrast_completion": [
+      "draft"
+    ],
+    "joke_a_index": 147,
+    "joke_c_index": 40,
+    "joke_a_sentence": "The baker told his lazy son to stop ___",
+    "joke_c_sentence": "The basketball player became a writer because he was great at the ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "daydreaming"
+  },
+  {
+    "pair_id": 36,
+    "type": "funny",
+    "prompt": "The baker told his lazy son to stop loafing The basketball player became a writer because he was great at the",
+    "expected_completion": [
+      "draft"
+    ],
+    "contrast_completion": [
+      "storytelling",
+      "craft",
+      "art",
+      "narrative",
+      "telling",
+      "sportswriting",
+      "genre",
+      "beginning",
+      "outline",
+      "opening"
+    ],
+    "joke_a_index": 147,
+    "joke_c_index": 40,
+    "joke_a_sentence": "The baker told his lazy son to stop ___",
+    "joke_c_sentence": "The basketball player became a writer because he was great at the ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "loafing"
+  },
+  {
+    "pair_id": 37,
+    "type": "straight",
+    "prompt": "The artistic detective was great at drawing portraits The pilot's jokes never seemed to",
+    "expected_completion": [
+      "work",
+      "hit",
+      "succeed",
+      "connect",
+      "amuse"
+    ],
+    "contrast_completion": [
+      "land",
+      "take off",
+      "fly",
+      "landed"
+    ],
+    "joke_a_index": 137,
+    "joke_c_index": 171,
+    "joke_a_sentence": "The artistic detective was great at drawing ___",
+    "joke_c_sentence": "The pilot's jokes never seemed to ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.04,
+    "a_completion": "portraits"
+  },
+  {
+    "pair_id": 37,
+    "type": "funny",
+    "prompt": "The artistic detective was great at drawing conclusions The pilot's jokes never seemed to",
+    "expected_completion": [
+      "land",
+      "take off",
+      "fly",
+      "landed"
+    ],
+    "contrast_completion": [
+      "work",
+      "hit",
+      "succeed",
+      "connect",
+      "amuse"
+    ],
+    "joke_a_index": 137,
+    "joke_c_index": 171,
+    "joke_a_sentence": "The artistic detective was great at drawing ___",
+    "joke_c_sentence": "The pilot's jokes never seemed to ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.04,
+    "a_completion": "conclusions"
+  },
+  {
+    "pair_id": 38,
+    "type": "straight",
+    "prompt": "The bicycle fell over after the race because it was unstable The coin maker went crazy and stopped making any",
+    "expected_completion": [
+      "coins",
+      "money",
+      "specimens",
+      "progress",
+      "friends",
+      "effort"
+    ],
+    "contrast_completion": [
+      "cents",
+      "change",
+      "sense"
+    ],
+    "joke_a_index": 49,
+    "joke_c_index": 113,
+    "joke_a_sentence": "The bicycle fell over after the race because it was ___",
+    "joke_c_sentence": "The coin maker went crazy and stopped making any ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "unstable"
+  },
+  {
+    "pair_id": 38,
+    "type": "funny",
+    "prompt": "The bicycle fell over after the race because it was tired The coin maker went crazy and stopped making any",
+    "expected_completion": [
+      "cents",
+      "change",
+      "sense"
+    ],
+    "contrast_completion": [
+      "coins",
+      "money",
+      "specimens",
+      "progress",
+      "friends",
+      "effort"
+    ],
+    "joke_a_index": 49,
+    "joke_c_index": 113,
+    "joke_a_sentence": "The bicycle fell over after the race because it was ___",
+    "joke_c_sentence": "The coin maker went crazy and stopped making any ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "tired"
+  },
+  {
+    "pair_id": 39,
+    "type": "straight",
+    "prompt": "The arborist's marriage failed because his wife said he was too distant The lumberjack's diary was thick because he kept detailed",
+    "expected_completion": [
+      "records",
+      "accounts",
+      "entries",
+      "notes",
+      "account",
+      "notations",
+      "descriptions"
+    ],
+    "contrast_completion": [
+      "logs"
+    ],
+    "joke_a_index": 41,
+    "joke_c_index": 111,
+    "joke_a_sentence": "The arborist's marriage failed because his wife said he was too ___",
+    "joke_c_sentence": "The lumberjack's diary was thick because he kept detailed ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "distant"
+  },
+  {
+    "pair_id": 39,
+    "type": "funny",
+    "prompt": "The arborist's marriage failed because his wife said he was too rooted The lumberjack's diary was thick because he kept detailed",
+    "expected_completion": [
+      "logs"
+    ],
+    "contrast_completion": [
+      "records",
+      "accounts",
+      "entries",
+      "notes",
+      "account",
+      "notations",
+      "descriptions"
+    ],
+    "joke_a_index": 41,
+    "joke_c_index": 111,
+    "joke_a_sentence": "The arborist's marriage failed because his wife said he was too ___",
+    "joke_c_sentence": "The lumberjack's diary was thick because he kept detailed ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "rooted"
+  },
+  {
+    "pair_id": 40,
+    "type": "straight",
+    "prompt": "The witch couldn't do magic in English because she couldn't pronounce The chicken won the percussion contest with her incredible",
+    "expected_completion": [
+      "drumming",
+      "talents",
+      "beats",
+      "talent",
+      "rhythm",
+      "rhythms",
+      "beating",
+      "timekeeping",
+      "skills",
+      "timing",
+      "solo",
+      "performance"
+    ],
+    "contrast_completion": [
+      "drumsticks",
+      "drumstick"
+    ],
+    "joke_a_index": 60,
+    "joke_c_index": 16,
+    "joke_a_sentence": "The witch couldn't do magic in English because she couldn't ___",
+    "joke_c_sentence": "The chicken won the percussion contest with her incredible ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "pronounce"
+  },
+  {
+    "pair_id": 40,
+    "type": "funny",
+    "prompt": "The witch couldn't do magic in English because she couldn't spell The chicken won the percussion contest with her incredible",
+    "expected_completion": [
+      "drumsticks",
+      "drumstick"
+    ],
+    "contrast_completion": [
+      "drumming",
+      "talents",
+      "beats",
+      "talent",
+      "rhythm",
+      "rhythms",
+      "beating",
+      "timekeeping",
+      "skills",
+      "timing",
+      "solo",
+      "performance"
+    ],
+    "joke_a_index": 60,
+    "joke_c_index": 16,
+    "joke_a_sentence": "The witch couldn't do magic in English because she couldn't ___",
+    "joke_c_sentence": "The chicken won the percussion contest with her incredible ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "spell"
+  },
+  {
+    "pair_id": 41,
+    "type": "straight",
+    "prompt": "The nose was sad because it was tired of getting poked When the egg farmer tried to organize his inventory, everything turned into a complete",
+    "expected_completion": [
+      "chaos",
+      "mess",
+      "disaster",
+      "nightmare"
+    ],
+    "contrast_completion": [
+      "scramble"
+    ],
+    "joke_a_index": 55,
+    "joke_c_index": 78,
+    "joke_a_sentence": "The nose was sad because it was tired of getting ___",
+    "joke_c_sentence": "When the egg farmer tried to organize his inventory, everything turned into a complete ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "poked"
+  },
+  {
+    "pair_id": 41,
+    "type": "funny",
+    "prompt": "The nose was sad because it was tired of getting picked When the egg farmer tried to organize his inventory, everything turned into a complete",
+    "expected_completion": [
+      "scramble"
+    ],
+    "contrast_completion": [
+      "chaos",
+      "mess",
+      "disaster",
+      "nightmare"
+    ],
+    "joke_a_index": 55,
+    "joke_c_index": 78,
+    "joke_a_sentence": "The nose was sad because it was tired of getting ___",
+    "joke_c_sentence": "When the egg farmer tried to organize his inventory, everything turned into a complete ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "picked"
+  },
+  {
+    "pair_id": 42,
+    "type": "straight",
+    "prompt": "The door salesman was good at his job because he knew exactly how to manipulate The wind turbine salesman was a huge",
+    "expected_completion": [
+      "success",
+      "liar",
+      "failure",
+      "disappointment",
+      "enthusiast",
+      "talker",
+      "scammer",
+      "charlatan",
+      "con",
+      "character",
+      "fibber",
+      "legend",
+      "schmoozer",
+      "supporter",
+      "hit",
+      "deal",
+      "scam"
+    ],
+    "contrast_completion": [
+      "fan",
+      "blowhard"
+    ],
+    "joke_a_index": 185,
+    "joke_c_index": 172,
+    "joke_a_sentence": "The door salesman was good at his job because he knew exactly how to ___",
+    "joke_c_sentence": "The wind turbine salesman was a huge ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0345,
+    "a_completion": "manipulate"
+  },
+  {
+    "pair_id": 42,
+    "type": "funny",
+    "prompt": "The door salesman was good at his job because he knew exactly how to handle The wind turbine salesman was a huge",
+    "expected_completion": [
+      "fan",
+      "blowhard"
+    ],
+    "contrast_completion": [
+      "success",
+      "liar",
+      "failure",
+      "disappointment",
+      "enthusiast",
+      "talker",
+      "scammer",
+      "charlatan",
+      "con",
+      "character",
+      "fibber",
+      "legend",
+      "schmoozer",
+      "supporter",
+      "hit",
+      "deal",
+      "scam"
+    ],
+    "joke_a_index": 185,
+    "joke_c_index": 172,
+    "joke_a_sentence": "The door salesman was good at his job because he knew exactly how to ___",
+    "joke_c_sentence": "The wind turbine salesman was a huge ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0345,
+    "a_completion": "handle"
+  },
+  {
+    "pair_id": 43,
+    "type": "straight",
+    "prompt": "The mushroom was always invited to parties because he was a socialite After parachuting from space, the adventurer was",
+    "expected_completion": [
+      "exhausted",
+      "found",
+      "stranded",
+      "exhilarated",
+      "relieved",
+      "struggling",
+      "rescued",
+      "recovered",
+      "hospitalized",
+      "shaken",
+      "shocked",
+      "covered",
+      "dazed",
+      "greeted",
+      "freezing",
+      "spotted",
+      "thrilled",
+      "met",
+      "successful",
+      "overwhelmed",
+      "lost",
+      "famous",
+      "relaxed",
+      "celebrated"
+    ],
+    "contrast_completion": [
+      "down to earth",
+      "grounded"
+    ],
+    "joke_a_index": 168,
+    "joke_c_index": 3,
+    "joke_a_sentence": "The mushroom was always invited to parties because he was a ___",
+    "joke_c_sentence": "After parachuting from space, the adventurer was ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "socialite"
+  },
+  {
+    "pair_id": 43,
+    "type": "funny",
+    "prompt": "The mushroom was always invited to parties because he was a fun-gi After parachuting from space, the adventurer was",
+    "expected_completion": [
+      "down to earth",
+      "grounded"
+    ],
+    "contrast_completion": [
+      "exhausted",
+      "found",
+      "stranded",
+      "exhilarated",
+      "relieved",
+      "struggling",
+      "rescued",
+      "recovered",
+      "hospitalized",
+      "shaken",
+      "shocked",
+      "covered",
+      "dazed",
+      "greeted",
+      "freezing",
+      "spotted",
+      "thrilled",
+      "met",
+      "successful",
+      "overwhelmed",
+      "lost",
+      "famous",
+      "relaxed",
+      "celebrated"
+    ],
+    "joke_a_index": 168,
+    "joke_c_index": 3,
+    "joke_a_sentence": "The mushroom was always invited to parties because he was a ___",
+    "joke_c_sentence": "After parachuting from space, the adventurer was ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "fun-gi"
+  },
+  {
+    "pair_id": 44,
+    "type": "straight",
+    "prompt": "The singer couldn't find a good practice room since every apartment was a little noisy The psychic midget escaped prison and was a small",
+    "expected_completion": [
+      "fugitive",
+      "problem",
+      "target",
+      "threat",
+      "villain",
+      "menace",
+      "criminal",
+      "outlaw",
+      "man"
+    ],
+    "contrast_completion": [
+      "medium at large"
+    ],
+    "joke_a_index": 192,
+    "joke_c_index": 36,
+    "joke_a_sentence": "The singer couldn't find a good practice room since every apartment was a little ___",
+    "joke_c_sentence": "The psychic midget escaped prison and was a small ___",
+    "joke_a_tier": "straight_dominated",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "noisy"
+  },
+  {
+    "pair_id": 44,
+    "type": "funny",
+    "prompt": "The singer couldn't find a good practice room since every apartment was a little flat The psychic midget escaped prison and was a small",
+    "expected_completion": [
+      "medium at large"
+    ],
+    "contrast_completion": [
+      "fugitive",
+      "problem",
+      "target",
+      "threat",
+      "villain",
+      "menace",
+      "criminal",
+      "outlaw",
+      "man"
+    ],
+    "joke_a_index": 192,
+    "joke_c_index": 36,
+    "joke_a_sentence": "The singer couldn't find a good practice room since every apartment was a little ___",
+    "joke_c_sentence": "The psychic midget escaped prison and was a small ___",
+    "joke_a_tier": "straight_dominated",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "flat"
+  },
+  {
+    "pair_id": 45,
+    "type": "straight",
+    "prompt": "The lemonade stand hired a baseball player because they needed a spokesperson The hockey player became a banker because he was used to handling",
+    "expected_completion": [
+      "money",
+      "pressure",
+      "pucks",
+      "transactions",
+      "puck"
+    ],
+    "contrast_completion": [
+      "checks"
+    ],
+    "joke_a_index": 94,
+    "joke_c_index": 90,
+    "joke_a_sentence": "The lemonade stand hired a baseball player because they needed a ___",
+    "joke_c_sentence": "The hockey player became a banker because he was used to handling ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "spokesperson"
+  },
+  {
+    "pair_id": 45,
+    "type": "funny",
+    "prompt": "The lemonade stand hired a baseball player because they needed a pitcher The hockey player became a banker because he was used to handling",
+    "expected_completion": [
+      "checks"
+    ],
+    "contrast_completion": [
+      "money",
+      "pressure",
+      "pucks",
+      "transactions",
+      "puck"
+    ],
+    "joke_a_index": 94,
+    "joke_c_index": 90,
+    "joke_a_sentence": "The lemonade stand hired a baseball player because they needed a ___",
+    "joke_c_sentence": "The hockey player became a banker because he was used to handling ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "pitcher"
+  },
+  {
+    "pair_id": 46,
+    "type": "straight",
+    "prompt": "The carefully-planned museum heist pulled off a miracle The clueless archaeologist was terrible at",
+    "expected_completion": [
+      "deciphering",
+      "excavating",
+      "finding",
+      "reading",
+      "excavations",
+      "digging",
+      "excavation",
+      "interpreting",
+      "identifying",
+      "anything",
+      "archaeology",
+      "assembling",
+      "understanding",
+      "digs",
+      "navigating",
+      "interpretation",
+      "following",
+      "translating",
+      "appreciating",
+      "handling"
+    ],
+    "contrast_completion": [
+      "dating"
+    ],
+    "joke_a_index": 34,
+    "joke_c_index": 106,
+    "joke_a_sentence": "The carefully-planned museum heist pulled off a ___",
+    "joke_c_sentence": "The clueless archaeologist was terrible at ___",
+    "joke_a_tier": "straight_dominated",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "miracle"
+  },
+  {
+    "pair_id": 46,
+    "type": "funny",
+    "prompt": "The carefully-planned museum heist pulled off a masterpiece The clueless archaeologist was terrible at",
+    "expected_completion": [
+      "dating"
+    ],
+    "contrast_completion": [
+      "deciphering",
+      "excavating",
+      "finding",
+      "reading",
+      "excavations",
+      "digging",
+      "excavation",
+      "interpreting",
+      "identifying",
+      "anything",
+      "archaeology",
+      "assembling",
+      "understanding",
+      "digs",
+      "navigating",
+      "interpretation",
+      "following",
+      "translating",
+      "appreciating",
+      "handling"
+    ],
+    "joke_a_index": 34,
+    "joke_c_index": 106,
+    "joke_a_sentence": "The carefully-planned museum heist pulled off a ___",
+    "joke_c_sentence": "The clueless archaeologist was terrible at ___",
+    "joke_a_tier": "straight_dominated",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "masterpiece"
+  },
+  {
+    "pair_id": 47,
+    "type": "straight",
+    "prompt": "The submarine captain went to a cheap bar that was a total dump Sir Lancelot's armor was rusty because he'd been pulling too many",
+    "expected_completion": [
+      "all-nighters",
+      "shifts",
+      "double shifts",
+      "long hours",
+      "overtime shifts",
+      "pranks",
+      "double",
+      "long",
+      "overtime"
+    ],
+    "contrast_completion": [
+      "knight shifts",
+      "knights",
+      "knight"
+    ],
+    "joke_a_index": 150,
+    "joke_c_index": 53,
+    "joke_a_sentence": "The submarine captain went to a cheap bar that was a total ___",
+    "joke_c_sentence": "Sir Lancelot's armor was rusty because he'd been pulling too many ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "dump"
+  },
+  {
+    "pair_id": 47,
+    "type": "funny",
+    "prompt": "The submarine captain went to a cheap bar that was a total dive Sir Lancelot's armor was rusty because he'd been pulling too many",
+    "expected_completion": [
+      "knight shifts",
+      "knights",
+      "knight"
+    ],
+    "contrast_completion": [
+      "all-nighters",
+      "shifts",
+      "double shifts",
+      "long hours",
+      "overtime shifts",
+      "pranks",
+      "double",
+      "long",
+      "overtime"
+    ],
+    "joke_a_index": 150,
+    "joke_c_index": 53,
+    "joke_a_sentence": "The submarine captain went to a cheap bar that was a total ___",
+    "joke_c_sentence": "Sir Lancelot's armor was rusty because he'd been pulling too many ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "dive"
+  },
+  {
+    "pair_id": 48,
+    "type": "straight",
+    "prompt": "The sailor and his wife were always having a disagreement The tailor's business was just",
+    "expected_completion": [
+      "starting",
+      "booming",
+      "beginning",
+      "thriving",
+      "struggling",
+      "okay",
+      "fine",
+      "average"
+    ],
+    "contrast_completion": [
+      "sew-sew",
+      "seamy",
+      "sewing"
+    ],
+    "joke_a_index": 23,
+    "joke_c_index": 151,
+    "joke_a_sentence": "The sailor and his wife were always having a ___",
+    "joke_c_sentence": "The tailor's business was just ___",
+    "joke_a_tier": "straight_dominated",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "disagreement"
+  },
+  {
+    "pair_id": 48,
+    "type": "funny",
+    "prompt": "The sailor and his wife were always having a row The tailor's business was just",
+    "expected_completion": [
+      "sew-sew",
+      "seamy",
+      "sewing"
+    ],
+    "contrast_completion": [
+      "starting",
+      "booming",
+      "beginning",
+      "thriving",
+      "struggling",
+      "okay",
+      "fine",
+      "average"
+    ],
+    "joke_a_index": 23,
+    "joke_c_index": 151,
+    "joke_a_sentence": "The sailor and his wife were always having a ___",
+    "joke_c_sentence": "The tailor's business was just ___",
+    "joke_a_tier": "straight_dominated",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "row"
+  },
+  {
+    "pair_id": 49,
+    "type": "straight",
+    "prompt": "The tennis player broke up with his girlfriend because love meant heartbreak The lawyer's jokes flopped because they were too",
+    "expected_completion": [
+      "obscure",
+      "corny",
+      "convoluted",
+      "obvious",
+      "predictable",
+      "sophisticated",
+      "clich\u00e9d",
+      "long",
+      "absurd",
+      "rude",
+      "bad",
+      "serious",
+      "cheesy",
+      "longwinded",
+      "technical",
+      "dry",
+      "complicated",
+      "cliche",
+      "litigious",
+      "argumentative"
+    ],
+    "contrast_completion": [
+      "brief"
+    ],
+    "joke_a_index": 29,
+    "joke_c_index": 56,
+    "joke_a_sentence": "The tennis player broke up with his girlfriend because love meant ___",
+    "joke_c_sentence": "The lawyer's jokes flopped because they were too ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "heartbreak"
+  },
+  {
+    "pair_id": 49,
+    "type": "funny",
+    "prompt": "The tennis player broke up with his girlfriend because love meant nothing The lawyer's jokes flopped because they were too",
+    "expected_completion": [
+      "brief"
+    ],
+    "contrast_completion": [
+      "obscure",
+      "corny",
+      "convoluted",
+      "obvious",
+      "predictable",
+      "sophisticated",
+      "clich\u00e9d",
+      "long",
+      "absurd",
+      "rude",
+      "bad",
+      "serious",
+      "cheesy",
+      "longwinded",
+      "technical",
+      "dry",
+      "complicated",
+      "cliche",
+      "litigious",
+      "argumentative"
+    ],
+    "joke_a_index": 29,
+    "joke_c_index": 56,
+    "joke_a_sentence": "The tennis player broke up with his girlfriend because love meant ___",
+    "joke_c_sentence": "The lawyer's jokes flopped because they were too ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "nothing"
+  },
+  {
+    "pair_id": 50,
+    "type": "straight",
+    "prompt": "The garbage collector was so stubborn he would never listen The arsonist quit playing tennis after someone stole his",
+    "expected_completion": [
+      "racket",
+      "racquet",
+      "backhand",
+      "rackets",
+      "shoes",
+      "bag"
+    ],
+    "contrast_completion": [
+      "matches"
+    ],
+    "joke_a_index": 72,
+    "joke_c_index": 10,
+    "joke_a_sentence": "The garbage collector was so stubborn he would never ___",
+    "joke_c_sentence": "The arsonist quit playing tennis after someone stole his ___",
+    "joke_a_tier": "straight_dominated",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "listen"
+  },
+  {
+    "pair_id": 50,
+    "type": "funny",
+    "prompt": "The garbage collector was so stubborn he would never refuse The arsonist quit playing tennis after someone stole his",
+    "expected_completion": [
+      "matches"
+    ],
+    "contrast_completion": [
+      "racket",
+      "racquet",
+      "backhand",
+      "rackets",
+      "shoes",
+      "bag"
+    ],
+    "joke_a_index": 72,
+    "joke_c_index": 10,
+    "joke_a_sentence": "The garbage collector was so stubborn he would never ___",
+    "joke_c_sentence": "The arsonist quit playing tennis after someone stole his ___",
+    "joke_a_tier": "straight_dominated",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "refuse"
+  },
+  {
+    "pair_id": 51,
+    "type": "straight",
+    "prompt": "The elephant always packed light except for his back The judge loved writing because it let him pass",
+    "expected_completion": [
+      "judgment",
+      "time",
+      "decision",
+      "judgement",
+      "days"
+    ],
+    "contrast_completion": [
+      "sentence"
+    ],
+    "joke_a_index": 135,
+    "joke_c_index": 13,
+    "joke_a_sentence": "The elephant always packed light except for his ___",
+    "joke_c_sentence": "The judge loved writing because it let him pass ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "back"
+  },
+  {
+    "pair_id": 51,
+    "type": "funny",
+    "prompt": "The elephant always packed light except for his trunk The judge loved writing because it let him pass",
+    "expected_completion": [
+      "sentence"
+    ],
+    "contrast_completion": [
+      "judgment",
+      "time",
+      "decision",
+      "judgement",
+      "days"
+    ],
+    "joke_a_index": 135,
+    "joke_c_index": 13,
+    "joke_a_sentence": "The elephant always packed light except for his ___",
+    "joke_c_sentence": "The judge loved writing because it let him pass ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "trunk"
+  },
+  {
+    "pair_id": 52,
+    "type": "straight",
+    "prompt": "The shoe store went bankrupt because it couldn't find its niche The pilot's autobiography sold out after his career",
+    "expected_completion": [
+      "ended",
+      "sparked",
+      "inspired people",
+      "impressed readers",
+      "resonated"
+    ],
+    "contrast_completion": [
+      "took off"
+    ],
+    "joke_a_index": 6,
+    "joke_c_index": 158,
+    "joke_a_sentence": "The shoe store went bankrupt because it couldn't find its ___",
+    "joke_c_sentence": "The pilot's autobiography sold out after his career ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "niche"
+  },
+  {
+    "pair_id": 52,
+    "type": "funny",
+    "prompt": "The shoe store went bankrupt because it couldn't find its footing The pilot's autobiography sold out after his career",
+    "expected_completion": [
+      "took off"
+    ],
+    "contrast_completion": [
+      "ended",
+      "sparked",
+      "inspired people",
+      "impressed readers",
+      "resonated"
+    ],
+    "joke_a_index": 6,
+    "joke_c_index": 158,
+    "joke_a_sentence": "The shoe store went bankrupt because it couldn't find its ___",
+    "joke_c_sentence": "The pilot's autobiography sold out after his career ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "footing"
+  },
+  {
+    "pair_id": 53,
+    "type": "straight",
+    "prompt": "The beekeeper's announcement created quite a commotion Never ask a circle for advice because it is totally",
+    "expected_completion": [
+      "one-sided",
+      "selfish",
+      "incomplete",
+      "biased",
+      "inflexible",
+      "inconsistent",
+      "absurd",
+      "useless",
+      "insincere",
+      "weak",
+      "slow",
+      "lazy"
+    ],
+    "contrast_completion": [
+      "roundabout",
+      "pointless"
+    ],
+    "joke_a_index": 7,
+    "joke_c_index": 153,
+    "joke_a_sentence": "The beekeeper's announcement created quite a ___",
+    "joke_c_sentence": "Never ask a circle for advice because it is totally ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0606,
+    "a_completion": "commotion"
+  },
+  {
+    "pair_id": 53,
+    "type": "funny",
+    "prompt": "The beekeeper's announcement created quite a buzz Never ask a circle for advice because it is totally",
+    "expected_completion": [
+      "roundabout",
+      "pointless"
+    ],
+    "contrast_completion": [
+      "one-sided",
+      "selfish",
+      "incomplete",
+      "biased",
+      "inflexible",
+      "inconsistent",
+      "absurd",
+      "useless",
+      "insincere",
+      "weak",
+      "slow",
+      "lazy"
+    ],
+    "joke_a_index": 7,
+    "joke_c_index": 153,
+    "joke_a_sentence": "The beekeeper's announcement created quite a ___",
+    "joke_c_sentence": "Never ask a circle for advice because it is totally ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0606,
+    "a_completion": "buzz"
+  },
+  {
+    "pair_id": 54,
+    "type": "straight",
+    "prompt": "The baker's bread business was on the verge The comedian's jokes about unemployment weren't",
+    "expected_completion": [
+      "funny",
+      "well-received",
+      "popular",
+      "good",
+      "landing"
+    ],
+    "contrast_completion": [
+      "working"
+    ],
+    "joke_a_index": 148,
+    "joke_c_index": 191,
+    "joke_a_sentence": "The baker's bread business was on the ___",
+    "joke_c_sentence": "The comedian's jokes about unemployment weren't ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "verge"
+  },
+  {
+    "pair_id": 54,
+    "type": "funny",
+    "prompt": "The baker's bread business was on the rise The comedian's jokes about unemployment weren't",
+    "expected_completion": [
+      "working"
+    ],
+    "contrast_completion": [
+      "funny",
+      "well-received",
+      "popular",
+      "good",
+      "landing"
+    ],
+    "joke_a_index": 148,
+    "joke_c_index": 191,
+    "joke_a_sentence": "The baker's bread business was on the ___",
+    "joke_c_sentence": "The comedian's jokes about unemployment weren't ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "rise"
+  },
+  {
+    "pair_id": 55,
+    "type": "straight",
+    "prompt": "The stadium was unbearably hot because there weren't any shades The train conductor was promoted because of his excellent",
+    "expected_completion": [
+      "leadership",
+      "service",
+      "work",
+      "performance",
+      "communication",
+      "management",
+      "communications",
+      "attitude"
+    ],
+    "contrast_completion": [
+      "track record",
+      "record",
+      "track"
+    ],
+    "joke_a_index": 74,
+    "joke_c_index": 19,
+    "joke_a_sentence": "The stadium was unbearably hot because there weren't any ___",
+    "joke_c_sentence": "The train conductor was promoted because of his excellent ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "shades"
+  },
+  {
+    "pair_id": 55,
+    "type": "funny",
+    "prompt": "The stadium was unbearably hot because there weren't any fans The train conductor was promoted because of his excellent",
+    "expected_completion": [
+      "track record",
+      "record",
+      "track"
+    ],
+    "contrast_completion": [
+      "leadership",
+      "service",
+      "work",
+      "performance",
+      "communication",
+      "management",
+      "communications",
+      "attitude"
+    ],
+    "joke_a_index": 74,
+    "joke_c_index": 19,
+    "joke_a_sentence": "The stadium was unbearably hot because there weren't any ___",
+    "joke_c_sentence": "The train conductor was promoted because of his excellent ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "fans"
+  },
+  {
+    "pair_id": 56,
+    "type": "straight",
+    "prompt": "The pirate had to learn the alphabet but he got lost at z The chicken soup company is a great investment and a great",
+    "expected_completion": [
+      "opportunity",
+      "business",
+      "venture",
+      "buy",
+      "soup",
+      "broth",
+      "sauce"
+    ],
+    "contrast_completion": [
+      "stock"
+    ],
+    "joke_a_index": 145,
+    "joke_c_index": 204,
+    "joke_a_sentence": "The pirate had to learn the alphabet but he got lost at ___",
+    "joke_c_sentence": "The chicken soup company is a great investment and a great ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "z"
+  },
+  {
+    "pair_id": 56,
+    "type": "funny",
+    "prompt": "The pirate had to learn the alphabet but he got lost at c The chicken soup company is a great investment and a great",
+    "expected_completion": [
+      "stock"
+    ],
+    "contrast_completion": [
+      "opportunity",
+      "business",
+      "venture",
+      "buy",
+      "soup",
+      "broth",
+      "sauce"
+    ],
+    "joke_a_index": 145,
+    "joke_c_index": 204,
+    "joke_a_sentence": "The pirate had to learn the alphabet but he got lost at ___",
+    "joke_c_sentence": "The chicken soup company is a great investment and a great ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "c"
+  },
+  {
+    "pair_id": 57,
+    "type": "straight",
+    "prompt": "The sausage maker's work was the talk After 40 years of teaching archaeology, they told the professor, 'You're",
+    "expected_completion": [
+      "fired",
+      "retiring",
+      "retired",
+      "done",
+      "overqualified",
+      "finished"
+    ],
+    "contrast_completion": [
+      "history"
+    ],
+    "joke_a_index": 63,
+    "joke_c_index": 51,
+    "joke_a_sentence": "The sausage maker's work was the ___",
+    "joke_c_sentence": "After 40 years of teaching archaeology, they told the professor, 'You're ___'",
+    "joke_a_tier": "straight_dominated",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "talk"
+  },
+  {
+    "pair_id": 57,
+    "type": "funny",
+    "prompt": "The sausage maker's work was the wurst After 40 years of teaching archaeology, they told the professor, 'You're",
+    "expected_completion": [
+      "history"
+    ],
+    "contrast_completion": [
+      "fired",
+      "retiring",
+      "retired",
+      "done",
+      "overqualified",
+      "finished"
+    ],
+    "joke_a_index": 63,
+    "joke_c_index": 51,
+    "joke_a_sentence": "The sausage maker's work was the ___",
+    "joke_c_sentence": "After 40 years of teaching archaeology, they told the professor, 'You're ___'",
+    "joke_a_tier": "straight_dominated",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "wurst"
+  },
+  {
+    "pair_id": 58,
+    "type": "straight",
+    "prompt": "The thunder cloud joined the union and then it kept growing The electrician went to the mall for an emotional",
+    "expected_completion": [
+      "breakdown",
+      "outburst",
+      "break",
+      "episode",
+      "escape",
+      "appointment",
+      "epiphany",
+      "outpouring",
+      "encounter",
+      "moment",
+      "experience",
+      "reunion",
+      "release",
+      "outing"
+    ],
+    "contrast_completion": [
+      "outlet",
+      "charge"
+    ],
+    "joke_a_index": 81,
+    "joke_c_index": 173,
+    "joke_a_sentence": "The thunder cloud joined the union and then it kept ___",
+    "joke_c_sentence": "The electrician went to the mall for an emotional ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0125,
+    "a_completion": "growing"
+  },
+  {
+    "pair_id": 58,
+    "type": "funny",
+    "prompt": "The thunder cloud joined the union and then it kept striking The electrician went to the mall for an emotional",
+    "expected_completion": [
+      "outlet",
+      "charge"
+    ],
+    "contrast_completion": [
+      "breakdown",
+      "outburst",
+      "break",
+      "episode",
+      "escape",
+      "appointment",
+      "epiphany",
+      "outpouring",
+      "encounter",
+      "moment",
+      "experience",
+      "reunion",
+      "release",
+      "outing"
+    ],
+    "joke_a_index": 81,
+    "joke_c_index": 173,
+    "joke_a_sentence": "The thunder cloud joined the union and then it kept ___",
+    "joke_c_sentence": "The electrician went to the mall for an emotional ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0125,
+    "a_completion": "striking"
+  },
+  {
+    "pair_id": 59,
+    "type": "straight",
+    "prompt": "The comedian's fishing stories always had a great twist The dentist and the manicurist argued",
+    "expected_completion": [
+      "loudly",
+      "bitterly",
+      "constantly",
+      "heavily",
+      "fiercely",
+      "heatedly",
+      "endlessly"
+    ],
+    "contrast_completion": [
+      "tooth and nail"
+    ],
+    "joke_a_index": 75,
+    "joke_c_index": 102,
+    "joke_a_sentence": "The comedian's fishing stories always had a great ___",
+    "joke_c_sentence": "The dentist and the manicurist argued ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "twist"
+  },
+  {
+    "pair_id": 59,
+    "type": "funny",
+    "prompt": "The comedian's fishing stories always had a great hook The dentist and the manicurist argued",
+    "expected_completion": [
+      "tooth and nail"
+    ],
+    "contrast_completion": [
+      "loudly",
+      "bitterly",
+      "constantly",
+      "heavily",
+      "fiercely",
+      "heatedly",
+      "endlessly"
+    ],
+    "joke_a_index": 75,
+    "joke_c_index": 102,
+    "joke_a_sentence": "The comedian's fishing stories always had a great ___",
+    "joke_c_sentence": "The dentist and the manicurist argued ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "hook"
+  },
+  {
+    "pair_id": 60,
+    "type": "straight",
+    "prompt": "The retired sailor worked in the news because he liked being the center The Swiss cheese maker's alibis were always",
+    "expected_completion": [
+      "questionable",
+      "shaky",
+      "questioned",
+      "dubious",
+      "unconvincing",
+      "flawed",
+      "problematic",
+      "rock-solid",
+      "unverifiable",
+      "suspicious",
+      "convincing"
+    ],
+    "contrast_completion": [
+      "full of holes"
+    ],
+    "joke_a_index": 99,
+    "joke_c_index": 21,
+    "joke_a_sentence": "The retired sailor worked in the news because he liked being the ___",
+    "joke_c_sentence": "The Swiss cheese maker's alibis were always ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "center"
+  },
+  {
+    "pair_id": 60,
+    "type": "funny",
+    "prompt": "The retired sailor worked in the news because he liked being the anchor The Swiss cheese maker's alibis were always",
+    "expected_completion": [
+      "full of holes"
+    ],
+    "contrast_completion": [
+      "questionable",
+      "shaky",
+      "questioned",
+      "dubious",
+      "unconvincing",
+      "flawed",
+      "problematic",
+      "rock-solid",
+      "unverifiable",
+      "suspicious",
+      "convincing"
+    ],
+    "joke_a_index": 99,
+    "joke_c_index": 21,
+    "joke_a_sentence": "The retired sailor worked in the news because he liked being the ___",
+    "joke_c_sentence": "The Swiss cheese maker's alibis were always ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "anchor"
+  },
+  {
+    "pair_id": 61,
+    "type": "straight",
+    "prompt": "The live art competition was very close and ended in a tie The geometry teacher was adorable because she was so",
+    "expected_completion": [
+      "passionate",
+      "quirky",
+      "patient",
+      "young",
+      "enthusiastic",
+      "kind",
+      "sweet",
+      "handsome",
+      "hands-on",
+      "nice",
+      "tall",
+      "affectionate",
+      "petite",
+      "funny",
+      "beautiful",
+      "meticulous",
+      "nerdy",
+      "pretty"
+    ],
+    "contrast_completion": [
+      "acute"
+    ],
+    "joke_a_index": 83,
+    "joke_c_index": 114,
+    "joke_a_sentence": "The live art competition was very close and ended in a ___",
+    "joke_c_sentence": "The geometry teacher was adorable because she was so ___",
+    "joke_a_tier": "straight_dominated",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "tie"
+  },
+  {
+    "pair_id": 61,
+    "type": "funny",
+    "prompt": "The live art competition was very close and ended in a draw The geometry teacher was adorable because she was so",
+    "expected_completion": [
+      "acute"
+    ],
+    "contrast_completion": [
+      "passionate",
+      "quirky",
+      "patient",
+      "young",
+      "enthusiastic",
+      "kind",
+      "sweet",
+      "handsome",
+      "hands-on",
+      "nice",
+      "tall",
+      "affectionate",
+      "petite",
+      "funny",
+      "beautiful",
+      "meticulous",
+      "nerdy",
+      "pretty"
+    ],
+    "joke_a_index": 83,
+    "joke_c_index": 114,
+    "joke_a_sentence": "The live art competition was very close and ended in a ___",
+    "joke_c_sentence": "The geometry teacher was adorable because she was so ___",
+    "joke_a_tier": "straight_dominated",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "draw"
+  },
+  {
+    "pair_id": 62,
+    "type": "straight",
+    "prompt": "The fisherman's film won an award because he had the best footage The business of fireworks has been",
+    "expected_completion": [
+      "evolving",
+      "thriving",
+      "growing",
+      "fragmented",
+      "impacted",
+      "spectacular",
+      "explosive",
+      "impressive",
+      "prohibited",
+      "increasing"
+    ],
+    "contrast_completion": [
+      "booming",
+      "exploding"
+    ],
+    "joke_a_index": 194,
+    "joke_c_index": 108,
+    "joke_a_sentence": "The fisherman's film won an award because he had the best ___",
+    "joke_c_sentence": "The business of fireworks has been ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.25,
+    "a_completion": "footage"
+  },
+  {
+    "pair_id": 62,
+    "type": "funny",
+    "prompt": "The fisherman's film won an award because he had the best catch The business of fireworks has been",
+    "expected_completion": [
+      "booming",
+      "exploding"
+    ],
+    "contrast_completion": [
+      "evolving",
+      "thriving",
+      "growing",
+      "fragmented",
+      "impacted",
+      "spectacular",
+      "explosive",
+      "impressive",
+      "prohibited",
+      "increasing"
+    ],
+    "joke_a_index": 194,
+    "joke_c_index": 108,
+    "joke_a_sentence": "The fisherman's film won an award because he had the best ___",
+    "joke_c_sentence": "The business of fireworks has been ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.25,
+    "a_completion": "catch"
+  },
+  {
+    "pair_id": 63,
+    "type": "straight",
+    "prompt": "The parking officer said everything was okay The tailor won his court case because he had an excellent",
+    "expected_completion": [
+      "lawyer",
+      "alibi",
+      "attorney",
+      "memory",
+      "defense",
+      "argument",
+      "reputation",
+      "excuse",
+      "defence",
+      "testimony",
+      "representative",
+      "attitude",
+      "testimonial"
+    ],
+    "contrast_completion": [
+      "suit"
+    ],
+    "joke_a_index": 140,
+    "joke_c_index": 0,
+    "joke_a_sentence": "The parking officer said everything was ___",
+    "joke_c_sentence": "The tailor won his court case because he had an excellent ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "okay"
+  },
+  {
+    "pair_id": 63,
+    "type": "funny",
+    "prompt": "The parking officer said everything was fine The tailor won his court case because he had an excellent",
+    "expected_completion": [
+      "suit"
+    ],
+    "contrast_completion": [
+      "lawyer",
+      "alibi",
+      "attorney",
+      "memory",
+      "defense",
+      "argument",
+      "reputation",
+      "excuse",
+      "defence",
+      "testimony",
+      "representative",
+      "attitude",
+      "testimonial"
+    ],
+    "joke_a_index": 140,
+    "joke_c_index": 0,
+    "joke_a_sentence": "The parking officer said everything was ___",
+    "joke_c_sentence": "The tailor won his court case because he had an excellent ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "fine"
+  },
+  {
+    "pair_id": 64,
+    "type": "straight",
+    "prompt": "The electrician quit politics after his party lost election After digging for treasure the pirate went to the doctor complaining of",
+    "expected_completion": [
+      "back",
+      "stomach",
+      "leg",
+      "backache"
+    ],
+    "contrast_completion": [
+      "chest",
+      "arrhh"
+    ],
+    "joke_a_index": 89,
+    "joke_c_index": 199,
+    "joke_a_sentence": "The electrician quit politics after his party lost ___",
+    "joke_c_sentence": "After digging for treasure the pirate went to the doctor complaining of ___ pains",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "election"
+  },
+  {
+    "pair_id": 64,
+    "type": "funny",
+    "prompt": "The electrician quit politics after his party lost power After digging for treasure the pirate went to the doctor complaining of",
+    "expected_completion": [
+      "chest",
+      "arrhh"
+    ],
+    "contrast_completion": [
+      "back",
+      "stomach",
+      "leg",
+      "backache"
+    ],
+    "joke_a_index": 89,
+    "joke_c_index": 199,
+    "joke_a_sentence": "The electrician quit politics after his party lost ___",
+    "joke_c_sentence": "After digging for treasure the pirate went to the doctor complaining of ___ pains",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "power"
+  },
+  {
+    "pair_id": 65,
+    "type": "straight",
+    "prompt": "The lonely CEO just wanted some companionship The retired pilot's therapist said he was surprisingly well",
+    "expected_completion": [
+      "adjusted",
+      "adjusting",
+      "adapted",
+      "balanced",
+      "centered"
+    ],
+    "contrast_completion": [
+      "grounded"
+    ],
+    "joke_a_index": 88,
+    "joke_c_index": 128,
+    "joke_a_sentence": "The lonely CEO just wanted some ___",
+    "joke_c_sentence": "The retired pilot's therapist said he was surprisingly well ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "companionship"
+  },
+  {
+    "pair_id": 65,
+    "type": "funny",
+    "prompt": "The lonely CEO just wanted some company The retired pilot's therapist said he was surprisingly well",
+    "expected_completion": [
+      "grounded"
+    ],
+    "contrast_completion": [
+      "adjusted",
+      "adjusting",
+      "adapted",
+      "balanced",
+      "centered"
+    ],
+    "joke_a_index": 88,
+    "joke_c_index": 128,
+    "joke_a_sentence": "The lonely CEO just wanted some ___",
+    "joke_c_sentence": "The retired pilot's therapist said he was surprisingly well ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "company"
+  },
+  {
+    "pair_id": 66,
+    "type": "straight",
+    "prompt": "The golfer brought an extra pair of pants in case he got a stain The biologist cried at every sad movie because she was an expert on",
+    "expected_completion": [
+      "emotions",
+      "empathy",
+      "grief",
+      "animal",
+      "human",
+      "tragedy",
+      "suffering",
+      "extinction",
+      "pain",
+      "trauma",
+      "reactions"
+    ],
+    "contrast_completion": [
+      "tissues"
+    ],
+    "joke_a_index": 66,
+    "joke_c_index": 193,
+    "joke_a_sentence": "The golfer brought an extra pair of pants in case he got a ___",
+    "joke_c_sentence": "The biologist cried at every sad movie because she was an expert on ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0106,
+    "a_completion": "stain"
+  },
+  {
+    "pair_id": 66,
+    "type": "funny",
+    "prompt": "The golfer brought an extra pair of pants in case he got a hole The biologist cried at every sad movie because she was an expert on",
+    "expected_completion": [
+      "tissues"
+    ],
+    "contrast_completion": [
+      "emotions",
+      "empathy",
+      "grief",
+      "animal",
+      "human",
+      "tragedy",
+      "suffering",
+      "extinction",
+      "pain",
+      "trauma",
+      "reactions"
+    ],
+    "joke_a_index": 66,
+    "joke_c_index": 193,
+    "joke_a_sentence": "The golfer brought an extra pair of pants in case he got a ___",
+    "joke_c_sentence": "The biologist cried at every sad movie because she was an expert on ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0106,
+    "a_completion": "hole"
+  },
+  {
+    "pair_id": 67,
+    "type": "straight",
+    "prompt": "The lightning bolt was let go from every job because he kept getting sacked I think the bank is very impressed with my loan because they tell me how it is still",
+    "expected_completion": [
+      "performing",
+      "available",
+      "going",
+      "owed",
+      "increasing",
+      "approved",
+      "underperforming",
+      "open",
+      "negotiable",
+      "underway",
+      "active",
+      "unpaid"
+    ],
+    "contrast_completion": [
+      "outstanding"
+    ],
+    "joke_a_index": 38,
+    "joke_c_index": 120,
+    "joke_a_sentence": "The lightning bolt was let go from every job because he kept getting ___",
+    "joke_c_sentence": "I think the bank is very impressed with my loan because they tell me how it is still ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "sacked"
+  },
+  {
+    "pair_id": 67,
+    "type": "funny",
+    "prompt": "The lightning bolt was let go from every job because he kept getting fired I think the bank is very impressed with my loan because they tell me how it is still",
+    "expected_completion": [
+      "outstanding"
+    ],
+    "contrast_completion": [
+      "performing",
+      "available",
+      "going",
+      "owed",
+      "increasing",
+      "approved",
+      "underperforming",
+      "open",
+      "negotiable",
+      "underway",
+      "active",
+      "unpaid"
+    ],
+    "joke_a_index": 38,
+    "joke_c_index": 120,
+    "joke_a_sentence": "The lightning bolt was let go from every job because he kept getting ___",
+    "joke_c_sentence": "I think the bank is very impressed with my loan because they tell me how it is still ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "fired"
+  },
+  {
+    "pair_id": 68,
+    "type": "straight",
+    "prompt": "The optician fell into his lens grinder and made a complete mess The local commuter's experiences are very hard to",
+    "expected_completion": [
+      "relate",
+      "quantify",
+      "predict",
+      "understand",
+      "describe",
+      "document",
+      "recreate",
+      "imagine",
+      "fathom",
+      "reproduce",
+      "explain",
+      "gauge",
+      "analyze",
+      "capture",
+      "ignore",
+      "translate",
+      "believe"
+    ],
+    "contrast_completion": [
+      "express",
+      "track"
+    ],
+    "joke_a_index": 61,
+    "joke_c_index": 57,
+    "joke_a_sentence": "The optician fell into his lens grinder and made a complete ___",
+    "joke_c_sentence": "The local commuter's experiences are very hard to ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "mess"
+  },
+  {
+    "pair_id": 68,
+    "type": "funny",
+    "prompt": "The optician fell into his lens grinder and made a complete spectacle The local commuter's experiences are very hard to",
+    "expected_completion": [
+      "express",
+      "track"
+    ],
+    "contrast_completion": [
+      "relate",
+      "quantify",
+      "predict",
+      "understand",
+      "describe",
+      "document",
+      "recreate",
+      "imagine",
+      "fathom",
+      "reproduce",
+      "explain",
+      "gauge",
+      "analyze",
+      "capture",
+      "ignore",
+      "translate",
+      "believe"
+    ],
+    "joke_a_index": 61,
+    "joke_c_index": 57,
+    "joke_a_sentence": "The optician fell into his lens grinder and made a complete ___",
+    "joke_c_sentence": "The local commuter's experiences are very hard to ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "spectacle"
+  },
+  {
+    "pair_id": 69,
+    "type": "straight",
+    "prompt": "The cheese maker's creative projects always broke the rules During the embargo, the navy cardiologist had to work on a blocked",
+    "expected_completion": [
+      "artery",
+      "coronary",
+      "aorta",
+      "airway",
+      "vena",
+      "valve",
+      "passage",
+      "ship"
+    ],
+    "contrast_completion": [
+      "vessel"
+    ],
+    "joke_a_index": 181,
+    "joke_c_index": 178,
+    "joke_a_sentence": "The cheese maker's creative projects always broke the ___",
+    "joke_c_sentence": "During the embargo, the navy cardiologist had to work on a blocked ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "rules"
+  },
+  {
+    "pair_id": 69,
+    "type": "funny",
+    "prompt": "The cheese maker's creative projects always broke the mold During the embargo, the navy cardiologist had to work on a blocked",
+    "expected_completion": [
+      "vessel"
+    ],
+    "contrast_completion": [
+      "artery",
+      "coronary",
+      "aorta",
+      "airway",
+      "vena",
+      "valve",
+      "passage",
+      "ship"
+    ],
+    "joke_a_index": 181,
+    "joke_c_index": 178,
+    "joke_a_sentence": "The cheese maker's creative projects always broke the ___",
+    "joke_c_sentence": "During the embargo, the navy cardiologist had to work on a blocked ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "mold"
+  },
+  {
+    "pair_id": 70,
+    "type": "straight",
+    "prompt": "The clock was so hungry it went back four hours The archaeologist's career was in",
+    "expected_completion": [
+      "jeopardy",
+      "discovery",
+      "shambles",
+      "tatters",
+      "trouble",
+      "decline"
+    ],
+    "contrast_completion": [
+      "ruins",
+      "ruin"
+    ],
+    "joke_a_index": 107,
+    "joke_c_index": 157,
+    "joke_a_sentence": "The clock was so hungry it went back four ___",
+    "joke_c_sentence": "The archaeologist's career was in ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0333,
+    "a_completion": "hours"
+  },
+  {
+    "pair_id": 70,
+    "type": "funny",
+    "prompt": "The clock was so hungry it went back four seconds The archaeologist's career was in",
+    "expected_completion": [
+      "ruins",
+      "ruin"
+    ],
+    "contrast_completion": [
+      "jeopardy",
+      "discovery",
+      "shambles",
+      "tatters",
+      "trouble",
+      "decline"
+    ],
+    "joke_a_index": 107,
+    "joke_c_index": 157,
+    "joke_a_sentence": "The clock was so hungry it went back four ___",
+    "joke_c_sentence": "The archaeologist's career was in ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0333,
+    "a_completion": "seconds"
+  },
+  {
+    "pair_id": 71,
+    "type": "straight",
+    "prompt": "The mathematician's garden was struggling because the plants had square leaves The fashion designer's behavior at work was always",
+    "expected_completion": [
+      "professional",
+      "unprofessional",
+      "unpredictable",
+      "problematic",
+      "impeccable",
+      "erratic",
+      "disruptive",
+      "rebellious",
+      "inconsistent",
+      "turbulent",
+      "questionable",
+      "exemplary"
+    ],
+    "contrast_completion": [
+      "model"
+    ],
+    "joke_a_index": 170,
+    "joke_c_index": 70,
+    "joke_a_sentence": "The mathematician's garden was struggling because the plants had square ___",
+    "joke_c_sentence": "The fashion designer's behavior at work was always ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "leaves"
+  },
+  {
+    "pair_id": 71,
+    "type": "funny",
+    "prompt": "The mathematician's garden was struggling because the plants had square roots The fashion designer's behavior at work was always",
+    "expected_completion": [
+      "model"
+    ],
+    "contrast_completion": [
+      "professional",
+      "unprofessional",
+      "unpredictable",
+      "problematic",
+      "impeccable",
+      "erratic",
+      "disruptive",
+      "rebellious",
+      "inconsistent",
+      "turbulent",
+      "questionable",
+      "exemplary"
+    ],
+    "joke_a_index": 170,
+    "joke_c_index": 70,
+    "joke_a_sentence": "The mathematician's garden was struggling because the plants had square ___",
+    "joke_c_sentence": "The fashion designer's behavior at work was always ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "roots"
+  },
+  {
+    "pair_id": 72,
+    "type": "straight",
+    "prompt": "At every party the boxer would bring the champagne The ocean seems so friendly because it is always",
+    "expected_completion": [
+      "calm",
+      "moving",
+      "wet",
+      "warm",
+      "big"
+    ],
+    "contrast_completion": [
+      "waving"
+    ],
+    "joke_a_index": 117,
+    "joke_c_index": 59,
+    "joke_a_sentence": "At every party the boxer would bring the ___",
+    "joke_c_sentence": "The ocean seems so friendly because it is always ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0476,
+    "a_completion": "champagne"
+  },
+  {
+    "pair_id": 72,
+    "type": "funny",
+    "prompt": "At every party the boxer would bring the punch The ocean seems so friendly because it is always",
+    "expected_completion": [
+      "waving"
+    ],
+    "contrast_completion": [
+      "calm",
+      "moving",
+      "wet",
+      "warm",
+      "big"
+    ],
+    "joke_a_index": 117,
+    "joke_c_index": 59,
+    "joke_a_sentence": "At every party the boxer would bring the ___",
+    "joke_c_sentence": "The ocean seems so friendly because it is always ___",
+    "joke_a_tier": "balanced",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0476,
+    "a_completion": "punch"
+  },
+  {
+    "pair_id": 73,
+    "type": "straight",
+    "prompt": "The shovel's greatest contribution to society was truly revolutionary The chef stopped dating comedians because every meal ended with a",
+    "expected_completion": [
+      "joke",
+      "punchline",
+      "fight",
+      "routine",
+      "disaster",
+      "laugh",
+      "lecture",
+      "story",
+      "performance"
+    ],
+    "contrast_completion": [
+      "roast"
+    ],
+    "joke_a_index": 14,
+    "joke_c_index": 187,
+    "joke_a_sentence": "The shovel's greatest contribution to society was truly ___",
+    "joke_c_sentence": "The chef stopped dating comedians because every meal ended with a ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0323,
+    "a_completion": "revolutionary"
+  },
+  {
+    "pair_id": 73,
+    "type": "funny",
+    "prompt": "The shovel's greatest contribution to society was truly groundbreaking The chef stopped dating comedians because every meal ended with a",
+    "expected_completion": [
+      "roast"
+    ],
+    "contrast_completion": [
+      "joke",
+      "punchline",
+      "fight",
+      "routine",
+      "disaster",
+      "laugh",
+      "lecture",
+      "story",
+      "performance"
+    ],
+    "joke_a_index": 14,
+    "joke_c_index": 187,
+    "joke_a_sentence": "The shovel's greatest contribution to society was truly ___",
+    "joke_c_sentence": "The chef stopped dating comedians because every meal ended with a ___",
+    "joke_a_tier": "leaning",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0323,
+    "a_completion": "groundbreaking"
+  },
+  {
+    "pair_id": 74,
+    "type": "straight",
+    "prompt": "The grammarian knew he had to be careful whenever he got involved The dieter went to the paint store to get",
+    "expected_completion": [
+      "paint",
+      "colors",
+      "color",
+      "red",
+      "trim",
+      "acrylic",
+      "enamel",
+      "supplies",
+      "spray",
+      "brushes"
+    ],
+    "contrast_completion": [
+      "thinner"
+    ],
+    "joke_a_index": 165,
+    "joke_c_index": 200,
+    "joke_a_sentence": "The grammarian knew he had to be careful whenever he got ___",
+    "joke_c_sentence": "The dieter went to the paint store to get ___",
+    "joke_a_tier": "straight_dominated",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "involved"
+  },
+  {
+    "pair_id": 74,
+    "type": "funny",
+    "prompt": "The grammarian knew he had to be careful whenever he got tense The dieter went to the paint store to get",
+    "expected_completion": [
+      "thinner"
+    ],
+    "contrast_completion": [
+      "paint",
+      "colors",
+      "color",
+      "red",
+      "trim",
+      "acrylic",
+      "enamel",
+      "supplies",
+      "spray",
+      "brushes"
+    ],
+    "joke_a_index": 165,
+    "joke_c_index": 200,
+    "joke_a_sentence": "The grammarian knew he had to be careful whenever he got ___",
+    "joke_c_sentence": "The dieter went to the paint store to get ___",
+    "joke_a_tier": "straight_dominated",
+    "joke_c_tier": "straight_dominated",
+    "joke_c_balance": 0.0,
+    "a_completion": "tense"
+  }
+]

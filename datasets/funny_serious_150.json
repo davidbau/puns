@@ -1,0 +1,3788 @@
+[
+  {
+    "pair_id": 0,
+    "type": "straight",
+    "prompt": "The dangerous iPhone was arrested and charged with assault.",
+    "completion_word": "assault",
+    "contrast_word": "battery",
+    "joke_index": 138,
+    "joke_sentence": "The dangerous iPhone was arrested and charged with ___",
+    "straight_words": [
+      "assault",
+      "misdemeanor",
+      "manslaughter",
+      "possession",
+      "crimes",
+      "hacking",
+      "negligence",
+      "conspiracy",
+      "theft",
+      "arson",
+      "fraud",
+      "murder",
+      "stealing"
+    ],
+    "punny_words": [
+      "battery"
+    ]
+  },
+  {
+    "pair_id": 0,
+    "type": "funny",
+    "prompt": "The dangerous iPhone was arrested and charged with battery.",
+    "completion_word": "battery",
+    "contrast_word": "assault",
+    "joke_index": 138,
+    "joke_sentence": "The dangerous iPhone was arrested and charged with ___",
+    "straight_words": [
+      "assault",
+      "misdemeanor",
+      "manslaughter",
+      "possession",
+      "crimes",
+      "hacking",
+      "negligence",
+      "conspiracy",
+      "theft",
+      "arson",
+      "fraud",
+      "murder",
+      "stealing"
+    ],
+    "punny_words": [
+      "battery"
+    ]
+  },
+  {
+    "pair_id": 1,
+    "type": "straight",
+    "prompt": "The bread was afraid to be best man, because he would have to make a speech.",
+    "completion_word": "speech",
+    "contrast_word": "toast",
+    "joke_index": 156,
+    "joke_sentence": "The bread was afraid to be best man, because he would have to make a ___",
+    "straight_words": [
+      "speech",
+      "tribute",
+      "monologue",
+      "dedication"
+    ],
+    "punny_words": [
+      "toast"
+    ]
+  },
+  {
+    "pair_id": 1,
+    "type": "funny",
+    "prompt": "The bread was afraid to be best man, because he would have to make a toast.",
+    "completion_word": "toast",
+    "contrast_word": "speech",
+    "joke_index": 156,
+    "joke_sentence": "The bread was afraid to be best man, because he would have to make a ___",
+    "straight_words": [
+      "speech",
+      "tribute",
+      "monologue",
+      "dedication"
+    ],
+    "punny_words": [
+      "toast"
+    ]
+  },
+  {
+    "pair_id": 2,
+    "type": "straight",
+    "prompt": "The wizard ran a fantastic music school because he had a great passion.",
+    "completion_word": "passion",
+    "contrast_word": "staff",
+    "joke_index": 76,
+    "joke_sentence": "The wizard ran a fantastic music school because he had a great ___",
+    "straight_words": [
+      "passion",
+      "ear",
+      "understanding",
+      "talent",
+      "reputation",
+      "affection",
+      "appreciation",
+      "network",
+      "imagination",
+      "teacher",
+      "sense",
+      "melody",
+      "gift",
+      "beat"
+    ],
+    "punny_words": [
+      "staff",
+      "spell"
+    ]
+  },
+  {
+    "pair_id": 2,
+    "type": "funny",
+    "prompt": "The wizard ran a fantastic music school because he had a great staff.",
+    "completion_word": "staff",
+    "contrast_word": "passion",
+    "joke_index": 76,
+    "joke_sentence": "The wizard ran a fantastic music school because he had a great ___",
+    "straight_words": [
+      "passion",
+      "ear",
+      "understanding",
+      "talent",
+      "reputation",
+      "affection",
+      "appreciation",
+      "network",
+      "imagination",
+      "teacher",
+      "sense",
+      "melody",
+      "gift",
+      "beat"
+    ],
+    "punny_words": [
+      "staff",
+      "spell"
+    ]
+  },
+  {
+    "pair_id": 3,
+    "type": "straight",
+    "prompt": "The mushroom's salary never went up because there was always a ceiling.",
+    "completion_word": "ceiling",
+    "contrast_word": "cap",
+    "joke_index": 71,
+    "joke_sentence": "The mushroom's salary never went up because there was always a ___",
+    "straight_words": [
+      "ceiling",
+      "limit",
+      "catch",
+      "snafu",
+      "budget",
+      "snag",
+      "restriction",
+      "shortage"
+    ],
+    "punny_words": [
+      "cap",
+      "fun-gi",
+      "fungus",
+      "fungi"
+    ]
+  },
+  {
+    "pair_id": 3,
+    "type": "funny",
+    "prompt": "The mushroom's salary never went up because there was always a cap.",
+    "completion_word": "cap",
+    "contrast_word": "ceiling",
+    "joke_index": 71,
+    "joke_sentence": "The mushroom's salary never went up because there was always a ___",
+    "straight_words": [
+      "ceiling",
+      "limit",
+      "catch",
+      "snafu",
+      "budget",
+      "snag",
+      "restriction",
+      "shortage"
+    ],
+    "punny_words": [
+      "cap",
+      "fun-gi",
+      "fungus",
+      "fungi"
+    ]
+  },
+  {
+    "pair_id": 4,
+    "type": "straight",
+    "prompt": "The vulture boarded the airplane with two dead raccoons but was told he was only allowed one carry-on.",
+    "completion_word": "carry-on",
+    "contrast_word": "carrion",
+    "joke_index": 42,
+    "joke_sentence": "The vulture boarded the airplane with two dead raccoons but was told he was only allowed one ___",
+    "straight_words": [
+      "carry-on",
+      "carryon",
+      "baggage",
+      "carcass",
+      "animal",
+      "bag",
+      "companion",
+      "suitcase",
+      "item"
+    ],
+    "punny_words": [
+      "carrion",
+      "carry",
+      "carryon",
+      "carry-on"
+    ]
+  },
+  {
+    "pair_id": 4,
+    "type": "funny",
+    "prompt": "The vulture boarded the airplane with two dead raccoons but was told he was only allowed one carrion.",
+    "completion_word": "carrion",
+    "contrast_word": "carry-on",
+    "joke_index": 42,
+    "joke_sentence": "The vulture boarded the airplane with two dead raccoons but was told he was only allowed one ___",
+    "straight_words": [
+      "carry-on",
+      "carryon",
+      "baggage",
+      "carcass",
+      "animal",
+      "bag",
+      "companion",
+      "suitcase",
+      "item"
+    ],
+    "punny_words": [
+      "carrion",
+      "carry",
+      "carryon",
+      "carry-on"
+    ]
+  },
+  {
+    "pair_id": 5,
+    "type": "straight",
+    "prompt": "The fish was smart because it spent all its time in a library.",
+    "completion_word": "library",
+    "contrast_word": "school",
+    "joke_index": 58,
+    "joke_sentence": "The fish was smart because it spent all its time in a ___",
+    "straight_words": [
+      "library",
+      "tank",
+      "cave",
+      "university",
+      "museum"
+    ],
+    "punny_words": [
+      "school"
+    ]
+  },
+  {
+    "pair_id": 5,
+    "type": "funny",
+    "prompt": "The fish was smart because it spent all its time in a school.",
+    "completion_word": "school",
+    "contrast_word": "library",
+    "joke_index": 58,
+    "joke_sentence": "The fish was smart because it spent all its time in a ___",
+    "straight_words": [
+      "library",
+      "tank",
+      "cave",
+      "university",
+      "museum"
+    ],
+    "punny_words": [
+      "school"
+    ]
+  },
+  {
+    "pair_id": 6,
+    "type": "straight",
+    "prompt": "The average data scientist is hard to befriend because they are so intelligent.",
+    "completion_word": "intelligent",
+    "contrast_word": "mean",
+    "joke_index": 105,
+    "joke_sentence": "The average data scientist is hard to befriend because they are so ___",
+    "straight_words": [
+      "intelligent",
+      "analytical",
+      "introverted",
+      "focused",
+      "absorbed",
+      "intense",
+      "self-contained",
+      "self-absorbed",
+      "reserved",
+      "obsessed",
+      "introspective",
+      "meticulous",
+      "logical",
+      "harsh",
+      "cruel",
+      "nasty",
+      "nerdy"
+    ],
+    "punny_words": [
+      "mean",
+      "analytical",
+      "variable"
+    ]
+  },
+  {
+    "pair_id": 6,
+    "type": "funny",
+    "prompt": "The average data scientist is hard to befriend because they are so mean.",
+    "completion_word": "mean",
+    "contrast_word": "intelligent",
+    "joke_index": 105,
+    "joke_sentence": "The average data scientist is hard to befriend because they are so ___",
+    "straight_words": [
+      "intelligent",
+      "analytical",
+      "introverted",
+      "focused",
+      "absorbed",
+      "intense",
+      "self-contained",
+      "self-absorbed",
+      "reserved",
+      "obsessed",
+      "introspective",
+      "meticulous",
+      "logical",
+      "harsh",
+      "cruel",
+      "nasty",
+      "nerdy"
+    ],
+    "punny_words": [
+      "mean",
+      "analytical",
+      "variable"
+    ]
+  },
+  {
+    "pair_id": 7,
+    "type": "straight",
+    "prompt": "The plumber went to the casino and got a jackpot.",
+    "completion_word": "jackpot",
+    "contrast_word": "flush",
+    "joke_index": 164,
+    "joke_sentence": "The plumber went to the casino and got a ___",
+    "straight_words": [
+      "jackpot",
+      "job",
+      "bet",
+      "win",
+      "bonus"
+    ],
+    "punny_words": [
+      "flush"
+    ]
+  },
+  {
+    "pair_id": 7,
+    "type": "funny",
+    "prompt": "The plumber went to the casino and got a flush.",
+    "completion_word": "flush",
+    "contrast_word": "jackpot",
+    "joke_index": 164,
+    "joke_sentence": "The plumber went to the casino and got a ___",
+    "straight_words": [
+      "jackpot",
+      "job",
+      "bet",
+      "win",
+      "bonus"
+    ],
+    "punny_words": [
+      "flush"
+    ]
+  },
+  {
+    "pair_id": 8,
+    "type": "straight",
+    "prompt": "The baker couldn't solve the mystery because the evidence kept disappearing.",
+    "completion_word": "disappearing",
+    "contrast_word": "crumbling",
+    "joke_index": 35,
+    "joke_sentence": "The baker couldn't solve the mystery because the evidence kept ___",
+    "straight_words": [
+      "disappearing",
+      "fading",
+      "vanishing",
+      "changing",
+      "slipping",
+      "eluding",
+      "moving",
+      "shifting"
+    ],
+    "punny_words": [
+      "crumbling",
+      "crumbing"
+    ]
+  },
+  {
+    "pair_id": 8,
+    "type": "funny",
+    "prompt": "The baker couldn't solve the mystery because the evidence kept crumbling.",
+    "completion_word": "crumbling",
+    "contrast_word": "disappearing",
+    "joke_index": 35,
+    "joke_sentence": "The baker couldn't solve the mystery because the evidence kept ___",
+    "straight_words": [
+      "disappearing",
+      "fading",
+      "vanishing",
+      "changing",
+      "slipping",
+      "eluding",
+      "moving",
+      "shifting"
+    ],
+    "punny_words": [
+      "crumbling",
+      "crumbing"
+    ]
+  },
+  {
+    "pair_id": 9,
+    "type": "straight",
+    "prompt": "The scuba instructor's students loved her because she never made them feel stupid.",
+    "completion_word": "stupid",
+    "contrast_word": "shallow",
+    "joke_index": 162,
+    "joke_sentence": "The scuba instructor's students loved her because she never made them feel ___",
+    "straight_words": [
+      "stupid",
+      "nervous",
+      "overwhelmed",
+      "intimidated",
+      "uncomfortable",
+      "inadequate",
+      "inferior",
+      "embarrassed",
+      "belittled",
+      "self-conscious",
+      "scared",
+      "anxious",
+      "overcrowded",
+      "bored",
+      "guilty",
+      "dumb"
+    ],
+    "punny_words": [
+      "shallow",
+      "pressured",
+      "pressurized"
+    ]
+  },
+  {
+    "pair_id": 9,
+    "type": "funny",
+    "prompt": "The scuba instructor's students loved her because she never made them feel shallow.",
+    "completion_word": "shallow",
+    "contrast_word": "stupid",
+    "joke_index": 162,
+    "joke_sentence": "The scuba instructor's students loved her because she never made them feel ___",
+    "straight_words": [
+      "stupid",
+      "nervous",
+      "overwhelmed",
+      "intimidated",
+      "uncomfortable",
+      "inadequate",
+      "inferior",
+      "embarrassed",
+      "belittled",
+      "self-conscious",
+      "scared",
+      "anxious",
+      "overcrowded",
+      "bored",
+      "guilty",
+      "dumb"
+    ],
+    "punny_words": [
+      "shallow",
+      "pressured",
+      "pressurized"
+    ]
+  },
+  {
+    "pair_id": 10,
+    "type": "straight",
+    "prompt": "The lizard keeper got a job in IT because he already worked with computers.",
+    "completion_word": "computers",
+    "contrast_word": "scales",
+    "joke_index": 98,
+    "joke_sentence": "The lizard keeper got a job in IT because he already worked with ___",
+    "straight_words": [
+      "computers",
+      "reptiles",
+      "networks",
+      "snakes",
+      "systems",
+      "servers",
+      "computer",
+      "lizards",
+      "mainframes",
+      "mainframe",
+      "screens",
+      "hardware",
+      "reptile",
+      "cold-blooded",
+      "reptilian",
+      "cables"
+    ],
+    "punny_words": [
+      "scales",
+      "monitors",
+      "scale"
+    ]
+  },
+  {
+    "pair_id": 10,
+    "type": "funny",
+    "prompt": "The lizard keeper got a job in IT because he already worked with scales.",
+    "completion_word": "scales",
+    "contrast_word": "computers",
+    "joke_index": 98,
+    "joke_sentence": "The lizard keeper got a job in IT because he already worked with ___",
+    "straight_words": [
+      "computers",
+      "reptiles",
+      "networks",
+      "snakes",
+      "systems",
+      "servers",
+      "computer",
+      "lizards",
+      "mainframes",
+      "mainframe",
+      "screens",
+      "hardware",
+      "reptile",
+      "cold-blooded",
+      "reptilian",
+      "cables"
+    ],
+    "punny_words": [
+      "scales",
+      "monitors",
+      "scale"
+    ]
+  },
+  {
+    "pair_id": 11,
+    "type": "straight",
+    "prompt": "The magazine editor was overwhelmed because there were too many submissions.",
+    "completion_word": "submissions",
+    "contrast_word": "issues",
+    "joke_index": 1,
+    "joke_sentence": "The magazine editor was overwhelmed because there were too many ___",
+    "straight_words": [
+      "submissions",
+      "articles",
+      "applications",
+      "requests",
+      "writers",
+      "entries",
+      "manuscripts",
+      "journalists",
+      "demands",
+      "deadlines",
+      "tasks",
+      "stories",
+      "pressures"
+    ],
+    "punny_words": [
+      "issues"
+    ]
+  },
+  {
+    "pair_id": 11,
+    "type": "funny",
+    "prompt": "The magazine editor was overwhelmed because there were too many issues.",
+    "completion_word": "issues",
+    "contrast_word": "submissions",
+    "joke_index": 1,
+    "joke_sentence": "The magazine editor was overwhelmed because there were too many ___",
+    "straight_words": [
+      "submissions",
+      "articles",
+      "applications",
+      "requests",
+      "writers",
+      "entries",
+      "manuscripts",
+      "journalists",
+      "demands",
+      "deadlines",
+      "tasks",
+      "stories",
+      "pressures"
+    ],
+    "punny_words": [
+      "issues"
+    ]
+  },
+  {
+    "pair_id": 12,
+    "type": "straight",
+    "prompt": "The horse breeder's business was always thriving.",
+    "completion_word": "thriving",
+    "contrast_word": "stable",
+    "joke_index": 183,
+    "joke_sentence": "The horse breeder's business was always ___",
+    "straight_words": [
+      "thriving",
+      "booming",
+      "struggling",
+      "understaffed",
+      "successful",
+      "flourishing",
+      "busy",
+      "profitable"
+    ],
+    "punny_words": [
+      "stable"
+    ]
+  },
+  {
+    "pair_id": 12,
+    "type": "funny",
+    "prompt": "The horse breeder's business was always stable.",
+    "completion_word": "stable",
+    "contrast_word": "thriving",
+    "joke_index": 183,
+    "joke_sentence": "The horse breeder's business was always ___",
+    "straight_words": [
+      "thriving",
+      "booming",
+      "struggling",
+      "understaffed",
+      "successful",
+      "flourishing",
+      "busy",
+      "profitable"
+    ],
+    "punny_words": [
+      "stable"
+    ]
+  },
+  {
+    "pair_id": 13,
+    "type": "straight",
+    "prompt": "The balloon advertisement was full of misleading.",
+    "completion_word": "misleading",
+    "contrast_word": "air",
+    "joke_index": 149,
+    "joke_sentence": "The balloon advertisement was full of ___",
+    "straight_words": [
+      "misleading",
+      "promises",
+      "hype",
+      "empty",
+      "hyperbole",
+      "buzzwords",
+      "vacuous",
+      "flaws",
+      "deception",
+      "exaggerations",
+      "excitement",
+      "promise",
+      "potential",
+      "problems"
+    ],
+    "punny_words": [
+      "air",
+      "hot air"
+    ]
+  },
+  {
+    "pair_id": 13,
+    "type": "funny",
+    "prompt": "The balloon advertisement was full of air.",
+    "completion_word": "air",
+    "contrast_word": "misleading",
+    "joke_index": 149,
+    "joke_sentence": "The balloon advertisement was full of ___",
+    "straight_words": [
+      "misleading",
+      "promises",
+      "hype",
+      "empty",
+      "hyperbole",
+      "buzzwords",
+      "vacuous",
+      "flaws",
+      "deception",
+      "exaggerations",
+      "excitement",
+      "promise",
+      "potential",
+      "problems"
+    ],
+    "punny_words": [
+      "air",
+      "hot air"
+    ]
+  },
+  {
+    "pair_id": 14,
+    "type": "straight",
+    "prompt": "The ship captain was impossible to negotiate with because he was too stubborn.",
+    "completion_word": "stubborn",
+    "contrast_word": "stern",
+    "joke_index": 125,
+    "joke_sentence": "The ship captain was impossible to negotiate with because he was too ___",
+    "straight_words": [
+      "stubborn",
+      "proud",
+      "independent",
+      "ambitious",
+      "absolutist",
+      "blind",
+      "obstinate",
+      "conceited",
+      "adamant",
+      "assertive",
+      "authoritative",
+      "controlling",
+      "shortsighted",
+      "demanding",
+      "stingy",
+      "rigid"
+    ],
+    "punny_words": [
+      "stern",
+      "anchored"
+    ]
+  },
+  {
+    "pair_id": 14,
+    "type": "funny",
+    "prompt": "The ship captain was impossible to negotiate with because he was too stern.",
+    "completion_word": "stern",
+    "contrast_word": "stubborn",
+    "joke_index": 125,
+    "joke_sentence": "The ship captain was impossible to negotiate with because he was too ___",
+    "straight_words": [
+      "stubborn",
+      "proud",
+      "independent",
+      "ambitious",
+      "absolutist",
+      "blind",
+      "obstinate",
+      "conceited",
+      "adamant",
+      "assertive",
+      "authoritative",
+      "controlling",
+      "shortsighted",
+      "demanding",
+      "stingy",
+      "rigid"
+    ],
+    "punny_words": [
+      "stern",
+      "anchored"
+    ]
+  },
+  {
+    "pair_id": 15,
+    "type": "straight",
+    "prompt": "The deli owner was great at ending arguments because he could see through the nonsense.",
+    "completion_word": "nonsense",
+    "contrast_word": "baloney",
+    "joke_index": 87,
+    "joke_sentence": "The deli owner was great at ending arguments because he could see through the ___",
+    "straight_words": [
+      "nonsense",
+      "facade",
+      "emotions",
+      "bickering",
+      "rhetoric",
+      "bitchiness",
+      "bitterness",
+      "histrionics",
+      "frustration",
+      "emotion",
+      "bullshit",
+      "smokescreen",
+      "posturing",
+      "bull",
+      "hypocrisy",
+      "expectations",
+      "b.s",
+      "subtext",
+      "subtleties",
+      "surface",
+      "bluff",
+      "lies",
+      "excuses",
+      "smoke"
+    ],
+    "punny_words": [
+      "baloney",
+      "meat"
+    ]
+  },
+  {
+    "pair_id": 15,
+    "type": "funny",
+    "prompt": "The deli owner was great at ending arguments because he could see through the baloney.",
+    "completion_word": "baloney",
+    "contrast_word": "nonsense",
+    "joke_index": 87,
+    "joke_sentence": "The deli owner was great at ending arguments because he could see through the ___",
+    "straight_words": [
+      "nonsense",
+      "facade",
+      "emotions",
+      "bickering",
+      "rhetoric",
+      "bitchiness",
+      "bitterness",
+      "histrionics",
+      "frustration",
+      "emotion",
+      "bullshit",
+      "smokescreen",
+      "posturing",
+      "bull",
+      "hypocrisy",
+      "expectations",
+      "b.s",
+      "subtext",
+      "subtleties",
+      "surface",
+      "bluff",
+      "lies",
+      "excuses",
+      "smoke"
+    ],
+    "punny_words": [
+      "baloney",
+      "meat"
+    ]
+  },
+  {
+    "pair_id": 16,
+    "type": "straight",
+    "prompt": "The traffic light was embarrassed and turned red when it had to admit.",
+    "completion_word": "admit",
+    "contrast_word": "change",
+    "joke_index": 163,
+    "joke_sentence": "The traffic light was embarrassed and turned red when it had to ___",
+    "straight_words": [
+      "admit",
+      "stop",
+      "confront",
+      "announce",
+      "signal",
+      "yield",
+      "confess",
+      "fail",
+      "direct",
+      "inform",
+      "interrupt",
+      "explain",
+      "apologize",
+      "serve",
+      "stop traffic",
+      "halt cars",
+      "work again",
+      "halt",
+      "work"
+    ],
+    "punny_words": [
+      "change"
+    ]
+  },
+  {
+    "pair_id": 16,
+    "type": "funny",
+    "prompt": "The traffic light was embarrassed and turned red when it had to change.",
+    "completion_word": "change",
+    "contrast_word": "admit",
+    "joke_index": 163,
+    "joke_sentence": "The traffic light was embarrassed and turned red when it had to ___",
+    "straight_words": [
+      "admit",
+      "stop",
+      "confront",
+      "announce",
+      "signal",
+      "yield",
+      "confess",
+      "fail",
+      "direct",
+      "inform",
+      "interrupt",
+      "explain",
+      "apologize",
+      "serve",
+      "stop traffic",
+      "halt cars",
+      "work again",
+      "halt",
+      "work"
+    ],
+    "punny_words": [
+      "change"
+    ]
+  },
+  {
+    "pair_id": 17,
+    "type": "straight",
+    "prompt": "The fish couldn't learn guitar because he couldn't get past the fretboard.",
+    "completion_word": "fretboard",
+    "contrast_word": "scales",
+    "joke_index": 84,
+    "joke_sentence": "The fish couldn't learn guitar because he couldn't get past the ___",
+    "straight_words": [
+      "fretboard",
+      "fingers",
+      "fingering",
+      "strings",
+      "difficulty",
+      "fret",
+      "frets",
+      "fingertips",
+      "chords",
+      "barrier",
+      "fretting",
+      "chord",
+      "technique",
+      "bar",
+      "finger",
+      "basics"
+    ],
+    "punny_words": [
+      "scales",
+      "bass"
+    ]
+  },
+  {
+    "pair_id": 17,
+    "type": "funny",
+    "prompt": "The fish couldn't learn guitar because he couldn't get past the scales.",
+    "completion_word": "scales",
+    "contrast_word": "fretboard",
+    "joke_index": 84,
+    "joke_sentence": "The fish couldn't learn guitar because he couldn't get past the ___",
+    "straight_words": [
+      "fretboard",
+      "fingers",
+      "fingering",
+      "strings",
+      "difficulty",
+      "fret",
+      "frets",
+      "fingertips",
+      "chords",
+      "barrier",
+      "fretting",
+      "chord",
+      "technique",
+      "bar",
+      "finger",
+      "basics"
+    ],
+    "punny_words": [
+      "scales",
+      "bass"
+    ]
+  },
+  {
+    "pair_id": 18,
+    "type": "straight",
+    "prompt": "The wedding photographer refused to work divorces because they involved too much drama.",
+    "completion_word": "drama",
+    "contrast_word": "exposure",
+    "joke_index": 119,
+    "joke_sentence": "The wedding photographer refused to work divorces because they involved too much ___",
+    "straight_words": [
+      "drama",
+      "negativity",
+      "sadness",
+      "conflict",
+      "emotion",
+      "stress",
+      "hate",
+      "cruelty",
+      "sorrow",
+      "damage",
+      "crying",
+      "separation"
+    ],
+    "punny_words": [
+      "exposure",
+      "shooting"
+    ]
+  },
+  {
+    "pair_id": 18,
+    "type": "funny",
+    "prompt": "The wedding photographer refused to work divorces because they involved too much exposure.",
+    "completion_word": "exposure",
+    "contrast_word": "drama",
+    "joke_index": 119,
+    "joke_sentence": "The wedding photographer refused to work divorces because they involved too much ___",
+    "straight_words": [
+      "drama",
+      "negativity",
+      "sadness",
+      "conflict",
+      "emotion",
+      "stress",
+      "hate",
+      "cruelty",
+      "sorrow",
+      "damage",
+      "crying",
+      "separation"
+    ],
+    "punny_words": [
+      "exposure",
+      "shooting"
+    ]
+  },
+  {
+    "pair_id": 19,
+    "type": "straight",
+    "prompt": "The filmmaker somehow ended up in HR because she knew how to mediate people.",
+    "completion_word": "mediate",
+    "contrast_word": "screen",
+    "joke_index": 103,
+    "joke_sentence": "The filmmaker somehow ended up in HR because she knew how to ___ people",
+    "straight_words": [
+      "mediate",
+      "handle",
+      "manage",
+      "manipulate",
+      "negotiate",
+      "influence",
+      "problem-solve",
+      "evaluate",
+      "interview"
+    ],
+    "punny_words": [
+      "screen",
+      "frame",
+      "develop"
+    ]
+  },
+  {
+    "pair_id": 19,
+    "type": "funny",
+    "prompt": "The filmmaker somehow ended up in HR because she knew how to screen people.",
+    "completion_word": "screen",
+    "contrast_word": "mediate",
+    "joke_index": 103,
+    "joke_sentence": "The filmmaker somehow ended up in HR because she knew how to ___ people",
+    "straight_words": [
+      "mediate",
+      "handle",
+      "manage",
+      "manipulate",
+      "negotiate",
+      "influence",
+      "problem-solve",
+      "evaluate",
+      "interview"
+    ],
+    "punny_words": [
+      "screen",
+      "frame",
+      "develop"
+    ]
+  },
+  {
+    "pair_id": 20,
+    "type": "straight",
+    "prompt": "The poker player loved this mountain trail because it ended at a casino.",
+    "completion_word": "casino",
+    "contrast_word": "bluff",
+    "joke_index": 176,
+    "joke_sentence": "The poker player loved this mountain trail because it ended at a ___",
+    "straight_words": [
+      "casino",
+      "lodge",
+      "waterfall",
+      "lake",
+      "meadow",
+      "cabins",
+      "lakehouse",
+      "summit",
+      "viewpoint",
+      "clearing"
+    ],
+    "punny_words": [
+      "bluff",
+      "peak"
+    ]
+  },
+  {
+    "pair_id": 20,
+    "type": "funny",
+    "prompt": "The poker player loved this mountain trail because it ended at a bluff.",
+    "completion_word": "bluff",
+    "contrast_word": "casino",
+    "joke_index": 176,
+    "joke_sentence": "The poker player loved this mountain trail because it ended at a ___",
+    "straight_words": [
+      "casino",
+      "lodge",
+      "waterfall",
+      "lake",
+      "meadow",
+      "cabins",
+      "lakehouse",
+      "summit",
+      "viewpoint",
+      "clearing"
+    ],
+    "punny_words": [
+      "bluff",
+      "peak"
+    ]
+  },
+  {
+    "pair_id": 21,
+    "type": "straight",
+    "prompt": "After his return the astronaut chose this restaurant because it had great reviews.",
+    "completion_word": "reviews",
+    "contrast_word": "atmosphere",
+    "joke_index": 43,
+    "joke_sentence": "After his return the astronaut chose this restaurant because it had great ___",
+    "straight_words": [
+      "reviews",
+      "food",
+      "views",
+      "service",
+      "reputation",
+      "steaks",
+      "view",
+      "barbecue",
+      "review",
+      "burgers",
+      "ambiance"
+    ],
+    "punny_words": [
+      "atmosphere",
+      "space"
+    ]
+  },
+  {
+    "pair_id": 21,
+    "type": "funny",
+    "prompt": "After his return the astronaut chose this restaurant because it had great atmosphere.",
+    "completion_word": "atmosphere",
+    "contrast_word": "reviews",
+    "joke_index": 43,
+    "joke_sentence": "After his return the astronaut chose this restaurant because it had great ___",
+    "straight_words": [
+      "reviews",
+      "food",
+      "views",
+      "service",
+      "reputation",
+      "steaks",
+      "view",
+      "barbecue",
+      "review",
+      "burgers",
+      "ambiance"
+    ],
+    "punny_words": [
+      "atmosphere",
+      "space"
+    ]
+  },
+  {
+    "pair_id": 22,
+    "type": "straight",
+    "prompt": "The barber's philosophy lectures were popular because he always made the point.",
+    "completion_word": "point",
+    "contrast_word": "cut",
+    "joke_index": 195,
+    "joke_sentence": "The barber's philosophy lectures were popular because he always made the ___",
+    "straight_words": [
+      "point",
+      "subject",
+      "connection",
+      "points",
+      "material",
+      "ideas",
+      "concept",
+      "argument"
+    ],
+    "punny_words": [
+      "cut"
+    ]
+  },
+  {
+    "pair_id": 22,
+    "type": "funny",
+    "prompt": "The barber's philosophy lectures were popular because he always made the cut.",
+    "completion_word": "cut",
+    "contrast_word": "point",
+    "joke_index": 195,
+    "joke_sentence": "The barber's philosophy lectures were popular because he always made the ___",
+    "straight_words": [
+      "point",
+      "subject",
+      "connection",
+      "points",
+      "material",
+      "ideas",
+      "concept",
+      "argument"
+    ],
+    "punny_words": [
+      "cut"
+    ]
+  },
+  {
+    "pair_id": 23,
+    "type": "straight",
+    "prompt": "The elevator operator had an eventful life with many adventures.",
+    "completion_word": "adventures",
+    "contrast_word": "ups and downs",
+    "joke_index": 17,
+    "joke_sentence": "The elevator operator had an eventful life with many ___",
+    "straight_words": [
+      "adventures",
+      "experiences",
+      "twists",
+      "turns",
+      "surprises",
+      "travels",
+      "incidents",
+      "perils",
+      "excitements",
+      "disturbances",
+      "encounters",
+      "stories",
+      "benefits",
+      "perks",
+      "moments"
+    ],
+    "punny_words": [
+      "ups and downs"
+    ]
+  },
+  {
+    "pair_id": 23,
+    "type": "funny",
+    "prompt": "The elevator operator had an eventful life with many ups and downs.",
+    "completion_word": "ups and downs",
+    "contrast_word": "adventures",
+    "joke_index": 17,
+    "joke_sentence": "The elevator operator had an eventful life with many ___",
+    "straight_words": [
+      "adventures",
+      "experiences",
+      "twists",
+      "turns",
+      "surprises",
+      "travels",
+      "incidents",
+      "perils",
+      "excitements",
+      "disturbances",
+      "encounters",
+      "stories",
+      "benefits",
+      "perks",
+      "moments"
+    ],
+    "punny_words": [
+      "ups and downs"
+    ]
+  },
+  {
+    "pair_id": 24,
+    "type": "straight",
+    "prompt": "The indecisive chef reopened his restaurant but still had trouble.",
+    "completion_word": "trouble",
+    "contrast_word": "reservations",
+    "joke_index": 95,
+    "joke_sentence": "The indecisive chef reopened his restaurant but still had ___",
+    "straight_words": [
+      "trouble",
+      "doubts",
+      "difficulty",
+      "difficulties",
+      "second-guessing",
+      "troubles",
+      "concerns",
+      "second thoughts",
+      "customers",
+      "second"
+    ],
+    "punny_words": [
+      "reservations",
+      "cold"
+    ]
+  },
+  {
+    "pair_id": 24,
+    "type": "funny",
+    "prompt": "The indecisive chef reopened his restaurant but still had reservations.",
+    "completion_word": "reservations",
+    "contrast_word": "trouble",
+    "joke_index": 95,
+    "joke_sentence": "The indecisive chef reopened his restaurant but still had ___",
+    "straight_words": [
+      "trouble",
+      "doubts",
+      "difficulty",
+      "difficulties",
+      "second-guessing",
+      "troubles",
+      "concerns",
+      "second thoughts",
+      "customers",
+      "second"
+    ],
+    "punny_words": [
+      "reservations",
+      "cold"
+    ]
+  },
+  {
+    "pair_id": 25,
+    "type": "straight",
+    "prompt": "Argue with your pharmacist, and you will find she always has a prescription.",
+    "completion_word": "prescription",
+    "contrast_word": "counter",
+    "joke_index": 188,
+    "joke_sentence": "Argue with your pharmacist, and you will find she always has a ___",
+    "straight_words": [
+      "prescription",
+      "reason",
+      "solution",
+      "point",
+      "script",
+      "counterargument",
+      "selection",
+      "recommendation",
+      "answer",
+      "perscription",
+      "justification",
+      "rebuttal",
+      "comeback",
+      "response"
+    ],
+    "punny_words": [
+      "counter",
+      "prescription",
+      "solution"
+    ]
+  },
+  {
+    "pair_id": 25,
+    "type": "funny",
+    "prompt": "Argue with your pharmacist, and you will find she always has a counter.",
+    "completion_word": "counter",
+    "contrast_word": "prescription",
+    "joke_index": 188,
+    "joke_sentence": "Argue with your pharmacist, and you will find she always has a ___",
+    "straight_words": [
+      "prescription",
+      "reason",
+      "solution",
+      "point",
+      "script",
+      "counterargument",
+      "selection",
+      "recommendation",
+      "answer",
+      "perscription",
+      "justification",
+      "rebuttal",
+      "comeback",
+      "response"
+    ],
+    "punny_words": [
+      "counter",
+      "prescription",
+      "solution"
+    ]
+  },
+  {
+    "pair_id": 26,
+    "type": "straight",
+    "prompt": "The caterpillar was optimistic because he believed in personal growth.",
+    "completion_word": "growth",
+    "contrast_word": "transformation",
+    "joke_index": 93,
+    "joke_sentence": "The caterpillar was optimistic because he believed in personal ___",
+    "straight_words": [
+      "growth",
+      "change",
+      "development"
+    ],
+    "punny_words": [
+      "transformation"
+    ]
+  },
+  {
+    "pair_id": 26,
+    "type": "funny",
+    "prompt": "The caterpillar was optimistic because he believed in personal transformation.",
+    "completion_word": "transformation",
+    "contrast_word": "growth",
+    "joke_index": 93,
+    "joke_sentence": "The caterpillar was optimistic because he believed in personal ___",
+    "straight_words": [
+      "growth",
+      "change",
+      "development"
+    ],
+    "punny_words": [
+      "transformation"
+    ]
+  },
+  {
+    "pair_id": 27,
+    "type": "straight",
+    "prompt": "The chemist was reading a book on helium and he just couldn't understand.",
+    "completion_word": "understand",
+    "contrast_word": "put it down",
+    "joke_index": 134,
+    "joke_sentence": "The chemist was reading a book on helium and he just couldn't ___",
+    "straight_words": [
+      "understand",
+      "stop",
+      "concentrate",
+      "believe",
+      "forget",
+      "comprehend",
+      "focus",
+      "finish it",
+      "understand it"
+    ],
+    "punny_words": [
+      "put it down"
+    ]
+  },
+  {
+    "pair_id": 27,
+    "type": "funny",
+    "prompt": "The chemist was reading a book on helium and he just couldn't put it down.",
+    "completion_word": "put it down",
+    "contrast_word": "understand",
+    "joke_index": 134,
+    "joke_sentence": "The chemist was reading a book on helium and he just couldn't ___",
+    "straight_words": [
+      "understand",
+      "stop",
+      "concentrate",
+      "believe",
+      "forget",
+      "comprehend",
+      "focus",
+      "finish it",
+      "understand it"
+    ],
+    "punny_words": [
+      "put it down"
+    ]
+  },
+  {
+    "pair_id": 28,
+    "type": "straight",
+    "prompt": "The laundry felt betrayed after it was shrunk.",
+    "completion_word": "shrunk",
+    "contrast_word": "hung out to dry",
+    "joke_index": 73,
+    "joke_sentence": "The laundry felt betrayed after it was ___",
+    "straight_words": [
+      "shrunk",
+      "accused",
+      "forgotten",
+      "lost",
+      "stolen",
+      "overloaded",
+      "abandoned",
+      "stained",
+      "suffer",
+      "fail",
+      "fend",
+      "washed"
+    ],
+    "punny_words": [
+      "hung out to dry",
+      "folded"
+    ]
+  },
+  {
+    "pair_id": 28,
+    "type": "funny",
+    "prompt": "The laundry felt betrayed after it was hung out to dry.",
+    "completion_word": "hung out to dry",
+    "contrast_word": "shrunk",
+    "joke_index": 73,
+    "joke_sentence": "The laundry felt betrayed after it was ___",
+    "straight_words": [
+      "shrunk",
+      "accused",
+      "forgotten",
+      "lost",
+      "stolen",
+      "overloaded",
+      "abandoned",
+      "stained",
+      "suffer",
+      "fail",
+      "fend",
+      "washed"
+    ],
+    "punny_words": [
+      "hung out to dry",
+      "folded"
+    ]
+  },
+  {
+    "pair_id": 29,
+    "type": "straight",
+    "prompt": "The dry cleaner could never stop to chat because he had so many customers.",
+    "completion_word": "customers",
+    "contrast_word": "pressing matters",
+    "joke_index": 124,
+    "joke_sentence": "The dry cleaner could never stop to chat because he had so many ___",
+    "straight_words": [
+      "customers",
+      "shirts",
+      "clothes",
+      "orders",
+      "responsibilities",
+      "emergencies",
+      "crises",
+      "stress",
+      "garments",
+      "stains"
+    ],
+    "punny_words": [
+      "pressing matters",
+      "pressing"
+    ]
+  },
+  {
+    "pair_id": 29,
+    "type": "funny",
+    "prompt": "The dry cleaner could never stop to chat because he had so many pressing matters.",
+    "completion_word": "pressing matters",
+    "contrast_word": "customers",
+    "joke_index": 124,
+    "joke_sentence": "The dry cleaner could never stop to chat because he had so many ___",
+    "straight_words": [
+      "customers",
+      "shirts",
+      "clothes",
+      "orders",
+      "responsibilities",
+      "emergencies",
+      "crises",
+      "stress",
+      "garments",
+      "stains"
+    ],
+    "punny_words": [
+      "pressing matters",
+      "pressing"
+    ]
+  },
+  {
+    "pair_id": 30,
+    "type": "straight",
+    "prompt": "The boat mechanic kept the company going because he kept everything running.",
+    "completion_word": "running",
+    "contrast_word": "afloat",
+    "joke_index": 91,
+    "joke_sentence": "The boat mechanic kept the company going because he kept everything ___",
+    "straight_words": [
+      "running",
+      "organized",
+      "well-oiled",
+      "spotless",
+      "up",
+      "working",
+      "together",
+      "operational"
+    ],
+    "punny_words": [
+      "afloat"
+    ]
+  },
+  {
+    "pair_id": 30,
+    "type": "funny",
+    "prompt": "The boat mechanic kept the company going because he kept everything afloat.",
+    "completion_word": "afloat",
+    "contrast_word": "running",
+    "joke_index": 91,
+    "joke_sentence": "The boat mechanic kept the company going because he kept everything ___",
+    "straight_words": [
+      "running",
+      "organized",
+      "well-oiled",
+      "spotless",
+      "up",
+      "working",
+      "together",
+      "operational"
+    ],
+    "punny_words": [
+      "afloat"
+    ]
+  },
+  {
+    "pair_id": 31,
+    "type": "straight",
+    "prompt": "The Greek architect became a journalist because he totally loved writing.",
+    "completion_word": "writing",
+    "contrast_word": "columns",
+    "joke_index": 202,
+    "joke_sentence": "The Greek architect became a journalist because he totally loved ___",
+    "straight_words": [
+      "writing",
+      "reporting",
+      "storytelling",
+      "covering",
+      "researching",
+      "narratives",
+      "stories",
+      "arguments"
+    ],
+    "punny_words": [
+      "columns"
+    ]
+  },
+  {
+    "pair_id": 31,
+    "type": "funny",
+    "prompt": "The Greek architect became a journalist because he totally loved columns.",
+    "completion_word": "columns",
+    "contrast_word": "writing",
+    "joke_index": 202,
+    "joke_sentence": "The Greek architect became a journalist because he totally loved ___",
+    "straight_words": [
+      "writing",
+      "reporting",
+      "storytelling",
+      "covering",
+      "researching",
+      "narratives",
+      "stories",
+      "arguments"
+    ],
+    "punny_words": [
+      "columns"
+    ]
+  },
+  {
+    "pair_id": 32,
+    "type": "straight",
+    "prompt": "The photographer hated gossip because it always developed into rumors.",
+    "completion_word": "rumors",
+    "contrast_word": "negatives",
+    "joke_index": 100,
+    "joke_sentence": "The photographer hated gossip because it always developed into ___",
+    "straight_words": [
+      "rumors",
+      "slander",
+      "unpleasantness",
+      "gossip",
+      "ridicule",
+      "tension",
+      "scandal",
+      "drama",
+      "badmouthing",
+      "confrontations",
+      "lies",
+      "trouble",
+      "conflict",
+      "chaos"
+    ],
+    "punny_words": [
+      "negatives"
+    ]
+  },
+  {
+    "pair_id": 32,
+    "type": "funny",
+    "prompt": "The photographer hated gossip because it always developed into negatives.",
+    "completion_word": "negatives",
+    "contrast_word": "rumors",
+    "joke_index": 100,
+    "joke_sentence": "The photographer hated gossip because it always developed into ___",
+    "straight_words": [
+      "rumors",
+      "slander",
+      "unpleasantness",
+      "gossip",
+      "ridicule",
+      "tension",
+      "scandal",
+      "drama",
+      "badmouthing",
+      "confrontations",
+      "lies",
+      "trouble",
+      "conflict",
+      "chaos"
+    ],
+    "punny_words": [
+      "negatives"
+    ]
+  },
+  {
+    "pair_id": 33,
+    "type": "straight",
+    "prompt": "The king was only 12 inches tall, making him a pretty good warrior.",
+    "completion_word": "warrior",
+    "contrast_word": "fit",
+    "joke_index": 184,
+    "joke_sentence": "The king was only 12 inches tall, making him a pretty good ___",
+    "straight_words": [
+      "warrior",
+      "fighter",
+      "leader",
+      "candidate",
+      "target",
+      "joke",
+      "man"
+    ],
+    "punny_words": [
+      "fit",
+      "ruler"
+    ]
+  },
+  {
+    "pair_id": 33,
+    "type": "funny",
+    "prompt": "The king was only 12 inches tall, making him a pretty good fit.",
+    "completion_word": "fit",
+    "contrast_word": "warrior",
+    "joke_index": 184,
+    "joke_sentence": "The king was only 12 inches tall, making him a pretty good ___",
+    "straight_words": [
+      "warrior",
+      "fighter",
+      "leader",
+      "candidate",
+      "target",
+      "joke",
+      "man"
+    ],
+    "punny_words": [
+      "fit",
+      "ruler"
+    ]
+  },
+  {
+    "pair_id": 34,
+    "type": "straight",
+    "prompt": "The forgetful collector left their wallet.",
+    "completion_word": "wallet",
+    "contrast_word": "stamp",
+    "joke_index": 28,
+    "joke_sentence": "The forgetful collector left their ___",
+    "straight_words": [
+      "wallet",
+      "valuables",
+      "portfolio",
+      "luggage",
+      "items",
+      "belongings",
+      "umbrella",
+      "jewels",
+      "treasures",
+      "backpack",
+      "glasses",
+      "note",
+      "artifacts",
+      "notebook",
+      "purse",
+      "house",
+      "paintings",
+      "passport",
+      "impression",
+      "impact",
+      "legacy",
+      "valuable",
+      "keys"
+    ],
+    "punny_words": [
+      "stamp"
+    ]
+  },
+  {
+    "pair_id": 34,
+    "type": "funny",
+    "prompt": "The forgetful collector left their stamp.",
+    "completion_word": "stamp",
+    "contrast_word": "wallet",
+    "joke_index": 28,
+    "joke_sentence": "The forgetful collector left their ___",
+    "straight_words": [
+      "wallet",
+      "valuables",
+      "portfolio",
+      "luggage",
+      "items",
+      "belongings",
+      "umbrella",
+      "jewels",
+      "treasures",
+      "backpack",
+      "glasses",
+      "note",
+      "artifacts",
+      "notebook",
+      "purse",
+      "house",
+      "paintings",
+      "passport",
+      "impression",
+      "impact",
+      "legacy",
+      "valuable",
+      "keys"
+    ],
+    "punny_words": [
+      "stamp"
+    ]
+  },
+  {
+    "pair_id": 35,
+    "type": "straight",
+    "prompt": "The newspaper editor was always short for time.",
+    "completion_word": "short",
+    "contrast_word": "pressed",
+    "joke_index": 54,
+    "joke_sentence": "The newspaper editor was always ___ for time",
+    "straight_words": [
+      "short",
+      "rushed",
+      "scrambling",
+      "looking"
+    ],
+    "punny_words": [
+      "pressed"
+    ]
+  },
+  {
+    "pair_id": 35,
+    "type": "funny",
+    "prompt": "The newspaper editor was always pressed for time.",
+    "completion_word": "pressed",
+    "contrast_word": "short",
+    "joke_index": 54,
+    "joke_sentence": "The newspaper editor was always ___ for time",
+    "straight_words": [
+      "short",
+      "rushed",
+      "scrambling",
+      "looking"
+    ],
+    "punny_words": [
+      "pressed"
+    ]
+  },
+  {
+    "pair_id": 36,
+    "type": "straight",
+    "prompt": "The basketball player became a writer because he was great at the storytelling.",
+    "completion_word": "storytelling",
+    "contrast_word": "draft",
+    "joke_index": 40,
+    "joke_sentence": "The basketball player became a writer because he was great at the ___",
+    "straight_words": [
+      "storytelling",
+      "craft",
+      "art",
+      "narrative",
+      "telling",
+      "sportswriting",
+      "genre",
+      "beginning",
+      "outline",
+      "opening"
+    ],
+    "punny_words": [
+      "draft"
+    ]
+  },
+  {
+    "pair_id": 36,
+    "type": "funny",
+    "prompt": "The basketball player became a writer because he was great at the draft.",
+    "completion_word": "draft",
+    "contrast_word": "storytelling",
+    "joke_index": 40,
+    "joke_sentence": "The basketball player became a writer because he was great at the ___",
+    "straight_words": [
+      "storytelling",
+      "craft",
+      "art",
+      "narrative",
+      "telling",
+      "sportswriting",
+      "genre",
+      "beginning",
+      "outline",
+      "opening"
+    ],
+    "punny_words": [
+      "draft"
+    ]
+  },
+  {
+    "pair_id": 37,
+    "type": "straight",
+    "prompt": "The pilot's jokes never seemed to work.",
+    "completion_word": "work",
+    "contrast_word": "land",
+    "joke_index": 171,
+    "joke_sentence": "The pilot's jokes never seemed to ___",
+    "straight_words": [
+      "work",
+      "hit",
+      "succeed",
+      "connect",
+      "amuse"
+    ],
+    "punny_words": [
+      "land",
+      "take off",
+      "fly",
+      "landed"
+    ]
+  },
+  {
+    "pair_id": 37,
+    "type": "funny",
+    "prompt": "The pilot's jokes never seemed to land.",
+    "completion_word": "land",
+    "contrast_word": "work",
+    "joke_index": 171,
+    "joke_sentence": "The pilot's jokes never seemed to ___",
+    "straight_words": [
+      "work",
+      "hit",
+      "succeed",
+      "connect",
+      "amuse"
+    ],
+    "punny_words": [
+      "land",
+      "take off",
+      "fly",
+      "landed"
+    ]
+  },
+  {
+    "pair_id": 38,
+    "type": "straight",
+    "prompt": "The coin maker went crazy and stopped making any coins.",
+    "completion_word": "coins",
+    "contrast_word": "cents",
+    "joke_index": 113,
+    "joke_sentence": "The coin maker went crazy and stopped making any ___",
+    "straight_words": [
+      "coins",
+      "money",
+      "specimens",
+      "progress",
+      "friends",
+      "effort"
+    ],
+    "punny_words": [
+      "cents",
+      "change",
+      "sense"
+    ]
+  },
+  {
+    "pair_id": 38,
+    "type": "funny",
+    "prompt": "The coin maker went crazy and stopped making any cents.",
+    "completion_word": "cents",
+    "contrast_word": "coins",
+    "joke_index": 113,
+    "joke_sentence": "The coin maker went crazy and stopped making any ___",
+    "straight_words": [
+      "coins",
+      "money",
+      "specimens",
+      "progress",
+      "friends",
+      "effort"
+    ],
+    "punny_words": [
+      "cents",
+      "change",
+      "sense"
+    ]
+  },
+  {
+    "pair_id": 39,
+    "type": "straight",
+    "prompt": "The lumberjack's diary was thick because he kept detailed records.",
+    "completion_word": "records",
+    "contrast_word": "logs",
+    "joke_index": 111,
+    "joke_sentence": "The lumberjack's diary was thick because he kept detailed ___",
+    "straight_words": [
+      "records",
+      "accounts",
+      "entries",
+      "notes",
+      "account",
+      "notations",
+      "descriptions"
+    ],
+    "punny_words": [
+      "logs"
+    ]
+  },
+  {
+    "pair_id": 39,
+    "type": "funny",
+    "prompt": "The lumberjack's diary was thick because he kept detailed logs.",
+    "completion_word": "logs",
+    "contrast_word": "records",
+    "joke_index": 111,
+    "joke_sentence": "The lumberjack's diary was thick because he kept detailed ___",
+    "straight_words": [
+      "records",
+      "accounts",
+      "entries",
+      "notes",
+      "account",
+      "notations",
+      "descriptions"
+    ],
+    "punny_words": [
+      "logs"
+    ]
+  },
+  {
+    "pair_id": 40,
+    "type": "straight",
+    "prompt": "The chicken won the percussion contest with her incredible drumming.",
+    "completion_word": "drumming",
+    "contrast_word": "drumsticks",
+    "joke_index": 16,
+    "joke_sentence": "The chicken won the percussion contest with her incredible ___",
+    "straight_words": [
+      "drumming",
+      "talents",
+      "beats",
+      "talent",
+      "rhythm",
+      "rhythms",
+      "beating",
+      "timekeeping",
+      "skills",
+      "timing",
+      "solo",
+      "performance"
+    ],
+    "punny_words": [
+      "drumsticks",
+      "drumstick"
+    ]
+  },
+  {
+    "pair_id": 40,
+    "type": "funny",
+    "prompt": "The chicken won the percussion contest with her incredible drumsticks.",
+    "completion_word": "drumsticks",
+    "contrast_word": "drumming",
+    "joke_index": 16,
+    "joke_sentence": "The chicken won the percussion contest with her incredible ___",
+    "straight_words": [
+      "drumming",
+      "talents",
+      "beats",
+      "talent",
+      "rhythm",
+      "rhythms",
+      "beating",
+      "timekeeping",
+      "skills",
+      "timing",
+      "solo",
+      "performance"
+    ],
+    "punny_words": [
+      "drumsticks",
+      "drumstick"
+    ]
+  },
+  {
+    "pair_id": 41,
+    "type": "straight",
+    "prompt": "When the egg farmer tried to organize his inventory, everything turned into a complete chaos.",
+    "completion_word": "chaos",
+    "contrast_word": "scramble",
+    "joke_index": 78,
+    "joke_sentence": "When the egg farmer tried to organize his inventory, everything turned into a complete ___",
+    "straight_words": [
+      "chaos",
+      "mess",
+      "disaster",
+      "nightmare"
+    ],
+    "punny_words": [
+      "scramble"
+    ]
+  },
+  {
+    "pair_id": 41,
+    "type": "funny",
+    "prompt": "When the egg farmer tried to organize his inventory, everything turned into a complete scramble.",
+    "completion_word": "scramble",
+    "contrast_word": "chaos",
+    "joke_index": 78,
+    "joke_sentence": "When the egg farmer tried to organize his inventory, everything turned into a complete ___",
+    "straight_words": [
+      "chaos",
+      "mess",
+      "disaster",
+      "nightmare"
+    ],
+    "punny_words": [
+      "scramble"
+    ]
+  },
+  {
+    "pair_id": 42,
+    "type": "straight",
+    "prompt": "The wind turbine salesman was a huge success.",
+    "completion_word": "success",
+    "contrast_word": "fan",
+    "joke_index": 172,
+    "joke_sentence": "The wind turbine salesman was a huge ___",
+    "straight_words": [
+      "success",
+      "liar",
+      "failure",
+      "disappointment",
+      "enthusiast",
+      "talker",
+      "scammer",
+      "charlatan",
+      "con",
+      "character",
+      "fibber",
+      "legend",
+      "schmoozer",
+      "supporter",
+      "hit",
+      "deal",
+      "scam"
+    ],
+    "punny_words": [
+      "fan",
+      "blowhard"
+    ]
+  },
+  {
+    "pair_id": 42,
+    "type": "funny",
+    "prompt": "The wind turbine salesman was a huge fan.",
+    "completion_word": "fan",
+    "contrast_word": "success",
+    "joke_index": 172,
+    "joke_sentence": "The wind turbine salesman was a huge ___",
+    "straight_words": [
+      "success",
+      "liar",
+      "failure",
+      "disappointment",
+      "enthusiast",
+      "talker",
+      "scammer",
+      "charlatan",
+      "con",
+      "character",
+      "fibber",
+      "legend",
+      "schmoozer",
+      "supporter",
+      "hit",
+      "deal",
+      "scam"
+    ],
+    "punny_words": [
+      "fan",
+      "blowhard"
+    ]
+  },
+  {
+    "pair_id": 43,
+    "type": "straight",
+    "prompt": "After parachuting from space, the adventurer was exhausted.",
+    "completion_word": "exhausted",
+    "contrast_word": "down to earth",
+    "joke_index": 3,
+    "joke_sentence": "After parachuting from space, the adventurer was ___",
+    "straight_words": [
+      "exhausted",
+      "found",
+      "stranded",
+      "exhilarated",
+      "relieved",
+      "struggling",
+      "rescued",
+      "recovered",
+      "hospitalized",
+      "shaken",
+      "shocked",
+      "covered",
+      "dazed",
+      "greeted",
+      "freezing",
+      "spotted",
+      "thrilled",
+      "met",
+      "successful",
+      "overwhelmed",
+      "lost",
+      "famous",
+      "relaxed",
+      "celebrated"
+    ],
+    "punny_words": [
+      "down to earth",
+      "grounded"
+    ]
+  },
+  {
+    "pair_id": 43,
+    "type": "funny",
+    "prompt": "After parachuting from space, the adventurer was down to earth.",
+    "completion_word": "down to earth",
+    "contrast_word": "exhausted",
+    "joke_index": 3,
+    "joke_sentence": "After parachuting from space, the adventurer was ___",
+    "straight_words": [
+      "exhausted",
+      "found",
+      "stranded",
+      "exhilarated",
+      "relieved",
+      "struggling",
+      "rescued",
+      "recovered",
+      "hospitalized",
+      "shaken",
+      "shocked",
+      "covered",
+      "dazed",
+      "greeted",
+      "freezing",
+      "spotted",
+      "thrilled",
+      "met",
+      "successful",
+      "overwhelmed",
+      "lost",
+      "famous",
+      "relaxed",
+      "celebrated"
+    ],
+    "punny_words": [
+      "down to earth",
+      "grounded"
+    ]
+  },
+  {
+    "pair_id": 44,
+    "type": "straight",
+    "prompt": "The psychic midget escaped prison and was a small fugitive.",
+    "completion_word": "fugitive",
+    "contrast_word": "medium at large",
+    "joke_index": 36,
+    "joke_sentence": "The psychic midget escaped prison and was a small ___",
+    "straight_words": [
+      "fugitive",
+      "problem",
+      "target",
+      "threat",
+      "villain",
+      "menace",
+      "criminal",
+      "outlaw",
+      "man"
+    ],
+    "punny_words": [
+      "medium at large"
+    ]
+  },
+  {
+    "pair_id": 44,
+    "type": "funny",
+    "prompt": "The psychic midget escaped prison and was a small medium at large.",
+    "completion_word": "medium at large",
+    "contrast_word": "fugitive",
+    "joke_index": 36,
+    "joke_sentence": "The psychic midget escaped prison and was a small ___",
+    "straight_words": [
+      "fugitive",
+      "problem",
+      "target",
+      "threat",
+      "villain",
+      "menace",
+      "criminal",
+      "outlaw",
+      "man"
+    ],
+    "punny_words": [
+      "medium at large"
+    ]
+  },
+  {
+    "pair_id": 45,
+    "type": "straight",
+    "prompt": "The hockey player became a banker because he was used to handling money.",
+    "completion_word": "money",
+    "contrast_word": "checks",
+    "joke_index": 90,
+    "joke_sentence": "The hockey player became a banker because he was used to handling ___",
+    "straight_words": [
+      "money",
+      "pressure",
+      "pucks",
+      "transactions",
+      "puck"
+    ],
+    "punny_words": [
+      "checks"
+    ]
+  },
+  {
+    "pair_id": 45,
+    "type": "funny",
+    "prompt": "The hockey player became a banker because he was used to handling checks.",
+    "completion_word": "checks",
+    "contrast_word": "money",
+    "joke_index": 90,
+    "joke_sentence": "The hockey player became a banker because he was used to handling ___",
+    "straight_words": [
+      "money",
+      "pressure",
+      "pucks",
+      "transactions",
+      "puck"
+    ],
+    "punny_words": [
+      "checks"
+    ]
+  },
+  {
+    "pair_id": 46,
+    "type": "straight",
+    "prompt": "The clueless archaeologist was terrible at deciphering.",
+    "completion_word": "deciphering",
+    "contrast_word": "dating",
+    "joke_index": 106,
+    "joke_sentence": "The clueless archaeologist was terrible at ___",
+    "straight_words": [
+      "deciphering",
+      "excavating",
+      "finding",
+      "reading",
+      "excavations",
+      "digging",
+      "excavation",
+      "interpreting",
+      "identifying",
+      "anything",
+      "archaeology",
+      "assembling",
+      "understanding",
+      "digs",
+      "navigating",
+      "interpretation",
+      "following",
+      "translating",
+      "appreciating",
+      "handling"
+    ],
+    "punny_words": [
+      "dating"
+    ]
+  },
+  {
+    "pair_id": 46,
+    "type": "funny",
+    "prompt": "The clueless archaeologist was terrible at dating.",
+    "completion_word": "dating",
+    "contrast_word": "deciphering",
+    "joke_index": 106,
+    "joke_sentence": "The clueless archaeologist was terrible at ___",
+    "straight_words": [
+      "deciphering",
+      "excavating",
+      "finding",
+      "reading",
+      "excavations",
+      "digging",
+      "excavation",
+      "interpreting",
+      "identifying",
+      "anything",
+      "archaeology",
+      "assembling",
+      "understanding",
+      "digs",
+      "navigating",
+      "interpretation",
+      "following",
+      "translating",
+      "appreciating",
+      "handling"
+    ],
+    "punny_words": [
+      "dating"
+    ]
+  },
+  {
+    "pair_id": 47,
+    "type": "straight",
+    "prompt": "Sir Lancelot's armor was rusty because he'd been pulling too many all-nighters.",
+    "completion_word": "all-nighters",
+    "contrast_word": "knight shifts",
+    "joke_index": 53,
+    "joke_sentence": "Sir Lancelot's armor was rusty because he'd been pulling too many ___",
+    "straight_words": [
+      "all-nighters",
+      "shifts",
+      "double shifts",
+      "long hours",
+      "overtime shifts",
+      "pranks",
+      "double",
+      "long",
+      "overtime"
+    ],
+    "punny_words": [
+      "knight shifts",
+      "knights",
+      "knight"
+    ]
+  },
+  {
+    "pair_id": 47,
+    "type": "funny",
+    "prompt": "Sir Lancelot's armor was rusty because he'd been pulling too many knight shifts.",
+    "completion_word": "knight shifts",
+    "contrast_word": "all-nighters",
+    "joke_index": 53,
+    "joke_sentence": "Sir Lancelot's armor was rusty because he'd been pulling too many ___",
+    "straight_words": [
+      "all-nighters",
+      "shifts",
+      "double shifts",
+      "long hours",
+      "overtime shifts",
+      "pranks",
+      "double",
+      "long",
+      "overtime"
+    ],
+    "punny_words": [
+      "knight shifts",
+      "knights",
+      "knight"
+    ]
+  },
+  {
+    "pair_id": 48,
+    "type": "straight",
+    "prompt": "The tailor's business was just starting.",
+    "completion_word": "starting",
+    "contrast_word": "sew-sew",
+    "joke_index": 151,
+    "joke_sentence": "The tailor's business was just ___",
+    "straight_words": [
+      "starting",
+      "booming",
+      "beginning",
+      "thriving",
+      "struggling",
+      "okay",
+      "fine",
+      "average"
+    ],
+    "punny_words": [
+      "sew-sew",
+      "seamy",
+      "sewing"
+    ]
+  },
+  {
+    "pair_id": 48,
+    "type": "funny",
+    "prompt": "The tailor's business was just sew-sew.",
+    "completion_word": "sew-sew",
+    "contrast_word": "starting",
+    "joke_index": 151,
+    "joke_sentence": "The tailor's business was just ___",
+    "straight_words": [
+      "starting",
+      "booming",
+      "beginning",
+      "thriving",
+      "struggling",
+      "okay",
+      "fine",
+      "average"
+    ],
+    "punny_words": [
+      "sew-sew",
+      "seamy",
+      "sewing"
+    ]
+  },
+  {
+    "pair_id": 49,
+    "type": "straight",
+    "prompt": "The lawyer's jokes flopped because they were too obscure.",
+    "completion_word": "obscure",
+    "contrast_word": "brief",
+    "joke_index": 56,
+    "joke_sentence": "The lawyer's jokes flopped because they were too ___",
+    "straight_words": [
+      "obscure",
+      "corny",
+      "convoluted",
+      "obvious",
+      "predictable",
+      "sophisticated",
+      "clich\u00e9d",
+      "long",
+      "absurd",
+      "rude",
+      "bad",
+      "serious",
+      "cheesy",
+      "longwinded",
+      "technical",
+      "dry",
+      "complicated",
+      "cliche",
+      "litigious",
+      "argumentative"
+    ],
+    "punny_words": [
+      "brief"
+    ]
+  },
+  {
+    "pair_id": 49,
+    "type": "funny",
+    "prompt": "The lawyer's jokes flopped because they were too brief.",
+    "completion_word": "brief",
+    "contrast_word": "obscure",
+    "joke_index": 56,
+    "joke_sentence": "The lawyer's jokes flopped because they were too ___",
+    "straight_words": [
+      "obscure",
+      "corny",
+      "convoluted",
+      "obvious",
+      "predictable",
+      "sophisticated",
+      "clich\u00e9d",
+      "long",
+      "absurd",
+      "rude",
+      "bad",
+      "serious",
+      "cheesy",
+      "longwinded",
+      "technical",
+      "dry",
+      "complicated",
+      "cliche",
+      "litigious",
+      "argumentative"
+    ],
+    "punny_words": [
+      "brief"
+    ]
+  },
+  {
+    "pair_id": 50,
+    "type": "straight",
+    "prompt": "The arsonist quit playing tennis after someone stole his racket.",
+    "completion_word": "racket",
+    "contrast_word": "matches",
+    "joke_index": 10,
+    "joke_sentence": "The arsonist quit playing tennis after someone stole his ___",
+    "straight_words": [
+      "racket",
+      "racquet",
+      "backhand",
+      "rackets",
+      "shoes",
+      "bag"
+    ],
+    "punny_words": [
+      "matches"
+    ]
+  },
+  {
+    "pair_id": 50,
+    "type": "funny",
+    "prompt": "The arsonist quit playing tennis after someone stole his matches.",
+    "completion_word": "matches",
+    "contrast_word": "racket",
+    "joke_index": 10,
+    "joke_sentence": "The arsonist quit playing tennis after someone stole his ___",
+    "straight_words": [
+      "racket",
+      "racquet",
+      "backhand",
+      "rackets",
+      "shoes",
+      "bag"
+    ],
+    "punny_words": [
+      "matches"
+    ]
+  },
+  {
+    "pair_id": 51,
+    "type": "straight",
+    "prompt": "The judge loved writing because it let him pass judgment.",
+    "completion_word": "judgment",
+    "contrast_word": "sentence",
+    "joke_index": 13,
+    "joke_sentence": "The judge loved writing because it let him pass ___",
+    "straight_words": [
+      "judgment",
+      "time",
+      "decision",
+      "judgement",
+      "days"
+    ],
+    "punny_words": [
+      "sentence"
+    ]
+  },
+  {
+    "pair_id": 51,
+    "type": "funny",
+    "prompt": "The judge loved writing because it let him pass sentence.",
+    "completion_word": "sentence",
+    "contrast_word": "judgment",
+    "joke_index": 13,
+    "joke_sentence": "The judge loved writing because it let him pass ___",
+    "straight_words": [
+      "judgment",
+      "time",
+      "decision",
+      "judgement",
+      "days"
+    ],
+    "punny_words": [
+      "sentence"
+    ]
+  },
+  {
+    "pair_id": 52,
+    "type": "straight",
+    "prompt": "The pilot's autobiography sold out after his career ended.",
+    "completion_word": "ended",
+    "contrast_word": "took off",
+    "joke_index": 158,
+    "joke_sentence": "The pilot's autobiography sold out after his career ___",
+    "straight_words": [
+      "ended",
+      "sparked",
+      "inspired people",
+      "impressed readers",
+      "resonated"
+    ],
+    "punny_words": [
+      "took off"
+    ]
+  },
+  {
+    "pair_id": 52,
+    "type": "funny",
+    "prompt": "The pilot's autobiography sold out after his career took off.",
+    "completion_word": "took off",
+    "contrast_word": "ended",
+    "joke_index": 158,
+    "joke_sentence": "The pilot's autobiography sold out after his career ___",
+    "straight_words": [
+      "ended",
+      "sparked",
+      "inspired people",
+      "impressed readers",
+      "resonated"
+    ],
+    "punny_words": [
+      "took off"
+    ]
+  },
+  {
+    "pair_id": 53,
+    "type": "straight",
+    "prompt": "Never ask a circle for advice because it is totally one-sided.",
+    "completion_word": "one-sided",
+    "contrast_word": "roundabout",
+    "joke_index": 153,
+    "joke_sentence": "Never ask a circle for advice because it is totally ___",
+    "straight_words": [
+      "one-sided",
+      "selfish",
+      "incomplete",
+      "biased",
+      "inflexible",
+      "inconsistent",
+      "absurd",
+      "useless",
+      "insincere",
+      "weak",
+      "slow",
+      "lazy"
+    ],
+    "punny_words": [
+      "roundabout",
+      "pointless"
+    ]
+  },
+  {
+    "pair_id": 53,
+    "type": "funny",
+    "prompt": "Never ask a circle for advice because it is totally roundabout.",
+    "completion_word": "roundabout",
+    "contrast_word": "one-sided",
+    "joke_index": 153,
+    "joke_sentence": "Never ask a circle for advice because it is totally ___",
+    "straight_words": [
+      "one-sided",
+      "selfish",
+      "incomplete",
+      "biased",
+      "inflexible",
+      "inconsistent",
+      "absurd",
+      "useless",
+      "insincere",
+      "weak",
+      "slow",
+      "lazy"
+    ],
+    "punny_words": [
+      "roundabout",
+      "pointless"
+    ]
+  },
+  {
+    "pair_id": 54,
+    "type": "straight",
+    "prompt": "The comedian's jokes about unemployment weren't funny.",
+    "completion_word": "funny",
+    "contrast_word": "working",
+    "joke_index": 191,
+    "joke_sentence": "The comedian's jokes about unemployment weren't ___",
+    "straight_words": [
+      "funny",
+      "well-received",
+      "popular",
+      "good",
+      "landing"
+    ],
+    "punny_words": [
+      "working"
+    ]
+  },
+  {
+    "pair_id": 54,
+    "type": "funny",
+    "prompt": "The comedian's jokes about unemployment weren't working.",
+    "completion_word": "working",
+    "contrast_word": "funny",
+    "joke_index": 191,
+    "joke_sentence": "The comedian's jokes about unemployment weren't ___",
+    "straight_words": [
+      "funny",
+      "well-received",
+      "popular",
+      "good",
+      "landing"
+    ],
+    "punny_words": [
+      "working"
+    ]
+  },
+  {
+    "pair_id": 55,
+    "type": "straight",
+    "prompt": "The train conductor was promoted because of his excellent leadership.",
+    "completion_word": "leadership",
+    "contrast_word": "track record",
+    "joke_index": 19,
+    "joke_sentence": "The train conductor was promoted because of his excellent ___",
+    "straight_words": [
+      "leadership",
+      "service",
+      "work",
+      "performance",
+      "communication",
+      "management",
+      "communications",
+      "attitude"
+    ],
+    "punny_words": [
+      "track record",
+      "record",
+      "track"
+    ]
+  },
+  {
+    "pair_id": 55,
+    "type": "funny",
+    "prompt": "The train conductor was promoted because of his excellent track record.",
+    "completion_word": "track record",
+    "contrast_word": "leadership",
+    "joke_index": 19,
+    "joke_sentence": "The train conductor was promoted because of his excellent ___",
+    "straight_words": [
+      "leadership",
+      "service",
+      "work",
+      "performance",
+      "communication",
+      "management",
+      "communications",
+      "attitude"
+    ],
+    "punny_words": [
+      "track record",
+      "record",
+      "track"
+    ]
+  },
+  {
+    "pair_id": 56,
+    "type": "straight",
+    "prompt": "The chicken soup company is a great investment and a great opportunity.",
+    "completion_word": "opportunity",
+    "contrast_word": "stock",
+    "joke_index": 204,
+    "joke_sentence": "The chicken soup company is a great investment and a great ___",
+    "straight_words": [
+      "opportunity",
+      "business",
+      "venture",
+      "buy",
+      "soup",
+      "broth",
+      "sauce"
+    ],
+    "punny_words": [
+      "stock"
+    ]
+  },
+  {
+    "pair_id": 56,
+    "type": "funny",
+    "prompt": "The chicken soup company is a great investment and a great stock.",
+    "completion_word": "stock",
+    "contrast_word": "opportunity",
+    "joke_index": 204,
+    "joke_sentence": "The chicken soup company is a great investment and a great ___",
+    "straight_words": [
+      "opportunity",
+      "business",
+      "venture",
+      "buy",
+      "soup",
+      "broth",
+      "sauce"
+    ],
+    "punny_words": [
+      "stock"
+    ]
+  },
+  {
+    "pair_id": 57,
+    "type": "straight",
+    "prompt": "After 40 years of teaching archaeology, they told the professor, 'You're fired'.",
+    "completion_word": "fired",
+    "contrast_word": "history",
+    "joke_index": 51,
+    "joke_sentence": "After 40 years of teaching archaeology, they told the professor, 'You're ___'",
+    "straight_words": [
+      "fired",
+      "retiring",
+      "retired",
+      "done",
+      "overqualified",
+      "finished"
+    ],
+    "punny_words": [
+      "history"
+    ]
+  },
+  {
+    "pair_id": 57,
+    "type": "funny",
+    "prompt": "After 40 years of teaching archaeology, they told the professor, 'You're history'.",
+    "completion_word": "history",
+    "contrast_word": "fired",
+    "joke_index": 51,
+    "joke_sentence": "After 40 years of teaching archaeology, they told the professor, 'You're ___'",
+    "straight_words": [
+      "fired",
+      "retiring",
+      "retired",
+      "done",
+      "overqualified",
+      "finished"
+    ],
+    "punny_words": [
+      "history"
+    ]
+  },
+  {
+    "pair_id": 58,
+    "type": "straight",
+    "prompt": "The electrician went to the mall for an emotional breakdown.",
+    "completion_word": "breakdown",
+    "contrast_word": "outlet",
+    "joke_index": 173,
+    "joke_sentence": "The electrician went to the mall for an emotional ___",
+    "straight_words": [
+      "breakdown",
+      "outburst",
+      "break",
+      "episode",
+      "escape",
+      "appointment",
+      "epiphany",
+      "outpouring",
+      "encounter",
+      "moment",
+      "experience",
+      "reunion",
+      "release",
+      "outing"
+    ],
+    "punny_words": [
+      "outlet",
+      "charge"
+    ]
+  },
+  {
+    "pair_id": 58,
+    "type": "funny",
+    "prompt": "The electrician went to the mall for an emotional outlet.",
+    "completion_word": "outlet",
+    "contrast_word": "breakdown",
+    "joke_index": 173,
+    "joke_sentence": "The electrician went to the mall for an emotional ___",
+    "straight_words": [
+      "breakdown",
+      "outburst",
+      "break",
+      "episode",
+      "escape",
+      "appointment",
+      "epiphany",
+      "outpouring",
+      "encounter",
+      "moment",
+      "experience",
+      "reunion",
+      "release",
+      "outing"
+    ],
+    "punny_words": [
+      "outlet",
+      "charge"
+    ]
+  },
+  {
+    "pair_id": 59,
+    "type": "straight",
+    "prompt": "The dentist and the manicurist argued loudly.",
+    "completion_word": "loudly",
+    "contrast_word": "tooth and nail",
+    "joke_index": 102,
+    "joke_sentence": "The dentist and the manicurist argued ___",
+    "straight_words": [
+      "loudly",
+      "bitterly",
+      "constantly",
+      "heavily",
+      "fiercely",
+      "heatedly",
+      "endlessly"
+    ],
+    "punny_words": [
+      "tooth and nail"
+    ]
+  },
+  {
+    "pair_id": 59,
+    "type": "funny",
+    "prompt": "The dentist and the manicurist argued tooth and nail.",
+    "completion_word": "tooth and nail",
+    "contrast_word": "loudly",
+    "joke_index": 102,
+    "joke_sentence": "The dentist and the manicurist argued ___",
+    "straight_words": [
+      "loudly",
+      "bitterly",
+      "constantly",
+      "heavily",
+      "fiercely",
+      "heatedly",
+      "endlessly"
+    ],
+    "punny_words": [
+      "tooth and nail"
+    ]
+  },
+  {
+    "pair_id": 60,
+    "type": "straight",
+    "prompt": "The Swiss cheese maker's alibis were always questionable.",
+    "completion_word": "questionable",
+    "contrast_word": "full of holes",
+    "joke_index": 21,
+    "joke_sentence": "The Swiss cheese maker's alibis were always ___",
+    "straight_words": [
+      "questionable",
+      "shaky",
+      "questioned",
+      "dubious",
+      "unconvincing",
+      "flawed",
+      "problematic",
+      "rock-solid",
+      "unverifiable",
+      "suspicious",
+      "convincing"
+    ],
+    "punny_words": [
+      "full of holes"
+    ]
+  },
+  {
+    "pair_id": 60,
+    "type": "funny",
+    "prompt": "The Swiss cheese maker's alibis were always full of holes.",
+    "completion_word": "full of holes",
+    "contrast_word": "questionable",
+    "joke_index": 21,
+    "joke_sentence": "The Swiss cheese maker's alibis were always ___",
+    "straight_words": [
+      "questionable",
+      "shaky",
+      "questioned",
+      "dubious",
+      "unconvincing",
+      "flawed",
+      "problematic",
+      "rock-solid",
+      "unverifiable",
+      "suspicious",
+      "convincing"
+    ],
+    "punny_words": [
+      "full of holes"
+    ]
+  },
+  {
+    "pair_id": 61,
+    "type": "straight",
+    "prompt": "The geometry teacher was adorable because she was so passionate.",
+    "completion_word": "passionate",
+    "contrast_word": "acute",
+    "joke_index": 114,
+    "joke_sentence": "The geometry teacher was adorable because she was so ___",
+    "straight_words": [
+      "passionate",
+      "quirky",
+      "patient",
+      "young",
+      "enthusiastic",
+      "kind",
+      "sweet",
+      "handsome",
+      "hands-on",
+      "nice",
+      "tall",
+      "affectionate",
+      "petite",
+      "funny",
+      "beautiful",
+      "meticulous",
+      "nerdy",
+      "pretty"
+    ],
+    "punny_words": [
+      "acute"
+    ]
+  },
+  {
+    "pair_id": 61,
+    "type": "funny",
+    "prompt": "The geometry teacher was adorable because she was so acute.",
+    "completion_word": "acute",
+    "contrast_word": "passionate",
+    "joke_index": 114,
+    "joke_sentence": "The geometry teacher was adorable because she was so ___",
+    "straight_words": [
+      "passionate",
+      "quirky",
+      "patient",
+      "young",
+      "enthusiastic",
+      "kind",
+      "sweet",
+      "handsome",
+      "hands-on",
+      "nice",
+      "tall",
+      "affectionate",
+      "petite",
+      "funny",
+      "beautiful",
+      "meticulous",
+      "nerdy",
+      "pretty"
+    ],
+    "punny_words": [
+      "acute"
+    ]
+  },
+  {
+    "pair_id": 62,
+    "type": "straight",
+    "prompt": "The business of fireworks has been evolving.",
+    "completion_word": "evolving",
+    "contrast_word": "booming",
+    "joke_index": 108,
+    "joke_sentence": "The business of fireworks has been ___",
+    "straight_words": [
+      "evolving",
+      "thriving",
+      "growing",
+      "fragmented",
+      "impacted",
+      "spectacular",
+      "explosive",
+      "impressive",
+      "prohibited",
+      "increasing"
+    ],
+    "punny_words": [
+      "booming",
+      "exploding"
+    ]
+  },
+  {
+    "pair_id": 62,
+    "type": "funny",
+    "prompt": "The business of fireworks has been booming.",
+    "completion_word": "booming",
+    "contrast_word": "evolving",
+    "joke_index": 108,
+    "joke_sentence": "The business of fireworks has been ___",
+    "straight_words": [
+      "evolving",
+      "thriving",
+      "growing",
+      "fragmented",
+      "impacted",
+      "spectacular",
+      "explosive",
+      "impressive",
+      "prohibited",
+      "increasing"
+    ],
+    "punny_words": [
+      "booming",
+      "exploding"
+    ]
+  },
+  {
+    "pair_id": 63,
+    "type": "straight",
+    "prompt": "The tailor won his court case because he had an excellent lawyer.",
+    "completion_word": "lawyer",
+    "contrast_word": "suit",
+    "joke_index": 0,
+    "joke_sentence": "The tailor won his court case because he had an excellent ___",
+    "straight_words": [
+      "lawyer",
+      "alibi",
+      "attorney",
+      "memory",
+      "defense",
+      "argument",
+      "reputation",
+      "excuse",
+      "defence",
+      "testimony",
+      "representative",
+      "attitude",
+      "testimonial"
+    ],
+    "punny_words": [
+      "suit"
+    ]
+  },
+  {
+    "pair_id": 63,
+    "type": "funny",
+    "prompt": "The tailor won his court case because he had an excellent suit.",
+    "completion_word": "suit",
+    "contrast_word": "lawyer",
+    "joke_index": 0,
+    "joke_sentence": "The tailor won his court case because he had an excellent ___",
+    "straight_words": [
+      "lawyer",
+      "alibi",
+      "attorney",
+      "memory",
+      "defense",
+      "argument",
+      "reputation",
+      "excuse",
+      "defence",
+      "testimony",
+      "representative",
+      "attitude",
+      "testimonial"
+    ],
+    "punny_words": [
+      "suit"
+    ]
+  },
+  {
+    "pair_id": 64,
+    "type": "straight",
+    "prompt": "After digging for treasure the pirate went to the doctor complaining of back pains.",
+    "completion_word": "back",
+    "contrast_word": "chest",
+    "joke_index": 199,
+    "joke_sentence": "After digging for treasure the pirate went to the doctor complaining of ___ pains",
+    "straight_words": [
+      "back",
+      "stomach",
+      "leg",
+      "backache"
+    ],
+    "punny_words": [
+      "chest",
+      "arrhh"
+    ]
+  },
+  {
+    "pair_id": 64,
+    "type": "funny",
+    "prompt": "After digging for treasure the pirate went to the doctor complaining of chest pains.",
+    "completion_word": "chest",
+    "contrast_word": "back",
+    "joke_index": 199,
+    "joke_sentence": "After digging for treasure the pirate went to the doctor complaining of ___ pains",
+    "straight_words": [
+      "back",
+      "stomach",
+      "leg",
+      "backache"
+    ],
+    "punny_words": [
+      "chest",
+      "arrhh"
+    ]
+  },
+  {
+    "pair_id": 65,
+    "type": "straight",
+    "prompt": "The retired pilot's therapist said he was surprisingly well adjusted.",
+    "completion_word": "adjusted",
+    "contrast_word": "grounded",
+    "joke_index": 128,
+    "joke_sentence": "The retired pilot's therapist said he was surprisingly well ___",
+    "straight_words": [
+      "adjusted",
+      "adjusting",
+      "adapted",
+      "balanced",
+      "centered"
+    ],
+    "punny_words": [
+      "grounded"
+    ]
+  },
+  {
+    "pair_id": 65,
+    "type": "funny",
+    "prompt": "The retired pilot's therapist said he was surprisingly well grounded.",
+    "completion_word": "grounded",
+    "contrast_word": "adjusted",
+    "joke_index": 128,
+    "joke_sentence": "The retired pilot's therapist said he was surprisingly well ___",
+    "straight_words": [
+      "adjusted",
+      "adjusting",
+      "adapted",
+      "balanced",
+      "centered"
+    ],
+    "punny_words": [
+      "grounded"
+    ]
+  },
+  {
+    "pair_id": 66,
+    "type": "straight",
+    "prompt": "The biologist cried at every sad movie because she was an expert on emotions.",
+    "completion_word": "emotions",
+    "contrast_word": "tissues",
+    "joke_index": 193,
+    "joke_sentence": "The biologist cried at every sad movie because she was an expert on ___",
+    "straight_words": [
+      "emotions",
+      "empathy",
+      "grief",
+      "animal",
+      "human",
+      "tragedy",
+      "suffering",
+      "extinction",
+      "pain",
+      "trauma",
+      "reactions"
+    ],
+    "punny_words": [
+      "tissues"
+    ]
+  },
+  {
+    "pair_id": 66,
+    "type": "funny",
+    "prompt": "The biologist cried at every sad movie because she was an expert on tissues.",
+    "completion_word": "tissues",
+    "contrast_word": "emotions",
+    "joke_index": 193,
+    "joke_sentence": "The biologist cried at every sad movie because she was an expert on ___",
+    "straight_words": [
+      "emotions",
+      "empathy",
+      "grief",
+      "animal",
+      "human",
+      "tragedy",
+      "suffering",
+      "extinction",
+      "pain",
+      "trauma",
+      "reactions"
+    ],
+    "punny_words": [
+      "tissues"
+    ]
+  },
+  {
+    "pair_id": 67,
+    "type": "straight",
+    "prompt": "I think the bank is very impressed with my loan because they tell me how it is still performing.",
+    "completion_word": "performing",
+    "contrast_word": "outstanding",
+    "joke_index": 120,
+    "joke_sentence": "I think the bank is very impressed with my loan because they tell me how it is still ___",
+    "straight_words": [
+      "performing",
+      "available",
+      "going",
+      "owed",
+      "increasing",
+      "approved",
+      "underperforming",
+      "open",
+      "negotiable",
+      "underway",
+      "active",
+      "unpaid"
+    ],
+    "punny_words": [
+      "outstanding"
+    ]
+  },
+  {
+    "pair_id": 67,
+    "type": "funny",
+    "prompt": "I think the bank is very impressed with my loan because they tell me how it is still outstanding.",
+    "completion_word": "outstanding",
+    "contrast_word": "performing",
+    "joke_index": 120,
+    "joke_sentence": "I think the bank is very impressed with my loan because they tell me how it is still ___",
+    "straight_words": [
+      "performing",
+      "available",
+      "going",
+      "owed",
+      "increasing",
+      "approved",
+      "underperforming",
+      "open",
+      "negotiable",
+      "underway",
+      "active",
+      "unpaid"
+    ],
+    "punny_words": [
+      "outstanding"
+    ]
+  },
+  {
+    "pair_id": 68,
+    "type": "straight",
+    "prompt": "The local commuter's experiences are very hard to relate.",
+    "completion_word": "relate",
+    "contrast_word": "express",
+    "joke_index": 57,
+    "joke_sentence": "The local commuter's experiences are very hard to ___",
+    "straight_words": [
+      "relate",
+      "quantify",
+      "predict",
+      "understand",
+      "describe",
+      "document",
+      "recreate",
+      "imagine",
+      "fathom",
+      "reproduce",
+      "explain",
+      "gauge",
+      "analyze",
+      "capture",
+      "ignore",
+      "translate",
+      "believe"
+    ],
+    "punny_words": [
+      "express",
+      "track"
+    ]
+  },
+  {
+    "pair_id": 68,
+    "type": "funny",
+    "prompt": "The local commuter's experiences are very hard to express.",
+    "completion_word": "express",
+    "contrast_word": "relate",
+    "joke_index": 57,
+    "joke_sentence": "The local commuter's experiences are very hard to ___",
+    "straight_words": [
+      "relate",
+      "quantify",
+      "predict",
+      "understand",
+      "describe",
+      "document",
+      "recreate",
+      "imagine",
+      "fathom",
+      "reproduce",
+      "explain",
+      "gauge",
+      "analyze",
+      "capture",
+      "ignore",
+      "translate",
+      "believe"
+    ],
+    "punny_words": [
+      "express",
+      "track"
+    ]
+  },
+  {
+    "pair_id": 69,
+    "type": "straight",
+    "prompt": "During the embargo, the navy cardiologist had to work on a blocked artery.",
+    "completion_word": "artery",
+    "contrast_word": "vessel",
+    "joke_index": 178,
+    "joke_sentence": "During the embargo, the navy cardiologist had to work on a blocked ___",
+    "straight_words": [
+      "artery",
+      "coronary",
+      "aorta",
+      "airway",
+      "vena",
+      "valve",
+      "passage",
+      "ship"
+    ],
+    "punny_words": [
+      "vessel"
+    ]
+  },
+  {
+    "pair_id": 69,
+    "type": "funny",
+    "prompt": "During the embargo, the navy cardiologist had to work on a blocked vessel.",
+    "completion_word": "vessel",
+    "contrast_word": "artery",
+    "joke_index": 178,
+    "joke_sentence": "During the embargo, the navy cardiologist had to work on a blocked ___",
+    "straight_words": [
+      "artery",
+      "coronary",
+      "aorta",
+      "airway",
+      "vena",
+      "valve",
+      "passage",
+      "ship"
+    ],
+    "punny_words": [
+      "vessel"
+    ]
+  },
+  {
+    "pair_id": 70,
+    "type": "straight",
+    "prompt": "The archaeologist's career was in jeopardy.",
+    "completion_word": "jeopardy",
+    "contrast_word": "ruins",
+    "joke_index": 157,
+    "joke_sentence": "The archaeologist's career was in ___",
+    "straight_words": [
+      "jeopardy",
+      "discovery",
+      "shambles",
+      "tatters",
+      "trouble",
+      "decline"
+    ],
+    "punny_words": [
+      "ruins",
+      "ruin"
+    ]
+  },
+  {
+    "pair_id": 70,
+    "type": "funny",
+    "prompt": "The archaeologist's career was in ruins.",
+    "completion_word": "ruins",
+    "contrast_word": "jeopardy",
+    "joke_index": 157,
+    "joke_sentence": "The archaeologist's career was in ___",
+    "straight_words": [
+      "jeopardy",
+      "discovery",
+      "shambles",
+      "tatters",
+      "trouble",
+      "decline"
+    ],
+    "punny_words": [
+      "ruins",
+      "ruin"
+    ]
+  },
+  {
+    "pair_id": 71,
+    "type": "straight",
+    "prompt": "The fashion designer's behavior at work was always professional.",
+    "completion_word": "professional",
+    "contrast_word": "model",
+    "joke_index": 70,
+    "joke_sentence": "The fashion designer's behavior at work was always ___",
+    "straight_words": [
+      "professional",
+      "unprofessional",
+      "unpredictable",
+      "problematic",
+      "impeccable",
+      "erratic",
+      "disruptive",
+      "rebellious",
+      "inconsistent",
+      "turbulent",
+      "questionable",
+      "exemplary"
+    ],
+    "punny_words": [
+      "model"
+    ]
+  },
+  {
+    "pair_id": 71,
+    "type": "funny",
+    "prompt": "The fashion designer's behavior at work was always model.",
+    "completion_word": "model",
+    "contrast_word": "professional",
+    "joke_index": 70,
+    "joke_sentence": "The fashion designer's behavior at work was always ___",
+    "straight_words": [
+      "professional",
+      "unprofessional",
+      "unpredictable",
+      "problematic",
+      "impeccable",
+      "erratic",
+      "disruptive",
+      "rebellious",
+      "inconsistent",
+      "turbulent",
+      "questionable",
+      "exemplary"
+    ],
+    "punny_words": [
+      "model"
+    ]
+  },
+  {
+    "pair_id": 72,
+    "type": "straight",
+    "prompt": "The ocean seems so friendly because it is always calm.",
+    "completion_word": "calm",
+    "contrast_word": "waving",
+    "joke_index": 59,
+    "joke_sentence": "The ocean seems so friendly because it is always ___",
+    "straight_words": [
+      "calm",
+      "moving",
+      "wet",
+      "warm",
+      "big"
+    ],
+    "punny_words": [
+      "waving"
+    ]
+  },
+  {
+    "pair_id": 72,
+    "type": "funny",
+    "prompt": "The ocean seems so friendly because it is always waving.",
+    "completion_word": "waving",
+    "contrast_word": "calm",
+    "joke_index": 59,
+    "joke_sentence": "The ocean seems so friendly because it is always ___",
+    "straight_words": [
+      "calm",
+      "moving",
+      "wet",
+      "warm",
+      "big"
+    ],
+    "punny_words": [
+      "waving"
+    ]
+  },
+  {
+    "pair_id": 73,
+    "type": "straight",
+    "prompt": "The chef stopped dating comedians because every meal ended with a joke.",
+    "completion_word": "joke",
+    "contrast_word": "roast",
+    "joke_index": 187,
+    "joke_sentence": "The chef stopped dating comedians because every meal ended with a ___",
+    "straight_words": [
+      "joke",
+      "punchline",
+      "fight",
+      "routine",
+      "disaster",
+      "laugh",
+      "lecture",
+      "story",
+      "performance"
+    ],
+    "punny_words": [
+      "roast"
+    ]
+  },
+  {
+    "pair_id": 73,
+    "type": "funny",
+    "prompt": "The chef stopped dating comedians because every meal ended with a roast.",
+    "completion_word": "roast",
+    "contrast_word": "joke",
+    "joke_index": 187,
+    "joke_sentence": "The chef stopped dating comedians because every meal ended with a ___",
+    "straight_words": [
+      "joke",
+      "punchline",
+      "fight",
+      "routine",
+      "disaster",
+      "laugh",
+      "lecture",
+      "story",
+      "performance"
+    ],
+    "punny_words": [
+      "roast"
+    ]
+  },
+  {
+    "pair_id": 74,
+    "type": "straight",
+    "prompt": "The dieter went to the paint store to get paint.",
+    "completion_word": "paint",
+    "contrast_word": "thinner",
+    "joke_index": 200,
+    "joke_sentence": "The dieter went to the paint store to get ___",
+    "straight_words": [
+      "paint",
+      "colors",
+      "color",
+      "red",
+      "trim",
+      "acrylic",
+      "enamel",
+      "supplies",
+      "spray",
+      "brushes"
+    ],
+    "punny_words": [
+      "thinner"
+    ]
+  },
+  {
+    "pair_id": 74,
+    "type": "funny",
+    "prompt": "The dieter went to the paint store to get thinner.",
+    "completion_word": "thinner",
+    "contrast_word": "paint",
+    "joke_index": 200,
+    "joke_sentence": "The dieter went to the paint store to get ___",
+    "straight_words": [
+      "paint",
+      "colors",
+      "color",
+      "red",
+      "trim",
+      "acrylic",
+      "enamel",
+      "supplies",
+      "spray",
+      "brushes"
+    ],
+    "punny_words": [
+      "thinner"
+    ]
+  }
+]

@@ -1,23 +1,26 @@
 #!/usr/bin/env python3
 """
-Collect hidden-state activations from Llama-3.1-70B-Instruct via NDIF.
+Collect hidden-state activations and/or predictions from Llama-3.1-70B via NDIF.
 
-For each of the 100 contrastive cloze prompts, collects residual stream
-activations at specified token positions across all layers, saving one
-.npy file per layer.
+For each contrastive cloze prompt in the specified dataset, collects residual
+stream activations and/or detailed predictions (top-20 + target word log-probs)
+in a single forward pass per batch.
 
 Token positions:
     pred_c  — last token of the prompt (predicting C's completion)
-    pred_b  — last token before B's completion word (predicting B's answer)
+    pred_b  — last token before B's completion word (requires 3-sentence format)
 
 Naming convention:
-    results/raw_activations/{model}_{position}_layer{NN}.npy   (100, 8192)
-    results/raw_activations/{model}_{position}_meta.json        metadata
+    results/raw_activations/{model}_{dataset}_{position}_layer{NN}.npy
+    results/raw_activations/{model}_{dataset}_{position}_meta.json
+    results/raw_activations/{model}_{dataset}_{position}_detailed_preds.json
 
 Usage:
     python3 collect_activations.py --position pred_c
-    python3 collect_activations.py --position pred_b
+    python3 collect_activations.py --position pred_c --dataset short_context_cloze_150.json
     python3 collect_activations.py --position pred_c --layers 30 40 50 60
+    python3 collect_activations.py --position pred_c --skip-detailed-preds   # activations only
+    python3 collect_activations.py --position pred_c --skip-activations      # predictions only
     python3 collect_activations.py --position pred_c --dry-run
 
 Requires:
@@ -51,7 +54,7 @@ os.environ["HF_TOKEN"] = os.getenv("HF_TOKEN", "")
 from nnsight import LanguageModel
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
-TESTS_FILE = BASE / "datasets" / "contextual_cloze_tests_100.json"
+DEFAULT_TESTS_FILE = "contextual_cloze_tests_100.json"
 PUNS_FILE = BASE / "datasets" / "puns_205.json"
 OUTPUT_DIR = BASE / "results" / "raw_activations"
 
@@ -195,62 +198,64 @@ def compute_positions(tests, jokes_by_index, tokenizer, position_type):
 
 # ── Activation collection ─────────────────────────────────────────────────────
 
-def collect_all_layers_batch(model, layers_module, prompts_and_positions,
-                             layer_indices, batch_size=10, remote=True,
-                             save_dir=None, file_prefix="",
-                             batch_offset=0):
+def collect_batch(model, layers_module, prompts_and_positions,
+                  layer_indices=None, batch_size=10, remote=True,
+                  save_dir=None, file_prefix="", batch_offset=0,
+                  target_token_ids_per_prompt=None, top_k=20):
     """
-    Collect activations at ALL layers and top-1 predictions for batches of
-    prompts via NDIF.  Activations and predictions come from the same
-    forward pass.
+    Unified collection pass: activations and/or detailed predictions from
+    a single forward pass per batch via NDIF.
 
-    Server-side optimization: for each prompt, all layer vectors are
-    stacked into one compact (n_layers, hidden_dim) tensor before
-    .save(), so only ~1.3 MB per prompt (float16) is transferred instead
-    of full layer outputs.  Predictions (argmax token id) ride along for
-    free.
+    Collects:
+    - Layer activations (if layer_indices is provided and non-empty)
+    - Detailed predictions: top-k tokens + target token log-probs
+      (if target_token_ids_per_prompt is provided)
 
-    Accounts for:
-    - Left-padding: nnsight left-pads shorter prompts when batching,
-      so token positions are shifted by (max_batch_len - prompt_len).
-    - Output structure: auto-detects tuple (GPT-2) vs bare tensor (Llama).
-    - Incremental saving: per-layer .npy files and per-batch prediction
-      files are written after each batch.
+    Server-side optimization: all proxy operations (indexing, stacking,
+    log_softmax, topk) execute on the server; only compact results are
+    transferred.
 
     Parameters:
-        save_dir: Path — if provided, saves incrementally to this directory
-        file_prefix: str — filename prefix, e.g. "llama31_70b_instruct_pred_c"
+        layer_indices: list of int — layers to collect (None/[] = skip activations)
+        target_token_ids_per_prompt: list of lists — target tokens per prompt
+            (None = skip detailed predictions, just collect top-1)
+        top_k: int — number of top tokens to collect (default 20)
+        save_dir: Path — if provided, saves incrementally
+        file_prefix: str — filename prefix
         batch_offset: int — starting batch number for filenames (for resume)
 
     Returns:
-        layer_data: dict {layer_idx: np.array of shape (n_prompts, hidden_dim)}
-        pred_token_ids: list of int — predicted token id at each position
+        layer_data: dict {layer_idx: np.array} or {} if no activations
+        detailed_preds: list of dicts with topk_ids, topk_logprobs,
+            target_logprobs — or None if target_token_ids not provided
     """
     n = len(prompts_and_positions)
-    n_layers = len(layer_indices)
     n_batches = (n + batch_size - 1) // batch_size
 
-    # Accumulate per-layer results across batches
-    layer_results = {l: [] for l in layer_indices}
-    all_pred_ids = []
+    collect_activations = layer_indices and len(layer_indices) > 0
+    collect_detailed = target_token_ids_per_prompt is not None
+    n_layers = len(layer_indices) if collect_activations else 0
 
-    # Probe layer output structure: some architectures (GPT-2) return a
-    # tuple (hidden_states, ...) while others return a bare tensor.
-    with model.trace(remote=remote) as tracer:
-        with tracer.invoke("test"):
-            _probe = layers_module[layer_indices[0]].output.save()
-    output_is_tuple = isinstance(_probe, tuple)
-    print(f"    Layer output type: {'tuple' if output_is_tuple else 'tensor'}",
-          flush=True)
+    # Accumulate results across batches
+    layer_results = {l: [] for l in layer_indices} if collect_activations else {}
+    all_detailed = [] if collect_detailed else None
+
+    # Probe layer output structure if collecting activations
+    output_is_tuple = False
+    if collect_activations:
+        with model.trace(remote=remote) as tracer:
+            with tracer.invoke("test"):
+                _probe = layers_module[layer_indices[0]].output.save()
+        output_is_tuple = isinstance(_probe, tuple)
+        print(f"    Layer output type: {'tuple' if output_is_tuple else 'tensor'}",
+              flush=True)
 
     for batch_start in range(0, n, batch_size):
         batch_end = min(batch_start + batch_size, n)
         batch = prompts_and_positions[batch_start:batch_end]
         batch_n = len(batch)
 
-        # Compute per-prompt token lengths and left-padding offsets.
-        # nnsight left-pads all prompts in a trace to the longest one,
-        # so position indices must be shifted by (max_len - this_len).
+        # Compute per-prompt token lengths and left-padding offsets
         token_lengths = [
             len(model.tokenizer.encode(prompt, add_special_tokens=False))
             for prompt, pos in batch
@@ -258,78 +263,108 @@ def collect_all_layers_batch(model, layers_module, prompts_and_positions,
         max_len = max(token_lengths)
         pad_offsets = [max_len - tl for tl in token_lengths]
 
+        # Get target tokens for this batch if collecting detailed preds
+        batch_targets = None
+        if collect_detailed:
+            batch_targets = target_token_ids_per_prompt[batch_start:batch_end]
+
         # ── Server-side computation ──────────────────────────────────
-        # For each prompt: stack all layer activations into one compact
-        # (n_layers, hidden_dim) tensor, and grab the top-1 prediction.
-        # All proxy operations (indexing, stacking, argmax) execute on
-        # the server; only the compact results are transferred.
         with model.trace(remote=remote) as tracer:
             prompt_results = []
-            for (prompt, pos), pad_offset in zip(batch, pad_offsets):
+            for idx, ((prompt, pos), pad_offset) in enumerate(
+                zip(batch, pad_offsets)
+            ):
                 adjusted_pos = pos + pad_offset
                 with tracer.invoke(prompt):
+                    result = {}
+
                     # Stack all layer activations: (n_layers, hidden_dim)
-                    # .cpu() is needed because the 70B model is sharded
-                    # across GPUs — layers on different devices can't be
-                    # stacked directly.  This runs on the server (free).
-                    layer_vecs = []
-                    for layer_idx in layer_indices:
-                        out = layers_module[layer_idx].output
-                        hidden = out[0] if output_is_tuple else out
-                        layer_vecs.append(hidden[0, adjusted_pos, :].cpu())
-                    stacked = torch.stack(layer_vecs)
+                    if collect_activations:
+                        layer_vecs = []
+                        for layer_idx in layer_indices:
+                            out = layers_module[layer_idx].output
+                            hidden = out[0] if output_is_tuple else out
+                            layer_vecs.append(hidden[0, adjusted_pos, :].cpu())
+                        result["activations"] = torch.stack(layer_vecs)
 
-                    # Top-1 prediction from the same forward pass
-                    logits = model.lm_head.output[0, adjusted_pos, :]
-                    pred_id = logits.argmax(-1)
+                    # Predictions from the same forward pass
+                    logits = model.lm_head.output[0, adjusted_pos, :].cpu()
 
-                    prompt_results.append({
-                        "activations": stacked,    # (n_layers, hidden_dim)
-                        "pred_token_id": pred_id,  # scalar
-                    })
+                    if collect_detailed:
+                        # Full log-softmax for top-k and target probs
+                        log_probs = torch.log_softmax(logits.float(), dim=-1)
+                        topk = log_probs.topk(top_k)
+                        result["topk_vals"] = topk.values
+                        result["topk_ids"] = topk.indices
+
+                        # Target token log-probs
+                        tids = batch_targets[idx]
+                        target_lps = []
+                        for tid in tids:
+                            target_lps.append(log_probs[tid])
+                        result["target_lps"] = torch.stack(target_lps) if target_lps \
+                            else topk.values[:0]
+                    else:
+                        # Just top-1 prediction
+                        result["pred_token_id"] = logits.argmax(-1)
+
+                    prompt_results.append(result)
             saved_batch = prompt_results.save()
 
         # ── Client-side unpacking ────────────────────────────────────
-        # Keep native float16 precision (convert bfloat16 → float16
-        # for numpy compatibility).
-        batch_vectors = {l: [] for l in layer_indices}
-        batch_preds = []
+        batch_vectors = {l: [] for l in layer_indices} if collect_activations else {}
+
         for i in range(batch_n):
-            acts = saved_batch[i]["activations"]
-            if hasattr(acts, 'dtype') and acts.dtype == torch.bfloat16:
-                acts = acts.half()
-            acts = acts.cpu().numpy()  # (n_layers, hidden_dim) in float16
+            if collect_activations:
+                acts = saved_batch[i]["activations"]
+                if hasattr(acts, 'dtype') and acts.dtype == torch.bfloat16:
+                    acts = acts.half()
+                acts = acts.cpu().numpy()
 
-            pred = int(saved_batch[i]["pred_token_id"].item())
-            all_pred_ids.append(pred)
-            batch_preds.append(pred)
+                for j, layer_idx in enumerate(layer_indices):
+                    layer_results[layer_idx].append(acts[j])
+                    batch_vectors[layer_idx].append(acts[j])
 
-            for j, layer_idx in enumerate(layer_indices):
-                vec = acts[j]
-                layer_results[layer_idx].append(vec)
-                batch_vectors[layer_idx].append(vec)
+            if collect_detailed:
+                all_detailed.append({
+                    "topk_ids": saved_batch[i]["topk_ids"].numpy().tolist(),
+                    "topk_logprobs": saved_batch[i]["topk_vals"].numpy().tolist(),
+                    "target_logprobs": saved_batch[i]["target_lps"].numpy().tolist(),
+                })
 
         # ── Incremental save ─────────────────────────────────────────
         if save_dir is not None:
             batch_num = batch_offset + batch_start // batch_size
-            for layer_idx in layer_indices:
-                filename = f"{file_prefix}_layer{layer_idx:02d}_batch{batch_num:02d}.npy"
-                np.save(save_dir / filename, np.stack(batch_vectors[layer_idx]))
-            # Predictions for this batch
-            pred_filename = f"{file_prefix}_preds_batch{batch_num:02d}.npy"
-            np.save(save_dir / pred_filename, np.array(batch_preds, dtype=np.int64))
+
+            if collect_activations:
+                for layer_idx in layer_indices:
+                    filename = f"{file_prefix}_layer{layer_idx:02d}_batch{batch_num:02d}.npy"
+                    np.save(save_dir / filename, np.stack(batch_vectors[layer_idx]))
+
+            if collect_detailed:
+                # Save detailed predictions for this batch as JSON
+                pred_filename = f"{file_prefix}_preds_batch{batch_num:02d}.json"
+                batch_detailed = all_detailed[-batch_n:]
+                with open(save_dir / pred_filename, "w") as f:
+                    json.dump(batch_detailed, f)
 
         batch_display = batch_offset + batch_start // batch_size + 1
         total_batches = n_batches + batch_offset
         pad_range = f"pad=[{min(pad_offsets)}-{max(pad_offsets)}]"
+        parts = []
+        if collect_activations:
+            parts.append(f"{n_layers} layers")
+        if collect_detailed:
+            parts.append(f"top-{top_k} preds")
         print(f"    batch {batch_display}/{total_batches}: "
               f"prompts {batch_start}-{batch_end-1} "
-              f"({batch_n} prompts, {n_layers} layers) "
+              f"({batch_n} prompts, {', '.join(parts)}) "
               f"{pad_range}", flush=True)
 
     # Stack each layer's results
-    layer_data = {l: np.stack(vecs) for l, vecs in layer_results.items()}
-    return layer_data, all_pred_ids
+    layer_data = {l: np.stack(vecs) for l, vecs in layer_results.items()} \
+        if collect_activations else {}
+    return layer_data, all_detailed
 
 
 def collect_predictions(model, prompts_and_positions, batch_size=10, remote=True):
@@ -471,16 +506,41 @@ def main():
                         help="Prompts per NDIF batch (default: 10)")
     parser.add_argument("--dry-run", action="store_true",
                         help="Show config and positions without calling NDIF")
+    parser.add_argument("--dataset", type=str, default=DEFAULT_TESTS_FILE,
+                        help=f"Dataset JSON file in datasets/ (default: {DEFAULT_TESTS_FILE})")
+    parser.add_argument("--skip-activations", action="store_true",
+                        help="Skip layer activation collection")
+    parser.add_argument("--skip-detailed-preds", action="store_true",
+                        help="Skip detailed predictions collection (top-20, log-probs)")
     args = parser.parse_args()
 
+    if args.skip_activations and args.skip_detailed_preds:
+        print("Error: Cannot skip both activations and predictions")
+        sys.exit(1)
+
     # Load data
-    with open(TESTS_FILE) as f:
+    tests_file = BASE / "datasets" / args.dataset
+    if not tests_file.exists():
+        print(f"Error: Dataset file not found: {tests_file}")
+        sys.exit(1)
+
+    # Derive a short name for output files from the dataset name
+    dataset_short = args.dataset.replace(".json", "").replace("_", "")
+
+    with open(tests_file) as f:
         tests = json.load(f)
     with open(PUNS_FILE) as f:
         jokes = json.load(f)
     jokes_by_index = {j["index"]: j for j in jokes}
 
-    print(f"Loaded {len(tests)} cloze tests, {len(jokes)} jokes", flush=True)
+    # Check if pred_b is valid for this dataset (requires joke_b_index)
+    if args.position == "pred_b" and tests and "joke_b_index" not in tests[0]:
+        print(f"Error: --position pred_b requires dataset with joke_b_index field")
+        print(f"  Dataset {args.dataset} appears to use 2-sentence format (no joke_b)")
+        sys.exit(1)
+
+    print(f"Loaded {len(tests)} cloze tests from {args.dataset}", flush=True)
+    print(f"  (also loaded {len(jokes)} jokes from puns_205.json)", flush=True)
 
     # Initialize model
     print(f"\nInitializing model: {MODEL_NAME}", flush=True)
@@ -490,12 +550,16 @@ def main():
     hidden_dim = model.config.hidden_size
     print(f"  Layers: {n_layers}, Hidden dim: {hidden_dim}", flush=True)
 
-    # Select layers
-    if args.layers:
+    # Select layers (if collecting activations)
+    if args.skip_activations:
+        layer_indices = []
+        print(f"  Skipping activation collection", flush=True)
+    elif args.layers:
         layer_indices = sorted(args.layers)
+        print(f"  Collecting {len(layer_indices)} layers", flush=True)
     else:
         layer_indices = list(range(n_layers))
-    print(f"  Collecting {len(layer_indices)} layers", flush=True)
+        print(f"  Collecting all {len(layer_indices)} layers", flush=True)
 
     # Compute token positions
     print(f"\n--- Computing {args.position} positions ---", flush=True)
@@ -524,6 +588,8 @@ def main():
     layers_module = model.model.layers
 
     # Save metadata once
+    # Handle different field naming: joke_c_sentence vs joke_sentence
+    sentence_key = "joke_c_sentence" if "joke_c_sentence" in tests[0] else "joke_sentence"
     metadata = []
     for i, test in enumerate(tests):
         metadata.append({
@@ -531,14 +597,21 @@ def main():
             "pair_id": test["pair_id"],
             "type": test["type"],
             "prompt": test["prompt"],
-            "joke_c_sentence": test["joke_c_sentence"],
+            "joke_c_sentence": test.get(sentence_key, test["prompt"]),
             "token_position": positions[i],
         })
 
-    meta_filename = f"{MODEL_SHORT}_{args.position}_meta.json"
+    # Build file prefix - include dataset name if not default
+    if args.dataset == DEFAULT_TESTS_FILE:
+        file_prefix = f"{MODEL_SHORT}_{args.position}"
+    else:
+        file_prefix = f"{MODEL_SHORT}_{dataset_short}_{args.position}"
+
+    meta_filename = f"{file_prefix}_meta.json"
     meta_out = {
         "model": MODEL_NAME,
         "model_short": MODEL_SHORT,
+        "dataset": args.dataset,
         "position": args.position,
         "n_prompts": len(metadata),
         "n_layers_total": n_layers,
@@ -546,35 +619,110 @@ def main():
         "system_prompt": SYSTEM_PROMPT,
         "file_shape": [len(metadata), hidden_dim],
         "file_axes": ["prompt", "hidden_dim"],
-        "naming": f"{MODEL_SHORT}_{args.position}_layer{{NN}}.npy",
+        "naming": f"{file_prefix}_layer{{NN}}.npy",
         "samples": metadata,
     }
     with open(OUTPUT_DIR / meta_filename, "w") as f:
         json.dump(meta_out, f, indent=2)
     print(f"\nSaved metadata: {meta_filename}", flush=True)
 
-    # Check which layers already have a merged file with all prompts
-    file_prefix = f"{MODEL_SHORT}_{args.position}"
+    # ── Determine what to collect ─────────────────────────────────────────
     n_prompts = len(prompts_and_positions)
     n_batches = (n_prompts + args.batch_size - 1) // args.batch_size
 
+    collect_activations = not args.skip_activations
+    collect_detailed = not args.skip_detailed_preds
+
+    # Check which layers still need collection (if collecting activations)
     needed_layers = []
-    for layer_idx in layer_indices:
-        merged = OUTPUT_DIR / f"{file_prefix}_layer{layer_idx:02d}.npy"
-        if merged.exists():
-            existing = np.load(merged)
-            if existing.shape[0] >= n_prompts:
-                continue  # already complete
-        needed_layers.append(layer_idx)
+    if collect_activations:
+        for layer_idx in layer_indices:
+            merged = OUTPUT_DIR / f"{file_prefix}_layer{layer_idx:02d}.npy"
+            if merged.exists():
+                existing = np.load(merged)
+                if existing.shape[0] >= n_prompts:
+                    continue
+            needed_layers.append(layer_idx)
 
-    # ── Collect activations (skip if already complete) ───────────────────
-    if needed_layers:
-        skipped = len(layer_indices) - len(needed_layers)
-        if skipped:
-            print(f"\n  Skipping {skipped} layers (already complete)", flush=True)
+        if not needed_layers:
+            print(f"\nAll {len(layer_indices)} layers already collected.")
+            collect_activations = False
 
-        # Check for partial batch files from a previous interrupted run
-        existing_batches = 0
+    # Check if detailed predictions already collected
+    pred_file = OUTPUT_DIR / f"{file_prefix}_detailed_preds.json"
+    if collect_detailed and pred_file.exists():
+        with open(pred_file) as f:
+            existing_preds = json.load(f)
+        if existing_preds.get("n_prompts", 0) >= n_prompts:
+            print(f"\nDetailed predictions already collected.")
+            collect_detailed = False
+
+    if not collect_activations and not collect_detailed:
+        print(f"\nNothing to collect. Done.", flush=True)
+        return
+
+    # ── Build target token IDs for detailed predictions ─────────────────
+    target_token_ids_per_prompt = None
+    target_word_maps = None
+    tokenizer = model.tokenizer
+
+    if collect_detailed:
+        pun_words_by_pair = {}
+        straight_words_by_pair = {}
+        for test in tests:
+            pid = test["pair_id"]
+            # Handle different field naming conventions
+            if "expected_completion" in test:
+                # Original format: expected_completion contains the relevant words
+                words = [w.lower() for w in test["expected_completion"]]
+                if test["type"] == "funny":
+                    pun_words_by_pair[pid] = words
+                else:
+                    straight_words_by_pair[pid] = words
+            else:
+                # funny_serious format: punny_words and straight_words are explicit
+                if "punny_words" in test:
+                    pun_words_by_pair[pid] = [w.lower() for w in test["punny_words"]]
+                if "straight_words" in test:
+                    straight_words_by_pair[pid] = [w.lower() for w in test["straight_words"]]
+
+        eot_id = tokenizer.convert_tokens_to_ids("<|eot_id|>")
+
+        def word_to_token(word):
+            toks = tokenizer.encode(" " + word, add_special_tokens=False)
+            return toks[0] if toks else None
+
+        target_token_ids_per_prompt = []
+        target_word_maps = []
+        for test in tests:
+            pid = test["pair_id"]
+            tids = []
+            word_map = []
+
+            for w in pun_words_by_pair.get(pid, []):
+                tid = word_to_token(w)
+                if tid is not None:
+                    tids.append(tid)
+                    word_map.append(("pun", w, tid))
+
+            for w in straight_words_by_pair.get(pid, []):
+                tid = word_to_token(w)
+                if tid is not None:
+                    tids.append(tid)
+                    word_map.append(("straight", w, tid))
+
+            tids.append(eot_id)
+            word_map.append(("eot", "<|eot_id|>", eot_id))
+
+            target_token_ids_per_prompt.append(tids)
+            target_word_maps.append(word_map)
+
+    # ── Check for partial batch files (resume support) ──────────────────
+    existing_batches = 0
+    remaining = prompts_and_positions
+    remaining_targets = target_token_ids_per_prompt
+
+    if collect_activations and needed_layers:
         sample_layer = needed_layers[0]
         for b in range(n_batches):
             bf = OUTPUT_DIR / f"{file_prefix}_layer{sample_layer:02d}_batch{b:02d}.npy"
@@ -582,29 +730,43 @@ def main():
                 existing_batches = b + 1
             else:
                 break
-        remaining = prompts_and_positions
+
         if existing_batches > 0:
             skip_prompts = existing_batches * args.batch_size
             print(f"\n  Found {existing_batches} batch files, "
                   f"resuming from prompt {skip_prompts}", flush=True)
             remaining = prompts_and_positions[skip_prompts:]
+            if remaining_targets:
+                remaining_targets = target_token_ids_per_prompt[skip_prompts:]
 
-        print(f"\n--- Collecting {args.position}: {len(needed_layers)} layers x "
-              f"{len(remaining)} prompts ---", flush=True)
-        print(f"  Estimated download: "
-              f"{len(needed_layers) * len(remaining) * hidden_dim * 2 / 1e6:.0f} MB "
-              f"(float16) in "
-              f"{(len(remaining) + args.batch_size - 1) // args.batch_size} "
-              f"NDIF calls", flush=True)
+    # ── Show collection plan ────────────────────────────────────────────
+    parts = []
+    if collect_activations and needed_layers:
+        parts.append(f"{len(needed_layers)} layers")
+    if collect_detailed:
+        parts.append("top-20 + target log-probs")
 
-        collect_all_layers_batch(
-            model, layers_module, remaining, needed_layers,
-            batch_size=args.batch_size, remote=True,
-            save_dir=OUTPUT_DIR, file_prefix=file_prefix,
-            batch_offset=existing_batches,
-        )
+    print(f"\n--- Collecting {args.position}: {', '.join(parts)} x "
+          f"{len(remaining)} prompts ---", flush=True)
 
-        # Merge batch files into single per-layer files
+    if collect_activations and needed_layers:
+        print(f"  Estimated activation download: "
+              f"{len(needed_layers) * len(remaining) * hidden_dim * 2 / 1e6:.0f} MB",
+              flush=True)
+
+    # ── Run unified collection ──────────────────────────────────────────
+    layer_data, detailed_raw = collect_batch(
+        model, layers_module, remaining,
+        layer_indices=needed_layers if collect_activations else None,
+        batch_size=args.batch_size, remote=True,
+        save_dir=OUTPUT_DIR, file_prefix=file_prefix,
+        batch_offset=existing_batches,
+        target_token_ids_per_prompt=remaining_targets,
+        top_k=20,
+    )
+
+    # ── Post-process activations ────────────────────────────────────────
+    if collect_activations and needed_layers:
         print(f"\n  Merging batch files...", flush=True)
         for layer_idx in needed_layers:
             parts = []
@@ -625,163 +787,100 @@ def main():
         print(f"  File shape: {sample.shape}  dtype={sample.dtype} "
               f"({sample.nbytes / 1e6:.1f} MB each)")
 
-        # Merge prediction batch files
-        pred_parts = []
+    # ── Post-process detailed predictions ───────────────────────────────
+    if collect_detailed and detailed_raw:
+        # Merge batch files if resuming
+        all_detailed_raw = []
         for b in range(n_batches):
-            pf = OUTPUT_DIR / f"{file_prefix}_preds_batch{b:02d}.npy"
+            pf = OUTPUT_DIR / f"{file_prefix}_preds_batch{b:02d}.json"
             if pf.exists():
-                pred_parts.append(np.load(pf))
-        if pred_parts:
-            pred_token_ids = np.concatenate(pred_parts).tolist()
-            for b in range(n_batches):
-                pf = OUTPUT_DIR / f"{file_prefix}_preds_batch{b:02d}.npy"
-                if pf.exists():
-                    pf.unlink()
+                with open(pf) as f:
+                    all_detailed_raw.extend(json.load(f))
+                pf.unlink()
 
-            # Classify and embed in metadata
-            pun_words = {}
-            for test in tests:
-                if test["type"] == "funny":
-                    pun_words[test["pair_id"]] = [
-                        w.lower() for w in test["expected_completion"]
-                    ]
-            n_funny_pred = 0
-            for i, tok_id in enumerate(pred_token_ids):
-                word = model.tokenizer.decode([tok_id]).strip().lower()
-                test = tests[i]
-                is_pun = word in pun_words.get(test["pair_id"], [])
-                if is_pun:
-                    n_funny_pred += 1
-                meta_out["samples"][i]["predicted_token_id"] = tok_id
-                meta_out["samples"][i]["predicted_word"] = word
-                meta_out["samples"][i]["predicted_funny"] = is_pun
+        # Assemble into structured JSON
+        detailed = []
+        for i, (raw, wmap) in enumerate(zip(all_detailed_raw, target_word_maps)):
+            test = tests[i]
+            top_tokens = []
+            for tid, lp in zip(raw["topk_ids"], raw["topk_logprobs"]):
+                word = tokenizer.decode([tid]).strip()
+                top_tokens.append({
+                    "token_id": tid, "word": word,
+                    "logprob": round(lp, 4),
+                    "prob": round(float(np.exp(lp)), 6),
+                })
 
-            print(f"  {n_funny_pred}/{len(pred_token_ids)} predicted the pun word",
-                  flush=True)
-            with open(OUTPUT_DIR / meta_filename, "w") as f:
-                json.dump(meta_out, f, indent=2)
-    else:
-        print(f"\nAll {len(layer_indices)} layers already collected.")
+            pun_probs = {}
+            straight_probs = {}
+            eot_prob = None
+            for j, (category, word, tid) in enumerate(wmap):
+                lp = raw["target_logprobs"][j]
+                entry = {
+                    "token_id": tid, "logprob": round(lp, 4),
+                    "prob": round(float(np.exp(lp)), 6),
+                }
+                if category == "pun":
+                    pun_probs[word] = entry
+                elif category == "straight":
+                    straight_probs[word] = entry
+                else:
+                    eot_prob = entry
 
-    # ── Detailed predictions: top-k tokens and target word probs ──────────
-    # Always collect: lightweight pass (~200 bytes/prompt transferred).
-    print(f"\n--- Collecting detailed predictions (top-20 + target word "
-          f"log-probs) ---", flush=True)
+            # Get top-1 prediction info for metadata
+            top1_id = raw["topk_ids"][0]
+            top1_word = tokenizer.decode([top1_id]).strip().lower()
+            pun_words = list(pun_probs.keys())
+            is_pun_pred = top1_word in pun_words
 
-    # Build target word lists per pair: pun words and straight words
-    pun_words_by_pair = {}
-    straight_words_by_pair = {}
-    for test in tests:
-        pid = test["pair_id"]
-        words = [w.lower() for w in test["expected_completion"]]
-        if test["type"] == "funny":
-            pun_words_by_pair[pid] = words
-        else:
-            straight_words_by_pair[pid] = words
+            meta_out["samples"][i]["predicted_token_id"] = top1_id
+            meta_out["samples"][i]["predicted_word"] = top1_word
+            meta_out["samples"][i]["predicted_funny"] = is_pun_pred
 
-    # Tokenize target words (space-prefixed, first token)
-    tokenizer = model.tokenizer
-    eot_id = tokenizer.convert_tokens_to_ids("<|eot_id|>")
-
-    def word_to_token(word):
-        toks = tokenizer.encode(" " + word, add_special_tokens=False)
-        return toks[0] if toks else None
-
-    # Build per-prompt target token ID lists and word mappings
-    target_token_ids_per_prompt = []
-    target_word_maps = []  # parallel list: describes what each token ID is
-    for i, test in enumerate(tests):
-        pid = test["pair_id"]
-        tids = []
-        word_map = []
-
-        for w in pun_words_by_pair.get(pid, []):
-            tid = word_to_token(w)
-            if tid is not None:
-                tids.append(tid)
-                word_map.append(("pun", w, tid))
-
-        for w in straight_words_by_pair.get(pid, []):
-            tid = word_to_token(w)
-            if tid is not None:
-                tids.append(tid)
-                word_map.append(("straight", w, tid))
-
-        tids.append(eot_id)
-        word_map.append(("eot", "<|eot_id|>", eot_id))
-
-        target_token_ids_per_prompt.append(tids)
-        target_word_maps.append(word_map)
-
-    raw_results = collect_detailed_predictions(
-        model, prompts_and_positions, target_token_ids_per_prompt,
-        batch_size=args.batch_size, remote=True, top_k=20,
-    )
-
-    # Assemble into a structured JSON
-    detailed = []
-    for i, (raw, wmap) in enumerate(zip(raw_results, target_word_maps)):
-        test = tests[i]
-        # Decode top-k tokens
-        top_tokens = []
-        for tid, lp in zip(raw["topk_ids"], raw["topk_logprobs"]):
-            word = tokenizer.decode([tid]).strip()
-            top_tokens.append({
-                "token_id": tid, "word": word,
-                "logprob": round(lp, 4),
-                "prob": round(float(np.exp(lp)), 6),
+            detailed.append({
+                "index": i,
+                "pair_id": test["pair_id"],
+                "type": test["type"],
+                "top_tokens": top_tokens,
+                "pun_word_probs": pun_probs,
+                "straight_word_probs": straight_probs,
+                "eot": eot_prob,
             })
 
-        # Map target logprobs back to word labels
-        pun_probs = {}
-        straight_probs = {}
-        eot_prob = None
-        for j, (category, word, tid) in enumerate(wmap):
-            lp = raw["target_logprobs"][j]
-            entry = {
-                "token_id": tid, "logprob": round(lp, 4),
-                "prob": round(float(np.exp(lp)), 6),
-            }
-            if category == "pun":
-                pun_probs[word] = entry
-            elif category == "straight":
-                straight_probs[word] = entry
+        # Save detailed predictions
+        with open(pred_file, "w") as f:
+            json.dump({
+                "model": MODEL_NAME,
+                "position": args.position,
+                "top_k": 20,
+                "n_prompts": len(detailed),
+                "results": detailed,
+            }, f, indent=2)
+        print(f"  Saved detailed predictions: {pred_file.name}", flush=True)
+
+        # Update metadata with prediction info
+        with open(OUTPUT_DIR / meta_filename, "w") as f:
+            json.dump(meta_out, f, indent=2)
+
+        # Summary stats
+        total_pun_prob_funny = []
+        total_pun_prob_straight = []
+        n_pun_pred = 0
+        for d in detailed:
+            pun_total = sum(v["prob"] for v in d["pun_word_probs"].values())
+            if d["type"] == "funny":
+                total_pun_prob_funny.append(pun_total)
             else:
-                eot_prob = entry
+                total_pun_prob_straight.append(pun_total)
+            # Check if top-1 is a pun word
+            top1 = d["top_tokens"][0]["word"].lower()
+            if top1 in d["pun_word_probs"]:
+                n_pun_pred += 1
 
-        detailed.append({
-            "index": i,
-            "pair_id": test["pair_id"],
-            "type": test["type"],
-            "top_tokens": top_tokens,
-            "pun_word_probs": pun_probs,
-            "straight_word_probs": straight_probs,
-            "eot": eot_prob,
-        })
-
-    pred_file = OUTPUT_DIR / f"{file_prefix}_detailed_preds.json"
-    with open(pred_file, "w") as f:
-        json.dump({
-            "model": MODEL_NAME,
-            "position": args.position,
-            "top_k": 20,
-            "n_prompts": len(detailed),
-            "results": detailed,
-        }, f, indent=2)
-    print(f"  Saved detailed predictions: {pred_file.name}", flush=True)
-
-    # Quick summary
-    total_pun_prob_funny = []
-    total_pun_prob_straight = []
-    for d in detailed:
-        pun_total = sum(v["prob"] for v in d["pun_word_probs"].values())
-        if d["type"] == "funny":
-            total_pun_prob_funny.append(pun_total)
-        else:
-            total_pun_prob_straight.append(pun_total)
-    if total_pun_prob_funny and total_pun_prob_straight:
-        print(f"  Mean P(pun words): funny ctx={np.mean(total_pun_prob_funny):.4f}, "
-              f"straight ctx={np.mean(total_pun_prob_straight):.4f}", flush=True)
+        print(f"  {n_pun_pred}/{len(detailed)} predicted the pun word", flush=True)
+        if total_pun_prob_funny and total_pun_prob_straight:
+            print(f"  Mean P(pun words): funny ctx={np.mean(total_pun_prob_funny):.4f}, "
+                  f"straight ctx={np.mean(total_pun_prob_straight):.4f}", flush=True)
 
     print(f"\nDone.", flush=True)
 

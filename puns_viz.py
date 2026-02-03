@@ -155,19 +155,22 @@ _HTML_TEMPLATE = r"""<!DOCTYPE html>
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif;
-       background: #fff; color: #333; display: flex; justify-content: center; padding: 16px; }
-.container { width: __WIDTH__px; }
-.header { margin-bottom: 8px; }
+       background: #fff; color: #333; display: flex; justify-content: center;
+       padding: 8px; margin: 0; }
+.container { width: 100%; max-width: __WIDTH__px; display: flex; flex-direction: column;
+             height: min(calc(100vh - 16px), __HEIGHT__px); min-height: 300px; }
+.header { margin-bottom: 4px; flex-shrink: 0; }
 .header h1 { font-size: 18px; font-weight: 600; color: #111; }
 .header .subtitle { font-size: 13px; color: #666; margin-top: 2px; }
 .var-info { font-size: 12px; color: #777; margin-top: 4px; font-family: monospace; }
 
 .svg-wrap { position: relative; border: 1px solid #ccc; border-radius: 8px;
-            background: #fafafa; overflow: hidden; cursor: grab; }
+            background: #fafafa; overflow: hidden; cursor: grab;
+            flex: 1; min-height: 0; }
 .svg-wrap:active { cursor: grabbing; }
-svg { display: block; }
+svg { display: block; width: 100%; height: 100%; }
 
-.controls { display: flex; align-items: center; gap: 12px; margin-top: 10px; flex-wrap: wrap; }
+.controls { display: flex; align-items: center; gap: 12px; margin-top: 6px; flex-wrap: wrap; flex-shrink: 0; }
 .controls label { font-size: 13px; color: #555; white-space: nowrap; }
 .slider-group { flex: 1; display: flex; align-items: center; gap: 8px; min-width: 200px; }
 .slider-group input[type=range] { flex: 1; accent-color: #7B68EE; }
@@ -177,7 +180,7 @@ svg { display: block; }
 .btn:hover { background: #ddd; color: #222; }
 .btn.active { background: #7B68EE; color: #fff; border-color: #7B68EE; }
 
-.legend { display: flex; gap: 16px; margin-top: 8px; flex-wrap: wrap; }
+.legend { display: flex; gap: 16px; margin-top: 4px; flex-wrap: wrap; flex-shrink: 0; }
 .legend-item { display: flex; align-items: center; gap: 4px; font-size: 12px; color: #555; }
 .legend-swatch { width: 12px; height: 12px; border-radius: 50%; border: 1px solid #aaa; }
 .legend-star { font-size: 16px; line-height: 12px; }
@@ -206,7 +209,7 @@ svg { display: block; }
   </div>
 
   <div class="svg-wrap" id="svgWrap">
-    <svg id="mainSvg" width="__WIDTH__" height="__HEIGHT__"></svg>
+    <svg id="mainSvg"></svg>
     <div class="tooltip" id="tooltip"></div>
   </div>
 
@@ -238,9 +241,10 @@ svg { display: block; }
 </div>
 
 <script>
+(function() {
 const DATA = __DATA_JSON__;
 
-const W = __WIDTH__, H = __HEIGHT__;
+let W = __WIDTH__, H = __HEIGHT__;
 const PAD = 50;
 const COLOR_S = "#4A90D9", COLOR_F = "#E85D75";
 
@@ -371,7 +375,7 @@ function render() {
 
     // Draw pair lines
     if (showLines.checked) {
-        const lineGroup = svgEl("g", {opacity: "0.25"});
+        const lineGroup = svgEl("g", {});
         for (const [si, fi] of DATA.pairMap) {
             const sp = projected[si], fp = projected[fi];
             const pid = DATA.points[si].pair_id;
@@ -379,9 +383,9 @@ function render() {
             const line = svgEl("line", {
                 x1: sp.sx.toFixed(1), y1: sp.sy.toFixed(1),
                 x2: fp.sx.toFixed(1), y2: fp.sy.toFixed(1),
-                stroke: isSelected ? "#333" : "#aaa",
-                "stroke-width": isSelected ? 2 : 0.8,
-                opacity: isSelected ? 1 : 0.5
+                stroke: isSelected ? "#333" : "#888",
+                "stroke-width": isSelected ? 2.5 : 1,
+                opacity: isSelected ? 1 : 0.45
             });
             lineGroup.appendChild(line);
 
@@ -392,7 +396,8 @@ function render() {
                 const label = DATA.pairLabels[String(pid)] || "";
                 const txt = svgEl("text", {
                     x: mx.toFixed(1), y: my.toFixed(1),
-                    fill: "#999", "font-size": "8", "text-anchor": "middle",
+                    fill: "#555", "font-size": "10", "font-weight": "500",
+                    "text-anchor": "middle",
                     "dominant-baseline": "middle"
                 });
                 txt.textContent = label;
@@ -526,6 +531,7 @@ function drawAxes() {
 
 // Tooltip
 function showTooltip(event, idx) {
+    if (dragging || panning || pinching) return;
     const pt = DATA.points[idx];
     const pts3d = DATA.layers[String(currentLayer)];
     const contrastVal = pts3d ? pts3d[idx][0].toFixed(2) : "?";
@@ -610,9 +616,19 @@ function panFromPivot(pivot, az, el) {
     panY =  viewPos[1] * S;
 }
 
+// Dismiss tooltip when cursor moves over empty SVG space (not a data point)
+svgWrap.addEventListener("mousemove", (e) => {
+    if (dragging || panning || pinching) return;
+    if (tooltip.style.display === "block") {
+        const el = e.target.closest("[data-idx]");
+        if (!el) hideTooltip();
+    }
+});
+
 // Drag rotation + shift-drag panning
 svgWrap.addEventListener("mousedown", (e) => {
     if (e.target.closest(".controls")) return;
+    hideTooltip();
     if (e.shiftKey || e.button === 1) {
         // Shift+drag or middle-click = pan
         panning = true;
@@ -768,8 +784,25 @@ resetBtn.addEventListener("click", () => {
     render();
 });
 
+// Responsive sizing: observe svgWrap and update W/H + viewBox
+function updateSize() {
+    const rect = svgWrap.getBoundingClientRect();
+    const newW = Math.round(rect.width);
+    const newH = Math.round(rect.height);
+    if (newW > 0 && newH > 0 && (newW !== W || newH !== H)) {
+        W = newW;
+        H = newH;
+        svg.setAttribute("viewBox", "0 0 " + W + " " + H);
+        render();
+    }
+}
+new ResizeObserver(updateSize).observe(svgWrap);
+
 // Initial render
+updateSize();
+svg.setAttribute("viewBox", "0 0 " + W + " " + H);
 render();
+})();
 </script>
 </body>
 </html>"""
