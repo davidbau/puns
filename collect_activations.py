@@ -885,5 +885,287 @@ def main():
     print(f"\nDone.", flush=True)
 
 
+# ── Notebook-friendly collection ─────────────────────────────────────────────
+
+def ensure_activations(dataset_file, position="pred_c", layers=None,
+                       collect_predictions=True, display_progress=True):
+    """
+    Ensure activations (and optionally predictions) are collected for a dataset.
+
+    If data already exists, returns immediately. Otherwise, runs collection
+    with progress display suitable for Jupyter notebooks.
+
+    Parameters:
+        dataset_file: str or Path — dataset JSON file (relative to datasets/)
+        position: str — token position ("pred_c" or "pred_b")
+        layers: list of int — specific layers to collect (None = all layers)
+        collect_predictions: bool — also collect detailed predictions
+        display_progress: bool — show progress during collection
+
+    Returns:
+        dict with keys:
+            meta_file: Path to metadata JSON
+            pred_file: Path to predictions JSON (or None)
+            already_existed: bool — True if data was already present
+            n_prompts: int — number of prompts
+            n_layers: int — number of layers collected
+
+    Example:
+        from collect_activations import ensure_activations
+        result = ensure_activations("funny_serious_150.json")
+        print(f"Meta file: {result['meta_file']}")
+    """
+    from IPython.display import clear_output, display
+    import time
+
+    dataset_path = Path(dataset_file)
+    if not dataset_path.is_absolute():
+        dataset_path = BASE / "datasets" / dataset_file
+
+    # Determine output filenames
+    dataset_stem = dataset_path.stem.lower().replace("-", "").replace("_", "")
+    file_prefix = f"{MODEL_SHORT}_{dataset_stem}_{position}"
+    meta_file = OUTPUT_DIR / f"{file_prefix}_meta.json"
+    pred_file = OUTPUT_DIR / f"{file_prefix}_detailed_preds.json"
+
+    # Check if data already exists
+    if meta_file.exists():
+        with open(meta_file) as f:
+            meta = json.load(f)
+        n_prompts = meta.get("n_prompts", 0)
+        n_layers = meta.get("n_layers_total", 0)
+
+        # Check if all layer files exist
+        naming = meta.get("naming", "")
+        all_present = True
+        for layer_idx in range(n_layers):
+            layer_file = OUTPUT_DIR / naming.replace("{NN}", f"{layer_idx:02d}")
+            if not layer_file.exists():
+                all_present = False
+                break
+
+        if all_present:
+            if display_progress:
+                print(f"Data already exists: {meta_file.name}")
+                print(f"  {n_prompts} prompts, {n_layers} layers")
+            return {
+                "meta_file": meta_file,
+                "pred_file": pred_file if pred_file.exists() else None,
+                "already_existed": True,
+                "n_prompts": n_prompts,
+                "n_layers": n_layers,
+            }
+
+    # Need to collect data
+    if display_progress:
+        print(f"Collecting activations for {dataset_path.name}...")
+        print(f"  This requires NDIF (remote GPU inference)")
+
+    # Load dataset
+    with open(dataset_path) as f:
+        tests = json.load(f)
+    n_prompts = len(tests)
+
+    # Initialize model
+    if display_progress:
+        print(f"  Initializing model: {MODEL_NAME}")
+
+    model = LanguageModel(MODEL_NAME, device_map="auto", dispatch=True)
+    tokenizer = model.tokenizer
+    n_layers_total = model.config.num_hidden_layers
+    hidden_dim = model.config.hidden_size
+
+    if layers is None:
+        layer_indices = list(range(n_layers_total))
+    else:
+        layer_indices = sorted(layers)
+
+    if display_progress:
+        print(f"  Layers: {len(layer_indices)}, Hidden dim: {hidden_dim}")
+
+    # Determine layer module path
+    layers_module = model.model.layers
+
+    # Build prompts and positions
+    prompts_and_positions = []
+    target_token_ids_per_prompt = [] if collect_predictions else None
+
+    for test in tests:
+        prompt = test.get("prompt", "")
+        if not prompt:
+            # Build prompt from components
+            if "joke_a_sentence" in test:
+                # 3-sentence format
+                A = fill_sentence(test["joke_a_sentence"],
+                    test["punny_words"][0] if test["type"] == "funny" else test["straight_words"][0])
+                B = fill_sentence(test["joke_b_sentence"],
+                    test["punny_words"][1] if test["type"] == "funny" and len(test.get("punny_words", [])) > 1
+                    else test["straight_words"][1] if len(test.get("straight_words", [])) > 1 else "")
+                C = truncate_before_blank(test["joke_c_sentence"])
+                prompt = f"{A} {B} {C}"
+            else:
+                prompt = test.get("prompt", "")
+
+        formatted = format_chat_prompt(tokenizer, prompt)
+        pos = find_pred_c_position(tokenizer, formatted, prompt)
+        prompts_and_positions.append((formatted, pos))
+
+        if collect_predictions:
+            # Get target token IDs for this prompt
+            target_words = []
+            pun_words = test.get("punny_words", test.get("expected_completion", []))
+            straight_words = test.get("straight_words", test.get("contrast_completion", []))
+            if isinstance(pun_words, str):
+                pun_words = [pun_words]
+            if isinstance(straight_words, str):
+                straight_words = [straight_words]
+
+            target_ids = []
+            for w in pun_words + straight_words:
+                tid = tokenizer.encode(" " + w, add_special_tokens=False)
+                if tid:
+                    target_ids.append(tid[0])
+            target_token_ids_per_prompt.append(target_ids)
+
+    # Prepare metadata
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    samples_meta = []
+    for i, test in enumerate(tests):
+        samples_meta.append({
+            "index": i,
+            "pair_id": test["pair_id"],
+            "type": test["type"],
+            "joke_c_sentence": test.get("joke_c_sentence", test.get("prompt", "")),
+        })
+
+    meta_out = {
+        "model": MODEL_NAME,
+        "dataset": dataset_path.name,
+        "position": position,
+        "n_prompts": n_prompts,
+        "n_layers_total": n_layers_total,
+        "hidden_dim": hidden_dim,
+        "naming": f"{file_prefix}_layer{{NN}}.npy",
+        "samples": samples_meta,
+    }
+
+    with open(meta_file, "w") as f:
+        json.dump(meta_out, f, indent=2)
+
+    if display_progress:
+        print(f"  Collecting {len(layer_indices)} layers × {n_prompts} prompts...")
+
+    # Run collection with progress
+    batch_size = 10
+    n_batches = (n_prompts + batch_size - 1) // batch_size
+
+    layer_data, detailed_raw = collect_batch(
+        model, layers_module, prompts_and_positions,
+        layer_indices=layer_indices,
+        batch_size=batch_size,
+        remote=True,
+        save_dir=OUTPUT_DIR,
+        file_prefix=file_prefix,
+        target_token_ids_per_prompt=target_token_ids_per_prompt,
+        top_k=20,
+    )
+
+    # Merge batch files into single layer files
+    if display_progress:
+        print("  Merging batch files...")
+
+    for layer_idx in layer_indices:
+        parts = []
+        for b in range(n_batches):
+            bf = OUTPUT_DIR / f"{file_prefix}_layer{layer_idx:02d}_batch{b:02d}.npy"
+            if bf.exists():
+                parts.append(np.load(bf))
+                bf.unlink()  # Remove batch file
+        if parts:
+            merged = np.concatenate(parts, axis=0)
+            np.save(OUTPUT_DIR / f"{file_prefix}_layer{layer_idx:02d}.npy", merged)
+
+    # Process detailed predictions if collected
+    if collect_predictions and detailed_raw:
+        if display_progress:
+            print("  Processing predictions...")
+
+        # Merge prediction batch files
+        all_preds = []
+        for b in range(n_batches):
+            pf = OUTPUT_DIR / f"{file_prefix}_preds_batch{b:02d}.json"
+            if pf.exists():
+                with open(pf) as f:
+                    all_preds.extend(json.load(f))
+                pf.unlink()
+
+        # Build detailed predictions JSON
+        detailed = []
+        for i, (test, raw) in enumerate(zip(tests, all_preds)):
+            pun_words = test.get("punny_words", test.get("expected_completion", []))
+            straight_words = test.get("straight_words", test.get("contrast_completion", []))
+            if isinstance(pun_words, str):
+                pun_words = [pun_words]
+            if isinstance(straight_words, str):
+                straight_words = [straight_words]
+
+            top_tokens = []
+            for tid, lp in zip(raw["topk_ids"], raw["topk_logprobs"]):
+                word = tokenizer.decode([tid]).strip()
+                top_tokens.append({
+                    "token_id": tid, "word": word,
+                    "logprob": round(lp, 4),
+                    "prob": round(float(np.exp(lp)), 6),
+                })
+
+            # Match target logprobs to words
+            pun_probs = {}
+            straight_probs = {}
+            all_target_words = pun_words + straight_words
+            for j, word in enumerate(all_target_words):
+                if j < len(raw["target_logprobs"]):
+                    lp = raw["target_logprobs"][j]
+                    tid = tokenizer.encode(" " + word, add_special_tokens=False)
+                    entry = {
+                        "token_id": tid[0] if tid else 0,
+                        "logprob": round(lp, 4),
+                        "prob": round(float(np.exp(lp)), 6),
+                    }
+                    if j < len(pun_words):
+                        pun_probs[word] = entry
+                    else:
+                        straight_probs[word] = entry
+
+            detailed.append({
+                "index": i,
+                "pair_id": test["pair_id"],
+                "type": test["type"],
+                "top_tokens": top_tokens,
+                "pun_word_probs": pun_probs,
+                "straight_word_probs": straight_probs,
+            })
+
+        with open(pred_file, "w") as f:
+            json.dump({
+                "model": MODEL_NAME,
+                "position": position,
+                "top_k": 20,
+                "n_prompts": len(detailed),
+                "results": detailed,
+            }, f, indent=2)
+
+    if display_progress:
+        print(f"  Done! Saved to {OUTPUT_DIR.name}/")
+
+    return {
+        "meta_file": meta_file,
+        "pred_file": pred_file if pred_file.exists() else None,
+        "already_existed": False,
+        "n_prompts": n_prompts,
+        "n_layers": len(layer_indices),
+    }
+
+
 if __name__ == "__main__":
     main()

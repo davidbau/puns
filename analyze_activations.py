@@ -13,6 +13,7 @@ API overview:
 
     Explicit-argument analysis (pedagogical — shows exactly what data is needed):
         mean_difference(X, is_group_a, is_group_b) → (hidden_dim,) direction
+        fisher_lda_direction(X, is_group_a, is_group_b, shrinkage) → (hidden_dim,) direction
         compute_fisher_separation(X, is_group_a, is_group_b) → float
         compute_cohens_d(X, is_group_a, is_group_b, direction) → float
 
@@ -128,6 +129,9 @@ def mean_difference(X, is_group_a, is_group_b):
     This is the simplest way to find a direction that separates two groups:
     just compute (mean_a - mean_b) and normalize to unit length.
 
+    Note: This direction doesn't account for within-class covariance. For a
+    covariance-corrected direction (Fisher LDA), use fisher_lda_direction().
+
     Parameters:
         X: (n_samples, hidden_dim) activation matrix
         is_group_a: boolean mask for group A (e.g., funny prompts)
@@ -142,6 +146,74 @@ def mean_difference(X, is_group_a, is_group_b):
     diff = mean_a - mean_b
     norm = np.linalg.norm(diff)
     return diff / norm if norm > 0 else diff
+
+
+def fisher_lda_direction(X, is_group_a, is_group_b, shrinkage=0.1):
+    """
+    Compute Fisher LDA direction (covariance-corrected mean difference).
+
+    This is the optimal linear discriminant direction for Gaussian-distributed
+    classes with equal covariance. It accounts for within-class covariance
+    structure, unlike the simple mean difference.
+
+    Formula: d = Σ_within^{-1} @ (mean_a - mean_b)
+
+    For high-dimensional data (hidden_dim >> n_samples), the covariance matrix
+    is singular. We use shrinkage regularization toward the identity matrix:
+        Σ_reg = (1 - shrinkage) * Σ_within + shrinkage * trace(Σ_within)/d * I
+
+    References:
+        - Marks et al., "Geometry of Truth" (2024)
+        - Fisher, "The Use of Multiple Measurements" (1936)
+
+    Parameters:
+        X: (n_samples, hidden_dim) activation matrix
+        is_group_a: boolean mask for group A (e.g., funny prompts)
+        is_group_b: boolean mask for group B (e.g., straight prompts)
+        shrinkage: regularization strength in [0, 1]. Default 0.1.
+            0 = no regularization (will fail if singular)
+            1 = ignore covariance entirely (equivalent to mean_difference)
+
+    Returns:
+        direction: (hidden_dim,) unit vector — the LDA direction
+    """
+    X = np.asarray(X, dtype=np.float64)  # higher precision for matrix inversion
+    X_a = X[is_group_a]
+    X_b = X[is_group_b]
+    n_a, n_b = X_a.shape[0], X_b.shape[0]
+    d = X.shape[1]
+
+    mean_a = X_a.mean(axis=0)
+    mean_b = X_b.mean(axis=0)
+    mean_diff = mean_a - mean_b
+
+    # Compute pooled within-class covariance
+    # Σ_within = (n_a * Cov_a + n_b * Cov_b) / (n_a + n_b)
+    X_a_centered = X_a - mean_a
+    X_b_centered = X_b - mean_b
+
+    # For efficiency with high-d, use the formula: Cov = X_centered.T @ X_centered / n
+    cov_a = (X_a_centered.T @ X_a_centered) / n_a
+    cov_b = (X_b_centered.T @ X_b_centered) / n_b
+    cov_within = (n_a * cov_a + n_b * cov_b) / (n_a + n_b)
+
+    # Shrinkage regularization toward scaled identity
+    trace_cov = np.trace(cov_within)
+    identity_scale = trace_cov / d if d > 0 else 1.0
+    cov_reg = (1 - shrinkage) * cov_within + shrinkage * identity_scale * np.eye(d)
+
+    # Solve for LDA direction: cov_reg @ direction = mean_diff
+    # This is more numerically stable than computing the inverse explicitly
+    try:
+        direction = np.linalg.solve(cov_reg, mean_diff)
+    except np.linalg.LinAlgError:
+        # Fall back to pseudo-inverse if still singular
+        direction = np.linalg.lstsq(cov_reg, mean_diff, rcond=None)[0]
+
+    # Normalize to unit length
+    direction = direction.astype(np.float32)
+    norm = np.linalg.norm(direction)
+    return direction / norm if norm > 0 else direction
 
 
 def compute_fisher_separation(X, is_group_a, is_group_b):
@@ -626,7 +698,8 @@ def stable_contrastive_projections(layer_data, meta, n_components=3):
 
 # ── Holdout analysis ─────────────────────────────────────────────────────────
 
-def holdout_analysis(layer_data, meta, n_splits=2, seed=42):
+def holdout_analysis(layer_data, meta, n_splits=2, seed=42, use_lda=False,
+                     shrinkage=0.1):
     """
     Split-half cross-validation of contrastive direction.
 
@@ -639,6 +712,10 @@ def holdout_analysis(layer_data, meta, n_splits=2, seed=42):
         meta: metadata dict
         n_splits: number of folds (default 2 for split-half)
         seed: random seed for reproducible splits
+        use_lda: if True, use Fisher LDA (covariance-corrected) direction
+            instead of simple mean difference. Default False.
+        shrinkage: regularization for LDA (only used if use_lda=True).
+            Default 0.1.
 
     Returns:
         dict with keys:
@@ -668,11 +745,20 @@ def holdout_analysis(layer_data, meta, n_splits=2, seed=42):
     cohens_d_full = np.zeros(n_layers)
     direction_angle = np.zeros(n_layers)
 
+    # Helper to compute direction (mean diff or LDA depending on use_lda flag)
+    def compute_direction(X_sub, meta_sub):
+        _, is_funny_sub, is_straight_sub = get_pair_indices(meta_sub)
+        if use_lda:
+            return fisher_lda_direction(X_sub, is_funny_sub, is_straight_sub,
+                                        shrinkage=shrinkage)
+        else:
+            return mean_difference(X_sub, is_funny_sub, is_straight_sub)
+
     for li, layer_idx in enumerate(indices):
         X = layer_data[layer_idx]
 
         # Full-data direction and Cohen's d
-        d_full = contrastive_direction(X, meta)
+        d_full = compute_direction(X, meta)
         cd_full = cohens_d(X, meta, direction=d_full)
         cohens_d_full[li] = cd_full
 
@@ -704,7 +790,7 @@ def holdout_analysis(layer_data, meta, n_splits=2, seed=42):
             X_train = X[train_indices]
 
             # Compute contrastive direction from training set
-            d_train = contrastive_direction(X_train, meta_train)
+            d_train = compute_direction(X_train, meta_train)
 
             # Evaluate on held-out pairs
             test_indices = []

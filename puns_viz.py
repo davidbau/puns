@@ -230,12 +230,15 @@ svg { display: block; width: 100%; height: 100%; }
       <input type="checkbox" id="showLabels">
       <label for="showLabels">Labels</label>
     </div>
+    <div class="checkbox-group">
+      <input type="checkbox" id="normalizeLayers">
+      <label for="normalizeLayers">Normalize layers</label>
+    </div>
   </div>
 
   <div class="legend">
     <div class="legend-item"><div class="legend-swatch" style="background:#4A90D9"></div> Straight context</div>
     <div class="legend-item"><div class="legend-swatch" style="background:#E85D75"></div> Funny context</div>
-    <div class="legend-item"><span class="legend-star" style="color:#f0c040">&#9733;</span> 2x+ pun boost</div>
     <div class="legend-item" style="color:#666; margin-left:auto;">Drag=rotate | Scroll/pinch=zoom | Shift-drag=pan</div>
   </div>
 </div>
@@ -269,6 +272,7 @@ const layerNum = document.getElementById("layerNum");
 const playBtn = document.getElementById("playBtn");
 const showLines = document.getElementById("showLines");
 const showLabels = document.getElementById("showLabels");
+const normalizeLayers = document.getElementById("normalizeLayers");
 const resetBtn = document.getElementById("resetBtn");
 const zoomInfoEl = document.getElementById("zoomInfo");
 const modelInfo = document.getElementById("modelInfo");
@@ -294,18 +298,39 @@ function rotMatrix(az, el) {
     ];
 }
 
-function project3D(pts, az, el, ranges) {
+function project3D(pts, az, el, ranges, perLayerNorm) {
     const R = rotMatrix(az, el);
     const n = pts.length;
     const out = new Array(n);
-    // Normalize to [-1, 1] using axis ranges
-    const cx = (ranges[0][0] + ranges[0][1]) / 2;
-    const cy = (ranges[1][0] + ranges[1][1]) / 2;
-    const cz = (ranges[2][0] + ranges[2][1]) / 2;
-    const sx = (ranges[0][1] - ranges[0][0]) / 2 || 1;
-    const sy = (ranges[1][1] - ranges[1][0]) / 2 || 1;
-    const sz = (ranges[2][1] - ranges[2][0]) / 2 || 1;
-    const scale = Math.max(sx, sy, sz);
+
+    let cx, cy, cz, scale;
+    if (perLayerNorm) {
+        // Per-layer normalization: compute ranges from this layer's data
+        let minX = Infinity, maxX = -Infinity;
+        let minY = Infinity, maxY = -Infinity;
+        let minZ = Infinity, maxZ = -Infinity;
+        for (let i = 0; i < n; i++) {
+            minX = Math.min(minX, pts[i][0]); maxX = Math.max(maxX, pts[i][0]);
+            minY = Math.min(minY, pts[i][1]); maxY = Math.max(maxY, pts[i][1]);
+            minZ = Math.min(minZ, pts[i][2]); maxZ = Math.max(maxZ, pts[i][2]);
+        }
+        cx = (minX + maxX) / 2;
+        cy = (minY + maxY) / 2;
+        cz = (minZ + maxZ) / 2;
+        const sx = (maxX - minX) / 2 || 1;
+        const sy = (maxY - minY) / 2 || 1;
+        const sz = (maxZ - minZ) / 2 || 1;
+        scale = Math.max(sx, sy, sz);
+    } else {
+        // Global normalization using precomputed axis ranges
+        cx = (ranges[0][0] + ranges[0][1]) / 2;
+        cy = (ranges[1][0] + ranges[1][1]) / 2;
+        cz = (ranges[2][0] + ranges[2][1]) / 2;
+        const sx = (ranges[0][1] - ranges[0][0]) / 2 || 1;
+        const sy = (ranges[1][1] - ranges[1][0]) / 2 || 1;
+        const sz = (ranges[2][1] - ranges[2][0]) / 2 || 1;
+        scale = Math.max(sx, sy, sz);
+    }
 
     const zf = zoom;
     for (let i = 0; i < n; i++) {
@@ -362,7 +387,8 @@ function render() {
 
     zoomInfoEl.textContent = zoom !== 1.0 ? (zoom.toFixed(1) + "x") : "";
 
-    const projected = project3D(pts3d, azimuth, elevation, DATA.axisRanges);
+    const perLayerNorm = normalizeLayers.checked;
+    const projected = project3D(pts3d, azimuth, elevation, DATA.axisRanges, perLayerNorm);
 
     // Depth sort (painter's algorithm: render far objects first)
     const sorted = projected.slice().sort((a, b) => a.depth - b.depth);
@@ -407,7 +433,7 @@ function render() {
         svg.appendChild(lineGroup);
     }
 
-    // Draw points
+    // Draw points (all circles, no stars)
     const pointGroup = svgEl("g", {});
     for (const p of sorted) {
         const pt = DATA.points[p.idx];
@@ -416,34 +442,18 @@ function render() {
         const alpha = isSelected ? 1.0 : 0.8;
         const baseR = isSelected ? 7 : 5;
 
-        if (pt.has_boost) {
-            const r = baseR * 1.6;
-            const star = svgEl("polygon", {
-                points: starPath(p.sx, p.sy, r),
-                fill: color,
-                stroke: isSelected ? "#333" : "#c08800",
-                "stroke-width": isSelected ? 2 : 1,
-                opacity: alpha,
-                "data-idx": p.idx
-            });
-            star.addEventListener("mouseenter", (e) => showTooltip(e, p.idx));
-            star.addEventListener("mouseleave", hideTooltip);
-            star.addEventListener("click", () => togglePair(pt.pair_id));
-            pointGroup.appendChild(star);
-        } else {
-            const circle = svgEl("circle", {
-                cx: p.sx.toFixed(1), cy: p.sy.toFixed(1), r: baseR,
-                fill: color,
-                stroke: isSelected ? "#333" : "rgba(0,0,0,0.15)",
-                "stroke-width": isSelected ? 2 : 0.5,
-                opacity: alpha,
-                "data-idx": p.idx
-            });
-            circle.addEventListener("mouseenter", (e) => showTooltip(e, p.idx));
-            circle.addEventListener("mouseleave", hideTooltip);
-            circle.addEventListener("click", () => togglePair(pt.pair_id));
-            pointGroup.appendChild(circle);
-        }
+        const circle = svgEl("circle", {
+            cx: p.sx.toFixed(1), cy: p.sy.toFixed(1), r: baseR,
+            fill: color,
+            stroke: isSelected ? "#333" : "rgba(0,0,0,0.15)",
+            "stroke-width": isSelected ? 2 : 0.5,
+            opacity: alpha,
+            "data-idx": p.idx
+        });
+        circle.addEventListener("mouseenter", (e) => showTooltip(e, p.idx));
+        circle.addEventListener("mouseleave", hideTooltip);
+        circle.addEventListener("click", () => togglePair(pt.pair_id));
+        pointGroup.appendChild(circle);
     }
     svg.appendChild(pointGroup);
 }
@@ -536,24 +546,24 @@ function showTooltip(event, idx) {
     const pts3d = DATA.layers[String(currentLayer)];
     const contrastVal = pts3d ? pts3d[idx][0].toFixed(2) : "?";
     const contextLabel = pt.type === "funny" ? "funny" : "straight";
-    const boostStr = pt.has_boost ?
-        '<span class="tt-boost">2x+ pun boost (' + pt.boost_ratio + 'x)</span>' :
-        'no significant boost (' + pt.boost_ratio + 'x)';
-    const pun_words = pt.pun_words.length ? pt.pun_words.join(", ") : "?";
+    const pun_words = pt.pun_words.length ? pt.pun_words.join(", ") : "";
     const straight_words = pt.straight_words.length ?
         pt.straight_words.slice(0, 4).join(", ") +
-        (pt.straight_words.length > 4 ? "..." : "") : "?";
+        (pt.straight_words.length > 4 ? "..." : "") : "";
     const pun_prob_str = pt.pun_prob !== null ? "P(pun)=" + pt.pun_prob : "";
     const top1_str = pt.top1 ? 'Top-1 predicted: "' + pt.top1 + '"' : "";
+
+    let detailLines = [];
+    if (pun_words) detailLines.push('Pun words: ' + pun_words + (pun_prob_str ? '  ' + pun_prob_str : ''));
+    if (straight_words) detailLines.push('Straight words: ' + straight_words);
+    if (top1_str) detailLines.push(top1_str);
 
     tooltip.innerHTML =
         '<div class="tt-title">Pair ' + pt.pair_id + ': ' +
             (DATA.pairLabels[String(pt.pair_id)] || "") + '</div>' +
-        '<div class="tt-context">' + contextLabel + ' | ' + boostStr + '</div>' +
+        '<div class="tt-context">' + contextLabel + '</div>' +
         '<div class="tt-sentence">"' + pt.sentence + '"</div>' +
-        '<div class="tt-detail">Pun words: ' + pun_words + '  ' + pun_prob_str + '</div>' +
-        '<div class="tt-detail">Straight words: ' + straight_words + '</div>' +
-        (top1_str ? '<div class="tt-detail">' + top1_str + '</div>' : '') +
+        detailLines.map(line => '<div class="tt-detail">' + line + '</div>').join('') +
         '<div class="tt-detail">Contrastive axis: ' + contrastVal +
             (parseFloat(contrastVal) > 0 ? ' (funny direction)' : ' (straight direction)') +
         '</div>';
@@ -776,6 +786,7 @@ playBtn.addEventListener("click", () => {
 // Checkboxes
 showLines.addEventListener("change", render);
 showLabels.addEventListener("change", render);
+normalizeLayers.addEventListener("change", render);
 
 // Reset view
 resetBtn.addEventListener("click", () => {
@@ -866,6 +877,111 @@ def make_layer_viz(meta_file, pred_file=None, width=900, height=700):
 
     html = layer_scatter_3d(proj_result, meta, detailed_preds, width, height)
     print(f"Generated HTML: {len(html)} bytes")
+    return html
+
+
+def make_holdout_viz(layer_data, meta, train_mask, width=900, height=700):
+    """
+    Create 3D visualization of holdout data using training direction.
+
+    Computes the contrastive direction from training samples, then projects
+    holdout samples onto axes derived from the training direction.
+
+    Parameters:
+        layer_data: dict {layer_idx: np.array (n_prompts, hidden_dim)}
+        meta: metadata dict
+        train_mask: boolean array (n_prompts,) - True for training samples
+        width: SVG width in pixels
+        height: SVG height in pixels
+
+    Returns:
+        HTML string with self-contained interactive visualization.
+    """
+    from analyze_activations import mean_difference
+
+    samples = meta["samples"]
+    holdout_mask = ~train_mask
+    layer_indices = sorted(layer_data.keys())
+
+    # Build holdout meta
+    holdout_indices = np.where(holdout_mask)[0]
+    holdout_samples = [samples[i] for i in holdout_indices]
+    holdout_meta = dict(meta, samples=holdout_samples, n_prompts=len(holdout_samples))
+
+    # Get group masks for training data
+    is_funny_train = np.array([samples[i]["type"] == "funny" for i in range(len(samples)) if train_mask[i]])
+    is_serious_train = ~is_funny_train
+    train_indices = np.where(train_mask)[0]
+
+    # Compute projections at each layer using TRAINING direction
+    projections = {}
+    var_ratios = {}
+
+    prev_d = None
+    prev_resid_components = None
+
+    for layer_idx in layer_indices:
+        X_full = layer_data[layer_idx]
+        X_train = X_full[train_mask]
+        X_holdout = X_full[holdout_mask]
+
+        # Compute direction from TRAINING data
+        d = mean_difference(X_train, is_funny_train, is_serious_train)
+
+        # Sign consistency
+        if prev_d is not None and np.dot(d, prev_d) < 0:
+            d = -d
+
+        # Project holdout onto training direction (axis 0)
+        X_holdout_centered = X_holdout - X_holdout.mean(axis=0)
+        proj_contrast = X_holdout_centered @ d
+
+        # Residual PCA for axes 1-2
+        X_resid = X_holdout_centered - np.outer(proj_contrast, d)
+        U_r, S_r, Vt_r = np.linalg.svd(X_resid, full_matrices=False)
+        resid_components = Vt_r[:2]
+        resid_proj = X_resid @ resid_components.T
+
+        # Procrustes alignment for residual axes
+        if prev_resid_components is not None:
+            M = prev_resid_components @ resid_components.T
+            U, _, Vt = np.linalg.svd(M)
+            R = U @ Vt
+            resid_components = R @ resid_components
+            resid_proj = resid_proj @ R.T
+
+        # Compute variance ratios
+        total_var = np.sum(X_holdout_centered ** 2)
+        v0 = np.sum(proj_contrast ** 2) / total_var
+        v1 = (S_r[0] ** 2) / total_var if len(S_r) > 0 else 0
+        v2 = (S_r[1] ** 2) / total_var if len(S_r) > 1 else 0
+
+        # Stack into 3D projection
+        X_proj = np.column_stack([proj_contrast, resid_proj])
+
+        projections[layer_idx] = X_proj
+        var_ratios[layer_idx] = np.array([v0, v1, v2])
+        prev_d = d
+        prev_resid_components = resid_components
+
+    # Compute global axis ranges
+    all_projs = np.concatenate(list(projections.values()), axis=0)
+    axis_ranges = []
+    for c in range(3):
+        lo = float(np.percentile(all_projs[:, c], 2))
+        hi = float(np.percentile(all_projs[:, c], 98))
+        mid = (lo + hi) / 2
+        half = max((hi - lo) / 2, 1.0)
+        axis_ranges.append((mid - half, mid + half))
+
+    proj_result = {
+        "projections": projections,
+        "var_ratios": var_ratios,
+        "axis_ranges": axis_ranges,
+    }
+
+    print(f"Generated holdout 3D projections: {len(holdout_samples)} samples, {len(layer_indices)} layers")
+    html = layer_scatter_3d(proj_result, holdout_meta, None, width, height)
     return html
 
 
