@@ -68,6 +68,9 @@ SYSTEM_PROMPT = (
     "nothing else — no punctuation, no explanation."
 )
 
+# ── Remote execution ──────────────────────────────────────────────────────────
+
+REMOTE = True
 
 # ── Prompt formatting ─────────────────────────────────────────────────────────
 
@@ -199,7 +202,7 @@ def compute_positions(tests, jokes_by_index, tokenizer, position_type):
 # ── Activation collection ─────────────────────────────────────────────────────
 
 def collect_batch(model, layers_module, prompts_and_positions,
-                  layer_indices=None, batch_size=10, remote=True,
+                  layer_indices=None, batch_size=10, remote=REMOTE,
                   save_dir=None, file_prefix="", batch_offset=0,
                   target_token_ids_per_prompt=None, top_k=20):
     """
@@ -279,8 +282,9 @@ def collect_batch(model, layers_module, prompts_and_positions,
                         for layer_idx in layer_indices:
                             out = layers_module[layer_idx].output
                             # Layer output is tuple (hidden_states, ...), access [0]
-                            hidden = out[0]
-                            layer_vecs.append(hidden[0, adjusted_pos, :].cpu())
+                            if isinstance(out, tuple):
+                                out = out[0]
+                            layer_vecs.append(out[0, adjusted_pos, :].cpu())
                         result["activations"] = torch.stack(layer_vecs)
 
                     # Predictions from the same forward pass
@@ -363,7 +367,7 @@ def collect_batch(model, layers_module, prompts_and_positions,
     return layer_data, all_detailed
 
 
-def collect_predictions(model, prompts_and_positions, batch_size=10, remote=True):
+def collect_predictions(model, prompts_and_positions, batch_size=10, remote=REMOTE):
     """
     Lightweight prediction pass: collect only the top-1 predicted token
     at each target position.  No layer activations — much smaller download.
@@ -408,7 +412,7 @@ def collect_predictions(model, prompts_and_positions, batch_size=10, remote=True
 
 def collect_detailed_predictions(model, prompts_and_positions,
                                  target_token_ids_per_prompt,
-                                 batch_size=10, remote=True, top_k=20):
+                                 batch_size=10, remote=REMOTE, top_k=20):
     """
     Collect top-k predictions and log-probabilities for specific target
     tokens at each position.  Lightweight — no layer activations.
@@ -754,7 +758,7 @@ def main():
     layer_data, detailed_raw = collect_batch(
         model, layers_module, remaining,
         layer_indices=needed_layers if collect_activations else None,
-        batch_size=args.batch_size, remote=True,
+        batch_size=args.batch_size, remote=REMOTE,
         save_dir=OUTPUT_DIR, file_prefix=file_prefix,
         batch_offset=existing_batches,
         target_token_ids_per_prompt=remaining_targets,
@@ -966,7 +970,7 @@ def ensure_activations(dataset_file, position="pred_c", layers=None,
     if display_progress:
         print(f"  Initializing model: {MODEL_NAME}")
 
-    model = LanguageModel(MODEL_NAME, device_map="auto", dispatch=True)
+    model = LanguageModel(MODEL_NAME, device_map="auto", dispatch=not REMOTE)
     tokenizer = model.tokenizer
     n_layers_total = model.config.num_hidden_layers
     hidden_dim = model.config.hidden_size
@@ -1060,7 +1064,7 @@ def ensure_activations(dataset_file, position="pred_c", layers=None,
         model, layers_module, prompts_and_positions,
         layer_indices=layer_indices,
         batch_size=batch_size,
-        remote=True,
+        remote=REMOTE,
         save_dir=OUTPUT_DIR,
         file_prefix=file_prefix,
         target_token_ids_per_prompt=target_token_ids_per_prompt,
